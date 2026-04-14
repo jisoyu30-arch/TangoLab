@@ -1,0 +1,305 @@
+[
+  {
+    "orchestra_id": "ORCH-001",
+    "orchestra_name": "Juan D'Arienzo y su Orquesta Típica",
+    "alt_names": [
+      "D'Arienzo",
+      "Juan D'Arienzo"
+    ],
+    "active_era": "1928-1976",
+    "style_tags": [
+      "rhythmic",
+      "marcato",
+      "compás",
+      "energetic",
+      "fast_tempo"
+    ],
+    "common_competition_use_notes": "Tango de Pista에서 가장 자주 사용되는 오케스트라 중 하나. 강한 리듬감과 명확한 비트가 사회적 탱고 경연에 적합. 'El Rey del Compás'(리듬의 왕)으로 불림. 1000곡 이상 녹음, 1000만장 이상 판매.",
+    "key_vocalists": [
+      "Alberto Echagüe",
+      "Héctor Mauré",
+      "Carlos Dante",
+      "Jorge Valdez",
+      "Armando Laborde",
+      "Mario Bustos"
+    ],
+    "representative_songs": [
+      "SONG-001",
+      "SONG-002",
+      "SONG-003",
+      "SONG-004",
+      "SONG-005"
+    ]
+  },
+  {
+    "orchestra_id": "ORCH-002",
+    "orchestra_name": "Carlos Di Sarli y su Orquesta Típica",
+    "alt_names": [
+      "Di Sarli",
+      "Carlos Di Sarli"
+    ],
+    "active_era": "1928-1959",
+    "style_tags": [
+      "elegant",
+      "melodic",
+      "lyrical",
+      "smooth",
+      "señorial"
+    ],
+    "common_competition_use_notes": "우아하고 멜로딕한 스타일. Tango de Pista에서 느린~중간 템포 론다에 자주 사용. 인스트루멘탈 버전이 특히 인기. '고양이 같은 부드러움'으로 유명. Bahía Blanca 고향 헌정곡이 대표작.",
+    "key_vocalists": [
+      "Roberto Rufino",
+      "Alberto Podestá",
+      "Jorge Durán",
+      "Oscar Serpa",
+      "Mario Pomar"
+    ],
+    "representative_songs": [
+      "SONG-006",
+      "SONG-007",
+      "SONG-008",
+      "SONG-009",
+      "SONG-010"
+    ]
+  },
+  {
+    "orchestra_id": "ORCH-003",
+    "orchestra_name": "Osvaldo Pugliese y su Orquesta Típica",
+    "alt_names": [
+      "Pugliese",
+      "Osvaldo Pugliese"
+    ],
+    "active_era": "1939-1995",
+    "style_tags": [
+      "dramatic",
+      "intense",
+      "rhythmic_complex",
+      "rubato",
+      "powerful"
+    ],
+    "common_competition_use_notes": "드라마틱하고 강렬한 스타일. Tango de Pista 결승 라운드에서 자주 등장. 복잡한 리듬 변화와 루바토가 고급 댄서에게 도전적. La Yumba 리듬(왼쪽-오른쪽 강약)이 특징적.",
+    "key_vocalists": [
+      "Roberto Chanel",
+      "Alberto Morán",
+      "Jorge Maciel",
+      "Miguel Montero",
+      "Abel Córdoba"
+    ],
+    "representative_songs": [
+      "SONG-011",
+      "SONG-012",
+      "SONG-013",
+      "SONG-014"
+    ]
+  },
+  {
+    "orchestra_id": "ORCH-004",
+    "orchestra_name": "Ricardo Tanturi y su Orquesta Típica",
+    "alt_names": [
+      "Tanturi",
+      "Ricardo Tanturi"
+    ],
+    "active_era": "1937-1959",
+    "style_tags": [
+      "expressive",
+      "vocal_focused",
+      "emotional",
+      "clear_rhythm"
+    ],
+    "common_competition_use_notes": "Alberto Castillo와의 조합이 특히 유명. 밀롱가와 탱고 모두에서 사용됨. 보컬 중심의 표현적 스타일로 감정 전달력이 뛰어남.",
+    "key_vocalists": [
+      "Alberto Castillo",
+      "Enrique Campos"
+    ],
+    "representative_songs": [
+      "SONG-015",
+      "SONG-016",
+      "SONG-017"
+    ]
+  },
+  {
+    "orchestra_id": "ORCH-005",
+    "orchestra_name": "Aníbal Troilo y su Orquesta Típica",
+    "alt_names": [
+      "Troilo",
+      "Aníbal Troilo",
+      "Pichuco"
+    ],
+    "active_era": "1937-1975",
+    "style_tags": [
+      "lyrical",
+      "emotional",
+      "bandoneon_virtuoso",
+      "balanced",
+      "nuanced"
+    ],
+    "common_competition_use_notes": "밴도네온 거장. 서정적이면서도 리듬감 있는 균형 잡힌 스타일. Tango de Pista 중간~느린 론다에 적합. D'Arienzo Cup에서 공식 사용 오케스트라 중 하나.",
+    "key_vocalists": [
+      "Francisco Fiorentino",
+      "Alberto Marino",
+      "Floreal Ruiz",
+      "Edmundo Rivero",
+      "Roberto Goyeneche"
+    ],
+    "representative_songs": [
+      "SONG-018",
+      "SONG-019",
+      "SONG-020"
+    ]
+  },
+  {
+    "orchestra_id": "ORCH-006",
+    "orchestra_name": "Pedro Laurenz y su Orquesta Típica",
+    "alt_names": [
+      "Laurenz",
+      "Pedro Laurenz"
+    ],
+    "active_era": "1934-1959",
+    "style_tags": [
+      "lyrical",
+      "bandoneon_virtuoso",
+      "elegant",
+      "expressive"
+    ],
+    "common_competition_use_notes": "밴도네온 거장. 서정적이고 표현력 풍부한 스타일. 2024 Mundial Final Pista R1에서 사용 확인.",
+    "key_vocalists": [
+      "Alberto Podestá",
+      "Jorge Linares",
+      "Héctor Farrel",
+      "Martin Podesta"
+    ],
+    "representative_songs": [
+      "SONG-021"
+    ]
+  },
+  {
+    "orchestra_id": "ORCH-007",
+    "orchestra_name": "Miguel Caló y su Orquesta Típica",
+    "alt_names": [
+      "Caló",
+      "Miguel Caló"
+    ],
+    "active_era": "1934-1972",
+    "style_tags": [
+      "lyrical",
+      "romantic",
+      "elegant",
+      "smooth"
+    ],
+    "common_competition_use_notes": "서정적이고 로맨틱한 스타일. Alberto Podestá와의 조합이 유명. 2024 Mundial Final Pista R3에서 사용 확인.",
+    "key_vocalists": [
+      "Alberto Podestá",
+      "Raúl Berón",
+      "Raúl Iriarte",
+      "Roberto Arrieta",
+      "Luis Correa"
+    ],
+    "representative_songs": [
+      "SONG-026"
+    ]
+  },
+  {
+    "orchestra_id": "ORCH-008",
+    "orchestra_name": "Ángel D'Agostino y su Orquesta Típica",
+    "alt_names": [
+      "D'Agostino",
+      "Angel D'Agostino"
+    ],
+    "active_era": "1940-1958",
+    "style_tags": [
+      "simple",
+      "rhythmic",
+      "vocal_focused",
+      "accessible"
+    ],
+    "common_competition_use_notes": "심플하고 접근성 좋은 스타일. Ángel Vargas와의 조합이 유명. 2019 Mundial Final Pista R4에서 사용 확인.",
+    "key_vocalists": [
+      "Ángel Vargas"
+    ],
+    "representative_songs": []
+  },
+  {
+    "orchestra_id": "ORCH-009",
+    "orchestra_name": "Rodolfo Biagi y su Orquesta Típica",
+    "alt_names": ["Biagi", "Rodolfo Biagi"],
+    "active_era": "1938-1969",
+    "style_tags": ["rhythmic", "staccato", "energetic", "fast_tempo", "marcato"],
+    "common_competition_use_notes": "D'Arienzo 오케스트라에서 피아니스트로 활동 후 독립. 매우 빠르고 날카로운 리듬이 특징. 스타카토 피아노가 트레이드마크. 밀롱가에서 특히 인기. 대회에서는 에너지 넘치는 론다에 사용되며, 빠른 반응과 정확한 스텝이 요구됨.",
+    "key_vocalists": ["Jorge Ortiz", "Hugo Duval", "Carlos Acuña", "Alberto Amor"],
+    "representative_songs": [
+      "SONG-060"
+    ]
+  },
+  {
+    "orchestra_id": "ORCH-011",
+    "orchestra_name": "Osvaldo Fresedo y su Orquesta Típica",
+    "alt_names": ["Fresedo", "Osvaldo Fresedo"],
+    "active_era": "1925-1980",
+    "style_tags": ["elegant", "refined", "melodic", "smooth", "romantic"],
+    "common_competition_use_notes": "탱고의 귀족으로 불림. 세련되고 우아한 사운드가 특징. 바이올린 멜로디 라인이 아름다우며, 느리고 감성적인 춤에 적합. 발스와 탱고 모두에서 사용. 대회에서는 우아한 카미나타와 뮤지칼리티를 보여주기 좋은 오케스트라.",
+    "key_vocalists": ["Roberto Ray", "Oscar Serpa", "Ricardo Ruiz", "Héctor Pacheco"],
+    "representative_songs": [
+      "SONG-108"
+    ]
+  },
+  {
+    "orchestra_id": "ORCH-014",
+    "orchestra_name": "Edgardo Donato y su Orquesta Típica",
+    "alt_names": ["Donato", "Edgardo Donato"],
+    "active_era": "1930-1942",
+    "style_tags": ["rhythmic", "playful", "milonga", "energetic", "accessible"],
+    "common_competition_use_notes": "밀롱가와 발스에서 특히 뛰어난 오케스트라. 밝고 경쾌한 리듬이 특징. El Acomodo, Se Va la Vida 등이 밀롱가에서 자주 사용됨. 대회에서는 밀롱가 카테고리에서 주로 등장. 1942년 교통사고로 요절.",
+    "key_vocalists": ["Horacio Lagos", "Romeo Gavioli", "Lita Morales", "Felix Gutiérrez"],
+    "representative_songs": [
+      "SONG-128"
+    ]
+  },
+  {
+    "orchestra_id": "ORCH-013",
+    "orchestra_name": "Enrique Rodríguez y su Orquesta Típica",
+    "alt_names": ["Rodríguez", "Enrique Rodríguez"],
+    "active_era": "1936-1971",
+    "style_tags": ["simple", "rhythmic", "accessible", "vocal_focused", "cheerful"],
+    "common_competition_use_notes": "심플하고 접근성 좋은 스타일. 명확한 리듬과 가벼운 분위기가 특징. 밀롱가에서 자주 사용됨. Armando Moreno와의 조합이 유명. 대회에서는 기본기를 깔끔하게 보여주기 좋은 오케스트라.",
+    "key_vocalists": ["Armando Moreno", "Roberto Flores", "Ricardo Herrera"],
+    "representative_songs": [
+      "SONG-129"
+    ]
+  },
+  {
+    "orchestra_id": "ORCH-010",
+    "orchestra_name": "Francisco Canaro y su Orquesta Típica",
+    "alt_names": ["Canaro", "Francisco Canaro"],
+    "active_era": "1916-1964",
+    "style_tags": ["traditional", "rhythmic", "milonga", "accessible", "varied"],
+    "common_competition_use_notes": "탱고 역사상 가장 많이 녹음한 오케스트라 (약 3,500곡). 우루과이 출신으로 밀롱가와 발스에서 독보적. 밀롱가 장르를 대중화시킨 선구자. 대회에서는 밀롱가 카테고리에 빈번하게 등장. 시대별로 스타일이 다양하게 변화.",
+    "key_vocalists": ["Roberto Maida", "Ernesto Famá", "Carlos Roldán", "Eduardo Adrián", "Nelly Omar"],
+    "representative_songs": [
+      "SONG-149"
+    ]
+  },
+  {
+    "orchestra_id": "ORCH-015",
+    "orchestra_name": "Lucio Demare y su Orquesta Típica",
+    "alt_names": ["Demare", "Lucio Demare"],
+    "active_era": "1938-1974",
+    "style_tags": ["lyrical", "romantic", "melodic", "emotional", "elegant"],
+    "common_competition_use_notes": "뛰어난 작곡가이자 피아니스트. Malena(1942)은 탱고 역사상 가장 유명한 곡 중 하나. 서정적이고 감성적인 스타일. 보컬 중심의 곡이 많으며, Juan Carlos Miranda와의 조합이 유명. 대회에서는 감정 표현력을 보여주기 좋은 오케스트라.",
+    "key_vocalists": ["Juan Carlos Miranda", "Raúl Berón", "Horacio Quintana"],
+    "representative_songs": [
+      "SONG-163"
+    ]
+  },
+  {
+    "orchestra_id": "ORCH-016",
+    "orchestra_name": "Alfredo Gobbi y su Orquesta Típica",
+    "alt_names": ["Gobbi", "Alfredo Gobbi"],
+    "active_era": "1942-1965",
+    "style_tags": ["dramatic", "intense", "lyrical", "emotional", "expressive"],
+    "common_competition_use_notes": "뛰어난 바이올리니스트. 드라마틱하면서도 서정적인 스타일이 특징. Pugliese와 유사한 드라마틱함을 가지지만 더 바이올린 중심적. Orlando Goñi(피아니스트)와의 만남이 스타일 형성에 결정적. 대회에서는 음악적 해석력을 보여줄 수 있는 곡들이 많음.",
+    "key_vocalists": ["Jorge Maciel", "Carlos Guzmán", "Alfredo Del Río"],
+    "representative_songs": [
+      "SONG-277"
+    ]
+  }
+]

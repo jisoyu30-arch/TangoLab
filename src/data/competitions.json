@@ -1,0 +1,129 @@
+[
+  {
+    "competition_id": "COMP-001",
+    "competition_name": "Tango Buenos Aires Festival y Mundial",
+    "alt_names": [
+      "Mundial de Tango",
+      "World Tango Championship",
+      "Campeonato Mundial de Baile de Tango"
+    ],
+    "organizer": "Gobierno de la Ciudad de Buenos Aires",
+    "country": "Argentina",
+    "city": "Buenos Aires",
+    "official_status": "official",
+    "category_system": {
+      "tango_de_pista": {
+        "description": "조직위 선곡. 그룹 경연. 3~4곡 per round. 사회적 탱고 스타일 평가",
+        "music_selection": "organization",
+        "format": "group_competition",
+        "songs_per_round": "3-4"
+      },
+      "tango_escenario": {
+        "description": "커플 선택곡. 개인 경연. 1곡 per performance. 무대 탱고 스타일 평가",
+        "music_selection": "couple_choice",
+        "format": "individual_performance",
+        "songs_per_round": "1"
+      }
+    },
+    "years_active": "2003-present",
+    "venue_recent": "Movistar Arena (finals), Usina del Arte",
+    "notes": "세계 최대 탱고 대회. 매년 8~9월 개최. 750+ 커플 참가 (2024)"
+  },
+  {
+    "competition_id": "COMP-002",
+    "competition_name": "Campeonato de Baile de la Ciudad",
+    "alt_names": [
+      "Buenos Aires City Dance Championship"
+    ],
+    "organizer": "Gobierno de la Ciudad de Buenos Aires",
+    "country": "Argentina",
+    "city": "Buenos Aires",
+    "official_status": "official",
+    "category_system": {
+      "tango_de_pista": {
+        "music_selection": "organization",
+        "format": "group_competition"
+      },
+      "tango_escenario": {
+        "music_selection": "couple_choice",
+        "format": "individual_performance"
+      }
+    },
+    "notes": "부에노스아이레스 시 대회. Mundial 예선 역할도 함"
+  },
+  {
+    "competition_id": "COMP-003",
+    "competition_name": "Official Preliminaries (Internacional)",
+    "alt_names": [
+      "Preliminares Oficiales",
+      "Clasificatorias Oficiales"
+    ],
+    "organizer": "Various (BA Government authorized)",
+    "country": "Various",
+    "city": "Various",
+    "official_status": "official",
+    "category_system": {
+      "tango_de_pista": {
+        "music_selection": "organization",
+        "format": "group_competition",
+        "songs_per_round": "3-4"
+      },
+      "tango_escenario": {
+        "music_selection": "couple_choice",
+        "format": "individual_performance"
+      }
+    },
+    "notes": "전 세계 공식 예선. 최소 10커플 필요. 통과 시 Mundial 본선 진출"
+  },
+  {
+    "competition_id": "COMP-004",
+    "competition_name": "Pacific Tango Championship (PTC)",
+    "alt_names": [
+      "PTC"
+    ],
+    "organizer": "Pacific Tango Organization",
+    "country": "Korea",
+    "city": "Various",
+    "official_status": "semi-official",
+    "category_system": {
+      "tango_de_pista": {
+        "music_selection": "organization",
+        "format": "group_competition"
+      },
+      "tango_escenario": {
+        "music_selection": "couple_choice",
+        "format": "individual_performance"
+      }
+    },
+    "notes": "한국에서 개최되는 태평양 지역 탱고 챔피언십. Mundial 공식 예선은 아니지만 아시아 최대 대회 중 하나."
+  },
+  {
+    "competition_id": "COMP-005",
+    "competition_name": "Korea Tango Championship (KTC)",
+    "alt_names": [
+      "KTC",
+      "Korea Tango Cooperative Championship"
+    ],
+    "organizer": "Korea Tango Cooperative",
+    "country": "Korea",
+    "city": "Various",
+    "official_status": "semi-official",
+    "category_system": {
+      "tango_de_pista": {
+        "music_selection": "organization",
+        "format": "group_competition"
+      },
+      "singles": {
+        "music_selection": "organization",
+        "format": "group_competition",
+        "description": "솔로 부문"
+      },
+      "new_star": {
+        "music_selection": "organization",
+        "format": "group_competition",
+        "description": "신인 부문"
+      }
+    },
+    "notes": "Korea Tango Cooperative 주관 한국 탱고 챔피언십. Pista, Singles, New Star, Jack&Jill 등 다양한 부문."
+  }
+]

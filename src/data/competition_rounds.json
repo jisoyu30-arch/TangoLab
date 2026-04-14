@@ -1,0 +1,1959 @@
+{
+  "rounds": [
+    {
+      "round_id": "R-KTC2026-MILONGA-Q1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "milonga",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-435",
+          "title": "Mano a Mano",
+          "orchestra": "Carlos Gardel",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-436",
+          "title": "Que Tiempo Aquel",
+          "orchestra": "Francisco Lomuto y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-437",
+          "title": "Maldonado",
+          "orchestra": "Pedro Laurenz y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "pIh9M55ZUP0",
+          "url": "https://www.youtube.com/watch?v=pIh9M55ZUP0",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Milonga Qualifiers 1 Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-MILONGA-Q3",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "milonga",
+      "stage": "qualifying",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-432",
+          "title": "El firulete",
+          "orchestra": "Francisco Canaro y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-433",
+          "title": "Varon",
+          "orchestra": "Francisco Lomuto y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-434",
+          "title": "De antano",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "eVyrUU4trCk",
+          "url": "https://www.youtube.com/watch?v=eVyrUU4trCk",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Milonga Qualifiers 3 Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-MILONGA-Q4",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "milonga",
+      "stage": "qualifying",
+      "ronda_number": 4,
+      "songs": [
+        {
+          "song_id": "SONG-430",
+          "title": "Picante",
+          "orchestra": "Rodolfo Biagi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-431",
+          "title": "Zorzal",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 2
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "6fb5GybXzfM",
+          "url": "https://www.youtube.com/watch?v=6fb5GybXzfM",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Milonga Qualifiers 4 Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-MILONGA-SF1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "milonga",
+      "stage": "semifinal",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-392",
+          "title": "La Milonga Que Faltaba",
+          "orchestra": "Edgardo Donato y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-393",
+          "title": "Tangled Up",
+          "orchestra": "Caro Emerald",
+          "order": 2
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "hmyWixhkU9M",
+          "url": "https://www.youtube.com/watch?v=hmyWixhkU9M",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Milonga Semi Final 1 Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-MILONGA-SF2",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "milonga",
+      "stage": "semifinal",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-389",
+          "title": "Campo Afuera",
+          "orchestra": "Edgardo Donato y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-390",
+          "title": "Milonga Compadre",
+          "orchestra": "Pedro Laurenz y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-391",
+          "title": "Con Toda la Voz Que Tengo",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "8Y_iDwf_Hhc",
+          "url": "https://www.youtube.com/watch?v=8Y_iDwf_Hhc",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Milonga Semi Final 2 Ronda"
+        },
+        {
+          "video_id": "rocyjJS-z_A",
+          "url": "https://www.youtube.com/watch?v=rocyjJS-z_A",
+          "channel": "한선우",
+          "title": "Milonga Semi-Final - 2026 Korea Tango Championship"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-MILONGA-F",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "milonga",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-441",
+          "title": "El Porteñito",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 1
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "KgLV-7bABG8",
+          "url": "https://www.youtube.com/watch?v=KgLV-7bABG8",
+          "channel": "Korea Tango Cooperative",
+          "title": "2026 Korea Tango Championship Milonga Final Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-PISTA-Q1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-409",
+          "title": "Don Jose Maria",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-410",
+          "title": "Marol",
+          "orchestra": "Rodolfo Biagi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-411",
+          "title": "Vieja Amiga",
+          "orchestra": "Pedro Laurenz y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "bxph0ySmSto",
+          "url": "https://www.youtube.com/watch?v=bxph0ySmSto",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Tango de Pista Qualifiers 1 Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-PISTA-Q2",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-146",
+          "title": "Seamos Amigos",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-295",
+          "title": "Todo",
+          "orchestra": "Pedro Laurenz y su Orquesta Típica",
+          "order": 2
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "FpuAc_mLc_U",
+          "url": "https://www.youtube.com/watch?v=FpuAc_mLc_U",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Tango de Pista Qualifiers 2 Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-PISTA-Q3",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-407",
+          "title": "Tormenta",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-205",
+          "title": "El Acomodo",
+          "orchestra": "Edgardo Donato y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-408",
+          "title": "Domingo a la Noche",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "Bwl31IckssQ",
+          "url": "https://www.youtube.com/watch?v=Bwl31IckssQ",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Tango de Pista Qualifiers 3 Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-PISTA-Q4",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 4,
+      "songs": [
+        {
+          "song_id": "SONG-405",
+          "title": "Torrente",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-406",
+          "title": "El Bazar de los Juguetes",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 2
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "vokE9WkcNwk",
+          "url": "https://www.youtube.com/watch?v=vokE9WkcNwk",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Tango de Pista Qualifiers 4 Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-PISTA-Q5",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 5,
+      "songs": [
+        {
+          "song_id": "SONG-403",
+          "title": "Lucienne",
+          "orchestra": "Rodolfo Biagi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-134",
+          "title": "Yuyo verde",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-404",
+          "title": "La Cantina",
+          "orchestra": "Pedro Laurenz y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "hmjKTp4Px9U",
+          "url": "https://www.youtube.com/watch?v=hmjKTp4Px9U",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Tango de Pista Qualifiers 5 Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-PISTA-Q6",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 6,
+      "songs": [
+        {
+          "song_id": "SONG-328",
+          "title": "El Distinguido Ciudadano",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-402",
+          "title": "Fraternal",
+          "orchestra": "Alfredo Gobbi y su Orquesta Típica",
+          "order": 2
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "4AXJA5tCwyQ",
+          "url": "https://www.youtube.com/watch?v=4AXJA5tCwyQ",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Tango de Pista Qualifiers 6 Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-PISTA-Q7",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 7,
+      "songs": [
+        {
+          "song_id": "SONG-015",
+          "title": "Así Se Baila el Tango",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-401",
+          "title": "Tierra Querida",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-020",
+          "title": "Garúa",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "i0BFGT-bTdU",
+          "url": "https://www.youtube.com/watch?v=i0BFGT-bTdU",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Tango de Pista Qualifiers 7 Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-PISTA-Q8",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 8,
+      "songs": [
+        {
+          "song_id": "SONG-399",
+          "title": "Cada Día Te Extraño Mas",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-400",
+          "title": "Por Qué Me Das Dique",
+          "orchestra": "Alfredo De Angelis y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-169",
+          "title": "Como se pianta la vida",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "BwfVU5Jxt1s",
+          "url": "https://www.youtube.com/watch?v=BwfVU5Jxt1s",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Tango de Pista Qualifiers 8 Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-PISTA-Q9",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 9,
+      "songs": [
+        {
+          "song_id": "SONG-162",
+          "title": "La Morocha",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-013",
+          "title": "Recuerdo",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-291",
+          "title": "Canta Pajarito",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "_MLhRbqYtJ4",
+          "url": "https://www.youtube.com/watch?v=_MLhRbqYtJ4",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Tango de Pista Qualifiers 9 Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-PISTA-SF1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-174",
+          "title": "El arranque",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-226",
+          "title": "El Cuarteador",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-393",
+          "title": "Tangled Up",
+          "orchestra": "Caro Emerald",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "S7wJr1MjZWA",
+          "url": "https://www.youtube.com/watch?v=S7wJr1MjZWA",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Tango de Pista Semi Final 1 Ronda"
+        },
+        {
+          "video_id": "CP-UvTyst_E",
+          "url": "https://www.youtube.com/watch?v=CP-UvTyst_E",
+          "channel": "한선우",
+          "title": "Pista Semi-Final - 2026 Korea Tango Championship"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-PISTA-SF2",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-319",
+          "title": "Mas alla",
+          "orchestra": "Osvaldo Fresedo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-369",
+          "title": "Y Mientes Todavía",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-025",
+          "title": "El Puntazo",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "qSuEBEQscX4",
+          "url": "https://www.youtube.com/watch?v=qSuEBEQscX4",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Tango de Pista Semi Final 2 Ronda"
+        },
+        {
+          "video_id": "CP-UvTyst_E",
+          "url": "https://www.youtube.com/watch?v=CP-UvTyst_E",
+          "channel": "한선우",
+          "title": "Pista Semi-Final - 2026 Korea Tango Championship"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-PISTA-SF3",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-370",
+          "title": "Una Vez",
+          "orchestra": null,
+          "order": 1
+        },
+        {
+          "song_id": "SONG-060",
+          "title": "Pura Clase",
+          "orchestra": "Rodolfo Biagi y su Orquesta Típica",
+          "order": 2
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "XWi_EHtGsXg",
+          "url": "https://www.youtube.com/watch?v=XWi_EHtGsXg",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Tango de Pista Semi Final 3 Ronda"
+        },
+        {
+          "video_id": "CP-UvTyst_E",
+          "url": "https://www.youtube.com/watch?v=CP-UvTyst_E",
+          "channel": "한선우",
+          "title": "Pista Semi-Final - 2026 Korea Tango Championship"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-PISTA-SF4",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 4,
+      "songs": [
+        {
+          "song_id": "SONG-213",
+          "title": "Tristeza Marina",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-397",
+          "title": "Mala Junta",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-398",
+          "title": "Este Es el Rey",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "01BkPRD2Dcw",
+          "url": "https://www.youtube.com/watch?v=01BkPRD2Dcw",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Tango de Pista Semi Final 4 Ronda"
+        },
+        {
+          "video_id": "CP-UvTyst_E",
+          "url": "https://www.youtube.com/watch?v=CP-UvTyst_E",
+          "channel": "한선우",
+          "title": "Pista Semi-Final - 2026 Korea Tango Championship"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-PISTA-SF5",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 5,
+      "songs": [
+        {
+          "song_id": "SONG-394",
+          "title": "Madame Ivonne",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-395",
+          "title": "La Mentirosa",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-396",
+          "title": "Cielo",
+          "orchestra": "Rodolfo Biagi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "0HhgN7ixHzo",
+          "url": "https://www.youtube.com/watch?v=0HhgN7ixHzo",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Tango de Pista Semi Final 5 Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-PISTA-F",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-093",
+          "title": "Adios Te Vas",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-371",
+          "title": "Negracha",
+          "orchestra": null,
+          "order": 2
+        },
+        {
+          "song_id": "SONG-030",
+          "title": "Paciencia",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "Ls-I7HnVulw",
+          "url": "https://www.youtube.com/watch?v=Ls-I7HnVulw",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Tango de Pista Final Ronda"
+        },
+        {
+          "video_id": "xiK7bk3N5RE",
+          "url": "https://www.youtube.com/watch?v=xiK7bk3N5RE",
+          "channel": "Korea Tango Cooperative",
+          "title": "2026 Korea Tango Championship Tango de Pista Final Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-PISTA-NEWSTAR-SF1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "pista_newstar",
+      "stage": "semifinal",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-428",
+          "title": "El Abrojo",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-429",
+          "title": "La Payanca",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "K4ortKzc8fw",
+          "url": "https://www.youtube.com/watch?v=K4ortKzc8fw",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | New Star: Semi-final 1 Ronda"
+        },
+        {
+          "video_id": "-Cdxdk6lmeU",
+          "url": "https://www.youtube.com/watch?v=-Cdxdk6lmeU",
+          "channel": "한선우",
+          "title": "New Star Semi-Final - 2026 Korea Tango Championship"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-PISTA-NEWSTAR-SF2",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "pista_newstar",
+      "stage": "semifinal",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-427",
+          "title": "Para Dos",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-212",
+          "title": "La Marca de Fuego",
+          "orchestra": "Rodolfo Biagi y su Orquesta Típica",
+          "order": 2
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "A1c2gOBlI7I",
+          "url": "https://www.youtube.com/watch?v=A1c2gOBlI7I",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | New Star: Semi-final 2 Ronda"
+        },
+        {
+          "video_id": "-Cdxdk6lmeU",
+          "url": "https://www.youtube.com/watch?v=-Cdxdk6lmeU",
+          "channel": "한선우",
+          "title": "New Star Semi-Final - 2026 Korea Tango Championship"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-PISTA-NEWSTAR-F",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "pista_newstar",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-072",
+          "title": "Chique",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-265",
+          "title": "Tristezas de la Calle Corrientes",
+          "orchestra": "Caló",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-057",
+          "title": "El Olivo",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "0TgE1MFikac",
+          "url": "https://www.youtube.com/watch?v=0TgE1MFikac",
+          "channel": "Korea Tango Cooperative",
+          "title": "2026 Korea Tango Championship New Star Tango Final Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-PISTA-SENIOR-F",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "pista_senior",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-171",
+          "title": "Necesito Olvidar",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-012",
+          "title": "Gallo Ciego",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-386",
+          "title": "Nueve del Julio",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "FC_PFPz2FXg",
+          "url": "https://www.youtube.com/watch?v=FC_PFPz2FXg",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Senior Tango de Pista Final Ronda"
+        },
+        {
+          "video_id": "9VBMOjadYf0",
+          "url": "https://www.youtube.com/watch?v=9VBMOjadYf0",
+          "channel": "Korea Tango Cooperative",
+          "title": "2026 Korea Tango Championship Senior Tango Final Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-PISTA-SINGLES-GENERAL-F",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "pista_singles_general",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-200",
+          "title": "El Ingeniero",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-134",
+          "title": "Yuyo verde",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-276",
+          "title": "Dime mi amor",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "IbMZnJF44nk",
+          "url": "https://www.youtube.com/watch?v=IbMZnJF44nk",
+          "channel": "Korea Tango Cooperative",
+          "title": "2026 Korea Tango Championship Singles General Final Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-PISTA-SINGLES-NEWSTAR-F",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "pista_singles_newstar",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-388",
+          "title": "El Encopao",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-123",
+          "title": "Humillacion",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-043",
+          "title": "Qué Bien Te Queda",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "tGI4je45cK8",
+          "url": "https://www.youtube.com/watch?v=tGI4je45cK8",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Singles New Star Final Ronda"
+        },
+        {
+          "video_id": "L-jPbsmNutA",
+          "url": "https://www.youtube.com/watch?v=L-jPbsmNutA",
+          "channel": "Korea Tango Cooperative",
+          "title": "2026 Korea Tango Championship Singles New Star Final Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-PISTA-SINGLES-SENIOR-F",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "pista_singles_senior",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-039",
+          "title": "Una Fija",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-183",
+          "title": "El Monito",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "xfnv3a3Eyg0",
+          "url": "https://www.youtube.com/watch?v=xfnv3a3Eyg0",
+          "channel": "Korea Tango Cooperative",
+          "title": "2026 Korea Tango Championship Singles Senior Final Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-VALS-Q1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "vals",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-425",
+          "title": "A Mi Madre",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-426",
+          "title": "Dichas que viví",
+          "orchestra": "Rodolfo Biagi y su Orquesta Típica",
+          "order": 2
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "vK1-lXlO7tg",
+          "url": "https://www.youtube.com/watch?v=vK1-lXlO7tg",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Vals Qualifiers 1 Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-VALS-Q2",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "vals",
+      "stage": "qualifying",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-422",
+          "title": "Al Pasar",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-423",
+          "title": "Flores del alma",
+          "orchestra": "Alfredo De Angelis y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-424",
+          "title": "Loca De Amor",
+          "orchestra": "Rodolfo Biagi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "ic1y7LTqaKk",
+          "url": "https://www.youtube.com/watch?v=ic1y7LTqaKk",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Vals Qualifiers 2 Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-VALS-Q3",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "vals",
+      "stage": "qualifying",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-419",
+          "title": "No Nos Veremos Mas",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-420",
+          "title": "Caserón de Tejas",
+          "orchestra": "Pedro Laurenz y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-421",
+          "title": "Recuerdos de la pampa",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "FBzTu7HXZWA",
+          "url": "https://www.youtube.com/watch?v=FBzTu7HXZWA",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Vals Qualifiers 3 Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-VALS-Q4",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "vals",
+      "stage": "qualifying",
+      "ronda_number": 4,
+      "songs": [
+        {
+          "song_id": "SONG-417",
+          "title": "Qué Me Pasará",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-418",
+          "title": "Flor del mal",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "6nGp_mWl7GU",
+          "url": "https://www.youtube.com/watch?v=6nGp_mWl7GU",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Vals Qualifiers 4 Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-VALS-Q5",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "vals",
+      "stage": "qualifying",
+      "ronda_number": 5,
+      "songs": [
+        {
+          "song_id": "SONG-415",
+          "title": "Paseo de Julio",
+          "orchestra": "Carlos Gardel",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-416",
+          "title": "Mi Romance",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-380",
+          "title": "Viejo Portón",
+          "orchestra": "Rodolfo Biagi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "lq6j-tNyRqo",
+          "url": "https://www.youtube.com/watch?v=lq6j-tNyRqo",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Vals Qualifiers 5 Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-VALS-Q6",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "vals",
+      "stage": "qualifying",
+      "ronda_number": 6,
+      "songs": [
+        {
+          "song_id": "SONG-412",
+          "title": "Quien Sera",
+          "orchestra": "Edgardo Donato y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-413",
+          "title": "Vision Celeste",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-414",
+          "title": "La Serenata (Mi Amor)",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "6OQ21Z5KbLI",
+          "url": "https://www.youtube.com/watch?v=6OQ21Z5KbLI",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Vals Qualifiers 6 Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-VALS-F",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "vals",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-438",
+          "title": "Palomita blanca",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-439",
+          "title": "Con Tus Besos",
+          "orchestra": "Edgardo Donato y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-440",
+          "title": "Orillas del Plata",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "U_UhSWJRjcE",
+          "url": "https://www.youtube.com/watch?v=U_UhSWJRjcE",
+          "channel": "Korea Tango Cooperative",
+          "title": "2026 Korea Tango Championship Vals Final Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-VALS-SENIOR-F",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "vals_senior",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-387",
+          "title": "Lloraras, lloraras",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 1
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "9HzBBIzrReI",
+          "url": "https://www.youtube.com/watch?v=9HzBBIzrReI",
+          "channel": "Tango Mafia",
+          "title": "Korea Tango Championship | Senior Vals Final Ronda"
+        },
+        {
+          "video_id": "SXiqWGOy1YU",
+          "url": "https://www.youtube.com/watch?v=SXiqWGOy1YU",
+          "channel": "Korea Tango Cooperative",
+          "title": "2026 Korea Tango Championship Senior Vals Final Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2024-PISTA-SF1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-176",
+          "title": "Oigo Tu Voz",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-178",
+          "title": "La Mariposa",
+          "orchestra": "Osvaldo Fresedo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-123",
+          "title": "Humillacion",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "rsioqXQswCw",
+          "url": "https://www.youtube.com/watch?v=rsioqXQswCw",
+          "channel": "Mundial de Tango",
+          "title": "mundial de tango 2024 semifinal ronda N°1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2024-PISTA-SF2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-009",
+          "title": "Nido Gaucho",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-361",
+          "title": "Emancipación",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-041",
+          "title": "El Nene del Abasto",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "dpH8CYEyZxo",
+          "url": "https://www.youtube.com/watch?v=dpH8CYEyZxo",
+          "channel": "Mundial de Tango",
+          "title": "mundial de tango 2024 semifinal ronda N°2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2024-PISTA-SF6",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 6,
+      "songs": [
+        {
+          "song_id": "SONG-179",
+          "title": "Amarras",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-362",
+          "title": "Garras",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-147",
+          "title": "Sentimiento Gaucho",
+          "orchestra": "Lomuto",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "xy3nRqdZpJg",
+          "url": "https://www.youtube.com/watch?v=xy3nRqdZpJg",
+          "channel": "Mundial de Tango",
+          "title": "mundial de tango 2024 semifinal ronda N°6"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2024-PISTA-SF8",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 8,
+      "songs": [
+        {
+          "song_id": "SONG-363",
+          "title": "Cartón Junao",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-292",
+          "title": "Maleza",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-243",
+          "title": "El Yaguarón",
+          "orchestra": "Rodolfo Biagi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "x-rnp4076yw",
+          "url": "https://www.youtube.com/watch?v=x-rnp4076yw",
+          "channel": "Mundial de Tango",
+          "title": "mundial de tango 2024 semifinal ronda N° 8"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2024-PISTA-SF9",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 9,
+      "songs": [
+        {
+          "song_id": "SONG-115",
+          "title": "Navegante",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-177",
+          "title": "Cascabelito",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-364",
+          "title": "El Marne",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "lVkw5KRocZE",
+          "url": "https://www.youtube.com/watch?v=lVkw5KRocZE",
+          "channel": "Mundial de Tango",
+          "title": "mundial de tango 2024 semifinal ronda N°9"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2024-PISTA-SF10",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 10,
+      "songs": [
+        {
+          "song_id": "SONG-031",
+          "title": "Jamás Retornarás",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-006",
+          "title": "Bahía Blanca",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-017",
+          "title": "Pocas Palabras",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "2zjZbwn0OHY",
+          "url": "https://www.youtube.com/watch?v=2zjZbwn0OHY",
+          "channel": "Mundial de Tango",
+          "title": "mundial de tango 2024 semifinal ronda N° 10"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2024-PISTA-SF13",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 13,
+      "songs": [
+        {
+          "song_id": "SONG-293",
+          "title": "Si la Llegaran a Ver",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-044",
+          "title": "Esta Noche de Luna",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-077",
+          "title": "Farabute",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "gl4P2fcU51U",
+          "url": "https://www.youtube.com/watch?v=gl4P2fcU51U",
+          "channel": "Mundial de Tango",
+          "title": "mundial de tango 2024 semifinal ronda N°13"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2024-PISTA-SF15",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 15,
+      "songs": [
+        {
+          "song_id": "SONG-074",
+          "title": "Manana Ire Temprano",
+          "orchestra": "Miguel Caló",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-053",
+          "title": "Viviani",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-152",
+          "title": "La Vida Es Corta",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "d8u84xIUuFk",
+          "url": "https://www.youtube.com/watch?v=d8u84xIUuFk",
+          "channel": "Mundial de Tango",
+          "title": "mundial de tango 2024 semifinal ronda N° 15"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2024-PISTA-SF17",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 17,
+      "songs": [
+        {
+          "song_id": "SONG-079",
+          "title": "Verdemar",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-365",
+          "title": "Orlando Goñi",
+          "orchestra": "Alfredo Gobbi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-057",
+          "title": "El Olivo",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "dlXhytZyKDY",
+          "url": "https://www.youtube.com/watch?v=dlXhytZyKDY",
+          "channel": "Mundial de Tango",
+          "title": "mundial de tango 2024 semifinal ronda N°17"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2024-PISTA-F",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [],
+      "rankings": [
+        {
+          "rank": 1,
+          "leader": "Fatima Caracoch",
+          "follower": "Brenno Marques",
+          "promedio": 9.731
+        },
+        {
+          "rank": 2,
+          "leader": "Diego Ortega",
+          "follower": "Aldana Silveyra",
+          "promedio": 9.711
+        },
+        {
+          "rank": 3,
+          "leader": "Juan David Vargas",
+          "follower": "Ornella Simonetto",
+          "promedio": 9.664
+        },
+        {
+          "rank": 4,
+          "leader": "Lucas Gauto",
+          "follower": "Naima Gerasopoulou",
+          "promedio": 9.619
+        },
+        {
+          "rank": 5,
+          "leader": "Naoko Tsutsumisaky",
+          "follower": "Cristian Lopez",
+          "promedio": 9.617
+        },
+        {
+          "rank": 6,
+          "leader": "Ezequiel Núñez",
+          "follower": "Haruna Ashizawa",
+          "promedio": 9.607
+        },
+        {
+          "rank": 7,
+          "leader": "Dmitrii Liferov",
+          "follower": "Dana Son",
+          "promedio": 9.566
+        },
+        {
+          "rank": 8,
+          "leader": "Valentina Massari",
+          "follower": "Leonardo Pankow",
+          "promedio": 9.563
+        },
+        {
+          "rank": 9,
+          "leader": "Ariel Taritolay",
+          "follower": "Laura Casco Zorzón",
+          "promedio": 9.524
+        },
+        {
+          "rank": 10,
+          "leader": "Miguel Angel Quintero",
+          "follower": "Yanel Pedraza",
+          "promedio": 9.52
+        }
+      ],
+      "total_couples": 40,
+      "judges": [
+        "Moira Castellano",
+        "Daniel Nacucchio",
+        "Fernando Carrasco",
+        "Claudia Codega",
+        "Pancho Martinez Pey",
+        "Alejandra Mantinan",
+        "Corina de la Rosa"
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2024-PISTA-SENIOR-F",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "pista_senior",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [],
+      "rankings": [
+        {
+          "rank": 1,
+          "leader": "Marcela Patricia Jara",
+          "follower": "Luis Mario Saihueque",
+          "promedio": 9.391
+        },
+        {
+          "rank": 2,
+          "leader": "Luis Dirassar",
+          "follower": "Patricia Vazquez",
+          "promedio": 9.357
+        },
+        {
+          "rank": 3,
+          "leader": "Veronica Alvarenga",
+          "follower": "Eduardo Arias",
+          "promedio": 9.324
+        },
+        {
+          "rank": 4,
+          "leader": "Aldo Romero",
+          "follower": "Cynthia Giannini",
+          "promedio": 9.276
+        },
+        {
+          "rank": 5,
+          "leader": "Ana Luisa Difrancisco",
+          "follower": "Alfredo Ricardo Encina",
+          "promedio": 9.196
+        },
+        {
+          "rank": 6,
+          "leader": "Marcela Pilatti",
+          "follower": "Alejandro Montes de Oca",
+          "promedio": 9.109
+        },
+        {
+          "rank": 7,
+          "leader": "Daniel Elio Avila",
+          "follower": "Andrea Guassardo",
+          "promedio": 9.097
+        },
+        {
+          "rank": 8,
+          "leader": "Alberto Re",
+          "follower": "María Susana Eguaburo",
+          "promedio": 9.047
+        },
+        {
+          "rank": 9,
+          "leader": "Carlos Alberto Lafuente",
+          "follower": "Maria Ofelia Prado",
+          "promedio": 9.013
+        },
+        {
+          "rank": 10,
+          "leader": "Carlos Alberto Martinez",
+          "follower": "Patricia Laura Gury",
+          "promedio": 8.923
+        }
+      ],
+      "total_couples": 10
+    },
+    {
+      "round_id": "R-MUNDIAL2025-PISTA-F",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [],
+      "rankings": [
+        {
+          "rank": 1,
+          "leader": "Diego Ortega",
+          "follower": "Aldana Silveyra",
+          "promedio": 9.826
+        },
+        {
+          "rank": 2,
+          "leader": "Lucas Gauto",
+          "follower": "Naima Gerasopoulou",
+          "promedio": 9.604
+        },
+        {
+          "rank": 3,
+          "leader": "Juan David Vargas",
+          "follower": "Ornella Simonetto",
+          "promedio": 9.541
+        },
+        {
+          "rank": 4,
+          "leader": "Erik Deslarmes",
+          "follower": "Nadia Aguilar",
+          "promedio": 9.539
+        },
+        {
+          "rank": 5,
+          "leader": "Juan Ignacio Braida",
+          "follower": "Natasha Kaliszuk Lee",
+          "promedio": 9.494
+        },
+        {
+          "rank": 6,
+          "leader": "leonardo pankow",
+          "follower": "valentina massari",
+          "promedio": 9.464
+        },
+        {
+          "rank": 7,
+          "leader": "Sebastian Fernandez",
+          "follower": "Mara Oviedo",
+          "promedio": 9.429
+        },
+        {
+          "rank": 8,
+          "leader": "Haruna Izutani",
+          "follower": "Ezequiel Nuñez",
+          "promedio": 9.403
+        },
+        {
+          "rank": 9,
+          "leader": "Gustavo Chaile",
+          "follower": "Mayela Aponte",
+          "promedio": 9.379
+        },
+        {
+          "rank": 10,
+          "leader": "Ariel Taritolay",
+          "follower": "Laura Casco Zorzon",
+          "promedio": 9.361
+        }
+      ],
+      "total_couples": 41,
+      "judges": [
+        "Javier Rodriguez",
+        "Aoniken Quiroga",
+        "Cristina Sosa",
+        "Paola Taccetti",
+        "Diego Gauna",
+        "Roxana Suarez",
+        "Cristian Marquez"
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2025-PISTA-SENIOR-F",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "pista_senior",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [],
+      "rankings": [
+        {
+          "rank": 1,
+          "leader": "Gustavo Fabian Ippolito",
+          "follower": "Rosana Lujan Porres",
+          "promedio": 9.524
+        },
+        {
+          "rank": 2,
+          "leader": "Orlando Nieto",
+          "follower": "Marcela Mansilla",
+          "promedio": 9.43
+        },
+        {
+          "rank": 3,
+          "leader": "Alfredo Ricardo Encina",
+          "follower": "Ana Luisa Di Francisco",
+          "promedio": 9.343
+        },
+        {
+          "rank": 4,
+          "leader": "Javier Omar Santillan",
+          "follower": "Gladys Noemi Rivero",
+          "promedio": 9.101
+        },
+        {
+          "rank": 5,
+          "leader": "Luis Mario Saihueque",
+          "follower": "Marcela Patricia Jara",
+          "promedio": 9.064
+        },
+        {
+          "rank": 6,
+          "leader": "Tony Barrios",
+          "follower": "Silvia Fassio",
+          "promedio": 9.021
+        },
+        {
+          "rank": 7,
+          "leader": "Humberto Pouchulu",
+          "follower": "Aura Tateossian",
+          "promedio": 8.946
+        },
+        {
+          "rank": 8,
+          "leader": "Marcelo Sassi",
+          "follower": "Esther Ines Correa",
+          "promedio": 8.914
+        },
+        {
+          "rank": 9,
+          "leader": "Elio Daniel Avila",
+          "follower": "Andrea Guassardo",
+          "promedio": 8.757
+        },
+        {
+          "rank": 10,
+          "leader": "Elias Ramon Abdala",
+          "follower": "Maria Silvina del Bosque",
+          "promedio": 8.744
+        }
+      ],
+      "total_couples": 10
+    }
+  ]
+}

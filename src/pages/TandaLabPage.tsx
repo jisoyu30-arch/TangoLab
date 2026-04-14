@@ -1,0 +1,468 @@
+import { useState, useMemo } from 'react';
+import { Link } from 'react-router-dom';
+import roundsData from '../data/competition_rounds.json';
+import songsData from '../data/songs.json';
+import appearancesData from '../data/appearances.json';
+import { extractYouTubeId, getCompetitionShortName } from '../utils/tangoHelpers';
+
+import type { Song, Appearance } from '../types/tango';
+
+interface RoundSong { song_id: string; title: string; orchestra: string; order: number; }
+interface RoundVideo { video_id: string; url: string; channel: string; title: string; }
+interface CompRound {
+  round_id: string; competition: string; year: number; category: string;
+  stage: string; ronda_number: number; songs: RoundSong[]; videos: RoundVideo[];
+}
+
+const allRounds = (roundsData as { rounds: CompRound[] }).rounds;
+const songs = songsData as Song[];
+const allAppearances = appearancesData as Appearance[];
+const songMap = new Map(songs.map(s => [s.song_id, s]));
+
+interface Tanda {
+  id: string;
+  competition: string;
+  year: number;
+  category: string;
+  stage: string;
+  ronda: number;
+  songs: Array<{ song_id: string; title: string; orchestra: string; order: number }>;
+  videoIds: string[];
+  source: 'round' | 'appearance';
+}
+
+const STAGE_LABELS: Record<string, string> = { qualifying: '예선', semifinal: '준결승', final: '결승' };
+const STAGE_COLORS: Record<string, string> = {
+  final: 'bg-red-500/20 text-red-400',
+  semifinal: 'bg-orange-500/20 text-orange-400',
+  qualifying: 'bg-blue-500/20 text-blue-400',
+};
+const CAT_LABELS: Record<string, string> = {
+  pista: '피스타', vals: '발스', milonga: '밀롱가', tango_de_pista: '피스타',
+  pista_senior: '시니어', pista_newstar: '뉴스타',
+  pista_singles_general: '싱글즈', pista_singles_newstar: '싱글즈 뉴스타',
+  pista_singles_senior: '싱글즈 시니어',
+};
+
+function shortOrch(orchestra: string | null): string {
+  if (!orchestra) return '?';
+  const map: Record<string, string> = {
+    'Juan': "D'Arienzo", 'Carlos': 'Di Sarli', 'Osvaldo': 'Pugliese',
+    'Aníbal': 'Troilo', 'Ricardo': 'Tanturi', 'Miguel': 'Caló',
+    'Rodolfo': 'Biagi', 'Edgardo': 'Donato', 'Pedro': 'Laurenz',
+    'Alfredo': 'De Angelis', 'Francisco': 'Canaro', 'Lucio': 'Demare',
+    'Angel': "D'Agostino", 'Enrique': 'Rodríguez',
+  };
+  const first = orchestra.split(' ')[0];
+  return map[first] || first;
+}
+
+/** 모든 대회 데이터에서 탄다 추출 (rounds + appearances 통합) */
+function buildAllTandas(): Tanda[] {
+  const tandas: Tanda[] = [];
+
+  // 1. competition_rounds 기반 (곡 2개 이상인 라운드)
+  for (const r of allRounds) {
+    if (r.songs.length < 2) continue;
+    tandas.push({
+      id: r.round_id,
+      competition: r.competition,
+      year: r.year,
+      category: r.category,
+      stage: r.stage,
+      ronda: r.ronda_number,
+      songs: r.songs,
+      videoIds: (r.videos || []).map(v => v.video_id),
+      source: 'round',
+    });
+  }
+
+  // 2. appearances 기반 — 같은 대회/연도/스테이지/round_label 조합으로 그룹핑
+  const roundSongSets = new Set(
+    allRounds.filter(r => r.songs.length >= 2).map(r => {
+      const key = r.songs.map(s => s.song_id).sort().join('|');
+      return `${r.competition}-${r.year}-${key}`;
+    })
+  );
+
+  const appGroups = new Map<string, Appearance[]>();
+  for (const a of allAppearances) {
+    const key = `${a.competition_id}-${a.year}-${a.stage}-${a.round_label || 'default'}`;
+    if (!appGroups.has(key)) appGroups.set(key, []);
+    appGroups.get(key)!.push(a);
+  }
+
+  for (const [, group] of appGroups) {
+    if (group.length < 2) continue;
+    // 중복 체크 — rounds 데이터와 겹치면 스킵
+    const songIds = group.map(a => a.song_id).sort().join('|');
+    const comp = getCompetitionShortName(group[0].competition_id);
+    const dedupKey = `${comp}-${group[0].year}-${songIds}`;
+    if (roundSongSets.has(dedupKey)) continue;
+
+    const groupSongs = group
+      .sort((a, b) => (a.song_order_in_round ?? 99) - (b.song_order_in_round ?? 99))
+      .map((a, i) => {
+        const s = songMap.get(a.song_id);
+        return {
+          song_id: a.song_id,
+          title: s?.title || a.song_id,
+          orchestra: s?.orchestra || '',
+          order: a.song_order_in_round ?? (i + 1),
+        };
+      });
+
+    // 영상 수집
+    const videoIds: string[] = [];
+    for (const a of group) {
+      const vid = extractYouTubeId(a.source_url);
+      if (vid && !videoIds.includes(vid)) videoIds.push(vid);
+    }
+
+    tandas.push({
+      id: `app-${group[0].competition_id}-${group[0].year}-${group[0].stage}-${group[0].round_label || 'default'}`,
+      competition: comp,
+      year: group[0].year,
+      category: group[0].category,
+      stage: group[0].stage,
+      ronda: 0,
+      songs: groupSongs,
+      videoIds,
+      source: 'appearance',
+    });
+  }
+
+  // 정렬: 최신 → 과거, 결승 우선
+  const stageOrder: Record<string, number> = { final: 0, semifinal: 1, qualifying: 2 };
+  tandas.sort((a, b) => {
+    if (a.year !== b.year) return b.year - a.year;
+    const sa = stageOrder[a.stage] ?? 3, sb = stageOrder[b.stage] ?? 3;
+    return sa - sb;
+  });
+
+  return tandas;
+}
+
+export function TandaLabPage() {
+  const [searchQuery, setSearchQuery] = useState('');
+  const [stageFilter, setStageFilter] = useState<string>('all');
+  const [categoryFilter, setCategoryFilter] = useState<string>('all');
+  const [compFilter, setCompFilter] = useState<string>('all');
+  const [selectedSongId, setSelectedSongId] = useState<string | null>(null);
+  const [playingVideo, setPlayingVideo] = useState<string | null>(null);
+  const [expandedTandaId, setExpandedTandaId] = useState<string | null>(null);
+
+  const tandas = useMemo(() => buildAllTandas(), []);
+
+  // 대회 목록
+  const competitions = useMemo(() => {
+    const set = new Set(tandas.map(t => t.competition));
+    return Array.from(set).sort();
+  }, [tandas]);
+
+  // 곡별 동시 출현 맵
+  const coMap = useMemo(() => {
+    const map: Record<string, Record<string, number>> = {};
+    for (const t of tandas) {
+      for (const s of t.songs) {
+        if (!map[s.song_id]) map[s.song_id] = {};
+        for (const other of t.songs) {
+          if (other.song_id === s.song_id) continue;
+          map[s.song_id][other.song_id] = (map[s.song_id][other.song_id] || 0) + 1;
+        }
+      }
+    }
+    return map;
+  }, [tandas]);
+
+  const companions = useMemo(() => {
+    if (!selectedSongId || !coMap[selectedSongId]) return [];
+    return Object.entries(coMap[selectedSongId])
+      .map(([id, count]) => {
+        const s = songMap.get(id);
+        return { song_id: id, title: s?.title || id, orchestra: s?.orchestra || '', count };
+      })
+      .sort((a, b) => b.count - a.count);
+  }, [selectedSongId, coMap]);
+
+  const selectedTandas = useMemo(() => {
+    if (!selectedSongId) return [];
+    return tandas.filter(t => t.songs.some(s => s.song_id === selectedSongId));
+  }, [selectedSongId, tandas]);
+
+  const filtered = useMemo(() => {
+    return tandas.filter(t => {
+      if (stageFilter !== 'all' && t.stage !== stageFilter) return false;
+      if (categoryFilter !== 'all' && t.category !== categoryFilter) return false;
+      if (compFilter !== 'all' && t.competition !== compFilter) return false;
+      if (searchQuery && !selectedSongId) {
+        const q = searchQuery.toLowerCase();
+        return t.songs.some(s => s.title.toLowerCase().includes(q) || s.orchestra.toLowerCase().includes(q));
+      }
+      return true;
+    });
+  }, [tandas, stageFilter, categoryFilter, compFilter, searchQuery, selectedSongId]);
+
+  const searchCandidates = useMemo(() => {
+    if (!searchQuery || searchQuery.length < 2 || selectedSongId) return [];
+    const q = searchQuery.toLowerCase();
+    const songIds = new Set<string>();
+    for (const t of tandas) for (const s of t.songs) songIds.add(s.song_id);
+    return songs
+      .filter(s => songIds.has(s.song_id) && (
+        s.title.toLowerCase().includes(q) || (s.orchestra || '').toLowerCase().includes(q)
+      ))
+      .slice(0, 8);
+  }, [searchQuery, tandas, selectedSongId]);
+
+  const categories = useMemo(() => Array.from(new Set(tandas.map(t => t.category))), [tandas]);
+
+  const orchStats = useMemo(() => {
+    const counts: Record<string, number> = {};
+    for (const t of tandas) {
+      const orchs = [...new Set(t.songs.map(s => shortOrch(s.orchestra)))].sort().join(' + ');
+      counts[orchs] = (counts[orchs] || 0) + 1;
+    }
+    return Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 10);
+  }, [tandas]);
+
+  return (
+    <>
+      <header className="h-14 border-b border-secretary-gold/20 flex items-center px-5 flex-shrink-0">
+        <h2 className="text-sm font-semibold text-gray-300">탄다 연구소</h2>
+      </header>
+
+      <div className="flex-1 overflow-y-auto">
+        <div className="max-w-5xl mx-auto p-5 space-y-6">
+          <div>
+            <h1 className="text-2xl font-bold text-secretary-gold mb-1">탄다 연구소</h1>
+            <p className="text-gray-400 text-sm">
+              {tandas.length}개 대회 탄다. {competitions.join(', ')} 데이터 통합. 곡을 클릭하면 상세 페이지로 이동합니다.
+            </p>
+          </div>
+
+          {/* 오케스트라 조합 TOP 10 */}
+          <div className="bg-white/5 rounded-xl border border-secretary-gold/10 p-5">
+            <h3 className="text-sm font-semibold text-secretary-gold mb-3">대회 탄다 오케스트라 조합 TOP 10</h3>
+            <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
+              {orchStats.map(([combo, count]) => (
+                <div key={combo} className="bg-white/5 rounded-lg p-3 text-center">
+                  <div className="text-lg font-bold text-secretary-gold">{count}</div>
+                  <div className="text-xs text-gray-400 mt-1">{combo}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* 곡 검색 → 동반 곡 */}
+          <div className="bg-white/5 rounded-xl border border-secretary-gold/10 p-5">
+            <h3 className="text-sm font-semibold text-secretary-gold mb-3">곡 선택 → 같이 나온 곡 찾기</h3>
+            <div className="relative">
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={e => { setSearchQuery(e.target.value); setSelectedSongId(null); }}
+                placeholder="곡명 또는 오케스트라로 검색..."
+                className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2.5 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-secretary-gold/50"
+              />
+              {searchCandidates.length > 0 && (
+                <div className="absolute top-full left-0 right-0 mt-1 bg-secretary-navy border border-white/20 rounded-lg shadow-xl z-10 max-h-64 overflow-y-auto">
+                  {searchCandidates.map(s => (
+                    <button
+                      key={s.song_id}
+                      onClick={() => { setSelectedSongId(s.song_id); setSearchQuery(s.title); }}
+                      className="w-full text-left px-4 py-2.5 hover:bg-white/10 transition-colors"
+                    >
+                      <span className="text-white text-sm">{s.title}</span>
+                      <span className="text-gray-500 text-xs ml-2">{shortOrch(s.orchestra)}</span>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {selectedSongId && (
+              <div className="mt-4 space-y-4">
+                <div className="flex items-center gap-2 text-sm">
+                  <Link to={`/song/${selectedSongId}`} className="text-white font-medium hover:text-secretary-gold transition-colors">
+                    {songMap.get(selectedSongId)?.title} ↗
+                  </Link>
+                  <span className="text-gray-500">({shortOrch(songMap.get(selectedSongId)?.orchestra ?? '')})</span>
+                  <span className="text-gray-500">— {selectedTandas.length}개 탄다</span>
+                  <button onClick={() => { setSelectedSongId(null); setSearchQuery(''); }} className="text-xs text-gray-600 hover:text-gray-400 ml-auto">초기화</button>
+                </div>
+
+                {companions.length > 0 && (
+                  <div>
+                    <div className="text-xs text-gray-500 mb-2">같이 나온 곡 (클릭하면 상세 페이지)</div>
+                    <div className="flex flex-wrap gap-2">
+                      {companions.map(c => (
+                        <Link
+                          key={c.song_id}
+                          to={`/song/${c.song_id}`}
+                          className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 bg-white/5 hover:bg-white/10 border border-white/10 rounded-lg text-gray-300 hover:text-white transition-colors"
+                        >
+                          <span>{c.title}</span>
+                          <span className="text-gray-600">· {shortOrch(c.orchestra)}</span>
+                          {c.count > 1 && <span className="text-secretary-gold font-bold">{c.count}x</span>}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                <div className="space-y-2">
+                  {selectedTandas.map(t => (
+                    <TandaCard key={t.id} tanda={t} highlightSongId={selectedSongId}
+                      playingVideo={playingVideo} onPlay={setPlayingVideo}
+                      expanded={expandedTandaId === t.id} onExpand={setExpandedTandaId} />
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+
+          {/* 전체 탄다 목록 */}
+          <div className="bg-white/5 rounded-xl border border-secretary-gold/10 p-5">
+            <div className="flex items-center justify-between mb-4 flex-wrap gap-2">
+              <h3 className="text-sm font-semibold text-secretary-gold">
+                전체 대회 탄다 ({filtered.length})
+              </h3>
+              <div className="flex gap-2 flex-wrap">
+                <select value={compFilter} onChange={e => setCompFilter(e.target.value)}
+                  className="bg-white/5 border border-white/10 rounded-lg px-2 py-1 text-xs text-gray-300">
+                  <option value="all">전체 대회</option>
+                  {competitions.map(c => <option key={c} value={c}>{c}</option>)}
+                </select>
+                <select value={stageFilter} onChange={e => setStageFilter(e.target.value)}
+                  className="bg-white/5 border border-white/10 rounded-lg px-2 py-1 text-xs text-gray-300">
+                  <option value="all">전체 스테이지</option>
+                  <option value="final">결승</option>
+                  <option value="semifinal">준결승</option>
+                  <option value="qualifying">예선</option>
+                </select>
+                <select value={categoryFilter} onChange={e => setCategoryFilter(e.target.value)}
+                  className="bg-white/5 border border-white/10 rounded-lg px-2 py-1 text-xs text-gray-300">
+                  <option value="all">전체 카테고리</option>
+                  {categories.map(c => <option key={c} value={c}>{CAT_LABELS[c] || c}</option>)}
+                </select>
+              </div>
+            </div>
+
+            {playingVideo && (
+              <div className="mb-4 rounded-lg overflow-hidden border border-secretary-gold/20">
+                <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                  <iframe className="absolute inset-0 w-full h-full"
+                    src={`https://www.youtube.com/embed/${playingVideo}?autoplay=1`}
+                    title="Competition video"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen />
+                </div>
+              </div>
+            )}
+
+            <div className="space-y-2">
+              {filtered.slice(0, 100).map(t => (
+                <TandaCard key={t.id} tanda={t} playingVideo={playingVideo} onPlay={setPlayingVideo}
+                  expanded={expandedTandaId === t.id} onExpand={setExpandedTandaId} />
+              ))}
+              {filtered.length > 100 && (
+                <div className="text-center text-gray-500 text-xs py-3">
+                  +{filtered.length - 100}개 더... 필터로 좁혀보세요.
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+function TandaCard({
+  tanda, highlightSongId, playingVideo, onPlay, expanded, onExpand,
+}: {
+  tanda: Tanda; highlightSongId?: string;
+  playingVideo: string | null; onPlay: (id: string | null) => void;
+  expanded: boolean; onExpand: (id: string | null) => void;
+}) {
+  const orchs = [...new Set(tanda.songs.map(s => shortOrch(s.orchestra)))].join(' + ');
+
+  return (
+    <div className={`border rounded-lg overflow-hidden transition-colors ${
+      expanded ? 'border-secretary-gold/30' : 'border-white/10 hover:border-white/20'
+    }`}>
+      <div className="bg-white/5 px-4 py-2.5 flex items-center justify-between cursor-pointer"
+        onClick={() => onExpand(expanded ? null : tanda.id)}>
+        <div className="flex items-center gap-2 flex-wrap">
+          <span className="text-white text-sm font-medium">{tanda.competition} {tanda.year}</span>
+          <span className={`text-[11px] px-1.5 py-0.5 rounded-full ${STAGE_COLORS[tanda.stage] || ''}`}>
+            {STAGE_LABELS[tanda.stage] || tanda.stage}
+          </span>
+          {tanda.ronda > 0 && <span className="text-[11px] text-gray-500">{tanda.ronda}R</span>}
+          <span className="text-[11px] text-gray-600">{CAT_LABELS[tanda.category] || tanda.category}</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <span className="text-[11px] text-gray-600">{orchs}</span>
+          {tanda.videoIds.length > 0 && (
+            <span className="text-[10px] text-cyan-400">▶{tanda.videoIds.length}</span>
+          )}
+        </div>
+      </div>
+
+      <div className="px-4 py-2.5 flex items-center gap-3">
+        <div className="flex-1 flex flex-wrap gap-1.5">
+          {tanda.songs.map((s, i) => (
+            <Link
+              key={s.song_id + '-' + i}
+              to={`/song/${s.song_id}`}
+              className={`inline-flex items-center gap-1 text-xs px-2.5 py-1 rounded-full border transition-colors ${
+                highlightSongId === s.song_id
+                  ? 'bg-secretary-gold/20 border-secretary-gold/40 text-secretary-gold'
+                  : 'bg-white/5 border-white/10 text-gray-300 hover:text-white hover:bg-white/10'
+              }`}
+            >
+              <span className="text-gray-600">{s.order}.</span>
+              <span>{s.title}</span>
+              <span className="text-gray-600">· {shortOrch(s.orchestra)}</span>
+            </Link>
+          ))}
+        </div>
+        {tanda.videoIds.length > 0 && (
+          <button
+            onClick={(e) => { e.stopPropagation(); const vid = tanda.videoIds[0]; onPlay(playingVideo === vid ? null : vid); }}
+            className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 transition-colors ${
+              playingVideo === tanda.videoIds[0]
+                ? 'bg-secretary-gold text-secretary-dark'
+                : 'bg-white/10 text-secretary-gold hover:bg-secretary-gold/20'
+            }`}
+          >
+            {playingVideo === tanda.videoIds[0] ? '⏸' : '▶'}
+          </button>
+        )}
+      </div>
+
+      {/* 펼침 영역: 영상 목록 */}
+      {expanded && tanda.videoIds.length > 1 && (
+        <div className="px-4 py-3 border-t border-white/5 bg-white/[0.02]">
+          <div className="text-xs text-gray-500 mb-2">영상 {tanda.videoIds.length}개</div>
+          <div className="flex flex-wrap gap-2">
+            {tanda.videoIds.map((vid, i) => (
+              <button
+                key={vid}
+                onClick={() => onPlay(playingVideo === vid ? null : vid)}
+                className={`text-xs px-3 py-1.5 rounded-lg transition-colors ${
+                  playingVideo === vid
+                    ? 'bg-secretary-gold text-secretary-dark'
+                    : 'bg-white/5 text-gray-400 hover:text-white hover:bg-white/10'
+                }`}
+              >
+                ▶ 영상 {i + 1}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
