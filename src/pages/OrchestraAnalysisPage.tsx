@@ -269,6 +269,19 @@ function OrchestraDetail({ stats }: { stats: OrchestraStats }) {
         )}
       </div>
 
+      {/* 전략 카드: 한 줄 정의 + 대표 특징 */}
+      <div className="px-5 py-4 border-b border-white/5">
+        <h3 className="text-xs font-semibold text-secretary-gold mb-3">춤 전략 요약</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          {orch.style_tags.slice(0, 5).map(tag => (
+            <div key={tag} className="flex items-center gap-2 bg-white/5 rounded-lg px-3 py-2">
+              <span className="text-secretary-gold text-sm">•</span>
+              <span className="text-sm text-gray-200">{STYLE_TAG_LABELS[tag] || tag}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+
       {/* 대회 사용 특성 */}
       {orch.common_competition_use_notes && !orch.common_competition_use_notes.includes('상세 정보 추가 필요') && (
         <div className="px-5 py-4 border-b border-white/5">

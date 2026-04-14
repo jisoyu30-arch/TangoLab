@@ -17,6 +17,8 @@ export interface Song {
   source_confidence: 'A' | 'B' | 'C' | 'D';
   evidence_note: string | null;
   competition_popularity_score: number | null;
+  strategy_notes?: string; // 추가: 곡별 전략 메모
+  related_video_ids?: string[]; // 추가: 관련 레퍼런스 영상
 }
 
 export interface Appearance {
@@ -43,6 +45,7 @@ export interface Orchestra {
   common_competition_use_notes: string;
   key_vocalists: string[];
   representative_songs: string[];
+  strategy_notes?: string; // 추가: 악단별 전략 요약
 }
 
 export interface Competition {
@@ -89,4 +92,57 @@ export interface SongRanking {
   qualifying_count: number;
   years: number[];
   competitions: string[];
+}
+
+
+// === MVP 확장: 연습 보드 ===
+
+export interface PracticeBoard {
+  id: string;
+  title: string;
+  description: string;
+  song_ids: string[];
+  notes: PracticeNote[];
+  checkpoints: string[];
+  created_at: string;
+  updated_at: string;
+}
+
+export interface PracticeNote {
+  id: string;
+  board_id: string;
+  song_id: string | null;
+  content: string;
+  tags: string[];
+  created_at: string;
+}
+
+// === MVP 확장: 비교 연습실 ===
+
+export interface CompareSession {
+  id: string;
+  title: string;
+  song_id: string | null;
+  reference_video_url: string;
+  own_video_url: string;
+  checklist: CompareCheckItem[];
+  notes: string;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface CompareCheckItem {
+  key: string;
+  label: string;
+  checked: boolean;
+}
+
+// === MVP 확장: 최근 본 항목 ===
+
+export interface RecentItem {
+  type: 'song' | 'orchestra' | 'video';
+  id: string;
+  title: string;
+  subtitle?: string;
+  visited_at: string;
 }

@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import { TangoSidebar } from './TangoSidebar';
 
+import { MobileBottomNav } from './MobileBottomNav';
+
 export function TangoLayout() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
@@ -26,7 +28,7 @@ export function TangoLayout() {
 
       {/* 메인 콘텐츠 */}
       <main className="flex-1 flex flex-col overflow-hidden w-full">
-        {/* 모바일 햄버거 바 */}
+        {/* 모바일 헤더 */}
         <div className="md:hidden h-12 border-b border-secretary-gold/20 flex items-center px-4 flex-shrink-0">
           <button
             onClick={() => setSidebarOpen(true)}
@@ -36,7 +38,13 @@ export function TangoLayout() {
           </button>
           <span className="text-sm font-semibold text-secretary-gold">석정소유의 탱고랩</span>
         </div>
-        <Outlet />
+
+        {/* 페이지 콘텐츠 — 모바일에서는 하단 탭 높이만큼 패딩 */}
+        <div className="flex-1 overflow-hidden pb-16 md:pb-0">
+          <Outlet />
+        </div>
+
+        <MobileBottomNav />
       </main>
     </div>
   );

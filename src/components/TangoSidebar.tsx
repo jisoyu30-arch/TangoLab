@@ -1,10 +1,13 @@
 import { NavLink } from 'react-router-dom';
 
 const NAV_ITEMS = [
-  { to: '/', label: '대시보드', icon: '📊', end: true },
+  { to: '/', label: '홈', icon: '🏠', end: true },
+  { to: '/songs', label: '곡 아카이브', icon: '🎵', end: false },
+  { to: '/tanda', label: '탄다 연구소', icon: '🔗', end: false },
+  { to: '/orchestra', label: '악단 연구', icon: '🎻', end: false },
   { to: '/results', label: '대회 순위', icon: '🏆', end: false },
-  { to: '/tanda', label: '탄다 연구소', icon: '🎵', end: false },
-  { to: '/orchestra', label: '오케스트라', icon: '🎻', end: false },
+  { to: '/practice', label: '연습 보드', icon: '📋', end: false },
+  { to: '/compare', label: '비교 연습실', icon: '🔍', end: false },
   { to: '/chat', label: '탱고 Q&A', icon: '💬', end: false },
 ];
 

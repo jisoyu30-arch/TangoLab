@@ -6,16 +6,26 @@ import { CompetitionResultsPage } from './pages/CompetitionResultsPage';
 import { TangoChatPage } from './pages/TangoChatPage';
 import { TandaLabPage } from './pages/TandaLabPage';
 import { OrchestraAnalysisPage } from './pages/OrchestraAnalysisPage';
+import { HomePage } from './pages/HomePage';
+import { PracticeBoardListPage } from './pages/PracticeBoardListPage';
+import { PracticeBoardDetailPage } from './pages/PracticeBoardDetailPage';
+import { CompareRoomListPage } from './pages/CompareRoomListPage';
+import { CompareRoomDetailPage } from './pages/CompareRoomDetailPage';
 
 export function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route element={<TangoLayout />}>
-          <Route path="/" element={<TangoArchivePage />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/songs" element={<TangoArchivePage />} />
           <Route path="/results" element={<CompetitionResultsPage />} />
           <Route path="/tanda" element={<TandaLabPage />} />
           <Route path="/orchestra" element={<OrchestraAnalysisPage />} />
+          <Route path="/practice" element={<PracticeBoardListPage />} />
+          <Route path="/practice/:id" element={<PracticeBoardDetailPage />} />
+          <Route path="/compare" element={<CompareRoomListPage />} />
+          <Route path="/compare/:id" element={<CompareRoomDetailPage />} />
           <Route path="/chat" element={<TangoChatPage />} />
           <Route path="/song/:id" element={<SongDetailPage />} />
         </Route>

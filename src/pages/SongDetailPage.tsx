@@ -1,8 +1,9 @@
-import { useParams, Link } from 'react-router-dom';
-import { useMemo } from 'react';
+import { useParams, Link, useNavigate } from 'react-router-dom';
+import { useMemo, useState, useEffect } from 'react';
 import { DanceAnalysis } from '../components/tango/DanceAnalysis';
 import { TrainingStatusPanel } from '../components/tango/TrainingStatusPanel';
 import { SongTrendChart } from '../components/tango/SongTrendChart';
+import { usePracticeStore } from '../hooks/usePracticeStore';
 import { getAppearancesForSong, getYearlyTrend, computeRankings } from '../utils/tangoRanking';
 import { STAGE_LABELS, extractYouTubeId, getCompetitionShortName } from '../utils/tangoHelpers';
 
@@ -118,10 +119,43 @@ function pickBestVideos(songId: string, songAppearances: Appearance[], maxCount 
   return videos;
 }
 
+
 export function SongDetailPage() {
   const { id } = useParams<{ id: string }>();
+  const navigate = useNavigate();
+  const [showBoardPicker, setShowBoardPicker] = useState(false);
+  const [savedToast, setSavedToast] = useState('');
+  const { boards, addSongToBoard, addCompareSession } = usePracticeStore();
 
   const song = useMemo(() => songs.find(s => s.song_id === id), [id]);
+
+  // 최근 본 항목 기록
+  useEffect(() => {
+    if (!song || !id) return;
+    try {
+      const KEY = 'tango_recent_items';
+      const raw = localStorage.getItem(KEY);
+      const items = raw ? JSON.parse(raw) : [];
+      const filtered = items.filter((i: { type: string; id: string }) => !(i.type === 'song' && i.id === id));
+      filtered.unshift({ type: 'song', id, title: song.title, subtitle: song.orchestra, visited_at: new Date().toISOString() });
+      localStorage.setItem(KEY, JSON.stringify(filtered.slice(0, 20)));
+    } catch { /* ignore */ }
+  }, [id, song]);
+
+  const handleSaveToBoard = (boardId: string) => {
+    if (!id) return;
+    addSongToBoard(boardId, id);
+    const board = boards.find(b => b.id === boardId);
+    setSavedToast(`"${board?.title}"에 저장됨`);
+    setTimeout(() => setSavedToast(''), 2000);
+    setShowBoardPicker(false);
+  };
+
+  const handleAddToCompare = () => {
+    if (!id || !song) return;
+    addCompareSession(song.title, id);
+    navigate(`/compare`);
+  };
   const songAppearances = useMemo(() => id ? getAppearancesForSong(id, appearances) : [], [id]);
   const trend = useMemo(() => id ? getYearlyTrend(id, appearances) : [], [id]);
   const guide = useMemo(() => danceGuides.find(g => g.song_id === id), [id]);
@@ -145,7 +179,7 @@ export function SongDetailPage() {
         <div className="text-center">
           <div className="text-4xl mb-4">🎵</div>
           <p className="text-gray-400">곡을 찾을 수 없습니다.</p>
-          <Link to="/tango" className="text-secretary-gold text-sm hover:underline mt-2 inline-block">← 아카이브로 돌아가기</Link>
+          <Link to="/" className="text-secretary-gold text-sm hover:underline mt-2 inline-block">← 아카이브로 돌아가기</Link>
         </div>
       </div>
     );
@@ -154,7 +188,7 @@ export function SongDetailPage() {
   return (
     <>
       <header className="h-14 border-b border-secretary-gold/20 flex items-center px-5 flex-shrink-0">
-        <Link to="/tango" className="text-gray-400 hover:text-secretary-gold text-sm mr-3">← 목록</Link>
+        <Link to="/" className="text-gray-400 hover:text-secretary-gold text-sm mr-3">← 목록</Link>
         <h2 className="text-sm font-semibold text-gray-300 truncate">{song.title}</h2>
       </header>
 
@@ -199,7 +233,84 @@ export function SongDetailPage() {
                 ))}
               </div>
             )}
+
+            {/* 액션 버튼 */}
+            <div className="flex flex-wrap gap-2 mt-4 pt-4 border-t border-white/10">
+              <div className="relative">
+                <button
+                  onClick={() => setShowBoardPicker(!showBoardPicker)}
+                  className="px-4 py-2 bg-secretary-gold/20 text-secretary-gold rounded-lg text-sm font-medium hover:bg-secretary-gold/30 transition-colors min-h-[44px]"
+                >
+                  📋 연습 보드에 저장
+                </button>
+                {showBoardPicker && (
+                  <div className="absolute top-full left-0 mt-1 bg-secretary-navy border border-secretary-gold/20 rounded-lg shadow-xl z-20 min-w-[200px]">
+                    {boards.length > 0 ? boards.map(b => (
+                      <button
+                        key={b.id}
+                        onClick={() => handleSaveToBoard(b.id)}
+                        className="w-full text-left px-4 py-2.5 hover:bg-white/5 text-sm text-gray-300 transition-colors"
+                      >
+                        {b.title} <span className="text-gray-600">({b.song_ids.length}곡)</span>
+                      </button>
+                    )) : (
+                      <div className="px-4 py-3 text-xs text-gray-500">
+                        보드가 없습니다.{' '}
+                        <Link to="/practice" className="text-secretary-gold hover:underline">만들기 →</Link>
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+              <button
+                onClick={handleAddToCompare}
+                className="px-4 py-2 bg-white/10 text-gray-300 rounded-lg text-sm font-medium hover:bg-white/15 transition-colors min-h-[44px]"
+              >
+                🔍 비교에 추가
+              </button>
+            </div>
+
+            {/* 저장 토스트 */}
+            {savedToast && (
+              <div className="mt-2 text-xs text-green-400 bg-green-400/10 rounded-lg px-3 py-2">
+                {savedToast}
+              </div>
+            )}
           </div>
+
+          {/* 전략 포인트 요약 (DanceGuide에서 추출) */}
+          {guide && (
+            <div className="bg-white/5 rounded-xl border border-secretary-gold/10 p-5">
+              <h3 className="text-sm font-semibold text-secretary-gold mb-3">전략 포인트</h3>
+              <div className="space-y-3">
+                <div className="flex items-start gap-3">
+                  <span className="text-lg">🎯</span>
+                  <div>
+                    <div className="text-xs text-gray-400 mb-0.5">한 줄 요약</div>
+                    <div className="text-sm text-gray-200">{guide.summary}</div>
+                  </div>
+                </div>
+                {guide.competition_tip && (
+                  <div className="flex items-start gap-3">
+                    <span className="text-lg">🏆</span>
+                    <div>
+                      <div className="text-xs text-gray-400 mb-0.5">대회 팁</div>
+                      <div className="text-sm text-gray-200">{guide.competition_tip}</div>
+                    </div>
+                  </div>
+                )}
+                {guide.partner_advice && (
+                  <div className="flex items-start gap-3">
+                    <span className="text-lg">🤝</span>
+                    <div>
+                      <div className="text-xs text-gray-400 mb-0.5">파트너 어드바이스</div>
+                      <div className="text-sm text-gray-200">{guide.partner_advice}</div>
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
 
           {/* YouTube 플레이어 — 최대 2개, 각각 다른 대회/연도 */}
           {videos.length > 0 ? (
