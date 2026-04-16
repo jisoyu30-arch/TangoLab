@@ -39,6 +39,7 @@ interface VideoEntry {
   year: number;
   stage: string;
   source: 'round' | 'appearance';
+  songOrder: number | null;
 }
 
 interface SongDetail {
@@ -90,11 +91,12 @@ function computeOrchestraStats(): OrchestraStats[] {
     const seen = new Set<string>();
     const result: VideoEntry[] = [];
     for (const r of allRounds) {
-      if (!r.songs.some(s => s.song_id === songId)) continue;
+      const matchedSong = r.songs.find(s => s.song_id === songId);
+      if (!matchedSong) continue;
       for (const v of r.videos) {
         if (seen.has(v.video_id)) continue;
         seen.add(v.video_id);
-        result.push({ videoId: v.video_id, competition: r.competition, year: r.year, stage: r.stage, source: 'round' });
+        result.push({ videoId: v.video_id, competition: r.competition, year: r.year, stage: r.stage, source: 'round', songOrder: matchedSong.order ?? null });
       }
     }
     for (const a of appearances) {
@@ -102,7 +104,7 @@ function computeOrchestraStats(): OrchestraStats[] {
       const vid = extractYouTubeId(a.source_url);
       if (!vid || seen.has(vid)) continue;
       seen.add(vid);
-      result.push({ videoId: vid, competition: getCompetitionShortName(a.competition_id), year: a.year, stage: a.stage, source: 'appearance' });
+      result.push({ videoId: vid, competition: getCompetitionShortName(a.competition_id), year: a.year, stage: a.stage, source: 'appearance', songOrder: a.song_order_in_round ?? null });
     }
     result.sort((a, b) => b.year - a.year);
     return result;
@@ -378,7 +380,12 @@ function OrchestraDetail({ stats, onBack }: { stats: OrchestraStats; onBack: () 
                                   <span className={`text-sm ${isPlaying ? 'text-secretary-gold' : 'text-gray-500'}`}>
                                     {isPlaying ? '⏸' : '▶'}
                                   </span>
-                                  <span className="text-sm text-gray-200 flex-1">{v.competition} {v.year}</span>
+                                  <span className="text-sm text-gray-200 flex-1">
+                                    {v.competition} {v.year}
+                                    {v.songOrder && (
+                                      <span className="text-[10px] text-gray-500 ml-1.5">{v.songOrder}번째 곡</span>
+                                    )}
+                                  </span>
                                   <span className={`text-[10px] px-1.5 py-0.5 rounded-full ${
                                     v.stage === 'final' ? 'bg-red-500/20 text-red-400' :
                                     v.stage === 'semifinal' ? 'bg-orange-500/20 text-orange-400' :
