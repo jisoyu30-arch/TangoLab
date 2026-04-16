@@ -4,12 +4,14 @@ import songsData from '../data/songs.json';
 import appearancesData from '../data/appearances.json';
 import orchestrasData from '../data/orchestras.json';
 import roundsData from '../data/competition_rounds.json';
+import danceGuidesData from '../data/dance_guides.json';
 import { extractYouTubeId, getCompetitionShortName, STAGE_LABELS } from '../utils/tangoHelpers';
-import type { Song, Appearance, Orchestra } from '../types/tango';
+import type { Song, Appearance, Orchestra, DanceGuide } from '../types/tango';
 
 const songs = songsData as Song[];
 const appearances = appearancesData as Appearance[];
 const orchestras = orchestrasData as Orchestra[];
+const danceGuides = danceGuidesData as DanceGuide[];
 
 interface RoundSong { song_id: string; title: string; orchestra: string; order: number; }
 interface RoundVideo { video_id: string; url: string; channel: string; title: string; }
@@ -45,6 +47,7 @@ interface SongDetail {
   finalCount: number;
   semifinalCount: number;
   videos: VideoEntry[];
+  guide: DanceGuide | null;
 }
 
 interface OrchestraStats {
@@ -83,12 +86,9 @@ function computeOrchestraStats(): OrchestraStats[] {
     songComps.get(a.song_id)!.add(a.competition_id);
   }
 
-  // 곡별 영상 수집 (rounds + appearances)
   function getVideosForSong(songId: string): VideoEntry[] {
     const seen = new Set<string>();
     const result: VideoEntry[] = [];
-
-    // rounds
     for (const r of allRounds) {
       if (!r.songs.some(s => s.song_id === songId)) continue;
       for (const v of r.videos) {
@@ -97,7 +97,6 @@ function computeOrchestraStats(): OrchestraStats[] {
         result.push({ videoId: v.video_id, competition: r.competition, year: r.year, stage: r.stage, source: 'round' });
       }
     }
-    // appearances
     for (const a of appearances) {
       if (a.song_id !== songId) continue;
       const vid = extractYouTubeId(a.source_url);
@@ -105,7 +104,6 @@ function computeOrchestraStats(): OrchestraStats[] {
       seen.add(vid);
       result.push({ videoId: vid, competition: getCompetitionShortName(a.competition_id), year: a.year, stage: a.stage, source: 'appearance' });
     }
-
     result.sort((a, b) => b.year - a.year);
     return result;
   }
@@ -122,16 +120,15 @@ function computeOrchestraStats(): OrchestraStats[] {
       finalCount += stats.final;
       semifinalCount += stats.semifinal;
       qualifyingCount += stats.qualifying;
-
       for (const y of songYears.get(song.song_id) ?? []) yearSet.add(y);
       for (const c of songComps.get(song.song_id) ?? []) compSet.add(getCompetitionShortName(c));
-
       return {
         song,
         appearances: stats.total,
         finalCount: stats.final,
         semifinalCount: stats.semifinal,
         videos: getVideosForSong(song.song_id),
+        guide: danceGuides.find(g => g.song_id === song.song_id) ?? null,
       };
     });
 
@@ -141,7 +138,7 @@ function computeOrchestraStats(): OrchestraStats[] {
       orchestra: orch,
       totalAppearances, finalCount, semifinalCount, qualifyingCount,
       songCount: mySongs.length,
-      topSongs: songDetails.filter(s => s.appearances > 0).slice(0, 15),
+      topSongs: songDetails.filter(s => s.appearances > 0).slice(0, 20),
       yearSpread: Array.from(yearSet).sort(),
       competitions: Array.from(compSet).sort(),
     };
@@ -161,263 +158,293 @@ export function OrchestraAnalysisPage() {
   return (
     <>
       <header className="h-14 border-b border-secretary-gold/20 flex items-center px-5 flex-shrink-0">
-        <h2 className="text-sm font-semibold text-gray-300">오케스트라 분석</h2>
+        <h2 className="text-sm font-semibold text-gray-300">악단 연구</h2>
       </header>
 
       <div className="flex-1 overflow-y-auto">
-        <div className="max-w-5xl mx-auto p-5 space-y-6">
-          <div>
-            <h1 className="text-2xl font-bold text-secretary-gold mb-1">오케스트라 분석</h1>
-            <p className="text-gray-400 text-sm">
-              {ranked.length}개 오케스트라. 클릭하면 대회 출현 곡 순위 → 곡 클릭하면 영상 펼침
-            </p>
-          </div>
+        <div className="max-w-5xl mx-auto p-5 space-y-5">
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-            {ranked.map((os, i) => {
-              const isSelected = selectedOrchId === os.orchestra.orchestra_id;
-              const shortName = os.orchestra.alt_names[0] || os.orchestra.orchestra_name.split(' ')[0];
-              const maxApp = ranked[0]?.totalAppearances || 1;
-              const barWidth = Math.round((os.totalAppearances / maxApp) * 100);
+          {/* 악단 선택 그리드 */}
+          {!selected ? (
+            <>
+              <div>
+                <h1 className="text-xl font-bold text-secretary-gold mb-1">악단 연구</h1>
+                <p className="text-gray-400 text-sm">악단을 선택하면 대회 출현곡과 영상을 볼 수 있습니다</p>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                {ranked.map((os, i) => {
+                  const shortName = os.orchestra.alt_names[0] || os.orchestra.orchestra_name.split(' ')[0];
+                  const maxApp = ranked[0]?.totalAppearances || 1;
+                  const barWidth = Math.round((os.totalAppearances / maxApp) * 100);
 
-              return (
-                <button key={os.orchestra.orchestra_id}
-                  onClick={() => setSelectedOrchId(isSelected ? null : os.orchestra.orchestra_id)}
-                  className={`text-left rounded-xl border p-4 transition-all ${
-                    isSelected ? 'border-secretary-gold/50 bg-secretary-gold/10' : 'border-white/10 bg-white/5 hover:border-white/20 hover:bg-white/[0.07]'
-                  }`}>
-                  <div className="flex items-start justify-between mb-2">
-                    <div>
-                      <div className="flex items-center gap-2">
-                        <span className="text-lg font-bold text-gray-500">#{i + 1}</span>
-                        <span className="text-white font-semibold text-sm">{shortName}</span>
+                  return (
+                    <button key={os.orchestra.orchestra_id}
+                      onClick={() => setSelectedOrchId(os.orchestra.orchestra_id)}
+                      className="text-left rounded-xl border border-white/10 bg-white/5 hover:border-secretary-gold/40 hover:bg-white/[0.07] p-4 transition-all active:scale-[0.98]">
+                      <div className="flex items-center justify-between mb-2">
+                        <div className="flex items-center gap-2">
+                          <span className="text-base font-bold text-gray-500">#{i + 1}</span>
+                          <span className="text-white font-semibold">{shortName}</span>
+                        </div>
+                        <span className="text-lg font-bold text-secretary-gold">{os.totalAppearances}</span>
                       </div>
-                      {os.orchestra.active_era !== 'unknown' && <div className="text-[11px] text-gray-600 mt-0.5">{os.orchestra.active_era}</div>}
-                    </div>
-                    <div className="text-right">
-                      <div className="text-xl font-bold text-secretary-gold">{os.totalAppearances}</div>
-                      <div className="text-[10px] text-gray-500">출현</div>
-                    </div>
-                  </div>
-                  <div className="h-1.5 bg-white/5 rounded-full overflow-hidden mb-2">
-                    <div className="h-full bg-secretary-gold/60 rounded-full" style={{ width: `${barWidth}%` }} />
-                  </div>
-                  <div className="flex items-center gap-3 text-[11px]">
-                    <span className="text-red-400">결 {os.finalCount}</span>
-                    <span className="text-orange-400">준 {os.semifinalCount}</span>
-                    <span className="text-blue-400">예 {os.qualifyingCount}</span>
-                    <span className="text-gray-600 ml-auto">{os.songCount}곡</span>
-                  </div>
-                  {os.orchestra.style_tags.length > 0 && (
-                    <div className="flex flex-wrap gap-1 mt-2">
-                      {os.orchestra.style_tags.slice(0, 3).map(tag => (
-                        <span key={tag} className="text-[10px] px-1.5 py-0.5 rounded-full bg-white/5 text-gray-500">
-                          {STYLE_TAG_LABELS[tag] || tag}
-                        </span>
-                      ))}
-                    </div>
-                  )}
-                </button>
-              );
-            })}
-          </div>
-
-          {selected && <OrchestraDetail stats={selected} />}
+                      <div className="h-1.5 bg-white/5 rounded-full overflow-hidden mb-2">
+                        <div className="h-full bg-secretary-gold/60 rounded-full" style={{ width: `${barWidth}%` }} />
+                      </div>
+                      <div className="flex items-center gap-3 text-[11px]">
+                        <span className="text-red-400">결 {os.finalCount}</span>
+                        <span className="text-orange-400">준 {os.semifinalCount}</span>
+                        <span className="text-blue-400">예 {os.qualifyingCount}</span>
+                      </div>
+                      {os.orchestra.style_tags.length > 0 && (
+                        <div className="flex flex-wrap gap-1 mt-2">
+                          {os.orchestra.style_tags.slice(0, 3).map(tag => (
+                            <span key={tag} className="text-[10px] px-1.5 py-0.5 rounded-full bg-white/5 text-gray-500">
+                              {STYLE_TAG_LABELS[tag] || tag}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+                    </button>
+                  );
+                })}
+              </div>
+            </>
+          ) : (
+            /* 악단 상세 — 곡 목록 중심 */
+            <OrchestraDetail stats={selected} onBack={() => setSelectedOrchId(null)} />
+          )}
         </div>
       </div>
     </>
   );
 }
 
-function OrchestraDetail({ stats }: { stats: OrchestraStats }) {
+/* ───────── 악단 상세: 곡 목록이 주인공 ───────── */
+
+function OrchestraDetail({ stats, onBack }: { stats: OrchestraStats; onBack: () => void }) {
   const orch = stats.orchestra;
   const shortName = orch.alt_names[0] || orch.orchestra_name.split(' ')[0];
   const [expandedSong, setExpandedSong] = useState<string | null>(null);
   const [playingVideo, setPlayingVideo] = useState<string | null>(null);
-
-  const total = stats.totalAppearances || 1;
-  const finalPct = Math.round((stats.finalCount / total) * 100);
-  const semiFinalPct = Math.round((stats.semifinalCount / total) * 100);
-  const qualifyingPct = Math.round((stats.qualifyingCount / total) * 100);
+  const [showInfo, setShowInfo] = useState(false);
 
   return (
-    <div className="bg-white/5 rounded-xl border border-secretary-gold/10 overflow-hidden">
-      {/* 헤더 */}
-      <div className="p-5 border-b border-secretary-gold/10">
-        <div className="flex items-start justify-between">
-          <div>
-            <h2 className="text-xl font-bold text-white">{shortName}</h2>
-            <p className="text-xs text-gray-500 mt-0.5">{orch.orchestra_name}</p>
-            {orch.active_era !== 'unknown' && <p className="text-xs text-gray-600 mt-1">활동기: {orch.active_era}</p>}
-            {stats.competitions.length > 0 && (
-              <p className="text-xs text-gray-600 mt-0.5">대회: {stats.competitions.join(', ')}</p>
-            )}
-          </div>
-          <div className="bg-secretary-gold/20 rounded-xl px-4 py-2 text-center">
-            <div className="text-2xl font-bold text-secretary-gold">{stats.totalAppearances}</div>
-            <div className="text-[10px] text-gray-400">총 출현</div>
+    <div className="space-y-4">
+
+      {/* 헤더: 뒤로가기 + 악단 이름 + 요약 */}
+      <div className="flex items-center gap-3">
+        <button
+          onClick={onBack}
+          className="text-gray-400 hover:text-secretary-gold text-sm transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
+        >
+          ←
+        </button>
+        <div className="flex-1">
+          <h1 className="text-xl font-bold text-white">{shortName}</h1>
+          <div className="flex items-center gap-3 text-xs text-gray-500 mt-0.5">
+            <span>{stats.totalAppearances}회 출현</span>
+            <span className="text-red-400">결 {stats.finalCount}</span>
+            <span className="text-orange-400">준 {stats.semifinalCount}</span>
+            {orch.active_era !== 'unknown' && <span>{orch.active_era}</span>}
           </div>
         </div>
-        {orch.style_tags.length > 0 && (
-          <div className="flex flex-wrap gap-1.5 mt-3">
-            {orch.style_tags.map(tag => (
-              <span key={tag} className="text-xs px-2 py-0.5 rounded-full bg-secretary-gold/10 text-secretary-gold">
-                {STYLE_TAG_LABELS[tag] || tag}
-              </span>
-            ))}
-          </div>
-        )}
+        <button
+          onClick={() => setShowInfo(!showInfo)}
+          className="text-xs text-gray-500 hover:text-secretary-gold px-3 py-2 bg-white/5 rounded-lg transition-colors min-h-[40px]"
+        >
+          {showInfo ? '정보 닫기' : '악단 정보'}
+        </button>
       </div>
 
-      {/* 전략 카드: 한 줄 정의 + 대표 특징 */}
-      <div className="px-5 py-4 border-b border-white/5">
-        <h3 className="text-xs font-semibold text-secretary-gold mb-3">춤 전략 요약</h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          {orch.style_tags.slice(0, 5).map(tag => (
-            <div key={tag} className="flex items-center gap-2 bg-white/5 rounded-lg px-3 py-2">
-              <span className="text-secretary-gold text-sm">•</span>
-              <span className="text-sm text-gray-200">{STYLE_TAG_LABELS[tag] || tag}</span>
-            </div>
+      {/* 스타일 태그 */}
+      {orch.style_tags.length > 0 && (
+        <div className="flex flex-wrap gap-1.5">
+          {orch.style_tags.map(tag => (
+            <span key={tag} className="text-xs px-2 py-0.5 rounded-full bg-secretary-gold/10 text-secretary-gold">
+              {STYLE_TAG_LABELS[tag] || tag}
+            </span>
           ))}
         </div>
-      </div>
+      )}
 
-      {/* 대회 사용 특성 */}
-      {orch.common_competition_use_notes && !orch.common_competition_use_notes.includes('상세 정보 추가 필요') && (
-        <div className="px-5 py-4 border-b border-white/5">
-          <h3 className="text-xs font-semibold text-gray-400 mb-2">대회 사용 특성</h3>
-          <p className="text-sm text-gray-300 leading-relaxed">{orch.common_competition_use_notes}</p>
+      {/* 접을 수 있는 악단 상세 정보 */}
+      {showInfo && (
+        <div className="bg-white/5 rounded-xl border border-secretary-gold/10 p-4 space-y-3">
+          {orch.common_competition_use_notes && !orch.common_competition_use_notes.includes('상세 정보 추가 필요') && (
+            <div>
+              <div className="text-xs text-gray-400 mb-1">대회 사용 특성</div>
+              <p className="text-sm text-gray-300 leading-relaxed">{orch.common_competition_use_notes}</p>
+            </div>
+          )}
+          <div className="grid grid-cols-3 gap-3">
+            <StageBar label="결승" count={stats.finalCount} pct={Math.round((stats.finalCount / (stats.totalAppearances || 1)) * 100)} barClass="bg-red-500/60" />
+            <StageBar label="준결승" count={stats.semifinalCount} pct={Math.round((stats.semifinalCount / (stats.totalAppearances || 1)) * 100)} barClass="bg-orange-500/60" />
+            <StageBar label="예선" count={stats.qualifyingCount} pct={Math.round((stats.qualifyingCount / (stats.totalAppearances || 1)) * 100)} barClass="bg-blue-500/60" />
+          </div>
+          {orch.key_vocalists.length > 0 && (
+            <div>
+              <div className="text-xs text-gray-400 mb-1">보컬리스트</div>
+              <div className="flex flex-wrap gap-1.5">
+                {orch.key_vocalists.map(v => (
+                  <span key={v} className="text-xs px-2 py-0.5 bg-white/5 border border-white/10 rounded-full text-gray-300">{v}</span>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       )}
 
-      {/* 스테이지 분포 */}
-      <div className="px-5 py-4 border-b border-white/5">
-        <h3 className="text-xs font-semibold text-gray-400 mb-3">스테이지 분포</h3>
-        <div className="grid grid-cols-3 gap-3">
-          <StageBar label="결승" count={stats.finalCount} pct={finalPct} barClass="bg-red-500/60" />
-          <StageBar label="준결승" count={stats.semifinalCount} pct={semiFinalPct} barClass="bg-orange-500/60" />
-          <StageBar label="예선" count={stats.qualifyingCount} pct={qualifyingPct} barClass="bg-blue-500/60" />
-        </div>
-        {stats.yearSpread.length > 0 && (
-          <div className="mt-3 flex items-center gap-2 text-xs text-gray-500 flex-wrap">
-            <span>출현 연도:</span>
-            {stats.yearSpread.map(y => (
-              <span key={y} className="px-1.5 py-0.5 bg-white/5 rounded text-gray-400">{y}</span>
-            ))}
-          </div>
-        )}
-      </div>
-
-      {/* 보컬리스트 */}
-      {orch.key_vocalists.length > 0 && (
-        <div className="px-5 py-4 border-b border-white/5">
-          <h3 className="text-xs font-semibold text-gray-400 mb-2">주요 보컬리스트</h3>
-          <div className="flex flex-wrap gap-2">
-            {orch.key_vocalists.map(v => (
-              <span key={v} className="text-xs px-2.5 py-1 bg-white/5 border border-white/10 rounded-lg text-gray-300">{v}</span>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* 인라인 비디오 플레이어 */}
-      {playingVideo && (
-        <div className="mx-5 mt-4 rounded-lg overflow-hidden border border-secretary-gold/20">
-          <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-            <iframe className="absolute inset-0 w-full h-full"
-              src={`https://www.youtube.com/embed/${playingVideo}?autoplay=1`}
-              title="Competition video"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen />
-          </div>
-        </div>
-      )}
-
-      {/* TOP 곡 — 클릭하면 영상 펼침 */}
-      {stats.topSongs.length > 0 && (
-        <div className="px-5 py-4">
-          <h3 className="text-xs font-semibold text-gray-400 mb-3">
-            대회 출현 곡 TOP {stats.topSongs.length} <span className="text-gray-600 font-normal">· 클릭하면 영상</span>
-          </h3>
-          <div className="space-y-0.5">
-            {stats.topSongs.map((sd, i) => {
-              const isExpanded = expandedSong === sd.song.song_id;
-              return (
-                <div key={sd.song.song_id}>
-                  <button
-                    onClick={() => setExpandedSong(isExpanded ? null : sd.song.song_id)}
-                    className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-lg transition-colors text-left ${
-                      isExpanded ? 'bg-secretary-gold/10' : 'hover:bg-white/5'
-                    }`}
-                  >
-                    <span className="text-gray-600 text-xs w-5 text-right">{i + 1}</span>
-                    <div className="flex-1 min-w-0">
-                      <span className={`text-sm font-medium truncate block ${isExpanded ? 'text-secretary-gold' : 'text-white'}`}>
-                        {sd.song.title}
-                      </span>
-                      {sd.song.vocalist && <span className="text-[11px] text-gray-600">{sd.song.vocalist}</span>}
+      {/* ★ 곡 목록 — 메인 콘텐츠 */}
+      <div>
+        <h2 className="text-sm font-semibold text-gray-300 mb-3">
+          대회 출현곡 ({stats.topSongs.length})
+        </h2>
+        <div className="space-y-1">
+          {stats.topSongs.map((sd, i) => {
+            const isExpanded = expandedSong === sd.song.song_id;
+            return (
+              <div key={sd.song.song_id}>
+                {/* 곡 행 */}
+                <button
+                  onClick={() => {
+                    setExpandedSong(isExpanded ? null : sd.song.song_id);
+                    setPlayingVideo(null);
+                  }}
+                  className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all text-left ${
+                    isExpanded
+                      ? 'bg-secretary-gold/10 border border-secretary-gold/30'
+                      : 'bg-white/5 border border-transparent hover:bg-white/8'
+                  }`}
+                >
+                  <span className="text-gray-600 text-xs w-5 text-right font-bold">{i + 1}</span>
+                  <div className="flex-1 min-w-0">
+                    <div className={`text-sm font-medium truncate ${isExpanded ? 'text-secretary-gold' : 'text-white'}`}>
+                      {sd.song.title}
                     </div>
-                    <div className="flex items-center gap-2 flex-shrink-0">
+                    <div className="text-[11px] text-gray-500 mt-0.5">
+                      {sd.song.vocalist || '인스트루멘탈'}
+                      {sd.song.recording_date && ` · ${sd.song.recording_date}`}
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-1.5 flex-shrink-0">
+                    {sd.videos.length > 0 && (
+                      <span className="text-[10px] bg-cyan-500/20 text-cyan-400 px-1.5 py-0.5 rounded-full">▶{sd.videos.length}</span>
+                    )}
+                    <span className="text-xs font-semibold text-secretary-gold">{sd.appearances}회</span>
+                    {sd.finalCount > 0 && (
+                      <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-red-500/20 text-red-400">결{sd.finalCount}</span>
+                    )}
+                  </div>
+                </button>
+
+                {/* 펼침: 영상 + 분석 + 상세 링크 */}
+                {isExpanded && (
+                  <div className="mt-1 mb-2 bg-white/[0.03] rounded-xl border border-white/10 overflow-hidden">
+
+                    {/* 영상 플레이어 (곡 바로 아래) */}
+                    {playingVideo && (
+                      <div className="border-b border-white/10">
+                        <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                          <iframe className="absolute inset-0 w-full h-full"
+                            src={`https://www.youtube.com/embed/${playingVideo}?autoplay=1`}
+                            title={sd.song.title}
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen />
+                        </div>
+                      </div>
+                    )}
+
+                    <div className="p-4 space-y-4">
+
+                      {/* 대회 출전 영상 */}
                       {sd.videos.length > 0 && (
-                        <span className="text-[10px] text-cyan-400">▶{sd.videos.length}</span>
-                      )}
-                      <span className="text-xs text-secretary-gold font-semibold">{sd.appearances}회</span>
-                      {sd.finalCount > 0 && (
-                        <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-red-500/20 text-red-400">결 {sd.finalCount}</span>
-                      )}
-                      <span className="text-gray-600 text-xs">{isExpanded ? '▲' : '▼'}</span>
-                    </div>
-                  </button>
-
-                  {/* 펼침: 영상 목록 + 곡 상세 링크 */}
-                  {isExpanded && (
-                    <div className="ml-8 mr-3 mb-2 mt-1 space-y-2">
-                      <Link to={`/song/${sd.song.song_id}`}
-                        className="inline-flex items-center gap-1 text-xs text-secretary-gold hover:underline">
-                        곡 상세 페이지로 이동 ↗
-                      </Link>
-
-                      {sd.videos.length > 0 ? (
-                        <div className="space-y-1">
-                          {sd.videos.slice(0, 8).map(v => {
-                            const stageLabel = STAGE_LABELS[v.stage] ?? v.stage;
-                            const isPlaying = playingVideo === v.videoId;
-                            return (
-                              <div key={v.videoId} className="flex items-center gap-2">
+                        <div>
+                          <div className="text-xs text-gray-400 mb-2">대회 출전 영상</div>
+                          <div className="space-y-1.5">
+                            {sd.videos.slice(0, 6).map(v => {
+                              const stageLabel = STAGE_LABELS[v.stage] ?? v.stage;
+                              const isPlaying = playingVideo === v.videoId;
+                              return (
                                 <button
+                                  key={v.videoId}
                                   onClick={() => setPlayingVideo(isPlaying ? null : v.videoId)}
-                                  className={`w-7 h-7 rounded-full flex items-center justify-center text-xs flex-shrink-0 transition-colors ${
-                                    isPlaying ? 'bg-secretary-gold text-secretary-dark' : 'bg-white/10 text-secretary-gold hover:bg-secretary-gold/20'
+                                  className={`w-full flex items-center gap-3 px-3 py-2 rounded-lg transition-all text-left ${
+                                    isPlaying
+                                      ? 'bg-secretary-gold/20 border border-secretary-gold/30'
+                                      : 'bg-white/5 hover:bg-white/8 border border-transparent'
                                   }`}
                                 >
-                                  {isPlaying ? '⏸' : '▶'}
+                                  <span className={`text-sm ${isPlaying ? 'text-secretary-gold' : 'text-gray-500'}`}>
+                                    {isPlaying ? '⏸' : '▶'}
+                                  </span>
+                                  <span className="text-sm text-gray-200 flex-1">{v.competition} {v.year}</span>
+                                  <span className={`text-[10px] px-1.5 py-0.5 rounded-full ${
+                                    v.stage === 'final' ? 'bg-red-500/20 text-red-400' :
+                                    v.stage === 'semifinal' ? 'bg-orange-500/20 text-orange-400' :
+                                    'bg-blue-500/20 text-blue-400'
+                                  }`}>{stageLabel}</span>
                                 </button>
-                                <span className="text-xs text-gray-300">{v.competition} {v.year}</span>
-                                <span className={`text-[10px] px-1.5 py-0.5 rounded-full ${
-                                  v.stage === 'final' ? 'bg-red-500/20 text-red-400' :
-                                  v.stage === 'semifinal' ? 'bg-orange-500/20 text-orange-400' :
-                                  'bg-blue-500/20 text-blue-400'
-                                }`}>{stageLabel}</span>
-                                <a href={`https://www.youtube.com/watch?v=${v.videoId}`} target="_blank" rel="noopener noreferrer"
-                                  className="text-gray-600 hover:text-secretary-gold text-xs ml-auto">↗</a>
-                              </div>
-                            );
-                          })}
-                          {sd.videos.length > 8 && (
-                            <div className="text-[10px] text-gray-600 pl-9">+{sd.videos.length - 8}개 더</div>
-                          )}
+                              );
+                            })}
+                            {sd.videos.length > 6 && (
+                              <div className="text-[10px] text-gray-600 px-3">+{sd.videos.length - 6}개 더</div>
+                            )}
+                          </div>
                         </div>
-                      ) : (
-                        <div className="text-xs text-gray-600">영상 없음</div>
                       )}
+
+                      {/* 곡 분석 요약 (DanceGuide) */}
+                      {sd.guide && (
+                        <div>
+                          <div className="text-xs text-gray-400 mb-2">곡 분석</div>
+                          <div className="space-y-2">
+                            <div className="bg-white/5 rounded-lg px-3 py-2">
+                              <span className="text-secretary-gold text-xs mr-2">요약</span>
+                              <span className="text-sm text-gray-200">{sd.guide.summary}</span>
+                            </div>
+                            {sd.guide.competition_tip && (
+                              <div className="bg-white/5 rounded-lg px-3 py-2">
+                                <span className="text-red-400 text-xs mr-2">대회 팁</span>
+                                <span className="text-sm text-gray-200">{sd.guide.competition_tip}</span>
+                              </div>
+                            )}
+                            <div className="flex flex-wrap gap-1.5">
+                              {sd.guide.recommended_moves.slice(0, 4).map(m => (
+                                <span key={m} className="text-[10px] px-2 py-0.5 bg-green-500/10 text-green-400 rounded-full">{m}</span>
+                              ))}
+                              {sd.guide.avoid_moves.slice(0, 2).map(m => (
+                                <span key={m} className="text-[10px] px-2 py-0.5 bg-red-500/10 text-red-400 rounded-full line-through">{m}</span>
+                              ))}
+                            </div>
+                          </div>
+                        </div>
+                      )}
+
+                      {/* 무드 태그 */}
+                      {sd.song.mood_tags.length > 0 && (
+                        <div className="flex flex-wrap gap-1.5">
+                          {sd.song.mood_tags.map(tag => (
+                            <span key={tag} className="text-[10px] px-2 py-0.5 bg-secretary-gold/10 text-secretary-gold rounded-full">{tag}</span>
+                          ))}
+                        </div>
+                      )}
+
+                      {/* 곡 상세 페이지 이동 버튼 */}
+                      <Link
+                        to={`/song/${sd.song.song_id}`}
+                        className="flex items-center justify-center gap-2 w-full px-4 py-3 bg-secretary-gold/10 hover:bg-secretary-gold/20 text-secretary-gold rounded-xl text-sm font-medium transition-colors min-h-[48px]"
+                      >
+                        곡 상세 보기 →
+                      </Link>
                     </div>
-                  )}
-                </div>
-              );
-            })}
-          </div>
+                  </div>
+                )}
+              </div>
+            );
+          })}
         </div>
-      )}
+      </div>
     </div>
   );
 }
