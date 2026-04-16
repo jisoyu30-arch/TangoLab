@@ -33,7 +33,7 @@ export function TangoLayout() {
         {/* 메인 콘텐츠 */}
         <main className="flex-1 flex flex-col overflow-hidden w-full">
           {/* 페이지 콘텐츠 — 모바일에서는 하단 탭 높이만큼 패딩 */}
-          <div className="flex-1 overflow-hidden pb-16 md:pb-0">
+          <div className="flex-1 flex flex-col overflow-hidden pb-16 md:pb-0">
             <Outlet />
           </div>
 
