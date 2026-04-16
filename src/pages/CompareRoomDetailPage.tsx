@@ -1,13 +1,20 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
+import { PageHeader } from '../components/PageHeader';
 import { usePracticeStore } from '../hooks/usePracticeStore';
 import { extractYouTubeId } from '../utils/tangoHelpers';
+import songsData from '../data/songs.json';
+import type { Song } from '../types/tango';
+
+const songs = songsData as Song[];
 
 export function CompareRoomDetailPage() {
   const { id } = useParams();
   const navigate = useNavigate();
   const { compareSessions, updateCompareSession, deleteCompareSession } = usePracticeStore();
   const session = compareSessions.find(s => s.id === id);
+
+  const connectedSong = useMemo(() => session?.song_id ? songs.find(s => s.song_id === session.song_id) : null, [session?.song_id]);
 
   const [refUrl, setRefUrl] = useState(session?.reference_video_url ?? '');
   const [ownUrl, setOwnUrl] = useState(session?.own_video_url ?? '');
@@ -55,19 +62,16 @@ export function CompareRoomDetailPage() {
 
   return (
     <>
-      <header className="h-14 border-b border-secretary-gold/20 flex items-center justify-between px-5 flex-shrink-0">
-        <div className="flex items-center gap-3">
-          <button onClick={() => navigate('/compare')}
-            className="text-gray-400 hover:text-secretary-gold text-sm transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center">
-            ←
+      <PageHeader
+        title={session.title}
+        onBack={() => navigate('/compare')}
+        right={
+          <button onClick={handleDelete}
+            className="text-xs text-gray-600 hover:text-red-400 px-2 py-1 transition-colors">
+            삭제
           </button>
-          <h2 className="text-sm font-semibold text-gray-300 truncate">{session.title}</h2>
-        </div>
-        <button onClick={handleDelete}
-          className="text-xs text-gray-600 hover:text-red-400 px-2 py-1 transition-colors">
-          삭제
-        </button>
-      </header>
+        }
+      />
 
       <div className="flex-1 overflow-y-auto">
         <div className="max-w-4xl mx-auto p-5 space-y-6">
@@ -183,13 +187,22 @@ export function CompareRoomDetailPage() {
           </div>
 
           {/* 연결된 곡 */}
-          {session.song_id && (
-            <Link
-              to={`/song/${session.song_id}`}
-              className="flex items-center justify-center gap-2 w-full px-4 py-3 bg-secretary-gold/10 hover:bg-secretary-gold/20 text-secretary-gold rounded-xl text-sm font-medium transition-colors min-h-[48px]"
-            >
-              연결된 곡 상세 보기 →
-            </Link>
+          {session.song_id && connectedSong && (
+            <div className="bg-white/5 rounded-xl border border-secretary-gold/10 p-4">
+              <div className="text-xs text-gray-400 mb-2">연결된 곡</div>
+              <div className="flex items-center justify-between">
+                <div>
+                  <div className="text-white font-medium">{connectedSong.title}</div>
+                  <div className="text-xs text-gray-500 mt-0.5">{connectedSong.orchestra} · {connectedSong.vocalist || '인스트루멘탈'}</div>
+                </div>
+                <Link
+                  to={`/song/${session.song_id}`}
+                  className="px-3 py-2 bg-secretary-gold/10 hover:bg-secretary-gold/20 text-secretary-gold rounded-lg text-xs font-medium transition-colors min-h-[36px] flex items-center"
+                >
+                  곡 상세 →
+                </Link>
+              </div>
+            </div>
           )}
         </div>
       </div>

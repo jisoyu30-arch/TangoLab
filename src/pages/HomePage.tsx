@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { PageHeader } from '../components/PageHeader';
 import { usePracticeStore } from '../hooks/usePracticeStore';
 import { useRecentItems } from '../hooks/useRecentItems';
 import { computeRankings } from '../utils/tangoRanking';
@@ -43,13 +44,14 @@ export function HomePage() {
   }, [compareSessions]);
 
   return (
+    <>
+    <PageHeader title="석정소유의 탱고랩" />
     <div className="flex-1 overflow-y-auto">
       <div className="max-w-3xl mx-auto p-5 space-y-6">
 
         {/* 1. 헤더 */}
         <div>
-          <h1 className="text-xl font-bold text-secretary-gold">석정소유의 탱고랩</h1>
-          <p className="text-sm text-gray-400 mt-1">대회곡 연구, 비교 연습, 전략 메모를 한곳에서</p>
+          <p className="text-sm text-gray-400">대회곡 연구, 비교 연습, 전략 메모를 한곳에서</p>
         </div>
 
         {/* 2. 통합 검색 */}
@@ -203,6 +205,7 @@ export function HomePage() {
         <div className="h-4" />
       </div>
     </div>
+    </>
   );
 }
 

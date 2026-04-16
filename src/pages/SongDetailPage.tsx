@@ -1,4 +1,5 @@
 import { useParams, Link, useNavigate } from 'react-router-dom';
+import { PageHeader } from '../components/PageHeader';
 import { useMemo, useState, useEffect } from 'react';
 import { DanceAnalysis } from '../components/tango/DanceAnalysis';
 import { TrainingStatusPanel } from '../components/tango/TrainingStatusPanel';
@@ -153,8 +154,8 @@ export function SongDetailPage() {
 
   const handleAddToCompare = () => {
     if (!id || !song) return;
-    addCompareSession(song.title, id);
-    navigate(`/compare`);
+    const sessionId = addCompareSession(song.title, id);
+    navigate(`/compare/${sessionId}`);
   };
   const songAppearances = useMemo(() => id ? getAppearancesForSong(id, appearances) : [], [id]);
   const trend = useMemo(() => id ? getYearlyTrend(id, appearances) : [], [id]);
@@ -187,10 +188,7 @@ export function SongDetailPage() {
 
   return (
     <>
-      <header className="h-14 border-b border-secretary-gold/20 flex items-center px-5 flex-shrink-0">
-        <Link to="/" className="text-gray-400 hover:text-secretary-gold text-sm mr-3">← 목록</Link>
-        <h2 className="text-sm font-semibold text-gray-300 truncate">{song.title}</h2>
-      </header>
+      <PageHeader title={song.title} onBack={() => navigate(-1)} />
 
       <div className="flex-1 overflow-y-auto">
         <div className="max-w-4xl mx-auto p-5 space-y-6">
@@ -199,7 +197,13 @@ export function SongDetailPage() {
             <div className="flex items-start justify-between mb-4">
               <div>
                 <h1 className="text-2xl font-bold text-white mb-1">{song.title}</h1>
-                <p className="text-secretary-gold text-sm">{song.orchestra ?? '오케스트라 미확인'}</p>
+                {song.orchestra_id ? (
+                  <Link to={`/orchestra?id=${song.orchestra_id}`} className="text-secretary-gold text-sm hover:underline">
+                    {song.orchestra ?? '오케스트라 미확인'} →
+                  </Link>
+                ) : (
+                  <p className="text-secretary-gold text-sm">{song.orchestra ?? '오케스트라 미확인'}</p>
+                )}
               </div>
               {rank > 0 && (
                 <div className="bg-secretary-gold/20 rounded-xl px-4 py-2 text-center flex-shrink-0">
@@ -245,15 +249,21 @@ export function SongDetailPage() {
                 </button>
                 {showBoardPicker && (
                   <div className="absolute top-full left-0 mt-1 bg-secretary-navy border border-secretary-gold/20 rounded-lg shadow-xl z-20 min-w-[200px]">
-                    {boards.length > 0 ? boards.map(b => (
-                      <button
-                        key={b.id}
-                        onClick={() => handleSaveToBoard(b.id)}
-                        className="w-full text-left px-4 py-2.5 hover:bg-white/5 text-sm text-gray-300 transition-colors"
-                      >
-                        {b.title} <span className="text-gray-600">({b.song_ids.length}곡)</span>
-                      </button>
-                    )) : (
+                    {boards.length > 0 ? boards.map(b => {
+                      const alreadyAdded = id ? b.song_ids.includes(id) : false;
+                      return (
+                        <button
+                          key={b.id}
+                          onClick={() => !alreadyAdded && handleSaveToBoard(b.id)}
+                          className={`w-full text-left px-4 py-2.5 text-sm transition-colors flex items-center justify-between ${
+                            alreadyAdded ? 'text-gray-600 cursor-default' : 'text-gray-300 hover:bg-white/5'
+                          }`}
+                        >
+                          <span>{b.title} <span className="text-gray-600">({b.song_ids.length}곡)</span></span>
+                          {alreadyAdded && <span className="text-green-400 text-xs">✓ 추가됨</span>}
+                        </button>
+                      );
+                    }) : (
                       <div className="px-4 py-3 text-xs text-gray-500">
                         보드가 없습니다.{' '}
                         <Link to="/practice" className="text-secretary-gold hover:underline">만들기 →</Link>

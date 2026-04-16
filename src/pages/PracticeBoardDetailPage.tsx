@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
+import { PageHeader } from '../components/PageHeader';
 import { usePracticeStore } from '../hooks/usePracticeStore';
 import songsData from '../data/songs.json';
 import type { Song } from '../types/tango';
@@ -49,19 +50,16 @@ export function PracticeBoardDetailPage() {
 
   return (
     <>
-      <header className="h-14 border-b border-secretary-gold/20 flex items-center justify-between px-5 flex-shrink-0">
-        <div className="flex items-center gap-3">
-          <button onClick={() => navigate('/practice')}
-            className="text-gray-400 hover:text-secretary-gold text-sm transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center">
-            ←
+      <PageHeader
+        title={board.title}
+        onBack={() => navigate('/practice')}
+        right={
+          <button onClick={handleDelete}
+            className="text-xs text-gray-600 hover:text-red-400 px-2 py-1 transition-colors">
+            삭제
           </button>
-          <h2 className="text-sm font-semibold text-gray-300 truncate">{board.title}</h2>
-        </div>
-        <button onClick={handleDelete}
-          className="text-xs text-gray-600 hover:text-red-400 px-2 py-1 transition-colors">
-          삭제
-        </button>
-      </header>
+        }
+      />
 
       <div className="flex-1 overflow-y-auto">
         <div className="max-w-3xl mx-auto p-5 space-y-6">

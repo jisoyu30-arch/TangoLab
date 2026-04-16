@@ -1,5 +1,6 @@
-import { useState, useMemo } from 'react';
-import { Link } from 'react-router-dom';
+import { useState, useMemo, useEffect } from 'react';
+import { Link, useSearchParams } from 'react-router-dom';
+import { PageHeader } from '../components/PageHeader';
 import songsData from '../data/songs.json';
 import appearancesData from '../data/appearances.json';
 import orchestrasData from '../data/orchestras.json';
@@ -149,19 +150,33 @@ function computeOrchestraStats(): OrchestraStats[] {
 
 export function OrchestraAnalysisPage() {
   const stats = useMemo(() => computeOrchestraStats(), []);
-  const [selectedOrchId, setSelectedOrchId] = useState<string | null>(null);
+  const [searchParams] = useSearchParams();
+  const [selectedOrchId, setSelectedOrchId] = useState<string | null>(searchParams.get('id'));
+
+  // URL 파라미터로 악단 자동 선택 (곡 상세 → 악단 링크)
+  useEffect(() => {
+    const idParam = searchParams.get('id');
+    if (idParam) setSelectedOrchId(idParam);
+  }, [searchParams]);
 
   const selected = useMemo(
     () => stats.find(s => s.orchestra.orchestra_id === selectedOrchId) ?? null,
     [stats, selectedOrchId],
   );
-  const ranked = useMemo(() => stats.filter(s => s.totalAppearances > 0), [stats]);
+  const [orchSearch, setOrchSearch] = useState('');
+  const ranked = useMemo(() => {
+    const all = stats.filter(s => s.totalAppearances > 0);
+    if (!orchSearch.trim()) return all;
+    const q = orchSearch.toLowerCase();
+    return all.filter(s =>
+      s.orchestra.orchestra_name.toLowerCase().includes(q) ||
+      s.orchestra.alt_names.some(n => n.toLowerCase().includes(q))
+    );
+  }, [stats, orchSearch]);
 
   return (
     <>
-      <header className="h-14 border-b border-secretary-gold/20 flex items-center px-5 flex-shrink-0">
-        <h2 className="text-sm font-semibold text-gray-300">악단 연구</h2>
-      </header>
+      <PageHeader title="악단 연구" />
 
       <div className="flex-1 overflow-y-auto">
         <div className="max-w-5xl mx-auto p-5 space-y-5">
@@ -173,6 +188,13 @@ export function OrchestraAnalysisPage() {
                 <h1 className="text-xl font-bold text-secretary-gold mb-1">악단 연구</h1>
                 <p className="text-gray-400 text-sm">악단을 선택하면 대회 출현곡과 영상을 볼 수 있습니다</p>
               </div>
+              <input
+                type="text"
+                value={orchSearch}
+                onChange={e => setOrchSearch(e.target.value)}
+                placeholder="악단 이름 검색..."
+                className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-secretary-gold/50"
+              />
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                 {ranked.map((os, i) => {
                   const shortName = os.orchestra.alt_names[0] || os.orchestra.orchestra_name.split(' ')[0];

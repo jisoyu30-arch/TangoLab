@@ -110,9 +110,10 @@ export function usePracticeStore() {
     });
   };
 
-  const addCompareSession = (title: string, songId: string | null, referenceVideoUrl: string = '', ownVideoUrl: string = '') => {
+  const addCompareSession = (title: string, songId: string | null, referenceVideoUrl: string = '', ownVideoUrl: string = ''): string => {
+    const sessionId = `compare-${Date.now()}`;
     const newSession: CompareSession = {
-      id: `compare-${Date.now()}`,
+      id: sessionId,
       title,
       song_id: songId,
       reference_video_url: referenceVideoUrl,
@@ -127,6 +128,7 @@ export function usePracticeStore() {
       updated_at: new Date().toISOString()
     };
     persistData({ ...data, compareSessions: [...data.compareSessions, newSession] });
+    return sessionId;
   };
 
   const updateCompareSession = (id: string, updates: Partial<CompareSession>) => {

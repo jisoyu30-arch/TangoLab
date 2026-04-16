@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
+import { PageHeader } from '../components/PageHeader';
 import roundsData from '../data/competition_rounds.json';
 import songsData from '../data/songs.json';
 import appearancesData from '../data/appearances.json';
@@ -140,6 +141,7 @@ export function TandaLabPage() {
   const [stageFilter, setStageFilter] = useState<string>('all');
   const [categoryFilter, setCategoryFilter] = useState<string>('all');
   const [compFilter, setCompFilter] = useState<string>('all');
+  const [yearFilter, setYearFilter] = useState<string>('all');
   const [selectedSongId, setSelectedSongId] = useState<string | null>(null);
   const [expandedTandaId, setExpandedTandaId] = useState<string | null>(null);
 
@@ -148,6 +150,11 @@ export function TandaLabPage() {
   const competitions = useMemo(() => {
     const set = new Set(tandas.map(t => t.competition));
     return Array.from(set).sort();
+  }, [tandas]);
+
+  const years = useMemo(() => {
+    const set = new Set(tandas.map(t => t.year));
+    return Array.from(set).sort((a, b) => b - a);
   }, [tandas]);
 
   const coMap = useMemo(() => {
@@ -184,13 +191,14 @@ export function TandaLabPage() {
       if (stageFilter !== 'all' && t.stage !== stageFilter) return false;
       if (categoryFilter !== 'all' && t.category !== categoryFilter) return false;
       if (compFilter !== 'all' && t.competition !== compFilter) return false;
+      if (yearFilter !== 'all' && t.year !== Number(yearFilter)) return false;
       if (searchQuery && !selectedSongId) {
         const q = searchQuery.toLowerCase();
         return t.songs.some(s => s.title.toLowerCase().includes(q) || s.orchestra.toLowerCase().includes(q));
       }
       return true;
     });
-  }, [tandas, stageFilter, categoryFilter, compFilter, searchQuery, selectedSongId]);
+  }, [tandas, stageFilter, categoryFilter, compFilter, yearFilter, searchQuery, selectedSongId]);
 
   const searchCandidates = useMemo(() => {
     if (!searchQuery || searchQuery.length < 2 || selectedSongId) return [];
@@ -217,9 +225,7 @@ export function TandaLabPage() {
 
   return (
     <>
-      <header className="h-14 border-b border-secretary-gold/20 flex items-center px-5 flex-shrink-0">
-        <h2 className="text-sm font-semibold text-gray-300">탄다 연구소</h2>
-      </header>
+      <PageHeader title="탄다 연구소" />
 
       <div className="flex-1 overflow-y-auto">
         <div className="max-w-5xl mx-auto p-5 space-y-6">
@@ -320,6 +326,11 @@ export function TandaLabPage() {
                 전체 탄다 ({filtered.length})
               </h3>
               <div className="flex gap-2 flex-wrap">
+                <select value={yearFilter} onChange={e => setYearFilter(e.target.value)}
+                  className="bg-white/5 border border-white/10 rounded-lg px-2 py-1.5 text-xs text-gray-300">
+                  <option value="all">전체 연도</option>
+                  {years.map(y => <option key={y} value={y}>{y}</option>)}
+                </select>
                 <select value={compFilter} onChange={e => setCompFilter(e.target.value)}
                   className="bg-white/5 border border-white/10 rounded-lg px-2 py-1.5 text-xs text-gray-300">
                   <option value="all">전체 대회</option>

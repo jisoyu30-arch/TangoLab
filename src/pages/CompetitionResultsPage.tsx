@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
+import { PageHeader } from '../components/PageHeader';
 import mundialData from '../data/mundial_results.json';
 import roundsData from '../data/competition_rounds.json';
 
@@ -355,10 +356,7 @@ export function CompetitionResultsPage() {
 
   return (
     <>
-      <header className="h-14 border-b border-secretary-gold/20 flex items-center px-5 flex-shrink-0">
-        <Link to="/tango" className="text-gray-400 hover:text-secretary-gold text-sm mr-3">← 목록</Link>
-        <h2 className="text-sm font-semibold text-gray-300">대회 순위</h2>
-      </header>
+      <PageHeader title="대회 순위" />
 
       <div className="flex-1 overflow-y-auto">
         <div className="max-w-5xl mx-auto p-5 space-y-5">

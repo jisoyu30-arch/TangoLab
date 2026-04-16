@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { askGemini } from '../lib/gemini';
+import { PageHeader } from '../components/PageHeader';
 import type { ConversationMessage } from '../lib/gemini';
 
 interface ChatMessage {
@@ -110,20 +111,22 @@ export function TangoChatPage() {
 
   return (
     <>
-      <header className="h-14 border-b border-secretary-gold/20 flex items-center justify-between px-5 flex-shrink-0">
-        <h2 className="text-sm font-semibold text-gray-300">탱고 Q&A</h2>
-        <div className="flex items-center gap-3">
-          <span className="text-xs text-gray-500">{messages.length > 0 ? `${messages.length}개 저장됨` : ''}</span>
-          {messages.length > 0 && (
-            <button
-              onClick={handleClearAll}
-              className="text-xs text-red-400/60 hover:text-red-400 transition-colors"
-            >
-              전체 삭제
-            </button>
-          )}
-        </div>
-      </header>
+      <PageHeader
+        title="탱고 Q&A"
+        right={
+          <div className="flex items-center gap-3">
+            <span className="text-xs text-gray-500">{messages.length > 0 ? `${messages.length}개 저장됨` : ''}</span>
+            {messages.length > 0 && (
+              <button
+                onClick={handleClearAll}
+                className="text-xs text-red-400/60 hover:text-red-400 transition-colors"
+              >
+                전체 삭제
+              </button>
+            )}
+          </div>
+        }
+      />
 
       <div className="flex-1 overflow-y-auto p-5 space-y-4">
         {messages.length === 0 && !loading && (

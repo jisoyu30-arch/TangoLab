@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { PageHeader } from '../components/PageHeader';
 import { SongFilters } from '../components/tango/SongFilters';
 import { SongList } from '../components/tango/SongList';
 import { SongRankingChart } from '../components/tango/SongRankingChart';
@@ -74,9 +75,7 @@ export function TangoArchivePage() {
 
   return (
     <>
-      <header className="h-14 border-b border-secretary-gold/20 flex items-center px-5 flex-shrink-0">
-        <h2 className="text-sm font-semibold text-gray-300">석정소유의 탱고랩</h2>
-      </header>
+      <PageHeader title="곡 아카이브" />
 
       <div className="flex-1 overflow-y-auto">
         <div className="max-w-6xl mx-auto p-5 space-y-6">
