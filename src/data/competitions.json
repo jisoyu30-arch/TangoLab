@@ -125,5 +125,23 @@
       }
     },
     "notes": "Korea Tango Cooperative 주관 한국 탱고 챔피언십. Pista, Singles, New Star, Jack&Jill 등 다양한 부문."
+  },
+  {
+    "competition_id": "COMP-006",
+    "competition_name": "Tango Dance Asian Championship (TDAC)",
+    "alt_names": [
+      "TDAC"
+    ],
+    "organizer": "TDAC Japan",
+    "country": "Japan",
+    "city": "Tokyo",
+    "official_status": "semi-official",
+    "category_system": {
+      "tango_de_pista": {
+        "music_selection": "organization",
+        "format": "group_competition"
+      }
+    },
+    "notes": "일본 도쿄 아시안 탱고 챔피언십 - Mundial de tango ciudad 2025 공식 예선"
   }
 ]

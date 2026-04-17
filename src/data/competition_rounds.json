@@ -1954,6 +1954,984 @@
         }
       ],
       "total_couples": 10
+    },
+    {
+      "round_id": "R-PTC2023-TANGO_DE_PISTA-S1",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2023,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-464",
+          "title": "Lilián",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-027",
+          "title": "Pata Ancha",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-378",
+          "title": "El Pollo Ricardo",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "BItM4JJQjAE",
+          "url": "https://www.youtube.com/watch?v=BItM4JJQjAE",
+          "channel": "Korea Tango Cooperative",
+          "title": "2023 Pacific Tango Championship - Tango de Pista . Semi Final 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-TANGO_DE_PISTA-Q2",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-056",
+          "title": "Siete Palabras",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-465",
+          "title": "Cascabelito",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-293",
+          "title": "Si la Llegaran a Ver",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "ZMxqWVXhDTw",
+          "url": "https://www.youtube.com/watch?v=ZMxqWVXhDTw",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Tango de Pista Qualification Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-TANGO_DE_PISTA-Q3",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-035",
+          "title": "Nueve Puntos",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-466",
+          "title": "Maleza",
+          "orchestra": "Alberto Morán",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-467",
+          "title": "Humillación",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "rdVCmMfKOXw",
+          "url": "https://www.youtube.com/watch?v=rdVCmMfKOXw",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Tango de Pista Qualification Ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-TANGO_DE_PISTA-F1",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "U-E7EPi31xw",
+          "url": "https://www.youtube.com/watch?v=U-E7EPi31xw",
+          "channel": "한선우",
+          "title": "Pista Final - 2025 Pacific Tango Championship"
+        }
+      ]
+    },
+    {
+      "round_id": "R-TDAC2024-TANGO_DE_PISTA-F1",
+      "competition": "TDAC",
+      "competition_id": "COMP-006",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-468",
+          "title": "Marrón y Azul",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-050",
+          "title": "Bailongo de los Domingos",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-030",
+          "title": "Paciencia",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": []
+    },
+    {
+      "round_id": "R-TDAC2025-TANGO_DE_PISTA-S2",
+      "competition": "TDAC",
+      "competition_id": "COMP-006",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "0gWmi4kcG34",
+          "url": "https://www.youtube.com/watch?v=0gWmi4kcG34",
+          "channel": "TANGLE",
+          "title": "2025 TANGO DANCE ASIAN CHAMPIONSHIP PISTA SEMI FINAL GROUP B"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2025-TANGO_DE_PISTA-Q1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-469",
+          "title": "Que No Sepan las Estrellas",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-094",
+          "title": "Derecho Viejo",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-170",
+          "title": "Nada Mas",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "eadGQvhVfcg",
+          "url": "https://www.youtube.com/watch?v=eadGQvhVfcg",
+          "channel": "Epitone Jin",
+          "title": "2025 KTC Pista International preliminary No.1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2025-TANGO_DE_PISTA-Q2",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-470",
+          "title": "Una Emoción",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-394",
+          "title": "Madame Ivonne",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-471",
+          "title": "Ahora No Me Conoces",
+          "orchestra": "Rodolfo Biagi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "0foXHSle3H4",
+          "url": "https://www.youtube.com/watch?v=0foXHSle3H4",
+          "channel": "Epitone Jin",
+          "title": "2025 KTC Pista International preliminary No.2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2025-TANGO_DE_PISTA-Q4",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 4,
+      "songs": [
+        {
+          "song_id": "SONG-162",
+          "title": "La Morocha",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-232",
+          "title": "Flor de Tango",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-127",
+          "title": "Ya Lo Ves",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "dh1RJUGUOes",
+          "url": "https://www.youtube.com/watch?v=dh1RJUGUOes",
+          "channel": "Epitone Jin",
+          "title": "2025 KTC Pista International preliminary No.4"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2023-TANGO_DE_PISTA-S3",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2023,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-472",
+          "title": "Corazón No Le Digas a Nadie",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-248",
+          "title": "El rodeo",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-099",
+          "title": "Por Qué Razón",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "lN_T5E1AYtE",
+          "url": "https://www.youtube.com/watch?v=lN_T5E1AYtE",
+          "channel": "Korea Tango Cooperative",
+          "title": "2023 Korea Tango Championship : Tango de pista C (Semifinal Ronda 3)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2023-TANGO_DE_PISTA-S4",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2023,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 4,
+      "songs": [
+        {
+          "song_id": "SONG-473",
+          "title": "A las Siete en el Café",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-474",
+          "title": "No Te Apures Cara Blanca",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-131",
+          "title": "Una Noche de Garufa",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "nuxo3E9PMrQ",
+          "url": "https://www.youtube.com/watch?v=nuxo3E9PMrQ",
+          "channel": "Korea Tango Cooperative",
+          "title": "2023 Korea Tango Championship : Tango de pista D (Semifinal Ronda 4)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2023-TANGO_DE_PISTA-Q2",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2023,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-409",
+          "title": "Don Jose Maria",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-475",
+          "title": "Patético",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-038",
+          "title": "Comparsa Criolla",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "9q_Tvz0MM1w",
+          "url": "https://www.youtube.com/watch?v=9q_Tvz0MM1w",
+          "channel": "Korea Tango Cooperative",
+          "title": "2023 Korea Tango Championship : Tango de pista B (Preliminaries Ronda 2)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-S1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-197",
+          "title": "La Madrugada",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-476",
+          "title": "Nueve Puntos",
+          "orchestra": "Alfredo Gobbi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-036",
+          "title": "Te Aconsejo Que Me Olvides",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "YK0o6DgB6X8",
+          "url": "https://www.youtube.com/watch?v=YK0o6DgB6X8",
+          "channel": "AiresDeMilonga",
+          "title": "1 TANGO BAILE PISTA semifinal MUNDIAL DE TANGO 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-S4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 4,
+      "songs": [
+        {
+          "song_id": "SONG-056",
+          "title": "Siete Palabras",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-477",
+          "title": "Remembranzas",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-057",
+          "title": "El Olivo",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "J2aG0o0_T_w",
+          "url": "https://www.youtube.com/watch?v=J2aG0o0_T_w",
+          "channel": "AiresDeMilonga",
+          "title": "4 TANGO BAILE PISTA semifinal MUNDIAL DE TANGO 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-S5",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 5,
+      "songs": [
+        {
+          "song_id": "SONG-236",
+          "title": "Tres Esquinas",
+          "orchestra": "Ángel Vargas",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-478",
+          "title": "Por la vuelta",
+          "orchestra": "José Basso y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-033",
+          "title": "Yapeyú",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "2YL4PaMDSD0",
+          "url": "https://www.youtube.com/watch?v=2YL4PaMDSD0",
+          "channel": "AiresDeMilonga",
+          "title": "5 TANGO BAILE PISTA semifinal MUNDIAL DE TANGO 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-S9",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 9,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "sOGN9OZh4do",
+          "url": "https://www.youtube.com/watch?v=sOGN9OZh4do",
+          "channel": "AiresDeMilonga",
+          "title": "9 TANGO BAILE PISTA semifinal MUNDIAL DE TANGO 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-S11",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 11,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "bcDvXYCSJ_k",
+          "url": "https://www.youtube.com/watch?v=bcDvXYCSJ_k",
+          "channel": "AiresDeMilonga",
+          "title": "11 TANGO BAILE PISTA semifinal MUNDIAL DE TANGO 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-S12",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 12,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "AbV3n-VkZU0",
+          "url": "https://www.youtube.com/watch?v=AbV3n-VkZU0",
+          "channel": "AiresDeMilonga",
+          "title": "12 TANGO BAILE PISTA semifinal MUNDIAL DE TANGO 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-S13",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 13,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "S1HemLlHyzQ",
+          "url": "https://www.youtube.com/watch?v=S1HemLlHyzQ",
+          "channel": "AiresDeMilonga",
+          "title": "13 TANGO BAILE PISTA semifinal MUNDIAL DE TANGO 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-S14",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 14,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "VPZa_qgJkoI",
+          "url": "https://www.youtube.com/watch?v=VPZa_qgJkoI",
+          "channel": "AiresDeMilonga",
+          "title": "14 TANGO BAILE PISTA semifinal MUNDIAL DE TANGO 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-S15",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 15,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "c0Qgmv5FNU8",
+          "url": "https://www.youtube.com/watch?v=c0Qgmv5FNU8",
+          "channel": "AiresDeMilonga",
+          "title": "15 TANGO BAILE PISTA semifinal MUNDIAL DE TANGO 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-S16",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 16,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "gmQQPA_qbGs",
+          "url": "https://www.youtube.com/watch?v=gmQQPA_qbGs",
+          "channel": "AiresDeMilonga",
+          "title": "16 TANGO BAILE PISTA semifinal MUNDIAL DE TANGO 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "G44JhXuNjVY",
+          "url": "https://www.youtube.com/watch?v=G44JhXuNjVY",
+          "channel": "AiresDeMilonga",
+          "title": "03 Ronda tango pista Mundial de Tango 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "1doo7h-f02Y",
+          "url": "https://www.youtube.com/watch?v=1doo7h-f02Y",
+          "channel": "AiresDeMilonga",
+          "title": "04 Ronda tango pista Mundial de Tango 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q5",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 5,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "Trg6H7AAOmk",
+          "url": "https://www.youtube.com/watch?v=Trg6H7AAOmk",
+          "channel": "AiresDeMilonga",
+          "title": "05 Ronda tango pista Mundial de Tango 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q6",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 6,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "cd6O-i2MQCM",
+          "url": "https://www.youtube.com/watch?v=cd6O-i2MQCM",
+          "channel": "AiresDeMilonga",
+          "title": "06 Ronda tango pista Mundial de Tango 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q7",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 7,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "EG18_3upbuc",
+          "url": "https://www.youtube.com/watch?v=EG18_3upbuc",
+          "channel": "AiresDeMilonga",
+          "title": "07 Ronda tango pista Mundial de Tango 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q9",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 9,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "2HfXNMW7hLg",
+          "url": "https://www.youtube.com/watch?v=2HfXNMW7hLg",
+          "channel": "AiresDeMilonga",
+          "title": "09 Ronda tango pista Mundial de Tango 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q10",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 10,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "EtPAJJAWhyc",
+          "url": "https://www.youtube.com/watch?v=EtPAJJAWhyc",
+          "channel": "AiresDeMilonga",
+          "title": "10 Ronda tango pista Mundial de Tango 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q11",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 11,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "ogb57pxO4U4",
+          "url": "https://www.youtube.com/watch?v=ogb57pxO4U4",
+          "channel": "AiresDeMilonga",
+          "title": "11 Ronda tango pista Mundial de Tango 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q12",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 12,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "Q2-HETuBtpo",
+          "url": "https://www.youtube.com/watch?v=Q2-HETuBtpo",
+          "channel": "AiresDeMilonga",
+          "title": "12 Ronda tango pista Mundial de Tango 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q13",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 13,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "sfJz3PdDEqA",
+          "url": "https://www.youtube.com/watch?v=sfJz3PdDEqA",
+          "channel": "AiresDeMilonga",
+          "title": "13 Ronda tango pista Mundial de Tango 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q14",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 14,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "epirzaGi72A",
+          "url": "https://www.youtube.com/watch?v=epirzaGi72A",
+          "channel": "AiresDeMilonga",
+          "title": "14 Ronda tango pista Mundial de Tango 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q19",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 19,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "xVMtRSEFnFw",
+          "url": "https://www.youtube.com/watch?v=xVMtRSEFnFw",
+          "channel": "AiresDeMilonga",
+          "title": "19 Ronda tango pista Mundial de Tango 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q20",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 20,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "XRlxV5iNRa8",
+          "url": "https://www.youtube.com/watch?v=XRlxV5iNRa8",
+          "channel": "AiresDeMilonga",
+          "title": "20 Ronda tango pista Mundial de Tango 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q21",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 21,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "4kzoYP-vFps",
+          "url": "https://www.youtube.com/watch?v=4kzoYP-vFps",
+          "channel": "AiresDeMilonga",
+          "title": "21 Ronda tango pista Mundial de Tango 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q22",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 22,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "7wzoCSNbUyM",
+          "url": "https://www.youtube.com/watch?v=7wzoCSNbUyM",
+          "channel": "AiresDeMilonga",
+          "title": "22 Ronda tango pista Mundial de Tango 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q23",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 23,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "vDschfFE2Xo",
+          "url": "https://www.youtube.com/watch?v=vDschfFE2Xo",
+          "channel": "AiresDeMilonga",
+          "title": "23 Ronda tango pista Mundial de Tango 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q25",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 25,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "Er7zMDuy1Nk",
+          "url": "https://www.youtube.com/watch?v=Er7zMDuy1Nk",
+          "channel": "AiresDeMilonga",
+          "title": "25 Ronda tango pista Mundial de Tango 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q26",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 26,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "ibC6EVIZws0",
+          "url": "https://www.youtube.com/watch?v=ibC6EVIZws0",
+          "channel": "AiresDeMilonga",
+          "title": "26 Ronda tango pista Mundial de Tango 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q27",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 27,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "-DchFarDGzc",
+          "url": "https://www.youtube.com/watch?v=-DchFarDGzc",
+          "channel": "AiresDeMilonga",
+          "title": "27 Ronda tango pista Mundial de Tango 2025"
+        }
+      ]
     }
   ]
 }

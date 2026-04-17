@@ -221,11 +221,25 @@
   {
     "orchestra_id": "ORCH-009",
     "orchestra_name": "Rodolfo Biagi y su Orquesta Típica",
-    "alt_names": ["Biagi", "Rodolfo Biagi"],
+    "alt_names": [
+      "Biagi",
+      "Rodolfo Biagi"
+    ],
     "active_era": "1938-1969",
-    "style_tags": ["rhythmic", "staccato", "energetic", "fast_tempo", "marcato"],
+    "style_tags": [
+      "rhythmic",
+      "staccato",
+      "energetic",
+      "fast_tempo",
+      "marcato"
+    ],
     "common_competition_use_notes": "D'Arienzo 오케스트라에서 피아니스트로 활동 후 독립. 매우 빠르고 날카로운 리듬이 특징. 스타카토 피아노가 트레이드마크. 밀롱가에서 특히 인기. 대회에서는 에너지 넘치는 론다에 사용되며, 빠른 반응과 정확한 스텝이 요구됨.",
-    "key_vocalists": ["Jorge Ortiz", "Hugo Duval", "Carlos Acuña", "Alberto Amor"],
+    "key_vocalists": [
+      "Jorge Ortiz",
+      "Hugo Duval",
+      "Carlos Acuña",
+      "Alberto Amor"
+    ],
     "representative_songs": [
       "SONG-060"
     ]
@@ -233,11 +247,25 @@
   {
     "orchestra_id": "ORCH-011",
     "orchestra_name": "Osvaldo Fresedo y su Orquesta Típica",
-    "alt_names": ["Fresedo", "Osvaldo Fresedo"],
+    "alt_names": [
+      "Fresedo",
+      "Osvaldo Fresedo"
+    ],
     "active_era": "1925-1980",
-    "style_tags": ["elegant", "refined", "melodic", "smooth", "romantic"],
+    "style_tags": [
+      "elegant",
+      "refined",
+      "melodic",
+      "smooth",
+      "romantic"
+    ],
     "common_competition_use_notes": "탱고의 귀족으로 불림. 세련되고 우아한 사운드가 특징. 바이올린 멜로디 라인이 아름다우며, 느리고 감성적인 춤에 적합. 발스와 탱고 모두에서 사용. 대회에서는 우아한 카미나타와 뮤지칼리티를 보여주기 좋은 오케스트라.",
-    "key_vocalists": ["Roberto Ray", "Oscar Serpa", "Ricardo Ruiz", "Héctor Pacheco"],
+    "key_vocalists": [
+      "Roberto Ray",
+      "Oscar Serpa",
+      "Ricardo Ruiz",
+      "Héctor Pacheco"
+    ],
     "representative_songs": [
       "SONG-108"
     ]
@@ -245,11 +273,25 @@
   {
     "orchestra_id": "ORCH-014",
     "orchestra_name": "Edgardo Donato y su Orquesta Típica",
-    "alt_names": ["Donato", "Edgardo Donato"],
+    "alt_names": [
+      "Donato",
+      "Edgardo Donato"
+    ],
     "active_era": "1930-1942",
-    "style_tags": ["rhythmic", "playful", "milonga", "energetic", "accessible"],
+    "style_tags": [
+      "rhythmic",
+      "playful",
+      "milonga",
+      "energetic",
+      "accessible"
+    ],
     "common_competition_use_notes": "밀롱가와 발스에서 특히 뛰어난 오케스트라. 밝고 경쾌한 리듬이 특징. El Acomodo, Se Va la Vida 등이 밀롱가에서 자주 사용됨. 대회에서는 밀롱가 카테고리에서 주로 등장. 1942년 교통사고로 요절.",
-    "key_vocalists": ["Horacio Lagos", "Romeo Gavioli", "Lita Morales", "Felix Gutiérrez"],
+    "key_vocalists": [
+      "Horacio Lagos",
+      "Romeo Gavioli",
+      "Lita Morales",
+      "Felix Gutiérrez"
+    ],
     "representative_songs": [
       "SONG-128"
     ]
@@ -257,11 +299,24 @@
   {
     "orchestra_id": "ORCH-013",
     "orchestra_name": "Enrique Rodríguez y su Orquesta Típica",
-    "alt_names": ["Rodríguez", "Enrique Rodríguez"],
+    "alt_names": [
+      "Rodríguez",
+      "Enrique Rodríguez"
+    ],
     "active_era": "1936-1971",
-    "style_tags": ["simple", "rhythmic", "accessible", "vocal_focused", "cheerful"],
+    "style_tags": [
+      "simple",
+      "rhythmic",
+      "accessible",
+      "vocal_focused",
+      "cheerful"
+    ],
     "common_competition_use_notes": "심플하고 접근성 좋은 스타일. 명확한 리듬과 가벼운 분위기가 특징. 밀롱가에서 자주 사용됨. Armando Moreno와의 조합이 유명. 대회에서는 기본기를 깔끔하게 보여주기 좋은 오케스트라.",
-    "key_vocalists": ["Armando Moreno", "Roberto Flores", "Ricardo Herrera"],
+    "key_vocalists": [
+      "Armando Moreno",
+      "Roberto Flores",
+      "Ricardo Herrera"
+    ],
     "representative_songs": [
       "SONG-129"
     ]
@@ -269,11 +324,26 @@
   {
     "orchestra_id": "ORCH-010",
     "orchestra_name": "Francisco Canaro y su Orquesta Típica",
-    "alt_names": ["Canaro", "Francisco Canaro"],
+    "alt_names": [
+      "Canaro",
+      "Francisco Canaro"
+    ],
     "active_era": "1916-1964",
-    "style_tags": ["traditional", "rhythmic", "milonga", "accessible", "varied"],
+    "style_tags": [
+      "traditional",
+      "rhythmic",
+      "milonga",
+      "accessible",
+      "varied"
+    ],
     "common_competition_use_notes": "탱고 역사상 가장 많이 녹음한 오케스트라 (약 3,500곡). 우루과이 출신으로 밀롱가와 발스에서 독보적. 밀롱가 장르를 대중화시킨 선구자. 대회에서는 밀롱가 카테고리에 빈번하게 등장. 시대별로 스타일이 다양하게 변화.",
-    "key_vocalists": ["Roberto Maida", "Ernesto Famá", "Carlos Roldán", "Eduardo Adrián", "Nelly Omar"],
+    "key_vocalists": [
+      "Roberto Maida",
+      "Ernesto Famá",
+      "Carlos Roldán",
+      "Eduardo Adrián",
+      "Nelly Omar"
+    ],
     "representative_songs": [
       "SONG-149"
     ]
@@ -281,11 +351,24 @@
   {
     "orchestra_id": "ORCH-015",
     "orchestra_name": "Lucio Demare y su Orquesta Típica",
-    "alt_names": ["Demare", "Lucio Demare"],
+    "alt_names": [
+      "Demare",
+      "Lucio Demare"
+    ],
     "active_era": "1938-1974",
-    "style_tags": ["lyrical", "romantic", "melodic", "emotional", "elegant"],
+    "style_tags": [
+      "lyrical",
+      "romantic",
+      "melodic",
+      "emotional",
+      "elegant"
+    ],
     "common_competition_use_notes": "뛰어난 작곡가이자 피아니스트. Malena(1942)은 탱고 역사상 가장 유명한 곡 중 하나. 서정적이고 감성적인 스타일. 보컬 중심의 곡이 많으며, Juan Carlos Miranda와의 조합이 유명. 대회에서는 감정 표현력을 보여주기 좋은 오케스트라.",
-    "key_vocalists": ["Juan Carlos Miranda", "Raúl Berón", "Horacio Quintana"],
+    "key_vocalists": [
+      "Juan Carlos Miranda",
+      "Raúl Berón",
+      "Horacio Quintana"
+    ],
     "representative_songs": [
       "SONG-163"
     ]
@@ -293,13 +376,56 @@
   {
     "orchestra_id": "ORCH-016",
     "orchestra_name": "Alfredo Gobbi y su Orquesta Típica",
-    "alt_names": ["Gobbi", "Alfredo Gobbi"],
+    "alt_names": [
+      "Gobbi",
+      "Alfredo Gobbi"
+    ],
     "active_era": "1942-1965",
-    "style_tags": ["dramatic", "intense", "lyrical", "emotional", "expressive"],
+    "style_tags": [
+      "dramatic",
+      "intense",
+      "lyrical",
+      "emotional",
+      "expressive"
+    ],
     "common_competition_use_notes": "뛰어난 바이올리니스트. 드라마틱하면서도 서정적인 스타일이 특징. Pugliese와 유사한 드라마틱함을 가지지만 더 바이올린 중심적. Orlando Goñi(피아니스트)와의 만남이 스타일 형성에 결정적. 대회에서는 음악적 해석력을 보여줄 수 있는 곡들이 많음.",
-    "key_vocalists": ["Jorge Maciel", "Carlos Guzmán", "Alfredo Del Río"],
+    "key_vocalists": [
+      "Jorge Maciel",
+      "Carlos Guzmán",
+      "Alfredo Del Río"
+    ],
     "representative_songs": [
       "SONG-277"
     ]
+  },
+  {
+    "orchestra_id": "ORCH-017",
+    "orchestra_name": "Alberto Morán",
+    "alt_names": [
+      "Alberto Moran"
+    ],
+    "country": "Argentina",
+    "active_era": "unknown",
+    "key_vocalists": [],
+    "style_tags": [
+      "vocal_focused",
+      "dramatic"
+    ],
+    "common_competition_use_notes": "상세 정보 추가 필요"
+  },
+  {
+    "orchestra_id": "ORCH-018",
+    "orchestra_name": "José Basso y su Orquesta Típica",
+    "alt_names": [
+      "Jose Basso"
+    ],
+    "country": "Argentina",
+    "active_era": "unknown",
+    "key_vocalists": [],
+    "style_tags": [
+      "traditional",
+      "smooth"
+    ],
+    "common_competition_use_notes": "상세 정보 추가 필요"
   }
 ]
