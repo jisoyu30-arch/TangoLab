@@ -146,3 +146,91 @@ export interface RecentItem {
   subtitle?: string;
   visited_at: string;
 }
+
+// === 수업 & 연습 기록 ===
+
+export interface ClassRecord {
+  id: string;
+  date: string; // YYYY-MM-DD
+  title: string;
+  instructor: string;
+  location: string;
+  duration_minutes: number;
+  topics: string[]; // ['기본축', '피보테']
+  video_url: string | null; // YouTube, Instagram 등
+  notes: string;
+  key_takeaways: string[]; // 핵심 배운 점
+  partner: string | null;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface PracticeLog {
+  id: string;
+  date: string; // YYYY-MM-DD
+  duration_minutes: number;
+  partner: string; // '신랑' | '지아님' | '혼자' 등
+  focus: string[]; // ['발스', '밀롱가', 'Nueve Puntos 연습']
+  notes: string;
+  energy_level: 'low' | 'medium' | 'high' | null;
+  created_at: string;
+}
+
+// === 우리 대회 기록 ===
+
+export interface OwnCompetition {
+  id: string;
+  competition_name: string; // 'KTC 2024 Pista'
+  date: string; // YYYY-MM-DD
+  partner: string;
+  category: string; // 'pista' | 'vals' | 'milonga' | 'escenario'
+  stage: string; // 'qualifying' | 'semifinal' | 'final'
+  ronda_number: number | null;
+  songs: OwnCompetitionSong[]; // 그 라운드에 나온 곡
+  judges: Judge[];
+  scores: ScoreEntry[];
+  video_url: string | null; // YouTube 등 링크
+  video_note: string; // 영상 관련 메모
+  result_placement: number | null; // 최종 순위
+  advanced_to_next: boolean; // 다음 라운드 진출 여부
+  overall_notes: string;
+  strengths: string; // 잘한 점
+  improvements: string; // 개선할 점
+  bib_number: string | null; // 등번호
+  created_at: string;
+  updated_at: string;
+}
+
+export interface OwnCompetitionSong {
+  title: string;
+  orchestra: string;
+  song_id?: string; // 탱고랩 DB에 있는 곡이면 연결
+}
+
+export interface Judge {
+  name: string;
+  credentials: string; // '전 Mundial 심판', '아르헨티나 출신 마에스트로' 등
+}
+
+export interface ScoreEntry {
+  judge_name: string;
+  criteria: ScoreCriteria;
+  total: number; // 자동 계산 or 직접 입력
+  notes: string; // 심사위원 코멘트
+}
+
+export interface ScoreCriteria {
+  musicality: number; // 1-10
+  technique: number;
+  elegance: number;
+  embrace: number;
+  floor_navigation: number;
+}
+
+export const DEFAULT_JUDGING_CRITERIA = [
+  { key: 'musicality', label: '음악성' },
+  { key: 'technique', label: '테크닉' },
+  { key: 'elegance', label: '우아함' },
+  { key: 'embrace', label: '아브라소' },
+  { key: 'floor_navigation', label: '동선/플로어크래프트' },
+] as const;

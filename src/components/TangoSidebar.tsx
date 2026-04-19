@@ -6,6 +6,8 @@ const NAV_ITEMS = [
   { to: '/tanda', label: '탄다 연구소', icon: '🔗', end: false },
   { to: '/orchestra', label: '악단 연구', icon: '🎻', end: false },
   { to: '/results', label: '대회 순위', icon: '🏆', end: false },
+  { to: '/my-competitions', label: '내 대회 기록', icon: '🏅', end: false },
+  { to: '/training', label: '수업 & 연습', icon: '🎓', end: false },
   { to: '/practice', label: '연습 보드', icon: '📋', end: false },
   { to: '/compare', label: '비교 연습실', icon: '🔍', end: false },
   { to: '/chat', label: '탱고 Q&A', icon: '💬', end: false },

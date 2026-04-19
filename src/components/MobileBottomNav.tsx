@@ -9,6 +9,8 @@ const MAIN_NAV = [
 ];
 
 const MORE_ITEMS = [
+  { to: '/training', label: '수업 & 연습', icon: '🎓' },
+  { to: '/my-competitions', label: '내 대회 기록', icon: '🏅' },
   { to: '/practice', label: '연습 보드', icon: '📝' },
   { to: '/compare', label: '비교 연습실', icon: '👀' },
   { to: '/results', label: '대회 순위', icon: '🏆' },

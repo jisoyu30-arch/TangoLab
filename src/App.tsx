@@ -11,6 +11,10 @@ import { PracticeBoardListPage } from './pages/PracticeBoardListPage';
 import { PracticeBoardDetailPage } from './pages/PracticeBoardDetailPage';
 import { CompareRoomListPage } from './pages/CompareRoomListPage';
 import { CompareRoomDetailPage } from './pages/CompareRoomDetailPage';
+import { TrainingPage } from './pages/TrainingPage';
+import { ClassDetailPage } from './pages/ClassDetailPage';
+import { MyCompetitionsPage } from './pages/MyCompetitionsPage';
+import { MyCompetitionDetailPage } from './pages/MyCompetitionDetailPage';
 
 export function App() {
   return (
@@ -26,6 +30,10 @@ export function App() {
           <Route path="/practice/:id" element={<PracticeBoardDetailPage />} />
           <Route path="/compare" element={<CompareRoomListPage />} />
           <Route path="/compare/:id" element={<CompareRoomDetailPage />} />
+          <Route path="/training" element={<TrainingPage />} />
+          <Route path="/training/class/:id" element={<ClassDetailPage />} />
+          <Route path="/my-competitions" element={<MyCompetitionsPage />} />
+          <Route path="/my-competitions/:id" element={<MyCompetitionDetailPage />} />
           <Route path="/chat" element={<TangoChatPage />} />
           <Route path="/song/:id" element={<SongDetailPage />} />
         </Route>
