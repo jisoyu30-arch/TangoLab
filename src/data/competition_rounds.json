@@ -180,7 +180,7 @@
       ]
     },
     {
-      "round_id": "R-KTC2026-MILONGA-F",
+      "round_id": "R-KTC2026-MILONGA-F1",
       "competition": "KTC",
       "competition_id": "COMP-005",
       "year": 2026,
@@ -723,7 +723,7 @@
       ]
     },
     {
-      "round_id": "R-KTC2026-PISTA-F",
+      "round_id": "R-KTC2026-PISTA-F1",
       "competition": "KTC",
       "competition_id": "COMP-005",
       "year": 2026,
@@ -840,7 +840,7 @@
       ]
     },
     {
-      "round_id": "R-KTC2026-PISTA-NEWSTAR-F",
+      "round_id": "R-KTC2026-PISTA-NEWSTAR-F1",
       "competition": "KTC",
       "competition_id": "COMP-005",
       "year": 2026,
@@ -877,7 +877,7 @@
       ]
     },
     {
-      "round_id": "R-KTC2026-PISTA-SENIOR-F",
+      "round_id": "R-KTC2026-PISTA-SENIOR-F1",
       "competition": "KTC",
       "competition_id": "COMP-005",
       "year": 2026,
@@ -920,7 +920,7 @@
       ]
     },
     {
-      "round_id": "R-KTC2026-PISTA-SINGLES-GENERAL-F",
+      "round_id": "R-KTC2026-PISTA-SINGLES-F1",
       "competition": "KTC",
       "competition_id": "COMP-005",
       "year": 2026,
@@ -957,7 +957,7 @@
       ]
     },
     {
-      "round_id": "R-KTC2026-PISTA-SINGLES-NEWSTAR-F",
+      "round_id": "R-KTC2026-PISTA-SINGLES-NEWSTAR-F1",
       "competition": "KTC",
       "competition_id": "COMP-005",
       "year": 2026,
@@ -1000,7 +1000,7 @@
       ]
     },
     {
-      "round_id": "R-KTC2026-PISTA-SINGLES-SENIOR-F",
+      "round_id": "R-KTC2026-PISTA-SINGLES-SENIOR-F1",
       "competition": "KTC",
       "competition_id": "COMP-005",
       "year": 2026,
@@ -1241,7 +1241,7 @@
       ]
     },
     {
-      "round_id": "R-KTC2026-VALS-F",
+      "round_id": "R-KTC2026-VALS-F1",
       "competition": "KTC",
       "competition_id": "COMP-005",
       "year": 2026,
@@ -1278,7 +1278,7 @@
       ]
     },
     {
-      "round_id": "R-KTC2026-VALS-SENIOR-F",
+      "round_id": "R-KTC2026-VALS-SENIOR-F1",
       "competition": "KTC",
       "competition_id": "COMP-005",
       "year": 2026,
@@ -1342,6 +1342,12 @@
           "url": "https://www.youtube.com/watch?v=rsioqXQswCw",
           "channel": "Mundial de Tango",
           "title": "mundial de tango 2024 semifinal ronda N°1"
+        },
+        {
+          "video_id": "COzZ83KxT-0",
+          "url": "https://www.youtube.com/watch?v=COzZ83KxT-0",
+          "channel": "AiresDeMilonga",
+          "title": "R1 Mundial de tango 2024 Semifinal Baile Pista Ronda 1"
         }
       ]
     },
@@ -1379,6 +1385,12 @@
           "url": "https://www.youtube.com/watch?v=dpH8CYEyZxo",
           "channel": "Mundial de Tango",
           "title": "mundial de tango 2024 semifinal ronda N°2"
+        },
+        {
+          "video_id": "2DnQir5q8Zc",
+          "url": "https://www.youtube.com/watch?v=2DnQir5q8Zc",
+          "channel": "AiresDeMilonga",
+          "title": "R2 Mundial de tango 2024 Semifinal Baile Pista Ronda 2"
         }
       ]
     },
@@ -1416,6 +1428,12 @@
           "url": "https://www.youtube.com/watch?v=xy3nRqdZpJg",
           "channel": "Mundial de Tango",
           "title": "mundial de tango 2024 semifinal ronda N°6"
+        },
+        {
+          "video_id": "E-tb60kR2oo",
+          "url": "https://www.youtube.com/watch?v=E-tb60kR2oo",
+          "channel": "AiresDeMilonga",
+          "title": "R 6 Mundial de tango 2024 Semifinal Baile Pista Ronda 6"
         }
       ]
     },
@@ -1527,6 +1545,12 @@
           "url": "https://www.youtube.com/watch?v=2zjZbwn0OHY",
           "channel": "Mundial de Tango",
           "title": "mundial de tango 2024 semifinal ronda N° 10"
+        },
+        {
+          "video_id": "XUI_yHilKJY",
+          "url": "https://www.youtube.com/watch?v=XUI_yHilKJY",
+          "channel": "Cachotango",
+          "title": "2024 Semifinal pista Ronda 10 Mundial de Tango"
         }
       ]
     },
@@ -1564,6 +1588,18 @@
           "url": "https://www.youtube.com/watch?v=gl4P2fcU51U",
           "channel": "Mundial de Tango",
           "title": "mundial de tango 2024 semifinal ronda N°13"
+        },
+        {
+          "video_id": "DTMO-bBgzHA",
+          "url": "https://www.youtube.com/watch?v=DTMO-bBgzHA",
+          "channel": "Cachotango",
+          "title": "2024 Semifinal pista Ronda 13 Mundial de Tango"
+        },
+        {
+          "video_id": "Yh11qFe7py8",
+          "url": "https://www.youtube.com/watch?v=Yh11qFe7py8",
+          "channel": "AiresDeMilonga",
+          "title": "R13 Mundial de tango 2024 Semifinal Baile Pista Ronda 13"
         }
       ]
     },
@@ -1601,6 +1637,12 @@
           "url": "https://www.youtube.com/watch?v=d8u84xIUuFk",
           "channel": "Mundial de Tango",
           "title": "mundial de tango 2024 semifinal ronda N° 15"
+        },
+        {
+          "video_id": "Ob1vntqY1s4",
+          "url": "https://www.youtube.com/watch?v=Ob1vntqY1s4",
+          "channel": "Cachotango",
+          "title": "2024 Semifinal pista Ronda 15 Mundial de Tango"
         }
       ]
     },
@@ -1638,11 +1680,17 @@
           "url": "https://www.youtube.com/watch?v=dlXhytZyKDY",
           "channel": "Mundial de Tango",
           "title": "mundial de tango 2024 semifinal ronda N°17"
+        },
+        {
+          "video_id": "q8Qxs4Q88fE",
+          "url": "https://www.youtube.com/watch?v=q8Qxs4Q88fE",
+          "channel": "Cachotango",
+          "title": "2024 Semifinal pista Ronda 17 Mundial de Tango"
         }
       ]
     },
     {
-      "round_id": "R-MUNDIAL2024-PISTA-F",
+      "round_id": "R-MUNDIAL2024-PISTA-F1",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -1650,7 +1698,20 @@
       "stage": "final",
       "ronda_number": 1,
       "songs": [],
-      "videos": [],
+      "videos": [
+        {
+          "video_id": "tn_1QNxRg7A",
+          "url": "https://www.youtube.com/watch?v=tn_1QNxRg7A",
+          "channel": "AiresDeMilonga",
+          "title": "R1 Final pista Mundial de tango 2024"
+        },
+        {
+          "video_id": "5FezHVdu8L0",
+          "url": "https://www.youtube.com/watch?v=5FezHVdu8L0",
+          "channel": "Cachotango",
+          "title": "2024 Final pista Ronda 1 Mundial de Tango Buenos Aires"
+        }
+      ],
       "rankings": [
         {
           "rank": 1,
@@ -1725,7 +1786,7 @@
       ]
     },
     {
-      "round_id": "R-MUNDIAL2024-PISTA-SENIOR-F",
+      "round_id": "R-MUNDIAL2024-PISTA-SENIOR-F1",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -1799,7 +1860,7 @@
       "total_couples": 10
     },
     {
-      "round_id": "R-MUNDIAL2025-PISTA-F",
+      "round_id": "R-MUNDIAL2025-PISTA-F1",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -1882,7 +1943,7 @@
       ]
     },
     {
-      "round_id": "R-MUNDIAL2025-PISTA-SENIOR-F",
+      "round_id": "R-MUNDIAL2025-PISTA-SENIOR-F1",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -1956,7 +2017,7 @@
       "total_couples": 10
     },
     {
-      "round_id": "R-PTC2023-TANGO_DE_PISTA-S1",
+      "round_id": "R-PTC2023-PISTA-SF1",
       "competition": "PTC",
       "competition_id": "COMP-004",
       "year": 2023,
@@ -1993,7 +2054,7 @@
       ]
     },
     {
-      "round_id": "R-PTC2025-TANGO_DE_PISTA-Q2",
+      "round_id": "R-PTC2025-PISTA-Q2",
       "competition": "PTC",
       "competition_id": "COMP-004",
       "year": 2025,
@@ -2030,7 +2091,7 @@
       ]
     },
     {
-      "round_id": "R-PTC2025-TANGO_DE_PISTA-Q3",
+      "round_id": "R-PTC2025-PISTA-Q3",
       "competition": "PTC",
       "competition_id": "COMP-004",
       "year": 2025,
@@ -2067,7 +2128,7 @@
       ]
     },
     {
-      "round_id": "R-PTC2025-TANGO_DE_PISTA-F1",
+      "round_id": "R-PTC2025-PISTA-F1",
       "competition": "PTC",
       "competition_id": "COMP-004",
       "year": 2025,
@@ -2085,7 +2146,7 @@
       ]
     },
     {
-      "round_id": "R-TDAC2024-TANGO_DE_PISTA-F1",
+      "round_id": "R-TDAC2024-PISTA-F1",
       "competition": "TDAC",
       "competition_id": "COMP-006",
       "year": 2024,
@@ -2115,7 +2176,7 @@
       "videos": []
     },
     {
-      "round_id": "R-TDAC2025-TANGO_DE_PISTA-S2",
+      "round_id": "R-TDAC2025-PISTA-SF2",
       "competition": "TDAC",
       "competition_id": "COMP-006",
       "year": 2025,
@@ -2133,7 +2194,7 @@
       ]
     },
     {
-      "round_id": "R-KTC2025-TANGO_DE_PISTA-Q1",
+      "round_id": "R-KTC2025-PISTA-Q1",
       "competition": "KTC",
       "competition_id": "COMP-005",
       "year": 2025,
@@ -2170,7 +2231,7 @@
       ]
     },
     {
-      "round_id": "R-KTC2025-TANGO_DE_PISTA-Q2",
+      "round_id": "R-KTC2025-PISTA-Q2",
       "competition": "KTC",
       "competition_id": "COMP-005",
       "year": 2025,
@@ -2207,7 +2268,7 @@
       ]
     },
     {
-      "round_id": "R-KTC2025-TANGO_DE_PISTA-Q4",
+      "round_id": "R-KTC2025-PISTA-Q4",
       "competition": "KTC",
       "competition_id": "COMP-005",
       "year": 2025,
@@ -2244,7 +2305,7 @@
       ]
     },
     {
-      "round_id": "R-KTC2023-TANGO_DE_PISTA-S3",
+      "round_id": "R-KTC2023-PISTA-SF3",
       "competition": "KTC",
       "competition_id": "COMP-005",
       "year": 2023,
@@ -2281,7 +2342,7 @@
       ]
     },
     {
-      "round_id": "R-KTC2023-TANGO_DE_PISTA-S4",
+      "round_id": "R-KTC2023-PISTA-SF4",
       "competition": "KTC",
       "competition_id": "COMP-005",
       "year": 2023,
@@ -2318,7 +2379,7 @@
       ]
     },
     {
-      "round_id": "R-KTC2023-TANGO_DE_PISTA-Q2",
+      "round_id": "R-KTC2023-PISTA-Q2",
       "competition": "KTC",
       "competition_id": "COMP-005",
       "year": 2023,
@@ -2355,7 +2416,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-S1",
+      "round_id": "R-MUNDIAL2025-PISTA-SF1",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2392,7 +2453,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-S4",
+      "round_id": "R-MUNDIAL2025-PISTA-SF4",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2429,7 +2490,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-S5",
+      "round_id": "R-MUNDIAL2025-PISTA-SF5",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2466,7 +2527,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-S9",
+      "round_id": "R-MUNDIAL2025-PISTA-SF9",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2484,7 +2545,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-S11",
+      "round_id": "R-MUNDIAL2025-PISTA-SF11",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2502,7 +2563,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-S12",
+      "round_id": "R-MUNDIAL2025-PISTA-SF12",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2520,7 +2581,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-S13",
+      "round_id": "R-MUNDIAL2025-PISTA-SF13",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2538,7 +2599,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-S14",
+      "round_id": "R-MUNDIAL2025-PISTA-SF14",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2556,7 +2617,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-S15",
+      "round_id": "R-MUNDIAL2025-PISTA-SF15",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2574,7 +2635,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-S16",
+      "round_id": "R-MUNDIAL2025-PISTA-SF16",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2592,7 +2653,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q3",
+      "round_id": "R-MUNDIAL2025-PISTA-Q3",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2610,7 +2671,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q4",
+      "round_id": "R-MUNDIAL2025-PISTA-Q4",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2628,7 +2689,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q5",
+      "round_id": "R-MUNDIAL2025-PISTA-Q5",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2646,7 +2707,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q6",
+      "round_id": "R-MUNDIAL2025-PISTA-Q6",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2664,7 +2725,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q7",
+      "round_id": "R-MUNDIAL2025-PISTA-Q7",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2682,7 +2743,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q9",
+      "round_id": "R-MUNDIAL2025-PISTA-Q9",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2700,7 +2761,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q10",
+      "round_id": "R-MUNDIAL2025-PISTA-Q10",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2718,7 +2779,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q11",
+      "round_id": "R-MUNDIAL2025-PISTA-Q11",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2736,7 +2797,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q12",
+      "round_id": "R-MUNDIAL2025-PISTA-Q12",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2754,7 +2815,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q13",
+      "round_id": "R-MUNDIAL2025-PISTA-Q13",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2772,7 +2833,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q14",
+      "round_id": "R-MUNDIAL2025-PISTA-Q14",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2790,7 +2851,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q19",
+      "round_id": "R-MUNDIAL2025-PISTA-Q19",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2808,7 +2869,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q20",
+      "round_id": "R-MUNDIAL2025-PISTA-Q20",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2826,7 +2887,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q21",
+      "round_id": "R-MUNDIAL2025-PISTA-Q21",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2844,7 +2905,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q22",
+      "round_id": "R-MUNDIAL2025-PISTA-Q22",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2862,7 +2923,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q23",
+      "round_id": "R-MUNDIAL2025-PISTA-Q23",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2880,7 +2941,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q25",
+      "round_id": "R-MUNDIAL2025-PISTA-Q25",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2898,7 +2959,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q26",
+      "round_id": "R-MUNDIAL2025-PISTA-Q26",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2916,7 +2977,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-TANGO_DE_PISTA-Q27",
+      "round_id": "R-MUNDIAL2025-PISTA-Q27",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2934,7 +2995,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF1",
+      "round_id": "R-MUNDIAL2025-PISTA-QF1",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2952,7 +3013,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF2",
+      "round_id": "R-MUNDIAL2025-PISTA-QF2",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -2989,7 +3050,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF3",
+      "round_id": "R-MUNDIAL2025-PISTA-QF3",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3026,7 +3087,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF4",
+      "round_id": "R-MUNDIAL2025-PISTA-QF4",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3044,7 +3105,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF5",
+      "round_id": "R-MUNDIAL2025-PISTA-QF5",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3062,7 +3123,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF6",
+      "round_id": "R-MUNDIAL2025-PISTA-QF6",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3099,7 +3160,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF7",
+      "round_id": "R-MUNDIAL2025-PISTA-QF7",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3117,7 +3178,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF8",
+      "round_id": "R-MUNDIAL2025-PISTA-QF8",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3135,7 +3196,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF9",
+      "round_id": "R-MUNDIAL2025-PISTA-QF9",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3153,7 +3214,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF10",
+      "round_id": "R-MUNDIAL2025-PISTA-QF10",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3190,7 +3251,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF11",
+      "round_id": "R-MUNDIAL2025-PISTA-QF11",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3208,7 +3269,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF12",
+      "round_id": "R-MUNDIAL2025-PISTA-QF12",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3226,7 +3287,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF13",
+      "round_id": "R-MUNDIAL2025-PISTA-QF13",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3244,7 +3305,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF14",
+      "round_id": "R-MUNDIAL2025-PISTA-QF14",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3269,7 +3330,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF15",
+      "round_id": "R-MUNDIAL2025-PISTA-QF15",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3287,7 +3348,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF16",
+      "round_id": "R-MUNDIAL2025-PISTA-QF16",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3305,7 +3366,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF17",
+      "round_id": "R-MUNDIAL2025-PISTA-QF17",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3330,7 +3391,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF18",
+      "round_id": "R-MUNDIAL2025-PISTA-QF18",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3348,7 +3409,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF19",
+      "round_id": "R-MUNDIAL2025-PISTA-QF19",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3366,7 +3427,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF20",
+      "round_id": "R-MUNDIAL2025-PISTA-QF20",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3384,7 +3445,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF21",
+      "round_id": "R-MUNDIAL2025-PISTA-QF21",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3402,7 +3463,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF22",
+      "round_id": "R-MUNDIAL2025-PISTA-QF22",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3420,7 +3481,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF23",
+      "round_id": "R-MUNDIAL2025-PISTA-QF23",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3438,7 +3499,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF24",
+      "round_id": "R-MUNDIAL2025-PISTA-QF24",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3456,7 +3517,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF25",
+      "round_id": "R-MUNDIAL2025-PISTA-QF25",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3474,7 +3535,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF26",
+      "round_id": "R-MUNDIAL2025-PISTA-QF26",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3492,7 +3553,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF27",
+      "round_id": "R-MUNDIAL2025-PISTA-QF27",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3510,7 +3571,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF28",
+      "round_id": "R-MUNDIAL2025-PISTA-QF28",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3528,7 +3589,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF29",
+      "round_id": "R-MUNDIAL2025-PISTA-QF29",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3546,7 +3607,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-QF30",
+      "round_id": "R-MUNDIAL2025-PISTA-QF30",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
@@ -3564,7 +3625,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2021-PISTA-F1",
+      "round_id": "R-MUNDIAL2021-PISTA-F1",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
@@ -3582,7 +3643,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2021-PISTA-F2",
+      "round_id": "R-MUNDIAL2021-PISTA-F2",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
@@ -3600,7 +3661,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2021-PISTA-F3",
+      "round_id": "R-MUNDIAL2021-PISTA-F3",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
@@ -3618,7 +3679,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2021-PISTA-F4",
+      "round_id": "R-MUNDIAL2021-PISTA-F4",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
@@ -3636,7 +3697,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2021-PISTA-F5",
+      "round_id": "R-MUNDIAL2021-PISTA-F5",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
@@ -3654,7 +3715,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2021-PISTA-F6",
+      "round_id": "R-MUNDIAL2021-PISTA-F6",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
@@ -3672,7 +3733,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2021-PISTA-S1",
+      "round_id": "R-MUNDIAL2021-PISTA-SF1",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
@@ -3690,7 +3751,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2021-PISTA-S2",
+      "round_id": "R-MUNDIAL2021-PISTA-SF2",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
@@ -3708,7 +3769,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2021-PISTA-S3",
+      "round_id": "R-MUNDIAL2021-PISTA-SF3",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
@@ -3726,7 +3787,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2021-PISTA-S4",
+      "round_id": "R-MUNDIAL2021-PISTA-SF4",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
@@ -3744,7 +3805,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2021-PISTA-S5",
+      "round_id": "R-MUNDIAL2021-PISTA-SF5",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
@@ -3762,7 +3823,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2021-PISTA-S6",
+      "round_id": "R-MUNDIAL2021-PISTA-SF6",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
@@ -3780,7 +3841,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2021-PISTA-S7",
+      "round_id": "R-MUNDIAL2021-PISTA-SF7",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
@@ -3798,7 +3859,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2021-PISTA-S8",
+      "round_id": "R-MUNDIAL2021-PISTA-SF8",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
@@ -3816,7 +3877,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2021-PISTA-S9",
+      "round_id": "R-MUNDIAL2021-PISTA-SF9",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
@@ -3834,7 +3895,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2022-PISTA-F1",
+      "round_id": "R-MUNDIAL2022-PISTA-F1",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2022,
@@ -3871,7 +3932,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2022-PISTA-F2",
+      "round_id": "R-MUNDIAL2022-PISTA-F2",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2022,
@@ -3908,7 +3969,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2022-PISTA-F3",
+      "round_id": "R-MUNDIAL2022-PISTA-F3",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2022,
@@ -3945,7 +4006,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2022-PISTA-F4",
+      "round_id": "R-MUNDIAL2022-PISTA-F4",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2022,
@@ -3982,7 +4043,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2023-PISTA-F1",
+      "round_id": "R-MUNDIAL2023-PISTA-F1",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2023,
@@ -4019,7 +4080,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2023-PISTA-F2",
+      "round_id": "R-MUNDIAL2023-PISTA-F2",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2023,
@@ -4056,7 +4117,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2023-PISTA-F3",
+      "round_id": "R-MUNDIAL2023-PISTA-F3",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2023,
@@ -4093,7 +4154,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2023-PISTA-F4",
+      "round_id": "R-MUNDIAL2023-PISTA-F4",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2023,
@@ -4130,31 +4191,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2024-PISTA-F1",
-      "competition": "Mundial",
-      "competition_id": "COMP-001",
-      "year": 2024,
-      "category": "tango_de_pista",
-      "stage": "final",
-      "ronda_number": 1,
-      "songs": [],
-      "videos": [
-        {
-          "video_id": "tn_1QNxRg7A",
-          "url": "https://www.youtube.com/watch?v=tn_1QNxRg7A",
-          "channel": "AiresDeMilonga",
-          "title": "R1 Final pista Mundial de tango 2024"
-        },
-        {
-          "video_id": "5FezHVdu8L0",
-          "url": "https://www.youtube.com/watch?v=5FezHVdu8L0",
-          "channel": "Cachotango",
-          "title": "2024 Final pista Ronda 1 Mundial de Tango Buenos Aires"
-        }
-      ]
-    },
-    {
-      "round_id": "R-Mundial2024-PISTA-F2",
+      "round_id": "R-MUNDIAL2024-PISTA-F2",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -4178,7 +4215,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2024-PISTA-F3",
+      "round_id": "R-MUNDIAL2024-PISTA-F3",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -4202,7 +4239,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2024-PISTA-F4",
+      "round_id": "R-MUNDIAL2024-PISTA-F4",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -4226,25 +4263,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2024-PISTA-S10",
-      "competition": "Mundial",
-      "competition_id": "COMP-001",
-      "year": 2024,
-      "category": "tango_de_pista",
-      "stage": "semifinal",
-      "ronda_number": 10,
-      "songs": [],
-      "videos": [
-        {
-          "video_id": "XUI_yHilKJY",
-          "url": "https://www.youtube.com/watch?v=XUI_yHilKJY",
-          "channel": "Cachotango",
-          "title": "2024 Semifinal pista Ronda 10 Mundial de Tango"
-        }
-      ]
-    },
-    {
-      "round_id": "R-Mundial2024-PISTA-S11",
+      "round_id": "R-MUNDIAL2024-PISTA-SF11",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -4262,7 +4281,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2024-PISTA-S12",
+      "round_id": "R-MUNDIAL2024-PISTA-SF12",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -4280,31 +4299,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2024-PISTA-S13",
-      "competition": "Mundial",
-      "competition_id": "COMP-001",
-      "year": 2024,
-      "category": "tango_de_pista",
-      "stage": "semifinal",
-      "ronda_number": 13,
-      "songs": [],
-      "videos": [
-        {
-          "video_id": "DTMO-bBgzHA",
-          "url": "https://www.youtube.com/watch?v=DTMO-bBgzHA",
-          "channel": "Cachotango",
-          "title": "2024 Semifinal pista Ronda 13 Mundial de Tango"
-        },
-        {
-          "video_id": "Yh11qFe7py8",
-          "url": "https://www.youtube.com/watch?v=Yh11qFe7py8",
-          "channel": "AiresDeMilonga",
-          "title": "R13 Mundial de tango 2024 Semifinal Baile Pista Ronda 13"
-        }
-      ]
-    },
-    {
-      "round_id": "R-Mundial2024-PISTA-S14",
+      "round_id": "R-MUNDIAL2024-PISTA-SF14",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -4322,25 +4317,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2024-PISTA-S15",
-      "competition": "Mundial",
-      "competition_id": "COMP-001",
-      "year": 2024,
-      "category": "tango_de_pista",
-      "stage": "semifinal",
-      "ronda_number": 15,
-      "songs": [],
-      "videos": [
-        {
-          "video_id": "Ob1vntqY1s4",
-          "url": "https://www.youtube.com/watch?v=Ob1vntqY1s4",
-          "channel": "Cachotango",
-          "title": "2024 Semifinal pista Ronda 15 Mundial de Tango"
-        }
-      ]
-    },
-    {
-      "round_id": "R-Mundial2024-PISTA-S16",
+      "round_id": "R-MUNDIAL2024-PISTA-SF16",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -4358,92 +4335,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2024-PISTA-S17",
-      "competition": "Mundial",
-      "competition_id": "COMP-001",
-      "year": 2024,
-      "category": "tango_de_pista",
-      "stage": "semifinal",
-      "ronda_number": 17,
-      "songs": [],
-      "videos": [
-        {
-          "video_id": "q8Qxs4Q88fE",
-          "url": "https://www.youtube.com/watch?v=q8Qxs4Q88fE",
-          "channel": "Cachotango",
-          "title": "2024 Semifinal pista Ronda 17 Mundial de Tango"
-        }
-      ]
-    },
-    {
-      "round_id": "R-Mundial2024-PISTA-S1",
-      "competition": "Mundial",
-      "competition_id": "COMP-001",
-      "year": 2024,
-      "category": "tango_de_pista",
-      "stage": "semifinal",
-      "ronda_number": 1,
-      "songs": [],
-      "videos": [
-        {
-          "video_id": "rsioqXQswCw",
-          "url": "https://www.youtube.com/watch?v=rsioqXQswCw",
-          "channel": "AiresDeMilonga",
-          "title": "mundial de tango 2024 semifinal ronda 1"
-        },
-        {
-          "video_id": "COzZ83KxT-0",
-          "url": "https://www.youtube.com/watch?v=COzZ83KxT-0",
-          "channel": "AiresDeMilonga",
-          "title": "R1 Mundial de tango 2024 Semifinal Baile Pista Ronda 1"
-        }
-      ]
-    },
-    {
-      "round_id": "R-Mundial2024-PISTA-S2",
-      "competition": "Mundial",
-      "competition_id": "COMP-001",
-      "year": 2024,
-      "category": "tango_de_pista",
-      "stage": "semifinal",
-      "ronda_number": 2,
-      "songs": [
-        {
-          "song_id": "SONG-487",
-          "title": "Nido Gaucho",
-          "orchestra": "Miguel Caló y su Orquesta Típica",
-          "order": 1
-        },
-        {
-          "song_id": "SONG-361",
-          "title": "Emancipación",
-          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
-          "order": 2
-        },
-        {
-          "song_id": "SONG-041",
-          "title": "El Nene del Abasto",
-          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
-          "order": 3
-        }
-      ],
-      "videos": [
-        {
-          "video_id": "dpH8CYEyZxo",
-          "url": "https://www.youtube.com/watch?v=dpH8CYEyZxo",
-          "channel": "AiresDeMilonga",
-          "title": "mundial de tango 2024 semifinal ronda 2"
-        },
-        {
-          "video_id": "2DnQir5q8Zc",
-          "url": "https://www.youtube.com/watch?v=2DnQir5q8Zc",
-          "channel": "AiresDeMilonga",
-          "title": "R2 Mundial de tango 2024 Semifinal Baile Pista Ronda 2"
-        }
-      ]
-    },
-    {
-      "round_id": "R-Mundial2024-PISTA-S3",
+      "round_id": "R-MUNDIAL2024-PISTA-SF3",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -4461,7 +4353,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2024-PISTA-S4",
+      "round_id": "R-MUNDIAL2024-PISTA-SF4",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -4479,7 +4371,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2024-PISTA-S5",
+      "round_id": "R-MUNDIAL2024-PISTA-SF5",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -4497,31 +4389,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2024-PISTA-S6",
-      "competition": "Mundial",
-      "competition_id": "COMP-001",
-      "year": 2024,
-      "category": "tango_de_pista",
-      "stage": "semifinal",
-      "ronda_number": 6,
-      "songs": [],
-      "videos": [
-        {
-          "video_id": "xy3nRqdZpJg",
-          "url": "https://www.youtube.com/watch?v=xy3nRqdZpJg",
-          "channel": "AiresDeMilonga",
-          "title": "mundial de tango 2024 semifinal ronda 6"
-        },
-        {
-          "video_id": "E-tb60kR2oo",
-          "url": "https://www.youtube.com/watch?v=E-tb60kR2oo",
-          "channel": "AiresDeMilonga",
-          "title": "R 6 Mundial de tango 2024 Semifinal Baile Pista Ronda 6"
-        }
-      ]
-    },
-    {
-      "round_id": "R-Mundial2024-PISTA-S7",
+      "round_id": "R-MUNDIAL2024-PISTA-SF7",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -4564,43 +4432,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2024-PISTA-S8",
-      "competition": "Mundial",
-      "competition_id": "COMP-001",
-      "year": 2024,
-      "category": "tango_de_pista",
-      "stage": "semifinal",
-      "ronda_number": 8,
-      "songs": [],
-      "videos": [
-        {
-          "video_id": "x-rnp4076yw",
-          "url": "https://www.youtube.com/watch?v=x-rnp4076yw",
-          "channel": "AiresDeMilonga",
-          "title": "mundial de tango 2024 semifinal ronda 8"
-        }
-      ]
-    },
-    {
-      "round_id": "R-Mundial2024-PISTA-S9",
-      "competition": "Mundial",
-      "competition_id": "COMP-001",
-      "year": 2024,
-      "category": "tango_de_pista",
-      "stage": "semifinal",
-      "ronda_number": 9,
-      "songs": [],
-      "videos": [
-        {
-          "video_id": "lVkw5KRocZE",
-          "url": "https://www.youtube.com/watch?v=lVkw5KRocZE",
-          "channel": "AiresDeMilonga",
-          "title": "mundial de tango 2024 semifinal ronda 9"
-        }
-      ]
-    },
-    {
-      "round_id": "R-Mundial2024-PISTA-Q4",
+      "round_id": "R-MUNDIAL2024-PISTA-Q4",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -4618,7 +4450,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2024-PISTA-Q7",
+      "round_id": "R-MUNDIAL2024-PISTA-Q7",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -4636,7 +4468,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2024-PISTA-Q11",
+      "round_id": "R-MUNDIAL2024-PISTA-Q11",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -4654,7 +4486,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2024-PISTA-Q17",
+      "round_id": "R-MUNDIAL2024-PISTA-Q17",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -4672,7 +4504,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2024-PISTA-Q22",
+      "round_id": "R-MUNDIAL2024-PISTA-Q22",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -4690,7 +4522,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2024-PISTA-Q23",
+      "round_id": "R-MUNDIAL2024-PISTA-Q23",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -4708,7 +4540,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2024-PISTA-Q27",
+      "round_id": "R-MUNDIAL2024-PISTA-Q27",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -4726,7 +4558,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2024-PISTA-Q28",
+      "round_id": "R-MUNDIAL2024-PISTA-Q28",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -4744,7 +4576,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2024-PISTA-Q29",
+      "round_id": "R-MUNDIAL2024-PISTA-Q29",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -4762,7 +4594,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2024-PISTA-Q34",
+      "round_id": "R-MUNDIAL2024-PISTA-Q34",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
@@ -4780,25 +4612,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2025-PISTA-F1",
-      "competition": "Mundial",
-      "competition_id": "COMP-001",
-      "year": 2025,
-      "category": "tango_de_pista",
-      "stage": "final",
-      "ronda_number": 1,
-      "songs": [],
-      "videos": [
-        {
-          "video_id": "U-E7EPi31xw",
-          "url": "https://www.youtube.com/watch?v=U-E7EPi31xw",
-          "channel": "한선우",
-          "title": "Pista Final - 2025 Pacific Tango Championship (actually Mundial 2025)"
-        }
-      ]
-    },
-    {
-      "round_id": "R-Mundial2019-PISTA-F1",
+      "round_id": "R-MUNDIAL2019-PISTA-F1",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2019,
@@ -4828,7 +4642,7 @@
       "videos": []
     },
     {
-      "round_id": "R-Mundial2019-PISTA-F2",
+      "round_id": "R-MUNDIAL2019-PISTA-F2",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2019,
@@ -4858,7 +4672,7 @@
       "videos": []
     },
     {
-      "round_id": "R-Mundial2019-PISTA-F3",
+      "round_id": "R-MUNDIAL2019-PISTA-F3",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2019,
@@ -4888,7 +4702,7 @@
       "videos": []
     },
     {
-      "round_id": "R-Mundial2019-PISTA-F4",
+      "round_id": "R-MUNDIAL2019-PISTA-F4",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2019,
@@ -4918,7 +4732,7 @@
       "videos": []
     },
     {
-      "round_id": "R-Mundial2017-PISTA-F1",
+      "round_id": "R-MUNDIAL2017-PISTA-F1",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2017,
@@ -4955,7 +4769,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2017-PISTA-F2",
+      "round_id": "R-MUNDIAL2017-PISTA-F2",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2017,
@@ -4992,7 +4806,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2017-PISTA-F3",
+      "round_id": "R-MUNDIAL2017-PISTA-F3",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2017,
@@ -5029,7 +4843,7 @@
       ]
     },
     {
-      "round_id": "R-Mundial2017-PISTA-F4",
+      "round_id": "R-MUNDIAL2017-PISTA-F4",
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2017,
