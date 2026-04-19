@@ -1,6 +1,10 @@
-// 수업/연습/대회 기록 localStorage 저장 훅
-import { useState, useCallback } from 'react';
+// 수업/연습/대회 기록 저장 훅 (localStorage + Firebase Firestore 하이브리드)
+// 로그인 상태면 Firestore 우선, 아니면 localStorage만 사용
+import { useState, useCallback, useEffect, useRef } from 'react';
 import type { ClassRecord, PracticeLog, OwnCompetition, Judge, ScoreEntry, ScoreCriteria } from '../types/tango';
+import { auth } from '../lib/firebase';
+import { onAuthStateChanged } from 'firebase/auth';
+import { saveUserData, subscribeToUserData } from '../lib/firestoreUserData';
 
 interface TrainingData {
   classes: ClassRecord[];
@@ -16,7 +20,7 @@ const initialData: TrainingData = {
   ownCompetitions: [],
 };
 
-function loadData(): TrainingData {
+function loadLocal(): TrainingData {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) {
@@ -35,6 +39,10 @@ function loadData(): TrainingData {
   }
 }
 
+function saveLocal(data: TrainingData) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+}
+
 const EMPTY_CRITERIA: ScoreCriteria = {
   musicality: 0,
   technique: 0,
@@ -44,12 +52,71 @@ const EMPTY_CRITERIA: ScoreCriteria = {
 };
 
 export function useTrainingStore() {
-  const [data, setData] = useState<TrainingData>(loadData);
+  const [data, setData] = useState<TrainingData>(loadLocal);
+  const [userUid, setUserUid] = useState<string | null>(auth.currentUser?.uid ?? null);
+  const [syncing, setSyncing] = useState(false);
+  const [syncError, setSyncError] = useState<string | null>(null);
+  const skipNextSaveRef = useRef(false); // 구독으로 내려온 데이터는 다시 업로드하지 않기
 
+  // 인증 상태 추적
+  useEffect(() => {
+    const unsub = onAuthStateChanged(auth, (u) => {
+      setUserUid(u?.uid ?? null);
+    });
+    return () => unsub();
+  }, []);
+
+  // 로그인 시 Firestore 구독 + 마이그레이션
+  useEffect(() => {
+    if (!userUid) return;
+
+    setSyncing(true);
+    const unsub = subscribeToUserData(userUid, async (cloudData) => {
+      setSyncing(false);
+      if (!cloudData) {
+        // 클라우드 데이터 없음 → 로컬 데이터를 마이그레이션
+        const local = loadLocal();
+        const hasLocal = local.classes.length + local.practices.length + local.ownCompetitions.length > 0;
+        if (hasLocal) {
+          try {
+            await saveUserData(userUid, local);
+          } catch (e: any) {
+            setSyncError(e.message);
+          }
+        }
+      } else {
+        // 클라우드 데이터 있음 → 로컬 덮어쓰기
+        skipNextSaveRef.current = true;
+        const merged: TrainingData = {
+          classes: cloudData.classes || [],
+          practices: cloudData.practices || [],
+          ownCompetitions: cloudData.ownCompetitions || [],
+        };
+        setData(merged);
+        saveLocal(merged);
+      }
+    });
+
+    return () => unsub();
+  }, [userUid]);
+
+  // 데이터 변경시 저장 (localStorage + Firestore)
   const persist = useCallback((newData: TrainingData) => {
     setData(newData);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(newData));
-  }, []);
+    saveLocal(newData);
+
+    if (userUid) {
+      if (skipNextSaveRef.current) {
+        skipNextSaveRef.current = false;
+        return;
+      }
+      // 비동기로 Firestore 업로드 (실패해도 로컬은 저장됨)
+      saveUserData(userUid, newData).catch((e) => {
+        console.error('Firestore 동기화 실패:', e);
+        setSyncError(e.message);
+      });
+    }
+  }, [userUid]);
 
   // === Classes ===
   const addClass = useCallback((partial: Partial<ClassRecord>): string => {
@@ -220,5 +287,9 @@ export function useTrainingStore() {
     addJudge, removeJudge,
     addScore, updateScore, removeScore,
     weeklyPracticeMinutes,
+    // 동기화 상태
+    isSignedIn: !!userUid,
+    syncing,
+    syncError,
   };
 }

@@ -8,7 +8,7 @@ type Tab = 'overview' | 'classes' | 'practices';
 
 export function TrainingPage() {
   const [tab, setTab] = useState<Tab>('overview');
-  const { classes, practices, addClass, addPractice, weeklyPracticeMinutes } = useTrainingStore();
+  const { classes, practices, addClass, addPractice, weeklyPracticeMinutes, isSignedIn, syncing } = useTrainingStore();
 
   const weeklyData = useMemo(() => weeklyPracticeMinutes(), [practices]);
   const weekTotal = useMemo(() => weeklyData.reduce((a, b) => a + b.minutes, 0), [weeklyData]);
@@ -44,7 +44,16 @@ export function TrainingPage() {
 
   return (
     <>
-      <PageHeader title="수업 & 연습 기록" />
+      <PageHeader
+        title="수업 & 연습 기록"
+        right={
+          <span className={`text-[10px] px-2 py-0.5 rounded-full ${
+            isSignedIn ? (syncing ? 'bg-yellow-500/20 text-yellow-400' : 'bg-green-500/20 text-green-400') : 'bg-gray-500/20 text-gray-400'
+          }`}>
+            {isSignedIn ? (syncing ? '동기화 중...' : '☁ 동기화됨') : '💾 로컬 저장'}
+          </span>
+        }
+      />
       <div className="flex-1 overflow-y-auto">
         <div className="max-w-4xl mx-auto p-5 space-y-5">
 

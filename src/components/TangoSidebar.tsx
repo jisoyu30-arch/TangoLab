@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import { AuthButton } from './AuthButton';
 
 const NAV_ITEMS = [
   { to: '/', label: '홈', icon: '🏠', end: true },
@@ -30,7 +31,7 @@ export function TangoSidebar({ onNavigate }: Props) {
         </div>
       </div>
 
-      <nav className="flex-1 p-3 space-y-1">
+      <nav className="flex-1 p-3 space-y-1 overflow-y-auto">
         {NAV_ITEMS.map(item => (
           <NavLink
             key={item.to}
@@ -50,6 +51,11 @@ export function TangoSidebar({ onNavigate }: Props) {
           </NavLink>
         ))}
       </nav>
+
+      {/* 로그인/로그아웃 */}
+      <div className="p-3 border-t border-secretary-gold/20">
+        <AuthButton />
+      </div>
     </aside>
   );
 }
