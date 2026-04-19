@@ -3,8 +3,8 @@ import { useState, useEffect, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { PageHeader } from '../components/PageHeader';
 import { useTrainingStore } from '../hooks/useTrainingStore';
-import { extractYouTubeId } from '../utils/tangoHelpers';
 import { DEFAULT_JUDGING_CRITERIA } from '../types/tango';
+import { VideoUploader } from '../components/VideoUploader';
 import type { ScoreEntry, ScoreCriteria } from '../types/tango';
 
 const STAGE_OPTIONS = [
@@ -42,8 +42,6 @@ export function MyCompetitionDetailPage() {
   useEffect(() => {
     if (comp) setDraft(comp);
   }, [comp]);
-
-  const videoId = useMemo(() => extractYouTubeId(comp?.video_url ?? null), [comp?.video_url]);
 
   if (!comp || !draft) {
     return (
@@ -180,26 +178,11 @@ export function MyCompetitionDetailPage() {
           </div>
 
           {/* 영상 */}
-          <div className="bg-white/5 border border-secretary-gold/10 rounded-xl p-5">
-            <h3 className="text-xs font-semibold text-secretary-gold mb-3">🎥 대회 영상</h3>
-            {videoId && (
-              <div className="relative w-full rounded-lg overflow-hidden mb-3" style={{ paddingBottom: '56.25%' }}>
-                <iframe
-                  className="absolute inset-0 w-full h-full"
-                  src={`https://www.youtube.com/embed/${videoId}`}
-                  title={comp.competition_name}
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
-              </div>
-            )}
-            <input
-              type="url"
-              value={draft.video_url || ''}
-              onChange={e => setDraft({ ...draft, video_url: e.target.value })}
-              onBlur={() => save({ video_url: draft.video_url || null })}
-              placeholder="YouTube URL 또는 Google Drive 공유 링크"
-              className="w-full bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm text-white placeholder-gray-500 mb-2"
+          <div className="bg-white/5 border border-secretary-gold/10 rounded-xl p-5 space-y-3">
+            <h3 className="text-xs font-semibold text-secretary-gold">🎥 대회 영상</h3>
+            <VideoUploader
+              videoUrl={comp.video_url}
+              onChange={(url) => save({ video_url: url })}
             />
             <textarea
               value={draft.video_note}

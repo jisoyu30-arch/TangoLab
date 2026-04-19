@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { PageHeader } from '../components/PageHeader';
 import { useTrainingStore } from '../hooks/useTrainingStore';
-import { extractYouTubeId } from '../utils/tangoHelpers';
+import { VideoUploader } from '../components/VideoUploader';
 
 export function ClassDetailPage() {
   const { id } = useParams();
@@ -61,8 +61,6 @@ export function ClassDetailPage() {
   const removeTakeaway = (i: number) => {
     save({ key_takeaways: cls.key_takeaways.filter((_, idx) => idx !== i) });
   };
-
-  const videoId = extractYouTubeId(cls.video_url);
 
   return (
     <>
@@ -170,26 +168,10 @@ export function ClassDetailPage() {
           {/* 영상 */}
           <div className="bg-white/5 border border-secretary-gold/10 rounded-xl p-5">
             <h3 className="text-xs font-semibold text-secretary-gold mb-3">수업 영상</h3>
-            {videoId && (
-              <div className="relative w-full rounded-lg overflow-hidden mb-3" style={{ paddingBottom: '56.25%' }}>
-                <iframe
-                  className="absolute inset-0 w-full h-full"
-                  src={`https://www.youtube.com/embed/${videoId}`}
-                  title={cls.title}
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
-              </div>
-            )}
-            <input
-              type="url"
-              value={draft.video_url || ''}
-              onChange={e => setDraft({ ...draft, video_url: e.target.value })}
-              onBlur={() => save({ video_url: draft.video_url || null })}
-              placeholder="YouTube URL 또는 Instagram, Google Drive 링크"
-              className="w-full bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm text-white placeholder-gray-500"
+            <VideoUploader
+              videoUrl={cls.video_url}
+              onChange={(url) => save({ video_url: url })}
             />
-            <p className="text-[10px] text-gray-600 mt-1.5">Tip: 먼저 YouTube에 비공개 업로드 후 링크를 붙여넣으세요.</p>
           </div>
 
           {/* 핵심 배운 점 */}

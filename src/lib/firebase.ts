@@ -2,6 +2,7 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore, enableIndexedDbPersistence } from 'firebase/firestore';
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
+import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
   apiKey: 'AIzaSyCBCMxKJ_gK_0YhXu5XKRn2rSyYuiTgsHQ',
@@ -17,6 +18,7 @@ const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
 export const auth = getAuth(app);
 export const googleProvider = new GoogleAuthProvider();
+export const storage = getStorage(app);
 
 // 오프라인 캐시 (IndexedDB) — 네트워크 끊겨도 로컬에서 작동
 if (typeof window !== 'undefined') {

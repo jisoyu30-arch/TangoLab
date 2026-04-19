@@ -3251,7 +3251,14 @@
       "category": "tango_de_pista",
       "stage": "quarterfinal",
       "ronda_number": 14,
-      "songs": [],
+      "songs": [
+        {
+          "song_id": "SONG-105",
+          "title": "El Trompito",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 1
+        }
+      ],
       "videos": [
         {
           "video_id": "eXDNAdw9CDk",
@@ -3305,7 +3312,14 @@
       "category": "tango_de_pista",
       "stage": "quarterfinal",
       "ronda_number": 17,
-      "songs": [],
+      "songs": [
+        {
+          "song_id": "SONG-279",
+          "title": "Buscándote",
+          "orchestra": "Osvaldo Fresedo y su Orquesta Típica",
+          "order": 1
+        }
+      ],
       "videos": [
         {
           "video_id": "Ds4EsMruBpI",
@@ -3827,7 +3841,26 @@
       "category": "tango_de_pista",
       "stage": "final",
       "ronda_number": 1,
-      "songs": [],
+      "songs": [
+        {
+          "song_id": "SONG-039",
+          "title": "Una Fija",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-040",
+          "title": "Barrio de Tango",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-041",
+          "title": "El Nene del Abasto",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
       "videos": [
         {
           "video_id": "sqQ1TYFHdSE",
@@ -3845,7 +3878,26 @@
       "category": "tango_de_pista",
       "stage": "final",
       "ronda_number": 2,
-      "songs": [],
+      "songs": [
+        {
+          "song_id": "SONG-042",
+          "title": "Adiós Bardi",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-043",
+          "title": "Qué Bien Te Queda",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-023",
+          "title": "El Simpático",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
       "videos": [
         {
           "video_id": "6mRIbSEZzLg",
@@ -3863,7 +3915,26 @@
       "category": "tango_de_pista",
       "stage": "final",
       "ronda_number": 3,
-      "songs": [],
+      "songs": [
+        {
+          "song_id": "SONG-044",
+          "title": "Esta Noche de Luna",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-045",
+          "title": "Recuerdo Malevo",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-003",
+          "title": "El Flete",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
       "videos": [
         {
           "video_id": "WNT2zcr3t88",
@@ -3881,7 +3952,26 @@
       "category": "tango_de_pista",
       "stage": "final",
       "ronda_number": 4,
-      "songs": [],
+      "songs": [
+        {
+          "song_id": "SONG-046",
+          "title": "Indio Manso",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-026",
+          "title": "Dos Fracasos",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-036",
+          "title": "Te Aconsejo Que Me Olvides",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
       "videos": [
         {
           "video_id": "uPyHdQ_fTWs",
@@ -3899,7 +3989,26 @@
       "category": "tango_de_pista",
       "stage": "final",
       "ronda_number": 1,
-      "songs": [],
+      "songs": [
+        {
+          "song_id": "SONG-031",
+          "title": "Jamás Retornarás",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-484",
+          "title": "Café Dominguez",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-033",
+          "title": "Yapeyú",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
       "videos": [
         {
           "video_id": "ct732sKIfkA",
@@ -3917,7 +4026,26 @@
       "category": "tango_de_pista",
       "stage": "final",
       "ronda_number": 2,
-      "songs": [],
+      "songs": [
+        {
+          "song_id": "SONG-485",
+          "title": "El Adiós",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-486",
+          "title": "Nueve Puntos (1a Versión)",
+          "orchestra": "Alfredo Gobbi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-036",
+          "title": "Te Aconsejo Que Me Olvides",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
       "videos": [
         {
           "video_id": "YCbVDlJ5C5Q",
@@ -3935,7 +4063,26 @@
       "category": "tango_de_pista",
       "stage": "final",
       "ronda_number": 3,
-      "songs": [],
+      "songs": [
+        {
+          "song_id": "SONG-470",
+          "title": "Una Emoción",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-013",
+          "title": "Recuerdo",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-038",
+          "title": "Comparsa Criolla",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
       "videos": [
         {
           "video_id": "QLtHy8suIKg",
@@ -3953,7 +4100,26 @@
       "category": "tango_de_pista",
       "stage": "final",
       "ronda_number": 4,
-      "songs": [],
+      "songs": [
+        {
+          "song_id": "SONG-022",
+          "title": "La Bordona",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-026",
+          "title": "Dos Fracasos",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-023",
+          "title": "El Simpático",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
       "videos": [
         {
           "video_id": "4yUrYSBYazg",
@@ -4241,7 +4407,26 @@
       "category": "tango_de_pista",
       "stage": "semifinal",
       "ronda_number": 2,
-      "songs": [],
+      "songs": [
+        {
+          "song_id": "SONG-487",
+          "title": "Nido Gaucho",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-361",
+          "title": "Emancipación",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-041",
+          "title": "El Nene del Abasto",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
       "videos": [
         {
           "video_id": "dpH8CYEyZxo",
@@ -4343,7 +4528,26 @@
       "category": "tango_de_pista",
       "stage": "semifinal",
       "ronda_number": 7,
-      "songs": [],
+      "songs": [
+        {
+          "song_id": "SONG-198",
+          "title": "El abrojito",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-488",
+          "title": "Destino de Flor",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-003",
+          "title": "El Flete",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
       "videos": [
         {
           "video_id": "Jm5EOMocJQ8",
@@ -4590,6 +4794,274 @@
           "url": "https://www.youtube.com/watch?v=U-E7EPi31xw",
           "channel": "한선우",
           "title": "Pista Final - 2025 Pacific Tango Championship (actually Mundial 2025)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2019-PISTA-F1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2019,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-047",
+          "title": "Verde Mar",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-048",
+          "title": "Cantor de Barrio",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-049",
+          "title": "Bien Pulenta",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": []
+    },
+    {
+      "round_id": "R-Mundial2019-PISTA-F2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2019,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-007",
+          "title": "A la Gran Muñeca",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-050",
+          "title": "Bailongo de los Domingos",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-051",
+          "title": "Jueves",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": []
+    },
+    {
+      "round_id": "R-Mundial2019-PISTA-F3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2019,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-044",
+          "title": "Esta Noche de Luna",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-052",
+          "title": "Ese Sos Vos",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-023",
+          "title": "El Simpático",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": []
+    },
+    {
+      "round_id": "R-Mundial2019-PISTA-F4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2019,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 4,
+      "songs": [
+        {
+          "song_id": "SONG-053",
+          "title": "Viviani",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-054",
+          "title": "Me Llaman Tango",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-025",
+          "title": "El Puntazo",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": []
+    },
+    {
+      "round_id": "R-Mundial2017-PISTA-F1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2017,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-046",
+          "title": "Indio Manso",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-489",
+          "title": "Malvón",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-003",
+          "title": "El Flete",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "xe0cwxFxdUg",
+          "url": "https://www.youtube.com/watch?v=xe0cwxFxdUg",
+          "channel": "Tango Master",
+          "title": "2017 탱고피스타 결승 / Tango Music of Mundial 2017, Final Tango Pista"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2017-PISTA-F2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2017,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-117",
+          "title": "El Amanecer",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-490",
+          "title": "Mala Estampa",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-025",
+          "title": "El Puntazo",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "xe0cwxFxdUg",
+          "url": "https://www.youtube.com/watch?v=xe0cwxFxdUg",
+          "channel": "Tango Master",
+          "title": "2017 탱고피스타 결승 / Tango Music of Mundial 2017, Final Tango Pista"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2017-PISTA-F3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2017,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-069",
+          "title": "Comme Il Faut",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-491",
+          "title": "Más Solo Que Nunca",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-120",
+          "title": "Pof Pof",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "xe0cwxFxdUg",
+          "url": "https://www.youtube.com/watch?v=xe0cwxFxdUg",
+          "channel": "Tango Master",
+          "title": "2017 탱고피스타 결승 / Tango Music of Mundial 2017, Final Tango Pista"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2017-PISTA-F4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2017,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 4,
+      "songs": [
+        {
+          "song_id": "SONG-007",
+          "title": "A la Gran Muñeca",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-050",
+          "title": "Bailongo de los Domingos",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-110",
+          "title": "El Resero",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "xe0cwxFxdUg",
+          "url": "https://www.youtube.com/watch?v=xe0cwxFxdUg",
+          "channel": "Tango Master",
+          "title": "2017 탱고피스타 결승 / Tango Music of Mundial 2017, Final Tango Pista"
         }
       ]
     }
