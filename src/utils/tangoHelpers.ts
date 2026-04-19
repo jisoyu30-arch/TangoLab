@@ -24,6 +24,7 @@ export function saveTrainingState(songId: string, state: TrainingState): void {
 
 export const STAGE_LABELS: Record<string, string> = {
   qualifying: '예선',
+  quarterfinal: '8강',
   semifinal: '준결승',
   final: '결승',
 };

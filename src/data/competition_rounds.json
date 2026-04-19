@@ -2932,6 +2932,1666 @@
           "title": "27 Ronda tango pista Mundial de Tango 2025"
         }
       ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "RlJ6mv32f_o",
+          "url": "https://www.youtube.com/watch?v=RlJ6mv32f_o",
+          "channel": "Jose Valverde",
+          "title": "Ronda 01 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-213",
+          "title": "Tristeza Marina",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-013",
+          "title": "Recuerdo",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-104",
+          "title": "Maipo",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "OOaANK3dMwg",
+          "url": "https://www.youtube.com/watch?v=OOaANK3dMwg",
+          "channel": "Jose Valverde",
+          "title": "Ronda 02 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-479",
+          "title": "Un Tango Y Nada Más",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-027",
+          "title": "Pata Ancha",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-364",
+          "title": "El Marne",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "cL2gyR31VUs",
+          "url": "https://www.youtube.com/watch?v=cL2gyR31VUs",
+          "channel": "Jose Valverde",
+          "title": "Ronda 03 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "35JYhjkkPbM",
+          "url": "https://www.youtube.com/watch?v=35JYhjkkPbM",
+          "channel": "Jose Valverde",
+          "title": "Ronda 04 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF5",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 5,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "pMusrMZKlmo",
+          "url": "https://www.youtube.com/watch?v=pMusrMZKlmo",
+          "channel": "Jose Valverde",
+          "title": "Ronda 05 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF6",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 6,
+      "songs": [
+        {
+          "song_id": "SONG-079",
+          "title": "Verdemar",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-012",
+          "title": "Gallo Ciego",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-480",
+          "title": "Olvídame",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "E6UX-ZlsW4Y",
+          "url": "https://www.youtube.com/watch?v=E6UX-ZlsW4Y",
+          "channel": "Jose Valverde",
+          "title": "Ronda 06 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF7",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 7,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "RdKRDsCowX0",
+          "url": "https://www.youtube.com/watch?v=RdKRDsCowX0",
+          "channel": "Jose Valverde",
+          "title": "Ronda 07 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF8",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 8,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "Jgc1dOHk8dw",
+          "url": "https://www.youtube.com/watch?v=Jgc1dOHk8dw",
+          "channel": "Jose Valverde",
+          "title": "Ronda 08 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF9",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 9,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "937iNiTvGRM",
+          "url": "https://www.youtube.com/watch?v=937iNiTvGRM",
+          "channel": "Jose Valverde",
+          "title": "Ronda 09 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF10",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 10,
+      "songs": [
+        {
+          "song_id": "SONG-481",
+          "title": "Lejos de Buenos Aires",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-482",
+          "title": "La Que Nunca Tuvo Novio",
+          "orchestra": "Pedro Laurenz y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-483",
+          "title": "9 de Julio",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "tgbDB_S9VBg",
+          "url": "https://www.youtube.com/watch?v=tgbDB_S9VBg",
+          "channel": "Jose Valverde",
+          "title": "Ronda 10 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF11",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 11,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "qRVgqFvEyYM",
+          "url": "https://www.youtube.com/watch?v=qRVgqFvEyYM",
+          "channel": "Jose Valverde",
+          "title": "Ronda 11 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF12",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 12,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "Qj6pekKMzvc",
+          "url": "https://www.youtube.com/watch?v=Qj6pekKMzvc",
+          "channel": "Jose Valverde",
+          "title": "Ronda 12 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF13",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 13,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "OYhVGTHEy84",
+          "url": "https://www.youtube.com/watch?v=OYhVGTHEy84",
+          "channel": "Jose Valverde",
+          "title": "Ronda 13 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF14",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 14,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "eXDNAdw9CDk",
+          "url": "https://www.youtube.com/watch?v=eXDNAdw9CDk",
+          "channel": "Jose Valverde",
+          "title": "Ronda 14 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF15",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 15,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "gvfvvVGhm44",
+          "url": "https://www.youtube.com/watch?v=gvfvvVGhm44",
+          "channel": "Jose Valverde",
+          "title": "Ronda 15 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF16",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 16,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "fB01vUx1mLo",
+          "url": "https://www.youtube.com/watch?v=fB01vUx1mLo",
+          "channel": "Jose Valverde",
+          "title": "Ronda 16 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF17",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 17,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "Ds4EsMruBpI",
+          "url": "https://www.youtube.com/watch?v=Ds4EsMruBpI",
+          "channel": "Jose Valverde",
+          "title": "Ronda 17 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF18",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 18,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "9jjqimr7-TE",
+          "url": "https://www.youtube.com/watch?v=9jjqimr7-TE",
+          "channel": "Jose Valverde",
+          "title": "Ronda 18 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF19",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 19,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "TxJ71ZjjipI",
+          "url": "https://www.youtube.com/watch?v=TxJ71ZjjipI",
+          "channel": "Jose Valverde",
+          "title": "Ronda 19 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF20",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 20,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "JRxSH7VHLbE",
+          "url": "https://www.youtube.com/watch?v=JRxSH7VHLbE",
+          "channel": "Jose Valverde",
+          "title": "Ronda 20 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF21",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 21,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "m5Gc5be9v3E",
+          "url": "https://www.youtube.com/watch?v=m5Gc5be9v3E",
+          "channel": "Jose Valverde",
+          "title": "Ronda 21 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF22",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 22,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "7q3m96Av0-c",
+          "url": "https://www.youtube.com/watch?v=7q3m96Av0-c",
+          "channel": "Jose Valverde",
+          "title": "Ronda 22 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF23",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 23,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "ezTzPZTPQ8M",
+          "url": "https://www.youtube.com/watch?v=ezTzPZTPQ8M",
+          "channel": "Jose Valverde",
+          "title": "Ronda 23 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF24",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 24,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "dGcj3ncSaCI",
+          "url": "https://www.youtube.com/watch?v=dGcj3ncSaCI",
+          "channel": "Jose Valverde",
+          "title": "Ronda 24 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF25",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 25,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "ubX2684RbCg",
+          "url": "https://www.youtube.com/watch?v=ubX2684RbCg",
+          "channel": "Jose Valverde",
+          "title": "Ronda 25 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF26",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 26,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "C6CGu28VEX8",
+          "url": "https://www.youtube.com/watch?v=C6CGu28VEX8",
+          "channel": "Jose Valverde",
+          "title": "Ronda 26 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF27",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 27,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "OveXhcHS2PQ",
+          "url": "https://www.youtube.com/watch?v=OveXhcHS2PQ",
+          "channel": "Jose Valverde",
+          "title": "Ronda 27 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF28",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 28,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "7TDUt8a7XSI",
+          "url": "https://www.youtube.com/watch?v=7TDUt8a7XSI",
+          "channel": "Jose Valverde",
+          "title": "Ronda 28 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF29",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 29,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "C27ypflrI5s",
+          "url": "https://www.youtube.com/watch?v=C27ypflrI5s",
+          "channel": "Jose Valverde",
+          "title": "Ronda 29 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-QF30",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "quarterfinal",
+      "ronda_number": 30,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "9gsmAvCHq6k",
+          "url": "https://www.youtube.com/watch?v=9gsmAvCHq6k",
+          "channel": "Jose Valverde",
+          "title": "Ronda 30 Cuartos de Final Tango Pista 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2021-PISTA-F1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2021,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "plabVPh7KgM",
+          "url": "https://www.youtube.com/watch?v=plabVPh7KgM",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango Buenos Aires 2021 - Final - Ronda 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2021-PISTA-F2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2021,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "umOosKWLhzo",
+          "url": "https://www.youtube.com/watch?v=umOosKWLhzo",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango Buenos Aires 2021 - Final - Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2021-PISTA-F3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2021,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "3RRrWK9ySBk",
+          "url": "https://www.youtube.com/watch?v=3RRrWK9ySBk",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango Buenos Aires 2021 - Final - Ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2021-PISTA-F4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2021,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "ioAbIugDmIw",
+          "url": "https://www.youtube.com/watch?v=ioAbIugDmIw",
+          "channel": "AiresDeMilonga",
+          "title": "Final Pista, Ronda 4 Mundial de Tango 2021, baile de tango Buenos Aires"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2021-PISTA-F5",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2021,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 5,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "cTvVJG5zKcw",
+          "url": "https://www.youtube.com/watch?v=cTvVJG5zKcw",
+          "channel": "AiresDeMilonga",
+          "title": "Final Pista, Ronda 5 Mundial de Tango 2021, baile de tango"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2021-PISTA-F6",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2021,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 6,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "Qnl58Xb-hwc",
+          "url": "https://www.youtube.com/watch?v=Qnl58Xb-hwc",
+          "channel": "AiresDeMilonga",
+          "title": "Final Pista, Ronda 6 Mundial de Tango 2021, baile de tango"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2021-PISTA-S1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2021,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "zP-TJ_2mDFw",
+          "url": "https://www.youtube.com/watch?v=zP-TJ_2mDFw",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango Buenos Aires 2021 - Semi Final - Ronda 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2021-PISTA-S2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2021,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "E2l1oUTk-oA",
+          "url": "https://www.youtube.com/watch?v=E2l1oUTk-oA",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango Buenos Aires 2021 - Semi Final - Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2021-PISTA-S3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2021,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "_qray5xBidM",
+          "url": "https://www.youtube.com/watch?v=_qray5xBidM",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango Buenos Aires 2021 - Semi Final - Ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2021-PISTA-S4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2021,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "nxcc6QrGGLI",
+          "url": "https://www.youtube.com/watch?v=nxcc6QrGGLI",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango Buenos Aires 2021 - Semi Final - Ronda 4"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2021-PISTA-S5",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2021,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 5,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "X9oqQ1PaBpk",
+          "url": "https://www.youtube.com/watch?v=X9oqQ1PaBpk",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango Buenos Aires 2021 - Semi Final - Ronda 5"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2021-PISTA-S6",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2021,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 6,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "XuG4B8rX5xY",
+          "url": "https://www.youtube.com/watch?v=XuG4B8rX5xY",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango Buenos Aires 2021 - Semi Final - Ronda 6"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2021-PISTA-S7",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2021,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 7,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "0JcNHI7yBv8",
+          "url": "https://www.youtube.com/watch?v=0JcNHI7yBv8",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango Buenos Aires 2021 - Semi Final - Ronda 7"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2021-PISTA-S8",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2021,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 8,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "F0V_ReJawfI",
+          "url": "https://www.youtube.com/watch?v=F0V_ReJawfI",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango Buenos Aires 2021 - Semi Final - Ronda 8"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2021-PISTA-S9",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2021,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 9,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "v187MaXwuEk",
+          "url": "https://www.youtube.com/watch?v=v187MaXwuEk",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango Buenos Aires 2021 - Semi Final - Ronda 9"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2022-PISTA-F1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2022,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "sqQ1TYFHdSE",
+          "url": "https://www.youtube.com/watch?v=sqQ1TYFHdSE",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango Buenos Aires 2022 - Final - Ronda 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2022-PISTA-F2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2022,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "6mRIbSEZzLg",
+          "url": "https://www.youtube.com/watch?v=6mRIbSEZzLg",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango Buenos Aires 2022 - Final - Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2022-PISTA-F3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2022,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "WNT2zcr3t88",
+          "url": "https://www.youtube.com/watch?v=WNT2zcr3t88",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango Buenos Aires 2022 - Final - Ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2022-PISTA-F4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2022,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "uPyHdQ_fTWs",
+          "url": "https://www.youtube.com/watch?v=uPyHdQ_fTWs",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango Buenos Aires 2022 - Final - Ronda 4"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2023-PISTA-F1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2023,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "ct732sKIfkA",
+          "url": "https://www.youtube.com/watch?v=ct732sKIfkA",
+          "channel": "AiresDeMilonga",
+          "title": "2023 Final Ronda 1 - Mundial de Tango Buenos Aires"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2023-PISTA-F2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2023,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "YCbVDlJ5C5Q",
+          "url": "https://www.youtube.com/watch?v=YCbVDlJ5C5Q",
+          "channel": "AiresDeMilonga",
+          "title": "2023 Final Ronda 2 - Mundial de Tango Buenos Aires"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2023-PISTA-F3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2023,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "QLtHy8suIKg",
+          "url": "https://www.youtube.com/watch?v=QLtHy8suIKg",
+          "channel": "AiresDeMilonga",
+          "title": "2023 Final Ronda 3 - Mundial de Tango Buenos Aires"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2023-PISTA-F4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2023,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "4yUrYSBYazg",
+          "url": "https://www.youtube.com/watch?v=4yUrYSBYazg",
+          "channel": "AiresDeMilonga",
+          "title": "2023 Final Ronda 4 - Mundial de Tango Buenos Aires"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-F1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "tn_1QNxRg7A",
+          "url": "https://www.youtube.com/watch?v=tn_1QNxRg7A",
+          "channel": "AiresDeMilonga",
+          "title": "R1 Final pista Mundial de tango 2024"
+        },
+        {
+          "video_id": "5FezHVdu8L0",
+          "url": "https://www.youtube.com/watch?v=5FezHVdu8L0",
+          "channel": "Cachotango",
+          "title": "2024 Final pista Ronda 1 Mundial de Tango Buenos Aires"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-F2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "-tnOyBK2KWY",
+          "url": "https://www.youtube.com/watch?v=-tnOyBK2KWY",
+          "channel": "AiresDeMilonga",
+          "title": "R2 Final pista Mundial de tango 2024"
+        },
+        {
+          "video_id": "VSvDvKccObU",
+          "url": "https://www.youtube.com/watch?v=VSvDvKccObU",
+          "channel": "Cachotango",
+          "title": "2024 Final pista Ronda 2 Mundial de Tango Buenos Aires"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-F3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "cCat_GQqvoc",
+          "url": "https://www.youtube.com/watch?v=cCat_GQqvoc",
+          "channel": "AiresDeMilonga",
+          "title": "R3 Mundial de tango 2024 final Pista"
+        },
+        {
+          "video_id": "z43BwYxaEiM",
+          "url": "https://www.youtube.com/watch?v=z43BwYxaEiM",
+          "channel": "Cachotango",
+          "title": "2024 Final pista Ronda 3 Mundial de Tango Buenos Aires"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-F4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "vfNkamPH9-M",
+          "url": "https://www.youtube.com/watch?v=vfNkamPH9-M",
+          "channel": "AiresDeMilonga",
+          "title": "R4 Final pista Mundial de tango 2024 final Pista"
+        },
+        {
+          "video_id": "rawH5eJ9Y80",
+          "url": "https://www.youtube.com/watch?v=rawH5eJ9Y80",
+          "channel": "Cachotango",
+          "title": "2024 Final pista Ronda 4 Mundial de Tango Buenos Aires"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-S10",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 10,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "XUI_yHilKJY",
+          "url": "https://www.youtube.com/watch?v=XUI_yHilKJY",
+          "channel": "Cachotango",
+          "title": "2024 Semifinal pista Ronda 10 Mundial de Tango"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-S11",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 11,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "v_PgkvAVq5w",
+          "url": "https://www.youtube.com/watch?v=v_PgkvAVq5w",
+          "channel": "Cachotango",
+          "title": "2024 Semifinal pista Ronda 11 Mundial de Tango"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-S12",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 12,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "mA5djzApw7M",
+          "url": "https://www.youtube.com/watch?v=mA5djzApw7M",
+          "channel": "Cachotango",
+          "title": "2024 Semifinal pista Ronda 12 Mundial de Tango"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-S13",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 13,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "DTMO-bBgzHA",
+          "url": "https://www.youtube.com/watch?v=DTMO-bBgzHA",
+          "channel": "Cachotango",
+          "title": "2024 Semifinal pista Ronda 13 Mundial de Tango"
+        },
+        {
+          "video_id": "Yh11qFe7py8",
+          "url": "https://www.youtube.com/watch?v=Yh11qFe7py8",
+          "channel": "AiresDeMilonga",
+          "title": "R13 Mundial de tango 2024 Semifinal Baile Pista Ronda 13"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-S14",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 14,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "RSdTDNg_B1o",
+          "url": "https://www.youtube.com/watch?v=RSdTDNg_B1o",
+          "channel": "Cachotango",
+          "title": "2024 Semifinal pista Ronda 14 Mundial de Tango"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-S15",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 15,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "Ob1vntqY1s4",
+          "url": "https://www.youtube.com/watch?v=Ob1vntqY1s4",
+          "channel": "Cachotango",
+          "title": "2024 Semifinal pista Ronda 15 Mundial de Tango"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-S16",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 16,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "JSJXxFxb3LY",
+          "url": "https://www.youtube.com/watch?v=JSJXxFxb3LY",
+          "channel": "Cachotango",
+          "title": "2024 Semifinal pista Ronda 16 Mundial de Tango"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-S17",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 17,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "q8Qxs4Q88fE",
+          "url": "https://www.youtube.com/watch?v=q8Qxs4Q88fE",
+          "channel": "Cachotango",
+          "title": "2024 Semifinal pista Ronda 17 Mundial de Tango"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-S1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "rsioqXQswCw",
+          "url": "https://www.youtube.com/watch?v=rsioqXQswCw",
+          "channel": "AiresDeMilonga",
+          "title": "mundial de tango 2024 semifinal ronda 1"
+        },
+        {
+          "video_id": "COzZ83KxT-0",
+          "url": "https://www.youtube.com/watch?v=COzZ83KxT-0",
+          "channel": "AiresDeMilonga",
+          "title": "R1 Mundial de tango 2024 Semifinal Baile Pista Ronda 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-S2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "dpH8CYEyZxo",
+          "url": "https://www.youtube.com/watch?v=dpH8CYEyZxo",
+          "channel": "AiresDeMilonga",
+          "title": "mundial de tango 2024 semifinal ronda 2"
+        },
+        {
+          "video_id": "2DnQir5q8Zc",
+          "url": "https://www.youtube.com/watch?v=2DnQir5q8Zc",
+          "channel": "AiresDeMilonga",
+          "title": "R2 Mundial de tango 2024 Semifinal Baile Pista Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-S3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "x8BtHWrYKIk",
+          "url": "https://www.youtube.com/watch?v=x8BtHWrYKIk",
+          "channel": "AiresDeMilonga",
+          "title": "mundial de tango 2024 semifinal ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-S4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "xacwfi8wm0M",
+          "url": "https://www.youtube.com/watch?v=xacwfi8wm0M",
+          "channel": "AiresDeMilonga",
+          "title": "mundial de tango 2024 semifinal ronda 4"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-S5",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 5,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "Pgsm3LFZSOk",
+          "url": "https://www.youtube.com/watch?v=Pgsm3LFZSOk",
+          "channel": "AiresDeMilonga",
+          "title": "mundial de tango 2024 semifinal ronda 5"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-S6",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 6,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "xy3nRqdZpJg",
+          "url": "https://www.youtube.com/watch?v=xy3nRqdZpJg",
+          "channel": "AiresDeMilonga",
+          "title": "mundial de tango 2024 semifinal ronda 6"
+        },
+        {
+          "video_id": "E-tb60kR2oo",
+          "url": "https://www.youtube.com/watch?v=E-tb60kR2oo",
+          "channel": "AiresDeMilonga",
+          "title": "R 6 Mundial de tango 2024 Semifinal Baile Pista Ronda 6"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-S7",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 7,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "Jm5EOMocJQ8",
+          "url": "https://www.youtube.com/watch?v=Jm5EOMocJQ8",
+          "channel": "AiresDeMilonga",
+          "title": "mundial de tango 2024 semifinal ronda 7"
+        },
+        {
+          "video_id": "W_FWYSqZBn0",
+          "url": "https://www.youtube.com/watch?v=W_FWYSqZBn0",
+          "channel": "AiresDeMilonga",
+          "title": "R7 Mundial de tango 2024 Semifinal Baile Pista Ronda 7"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-S8",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 8,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "x-rnp4076yw",
+          "url": "https://www.youtube.com/watch?v=x-rnp4076yw",
+          "channel": "AiresDeMilonga",
+          "title": "mundial de tango 2024 semifinal ronda 8"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-S9",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 9,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "lVkw5KRocZE",
+          "url": "https://www.youtube.com/watch?v=lVkw5KRocZE",
+          "channel": "AiresDeMilonga",
+          "title": "mundial de tango 2024 semifinal ronda 9"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-Q4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "-aWhHncs6vM",
+          "url": "https://www.youtube.com/watch?v=-aWhHncs6vM",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de tango 2024 clasificatoria día 1 Ronda 4"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-Q7",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 7,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "4DzSl5t8sEA",
+          "url": "https://www.youtube.com/watch?v=4DzSl5t8sEA",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de tango 2024 clasificatoria día 1 Ronda 7"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-Q11",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 11,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "ZGb3YPAsJjw",
+          "url": "https://www.youtube.com/watch?v=ZGb3YPAsJjw",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de tango 2024 clasificatoria día 1 Ronda 11"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-Q17",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 17,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "anTEzfrMJCs",
+          "url": "https://www.youtube.com/watch?v=anTEzfrMJCs",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de tango 2024 clasificatoria día 2 Ronda 7"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-Q22",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 22,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "pcPaWzy2YRo",
+          "url": "https://www.youtube.com/watch?v=pcPaWzy2YRo",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de tango 2024 clasificatoria día 2 Ronda 11"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-Q23",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 23,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "8amhu2vDGR0",
+          "url": "https://www.youtube.com/watch?v=8amhu2vDGR0",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de tango 2024 clasificatoria día 2 Ronda 12"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-Q27",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 27,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "GbRgiYfiKM4",
+          "url": "https://www.youtube.com/watch?v=GbRgiYfiKM4",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de tango 2024 clasificatoria día 2 Ronda 16"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-Q28",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 28,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "mtNiPpdOGho",
+          "url": "https://www.youtube.com/watch?v=mtNiPpdOGho",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de tango 2024 clasificatoria día 2 Ronda 17"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-Q29",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 29,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "IrQSmEqiCSA",
+          "url": "https://www.youtube.com/watch?v=IrQSmEqiCSA",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de tango 2024 clasificatoria día 2 Ronda 18"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2024-PISTA-Q34",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2024,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 34,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "1uH735e9HzI",
+          "url": "https://www.youtube.com/watch?v=1uH735e9HzI",
+          "channel": "AiresDeMilonga",
+          "title": "ronda de clasificación N 34 mundial de tango 2024"
+        }
+      ]
+    },
+    {
+      "round_id": "R-Mundial2025-PISTA-F1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "U-E7EPi31xw",
+          "url": "https://www.youtube.com/watch?v=U-E7EPi31xw",
+          "channel": "한선우",
+          "title": "Pista Final - 2025 Pacific Tango Championship (actually Mundial 2025)"
+        }
+      ]
     }
   ]
 }
