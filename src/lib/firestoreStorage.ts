@@ -18,16 +18,16 @@ export interface UploadHandle {
 }
 
 /**
- * 사용자 영상을 Firebase Storage에 업로드
- * 경로: users/{uid}/videos/{timestamp}-{filename}
+ * 커플 공유 영상을 Firebase Storage에 업로드
+ * 경로: couples/tango-couple/videos/{timestamp}-{filename}
  */
 export function uploadVideo(
-  uid: string,
+  _uid: string,
   file: File,
   onProgress?: (p: UploadProgress) => void
 ): UploadHandle {
   const safeName = file.name.replace(/[^a-zA-Z0-9._-]/g, '_');
-  const path = `users/${uid}/videos/${Date.now()}-${safeName}`;
+  const path = `couples/tango-couple/videos/${Date.now()}-${safeName}`;
   const storageRef = ref(storage, path);
   const task = uploadBytesResumable(storageRef, file, {
     contentType: file.type,

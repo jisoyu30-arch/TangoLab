@@ -54,6 +54,7 @@ const EMPTY_CRITERIA: ScoreCriteria = {
 export function useTrainingStore() {
   const [data, setData] = useState<TrainingData>(loadLocal);
   const [userUid, setUserUid] = useState<string | null>(auth.currentUser?.uid ?? null);
+  const [userEmail, setUserEmail] = useState<string | null>(auth.currentUser?.email ?? null);
   const [syncing, setSyncing] = useState(false);
   const [syncError, setSyncError] = useState<string | null>(null);
   const skipNextSaveRef = useRef(false); // 구독으로 내려온 데이터는 다시 업로드하지 않기
@@ -62,6 +63,7 @@ export function useTrainingStore() {
   useEffect(() => {
     const unsub = onAuthStateChanged(auth, (u) => {
       setUserUid(u?.uid ?? null);
+      setUserEmail(u?.email ?? null);
     });
     return () => unsub();
   }, []);
@@ -79,7 +81,7 @@ export function useTrainingStore() {
         const hasLocal = local.classes.length + local.practices.length + local.ownCompetitions.length > 0;
         if (hasLocal) {
           try {
-            await saveUserData(userUid, local);
+            await saveUserData(userUid, local, userEmail);
           } catch (e: any) {
             setSyncError(e.message);
           }
@@ -111,12 +113,12 @@ export function useTrainingStore() {
         return;
       }
       // 비동기로 Firestore 업로드 (실패해도 로컬은 저장됨)
-      saveUserData(userUid, newData).catch((e) => {
+      saveUserData(userUid, newData, userEmail).catch((e) => {
         console.error('Firestore 동기화 실패:', e);
         setSyncError(e.message);
       });
     }
-  }, [userUid]);
+  }, [userUid, userEmail]);
 
   // === Classes ===
   const addClass = useCallback((partial: Partial<ClassRecord>): string => {
