@@ -48,7 +48,29 @@ service cloud.firestore {
 
 7. **"게시"** 버튼 클릭
 
-### 3. 완료!
+### 3. Firebase Storage 설정 (영상 직접 업로드용)
+
+1. Firebase 콘솔 → **"Storage"** 클릭
+2. **"시작하기"** → **"프로덕션 모드"** 선택 → 위치 선택 → 완료
+3. **"규칙"** 탭 → 아래로 교체:
+
+```javascript
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // 본인 폴더만 읽기/쓰기 가능
+    match /users/{userId}/{allPaths=**} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+  }
+}
+```
+
+4. **"게시"** 클릭
+
+**Storage 무료 한도**: 5GB 저장 + 1GB 다운로드/일 + 20K 업로드/일
+
+### 4. 완료!
 
 이제 TangoLab에서 **"Google로 로그인"** 버튼을 누르면:
 - 휴대폰, PC, 태블릿 어디서든 같은 데이터 사용 가능
