@@ -4639,7 +4639,14 @@
           "order": 3
         }
       ],
-      "videos": []
+      "videos": [
+        {
+          "video_id": "iCWy9phr3_g",
+          "url": "https://www.youtube.com/watch?v=iCWy9phr3_g",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2019 - Final - Ronda 1"
+        }
+      ]
     },
     {
       "round_id": "R-MUNDIAL2019-PISTA-F2",
@@ -4669,7 +4676,14 @@
           "order": 3
         }
       ],
-      "videos": []
+      "videos": [
+        {
+          "video_id": "ZMzC2P_geec",
+          "url": "https://www.youtube.com/watch?v=ZMzC2P_geec",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2019 - Final - Ronda 2"
+        }
+      ]
     },
     {
       "round_id": "R-MUNDIAL2019-PISTA-F3",
@@ -4699,7 +4713,14 @@
           "order": 3
         }
       ],
-      "videos": []
+      "videos": [
+        {
+          "video_id": "1kacz8uHpn4",
+          "url": "https://www.youtube.com/watch?v=1kacz8uHpn4",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2019 - Final - Ronda 3"
+        }
+      ]
     },
     {
       "round_id": "R-MUNDIAL2019-PISTA-F4",
@@ -4729,7 +4750,14 @@
           "order": 3
         }
       ],
-      "videos": []
+      "videos": [
+        {
+          "video_id": "OAWYMAGypAA",
+          "url": "https://www.youtube.com/watch?v=OAWYMAGypAA",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2019 - Final - Ronda 4"
+        }
+      ]
     },
     {
       "round_id": "R-MUNDIAL2017-PISTA-F1",
@@ -4765,6 +4793,12 @@
           "url": "https://www.youtube.com/watch?v=xe0cwxFxdUg",
           "channel": "Tango Master",
           "title": "2017 탱고피스타 결승 / Tango Music of Mundial 2017, Final Tango Pista"
+        },
+        {
+          "video_id": "_GZ0sJmVFNI",
+          "url": "https://www.youtube.com/watch?v=_GZ0sJmVFNI",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2017 - Final - Ronda 1"
         }
       ]
     },
@@ -4802,6 +4836,12 @@
           "url": "https://www.youtube.com/watch?v=xe0cwxFxdUg",
           "channel": "Tango Master",
           "title": "2017 탱고피스타 결승 / Tango Music of Mundial 2017, Final Tango Pista"
+        },
+        {
+          "video_id": "G_Rmlpdj_Ck",
+          "url": "https://www.youtube.com/watch?v=G_Rmlpdj_Ck",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2017 - Final - Ronda 2"
         }
       ]
     },
@@ -4839,6 +4879,12 @@
           "url": "https://www.youtube.com/watch?v=xe0cwxFxdUg",
           "channel": "Tango Master",
           "title": "2017 탱고피스타 결승 / Tango Music of Mundial 2017, Final Tango Pista"
+        },
+        {
+          "video_id": "OSUyxAxurHk",
+          "url": "https://www.youtube.com/watch?v=OSUyxAxurHk",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2017 - Final - Ronda 3"
         }
       ]
     },
@@ -4876,6 +4922,12 @@
           "url": "https://www.youtube.com/watch?v=xe0cwxFxdUg",
           "channel": "Tango Master",
           "title": "2017 탱고피스타 결승 / Tango Music of Mundial 2017, Final Tango Pista"
+        },
+        {
+          "video_id": "hXH_p-2W4ZI",
+          "url": "https://www.youtube.com/watch?v=hXH_p-2W4ZI",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2017 - Final - Ronda 4"
         }
       ]
     },
@@ -4925,6 +4977,12 @@
           "url": "https://www.youtube.com/watch?v=fPPUZWVZ9ew",
           "channel": "AiresDeMilonga",
           "title": "Mundial de Tango 2016, Clasificatoria Pista, Ronda 13, 3/3"
+        },
+        {
+          "video_id": "7DN_UYRcaUY",
+          "url": "https://www.youtube.com/watch?v=7DN_UYRcaUY",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 13"
         }
       ]
     },
@@ -4936,13 +4994,38 @@
       "category": "tango_de_pista",
       "stage": "qualifying",
       "ronda_number": 6,
-      "songs": [],
+      "songs": [
+        {
+          "song_id": "SONG-220",
+          "title": "Enbrujamiento",
+          "orchestra": "Malerba",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-221",
+          "title": "Lagrimas",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-222",
+          "title": "La Vi Llegar",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 3
+        }
+      ],
       "videos": [
         {
           "video_id": "B6Sv6i0HrKk",
           "url": "https://www.youtube.com/watch?v=B6Sv6i0HrKk",
           "channel": "AiresDeMilonga",
           "title": "Mundial de Tango 2016, Clasificatoria pista Ronda 6"
+        },
+        {
+          "video_id": "MN5mTOqU3Ao",
+          "url": "https://www.youtube.com/watch?v=MN5mTOqU3Ao",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 6"
         }
       ]
     },
@@ -4954,13 +5037,38 @@
       "category": "tango_de_pista",
       "stage": "qualifying",
       "ronda_number": 7,
-      "songs": [],
+      "songs": [
+        {
+          "song_id": "SONG-223",
+          "title": "Barajando Recuerdos",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-559",
+          "title": "Sinfona de Arrabal",
+          "orchestra": "Edgardo Donato y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-560",
+          "title": "Milonguero Viejo",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
       "videos": [
         {
           "video_id": "Yrc9eflpGns",
           "url": "https://www.youtube.com/watch?v=Yrc9eflpGns",
           "channel": "AiresDeMilonga",
           "title": "Mundial de Tango 2016, Clasificatoria pista Ronda 7"
+        },
+        {
+          "video_id": "dDhejfF4P0Y",
+          "url": "https://www.youtube.com/watch?v=dDhejfF4P0Y",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 7"
         }
       ]
     },
@@ -4972,13 +5080,38 @@
       "category": "tango_de_pista",
       "stage": "qualifying",
       "ronda_number": 8,
-      "songs": [],
+      "songs": [
+        {
+          "song_id": "SONG-225",
+          "title": "Un Tropezon",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-226",
+          "title": "El Cuarteador",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-227",
+          "title": "Boedo",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
       "videos": [
         {
           "video_id": "t5KypJq4zws",
           "url": "https://www.youtube.com/watch?v=t5KypJq4zws",
           "channel": "AiresDeMilonga",
           "title": "Mundial de Tango 2016, Clasificatoria pista Ronda 8"
+        },
+        {
+          "video_id": "Vt2CGp7CAiA",
+          "url": "https://www.youtube.com/watch?v=Vt2CGp7CAiA",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 8"
         }
       ]
     },
@@ -4990,13 +5123,5773 @@
       "category": "tango_de_pista",
       "stage": "qualifying",
       "ronda_number": 9,
-      "songs": [],
+      "songs": [
+        {
+          "song_id": "SONG-557",
+          "title": "Cascabelito",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-510",
+          "title": "Por Qu Razn",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-558",
+          "title": "Verdemar",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 3
+        }
+      ],
       "videos": [
         {
           "video_id": "vctHaxAxOu4",
           "url": "https://www.youtube.com/watch?v=vctHaxAxOu4",
           "channel": "AiresDeMilonga",
           "title": "Mundial de Tango 2016, Clasificatoria pista Ronda 9"
+        },
+        {
+          "video_id": "lZ_OdKqAEIs",
+          "url": "https://www.youtube.com/watch?v=lZ_OdKqAEIs",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 9"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2018-PISTA-F4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2018,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 4,
+      "songs": [
+        {
+          "song_id": "SONG-498",
+          "title": "Una Fija",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-040",
+          "title": "Barrio de Tango",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-116",
+          "title": "La Tupungatina",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "Qe1xM2NS8UA",
+          "url": "https://www.youtube.com/watch?v=Qe1xM2NS8UA",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2018 - Final - Ronda 4"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2018-PISTA-F3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2018,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-499",
+          "title": "Navegante",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-500",
+          "title": "Chique ( el elegante )",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-041",
+          "title": "El Nene del Abasto",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "NifT1EDTMS4",
+          "url": "https://www.youtube.com/watch?v=NifT1EDTMS4",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2018 - Final - Ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2018-PISTA-F2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2018,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-113",
+          "title": "Mal de Amores",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-501",
+          "title": "La Torcacita",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-036",
+          "title": "Te Aconsejo Que Me Olvides",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "E2ihvw4VZnM",
+          "url": "https://www.youtube.com/watch?v=E2ihvw4VZnM",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2018 - Final - Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2018-PISTA-F1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2018,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-502",
+          "title": "Ensueos",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-068",
+          "title": "En el Salon",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-112",
+          "title": "Mandria",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "blZTu1wJkdU",
+          "url": "https://www.youtube.com/watch?v=blZTu1wJkdU",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2018 - Final - Ronda 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2018-PISTA-SF14",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2018,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 14,
+      "songs": [
+        {
+          "song_id": "SONG-503",
+          "title": "Siete Palabras",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-504",
+          "title": "Adios Bardi",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-057",
+          "title": "El Olivo",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "f5ZHxH-M6qM",
+          "url": "https://www.youtube.com/watch?v=f5ZHxH-M6qM",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2018 - Semi Final - Ronda 14"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2018-PISTA-SF13",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2018,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 13,
+      "songs": [
+        {
+          "song_id": "SONG-505",
+          "title": "A la Gran Muneca",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-050",
+          "title": "Bailongo de los Domingos",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-110",
+          "title": "El Resero",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "yBlmOs8L20I",
+          "url": "https://www.youtube.com/watch?v=yBlmOs8L20I",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2018 - Semi Final - Ronda 13"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2018-PISTA-SF11",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2018,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 11,
+      "songs": [
+        {
+          "song_id": "SONG-105",
+          "title": "El Trompito",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-506",
+          "title": "Cuatro Compases",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-106",
+          "title": "Champagne Tango",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "AtP6iVrGvGw",
+          "url": "https://www.youtube.com/watch?v=AtP6iVrGvGw",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2018 - Semi Final - Ronda 11"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2018-PISTA-SF10",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2018,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 10,
+      "songs": [
+        {
+          "song_id": "SONG-507",
+          "title": "Como Los Nardos en Flor",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-103",
+          "title": "Bailarin de Contrasena",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-104",
+          "title": "Maipo",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "nl_DAZEKaDk",
+          "url": "https://www.youtube.com/watch?v=nl_DAZEKaDk",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2018 - Semi Final - Ronda 10"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2018-PISTA-SF9",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2018,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 9,
+      "songs": [
+        {
+          "song_id": "SONG-508",
+          "title": "Germaine",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-101",
+          "title": "Corrientes y Esmeralda",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-025",
+          "title": "El Puntazo",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "UfTWpi5opRw",
+          "url": "https://www.youtube.com/watch?v=UfTWpi5opRw",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2018 - Semi Final - Ronda 9"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2018-PISTA-SF8",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2018,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 8,
+      "songs": [
+        {
+          "song_id": "SONG-509",
+          "title": "Ojos Negros",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-098",
+          "title": "Saludos",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-510",
+          "title": "Por Qu Razn",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "nFlPq3eWi7Q",
+          "url": "https://www.youtube.com/watch?v=nFlPq3eWi7Q",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2018 - Semi Final - Ronda 8"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2018-PISTA-SF7",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2018,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 7,
+      "songs": [
+        {
+          "song_id": "SONG-511",
+          "title": "Indio Masso",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-096",
+          "title": "Malvon",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-003",
+          "title": "El Flete",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "Ksx_oXmua7E",
+          "url": "https://www.youtube.com/watch?v=Ksx_oXmua7E",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2018 - Semi Final - Ronda 7"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2018-PISTA-SF6",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2018,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 6,
+      "songs": [
+        {
+          "song_id": "SONG-512",
+          "title": "Adios Te Vas",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-094",
+          "title": "Derecho Viejo",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-038",
+          "title": "Comparsa Criolla",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "ywEMBB5cGD4",
+          "url": "https://www.youtube.com/watch?v=ywEMBB5cGD4",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2018 - Semi Final - Ronda 6"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2018-PISTA-SF5",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2018,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 5,
+      "songs": [
+        {
+          "song_id": "SONG-090",
+          "title": "Percal",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-091",
+          "title": "No Nos Veremos Nunca mas",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-092",
+          "title": "Total Pa Que Sirvo",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "hhGDRnS2bHQ",
+          "url": "https://www.youtube.com/watch?v=hhGDRnS2bHQ",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2018 - Semi Final - Ronda 5"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2018-PISTA-SF4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2018,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 4,
+      "songs": [
+        {
+          "song_id": "SONG-513",
+          "title": "Clavel del Aire",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-088",
+          "title": "La Maleva",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-089",
+          "title": "Ansiedad",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "yY7g6WpGTKg",
+          "url": "https://www.youtube.com/watch?v=yY7g6WpGTKg",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2018 - Semi Final - Ronda 4"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2018-PISTA-SF3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2018,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-514",
+          "title": "Esta Noche de Luna",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-085",
+          "title": "Si Tu Quisieras",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-086",
+          "title": "Judas",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "WyBDXk5wX54",
+          "url": "https://www.youtube.com/watch?v=WyBDXk5wX54",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2018 - Semi Final - Ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2018-PISTA-SF2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2018,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-082",
+          "title": "Trasnochando",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-083",
+          "title": "Pelele",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-084",
+          "title": "Que Noche",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "-kuwuET-brs",
+          "url": "https://www.youtube.com/watch?v=-kuwuET-brs",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2018 - Semi Final - Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2018-PISTA-SF1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2018,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-080",
+          "title": "N...N...",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-026",
+          "title": "Dos Fracasos",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-081",
+          "title": "La Bicoca",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "rVAPGxl3Lu0",
+          "url": "https://www.youtube.com/watch?v=rVAPGxl3Lu0",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2018 - Semi Final - Ronda 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2017-PISTA-SF12",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2017,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 12,
+      "songs": [
+        {
+          "song_id": "SONG-082",
+          "title": "Trasnochando",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-083",
+          "title": "Pelele",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-084",
+          "title": "Que Noche",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "MRP-ZGLqJLo",
+          "url": "https://www.youtube.com/watch?v=MRP-ZGLqJLo",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2017 - Semi Final - Ronda 12"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2017-PISTA-SF11",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2017,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 11,
+      "songs": [
+        {
+          "song_id": "SONG-090",
+          "title": "Percal",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-091",
+          "title": "No Nos Veremos Nunca mas",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-092",
+          "title": "Total Pa Que Sirvo",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "6DH9PLF0sCU",
+          "url": "https://www.youtube.com/watch?v=6DH9PLF0sCU",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2017 - Semi Final - Ronda 11"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2017-PISTA-SF10",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2017,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 10,
+      "songs": [
+        {
+          "song_id": "SONG-519",
+          "title": "Adios Te Vas",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-094",
+          "title": "Derecho Viejo",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-038",
+          "title": "Comparsa Criolla",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "KRnpGpui91k",
+          "url": "https://www.youtube.com/watch?v=KRnpGpui91k",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2017 - Semi Final - Ronda 10"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2017-PISTA-SF9",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2017,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 9,
+      "songs": [
+        {
+          "song_id": "SONG-520",
+          "title": "Navegante",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-500",
+          "title": "Chique ( el elegante )",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-041",
+          "title": "El Nene del Abasto",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "MRRI3MoYGoc",
+          "url": "https://www.youtube.com/watch?v=MRRI3MoYGoc",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2017 - Semi Final - Ronda 9"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2017-PISTA-SF8",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2017,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 8,
+      "songs": [
+        {
+          "song_id": "SONG-128",
+          "title": "La Melodia del Corazon",
+          "orchestra": "Edgardo Donato y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-098",
+          "title": "Saludos",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-510",
+          "title": "Por Qu Razn",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "lxAR6nS2m7s",
+          "url": "https://www.youtube.com/watch?v=lxAR6nS2m7s",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2017 - Semi Final - Ronda 8"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2017-PISTA-SF7",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2017,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 7,
+      "songs": [
+        {
+          "song_id": "SONG-521",
+          "title": "Germaine",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-101",
+          "title": "Corrientes y Esmeralda",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-127",
+          "title": "Ya Lo Ves",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "4ivlF03tDoU",
+          "url": "https://www.youtube.com/watch?v=4ivlF03tDoU",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2017 - Semi Final - Ronda 7"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2017-PISTA-SF6",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2017,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 6,
+      "songs": [
+        {
+          "song_id": "SONG-522",
+          "title": "Como Los Nardos en Flor",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-040",
+          "title": "Barrio de Tango",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-030",
+          "title": "Paciencia",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "XyegzR6ci3g",
+          "url": "https://www.youtube.com/watch?v=XyegzR6ci3g",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2017 - Semi Final - Ronda 6"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2017-PISTA-SF5",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2017,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 5,
+      "songs": [
+        {
+          "song_id": "SONG-105",
+          "title": "El Trompito",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-506",
+          "title": "Cuatro Compases",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-106",
+          "title": "Champagne Tango",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "4p7naiXl-7A",
+          "url": "https://www.youtube.com/watch?v=4p7naiXl-7A",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2017 - Semi Final - Ronda 5"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2017-PISTA-SF3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2017,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-124",
+          "title": "Marion",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-125",
+          "title": "Piropos",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-126",
+          "title": "El Cencerro",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "VjGONhSHXgA",
+          "url": "https://www.youtube.com/watch?v=VjGONhSHXgA",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2017 - Semi Final - Ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2017-PISTA-SF2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2017,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-523",
+          "title": "Ensueos",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-068",
+          "title": "En el Salon",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-112",
+          "title": "Mandria",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "onWd55CZnpw",
+          "url": "https://www.youtube.com/watch?v=onWd55CZnpw",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2017 - Semi Final - Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2017-PISTA-SF1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2017,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-121",
+          "title": "A Quien le Puede Importar",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-524",
+          "title": "La Viruta",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-123",
+          "title": "Humillacion",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "x70OLM-o0v8",
+          "url": "https://www.youtube.com/watch?v=x70OLM-o0v8",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2017 - Semi Final - Ronda 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-F4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 4,
+      "songs": [
+        {
+          "song_id": "SONG-525",
+          "title": "Siete Palabras",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-057",
+          "title": "El Olivo",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-176",
+          "title": "Oigo Tu Voz",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "8eD9dzYg-Xw",
+          "url": "https://www.youtube.com/watch?v=8eD9dzYg-Xw",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Final - Ronda 4"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-F3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-175",
+          "title": "El remate",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-526",
+          "title": "Corazn",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-125",
+          "title": "Piropos",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "2E1r0acdFLc",
+          "url": "https://www.youtube.com/watch?v=2E1r0acdFLc",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Final - Ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-F2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-527",
+          "title": "Y Hasta el Cardo Tiene Flor",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-063",
+          "title": "Pajaro Ciego",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-174",
+          "title": "El arranque",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "-UxsztGnDhQ",
+          "url": "https://www.youtube.com/watch?v=-UxsztGnDhQ",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Final - Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-F1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-124",
+          "title": "Marion",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-172",
+          "title": "Quasi Nada",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-528",
+          "title": "Bahia Blanca",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "dKs5HGvHF-k",
+          "url": "https://www.youtube.com/watch?v=dKs5HGvHF-k",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Final - Ronda 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-SF11",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 11,
+      "songs": [
+        {
+          "song_id": "SONG-169",
+          "title": "Como se pianta la vida",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-170",
+          "title": "Nada Mas",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-529",
+          "title": "Necesito Olvidar",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "5COsGpeE9nE",
+          "url": "https://www.youtube.com/watch?v=5COsGpeE9nE",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Semi Final - Ronda 11"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-SF9",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 9,
+      "songs": [
+        {
+          "song_id": "SONG-166",
+          "title": "Suerte Loca",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-077",
+          "title": "Farabute",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-530",
+          "title": "El Pollito",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "giRMZGtRQm8",
+          "url": "https://www.youtube.com/watch?v=giRMZGtRQm8",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Semi Final - Ronda 9"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-SF7",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 7,
+      "songs": [
+        {
+          "song_id": "SONG-164",
+          "title": "Mano Blanca",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-051",
+          "title": "Jueves",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-083",
+          "title": "Pelele",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "yfw40jnYl80",
+          "url": "https://www.youtube.com/watch?v=yfw40jnYl80",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Semi Final - Ronda 7"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-SF6",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 6,
+      "songs": [
+        {
+          "song_id": "SONG-531",
+          "title": "La Morocha",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-123",
+          "title": "Humillacion",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-163",
+          "title": "El Pescante",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "kcN4AxN8Ss4",
+          "url": "https://www.youtube.com/watch?v=kcN4AxN8Ss4",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Semi Final - Ronda 6"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-SF5",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 5,
+      "songs": [
+        {
+          "song_id": "SONG-160",
+          "title": "Lorenzo",
+          "orchestra": "Francisco Canaro y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-532",
+          "title": "Shusheta",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-533",
+          "title": "Jamas Retornaras",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "zMG-XuicY-w",
+          "url": "https://www.youtube.com/watch?v=zMG-XuicY-w",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Semi Final - Ronda 5"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-SF4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 4,
+      "songs": [
+        {
+          "song_id": "SONG-054",
+          "title": "Me Llaman Tango",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-534",
+          "title": "Llorar Por Una Mujer",
+          "orchestra": "Enrique Rodríguez y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-159",
+          "title": "Las Marionetas",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "Uc8DN3coKrY",
+          "url": "https://www.youtube.com/watch?v=Uc8DN3coKrY",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Semi Final - Ronda 4"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-SF3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-157",
+          "title": "Buenos Aires",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-120",
+          "title": "Pof Pof",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-535",
+          "title": "Champagne Tango",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "4W1e-hRPQpg",
+          "url": "https://www.youtube.com/watch?v=4W1e-hRPQpg",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Semi Final - Ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-SF2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-536",
+          "title": "La Torcacita",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-156",
+          "title": "Santa Milonguita",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-021",
+          "title": "Al Verla Pasar",
+          "orchestra": "Pedro Laurenz y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "X95FyEts30E",
+          "url": "https://www.youtube.com/watch?v=X95FyEts30E",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Semi Final - Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-SF1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-153",
+          "title": "A Otra Cosa, Che Pebeta",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-154",
+          "title": "Cachirulo",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-155",
+          "title": "Que Lento Corre el Tren",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "hgNc-cuNwxc",
+          "url": "https://www.youtube.com/watch?v=hgNc-cuNwxc",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Semi Final - Ronda 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q39",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 39,
+      "songs": [
+        {
+          "song_id": "SONG-537",
+          "title": "Don Juan",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-152",
+          "title": "La Vida Es Corta",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-094",
+          "title": "Derecho Viejo",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "NgAN7YssWAg",
+          "url": "https://www.youtube.com/watch?v=NgAN7YssWAg",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 39"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q38",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 38,
+      "songs": [
+        {
+          "song_id": "SONG-149",
+          "title": "Poema",
+          "orchestra": "Francisco Canaro y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-150",
+          "title": "Tinta Roja",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-538",
+          "title": "El Cabure",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "0ew2v8OsRC8",
+          "url": "https://www.youtube.com/watch?v=0ew2v8OsRC8",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 38"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q37",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 37,
+      "songs": [
+        {
+          "song_id": "SONG-146",
+          "title": "Seamos Amigos",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-147",
+          "title": "Sentimiento Gaucho",
+          "orchestra": "Lomuto",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-539",
+          "title": "El Sueo del Pibe",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "pZzRhSOe0gY",
+          "url": "https://www.youtube.com/watch?v=pZzRhSOe0gY",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 37"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q35",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 35,
+      "songs": [
+        {
+          "song_id": "SONG-142",
+          "title": "Ninguna",
+          "orchestra": "Malerba",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-143",
+          "title": "Re Fa Si",
+          "orchestra": "Rodolfo Biagi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-144",
+          "title": "Que Bien Que Te Queda",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "PbymQPv4lyw",
+          "url": "https://www.youtube.com/watch?v=PbymQPv4lyw",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 35"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q34",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 34,
+      "songs": [
+        {
+          "song_id": "SONG-540",
+          "title": "Aga Florida",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-141",
+          "title": "Retintin",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-490",
+          "title": "Mala Estampa",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "6G_W0Am9gEg",
+          "url": "https://www.youtube.com/watch?v=6G_W0Am9gEg",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 34"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q33",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 33,
+      "songs": [
+        {
+          "song_id": "SONG-016",
+          "title": "El Tango Es el Tango",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-138",
+          "title": "Indiferencia",
+          "orchestra": "Rodolfo Biagi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-541",
+          "title": "Marejada",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "zQ3Ajw-qAQk",
+          "url": "https://www.youtube.com/watch?v=zQ3Ajw-qAQk",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 33"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q32",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 32,
+      "songs": [
+        {
+          "song_id": "SONG-135",
+          "title": "El Once",
+          "orchestra": "Osvaldo Fresedo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-136",
+          "title": "Yunta Brava",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-137",
+          "title": "De Igual a Igual",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "_bGUfzY6cuQ",
+          "url": "https://www.youtube.com/watch?v=_bGUfzY6cuQ",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 32"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q31",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 31,
+      "songs": [
+        {
+          "song_id": "SONG-542",
+          "title": "El Recodo",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-133",
+          "title": "Maragata",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-134",
+          "title": "Yuyo verde",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "rlonI6bI8DU",
+          "url": "https://www.youtube.com/watch?v=rlonI6bI8DU",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 31"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q29",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 29,
+      "songs": [
+        {
+          "song_id": "SONG-013",
+          "title": "Recuerdo",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-543",
+          "title": "Danza Maligna",
+          "orchestra": "Enrique Rodríguez y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-544",
+          "title": "Porteno y Bailarin",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "OFYeC_O4Ymg",
+          "url": "https://www.youtube.com/watch?v=OFYeC_O4Ymg",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 29"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q28",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 28,
+      "songs": [
+        {
+          "song_id": "SONG-208",
+          "title": "Orgullo Criollo",
+          "orchestra": "Pedro Laurenz y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-073",
+          "title": "La Bruja",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-545",
+          "title": "Coarazn No le Hagas Caso",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "slVsCyuXrJw",
+          "url": "https://www.youtube.com/watch?v=slVsCyuXrJw",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 28"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q27",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 27,
+      "songs": [
+        {
+          "song_id": "SONG-206",
+          "title": "Tarareando",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-207",
+          "title": "C.T.V",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-546",
+          "title": "Ensueos",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "4p1dlCnuIsI",
+          "url": "https://www.youtube.com/watch?v=4p1dlCnuIsI",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 27"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q26",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 26,
+      "songs": [
+        {
+          "song_id": "SONG-204",
+          "title": "Tinta Verde",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-205",
+          "title": "El Acomodo",
+          "orchestra": "Edgardo Donato y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-547",
+          "title": "Garua",
+          "orchestra": "Pedro Laurenz y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "NG4_WHwU5sM",
+          "url": "https://www.youtube.com/watch?v=NG4_WHwU5sM",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 26"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q25",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 25,
+      "songs": [
+        {
+          "song_id": "SONG-202",
+          "title": "Mi Piba Linda",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-025",
+          "title": "El Puntazo",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-203",
+          "title": "Tres Amigos",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "7Dd079E2G00",
+          "url": "https://www.youtube.com/watch?v=7Dd079E2G00",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 25"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q24",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 24,
+      "songs": [
+        {
+          "song_id": "SONG-548",
+          "title": "Charlemos",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-104",
+          "title": "Maipo",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-549",
+          "title": "Manana Zarpa un Barco",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "RpJTHH48Bd0",
+          "url": "https://www.youtube.com/watch?v=RpJTHH48Bd0",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 24"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q22",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 22,
+      "songs": [
+        {
+          "song_id": "SONG-197",
+          "title": "La Madrugada",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-550",
+          "title": "Gallo Ciego",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-198",
+          "title": "El abrojito",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "6Fb2m5l7l_8",
+          "url": "https://www.youtube.com/watch?v=6Fb2m5l7l_8",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 22"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q20",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 20,
+      "songs": [
+        {
+          "song_id": "SONG-193",
+          "title": "En la Huella del Dolor",
+          "orchestra": "Osvaldo Fresedo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-551",
+          "title": "Catamarca",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-195",
+          "title": "Solloso de Bandoneon",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "Fn0UMZp2WgQ",
+          "url": "https://www.youtube.com/watch?v=Fn0UMZp2WgQ",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 20"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q18",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 18,
+      "songs": [
+        {
+          "song_id": "SONG-188",
+          "title": "Arrabalero",
+          "orchestra": "Osvaldo Fresedo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-552",
+          "title": "En la Buena y en la Mala",
+          "orchestra": "Enrique Rodríguez y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-190",
+          "title": "La cachila",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "3_47h05NEms",
+          "url": "https://www.youtube.com/watch?v=3_47h05NEms",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 18"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q17",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 17,
+      "songs": [
+        {
+          "song_id": "SONG-187",
+          "title": "Que Podran Decir",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-036",
+          "title": "Te Aconsejo Que Me Olvides",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-553",
+          "title": "Indio Manso",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "2XtDf2mgRwE",
+          "url": "https://www.youtube.com/watch?v=2XtDf2mgRwE",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 17"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q16",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 16,
+      "songs": [
+        {
+          "song_id": "SONG-185",
+          "title": "Color de Rosa",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-186",
+          "title": "Alma en Pena",
+          "orchestra": "Francisco Canaro y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-554",
+          "title": "Rondando Tu Esquina",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "uOVrbp54_Jk",
+          "url": "https://www.youtube.com/watch?v=uOVrbp54_Jk",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 16"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q15",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 15,
+      "songs": [
+        {
+          "song_id": "SONG-016",
+          "title": "El Tango Es el Tango",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-112",
+          "title": "Mandria",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-555",
+          "title": "Como Los Nardos en Flor",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "XrEqCL9SanU",
+          "url": "https://www.youtube.com/watch?v=XrEqCL9SanU",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 15"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q14",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 14,
+      "songs": [
+        {
+          "song_id": "SONG-184",
+          "title": "La Piba de Los Jazmines",
+          "orchestra": "Malerba",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-060",
+          "title": "Pura Clase",
+          "orchestra": "Rodolfo Biagi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-090",
+          "title": "Percal",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "ye9gWO6aNaI",
+          "url": "https://www.youtube.com/watch?v=ye9gWO6aNaI",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 14"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q11",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 11,
+      "songs": [
+        {
+          "song_id": "SONG-179",
+          "title": "Amarras",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-180",
+          "title": "Milongueando en el '40",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-556",
+          "title": "Malena",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "SKu-OaqENYI",
+          "url": "https://www.youtube.com/watch?v=SKu-OaqENYI",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 11"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q10",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 10,
+      "songs": [
+        {
+          "song_id": "SONG-178",
+          "title": "La Mariposa",
+          "orchestra": "Osvaldo Fresedo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-017",
+          "title": "Pocas Palabras",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-113",
+          "title": "Mal de Amores",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "jfj8IoDenOw",
+          "url": "https://www.youtube.com/watch?v=jfj8IoDenOw",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 10"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q5",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 5,
+      "songs": [
+        {
+          "song_id": "SONG-218",
+          "title": "Solo Compasion",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-109",
+          "title": "El Tamango",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-219",
+          "title": "Que Sera de Ti",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "alFix_F6qMc",
+          "url": "https://www.youtube.com/watch?v=alFix_F6qMc",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 5"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 4,
+      "songs": [
+        {
+          "song_id": "SONG-216",
+          "title": "La Melodia de Nuestro Adios",
+          "orchestra": "Francisco Canaro y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-561",
+          "title": "Yapeyu",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-217",
+          "title": "Palomita Mia",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "-AJzYP-4XlE",
+          "url": "https://www.youtube.com/watch?v=-AJzYP-4XlE",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 4"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-211",
+          "title": "El Yacare",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-212",
+          "title": "La Marca de Fuego",
+          "orchestra": "Rodolfo Biagi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-562",
+          "title": "Tristeza Marina",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "bWJELebzDrg",
+          "url": "https://www.youtube.com/watch?v=bWJELebzDrg",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-506",
+          "title": "Cuatro Compases",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-210",
+          "title": "Cordon de Oro",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-075",
+          "title": "Al Compas del Corazon",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "899QdXo8JoI",
+          "url": "https://www.youtube.com/watch?v=899QdXo8JoI",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2016 - Clasificatoria - Ronda 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-F4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 4,
+      "songs": [
+        {
+          "song_id": "SONG-045",
+          "title": "Recuerdo Malevo",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-036",
+          "title": "Te Aconsejo Que Me Olvides",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-116",
+          "title": "La Tupungatina",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "c69r3GTD-k4",
+          "url": "https://www.youtube.com/watch?v=c69r3GTD-k4",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Final - Ronda 4"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-F3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-181",
+          "title": "Tigre Viejo",
+          "orchestra": "Osvaldo Fresedo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-025",
+          "title": "El Puntazo",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-563",
+          "title": "Milonguero Viejo",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "nPwknA5Rpag",
+          "url": "https://www.youtube.com/watch?v=nPwknA5Rpag",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Final - Ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-F2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-238",
+          "title": "Lilian",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-564",
+          "title": "Shusheta",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-183",
+          "title": "El Monito",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "edsm-jC0oRE",
+          "url": "https://www.youtube.com/watch?v=edsm-jC0oRE",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Final - Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-F1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-236",
+          "title": "Tres Esquinas",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-237",
+          "title": "No Mientas",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-565",
+          "title": "Indio Manso",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "dsMXo-4XBzE",
+          "url": "https://www.youtube.com/watch?v=dsMXo-4XBzE",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Final - Ronda 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-SF11",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 11,
+      "songs": [
+        {
+          "song_id": "SONG-566",
+          "title": "Cuando Tallan Los Recuerdos",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-561",
+          "title": "Yapeyu",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-567",
+          "title": "Tu el cielo y t",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "Z5vVLhsf0ag",
+          "url": "https://www.youtube.com/watch?v=Z5vVLhsf0ag",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - SemiFinal - Ronda 11"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-SF10",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 10,
+      "songs": [
+        {
+          "song_id": "SONG-188",
+          "title": "Arrabalero",
+          "orchestra": "Osvaldo Fresedo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-138",
+          "title": "Indiferencia",
+          "orchestra": "Rodolfo Biagi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-174",
+          "title": "El arranque",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "Kww4mkcik14",
+          "url": "https://www.youtube.com/watch?v=Kww4mkcik14",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Semi Final - Ronda 10"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-SF9",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 9,
+      "songs": [
+        {
+          "song_id": "SONG-234",
+          "title": "Tal Vez Sera Su Voz",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-104",
+          "title": "Maipo",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-568",
+          "title": "Junto a Tu Corazon",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "6qNbpKeOxH4",
+          "url": "https://www.youtube.com/watch?v=6qNbpKeOxH4",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Semi Final - Ronda 9"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-SF7",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 7,
+      "songs": [
+        {
+          "song_id": "SONG-549",
+          "title": "Manana Zarpa un Barco",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-569",
+          "title": "Catamarca",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-232",
+          "title": "Flor de Tango",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "KxwHYl2amHI",
+          "url": "https://www.youtube.com/watch?v=KxwHYl2amHI",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Semi Final - Ronda 7"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-SF6",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 6,
+      "songs": [
+        {
+          "song_id": "SONG-218",
+          "title": "Solo Compasion",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-210",
+          "title": "Cordon de Oro",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-570",
+          "title": "Champagne Tango",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "ItuVYQaZxHE",
+          "url": "https://www.youtube.com/watch?v=ItuVYQaZxHE",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Semi Final - Ronda 6"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-SF5",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 5,
+      "songs": [
+        {
+          "song_id": "SONG-571",
+          "title": "Siete Palabras",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-017",
+          "title": "Pocas Palabras",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-227",
+          "title": "Boedo",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "R3Onpoda-bs",
+          "url": "https://www.youtube.com/watch?v=R3Onpoda-bs",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Semi Final - Ronda 5"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-SF3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-216",
+          "title": "La Melodia de Nuestro Adios",
+          "orchestra": "Francisco Canaro y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-572",
+          "title": "Corazn",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-533",
+          "title": "Jamas Retornaras",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "g7qzgFKzHqY",
+          "url": "https://www.youtube.com/watch?v=g7qzgFKzHqY",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Semi Final - Ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-SF2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-573",
+          "title": "Ensueos",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-182",
+          "title": "Don Pacifico",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-230",
+          "title": "Recien",
+          "orchestra": "Pedro Laurenz y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "F3JUo5WjMV0",
+          "url": "https://www.youtube.com/watch?v=F3JUo5WjMV0",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Semi Final - Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-SF1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-124",
+          "title": "Marion",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-060",
+          "title": "Pura Clase",
+          "orchestra": "Rodolfo Biagi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-229",
+          "title": "Vida Mia",
+          "orchestra": "Osvaldo Fresedo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "qDscaLxtLx8",
+          "url": "https://www.youtube.com/watch?v=qDscaLxtLx8",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Semi Final - Ronda 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q37",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 37,
+      "songs": [
+        {
+          "song_id": "SONG-082",
+          "title": "Trasnochando",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-221",
+          "title": "Lagrimas",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-083",
+          "title": "Pelele",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "zHcRcP0BCJc",
+          "url": "https://www.youtube.com/watch?v=zHcRcP0BCJc",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 37"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q36",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 36,
+      "songs": [
+        {
+          "song_id": "SONG-228",
+          "title": "A Bailar",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-168",
+          "title": "Fuegos Artificiales",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-574",
+          "title": "Viviani",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "UXGfSTlTFms",
+          "url": "https://www.youtube.com/watch?v=UXGfSTlTFms",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 36"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q35",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 35,
+      "songs": [
+        {
+          "song_id": "SONG-016",
+          "title": "El Tango Es el Tango",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-575",
+          "title": "Nobleza De Arrabal",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-545",
+          "title": "Coarazn No le Hagas Caso",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "MC5p7M0qvWo",
+          "url": "https://www.youtube.com/watch?v=MC5p7M0qvWo",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 35"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q33",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 33,
+      "songs": [
+        {
+          "song_id": "SONG-239",
+          "title": "el arroyito",
+          "orchestra": "Francisco Canaro y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-240",
+          "title": "Yo Soy el Tango",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-219",
+          "title": "Que Sera de Ti",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "X-FJksZqsUs",
+          "url": "https://www.youtube.com/watch?v=X-FJksZqsUs",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 33"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q32",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 32,
+      "songs": [
+        {
+          "song_id": "SONG-242",
+          "title": "Yo No Se Llorar",
+          "orchestra": "Osvaldo Fresedo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-576",
+          "title": "El Yaguarn",
+          "orchestra": "Rodolfo Biagi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-119",
+          "title": "Mas Solo Que Nunca",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "jW3D69DsaYg",
+          "url": "https://www.youtube.com/watch?v=jW3D69DsaYg",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 32"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q31",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 31,
+      "songs": [
+        {
+          "song_id": "SONG-577",
+          "title": "Comme Il Faut",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-578",
+          "title": "Danza Maligna",
+          "orchestra": "Enrique Rodríguez y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-222",
+          "title": "La Vi Llegar",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "9Bz5IV8rerw",
+          "url": "https://www.youtube.com/watch?v=9Bz5IV8rerw",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 31"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q30",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 30,
+      "songs": [
+        {
+          "song_id": "SONG-021",
+          "title": "Al Verla Pasar",
+          "orchestra": "Pedro Laurenz y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-251",
+          "title": "No Me Lo Digas",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-579",
+          "title": "Bar exposicion",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "77BHtuqw_Gg",
+          "url": "https://www.youtube.com/watch?v=77BHtuqw_Gg",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 30"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q29",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 29,
+      "songs": [
+        {
+          "song_id": "SONG-580",
+          "title": "Zorro Plateao",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-250",
+          "title": "Noches de Colon",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-113",
+          "title": "Mal de Amores",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "Q250s2t4Jo8",
+          "url": "https://www.youtube.com/watch?v=Q250s2t4Jo8",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 29"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q28",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 28,
+      "songs": [
+        {
+          "song_id": "SONG-247",
+          "title": "Caricias",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-205",
+          "title": "El Acomodo",
+          "orchestra": "Edgardo Donato y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-248",
+          "title": "El rodeo",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "2lgUmVFrTtY",
+          "url": "https://www.youtube.com/watch?v=2lgUmVFrTtY",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 28"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q27",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 27,
+      "songs": [
+        {
+          "song_id": "SONG-246",
+          "title": "Remembranzas",
+          "orchestra": "Malerba",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-120",
+          "title": "Pof Pof",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-204",
+          "title": "Tinta Verde",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "fEn7X8HOWP4",
+          "url": "https://www.youtube.com/watch?v=fEn7X8HOWP4",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 27"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q26",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 26,
+      "songs": [
+        {
+          "song_id": "SONG-244",
+          "title": "Aromas",
+          "orchestra": "Osvaldo Fresedo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-550",
+          "title": "Gallo Ciego",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-245",
+          "title": "Ahora No Me Conoces",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "AVHp2vCZP_Y",
+          "url": "https://www.youtube.com/watch?v=AVHp2vCZP_Y",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 26"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q25",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 25,
+      "songs": [
+        {
+          "song_id": "SONG-581",
+          "title": "El Sueo del Pibe",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-253",
+          "title": "El Irresistible",
+          "orchestra": "Rodolfo Biagi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-582",
+          "title": "El Jaguel",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "EFMkG9BFb7c",
+          "url": "https://www.youtube.com/watch?v=EFMkG9BFb7c",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 25"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q24",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 24,
+      "songs": [
+        {
+          "song_id": "SONG-583",
+          "title": "Y Hasta el Cardo Tiene Flor",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-584",
+          "title": "La Gayola",
+          "orchestra": "Enrique Rodríguez y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-125",
+          "title": "Piropos",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "dhDzI0EDbFA",
+          "url": "https://www.youtube.com/watch?v=dhDzI0EDbFA",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 24"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q22",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 22,
+      "songs": [
+        {
+          "song_id": "SONG-256",
+          "title": "El Baile de Los Domingos",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-041",
+          "title": "El Nene del Abasto",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-504",
+          "title": "Adios Bardi",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "r-B10EUNdnE",
+          "url": "https://www.youtube.com/watch?v=r-B10EUNdnE",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 22"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q20",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 20,
+      "songs": [
+        {
+          "song_id": "SONG-202",
+          "title": "Mi Piba Linda",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-258",
+          "title": "Trago Amargo",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-585",
+          "title": "Cuidado con los cincuenta",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "jzilbYdc2Bo",
+          "url": "https://www.youtube.com/watch?v=jzilbYdc2Bo",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 20"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q19",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 19,
+      "songs": [
+        {
+          "song_id": "SONG-203",
+          "title": "Tres Amigos",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-110",
+          "title": "El Resero",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-075",
+          "title": "Al Compas del Corazon",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "NvughSNhDBk",
+          "url": "https://www.youtube.com/watch?v=NvughSNhDBk",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 19"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q18",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 18,
+      "songs": [
+        {
+          "song_id": "SONG-586",
+          "title": "Un Tropezon",
+          "orchestra": "Enrique Rodríguez y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-038",
+          "title": "Comparsa Criolla",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-260",
+          "title": "El Chupete",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "9FdpHduOOpg",
+          "url": "https://www.youtube.com/watch?v=9FdpHduOOpg",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 18"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q17",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 17,
+      "songs": [
+        {
+          "song_id": "SONG-094",
+          "title": "Derecho Viejo",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-170",
+          "title": "Nada Mas",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-587",
+          "title": "Cara sucia",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "GtYvp1DxTAM",
+          "url": "https://www.youtube.com/watch?v=GtYvp1DxTAM",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 17"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q16",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 16,
+      "songs": [
+        {
+          "song_id": "SONG-506",
+          "title": "Cuatro Compases",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-178",
+          "title": "La Mariposa",
+          "orchestra": "Osvaldo Fresedo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-588",
+          "title": "Mi Refugio",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "AAxwYxIYVqg",
+          "url": "https://www.youtube.com/watch?v=AAxwYxIYVqg",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 16"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q15",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 15,
+      "songs": [
+        {
+          "song_id": "SONG-040",
+          "title": "Barrio de Tango",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-262",
+          "title": "Sobre el Pucho",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-589",
+          "title": "El Ingeniero",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "-3EQAl5QeUU",
+          "url": "https://www.youtube.com/watch?v=-3EQAl5QeUU",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 15"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q14",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 14,
+      "songs": [
+        {
+          "song_id": "SONG-197",
+          "title": "La Madrugada",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-590",
+          "title": "Racing Club",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-265",
+          "title": "Tristezas de la Calle Corrientes",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "Jpta8HB0E3I",
+          "url": "https://www.youtube.com/watch?v=Jpta8HB0E3I",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 14"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q13",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 13,
+      "songs": [
+        {
+          "song_id": "SONG-266",
+          "title": "Cuatro Recuerdos",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-154",
+          "title": "Cachirulo",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-198",
+          "title": "El abrojito",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "iltlwRrKXFU",
+          "url": "https://www.youtube.com/watch?v=iltlwRrKXFU",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 13"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q12",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 12,
+      "songs": [
+        {
+          "song_id": "SONG-026",
+          "title": "Dos Fracasos",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-267",
+          "title": "Charamusca",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-554",
+          "title": "Rondando Tu Esquina",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "i07LUmAih70",
+          "url": "https://www.youtube.com/watch?v=i07LUmAih70",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 12"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q10",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 10,
+      "songs": [
+        {
+          "song_id": "SONG-268",
+          "title": "Siempre Es Carnaval",
+          "orchestra": "Osvaldo Fresedo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-109",
+          "title": "El Tamango",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-013",
+          "title": "Recuerdo",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "T7LTnyV4_OE",
+          "url": "https://www.youtube.com/watch?v=T7LTnyV4_OE",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 10"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q9",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 9,
+      "songs": [
+        {
+          "song_id": "SONG-184",
+          "title": "La Piba de Los Jazmines",
+          "orchestra": "Malerba",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-136",
+          "title": "Yunta Brava",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-163",
+          "title": "El Pescante",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "SRYEV9jwvYI",
+          "url": "https://www.youtube.com/watch?v=SRYEV9jwvYI",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 9"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q8",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 8,
+      "songs": [
+        {
+          "song_id": "SONG-179",
+          "title": "Amarras",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-591",
+          "title": "Aquellas Farras ( Argaaraz )",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-592",
+          "title": "Esta Noche de Luna",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "oO_I9CYV6_s",
+          "url": "https://www.youtube.com/watch?v=oO_I9CYV6_s",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 8"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q7",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 7,
+      "songs": [
+        {
+          "song_id": "SONG-211",
+          "title": "El Yacare",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-593",
+          "title": "Marianito",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-270",
+          "title": "Trenzas",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "-evTLgUnL4Y",
+          "url": "https://www.youtube.com/watch?v=-evTLgUnL4Y",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 7"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q6",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 6,
+      "songs": [
+        {
+          "song_id": "SONG-271",
+          "title": "Tango",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-559",
+          "title": "Sinfona de Arrabal",
+          "orchestra": "Edgardo Donato y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-594",
+          "title": "Como Los Nardos en Flor",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "AsEu97Iu5Lo",
+          "url": "https://www.youtube.com/watch?v=AsEu97Iu5Lo",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 6"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q5",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 5,
+      "songs": [
+        {
+          "song_id": "SONG-193",
+          "title": "En la Huella del Dolor",
+          "orchestra": "Osvaldo Fresedo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-073",
+          "title": "La Bruja",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-595",
+          "title": "Nueve Puntos",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "DI-3KCkyfv8",
+          "url": "https://www.youtube.com/watch?v=DI-3KCkyfv8",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 5"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 4,
+      "songs": [
+        {
+          "song_id": "SONG-272",
+          "title": "Que Te Importa Que Te Llore",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-596",
+          "title": "La Maleva",
+          "orchestra": "Rodolfo Biagi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-273",
+          "title": "Pablo",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "0vDe18K0e94",
+          "url": "https://www.youtube.com/watch?v=0vDe18K0e94",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 4"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-597",
+          "title": "Discos de Gardel",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-598",
+          "title": "En la Buena y en la Mala",
+          "orchestra": "Enrique Rodríguez y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-190",
+          "title": "La cachila",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "6yizWCkQPtg",
+          "url": "https://www.youtube.com/watch?v=6yizWCkQPtg",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2015-PISTA-Q1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2015,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-599",
+          "title": "Asi Se Baila el Tango",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-275",
+          "title": "Nueve de Julio",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-217",
+          "title": "Palomita Mia",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "praeip9yOUI",
+          "url": "https://www.youtube.com/watch?v=praeip9yOUI",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2015 - Clasificatoria - Ronda 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-F4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 4,
+      "songs": [
+        {
+          "song_id": "SONG-022",
+          "title": "La Bordona",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-236",
+          "title": "Tres Esquinas",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-276",
+          "title": "Dime mi amor",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "mrnKP-FBVbc",
+          "url": "https://www.youtube.com/watch?v=mrnKP-FBVbc",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Final - Ronda 4"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-F3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-277",
+          "title": "Si sos brujo",
+          "orchestra": "Alfredo Gobbi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-600",
+          "title": "Una Emocion",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-152",
+          "title": "La Vida Es Corta",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "LsSvvXk0CdU",
+          "url": "https://www.youtube.com/watch?v=LsSvvXk0CdU",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Final - Ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-F2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-278",
+          "title": "La guitarrita",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-601",
+          "title": "Buscndote",
+          "orchestra": "Osvaldo Fresedo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-041",
+          "title": "El Nene del Abasto",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "B_S7ZGncPQY",
+          "url": "https://www.youtube.com/watch?v=B_S7ZGncPQY",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Final - Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-F1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-602",
+          "title": "Cuidado con las 50",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-281",
+          "title": "Nada",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-036",
+          "title": "Te Aconsejo Que Me Olvides",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "MEosK8T29zQ",
+          "url": "https://www.youtube.com/watch?v=MEosK8T29zQ",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Final - Ronda 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-SF9",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 9,
+      "songs": [
+        {
+          "song_id": "SONG-603",
+          "title": "Indio Manso",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-233",
+          "title": "No Me Extrana",
+          "orchestra": "Pedro Laurenz y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-283",
+          "title": "El Buey Solo",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "rYdXkiGvaMw",
+          "url": "https://www.youtube.com/watch?v=rYdXkiGvaMw",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Semi Final - Ronda 9"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-SF7",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 7,
+      "songs": [
+        {
+          "song_id": "SONG-465",
+          "title": "Cascabelito",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-026",
+          "title": "Dos Fracasos",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-240",
+          "title": "Yo Soy el Tango",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "bgBRaKmkM5E",
+          "url": "https://www.youtube.com/watch?v=bgBRaKmkM5E",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Semi Final - Ronda 7"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-SF6",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 6,
+      "songs": [
+        {
+          "song_id": "SONG-604",
+          "title": "Buscandote",
+          "orchestra": "Osvaldo Fresedo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-285",
+          "title": "Se Va La Vida",
+          "orchestra": "Edgardo Donato y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-154",
+          "title": "Cachirulo",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "GyxFoa0wv4Q",
+          "url": "https://www.youtube.com/watch?v=GyxFoa0wv4Q",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Semi Final - Ronda 6"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-SF5",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 5,
+      "songs": [
+        {
+          "song_id": "SONG-149",
+          "title": "Poema",
+          "orchestra": "Francisco Canaro y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-211",
+          "title": "El Yacare",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-605",
+          "title": "Milongueando en el 40",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "8fCXHn9a9W8",
+          "url": "https://www.youtube.com/watch?v=8fCXHn9a9W8",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Semi Final - Ronda 5"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-SF4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 4,
+      "songs": [
+        {
+          "song_id": "SONG-606",
+          "title": "Inspiracin",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-607",
+          "title": "La Meloda del Corazn",
+          "orchestra": "Edgardo Donato y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-287",
+          "title": "El flete- 1936",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "toaC_byb4rI",
+          "url": "https://www.youtube.com/watch?v=toaC_byb4rI",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Semi Final - Ronda 4"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-SF3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-288",
+          "title": "Sin Palabras",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-289",
+          "title": "El Moro",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-608",
+          "title": "En la Buena y en la Mala",
+          "orchestra": "Enrique Rodríguez y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "saJaLEzohiY",
+          "url": "https://www.youtube.com/watch?v=saJaLEzohiY",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Semi Final - Ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-SF2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-609",
+          "title": "Vamos!...",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-291",
+          "title": "Canta Pajarito",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-126",
+          "title": "El Cencerro",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "cpEZYTobO9w",
+          "url": "https://www.youtube.com/watch?v=cpEZYTobO9w",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Semi Final - Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-SF1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "semifinal",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-292",
+          "title": "Maleza",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-293",
+          "title": "Si la Llegaran a Ver",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-610",
+          "title": "Danza Maligna",
+          "orchestra": "Enrique Rodríguez y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "wlFwnndJrlQ",
+          "url": "https://www.youtube.com/watch?v=wlFwnndJrlQ",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Semi Final - Ronda 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-Q36",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 36,
+      "songs": [
+        {
+          "song_id": "SONG-611",
+          "title": "No Te Aguanto Mas",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-295",
+          "title": "Todo",
+          "orchestra": "Pedro Laurenz y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-112",
+          "title": "Mandria",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "A-9ybDd1MEY",
+          "url": "https://www.youtube.com/watch?v=A-9ybDd1MEY",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Clasificatoria - Ronda 36"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-Q34",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 34,
+      "songs": [
+        {
+          "song_id": "SONG-297",
+          "title": "El Tabano",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-218",
+          "title": "Solo Compasion",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-298",
+          "title": "Viejo Smoking",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "miP-UosJnfw",
+          "url": "https://www.youtube.com/watch?v=miP-UosJnfw",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Clasificatoria - Ronda 34"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-Q30",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 30,
+      "songs": [
+        {
+          "song_id": "SONG-612",
+          "title": "Color de Rosa",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-082",
+          "title": "Trasnochando",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-304",
+          "title": "Golgota",
+          "orchestra": "Rodolfo Biagi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "5niSM_raG9I",
+          "url": "https://www.youtube.com/watch?v=5niSM_raG9I",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Clasificatoria - Ronda 30"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-Q29",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 29,
+      "songs": [
+        {
+          "song_id": "SONG-159",
+          "title": "Las Marionetas",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-305",
+          "title": "Lo Mismo Que un Tango",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-306",
+          "title": "De Puro Guapo",
+          "orchestra": "Pedro Laurenz y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "Bsng_u12Sqc",
+          "url": "https://www.youtube.com/watch?v=Bsng_u12Sqc",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Clasificatoria - Ronda 29"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-Q28",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 28,
+      "songs": [
+        {
+          "song_id": "SONG-613",
+          "title": "Tinta Verde",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-220",
+          "title": "Enbrujamiento",
+          "orchestra": "Malerba",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-057",
+          "title": "El Olivo",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "iVhO-jtPblA",
+          "url": "https://www.youtube.com/watch?v=iVhO-jtPblA",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Clasificatoria - Ronda 28"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-Q25",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 25,
+      "songs": [
+        {
+          "song_id": "SONG-312",
+          "title": "Griseta",
+          "orchestra": "Osvaldo Fresedo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-313",
+          "title": "El mareo",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-030",
+          "title": "Paciencia",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "OkZ3rCt-5sg",
+          "url": "https://www.youtube.com/watch?v=OkZ3rCt-5sg",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Clasificatoria - Ronda 25"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-Q24",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 24,
+      "songs": [
+        {
+          "song_id": "SONG-614",
+          "title": "Un lamento",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-314",
+          "title": "Nostalgias",
+          "orchestra": "Lomuto",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-615",
+          "title": "Re Payaso",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "ycBNFxzkhHc",
+          "url": "https://www.youtube.com/watch?v=ycBNFxzkhHc",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Clasificatoria - Ronda 24"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-Q22",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 22,
+      "songs": [
+        {
+          "song_id": "SONG-616",
+          "title": "Pelele",
+          "orchestra": "Alfredo Gobbi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-124",
+          "title": "Marion",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-316",
+          "title": "No Me Pregunten por Que",
+          "orchestra": "Francisco Canaro y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "PStZA50lmM0",
+          "url": "https://www.youtube.com/watch?v=PStZA50lmM0",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Clasificatoria - Ronda 22"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-Q19",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 19,
+      "songs": [
+        {
+          "song_id": "SONG-617",
+          "title": "Beln",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-323",
+          "title": "Pena de Amor",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-324",
+          "title": "El Tigre Millan",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "0gSHk6PVqlQ",
+          "url": "https://www.youtube.com/watch?v=0gSHk6PVqlQ",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Clasificatoria - Ronda 19"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-Q17",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 17,
+      "songs": [
+        {
+          "song_id": "SONG-618",
+          "title": "El Once(A Divertirse)",
+          "orchestra": "Osvaldo Fresedo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-096",
+          "title": "Malvon",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-063",
+          "title": "Pajaro Ciego",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "ls55EXsW1sc",
+          "url": "https://www.youtube.com/watch?v=ls55EXsW1sc",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Clasificatoria - Ronda 17"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-Q16",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 16,
+      "songs": [
+        {
+          "song_id": "SONG-326",
+          "title": "Criolla Linda",
+          "orchestra": "Lomuto",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-327",
+          "title": "Sinsabor",
+          "orchestra": "Edgardo Donato y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-026",
+          "title": "Dos Fracasos",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "0yQym0YvxtM",
+          "url": "https://www.youtube.com/watch?v=0yQym0YvxtM",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Clasificatoria - Ronda 16"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-Q15",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 15,
+      "songs": [
+        {
+          "song_id": "SONG-401",
+          "title": "Tierra Querida",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-619",
+          "title": "Duelo Criollo",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-620",
+          "title": "Tu Boca Mintio",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "ZP8haM7t7NY",
+          "url": "https://www.youtube.com/watch?v=ZP8haM7t7NY",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Clasificatoria - Ronda 15"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-Q14",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 14,
+      "songs": [
+        {
+          "song_id": "SONG-621",
+          "title": "El Distinguido Ciudadano",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-329",
+          "title": "Mariposa Nocturna",
+          "orchestra": "Francisco Canaro y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-036",
+          "title": "Te Aconsejo Que Me Olvides",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "gRQHmtoH1qw",
+          "url": "https://www.youtube.com/watch?v=gRQHmtoH1qw",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Clasificatoria - Ronda 14"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-Q13",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 13,
+      "songs": [
+        {
+          "song_id": "SONG-330",
+          "title": "Guardia Vieja",
+          "orchestra": "Malerba",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-331",
+          "title": "Un Crimen",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-170",
+          "title": "Nada Mas",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "cWDHrtaeF4o",
+          "url": "https://www.youtube.com/watch?v=cWDHrtaeF4o",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Clasificatoria - Ronda 13"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-Q12",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 12,
+      "songs": [
+        {
+          "song_id": "SONG-622",
+          "title": "Los 33 Orientales",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-566",
+          "title": "Cuando Tallan Los Recuerdos",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-623",
+          "title": "Son Cosas del Bandonen",
+          "orchestra": "Enrique Rodríguez y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "Bw0hYvydZbo",
+          "url": "https://www.youtube.com/watch?v=Bw0hYvydZbo",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Clasificatoria - Ronda 12"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-Q8",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 8,
+      "songs": [
+        {
+          "song_id": "SONG-624",
+          "title": "Didi",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-340",
+          "title": "Soy Muchacho de la Guardia",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-625",
+          "title": "No Te Quiero Mas",
+          "orchestra": "Enrique Rodríguez y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "ChNWxqHdJw4",
+          "url": "https://www.youtube.com/watch?v=ChNWxqHdJw4",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Clasificatoria - Ronda 8"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-Q7",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 7,
+      "songs": [
+        {
+          "song_id": "SONG-248",
+          "title": "El rodeo",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-342",
+          "title": "Moneda de Cobre",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-626",
+          "title": "Qu Hacs, Qu Hacs",
+          "orchestra": "Edgardo Donato y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "sZA_Q8Ywtiw",
+          "url": "https://www.youtube.com/watch?v=sZA_Q8Ywtiw",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Clasificatoria - Ronda 7"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-Q6",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 6,
+      "songs": [
+        {
+          "song_id": "SONG-147",
+          "title": "Sentimiento Gaucho",
+          "orchestra": "Lomuto",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-344",
+          "title": "Mi Cantar",
+          "orchestra": "Miguel Caló y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-345",
+          "title": "Noches de Montmartre",
+          "orchestra": "Malerba",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "fEsZBgyv5hY",
+          "url": "https://www.youtube.com/watch?v=fEsZBgyv5hY",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Clasificatoria - Ronda 6"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-Q5",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 5,
+      "songs": [
+        {
+          "song_id": "SONG-346",
+          "title": "Chuzas",
+          "orchestra": "Alfredo Gobbi y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-627",
+          "title": "Noche de Carnaval",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-348",
+          "title": "Una Pena -1938",
+          "orchestra": "Rodolfo Biagi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "p_rsDlsgLgc",
+          "url": "https://www.youtube.com/watch?v=p_rsDlsgLgc",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Clasificatoria - Ronda 5"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-Q3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-350",
+          "title": "Tierrita",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-351",
+          "title": "Merza Burrera",
+          "orchestra": "Francisco Canaro y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-352",
+          "title": "Oiga Mozo",
+          "orchestra": "Malerba",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "1CjFF7-5Hn4",
+          "url": "https://www.youtube.com/watch?v=1CjFF7-5Hn4",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Clasificatoria - Ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-Q2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-036",
+          "title": "Te Aconsejo Que Me Olvides",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-260",
+          "title": "El Chupete",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-169",
+          "title": "Como se pianta la vida",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "t2lXFiWLQxI",
+          "url": "https://www.youtube.com/watch?v=t2lXFiWLQxI",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Clasificatoria - Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2014-PISTA-Q1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2014,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-125",
+          "title": "Piropos",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-353",
+          "title": "Traiga Otra Cana",
+          "orchestra": "Ángel D'Agostino y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-628",
+          "title": "La Melodia de Nuestro Adios",
+          "orchestra": "Lomuto",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "QmzcwAkcC88",
+          "url": "https://www.youtube.com/watch?v=QmzcwAkcC88",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2014 - Clasificatoria - Ronda 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2013-PISTA-F4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2013,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 4,
+      "songs": [
+        {
+          "song_id": "SONG-203",
+          "title": "Tres Amigos",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-112",
+          "title": "Mandria",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-029",
+          "title": "Nochero Soy",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "QJMKjEC88Vc",
+          "url": "https://www.youtube.com/watch?v=QJMKjEC88Vc",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2013 - Final - Ronda 4"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2013-PISTA-F3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2013,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-181",
+          "title": "Tigre Viejo",
+          "orchestra": "Osvaldo Fresedo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-036",
+          "title": "Te Aconsejo Que Me Olvides",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-629",
+          "title": "Ensueos",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "AaNTI5_1x3Q",
+          "url": "https://www.youtube.com/watch?v=AaNTI5_1x3Q",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2013 - Final - Ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2013-PISTA-F2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2013,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-630",
+          "title": "Maana zarpa un barco",
+          "orchestra": "Lucio Demare y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-067",
+          "title": "Pensalo Bien",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-012",
+          "title": "Gallo Ciego",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "GOYdaCieLw4",
+          "url": "https://www.youtube.com/watch?v=GOYdaCieLw4",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2013 - Final - Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2013-PISTA-F1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2013,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-631",
+          "title": "El adis",
+          "orchestra": "Edgardo Donato y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-632",
+          "title": "Lo pasado, pas",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-633",
+          "title": "A Orlando Goi",
+          "orchestra": "Alfredo Gobbi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "NE_necYFzhI",
+          "url": "https://www.youtube.com/watch?v=NE_necYFzhI",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2013 - Final - Ronda 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2012-PISTA-F4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2012,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 4,
+      "songs": [
+        {
+          "song_id": "SONG-631",
+          "title": "El adis",
+          "orchestra": "Edgardo Donato y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-088",
+          "title": "La Maleva",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-634",
+          "title": "Por que razn",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "bMDn9T400vU",
+          "url": "https://www.youtube.com/watch?v=bMDn9T400vU",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2012 - Final - Ronda 4"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2012-PISTA-F3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2012,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-356",
+          "title": "Pa' que bailen los muchachos",
+          "orchestra": "Aníbal Troilo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-357",
+          "title": "Arrabal",
+          "orchestra": "Pedro Laurenz y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-635",
+          "title": "El Retirao",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "l8Db6zdLYV0",
+          "url": "https://www.youtube.com/watch?v=l8Db6zdLYV0",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2012 - Final - Ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2012-PISTA-F2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2012,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-292",
+          "title": "Maleza",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-197",
+          "title": "La Madrugada",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-636",
+          "title": "En la buena y en la mala",
+          "orchestra": "Enrique Rodríguez y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "b9ctpj6wPLE",
+          "url": "https://www.youtube.com/watch?v=b9ctpj6wPLE",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires 2012 - Final - Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2012-PISTA-F1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2012,
+      "category": "tango_de_pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-637",
+          "title": "Ensueos",
+          "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-638",
+          "title": "Vamos, corazn",
+          "orchestra": "Osvaldo Fresedo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-360",
+          "title": "Comparsa Criolla -1941",
+          "orchestra": "Ricardo Tanturi y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "hYDcV5d9C74",
+          "url": "https://www.youtube.com/watch?v=hYDcV5d9C74",
+          "channel": "Thanh Dang",
+          "title": "Mundial de Tango Buenos Aires  2012 - Final - Ronda 1"
         }
       ]
     }
