@@ -19,6 +19,8 @@ import { TrendsPage } from './pages/TrendsPage';
 import { SongQuizPage } from './pages/SongQuizPage';
 import { NotesPage } from './pages/NotesPage';
 import { AIRecommendPage } from './pages/AIRecommendPage';
+import { ChecklistPage } from './pages/ChecklistPage';
+import { MundialStoryPage } from './pages/MundialStoryPage';
 
 export function App() {
   return (
@@ -34,6 +36,9 @@ export function App() {
           <Route path="/quiz" element={<SongQuizPage />} />
           <Route path="/notes" element={<NotesPage />} />
           <Route path="/ai" element={<AIRecommendPage />} />
+          <Route path="/checklist" element={<ChecklistPage />} />
+          <Route path="/mundial/:year" element={<MundialStoryPage />} />
+          <Route path="/mundial" element={<MundialStoryPage />} />
           <Route path="/practice" element={<PracticeBoardListPage />} />
           <Route path="/practice/:id" element={<PracticeBoardDetailPage />} />
           <Route path="/compare" element={<CompareRoomListPage />} />

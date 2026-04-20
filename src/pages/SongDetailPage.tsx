@@ -9,6 +9,7 @@ import { getAppearancesForSong, getYearlyTrend, computeRankings } from '../utils
 import { STAGE_LABELS, extractYouTubeId, getCompetitionShortName } from '../utils/tangoHelpers';
 import { ShareButton } from '../components/ShareButton';
 import { FavoriteButton } from '../components/FavoriteButton';
+import { SongLifecycleTimeline } from '../components/SongLifecycleTimeline';
 
 import songsData from '../data/songs.json';
 import appearancesData from '../data/appearances.json';
@@ -372,6 +373,9 @@ export function SongDetailPage() {
 
           {/* 춤 분석 */}
           <DanceAnalysis guide={guide} />
+
+          {/* 라이프사이클 타임라인 (대회 출현 점 그래프) */}
+          <SongLifecycleTimeline appearances={songAppearances} />
 
           {/* 연도별 추이 */}
           <SongTrendChart data={trend} />

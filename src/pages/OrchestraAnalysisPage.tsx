@@ -178,52 +178,93 @@ export function OrchestraAnalysisPage() {
     <>
       <PageHeader title="악단 연구" />
 
-      <div className="flex-1 overflow-y-auto">
-        <div className="max-w-5xl mx-auto p-5 space-y-5">
+      <div className="flex-1 overflow-y-auto bg-tango-ink">
+        <div className="max-w-6xl mx-auto px-5 md:px-8 py-10 md:py-14 space-y-10">
 
           {/* 악단 선택 그리드 */}
           {!selected ? (
             <>
-              <div>
-                <h1 className="text-xl font-bold text-tango-brass mb-1">악단 연구</h1>
-                <p className="text-gray-400 text-sm">악단을 선택하면 대회 출현곡과 영상을 볼 수 있습니다</p>
+              {/* HERO */}
+              <div className="text-center">
+                <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-3">
+                  Section No. 03 · Orchestras
+                </div>
+                <h1 className="font-display text-4xl md:text-6xl text-tango-paper italic leading-tight" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                  The <em className="text-tango-brass">Maestros</em>
+                </h1>
+                <p className="text-sm text-tango-cream/60 mt-3 font-serif italic max-w-xl mx-auto">
+                  골든 에이지의 거장들 — {ranked.length}개 악단, {ranked.reduce((s, o) => s + o.totalAppearances, 0)}회의 대회 출현
+                </p>
               </div>
-              <input
-                type="text"
-                value={orchSearch}
-                onChange={e => setOrchSearch(e.target.value)}
-                placeholder="악단 이름 검색..."
-                className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-tango-brass/50"
-              />
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+
+              {/* 검색 */}
+              <div className="max-w-lg mx-auto relative">
+                <span className="absolute left-0 top-1/2 -translate-y-1/2 text-tango-brass">◈</span>
+                <input
+                  type="text"
+                  value={orchSearch}
+                  onChange={e => setOrchSearch(e.target.value)}
+                  placeholder="악단 이름 검색…"
+                  className="w-full bg-transparent border-0 border-b-2 border-tango-brass/30 focus:border-tango-brass pb-2 pt-1 pl-8 font-serif text-lg text-tango-paper placeholder-tango-cream/30 focus:outline-none transition-colors"
+                  style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}
+                />
+              </div>
+
+              {/* 매거진 스타일 악단 그리드 */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-tango-brass/15 rounded-sm overflow-hidden">
                 {ranked.map((os, i) => {
                   const shortName = os.orchestra.alt_names[0] || os.orchestra.orchestra_name.split(' ')[0];
                   const maxApp = ranked[0]?.totalAppearances || 1;
                   const barWidth = Math.round((os.totalAppearances / maxApp) * 100);
+                  const era = os.yearSpread.length > 0
+                    ? `${os.yearSpread[0]}–${os.yearSpread[os.yearSpread.length - 1]}`
+                    : '';
 
                   return (
                     <button key={os.orchestra.orchestra_id}
                       onClick={() => setSelectedOrchId(os.orchestra.orchestra_id)}
-                      className="text-left rounded-xl border border-white/10 bg-white/5 hover:border-tango-brass/40 hover:bg-white/[0.07] p-4 transition-all active:scale-[0.98]">
-                      <div className="flex items-center justify-between mb-2">
-                        <div className="flex items-center gap-2">
-                          <span className="text-base font-bold text-gray-500">#{i + 1}</span>
-                          <span className="text-white font-semibold">{shortName}</span>
+                      className="group text-left bg-tango-ink hover:bg-tango-shadow p-6 md:p-8 transition-all">
+                      {/* 매거진 번호 + 이름 */}
+                      <div className="flex items-start justify-between mb-3">
+                        <div className="flex items-baseline gap-3">
+                          <span className="font-display text-4xl text-tango-brass/60 italic leading-none" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                            {String(i + 1).padStart(2, '0')}
+                          </span>
+                          <div>
+                            <h3 className="font-display text-2xl md:text-3xl text-tango-paper italic group-hover:text-tango-brass transition-colors leading-tight" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                              {shortName}
+                            </h3>
+                            {era && <div className="text-[10px] tracking-widest uppercase text-tango-cream/50 font-sans mt-1">{era}</div>}
+                          </div>
                         </div>
-                        <span className="text-lg font-bold text-tango-brass">{os.totalAppearances}</span>
+                        <div className="text-right">
+                          <div className="font-display text-3xl text-tango-brass font-bold leading-none" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                            {os.totalAppearances}
+                          </div>
+                          <div className="text-[9px] tracking-widest uppercase text-tango-cream/50 font-sans mt-1">
+                            출현
+                          </div>
+                        </div>
                       </div>
-                      <div className="h-1.5 bg-white/5 rounded-full overflow-hidden mb-2">
-                        <div className="h-full bg-tango-brass/60 rounded-full" style={{ width: `${barWidth}%` }} />
+
+                      {/* 진행 막대 */}
+                      <div className="h-px bg-tango-brass/10 overflow-hidden mb-3">
+                        <div className="h-full bg-tango-brass transition-all duration-500" style={{ width: `${barWidth}%` }} />
                       </div>
-                      <div className="flex items-center gap-3 text-[11px]">
-                        <span className="text-red-400">결 {os.finalCount}</span>
-                        <span className="text-orange-400">준 {os.semifinalCount}</span>
-                        <span className="text-blue-400">예 {os.qualifyingCount}</span>
+
+                      {/* 스테이지 통계 */}
+                      <div className="flex items-center gap-4 text-[11px] font-sans">
+                        <span className="text-tango-rose">결 <strong className="text-tango-paper">{os.finalCount}</strong></span>
+                        <span className="text-tango-brass">준 <strong className="text-tango-paper">{os.semifinalCount}</strong></span>
+                        <span className="text-tango-cream/60">예 <strong className="text-tango-paper">{os.qualifyingCount}</strong></span>
+                        <span className="ml-auto text-tango-cream/40">곡 {os.songCount}</span>
                       </div>
+
+                      {/* 스타일 태그 */}
                       {os.orchestra.style_tags.length > 0 && (
-                        <div className="flex flex-wrap gap-1 mt-2">
-                          {os.orchestra.style_tags.slice(0, 3).map(tag => (
-                            <span key={tag} className="text-[10px] px-1.5 py-0.5 rounded-full bg-white/5 text-gray-500">
+                        <div className="flex flex-wrap gap-1.5 mt-3">
+                          {os.orchestra.style_tags.slice(0, 4).map(tag => (
+                            <span key={tag} className="text-[10px] px-2 py-0.5 border border-tango-brass/20 text-tango-brass rounded-sm font-sans tracking-wider uppercase">
                               {STYLE_TAG_LABELS[tag] || tag}
                             </span>
                           ))}

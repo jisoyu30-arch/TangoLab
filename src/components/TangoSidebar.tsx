@@ -10,6 +10,8 @@ const NAV_ITEMS = [
   { to: '/results', label: 'Rankings', sub: '대회 순위', num: '05', end: false },
   { to: '/quiz', label: 'Quiz', sub: '곡 맞추기', num: '06', end: false },
   { to: '/ai', label: 'AI', sub: 'AI 탄다 추천', num: '07', end: false },
+  { to: '/mundial', label: 'Features', sub: 'Mundial 스토리', num: '07a', end: false },
+  { to: '/checklist', label: 'Prep', sub: '대회 체크리스트', num: '07b', end: false },
   { to: '/my-competitions', label: 'My Records', sub: '내 대회 기록', num: '08', end: false },
   { to: '/training', label: 'Training', sub: '수업 & 연습', num: '09', end: false },
   { to: '/practice', label: 'Practice', sub: '연습 보드', num: '10', end: false },
