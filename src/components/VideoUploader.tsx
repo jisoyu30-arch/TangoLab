@@ -106,7 +106,7 @@ export function VideoUploader({ videoUrl, onChange, maxSize = 500 * 1024 * 1024 
             <button
               onClick={() => setMode('url')}
               className={`px-3 py-2 text-xs font-medium transition-colors border-b-2 ${
-                mode === 'url' ? 'text-secretary-gold border-secretary-gold' : 'text-gray-500 border-transparent hover:text-gray-300'
+                mode === 'url' ? 'text-tango-brass border-tango-brass' : 'text-gray-500 border-transparent hover:text-gray-300'
               }`}
             >
               🔗 URL 붙여넣기
@@ -114,7 +114,7 @@ export function VideoUploader({ videoUrl, onChange, maxSize = 500 * 1024 * 1024 
             <button
               onClick={() => setMode('upload')}
               className={`px-3 py-2 text-xs font-medium transition-colors border-b-2 ${
-                mode === 'upload' ? 'text-secretary-gold border-secretary-gold' : 'text-gray-500 border-transparent hover:text-gray-300'
+                mode === 'upload' ? 'text-tango-brass border-tango-brass' : 'text-gray-500 border-transparent hover:text-gray-300'
               }`}
             >
               📁 파일 업로드
@@ -135,7 +135,7 @@ export function VideoUploader({ videoUrl, onChange, maxSize = 500 * 1024 * 1024 
                 <button
                   onClick={handleUrlSave}
                   disabled={!urlInput.trim()}
-                  className="px-4 bg-secretary-gold/20 text-secretary-gold rounded-lg text-sm font-medium hover:bg-secretary-gold/30 disabled:opacity-30 disabled:cursor-not-allowed"
+                  className="px-4 bg-tango-brass/20 text-tango-brass rounded-lg text-sm font-medium hover:bg-tango-brass/30 disabled:opacity-30 disabled:cursor-not-allowed"
                 >
                   저장
                 </button>
@@ -155,12 +155,12 @@ export function VideoUploader({ videoUrl, onChange, maxSize = 500 * 1024 * 1024 
               ) : progress ? (
                 <div className="bg-white/5 rounded-lg p-4">
                   <div className="flex items-center justify-between mb-2">
-                    <span className="text-xs text-secretary-gold">업로드 중...</span>
+                    <span className="text-xs text-tango-brass">업로드 중...</span>
                     <span className="text-xs text-gray-400">{Math.round(progress.progress)}%</span>
                   </div>
                   <div className="h-2 bg-white/10 rounded-full overflow-hidden">
                     <div
-                      className="h-full bg-secretary-gold transition-all duration-200"
+                      className="h-full bg-tango-brass transition-all duration-200"
                       style={{ width: `${progress.progress}%` }}
                     />
                   </div>
@@ -172,7 +172,7 @@ export function VideoUploader({ videoUrl, onChange, maxSize = 500 * 1024 * 1024 
                 <>
                   <button
                     onClick={() => fileInputRef.current?.click()}
-                    className="w-full bg-white/5 hover:bg-white/10 border border-dashed border-white/20 hover:border-secretary-gold/40 rounded-xl p-6 text-center transition-colors"
+                    className="w-full bg-white/5 hover:bg-white/10 border border-dashed border-white/20 hover:border-tango-brass/40 rounded-xl p-6 text-center transition-colors"
                   >
                     <div className="text-3xl mb-2">📹</div>
                     <div className="text-sm text-white font-medium">영상 파일 선택</div>

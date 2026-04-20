@@ -15,7 +15,7 @@ export function SongList({ rankings }: Props) {
     <div className="overflow-x-auto">
       <table className="w-full text-sm">
         <thead>
-          <tr className="text-left text-gray-400 border-b border-secretary-gold/10">
+          <tr className="text-left text-gray-400 border-b border-tango-brass/10">
             <th className="py-2 px-2 w-12">#</th>
             <th className="py-2 px-2">곡명</th>
             <th className="py-2 px-2 hidden md:table-cell">오케스트라</th>
@@ -33,7 +33,7 @@ export function SongList({ rankings }: Props) {
               <tr
                 key={r.song_id}
                 onClick={() => navigate(`/song/${r.song_id}`)}
-                className="border-b border-white/5 hover:bg-secretary-gold/5 cursor-pointer transition-colors"
+                className="border-b border-white/5 hover:bg-tango-brass/5 cursor-pointer transition-colors"
               >
                 <td className="py-2.5 px-2 text-gray-500">{i + 1}</td>
                 <td className="py-2.5 px-2">
@@ -43,7 +43,7 @@ export function SongList({ rankings }: Props) {
                 <td className="py-2.5 px-2 text-gray-400 hidden md:table-cell truncate max-w-[200px]">
                   {r.orchestra ?? '-'}
                 </td>
-                <td className="py-2.5 px-2 text-center text-secretary-gold font-semibold">{r.total_appearances}</td>
+                <td className="py-2.5 px-2 text-center text-tango-brass font-semibold">{r.total_appearances}</td>
                 <td className="py-2.5 px-2 text-center text-gray-300 hidden sm:table-cell">{r.weighted_score}</td>
                 <td className="py-2.5 px-2 text-center text-xs text-gray-400 hidden lg:table-cell">
                   {r.final_count}/{r.semifinal_count}/{r.qualifying_count}

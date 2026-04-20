@@ -25,7 +25,7 @@ export function CompareRoomDetailPage() {
       <div className="flex-1 flex items-center justify-center">
         <div className="text-center">
           <p className="text-gray-400">비교 세션을 찾을 수 없습니다.</p>
-          <Link to="/compare" className="text-secretary-gold text-sm hover:underline mt-2 inline-block">← 비교 목록</Link>
+          <Link to="/compare" className="text-tango-brass text-sm hover:underline mt-2 inline-block">← 비교 목록</Link>
         </div>
       </div>
     );
@@ -79,9 +79,9 @@ export function CompareRoomDetailPage() {
           {/* 영상 비교 (2열 또는 1열) */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* 레퍼런스 영상 */}
-            <div className="bg-white/5 border border-secretary-gold/10 rounded-xl overflow-hidden">
+            <div className="bg-white/5 border border-tango-brass/10 rounded-xl overflow-hidden">
               <div className="px-4 py-2.5 border-b border-white/10">
-                <h3 className="text-xs font-semibold text-secretary-gold">레퍼런스 영상</h3>
+                <h3 className="text-xs font-semibold text-tango-brass">레퍼런스 영상</h3>
               </div>
               {refVideoId ? (
                 <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
@@ -101,19 +101,19 @@ export function CompareRoomDetailPage() {
                   value={refUrl}
                   onChange={e => setRefUrl(e.target.value)}
                   placeholder="유튜브 URL"
-                  className="flex-1 bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-xs text-white placeholder-gray-500 focus:outline-none focus:border-secretary-gold/50"
+                  className="flex-1 bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-xs text-white placeholder-gray-500 focus:outline-none focus:border-tango-brass/50"
                 />
                 <button onClick={handleSaveRef}
-                  className="px-3 py-2 bg-secretary-gold/20 text-secretary-gold rounded-lg text-xs hover:bg-secretary-gold/30 transition-colors min-h-[36px]">
+                  className="px-3 py-2 bg-tango-brass/20 text-tango-brass rounded-lg text-xs hover:bg-tango-brass/30 transition-colors min-h-[36px]">
                   저장
                 </button>
               </div>
             </div>
 
             {/* 우리 영상 */}
-            <div className="bg-white/5 border border-secretary-gold/10 rounded-xl overflow-hidden">
+            <div className="bg-white/5 border border-tango-brass/10 rounded-xl overflow-hidden">
               <div className="px-4 py-2.5 border-b border-white/10">
-                <h3 className="text-xs font-semibold text-secretary-gold">우리 연습 영상</h3>
+                <h3 className="text-xs font-semibold text-tango-brass">우리 연습 영상</h3>
               </div>
               {ownVideoId ? (
                 <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
@@ -133,10 +133,10 @@ export function CompareRoomDetailPage() {
                   value={ownUrl}
                   onChange={e => setOwnUrl(e.target.value)}
                   placeholder="유튜브 URL"
-                  className="flex-1 bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-xs text-white placeholder-gray-500 focus:outline-none focus:border-secretary-gold/50"
+                  className="flex-1 bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-xs text-white placeholder-gray-500 focus:outline-none focus:border-tango-brass/50"
                 />
                 <button onClick={handleSaveOwn}
-                  className="px-3 py-2 bg-secretary-gold/20 text-secretary-gold rounded-lg text-xs hover:bg-secretary-gold/30 transition-colors min-h-[36px]">
+                  className="px-3 py-2 bg-tango-brass/20 text-tango-brass rounded-lg text-xs hover:bg-tango-brass/30 transition-colors min-h-[36px]">
                   저장
                 </button>
               </div>
@@ -144,8 +144,8 @@ export function CompareRoomDetailPage() {
           </div>
 
           {/* 비교 체크리스트 */}
-          <div className="bg-white/5 rounded-xl border border-secretary-gold/10 p-5">
-            <h3 className="text-sm font-semibold text-secretary-gold mb-4">비교 체크포인트</h3>
+          <div className="bg-white/5 rounded-xl border border-tango-brass/10 p-5">
+            <h3 className="text-sm font-semibold text-tango-brass mb-4">비교 체크포인트</h3>
             <div className="space-y-2">
               {session.checklist.map(item => (
                 <button
@@ -169,18 +169,18 @@ export function CompareRoomDetailPage() {
           </div>
 
           {/* 분석 메모 */}
-          <div className="bg-white/5 rounded-xl border border-secretary-gold/10 p-5">
-            <h3 className="text-sm font-semibold text-secretary-gold mb-3">분석 메모</h3>
+          <div className="bg-white/5 rounded-xl border border-tango-brass/10 p-5">
+            <h3 className="text-sm font-semibold text-tango-brass mb-3">분석 메모</h3>
             <textarea
               value={notes}
               onChange={e => setNotes(e.target.value)}
               onBlur={handleSaveNotes}
-              className="w-full min-h-[120px] bg-white/5 border border-white/10 rounded-xl p-4 text-sm text-white resize-none focus:outline-none focus:border-secretary-gold/50 placeholder-gray-500"
+              className="w-full min-h-[120px] bg-white/5 border border-white/10 rounded-xl p-4 text-sm text-white resize-none focus:outline-none focus:border-tango-brass/50 placeholder-gray-500"
               placeholder="비교 결과, 개선할 점, 다음 연습 포인트..."
             />
             <button
               onClick={handleSaveNotes}
-              className="mt-2 px-4 py-2 bg-secretary-gold/20 text-secretary-gold rounded-lg text-xs hover:bg-secretary-gold/30 transition-colors min-h-[36px]"
+              className="mt-2 px-4 py-2 bg-tango-brass/20 text-tango-brass rounded-lg text-xs hover:bg-tango-brass/30 transition-colors min-h-[36px]"
             >
               저장
             </button>
@@ -188,7 +188,7 @@ export function CompareRoomDetailPage() {
 
           {/* 연결된 곡 */}
           {session.song_id && connectedSong && (
-            <div className="bg-white/5 rounded-xl border border-secretary-gold/10 p-4">
+            <div className="bg-white/5 rounded-xl border border-tango-brass/10 p-4">
               <div className="text-xs text-gray-400 mb-2">연결된 곡</div>
               <div className="flex items-center justify-between">
                 <div>
@@ -197,7 +197,7 @@ export function CompareRoomDetailPage() {
                 </div>
                 <Link
                   to={`/song/${session.song_id}`}
-                  className="px-3 py-2 bg-secretary-gold/10 hover:bg-secretary-gold/20 text-secretary-gold rounded-lg text-xs font-medium transition-colors min-h-[36px] flex items-center"
+                  className="px-3 py-2 bg-tango-brass/10 hover:bg-tango-brass/20 text-tango-brass rounded-lg text-xs font-medium transition-colors min-h-[36px] flex items-center"
                 >
                   곡 상세 →
                 </Link>

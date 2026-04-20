@@ -35,7 +35,7 @@ export function PracticeBoardDetailPage() {
       <div className="flex-1 flex items-center justify-center">
         <div className="text-center">
           <p className="text-gray-400">보드를 찾을 수 없습니다.</p>
-          <Link to="/practice" className="text-secretary-gold text-sm hover:underline mt-2 inline-block">← 보드 목록</Link>
+          <Link to="/practice" className="text-tango-brass text-sm hover:underline mt-2 inline-block">← 보드 목록</Link>
         </div>
       </div>
     );
@@ -71,10 +71,10 @@ export function PracticeBoardDetailPage() {
               value={searchQuery}
               onChange={e => setSearchQuery(e.target.value)}
               placeholder="곡 검색해서 추가..."
-              className="w-full bg-white/5 border border-secretary-gold/20 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-secretary-gold/50"
+              className="w-full bg-white/5 border border-tango-brass/20 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-tango-brass/50"
             />
             {searchResults.length > 0 && (
-              <div className="absolute top-full left-0 right-0 mt-1 bg-secretary-navy border border-secretary-gold/20 rounded-xl overflow-hidden z-20 shadow-xl">
+              <div className="absolute top-full left-0 right-0 mt-1 bg-tango-shadow border border-tango-brass/20 rounded-xl overflow-hidden z-20 shadow-xl">
                 {searchResults.map(s => (
                   <button
                     key={s.song_id}
@@ -85,7 +85,7 @@ export function PracticeBoardDetailPage() {
                       <div className="text-sm text-white">{s.title}</div>
                       <div className="text-xs text-gray-500">{s.orchestra}</div>
                     </div>
-                    <span className="text-xs text-secretary-gold">+ 추가</span>
+                    <span className="text-xs text-tango-brass">+ 추가</span>
                   </button>
                 ))}
               </div>
@@ -107,7 +107,7 @@ export function PracticeBoardDetailPage() {
                 {boardSongs.map(s => (
                   <div key={s.song_id} className="flex items-center gap-3 px-4 py-3 bg-white/5 rounded-xl hover:bg-white/8 transition-colors">
                     <Link to={`/song/${s.song_id}`} className="flex-1 min-w-0">
-                      <div className="text-sm text-white truncate hover:text-secretary-gold transition-colors">{s.title}</div>
+                      <div className="text-sm text-white truncate hover:text-tango-brass transition-colors">{s.title}</div>
                       <div className="text-xs text-gray-500">{s.orchestra ?? '미확인'} {s.vocalist ? `/ ${s.vocalist}` : ''}</div>
                     </Link>
                     <button
@@ -129,7 +129,7 @@ export function PracticeBoardDetailPage() {
               <div className="space-y-1.5 mb-3">
                 {board.checkpoints.map((cp, i) => (
                   <div key={i} className="flex items-center gap-2 px-3 py-2 bg-white/5 rounded-lg">
-                    <span className="text-secretary-gold text-sm">•</span>
+                    <span className="text-tango-brass text-sm">•</span>
                     <span className="text-sm text-gray-200 flex-1">{cp}</span>
                   </div>
                 ))}
@@ -165,12 +165,12 @@ export function PracticeBoardDetailPage() {
                   }
                 }}
                 placeholder="메모 남기기..."
-                className="flex-1 bg-white/5 border border-white/10 rounded-lg px-3 py-2.5 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-secretary-gold/50"
+                className="flex-1 bg-white/5 border border-white/10 rounded-lg px-3 py-2.5 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-tango-brass/50"
               />
               <button
                 onClick={() => { if (noteInput.trim()) { addNoteToBoard(board.id, noteInput.trim()); setNoteInput(''); } }}
                 disabled={!noteInput.trim()}
-                className="px-4 py-2.5 bg-secretary-gold/20 text-secretary-gold rounded-lg text-sm hover:bg-secretary-gold/30 disabled:opacity-40 transition-colors min-h-[44px]"
+                className="px-4 py-2.5 bg-tango-brass/20 text-tango-brass rounded-lg text-sm hover:bg-tango-brass/30 disabled:opacity-40 transition-colors min-h-[44px]"
               >
                 저장
               </button>

@@ -19,8 +19,8 @@ export function SongRankingChart({ rankings, count = 20 }: Props) {
   }));
 
   return (
-    <div className="bg-white/5 rounded-xl p-4 border border-secretary-gold/10">
-      <h3 className="text-sm font-semibold text-secretary-gold mb-4">빈출곡 TOP {count} (가중점수 기준)</h3>
+    <div className="bg-white/5 rounded-xl p-4 border border-tango-brass/10">
+      <h3 className="text-sm font-semibold text-tango-brass mb-4">빈출곡 TOP {count} (가중점수 기준)</h3>
       <ResponsiveContainer width="100%" height={500}>
         <BarChart data={data} layout="vertical" margin={{ left: 140, right: 20 }}>
           <XAxis type="number" stroke="#666" fontSize={11} />

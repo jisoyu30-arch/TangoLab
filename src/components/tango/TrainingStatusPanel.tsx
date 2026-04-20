@@ -12,9 +12,9 @@ export function TrainingStatusPanel({ songId }: Props) {
   const { state, updateStatus, toggleFavorite, updateNotes } = useTrainingState(songId);
 
   return (
-    <div className="bg-white/5 rounded-xl border border-secretary-gold/10 p-5 space-y-4">
+    <div className="bg-white/5 rounded-xl border border-tango-brass/10 p-5 space-y-4">
       <div className="flex items-center justify-between">
-        <h3 className="text-sm font-semibold text-secretary-gold">훈련 상태</h3>
+        <h3 className="text-sm font-semibold text-tango-brass">훈련 상태</h3>
         <button
           onClick={toggleFavorite}
           className="text-xl hover:scale-110 transition-transform"
@@ -34,7 +34,7 @@ export function TrainingStatusPanel({ songId }: Props) {
               onClick={() => updateStatus(s)}
               className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors border ${
                 isActive
-                  ? 'bg-secretary-gold/20 border-secretary-gold/50 text-secretary-gold'
+                  ? 'bg-tango-brass/20 border-tango-brass/50 text-tango-brass'
                   : 'border-white/10 text-gray-400 hover:border-white/20'
               }`}
             >
@@ -51,7 +51,7 @@ export function TrainingStatusPanel({ songId }: Props) {
           onChange={e => updateNotes(e.target.value)}
           placeholder="이 곡에 대한 메모... (예: 2번째 프레이즈에서 항상 박자를 놓침)"
           rows={3}
-          className="w-full bg-white/5 border border-secretary-gold/20 rounded-lg px-3 py-2 text-sm text-white placeholder-gray-600 focus:outline-none focus:border-secretary-gold/50 resize-none"
+          className="w-full bg-white/5 border border-tango-brass/20 rounded-lg px-3 py-2 text-sm text-white placeholder-gray-600 focus:outline-none focus:border-tango-brass/50 resize-none"
         />
       </div>
     </div>

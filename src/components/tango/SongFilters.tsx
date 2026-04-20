@@ -26,13 +26,13 @@ export function SongFilters({ filters, setFilters, resetFilters, orchestras, com
           value={filters.search}
           onChange={e => set('search', e.target.value)}
           placeholder="곡명 또는 오케스트라 검색..."
-          className="flex-1 min-w-[200px] bg-white/5 border border-secretary-gold/20 rounded-lg px-3 py-2 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-secretary-gold/50"
+          className="flex-1 min-w-[200px] bg-white/5 border border-tango-brass/20 rounded-lg px-3 py-2 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-tango-brass/50"
         />
 
         <select
           value={filters.orchestra}
           onChange={e => set('orchestra', e.target.value)}
-          className="bg-white/5 border border-secretary-gold/20 rounded-lg px-3 py-2 text-sm text-gray-300 focus:outline-none focus:border-secretary-gold/50"
+          className="bg-white/5 border border-tango-brass/20 rounded-lg px-3 py-2 text-sm text-gray-300 focus:outline-none focus:border-tango-brass/50"
         >
           <option value="">전체 오케스트라</option>
           {orchestras.map(o => (
@@ -43,7 +43,7 @@ export function SongFilters({ filters, setFilters, resetFilters, orchestras, com
         <select
           value={filters.stage}
           onChange={e => set('stage', e.target.value)}
-          className="bg-white/5 border border-secretary-gold/20 rounded-lg px-3 py-2 text-sm text-gray-300 focus:outline-none focus:border-secretary-gold/50"
+          className="bg-white/5 border border-tango-brass/20 rounded-lg px-3 py-2 text-sm text-gray-300 focus:outline-none focus:border-tango-brass/50"
         >
           <option value="">전체 스테이지</option>
           {Object.entries(STAGE_LABELS).map(([k, v]) => (
@@ -54,7 +54,7 @@ export function SongFilters({ filters, setFilters, resetFilters, orchestras, com
         <select
           value={filters.year}
           onChange={e => set('year', e.target.value)}
-          className="bg-white/5 border border-secretary-gold/20 rounded-lg px-3 py-2 text-sm text-gray-300 focus:outline-none focus:border-secretary-gold/50"
+          className="bg-white/5 border border-tango-brass/20 rounded-lg px-3 py-2 text-sm text-gray-300 focus:outline-none focus:border-tango-brass/50"
         >
           <option value="">전체 연도</option>
           {years.map(y => (
@@ -65,7 +65,7 @@ export function SongFilters({ filters, setFilters, resetFilters, orchestras, com
         <select
           value={filters.competition}
           onChange={e => set('competition', e.target.value)}
-          className="bg-white/5 border border-secretary-gold/20 rounded-lg px-3 py-2 text-sm text-gray-300 focus:outline-none focus:border-secretary-gold/50"
+          className="bg-white/5 border border-tango-brass/20 rounded-lg px-3 py-2 text-sm text-gray-300 focus:outline-none focus:border-tango-brass/50"
         >
           <option value="">전체 대회</option>
           {competitions.map(c => (
@@ -77,7 +77,7 @@ export function SongFilters({ filters, setFilters, resetFilters, orchestras, com
       <div className="flex items-center justify-between text-xs text-gray-400">
         <span>{resultCount}곡 표시</span>
         {hasFilters && (
-          <button onClick={resetFilters} className="text-secretary-gold hover:underline">
+          <button onClick={resetFilters} className="text-tango-brass hover:underline">
             필터 초기화
           </button>
         )}

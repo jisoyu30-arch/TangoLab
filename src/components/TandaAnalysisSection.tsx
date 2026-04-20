@@ -29,13 +29,13 @@ export function TandaAnalysisSection({ tandas }: { tandas: Tanda[] }) {
   const [mode, setMode] = useState<'position' | 'energy' | 'stage'>('position');
 
   return (
-    <div className="relative overflow-hidden rounded-2xl border border-secretary-gold/20 bg-gradient-to-br from-secretary-navy via-secretary-navy to-black/60 p-5 shadow-xl">
-      <div className="absolute -top-20 -right-20 w-60 h-60 rounded-full bg-secretary-gold/10 blur-3xl pointer-events-none"></div>
+    <div className="relative overflow-hidden rounded-2xl border border-tango-brass/20 bg-gradient-to-br from-tango-shadow via-tango-shadow to-black/60 p-5 shadow-xl">
+      <div className="absolute -top-20 -right-20 w-60 h-60 rounded-full bg-tango-brass/10 blur-3xl pointer-events-none"></div>
 
       <div className="relative">
         <div className="flex items-center gap-2 mb-1">
           <span className="text-2xl">🔬</span>
-          <h2 className="text-lg font-bold bg-gradient-to-r from-secretary-gold to-yellow-300 bg-clip-text text-transparent">
+          <h2 className="text-lg font-bold bg-gradient-to-r from-tango-brass to-yellow-300 bg-clip-text text-transparent">
             심층 분석
           </h2>
         </div>
@@ -61,7 +61,7 @@ function AnalysisTab({ active, onClick, icon, label }: { active: boolean; onClic
       onClick={onClick}
       className={`px-3 py-2 text-xs font-medium rounded-lg transition-all whitespace-nowrap ${
         active
-          ? 'bg-gradient-to-r from-secretary-gold to-yellow-400 text-secretary-navy shadow-lg shadow-secretary-gold/30'
+          ? 'bg-gradient-to-r from-tango-brass to-yellow-400 text-tango-shadow shadow-lg shadow-tango-brass/30'
           : 'text-gray-400 hover:text-white hover:bg-white/5'
       }`}
     >
@@ -94,7 +94,7 @@ function PositionAnalysis({ tandas }: { tandas: Tanda[] }) {
             {topOrchs.map(s => (
               <tr key={s.orchestra} className="border-b border-white/5 hover:bg-white/[0.02]">
                 <td className="py-2.5 pl-2 text-white font-medium whitespace-nowrap">{s.orchestra}</td>
-                <td className="py-2.5 text-right text-secretary-gold font-bold">{s.total}</td>
+                <td className="py-2.5 text-right text-tango-brass font-bold">{s.total}</td>
                 <td className="py-2.5 px-2"><PosBar pct={s.pos1Pct} count={s.pos1} color="from-blue-500 to-cyan-400" /></td>
                 <td className="py-2.5 px-2"><PosBar pct={s.pos2Pct} count={s.pos2} color="from-purple-500 to-pink-400" /></td>
                 <td className="py-2.5 px-2"><PosBar pct={s.pos3Pct} count={s.pos3} color="from-orange-500 to-red-400" /></td>
@@ -118,7 +118,7 @@ function PositionAnalysis({ tandas }: { tandas: Tanda[] }) {
                 <span className="text-sm font-semibold text-white">{s.orchestra}</span>
               </div>
               <div className="text-[11px] text-gray-400">
-                주로 <span className="text-secretary-gold font-semibold">{dominantPos.name} 곡</span>
+                주로 <span className="text-tango-brass font-semibold">{dominantPos.name} 곡</span>
                 <span className="text-gray-500 ml-1">({dominantPos.pct.toFixed(0)}%)</span>
               </div>
             </div>
@@ -212,7 +212,7 @@ function EnergyAnalysis({ tandas }: { tandas: Tanda[] }) {
         <div className="grid grid-cols-3 gap-2 mt-3">
           {patterns.avgPerPos.map((e, i) => (
             <div key={i} className="text-center bg-white/5 rounded-lg p-2">
-              <div className="text-lg font-bold text-secretary-gold">{e.toFixed(1)}</div>
+              <div className="text-lg font-bold text-tango-brass">{e.toFixed(1)}</div>
               <div className="text-[10px] text-gray-500">{['1번째', '2번째', '3번째'][i]} 평균</div>
             </div>
           ))}
@@ -235,12 +235,12 @@ function EnergyAnalysis({ tandas }: { tandas: Tanda[] }) {
                     </div>
                   </div>
                   <div className="text-right">
-                    <div className="text-sm font-bold text-secretary-gold">{p.count}개</div>
+                    <div className="text-sm font-bold text-tango-brass">{p.count}개</div>
                     <div className="text-[10px] text-gray-500">{p.pct.toFixed(0)}%</div>
                   </div>
                 </div>
                 <div className="h-1.5 bg-black/40 rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-secretary-gold to-yellow-300 rounded-full transition-all duration-700"
+                  <div className="h-full bg-gradient-to-r from-tango-brass to-yellow-300 rounded-full transition-all duration-700"
                     style={{ width: `${p.pct}%` }} />
                 </div>
               </div>
@@ -290,7 +290,7 @@ function StageComparison({ tandas }: { tandas: Tanda[] }) {
               {topOrchs.map(o => (
                 <div key={o.orchestra} className="bg-black/30 rounded-lg px-3 py-1.5 border border-white/5">
                   <span className="text-xs text-white font-medium">{o.orchestra}</span>
-                  <span className="text-xs text-secretary-gold ml-2 font-bold">{o.total}</span>
+                  <span className="text-xs text-tango-brass ml-2 font-bold">{o.total}</span>
                 </div>
               ))}
             </div>

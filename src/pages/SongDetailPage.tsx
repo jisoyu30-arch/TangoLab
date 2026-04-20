@@ -180,7 +180,7 @@ export function SongDetailPage() {
         <div className="text-center">
           <div className="text-4xl mb-4">🎵</div>
           <p className="text-gray-400">곡을 찾을 수 없습니다.</p>
-          <Link to="/" className="text-secretary-gold text-sm hover:underline mt-2 inline-block">← 아카이브로 돌아가기</Link>
+          <Link to="/" className="text-tango-brass text-sm hover:underline mt-2 inline-block">← 아카이브로 돌아가기</Link>
         </div>
       </div>
     );
@@ -193,21 +193,21 @@ export function SongDetailPage() {
       <div className="flex-1 overflow-y-auto">
         <div className="max-w-4xl mx-auto p-5 space-y-6">
           {/* 곡 정보 헤더 */}
-          <div className="bg-white/5 rounded-xl border border-secretary-gold/10 p-6">
+          <div className="bg-white/5 rounded-xl border border-tango-brass/10 p-6">
             <div className="flex items-start justify-between mb-4">
               <div>
                 <h1 className="text-2xl font-bold text-white mb-1">{song.title}</h1>
                 {song.orchestra_id ? (
-                  <Link to={`/orchestra?id=${song.orchestra_id}`} className="text-secretary-gold text-sm hover:underline">
+                  <Link to={`/orchestra?id=${song.orchestra_id}`} className="text-tango-brass text-sm hover:underline">
                     {song.orchestra ?? '오케스트라 미확인'} →
                   </Link>
                 ) : (
-                  <p className="text-secretary-gold text-sm">{song.orchestra ?? '오케스트라 미확인'}</p>
+                  <p className="text-tango-brass text-sm">{song.orchestra ?? '오케스트라 미확인'}</p>
                 )}
               </div>
               {rank > 0 && (
-                <div className="bg-secretary-gold/20 rounded-xl px-4 py-2 text-center flex-shrink-0">
-                  <div className="text-2xl font-bold text-secretary-gold">#{rank}</div>
+                <div className="bg-tango-brass/20 rounded-xl px-4 py-2 text-center flex-shrink-0">
+                  <div className="text-2xl font-bold text-tango-brass">#{rank}</div>
                   <div className="text-xs text-gray-400">전체 순위</div>
                 </div>
               )}
@@ -231,7 +231,7 @@ export function SongDetailPage() {
             {song.mood_tags.length > 0 && (
               <div className="flex flex-wrap gap-1.5 mt-4">
                 {song.mood_tags.map(tag => (
-                  <span key={tag} className="px-2 py-0.5 bg-secretary-gold/10 text-secretary-gold text-xs rounded-full">
+                  <span key={tag} className="px-2 py-0.5 bg-tango-brass/10 text-tango-brass text-xs rounded-full">
                     {tag}
                   </span>
                 ))}
@@ -243,12 +243,12 @@ export function SongDetailPage() {
               <div className="relative">
                 <button
                   onClick={() => setShowBoardPicker(!showBoardPicker)}
-                  className="px-4 py-2 bg-secretary-gold/20 text-secretary-gold rounded-lg text-sm font-medium hover:bg-secretary-gold/30 transition-colors min-h-[44px]"
+                  className="px-4 py-2 bg-tango-brass/20 text-tango-brass rounded-lg text-sm font-medium hover:bg-tango-brass/30 transition-colors min-h-[44px]"
                 >
                   📋 연습 보드에 저장
                 </button>
                 {showBoardPicker && (
-                  <div className="absolute top-full left-0 mt-1 bg-secretary-navy border border-secretary-gold/20 rounded-lg shadow-xl z-20 min-w-[200px]">
+                  <div className="absolute top-full left-0 mt-1 bg-tango-shadow border border-tango-brass/20 rounded-lg shadow-xl z-20 min-w-[200px]">
                     {boards.length > 0 ? boards.map(b => {
                       const alreadyAdded = id ? b.song_ids.includes(id) : false;
                       return (
@@ -266,7 +266,7 @@ export function SongDetailPage() {
                     }) : (
                       <div className="px-4 py-3 text-xs text-gray-500">
                         보드가 없습니다.{' '}
-                        <Link to="/practice" className="text-secretary-gold hover:underline">만들기 →</Link>
+                        <Link to="/practice" className="text-tango-brass hover:underline">만들기 →</Link>
                       </div>
                     )}
                   </div>
@@ -290,8 +290,8 @@ export function SongDetailPage() {
 
           {/* 전략 포인트 요약 (DanceGuide에서 추출) */}
           {guide && (
-            <div className="bg-white/5 rounded-xl border border-secretary-gold/10 p-5">
-              <h3 className="text-sm font-semibold text-secretary-gold mb-3">전략 포인트</h3>
+            <div className="bg-white/5 rounded-xl border border-tango-brass/10 p-5">
+              <h3 className="text-sm font-semibold text-tango-brass mb-3">전략 포인트</h3>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
                   <span className="text-lg">🎯</span>
@@ -326,14 +326,14 @@ export function SongDetailPage() {
           {videos.length > 0 ? (
             <div className="space-y-4">
               {videos.map((v, i) => (
-                <div key={v.videoId} className="bg-white/5 rounded-xl overflow-hidden border border-secretary-gold/10">
-                  <div className="px-4 py-2 border-b border-secretary-gold/10 flex items-center justify-between">
+                <div key={v.videoId} className="bg-white/5 rounded-xl overflow-hidden border border-tango-brass/10">
+                  <div className="px-4 py-2 border-b border-tango-brass/10 flex items-center justify-between">
                     <div className="flex items-center gap-2">
-                      <span className="text-secretary-gold text-xs font-semibold">영상 {i + 1}</span>
+                      <span className="text-tango-brass text-xs font-semibold">영상 {i + 1}</span>
                       <span className="text-gray-300 text-xs">{v.label}</span>
                     </div>
                     {v.songOrder && (
-                      <span className="text-xs bg-secretary-gold/20 text-secretary-gold px-2 py-0.5 rounded-full">
+                      <span className="text-xs bg-tango-brass/20 text-tango-brass px-2 py-0.5 rounded-full">
                         이 영상에서 {v.songOrder}번째 곡
                       </span>
                     )}
@@ -351,7 +351,7 @@ export function SongDetailPage() {
               ))}
             </div>
           ) : (
-            <div className="bg-white/5 rounded-xl p-8 text-center border border-secretary-gold/10">
+            <div className="bg-white/5 rounded-xl p-8 text-center border border-tango-brass/10">
               <div className="text-gray-500 text-sm">이 곡의 대회 영상을 찾을 수 없습니다.</div>
             </div>
           )}
@@ -366,8 +366,8 @@ export function SongDetailPage() {
           <SongTrendChart data={trend} />
 
           {/* 곡별 대회 히스토리 — 론다 단위 */}
-          <div className="bg-white/5 rounded-xl border border-secretary-gold/10 p-5">
-            <h3 className="text-sm font-semibold text-secretary-gold mb-4">대회 히스토리</h3>
+          <div className="bg-white/5 rounded-xl border border-tango-brass/10 p-5">
+            <h3 className="text-sm font-semibold text-tango-brass mb-4">대회 히스토리</h3>
             {songRounds.length > 0 ? (
               <div className="space-y-4">
                 {songRounds.map(round => {
@@ -390,7 +390,7 @@ export function SongDetailPage() {
                           <span className="text-white font-medium text-sm">
                             {round.competition} {round.year}
                           </span>
-                          <span className="text-xs px-2 py-0.5 rounded-full bg-secretary-gold/20 text-secretary-gold">
+                          <span className="text-xs px-2 py-0.5 rounded-full bg-tango-brass/20 text-tango-brass">
                             {catLabel}
                           </span>
                           <span className={`text-xs px-2 py-0.5 rounded-full ${
@@ -441,7 +441,7 @@ export function SongDetailPage() {
                                 href={v.url}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 bg-secretary-gold/10 hover:bg-secretary-gold/20 text-secretary-gold rounded-lg transition-colors"
+                                className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 bg-tango-brass/10 hover:bg-tango-brass/20 text-tango-brass rounded-lg transition-colors"
                               >
                                 <span>▶</span>
                                 <span>{v.channel}</span>
@@ -482,7 +482,7 @@ export function SongDetailPage() {
               <div className="overflow-x-auto">
                 <table className="w-full text-sm">
                   <thead>
-                    <tr className="text-left text-gray-400 border-b border-secretary-gold/10">
+                    <tr className="text-left text-gray-400 border-b border-tango-brass/10">
                       <th className="py-2 px-2">연도</th>
                       <th className="py-2 px-2">대회</th>
                       <th className="py-2 px-2">스테이지</th>
@@ -500,7 +500,7 @@ export function SongDetailPage() {
                           <td className="py-2 px-2">
                             {vid ? (
                               <a href={`https://www.youtube.com/watch?v=${vid}`} target="_blank" rel="noopener noreferrer"
-                                className="text-secretary-gold hover:underline text-xs">▶ 보기</a>
+                                className="text-tango-brass hover:underline text-xs">▶ 보기</a>
                             ) : <span className="text-gray-600 text-xs">-</span>}
                           </td>
                         </tr>
@@ -523,7 +523,7 @@ function InfoItem({ label, value, highlight }: { label: string; value: string; h
   return (
     <div>
       <div className="text-xs text-gray-500">{label}</div>
-      <div className={`font-medium ${highlight ? 'text-secretary-gold' : 'text-gray-200'}`}>{value}</div>
+      <div className={`font-medium ${highlight ? 'text-tango-brass' : 'text-gray-200'}`}>{value}</div>
     </div>
   );
 }

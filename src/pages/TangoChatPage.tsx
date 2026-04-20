@@ -131,7 +131,7 @@ export function TangoChatPage() {
       <div className="flex-1 overflow-y-auto p-5 space-y-4">
         {messages.length === 0 && !loading && (
           <div className="flex justify-start">
-            <div className="w-8 h-8 rounded-full bg-secretary-gold/20 flex items-center justify-center text-sm mr-2 mt-1 flex-shrink-0">
+            <div className="w-8 h-8 rounded-full bg-tango-brass/20 flex items-center justify-center text-sm mr-2 mt-1 flex-shrink-0">
               💃
             </div>
             <div className="max-w-[70%] px-4 py-2.5 rounded-2xl text-sm leading-relaxed bg-white/10 text-gray-200 rounded-bl-md">
@@ -143,14 +143,14 @@ export function TangoChatPage() {
         {messages.map(msg => (
           <div key={msg.id} className={`group flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
             {msg.role === 'assistant' && (
-              <div className="w-8 h-8 rounded-full bg-secretary-gold/20 flex items-center justify-center text-sm mr-2 mt-1 flex-shrink-0">
+              <div className="w-8 h-8 rounded-full bg-tango-brass/20 flex items-center justify-center text-sm mr-2 mt-1 flex-shrink-0">
                 💃
               </div>
             )}
             <div className="flex flex-col gap-0.5">
               <div className={`max-w-[70%] px-4 py-2.5 rounded-2xl text-sm leading-relaxed whitespace-pre-wrap ${
                 msg.role === 'user'
-                  ? 'bg-secretary-gold text-secretary-dark rounded-br-md'
+                  ? 'bg-tango-brass text-tango-ink rounded-br-md'
                   : 'bg-white/10 text-gray-200 rounded-bl-md'
               }`}>
                 {msg.content}
@@ -173,14 +173,14 @@ export function TangoChatPage() {
 
         {loading && (
           <div className="flex justify-start">
-            <div className="w-8 h-8 rounded-full bg-secretary-gold/20 flex items-center justify-center text-sm mr-2 mt-1">💃</div>
+            <div className="w-8 h-8 rounded-full bg-tango-brass/20 flex items-center justify-center text-sm mr-2 mt-1">💃</div>
             <div className="bg-white/10 px-4 py-2.5 rounded-2xl rounded-bl-md text-gray-400 text-sm">생각 중...</div>
           </div>
         )}
         <div ref={chatEndRef} />
       </div>
 
-      <div className="p-4 border-t border-secretary-gold/20 flex-shrink-0">
+      <div className="p-4 border-t border-tango-brass/20 flex-shrink-0">
         <div className="flex gap-2">
           <input
             type="text"
@@ -188,13 +188,13 @@ export function TangoChatPage() {
             onChange={e => setInput(e.target.value)}
             onKeyDown={e => e.key === 'Enter' && handleSend()}
             placeholder="탱고에 대해 무엇이든 물어보세요..."
-            className="flex-1 bg-white/5 border border-secretary-gold/20 rounded-xl px-4 py-2.5 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-secretary-gold/50"
+            className="flex-1 bg-white/5 border border-tango-brass/20 rounded-xl px-4 py-2.5 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-tango-brass/50"
             disabled={loading}
           />
           <button
             onClick={handleSend}
             disabled={loading || !input.trim()}
-            className="px-5 py-2.5 bg-secretary-gold text-secretary-dark rounded-xl text-sm font-semibold hover:bg-secretary-accent disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
+            className="px-5 py-2.5 bg-tango-brass text-tango-ink rounded-xl text-sm font-semibold hover:bg-tango-brass disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
           >
             전송
           </button>

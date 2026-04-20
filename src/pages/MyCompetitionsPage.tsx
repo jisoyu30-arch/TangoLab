@@ -43,7 +43,7 @@ export function MyCompetitionsPage() {
         right={
           <button
             onClick={handleAdd}
-            className="bg-secretary-gold text-secretary-navy px-3 py-2 rounded-lg font-bold text-sm"
+            className="bg-tango-brass text-tango-shadow px-3 py-2 rounded-lg font-bold text-sm"
           >
             + 추가
           </button>
@@ -54,13 +54,13 @@ export function MyCompetitionsPage() {
           <p className="text-sm text-gray-400">출전 대회, 심사위원, 점수, 영상을 기록합니다</p>
 
           {ownCompetitions.length === 0 ? (
-            <div className="bg-white/5 border border-dashed border-secretary-gold/20 rounded-xl p-8 text-center">
+            <div className="bg-white/5 border border-dashed border-tango-brass/20 rounded-xl p-8 text-center">
               <div className="text-3xl mb-3">🏆</div>
               <p className="text-gray-400 text-sm mb-1">대회 기록이 없습니다</p>
               <p className="text-gray-600 text-xs mb-4">첫 대회 출전을 기록해보세요</p>
               <button
                 onClick={handleAdd}
-                className="bg-secretary-gold/20 hover:bg-secretary-gold/30 text-secretary-gold px-4 py-2 rounded-lg text-sm font-medium transition-colors"
+                className="bg-tango-brass/20 hover:bg-tango-brass/30 text-tango-brass px-4 py-2 rounded-lg text-sm font-medium transition-colors"
               >
                 + 첫 기록 추가
               </button>
@@ -68,20 +68,20 @@ export function MyCompetitionsPage() {
           ) : (
             years.map(year => (
               <div key={year}>
-                <h3 className="text-xs font-semibold text-secretary-gold mb-2">{year}</h3>
+                <h3 className="text-xs font-semibold text-tango-brass mb-2">{year}</h3>
                 <div className="space-y-2">
                   {byYear.get(year)!.map(c => (
                     <Link
                       key={c.id}
                       to={`/my-competitions/${c.id}`}
-                      className="block bg-white/5 hover:bg-white/8 border border-white/10 hover:border-secretary-gold/30 rounded-xl p-4 transition-all"
+                      className="block bg-white/5 hover:bg-white/8 border border-white/10 hover:border-tango-brass/30 rounded-xl p-4 transition-all"
                     >
                       <div className="flex items-start justify-between gap-3">
                         <div className="flex-1 min-w-0">
                           <div className="flex items-center gap-2 mb-1 flex-wrap">
                             <span className="text-sm text-gray-500">{c.date}</span>
                             {c.category && (
-                              <span className="text-[10px] px-2 py-0.5 rounded-full bg-secretary-gold/20 text-secretary-gold">
+                              <span className="text-[10px] px-2 py-0.5 rounded-full bg-tango-brass/20 text-tango-brass">
                                 {CATEGORY_LABELS[c.category] || c.category}
                               </span>
                             )}
@@ -113,7 +113,7 @@ export function MyCompetitionsPage() {
                               <span>곡 {c.songs.length}개</span>
                             )}
                             {c.result_placement && (
-                              <span className="text-secretary-gold font-semibold">#{c.result_placement}</span>
+                              <span className="text-tango-brass font-semibold">#{c.result_placement}</span>
                             )}
                             {c.advanced_to_next && (
                               <span className="text-green-400">✓ 통과</span>

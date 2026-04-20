@@ -18,7 +18,7 @@ export function CompareRoomListPage() {
       right={
         <button
           onClick={() => addCompareSession('새 비교 세션', null, '', '')}
-          className="bg-secretary-gold text-secretary-navy px-3 py-2 rounded-lg font-bold text-sm"
+          className="bg-tango-brass text-tango-shadow px-3 py-2 rounded-lg font-bold text-sm"
         >
           + 생성
         </button>
@@ -29,7 +29,7 @@ export function CompareRoomListPage() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {compareSessions.length === 0 ? (
-          <div className="col-span-full bg-white/5 border border-dashed border-secretary-gold/20 rounded-xl p-8 text-center">
+          <div className="col-span-full bg-white/5 border border-dashed border-tango-brass/20 rounded-xl p-8 text-center">
             <div className="text-3xl mb-3">👀</div>
             <p className="text-gray-400 text-sm mb-1">비교 세션이 없습니다</p>
             <p className="text-gray-600 text-xs">레퍼런스 영상과 내 영상을 나란히 놓고 비교 분석해보세요</p>
@@ -38,11 +38,11 @@ export function CompareRoomListPage() {
           <NavLink
             key={session.id}
             to={`/compare/${session.id}`}
-            className="bg-white/5 border border-secretary-gold/20 hover:border-secretary-gold/50 rounded-xl p-4 transition"
+            className="bg-white/5 border border-tango-brass/20 hover:border-tango-brass/50 rounded-xl p-4 transition"
           >
             <h2 className="font-bold text-lg text-white">{session.title}</h2>
             {session.song_id && songMap.get(session.song_id) && (
-              <p className="text-xs text-secretary-gold mt-1">
+              <p className="text-xs text-tango-brass mt-1">
                 🎵 {songMap.get(session.song_id)!.title} — {songMap.get(session.song_id)!.orchestra}
               </p>
             )}

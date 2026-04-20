@@ -106,14 +106,14 @@ export function MyCompetitionDetailPage() {
         <div className="max-w-3xl mx-auto p-5 space-y-4 pb-20">
 
           {/* 기본 정보 */}
-          <div className="bg-white/5 border border-secretary-gold/10 rounded-xl p-5 space-y-3">
+          <div className="bg-white/5 border border-tango-brass/10 rounded-xl p-5 space-y-3">
             <input
               type="text"
               value={draft.competition_name}
               onChange={e => setDraft({ ...draft, competition_name: e.target.value })}
               onBlur={() => save({ competition_name: draft.competition_name })}
               placeholder="대회 이름 (예: KTC 2024 Pista)"
-              className="w-full bg-transparent text-xl font-bold text-white outline-none border-b border-white/10 pb-2 focus:border-secretary-gold/50"
+              className="w-full bg-transparent text-xl font-bold text-white outline-none border-b border-white/10 pb-2 focus:border-tango-brass/50"
             />
             <div className="grid grid-cols-2 gap-3">
               <Field label="날짜">
@@ -178,8 +178,8 @@ export function MyCompetitionDetailPage() {
           </div>
 
           {/* 영상 */}
-          <div className="bg-white/5 border border-secretary-gold/10 rounded-xl p-5 space-y-3">
-            <h3 className="text-xs font-semibold text-secretary-gold">🎥 대회 영상</h3>
+          <div className="bg-white/5 border border-tango-brass/10 rounded-xl p-5 space-y-3">
+            <h3 className="text-xs font-semibold text-tango-brass">🎥 대회 영상</h3>
             <VideoUploader
               videoUrl={comp.video_url}
               onChange={(url) => save({ video_url: url })}
@@ -195,8 +195,8 @@ export function MyCompetitionDetailPage() {
           </div>
 
           {/* 연주된 곡 */}
-          <div className="bg-white/5 border border-secretary-gold/10 rounded-xl p-5">
-            <h3 className="text-xs font-semibold text-secretary-gold mb-3">🎵 연주된 곡</h3>
+          <div className="bg-white/5 border border-tango-brass/10 rounded-xl p-5">
+            <h3 className="text-xs font-semibold text-tango-brass mb-3">🎵 연주된 곡</h3>
             <div className="space-y-2 mb-3">
               {comp.songs.map((s, i) => (
                 <div key={i} className="flex items-center gap-3 bg-white/5 rounded-lg px-3 py-2">
@@ -216,14 +216,14 @@ export function MyCompetitionDetailPage() {
                 placeholder="악단" className="bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm text-white placeholder-gray-500" />
             </div>
             <button onClick={handleAddSong}
-              className="w-full mt-2 bg-secretary-gold/10 hover:bg-secretary-gold/20 text-secretary-gold rounded-lg py-2 text-xs font-medium">
+              className="w-full mt-2 bg-tango-brass/10 hover:bg-tango-brass/20 text-tango-brass rounded-lg py-2 text-xs font-medium">
               + 곡 추가
             </button>
           </div>
 
           {/* 심사위원 */}
-          <div className="bg-white/5 border border-secretary-gold/10 rounded-xl p-5">
-            <h3 className="text-xs font-semibold text-secretary-gold mb-3">👥 심사위원</h3>
+          <div className="bg-white/5 border border-tango-brass/10 rounded-xl p-5">
+            <h3 className="text-xs font-semibold text-tango-brass mb-3">👥 심사위원</h3>
             <div className="space-y-2 mb-3">
               {comp.judges.map((j, i) => (
                 <div key={i} className="flex items-center gap-3 bg-white/5 rounded-lg px-3 py-2">
@@ -248,18 +248,18 @@ export function MyCompetitionDetailPage() {
                 className="bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm text-white placeholder-gray-500" />
             </div>
             <button onClick={handleAddJudge}
-              className="w-full mt-2 bg-secretary-gold/10 hover:bg-secretary-gold/20 text-secretary-gold rounded-lg py-2 text-xs font-medium">
+              className="w-full mt-2 bg-tango-brass/10 hover:bg-tango-brass/20 text-tango-brass rounded-lg py-2 text-xs font-medium">
               + 심사위원 추가
             </button>
           </div>
 
           {/* 심사 점수 */}
-          <div className="bg-white/5 border border-secretary-gold/10 rounded-xl p-5">
+          <div className="bg-white/5 border border-tango-brass/10 rounded-xl p-5">
             <div className="flex items-center justify-between mb-3">
-              <h3 className="text-xs font-semibold text-secretary-gold">📊 심사 점수</h3>
+              <h3 className="text-xs font-semibold text-tango-brass">📊 심사 점수</h3>
               {overallAvg > 0 && (
                 <div className="text-right">
-                  <div className="text-2xl font-bold text-secretary-gold">{overallAvg.toFixed(1)}</div>
+                  <div className="text-2xl font-bold text-tango-brass">{overallAvg.toFixed(1)}</div>
                   <div className="text-[10px] text-gray-500">전체 평균</div>
                 </div>
               )}
@@ -280,7 +280,7 @@ export function MyCompetitionDetailPage() {
                   {comp.judges.filter(j => !comp.scores.find(s => s.judge_name === j.name)).map((j, i) => (
                     <button key={i}
                       onClick={() => addScore(comp.id, j.name)}
-                      className="w-full bg-secretary-gold/10 hover:bg-secretary-gold/20 text-secretary-gold rounded-lg py-2 text-xs font-medium">
+                      className="w-full bg-tango-brass/10 hover:bg-tango-brass/20 text-tango-brass rounded-lg py-2 text-xs font-medium">
                       + {j.name}의 점수 추가
                     </button>
                   ))}
@@ -290,7 +290,7 @@ export function MyCompetitionDetailPage() {
           </div>
 
           {/* 리뷰: 잘한 점 / 개선할 점 / 전체 메모 */}
-          <div className="bg-white/5 border border-secretary-gold/10 rounded-xl p-5 space-y-4">
+          <div className="bg-white/5 border border-tango-brass/10 rounded-xl p-5 space-y-4">
             <div>
               <h3 className="text-xs font-semibold text-green-400 mb-2">✨ 잘한 점</h3>
               <textarea value={draft.strengths}
@@ -308,7 +308,7 @@ export function MyCompetitionDetailPage() {
                 className="w-full bg-white/5 border border-white/10 rounded-lg p-3 text-sm text-white placeholder-gray-500 resize-none" />
             </div>
             <div>
-              <h3 className="text-xs font-semibold text-secretary-gold mb-2">📝 전체 메모</h3>
+              <h3 className="text-xs font-semibold text-tango-brass mb-2">📝 전체 메모</h3>
               <textarea value={draft.overall_notes}
                 onChange={e => setDraft({ ...draft, overall_notes: e.target.value })}
                 onBlur={() => save({ overall_notes: draft.overall_notes })}
@@ -351,7 +351,7 @@ function ScoreCard({ score, avgScore, onChange, onRemove }: {
       <div className="flex items-center justify-between mb-3">
         <div>
           <div className="text-sm font-semibold text-white">{score.judge_name}</div>
-          {avgScore > 0 && <div className="text-xs text-secretary-gold">평균 {avgScore.toFixed(1)}</div>}
+          {avgScore > 0 && <div className="text-xs text-tango-brass">평균 {avgScore.toFixed(1)}</div>}
         </div>
         <button onClick={onRemove} className="text-xs text-gray-600 hover:text-red-400">제거</button>
       </div>
@@ -368,9 +368,9 @@ function ScoreCard({ score, avgScore, onChange, onRemove }: {
                 step="0.1"
                 value={score.criteria[c.key as keyof ScoreCriteria]}
                 onChange={e => setCriterion(c.key as keyof ScoreCriteria, Number(e.target.value))}
-                className="flex-1 accent-secretary-gold"
+                className="flex-1 accent-tango-brass"
               />
-              <span className="text-sm font-mono text-secretary-gold w-10 text-right">
+              <span className="text-sm font-mono text-tango-brass w-10 text-right">
                 {score.criteria[c.key as keyof ScoreCriteria].toFixed(1)}
               </span>
             </div>

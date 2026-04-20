@@ -216,7 +216,7 @@ function MundialVideoSection({ mundialVideos }: { mundialVideos: Record<string, 
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 text-[11px] px-2.5 py-1.5 bg-white/5 hover:bg-white/10 rounded-lg text-gray-300 hover:text-white transition-colors"
                     >
-                      <span className="text-secretary-gold">▶</span>
+                      <span className="text-tango-brass">▶</span>
                       <span className="truncate">{v.title}</span>
                     </a>
                   ))}
@@ -367,7 +367,7 @@ export function CompetitionResultsPage() {
               onClick={() => setSelectedTab('mundial')}
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                 selectedTab === 'mundial'
-                  ? 'bg-secretary-gold text-black'
+                  ? 'bg-tango-brass text-black'
                   : 'bg-white/5 text-gray-400 hover:bg-white/10'
               }`}
             >
@@ -377,7 +377,7 @@ export function CompetitionResultsPage() {
               onClick={() => setSelectedTab('ktc')}
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                 selectedTab === 'ktc'
-                  ? 'bg-secretary-gold text-black'
+                  ? 'bg-tango-brass text-black'
                   : 'bg-white/5 text-gray-400 hover:bg-white/10'
               }`}
             >
@@ -388,11 +388,11 @@ export function CompetitionResultsPage() {
           {selectedTab === 'mundial' && yearData && (
             <>
               {/* 헤더 + 영상 */}
-              <div className="bg-white/5 rounded-xl border border-secretary-gold/10 p-6">
+              <div className="bg-white/5 rounded-xl border border-tango-brass/10 p-6">
                 <div className="flex items-start justify-between">
                   <div>
                     <h1 className="text-xl font-bold text-white mb-1">{yearData.competition}</h1>
-                    <p className="text-secretary-gold text-sm">{yearData.category}</p>
+                    <p className="text-tango-brass text-sm">{yearData.category}</p>
                   </div>
                 </div>
                 {/* 대회 영상 링크 */}
@@ -410,7 +410,7 @@ export function CompetitionResultsPage() {
                       onClick={() => { setSelectedYear(y); setSelectedStage('final'); setExpandedCouple(null); setTopN(20); }}
                       className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
                         selectedYear === y
-                          ? 'bg-secretary-gold text-black'
+                          ? 'bg-tango-brass text-black'
                           : 'bg-white/5 text-gray-400 hover:bg-white/10'
                       }`}
                     >
@@ -423,7 +423,7 @@ export function CompetitionResultsPage() {
                   <button
                     onClick={() => setViewMode('journey')}
                     className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${
-                      viewMode === 'journey' ? 'bg-secretary-gold/20 text-secretary-gold font-medium' : 'bg-white/5 text-gray-400 hover:bg-white/10'
+                      viewMode === 'journey' ? 'bg-tango-brass/20 text-tango-brass font-medium' : 'bg-white/5 text-gray-400 hover:bg-white/10'
                     }`}
                   >
                     선수별 여정
@@ -431,7 +431,7 @@ export function CompetitionResultsPage() {
                   <button
                     onClick={() => setViewMode('stages')}
                     className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${
-                      viewMode === 'stages' ? 'bg-secretary-gold/20 text-secretary-gold font-medium' : 'bg-white/5 text-gray-400 hover:bg-white/10'
+                      viewMode === 'stages' ? 'bg-tango-brass/20 text-tango-brass font-medium' : 'bg-white/5 text-gray-400 hover:bg-white/10'
                     }`}
                   >
                     스테이지별
@@ -497,7 +497,7 @@ export function CompetitionResultsPage() {
                           href={`https://www.youtube.com/watch?v=${v.video_id}`}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 bg-secretary-gold/10 hover:bg-secretary-gold/20 text-secretary-gold rounded-lg transition-colors"
+                          className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 bg-tango-brass/10 hover:bg-tango-brass/20 text-tango-brass rounded-lg transition-colors"
                         >
                           ▶ {v.title}
                         </a>
@@ -538,7 +538,7 @@ export function CompetitionResultsPage() {
                     onClick={() => setSelectedKtcYear(y)}
                     className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
                       selectedKtcYear === y
-                        ? 'bg-secretary-gold text-black'
+                        ? 'bg-tango-brass text-black'
                         : 'bg-white/5 text-gray-400 hover:bg-white/10'
                     }`}
                   >
@@ -552,7 +552,7 @@ export function CompetitionResultsPage() {
                   <p className="text-gray-500 text-sm">이 연도의 라운드 데이터가 없습니다.</p>
                 )}
                 {ktcRounds.map(round => (
-                  <div key={round.round_id} className="bg-white/5 rounded-xl border border-secretary-gold/10 overflow-hidden">
+                  <div key={round.round_id} className="bg-white/5 rounded-xl border border-tango-brass/10 overflow-hidden">
                     <div className="px-4 py-3 flex items-center gap-2 border-b border-white/5">
                       <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${
                         round.stage === 'final' ? 'bg-red-500/20 text-red-400' :
@@ -562,7 +562,7 @@ export function CompetitionResultsPage() {
                       }`}>
                         {KTC_STAGE_LABELS[round.stage] ?? round.stage}
                       </span>
-                      <span className="text-xs px-2 py-0.5 rounded-full bg-secretary-gold/20 text-secretary-gold">
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-tango-brass/20 text-tango-brass">
                         {CATEGORY_LABELS[round.category] ?? round.category}
                       </span>
                       {round.ronda_number > 0 && (
@@ -578,7 +578,7 @@ export function CompetitionResultsPage() {
                             to={`/song/${s.song_id}`}
                             className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 bg-white/5 hover:bg-white/10 border border-white/10 rounded-lg text-gray-300 hover:text-white transition-colors"
                           >
-                            <span className="text-secretary-gold font-bold">{s.order}</span>
+                            <span className="text-tango-brass font-bold">{s.order}</span>
                             <span>{s.title}</span>
                             <span className="text-gray-500">· {(s.orchestra || '').split(' ').slice(0, 2).join(' ') || '미확인'}</span>
                           </Link>
@@ -593,7 +593,7 @@ export function CompetitionResultsPage() {
                               href={v.url}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 bg-secretary-gold/10 hover:bg-secretary-gold/20 text-secretary-gold rounded-lg transition-colors"
+                              className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 bg-tango-brass/10 hover:bg-tango-brass/20 text-tango-brass rounded-lg transition-colors"
                             >
                               ▶ {v.channel}
                             </a>
@@ -643,7 +643,7 @@ function JourneyView({
         return (
           <div
             key={j.pareja}
-            className="bg-white/5 rounded-xl border border-secretary-gold/10 overflow-hidden"
+            className="bg-white/5 rounded-xl border border-tango-brass/10 overflow-hidden"
           >
             {/* 선수 헤더 */}
             <button
@@ -658,7 +658,7 @@ function JourneyView({
 
               <div className="flex-1 min-w-0">
                 <div className="text-sm text-white truncate">
-                  <span className="text-secretary-gold/60 text-xs font-mono mr-1.5">#{j.pareja}</span>
+                  <span className="text-tango-brass/60 text-xs font-mono mr-1.5">#{j.pareja}</span>
                   {j.leader}
                 </div>
                 <div className="text-xs text-gray-400 truncate">& {j.follower}</div>
@@ -748,7 +748,7 @@ function JourneyView({
                                 href={`https://www.youtube.com/watch?v=${v.video_id}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="inline-flex items-center gap-1 text-[10px] text-secretary-gold hover:underline"
+                                className="inline-flex items-center gap-1 text-[10px] text-tango-brass hover:underline"
                               >
                                 ▶ 영상 보기
                               </a>
@@ -791,7 +791,7 @@ function JourneyView({
       {topN < journeys.length && (
         <button
           onClick={() => setTopN(topN + 20)}
-          className="w-full py-2 text-sm text-secretary-gold hover:bg-white/5 rounded-lg transition-colors"
+          className="w-full py-2 text-sm text-tango-brass hover:bg-white/5 rounded-lg transition-colors"
         >
           더 보기 (현재 {topN}팀 / 전체 {journeys.length}팀)
         </button>
@@ -845,7 +845,7 @@ function FinalView({
       {topN < couples.length && (
         <button
           onClick={() => setTopN(topN + 20)}
-          className="w-full py-2 text-sm text-secretary-gold hover:bg-white/5 rounded-lg transition-colors"
+          className="w-full py-2 text-sm text-tango-brass hover:bg-white/5 rounded-lg transition-colors"
         >
           더 보기 (현재 {topN}팀 / 전체 {couples.length}팀)
         </button>
@@ -921,7 +921,7 @@ function StageView({
             {topN < couples.length && (
               <button
                 onClick={() => setTopN(topN + 20)}
-                className="w-full py-2 text-sm text-secretary-gold hover:bg-white/5 rounded-lg transition-colors"
+                className="w-full py-2 text-sm text-tango-brass hover:bg-white/5 rounded-lg transition-colors"
               >
                 더 보기 (현재 {topN}팀 / 전체 {couples.length}팀)
               </button>
@@ -956,7 +956,7 @@ function StageView({
       {topN < couples.length && (
         <button
           onClick={() => setTopN(topN + 20)}
-          className="w-full py-2 text-sm text-secretary-gold hover:bg-white/5 rounded-lg transition-colors"
+          className="w-full py-2 text-sm text-tango-brass hover:bg-white/5 rounded-lg transition-colors"
         >
           더 보기 (현재 {topN}팀 / 전체 {couples.length}팀)
         </button>
@@ -978,7 +978,7 @@ function RankingTable({
   setExpandedCouple: (v: number | null) => void;
 }) {
   return (
-    <div className="bg-white/5 rounded-xl border border-secretary-gold/10 overflow-hidden">
+    <div className="bg-white/5 rounded-xl border border-tango-brass/10 overflow-hidden">
       <div className="px-4 py-2 border-b border-white/5 flex items-center justify-between">
         <span className="text-xs text-gray-500">전체 {totalCouples}팀</span>
         <span className="text-xs text-gray-500">클릭하면 심사위원별 점수 확인</span>
@@ -1001,7 +1001,7 @@ function RankingTable({
 
                 <div className="flex-1 min-w-0">
                   <div className="text-sm text-white truncate">
-                    <span className="text-secretary-gold/60 text-xs font-mono mr-1.5">#{c.pareja}</span>
+                    <span className="text-tango-brass/60 text-xs font-mono mr-1.5">#{c.pareja}</span>
                     {c.leader}
                   </div>
                   <div className="text-xs text-gray-400 truncate">& {c.follower}</div>
@@ -1009,7 +1009,7 @@ function RankingTable({
 
                 <div className="text-right flex-shrink-0">
                   <div className={`text-lg font-bold tabular-nums ${
-                    c.rank <= 3 ? 'text-secretary-gold' : 'text-gray-300'
+                    c.rank <= 3 ? 'text-tango-brass' : 'text-gray-300'
                   }`}>
                     {c.promedio.toFixed(3)}
                   </div>

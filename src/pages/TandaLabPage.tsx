@@ -231,19 +231,19 @@ export function TandaLabPage() {
       <div className="flex-1 overflow-y-auto">
         <div className="max-w-5xl mx-auto p-5 space-y-6">
           <div>
-            <h1 className="text-xl font-bold text-secretary-gold mb-1">탄다 연구소</h1>
+            <h1 className="text-xl font-bold text-tango-brass mb-1">탄다 연구소</h1>
             <p className="text-gray-400 text-sm">
               {tandas.length}개 탄다 · {competitions.join(', ')}
             </p>
           </div>
 
           {/* 오케스트라 조합 TOP */}
-          <div className="bg-white/5 rounded-xl border border-secretary-gold/10 p-4">
-            <h3 className="text-xs font-semibold text-secretary-gold mb-3">악단 조합 TOP 10</h3>
+          <div className="bg-white/5 rounded-xl border border-tango-brass/10 p-4">
+            <h3 className="text-xs font-semibold text-tango-brass mb-3">악단 조합 TOP 10</h3>
             <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
               {orchStats.map(([combo, count]) => (
                 <div key={combo} className="bg-white/5 rounded-lg p-2.5 text-center">
-                  <div className="text-base font-bold text-secretary-gold">{count}</div>
+                  <div className="text-base font-bold text-tango-brass">{count}</div>
                   <div className="text-[11px] text-gray-400 mt-0.5">{combo}</div>
                 </div>
               ))}
@@ -255,18 +255,18 @@ export function TandaLabPage() {
 
 
           {/* 곡 검색 → 동반 곡 */}
-          <div className="bg-white/5 rounded-xl border border-secretary-gold/10 p-4">
-            <h3 className="text-xs font-semibold text-secretary-gold mb-3">곡으로 탄다 찾기</h3>
+          <div className="bg-white/5 rounded-xl border border-tango-brass/10 p-4">
+            <h3 className="text-xs font-semibold text-tango-brass mb-3">곡으로 탄다 찾기</h3>
             <div className="relative">
               <input
                 type="text"
                 value={searchQuery}
                 onChange={e => { setSearchQuery(e.target.value); setSelectedSongId(null); }}
                 placeholder="곡명 또는 오케스트라..."
-                className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-secretary-gold/50"
+                className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-tango-brass/50"
               />
               {searchCandidates.length > 0 && (
-                <div className="absolute top-full left-0 right-0 mt-1 bg-secretary-navy border border-secretary-gold/20 rounded-xl shadow-xl z-10 max-h-64 overflow-y-auto">
+                <div className="absolute top-full left-0 right-0 mt-1 bg-tango-shadow border border-tango-brass/20 rounded-xl shadow-xl z-10 max-h-64 overflow-y-auto">
                   {searchCandidates.map(s => (
                     <button
                       key={s.song_id}
@@ -285,10 +285,10 @@ export function TandaLabPage() {
               <div className="mt-4 space-y-4">
                 <div className="flex items-center gap-3">
                   <Link to={`/song/${selectedSongId}`}
-                    className="text-sm text-white font-medium hover:text-secretary-gold transition-colors bg-white/5 px-3 py-2 rounded-lg min-h-[40px] flex items-center gap-2">
+                    className="text-sm text-white font-medium hover:text-tango-brass transition-colors bg-white/5 px-3 py-2 rounded-lg min-h-[40px] flex items-center gap-2">
                     {songMap.get(selectedSongId)?.title}
                     <span className="text-gray-500">({shortOrch(songMap.get(selectedSongId)?.orchestra ?? '')})</span>
-                    <span className="text-secretary-gold">→</span>
+                    <span className="text-tango-brass">→</span>
                   </Link>
                   <span className="text-xs text-gray-500">{selectedTandas.length}개 탄다</span>
                   <button onClick={() => { setSelectedSongId(null); setSearchQuery(''); }}
@@ -307,7 +307,7 @@ export function TandaLabPage() {
                         >
                           {c.title}
                           <span className="text-gray-600">· {shortOrch(c.orchestra)}</span>
-                          {c.count > 1 && <span className="text-secretary-gold font-bold">{c.count}x</span>}
+                          {c.count > 1 && <span className="text-tango-brass font-bold">{c.count}x</span>}
                         </Link>
                       ))}
                     </div>
@@ -387,7 +387,7 @@ function TandaCard({
 
   return (
     <div className={`rounded-xl overflow-hidden transition-all ${
-      expanded ? 'border border-secretary-gold/30 bg-white/[0.03]' : 'border border-white/10 bg-white/5 hover:border-white/20'
+      expanded ? 'border border-tango-brass/30 bg-white/[0.03]' : 'border border-white/10 bg-white/5 hover:border-white/20'
     }`}>
       {/* 헤더 */}
       <button onClick={onToggle}
@@ -417,7 +417,7 @@ function TandaCard({
             to={`/song/${s.song_id}`}
             className={`inline-flex items-center gap-1 text-xs px-2.5 py-1.5 rounded-lg border transition-colors ${
               highlightSongId === s.song_id
-                ? 'bg-secretary-gold/20 border-secretary-gold/40 text-secretary-gold'
+                ? 'bg-tango-brass/20 border-tango-brass/40 text-tango-brass'
                 : 'bg-white/5 border-white/10 text-gray-300 hover:text-white hover:bg-white/10'
             }`}
           >
@@ -433,7 +433,7 @@ function TandaCard({
         <div className="border-t border-white/10 p-4 space-y-3">
           {/* 영상 플레이어 */}
           {playingVideo && (
-            <div className="rounded-lg overflow-hidden border border-secretary-gold/20">
+            <div className="rounded-lg overflow-hidden border border-tango-brass/20">
               <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
                 <iframe className="absolute inset-0 w-full h-full"
                   src={`https://www.youtube.com/embed/${playingVideo}?autoplay=1`}
@@ -454,7 +454,7 @@ function TandaCard({
                   onClick={() => setPlayingVideo(isPlaying ? null : vid)}
                   className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-all min-h-[40px] ${
                     isPlaying
-                      ? 'bg-secretary-gold/20 text-secretary-gold border border-secretary-gold/30'
+                      ? 'bg-tango-brass/20 text-tango-brass border border-tango-brass/30'
                       : 'bg-white/5 text-gray-400 hover:text-white hover:bg-white/10 border border-transparent'
                   }`}
                 >

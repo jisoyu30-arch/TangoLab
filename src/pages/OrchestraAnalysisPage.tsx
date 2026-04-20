@@ -185,7 +185,7 @@ export function OrchestraAnalysisPage() {
           {!selected ? (
             <>
               <div>
-                <h1 className="text-xl font-bold text-secretary-gold mb-1">악단 연구</h1>
+                <h1 className="text-xl font-bold text-tango-brass mb-1">악단 연구</h1>
                 <p className="text-gray-400 text-sm">악단을 선택하면 대회 출현곡과 영상을 볼 수 있습니다</p>
               </div>
               <input
@@ -193,7 +193,7 @@ export function OrchestraAnalysisPage() {
                 value={orchSearch}
                 onChange={e => setOrchSearch(e.target.value)}
                 placeholder="악단 이름 검색..."
-                className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-secretary-gold/50"
+                className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-tango-brass/50"
               />
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                 {ranked.map((os, i) => {
@@ -204,16 +204,16 @@ export function OrchestraAnalysisPage() {
                   return (
                     <button key={os.orchestra.orchestra_id}
                       onClick={() => setSelectedOrchId(os.orchestra.orchestra_id)}
-                      className="text-left rounded-xl border border-white/10 bg-white/5 hover:border-secretary-gold/40 hover:bg-white/[0.07] p-4 transition-all active:scale-[0.98]">
+                      className="text-left rounded-xl border border-white/10 bg-white/5 hover:border-tango-brass/40 hover:bg-white/[0.07] p-4 transition-all active:scale-[0.98]">
                       <div className="flex items-center justify-between mb-2">
                         <div className="flex items-center gap-2">
                           <span className="text-base font-bold text-gray-500">#{i + 1}</span>
                           <span className="text-white font-semibold">{shortName}</span>
                         </div>
-                        <span className="text-lg font-bold text-secretary-gold">{os.totalAppearances}</span>
+                        <span className="text-lg font-bold text-tango-brass">{os.totalAppearances}</span>
                       </div>
                       <div className="h-1.5 bg-white/5 rounded-full overflow-hidden mb-2">
-                        <div className="h-full bg-secretary-gold/60 rounded-full" style={{ width: `${barWidth}%` }} />
+                        <div className="h-full bg-tango-brass/60 rounded-full" style={{ width: `${barWidth}%` }} />
                       </div>
                       <div className="flex items-center gap-3 text-[11px]">
                         <span className="text-red-400">결 {os.finalCount}</span>
@@ -260,7 +260,7 @@ function OrchestraDetail({ stats, onBack }: { stats: OrchestraStats; onBack: () 
       <div className="flex items-center gap-3">
         <button
           onClick={onBack}
-          className="text-gray-400 hover:text-secretary-gold text-sm transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
+          className="text-gray-400 hover:text-tango-brass text-sm transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
         >
           ←
         </button>
@@ -275,7 +275,7 @@ function OrchestraDetail({ stats, onBack }: { stats: OrchestraStats; onBack: () 
         </div>
         <button
           onClick={() => setShowInfo(!showInfo)}
-          className="text-xs text-gray-500 hover:text-secretary-gold px-3 py-2 bg-white/5 rounded-lg transition-colors min-h-[40px]"
+          className="text-xs text-gray-500 hover:text-tango-brass px-3 py-2 bg-white/5 rounded-lg transition-colors min-h-[40px]"
         >
           {showInfo ? '정보 닫기' : '악단 정보'}
         </button>
@@ -285,7 +285,7 @@ function OrchestraDetail({ stats, onBack }: { stats: OrchestraStats; onBack: () 
       {orch.style_tags.length > 0 && (
         <div className="flex flex-wrap gap-1.5">
           {orch.style_tags.map(tag => (
-            <span key={tag} className="text-xs px-2 py-0.5 rounded-full bg-secretary-gold/10 text-secretary-gold">
+            <span key={tag} className="text-xs px-2 py-0.5 rounded-full bg-tango-brass/10 text-tango-brass">
               {STYLE_TAG_LABELS[tag] || tag}
             </span>
           ))}
@@ -294,7 +294,7 @@ function OrchestraDetail({ stats, onBack }: { stats: OrchestraStats; onBack: () 
 
       {/* 접을 수 있는 악단 상세 정보 */}
       {showInfo && (
-        <div className="bg-white/5 rounded-xl border border-secretary-gold/10 p-4 space-y-3">
+        <div className="bg-white/5 rounded-xl border border-tango-brass/10 p-4 space-y-3">
           {orch.common_competition_use_notes && !orch.common_competition_use_notes.includes('상세 정보 추가 필요') && (
             <div>
               <div className="text-xs text-gray-400 mb-1">대회 사용 특성</div>
@@ -337,13 +337,13 @@ function OrchestraDetail({ stats, onBack }: { stats: OrchestraStats; onBack: () 
                   }}
                   className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all text-left ${
                     isExpanded
-                      ? 'bg-secretary-gold/10 border border-secretary-gold/30'
+                      ? 'bg-tango-brass/10 border border-tango-brass/30'
                       : 'bg-white/5 border border-transparent hover:bg-white/8'
                   }`}
                 >
                   <span className="text-gray-600 text-xs w-5 text-right font-bold">{i + 1}</span>
                   <div className="flex-1 min-w-0">
-                    <div className={`text-sm font-medium truncate ${isExpanded ? 'text-secretary-gold' : 'text-white'}`}>
+                    <div className={`text-sm font-medium truncate ${isExpanded ? 'text-tango-brass' : 'text-white'}`}>
                       {sd.song.title}
                     </div>
                     <div className="text-[11px] text-gray-500 mt-0.5">
@@ -355,7 +355,7 @@ function OrchestraDetail({ stats, onBack }: { stats: OrchestraStats; onBack: () 
                     {sd.videos.length > 0 && (
                       <span className="text-[10px] bg-cyan-500/20 text-cyan-400 px-1.5 py-0.5 rounded-full">▶{sd.videos.length}</span>
                     )}
-                    <span className="text-xs font-semibold text-secretary-gold">{sd.appearances}회</span>
+                    <span className="text-xs font-semibold text-tango-brass">{sd.appearances}회</span>
                     {sd.finalCount > 0 && (
                       <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-red-500/20 text-red-400">결{sd.finalCount}</span>
                     )}
@@ -395,11 +395,11 @@ function OrchestraDetail({ stats, onBack }: { stats: OrchestraStats; onBack: () 
                                   onClick={() => setPlayingVideo(isPlaying ? null : v.videoId)}
                                   className={`w-full flex items-center gap-3 px-3 py-2 rounded-lg transition-all text-left ${
                                     isPlaying
-                                      ? 'bg-secretary-gold/20 border border-secretary-gold/30'
+                                      ? 'bg-tango-brass/20 border border-tango-brass/30'
                                       : 'bg-white/5 hover:bg-white/8 border border-transparent'
                                   }`}
                                 >
-                                  <span className={`text-sm ${isPlaying ? 'text-secretary-gold' : 'text-gray-500'}`}>
+                                  <span className={`text-sm ${isPlaying ? 'text-tango-brass' : 'text-gray-500'}`}>
                                     {isPlaying ? '⏸' : '▶'}
                                   </span>
                                   <span className="text-sm text-gray-200 flex-1">
@@ -429,7 +429,7 @@ function OrchestraDetail({ stats, onBack }: { stats: OrchestraStats; onBack: () 
                           <div className="text-xs text-gray-400 mb-2">곡 분석</div>
                           <div className="space-y-2">
                             <div className="bg-white/5 rounded-lg px-3 py-2">
-                              <span className="text-secretary-gold text-xs mr-2">요약</span>
+                              <span className="text-tango-brass text-xs mr-2">요약</span>
                               <span className="text-sm text-gray-200">{sd.guide.summary}</span>
                             </div>
                             {sd.guide.competition_tip && (
@@ -454,7 +454,7 @@ function OrchestraDetail({ stats, onBack }: { stats: OrchestraStats; onBack: () 
                       {sd.song.mood_tags.length > 0 && (
                         <div className="flex flex-wrap gap-1.5">
                           {sd.song.mood_tags.map(tag => (
-                            <span key={tag} className="text-[10px] px-2 py-0.5 bg-secretary-gold/10 text-secretary-gold rounded-full">{tag}</span>
+                            <span key={tag} className="text-[10px] px-2 py-0.5 bg-tango-brass/10 text-tango-brass rounded-full">{tag}</span>
                           ))}
                         </div>
                       )}
@@ -462,7 +462,7 @@ function OrchestraDetail({ stats, onBack }: { stats: OrchestraStats; onBack: () 
                       {/* 곡 상세 페이지 이동 버튼 */}
                       <Link
                         to={`/song/${sd.song.song_id}`}
-                        className="flex items-center justify-center gap-2 w-full px-4 py-3 bg-secretary-gold/10 hover:bg-secretary-gold/20 text-secretary-gold rounded-xl text-sm font-medium transition-colors min-h-[48px]"
+                        className="flex items-center justify-center gap-2 w-full px-4 py-3 bg-tango-brass/10 hover:bg-tango-brass/20 text-tango-brass rounded-xl text-sm font-medium transition-colors min-h-[48px]"
                       >
                         곡 상세 보기 →
                       </Link>

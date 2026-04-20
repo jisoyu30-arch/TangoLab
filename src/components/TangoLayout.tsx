@@ -12,7 +12,7 @@ export function TangoLayout() {
 
   return (
     <SidebarContext.Provider value={{ openSidebar: () => setSidebarOpen(true) }}>
-      <div className="flex h-screen bg-secretary-dark">
+      <div className="flex h-screen bg-tango-ink text-tango-paper font-sans">
         {/* 모바일 오버레이 */}
         {sidebarOpen && (
           <div
