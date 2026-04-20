@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { PageHeader } from '../components/PageHeader';
+import { TandaAnalysisSection } from '../components/TandaAnalysisSection';
 import roundsData from '../data/competition_rounds.json';
 import songsData from '../data/songs.json';
 import appearancesData from '../data/appearances.json';
@@ -248,6 +249,10 @@ export function TandaLabPage() {
               ))}
             </div>
           </div>
+
+          {/* 📊 심층 분석 */}
+          <TandaAnalysisSection tandas={tandas} />
+
 
           {/* 곡 검색 → 동반 곡 */}
           <div className="bg-white/5 rounded-xl border border-secretary-gold/10 p-4">
