@@ -4,6 +4,7 @@ import { useParams, Link } from 'react-router-dom';
 import { PageHeader } from '../components/PageHeader';
 import { OrnamentDivider } from '../components/editorial';
 import { OrchestraStreamgraph } from '../components/OrchestraStreamgraph';
+import { CoupleJourneySankey } from '../components/CoupleJourneySankey';
 import { shortOrchestraName } from '../utils/tandaAnalysis';
 import songsData from '../data/songs.json';
 import appearancesData from '../data/appearances.json';
@@ -157,6 +158,17 @@ export function MundialStoryPage({ }: Props) {
               <div className="text-[10px] tracking-widest uppercase text-tango-cream/50 mt-2">결승 Ronda</div>
             </div>
           </div>
+        </section>
+
+        {/* 커플 여정 Sankey */}
+        <section className="max-w-5xl mx-auto px-5 md:px-8 py-16">
+          <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-3 text-center">
+            Tournament Flow
+          </div>
+          <h2 className="font-display text-4xl text-tango-paper italic text-center mb-10" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+            예선에서 <em className="text-tango-brass">결승</em>까지
+          </h2>
+          <CoupleJourneySankey year={String(story.year)} />
         </section>
 
         {/* 스트림그래프 */}

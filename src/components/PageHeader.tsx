@@ -1,13 +1,19 @@
 import { useSidebar } from './TangoLayout';
+import { usePageMeta } from '../hooks/usePageMeta';
 
 interface PageHeaderProps {
   title: string;
   onBack?: () => void;
   right?: React.ReactNode;
+  /** 문서 title을 자동 설정할지. SongDetailPage처럼 이미 설정하면 false */
+  autoMeta?: boolean;
 }
 
-export function PageHeader({ title, onBack, right }: PageHeaderProps) {
+export function PageHeader({ title, onBack, right, autoMeta = true }: PageHeaderProps) {
   const { openSidebar } = useSidebar();
+
+  // 자동으로 document.title 설정
+  usePageMeta(autoMeta ? { title } : {});
 
   return (
     <header className="h-14 border-b border-tango-brass/20 bg-tango-shadow/80 backdrop-blur-sm flex items-center justify-between px-4 flex-shrink-0">

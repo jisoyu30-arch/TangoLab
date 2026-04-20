@@ -10,6 +10,8 @@ import { STAGE_LABELS, extractYouTubeId, getCompetitionShortName } from '../util
 import { ShareButton } from '../components/ShareButton';
 import { FavoriteButton } from '../components/FavoriteButton';
 import { SongLifecycleTimeline } from '../components/SongLifecycleTimeline';
+import { SongCooccurrenceNetwork } from '../components/SongCooccurrenceNetwork';
+import { usePageMeta } from '../hooks/usePageMeta';
 
 import songsData from '../data/songs.json';
 import appearancesData from '../data/appearances.json';
@@ -133,6 +135,11 @@ export function SongDetailPage() {
 
   const song = useMemo(() => songs.find(s => s.song_id === id), [id]);
 
+  usePageMeta({
+    title: song?.title,
+    description: song ? `${song.orchestra || ''}${song.vocalist ? ' · ' + song.vocalist : ''}${song.recording_date ? ' · ' + song.recording_date + '년' : ''}` : undefined,
+  });
+
   // 최근 본 항목 기록
   useEffect(() => {
     if (!song || !id) return;
@@ -193,6 +200,7 @@ export function SongDetailPage() {
     <>
       <PageHeader
         title={song.title}
+        autoMeta={false}
         onBack={() => navigate(-1)}
         right={
           <div className="flex items-center gap-2">
@@ -376,6 +384,9 @@ export function SongDetailPage() {
 
           {/* 라이프사이클 타임라인 (대회 출현 점 그래프) */}
           <SongLifecycleTimeline appearances={songAppearances} />
+
+          {/* 공출현 네트워크 (이 곡과 자주 묶이는 곡들) */}
+          {id && <SongCooccurrenceNetwork focusSongId={id} />}
 
           {/* 연도별 추이 */}
           <SongTrendChart data={trend} />
