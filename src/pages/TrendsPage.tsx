@@ -2,6 +2,7 @@
 import { useMemo, useState } from 'react';
 import { PageHeader } from '../components/PageHeader';
 import { EditorialHeader, EditorialStat, OrnamentDivider } from '../components/editorial';
+import { OrchestraStreamgraph } from '../components/OrchestraStreamgraph';
 import songsData from '../data/songs.json';
 import appearancesData from '../data/appearances.json';
 import roundsData from '../data/competition_rounds.json';
@@ -148,6 +149,18 @@ export function TrendsPage() {
               </button>
             ))}
           </div>
+
+          {/* 스트림그래프: 악단 점유율 변천사 */}
+          <section>
+            <EditorialHeader
+              eyebrow="Streamgraph"
+              title="악단 점유율 변천사"
+              subtitle="2012~2025, 대회 음악의 흐름"
+            />
+            <div className="mt-8 bg-tango-shadow/40 border border-tango-brass/15 rounded-sm p-4 md:p-6">
+              <OrchestraStreamgraph stageFilter={stageFilter} />
+            </div>
+          </section>
 
           {/* 히트맵: 연도 × 악단 */}
           <section>

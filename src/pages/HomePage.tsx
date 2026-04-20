@@ -2,6 +2,7 @@
 import { useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { PageHeader } from '../components/PageHeader';
+import { DailyTandaWidget, TodayInHistoryWidget } from '../components/DailyTandaWidget';
 import { usePracticeStore } from '../hooks/usePracticeStore';
 import { useRecentItems } from '../hooks/useRecentItems';
 import { computeRankings } from '../utils/tangoRanking';
@@ -122,6 +123,16 @@ export function HomePage() {
               )}
             </div>
           </div>
+        </section>
+
+        {/* ╔══════════ Daily Tanda ══════════╗ */}
+        <section className="max-w-5xl mx-auto px-6 py-10">
+          <DailyTandaWidget />
+        </section>
+
+        {/* ╔══════════ 오늘의 Mundial 역사 ══════════╗ */}
+        <section className="max-w-5xl mx-auto px-6 py-10 border-t border-tango-brass/10">
+          <TodayInHistoryWidget />
         </section>
 
         {/* ╔══════════ 피처 섹션 (Magazine Grid) ══════════╗ */}

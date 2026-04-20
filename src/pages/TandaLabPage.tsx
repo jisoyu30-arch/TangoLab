@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { PageHeader } from '../components/PageHeader';
 import { TandaAnalysisSection } from '../components/TandaAnalysisSection';
+import { TandaAIInsight } from '../components/TandaAIInsight';
 import roundsData from '../data/competition_rounds.json';
 import songsData from '../data/songs.json';
 import appearancesData from '../data/appearances.json';
@@ -428,7 +429,19 @@ function TandaCard({
         ))}
       </div>
 
-      {/* 펼침: 영상 재생 (카드 내부) */}
+      {/* 펼침: AI 해설 + 영상 */}
+      {expanded && (
+        <div className="border-t border-white/10 px-4 pt-2 pb-1">
+          <TandaAIInsight
+            competition={tanda.competition}
+            year={tanda.year}
+            stage={tanda.stage}
+            ronda={tanda.ronda}
+            songs={tanda.songs}
+            cacheKey={tanda.id}
+          />
+        </div>
+      )}
       {expanded && tanda.videoIds.length > 0 && (
         <div className="border-t border-white/10 p-4 space-y-3">
           {/* 영상 플레이어 */}

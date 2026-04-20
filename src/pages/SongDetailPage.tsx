@@ -7,6 +7,8 @@ import { SongTrendChart } from '../components/tango/SongTrendChart';
 import { usePracticeStore } from '../hooks/usePracticeStore';
 import { getAppearancesForSong, getYearlyTrend, computeRankings } from '../utils/tangoRanking';
 import { STAGE_LABELS, extractYouTubeId, getCompetitionShortName } from '../utils/tangoHelpers';
+import { ShareButton } from '../components/ShareButton';
+import { FavoriteButton } from '../components/FavoriteButton';
 
 import songsData from '../data/songs.json';
 import appearancesData from '../data/appearances.json';
@@ -188,7 +190,16 @@ export function SongDetailPage() {
 
   return (
     <>
-      <PageHeader title={song.title} onBack={() => navigate(-1)} />
+      <PageHeader
+        title={song.title}
+        onBack={() => navigate(-1)}
+        right={
+          <div className="flex items-center gap-2">
+            <FavoriteButton type="song" id={song.song_id} title={song.title} size="sm" />
+            <ShareButton title={`${song.title} · 탱고랩`} text={`${song.orchestra || ''}`} />
+          </div>
+        }
+      />
 
       <div className="flex-1 overflow-y-auto">
         <div className="max-w-4xl mx-auto p-5 space-y-6">
