@@ -1,0 +1,31 @@
+{
+  "name": "석정소유의 탱고랩 · Tango Lab",
+  "short_name": "TangoLab",
+  "description": "대회곡 아카이브, 탄다 분석, 전략 메모를 한곳에서",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0A09",
+  "theme_color": "#B8863F",
+  "orientation": "portrait-primary",
+  "categories": ["lifestyle", "music", "education"],
+  "lang": "ko",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/owl-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

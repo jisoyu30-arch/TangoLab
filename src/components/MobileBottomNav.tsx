@@ -9,6 +9,10 @@ const MAIN_NAV = [
 ];
 
 const MORE_ITEMS = [
+  { to: '/trends', label: '트렌드 분석', icon: '📈' },
+  { to: '/quiz', label: '곡 퀴즈', icon: '🎧' },
+  { to: '/ai', label: 'AI 추천', icon: '✨' },
+  { to: '/notes', label: '공유 메모', icon: '🖋' },
   { to: '/training', label: '수업 & 연습', icon: '🎓' },
   { to: '/my-competitions', label: '내 대회 기록', icon: '🏅' },
   { to: '/practice', label: '연습 보드', icon: '📝' },

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0B0A09"/>
+  <circle cx="256" cy="256" r="200" fill="#1F1814" stroke="#B8863F" stroke-width="8"/>
+  <text x="256" y="200" font-family="Playfair Display, Georgia, serif" font-style="italic" font-weight="700" font-size="72" text-anchor="middle" fill="#F5F1E8">Tango</text>
+  <text x="256" y="270" font-family="Playfair Display, Georgia, serif" font-style="italic" font-weight="700" font-size="72" text-anchor="middle" fill="#B8863F">Lab</text>
+  <g transform="translate(256 340)">
+    <line x1="-80" y1="0" x2="-15" y2="0" stroke="#B8863F" stroke-width="2"/>
+    <text x="0" y="7" font-size="20" text-anchor="middle" fill="#B8863F">◈</text>
+    <line x1="15" y1="0" x2="80" y2="0" stroke="#B8863F" stroke-width="2"/>
+  </g>
+  <text x="256" y="395" font-family="Inter, sans-serif" font-size="18" letter-spacing="4" text-anchor="middle" fill="#B8863F" opacity="0.7">VOL. 001</text>
+</svg>

@@ -134,11 +134,15 @@ export function HomePage() {
             subtitle="자주 찾으시는 곳으로 바로 이동하세요"
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-px bg-tango-brass/15 mt-8 rounded-sm overflow-hidden">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-tango-brass/15 mt-8 rounded-sm overflow-hidden">
             <FeatureCell to="/songs" num="01" title="Songs" subtitle="곡 아카이브" desc={`${stats.songs}곡의 대회 이력`} />
             <FeatureCell to="/orchestra" num="02" title="Orchestras" subtitle="악단 연구" desc="스타일·조합 분석" />
             <FeatureCell to="/tanda" num="03" title="Tandas" subtitle="탄다 연구소" desc="3곡 조합 패턴" />
-            <FeatureCell to="/my-competitions" num="04" title="My Records" subtitle="내 대회 기록" desc="점수·심사위원" />
+            <FeatureCell to="/trends" num="04" title="Trends" subtitle="트렌드 분석" desc="연대기·히트맵" />
+            <FeatureCell to="/ai" num="05" title="AI" subtitle="탄다 추천" desc="맞춤 3곡 설계" />
+            <FeatureCell to="/quiz" num="06" title="Quiz" subtitle="곡 맞추기" desc="듣고 악단 맞춰" />
+            <FeatureCell to="/notes" num="07" title="Notes" subtitle="공유 메모판" desc="둘이 함께 쓰기" />
+            <FeatureCell to="/my-competitions" num="08" title="Records" subtitle="내 대회 기록" desc="점수·심사위원" />
           </div>
         </section>
 

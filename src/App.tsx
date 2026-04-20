@@ -15,6 +15,10 @@ import { TrainingPage } from './pages/TrainingPage';
 import { ClassDetailPage } from './pages/ClassDetailPage';
 import { MyCompetitionsPage } from './pages/MyCompetitionsPage';
 import { MyCompetitionDetailPage } from './pages/MyCompetitionDetailPage';
+import { TrendsPage } from './pages/TrendsPage';
+import { SongQuizPage } from './pages/SongQuizPage';
+import { NotesPage } from './pages/NotesPage';
+import { AIRecommendPage } from './pages/AIRecommendPage';
 
 export function App() {
   return (
@@ -26,6 +30,10 @@ export function App() {
           <Route path="/results" element={<CompetitionResultsPage />} />
           <Route path="/tanda" element={<TandaLabPage />} />
           <Route path="/orchestra" element={<OrchestraAnalysisPage />} />
+          <Route path="/trends" element={<TrendsPage />} />
+          <Route path="/quiz" element={<SongQuizPage />} />
+          <Route path="/notes" element={<NotesPage />} />
+          <Route path="/ai" element={<AIRecommendPage />} />
           <Route path="/practice" element={<PracticeBoardListPage />} />
           <Route path="/practice/:id" element={<PracticeBoardDetailPage />} />
           <Route path="/compare" element={<CompareRoomListPage />} />
