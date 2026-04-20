@@ -9015,5 +9015,23 @@
     "source_confidence": "A",
     "evidence_note": "Mundial 영상 description/자막 파싱",
     "competition_popularity_score": 2
+  },
+  {
+    "song_id": "SONG-492",
+    "title": "Don Pacífico",
+    "alt_titles": [],
+    "genre": "tango",
+    "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+    "orchestra_id": "ORCH-001",
+    "vocalist": null,
+    "recording_date": "1949",
+    "composer": null,
+    "lyricist": null,
+    "mood_tags": [],
+    "tempo": "medium",
+    "dance_notes": null,
+    "source_confidence": "A",
+    "evidence_note": "Mundial 영상 텍스트 오버레이에서 곡명·악단·연도 식별",
+    "competition_popularity_score": 2
   }
 ]

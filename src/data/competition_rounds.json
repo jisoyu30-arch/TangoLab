@@ -4878,6 +4878,127 @@
           "title": "2017 탱고피스타 결승 / Tango Music of Mundial 2017, Final Tango Pista"
         }
       ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q13",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 13,
+      "songs": [
+        {
+          "song_id": "SONG-181",
+          "title": "Tigre Viejo",
+          "orchestra": "Osvaldo Fresedo y su Orquesta Típica",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-492",
+          "title": "Don Pacífico",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-183",
+          "title": "El Monito",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "N0OfkWaBbNg",
+          "url": "https://www.youtube.com/watch?v=N0OfkWaBbNg",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2016, Clasificatoria Pista, Ronda 13, 1/3"
+        },
+        {
+          "video_id": "tdiEyMli0XM",
+          "url": "https://www.youtube.com/watch?v=tdiEyMli0XM",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2016, Clasificatoria Pista, Ronda 13, 2/3"
+        },
+        {
+          "video_id": "fPPUZWVZ9ew",
+          "url": "https://www.youtube.com/watch?v=fPPUZWVZ9ew",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2016, Clasificatoria Pista, Ronda 13, 3/3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q6",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 6,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "B6Sv6i0HrKk",
+          "url": "https://www.youtube.com/watch?v=B6Sv6i0HrKk",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2016, Clasificatoria pista Ronda 6"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q7",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 7,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "Yrc9eflpGns",
+          "url": "https://www.youtube.com/watch?v=Yrc9eflpGns",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2016, Clasificatoria pista Ronda 7"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q8",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 8,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "t5KypJq4zws",
+          "url": "https://www.youtube.com/watch?v=t5KypJq4zws",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2016, Clasificatoria pista Ronda 8"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2016-PISTA-Q9",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2016,
+      "category": "tango_de_pista",
+      "stage": "qualifying",
+      "ronda_number": 9,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "vctHaxAxOu4",
+          "url": "https://www.youtube.com/watch?v=vctHaxAxOu4",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2016, Clasificatoria pista Ronda 9"
+        }
+      ]
     }
   ]
 }
