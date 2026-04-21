@@ -149,9 +149,10 @@
     "composer": "Jesús Ventura",
     "lyricist": null,
     "mood_tags": [
-      "grand",
-      "flowing",
-      "elegant"
+      "elegant",
+      "melodic",
+      "smooth",
+      "traditional"
     ],
     "tempo": "medium",
     "dance_notes": "인스트루멘탈. Di Sarli 특유의 흐르는 듯한 멜로디. 리드와 팔로우의 연결감을 보여주기에 적합.",
@@ -551,8 +552,13 @@
     "recording_date": "1952",
     "composer": "Alejandro Junnissi",
     "lyricist": null,
-    "mood_tags": [],
-    "tempo": null,
+    "mood_tags": [
+      "rhythmic",
+      "marcato",
+      "energetic",
+      "fast_tempo"
+    ],
+    "tempo": "fast",
     "dance_notes": "2024 Mundial Final Pista R2에서 사용됨. YouTube 음악 인식으로 곡명만 확인.",
     "source_confidence": "A",
     "evidence_note": "el-recodo.com에서 확인. Juan D'Arienzo 1952년 녹음, 인스트루멘탈, 작곡 Alejandro Junnissi.",

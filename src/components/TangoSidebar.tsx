@@ -17,7 +17,8 @@ const NAV_ITEMS = [
   { to: '/practice', label: 'Practice', sub: '연습 보드', num: '10', end: false },
   { to: '/compare', label: 'Compare', sub: '비교 연습실', num: '11', end: false },
   { to: '/notes', label: 'Notes', sub: '공유 메모판', num: '12', end: false },
-  { to: '/chat', label: 'Q&A', sub: '탱고 Q&A', num: '13', end: false },
+  { to: '/favorites', label: 'Favorites', sub: '즐겨찾기', num: '13', end: false },
+  { to: '/chat', label: 'Q&A', sub: '탱고 Q&A', num: '14', end: false },
 ];
 
 interface Props {

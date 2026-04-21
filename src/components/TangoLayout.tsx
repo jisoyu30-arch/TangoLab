@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom';
 import { TangoSidebar } from './TangoSidebar';
 import { MobileBottomNav } from './MobileBottomNav';
 import { CommandPalette } from './CommandPalette';
+import { OnboardingModal } from './OnboardingModal';
 
 // 사이드바 토글을 자식 페이지에서 사용할 수 있도록 Context 제공
 const SidebarContext = createContext<{ openSidebar: () => void }>({ openSidebar: () => {} });
@@ -41,6 +42,7 @@ export function TangoLayout() {
           <MobileBottomNav />
         </main>
         <CommandPalette />
+        <OnboardingModal />
       </div>
     </SidebarContext.Provider>
   );

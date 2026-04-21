@@ -5,6 +5,7 @@ import songsData from '../data/songs.json';
 import orchestrasData from '../data/orchestras.json';
 import competitionsData from '../data/competitions.json';
 import type { Song, Orchestra, Competition } from '../types/tango';
+import { matchesKoreanChosung } from '../utils/koreanSearch';
 
 const songs = songsData as Song[];
 const orchestras = orchestrasData as Orchestra[];
@@ -83,20 +84,23 @@ export function CommandPalette() {
 
     const hits: Result[] = [];
 
-    // 페이지 검색
+    // 페이지 검색 (한글 초성 포함)
     for (const p of PAGES) {
-      if (p.title.toLowerCase().includes(q) || p.keywords.some(k => k.includes(q))) {
+      if (
+        matchesKoreanChosung(q, p.title) ||
+        p.keywords.some(k => matchesKoreanChosung(q, k))
+      ) {
         hits.push({ type: 'page', id: p.to, title: p.title, icon: '→', to: p.to });
       }
     }
 
-    // 곡 검색
+    // 곡 검색 (한글 초성 포함)
     for (const s of songs) {
       if (hits.length > 30) break;
       if (
-        s.title.toLowerCase().includes(q) ||
-        (s.orchestra || '').toLowerCase().includes(q) ||
-        (s.vocalist || '').toLowerCase().includes(q)
+        matchesKoreanChosung(q, s.title) ||
+        matchesKoreanChosung(q, s.orchestra || '') ||
+        matchesKoreanChosung(q, s.vocalist || '')
       ) {
         hits.push({
           type: 'song',
@@ -109,12 +113,12 @@ export function CommandPalette() {
       }
     }
 
-    // 악단 검색
+    // 악단 검색 (한글 초성 포함)
     for (const o of orchestras) {
       if (hits.length > 40) break;
       if (
-        o.orchestra_name.toLowerCase().includes(q) ||
-        (o.alt_names || []).some(n => n.toLowerCase().includes(q))
+        matchesKoreanChosung(q, o.orchestra_name) ||
+        (o.alt_names || []).some(n => matchesKoreanChosung(q, n))
       ) {
         hits.push({
           type: 'orchestra',

@@ -60,9 +60,30 @@ export function SongQuizPage() {
   const [answer, setAnswer] = useState<string | null>(null);
   const [showHint, setShowHint] = useState(false);
   const [stats, setStats] = useState({ correct: 0, total: 0 });
+  // 세션 동안 이미 나온 곡 id
+  const [seenIds, setSeenIds] = useState<Set<string>>(new Set());
 
   const newQuiz = () => {
-    setQuiz(pickRandomQuiz());
+    // 이미 본 곡 제외하고 뽑기 (최대 20회 시도)
+    let next: QuizItem | null = null;
+    for (let i = 0; i < 20; i++) {
+      const candidate = pickRandomQuiz();
+      if (!candidate) break;
+      if (!seenIds.has(candidate.song.song_id)) {
+        next = candidate;
+        break;
+      }
+    }
+    // 다 본 경우 세트 초기화
+    if (!next) {
+      setSeenIds(new Set());
+      next = pickRandomQuiz();
+    }
+
+    if (next) {
+      setSeenIds(prev => new Set([...prev, next!.song.song_id]));
+    }
+    setQuiz(next);
     setAnswer(null);
     setShowHint(false);
   };
