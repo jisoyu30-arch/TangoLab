@@ -165,8 +165,8 @@ ${song.recording_date ? `녹음연도: ${song.recording_date}` : ''}
       console.log(`✗ ${e.message.slice(0, 60)}`);
     }
 
-    // rate limit — free tier: 10 RPM 수준
-    await new Promise(r => setTimeout(r, 7000));
+    // rate limit — free tier: 매우 안전하게 20초 (3 RPM)
+    await new Promise(r => setTimeout(r, 20000));
   }
 
   if (!DRY_RUN) {

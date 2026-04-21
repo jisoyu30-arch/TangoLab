@@ -54,26 +54,36 @@ export function TrainingPage() {
           </span>
         }
       />
-      <div className="flex-1 overflow-y-auto">
-        <div className="max-w-4xl mx-auto p-5 space-y-5">
+      <div className="flex-1 overflow-y-auto bg-tango-ink">
+        <div className="max-w-4xl mx-auto px-5 md:px-8 py-8 space-y-6">
+
+          {/* 에디토리얼 헤더 */}
+          <div className="text-center border-b border-tango-brass/15 pb-6">
+            <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-2">
+              Training · Journal
+            </div>
+            <h1 className="font-display text-3xl md:text-4xl text-tango-paper italic" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+              수업 & <em className="text-tango-brass">연습</em>
+            </h1>
+          </div>
 
           {/* 빠른 액션 */}
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-2 gap-px bg-tango-brass/15 rounded-sm overflow-hidden">
             <button
               onClick={handleQuickPractice}
-              className="bg-tango-brass/20 hover:bg-tango-brass/30 text-tango-brass rounded-xl p-4 text-left transition-colors min-h-[80px]"
+              className="bg-tango-ink hover:bg-tango-shadow p-5 text-left transition-colors min-h-[100px] group"
             >
-              <div className="text-2xl mb-1">⏱️</div>
-              <div className="font-semibold">연습 시작</div>
-              <div className="text-xs text-gray-400 mt-0.5">바로 기록 추가</div>
+              <div className="text-2xl mb-2">⏱️</div>
+              <div className="font-display italic text-xl text-tango-paper group-hover:text-tango-brass transition-colors" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>연습 시작</div>
+              <div className="text-[11px] text-tango-cream/50 mt-0.5 font-sans">바로 기록 추가</div>
             </button>
             <button
               onClick={handleQuickClass}
-              className="bg-white/5 hover:bg-white/10 text-white rounded-xl p-4 text-left transition-colors min-h-[80px]"
+              className="bg-tango-ink hover:bg-tango-shadow p-5 text-left transition-colors min-h-[100px] group"
             >
-              <div className="text-2xl mb-1">🎓</div>
-              <div className="font-semibold">수업 추가</div>
-              <div className="text-xs text-gray-400 mt-0.5">새 수업 기록</div>
+              <div className="text-2xl mb-2">🎓</div>
+              <div className="font-display italic text-xl text-tango-paper group-hover:text-tango-brass transition-colors" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>수업 추가</div>
+              <div className="text-[11px] text-tango-cream/50 mt-0.5 font-sans">새 수업 기록</div>
             </button>
           </div>
 
