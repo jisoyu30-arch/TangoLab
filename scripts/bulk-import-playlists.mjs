@@ -10,15 +10,23 @@ const DATA = path.join(__dirname, '..', 'src', 'data', 'competition_rounds.json'
 const PLAYLISTS = path.join(__dirname, '..', 'data-sources', 'playlists');
 const db = JSON.parse(fs.readFileSync(DATA, 'utf-8'));
 
-/** Ronda 번호 + stage 파싱 */
+/** Ronda 번호 + stage + 대회 판별 */
 function parseEntry(title) {
   const t = title.toLowerCase();
 
+  // 대회 판별
+  let competition = 'Mundial', competition_id = 'COMP-001';
+  if (/\bktc\b/i.test(title)) { competition = 'KTC'; competition_id = 'COMP-005'; }
+  else if (/\bptc\b/i.test(title)) { competition = 'PTC'; competition_id = 'COMP-004'; }
+  else if (/\btdac\b|pacific tango championship/i.test(title)) { competition = 'PTC'; competition_id = 'COMP-004'; }
+  else if (/mundial|tango ba|campeonato.*buenos aires|world.*tango/i.test(t)) { competition = 'Mundial'; competition_id = 'COMP-001'; }
+  else return null;
+
   // 스테이지 판별
   let stage = null;
-  if (/semifinal/.test(t)) stage = 'semifinal';
+  if (/semifinal|semifin/.test(t)) stage = 'semifinal';
   else if (/cuartos|quarterfinal/.test(t)) stage = 'quarterfinal';
-  else if (/clasificatoria|eliminatoria|preliminar|qualifying/.test(t)) stage = 'qualifying';
+  else if (/clasificatoria|eliminatoria|preliminar|qualifying|qualification|qualifier/.test(t)) stage = 'qualifying';
   else if (/\bfinal\b|campe(o|ó)n/.test(t)) stage = 'final';
   else return null;
 
@@ -53,19 +61,20 @@ function parseEntry(title) {
   return { year, stage, ronda, day };
 }
 
-function roundIdFor(year, stage, ronda, category = 'pista') {
+function roundIdFor(year, stage, ronda, competition = 'MUNDIAL') {
   const stageCode = { qualifying: 'Q', quarterfinal: 'QF', semifinal: 'SF', final: 'F' }[stage];
-  return `R-MUNDIAL${year}-PISTA-${stageCode}${String(ronda).padStart(stage === 'qualifying' ? 2 : 1, '0')}`;
+  return `R-${competition}${year}-PISTA-${stageCode}${String(ronda).padStart(stage === 'qualifying' ? 2 : 1, '0')}`;
 }
 
-function ensureRound(year, stage, ronda, video) {
-  const round_id = roundIdFor(year, stage, ronda);
+function ensureRound(year, stage, ronda, video, competition = 'Mundial', competition_id = 'COMP-001') {
+  const compCode = competition.toUpperCase().replace(/\s+/g, '_');
+  const round_id = roundIdFor(year, stage, ronda, compCode);
   let round = db.rounds.find(r => r.round_id === round_id);
   if (!round) {
     round = {
       round_id,
-      competition: 'Mundial',
-      competition_id: 'COMP-001',
+      competition,
+      competition_id,
       year,
       category: 'pista',
       stage,
@@ -99,6 +108,8 @@ const playlistFiles = [
   { file: 'masha-step.txt', channel: 'Masha Step' },
   { file: 'pamela-villegas.txt', channel: 'Pamela Villegas' },
   { file: 'lulu-y-mariano.txt', channel: 'Lulu y Mariano' },
+  { file: 'tangocafe.txt', channel: 'TangoCafe' },
+  { file: 'korea-tango-cooperative.txt', channel: 'Korea Tango Cooperative' },
 ];
 
 const stats = { added: 0, exists: 0, skipped: 0, parsed: 0 };
@@ -133,7 +144,7 @@ for (const pl of playlistFiles) {
       id: videoId.trim(),
       channel: pl.channel,
       title,
-    });
+    }, entry.competition, entry.competition_id);
     if (result === 'added-video') stats.added++;
     else stats.exists++;
   }
