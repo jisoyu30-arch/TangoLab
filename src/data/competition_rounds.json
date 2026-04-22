@@ -11858,6 +11858,119 @@
         "Carolina Giorgini",
         "Pablo"
       ]
+    },
+    {
+      "round_id": "R-MUNDIAL2025-PISTA-Q01",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "UNMATCHED-AL_COMPAS_DEL_CORAZON",
+          "title": "Al Compás del Corazón",
+          "orchestra": "Miguel Caló",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-076",
+          "title": "A Los Amigos",
+          "orchestra": "Osvaldo Pugliese",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-077",
+          "title": "Farabute",
+          "orchestra": "Juan D'Arienzo",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "OuRlzrhtXZY",
+          "url": "https://www.youtube.com/watch?v=OuRlzrhtXZY",
+          "channel": "AiresDeMilonga",
+          "title": "Ronda 1/28 Mundial de tango 2025 08 23 Clasificatoria pista"
+        }
+      ],
+      "judges": [
+        "Maria Ines Bogado",
+        "Monica Matera",
+        "Ricardo Calvo Bonaventura",
+        "Carolina Giorgini",
+        "Pablo"
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2025-PISTA-Q02",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "SONG-061",
+          "title": "Cuatro Compases",
+          "orchestra": "Miguel Caló",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-062",
+          "title": "Gente Amiga",
+          "orchestra": "Osvaldo Pugliese",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-063",
+          "title": "Pajaro Ciego",
+          "orchestra": "Aníbal Troilo con Francisco Fiorentino",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "jdIdEBxoZ4M",
+          "url": "https://www.youtube.com/watch?v=jdIdEBxoZ4M",
+          "channel": "AiresDeMilonga",
+          "title": "See the Best Tango Dancers in Action! Ronda 2 Mundial de tango 2025 08 23 Clasificatoria pista"
+        }
+      ],
+      "judges": [
+        "Maria Ines Bogado",
+        "Monica Matera",
+        "Ricardo Calvo Bonaventura",
+        "Carolina Giorgini",
+        "Pablo"
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2025-PISTA-Q15",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 15,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "rbraxoQjW7A",
+          "url": "https://www.youtube.com/watch?v=rbraxoQjW7A",
+          "channel": "AiresDeMilonga",
+          "title": "Ronda 15 Mundial de tango 2025 Clasificatoria pista Buenos Aires"
+        }
+      ],
+      "judges": [
+        "Maria Ines Bogado",
+        "Monica Matera",
+        "Ricardo Calvo Bonaventura",
+        "Carolina Giorgini",
+        "Pablo"
+      ]
     }
   ]
 }
