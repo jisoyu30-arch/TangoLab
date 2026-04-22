@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { PageHeader } from '../components/PageHeader';
 import { TandaAnalysisSection } from '../components/TandaAnalysisSection';
 import { TandaAIInsight } from '../components/TandaAIInsight';
+import { RondaParticipants } from '../components/RondaParticipants';
 import roundsData from '../data/competition_rounds.json';
 import songsData from '../data/songs.json';
 import appearancesData from '../data/appearances.json';
@@ -445,6 +446,19 @@ function TandaCard({
             ronda={tanda.ronda}
             songs={tanda.songs}
             cacheKey={tanda.id}
+          />
+        </div>
+      )}
+
+      {/* 펼침: 출전자 + 진출 현황 (Mundial 예선만) */}
+      {expanded && tanda.stage === 'qualifying' && tanda.ronda > 0 && (
+        <div className="border-t border-white/10 px-4 py-4">
+          <RondaParticipants
+            year={tanda.year}
+            rondaNumber={tanda.ronda}
+            competition={tanda.competition}
+            stage={tanda.stage}
+            compact
           />
         </div>
       )}
