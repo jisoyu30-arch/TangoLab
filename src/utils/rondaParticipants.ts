@@ -1,5 +1,6 @@
 // 론다 출전자 추적 — Mundial 각 스테이지 데이터 크로스레퍼런스
 import mundialData from '../data/mundial_results.json';
+import participants2025 from '../data/mundial_participants_2025.json';
 
 export type AdvancementStage = 'final' | 'semifinal' | 'cuartos' | 'qualifying' | 'none';
 
@@ -20,6 +21,16 @@ export interface Participant {
   cuartosRank?: number;
 }
 
+/** 2025년 그룹별 ronda 정보 */
+export interface RondaGroup {
+  group: string;             // 'A' | 'B' | 'C' | 'D'
+  date: string;              // '2025-08-23' 등
+  rondaNumber: number;
+  participants: Participant[];
+}
+
+/* ───── 기존 로직: 2024 이전 간단 데이터 ───── */
+
 interface StageCouple {
   pareja: number;
   leader: string;
@@ -29,20 +40,15 @@ interface StageCouple {
   ronda?: number;
 }
 
-/** 특정 스테이지에서 커플 → { rank, promedio, ronda } 맵 생성 */
 function buildStageMap(stage: any): Map<number, StageCouple & { category: 'general' | 'senior' }> {
   const map = new Map<number, StageCouple & { category: 'general' | 'senior' }>();
   if (!stage) return map;
-
-  // 평면형: stage.couples
   if (Array.isArray(stage.couples)) {
     for (const c of stage.couples as StageCouple[]) {
       if (c.pareja === undefined) continue;
       map.set(c.pareja, { ...c, category: 'general' });
     }
   }
-
-  // general/senior 분리형 (final)
   for (const cat of ['general', 'senior'] as const) {
     const grp = stage[cat];
     if (Array.isArray(grp?.couples)) {
@@ -52,8 +58,6 @@ function buildStageMap(stage: any): Map<number, StageCouple & { category: 'gener
       }
     }
   }
-
-  // groups형 (clasificatoria, cuartos)
   if (stage.groups) {
     for (const [, g] of Object.entries(stage.groups) as any) {
       if (Array.isArray(g.couples)) {
@@ -64,29 +68,109 @@ function buildStageMap(stage: any): Map<number, StageCouple & { category: 'gener
       }
     }
   }
-
   return map;
 }
 
-/** 특정 연도 Mundial 데이터로 전체 참가자 진출 지도 생성 */
 export function getAdvancementIndex(year: number) {
   const data = (mundialData as any)[String(year)];
   if (!data?.stages) return null;
-
   const stages = data.stages;
   const qualifying = buildStageMap(stages.clasificatoria || stages.qualifying || stages.eliminatoria);
   const cuartos = buildStageMap(stages.cuartos || stages.quarterfinal);
   const semifinal = buildStageMap(stages.semifinal);
   const final = buildStageMap(stages.final);
-
   return { qualifying, cuartos, semifinal, final };
 }
 
-/** 특정 연도 · ronda 번호의 출전자 명단을 진출 성적과 함께 반환 */
-export function getParticipantsByRonda(
-  year: number,
-  rondaNumber: number
-): Participant[] {
+/* ───── 신규 2025 고급 매칭: tangoba.org PDF 기반 ───── */
+
+interface ParticipantsIndexEntry {
+  pareja: number;
+  leader: string;
+  follower: string;
+  stages: Record<string, { ronda: number; rank: number; promedio: number; scores?: number[] }>;
+}
+
+const p2025 = participants2025 as unknown as {
+  year: number;
+  stages: Record<string, {
+    stage: string;
+    group: string | null;
+    date: string;
+    judges_count: number;
+    couples: Array<{ ronda: number; pareja: number; leader: string; follower: string; scores: number[]; promedio: number; rank: number }>;
+  }>;
+  ronda_ranges: Record<string, number[]>;
+  participants_index: Record<string, ParticipantsIndexEntry>;
+};
+
+/**
+ * 2025년: 특정 ronda 번호에 해당하는 모든 그룹(A/B/C/D) 리스트
+ * ronda가 같은 번호여도 Day 1 A / Day 1 B / Day 2 C / Day 2 D는 다른 세션
+ */
+export function getRondaGroups2025(rondaNumber: number): RondaGroup[] {
+  const results: RondaGroup[] = [];
+  const idx = p2025.participants_index;
+
+  for (const groupKey of ['clasificatoria_A', 'clasificatoria_B', 'clasificatoria_C', 'clasificatoria_D']) {
+    const stageData = p2025.stages[groupKey];
+    if (!stageData) continue;
+    const couplesInRonda = stageData.couples.filter(c => c.ronda === rondaNumber);
+    if (couplesInRonda.length === 0) continue;
+
+    const participants: Participant[] = couplesInRonda.map(c => {
+      const chain = idx[String(c.pareja)];
+      let advancedTo: AdvancementStage = 'qualifying';
+      let finalRank, finalPromedio, semifinalRank, cuartosRank;
+
+      if (chain?.stages.final) {
+        advancedTo = 'final';
+        finalRank = chain.stages.final.rank;
+        finalPromedio = chain.stages.final.promedio;
+      } else if (chain?.stages.semifinal) {
+        advancedTo = 'semifinal';
+        semifinalRank = chain.stages.semifinal.rank;
+      } else if (chain?.stages.cuartos_A || chain?.stages.cuartos_B) {
+        advancedTo = 'cuartos';
+        cuartosRank = chain.stages.cuartos_A?.rank ?? chain.stages.cuartos_B?.rank;
+      }
+
+      return {
+        pareja: c.pareja,
+        leader: c.leader,
+        follower: c.follower,
+        category: null,
+        qualifyingRank: c.rank,
+        qualifyingPromedio: c.promedio,
+        advancedTo,
+        finalRank, finalPromedio, semifinalRank, cuartosRank,
+      };
+    });
+
+    // 진출 단계 정렬
+    const stageWeight: Record<AdvancementStage, number> = { final: 0, semifinal: 1, cuartos: 2, qualifying: 3, none: 4 };
+    participants.sort((a, b) => {
+      const w = stageWeight[a.advancedTo] - stageWeight[b.advancedTo];
+      if (w !== 0) return w;
+      if (a.finalRank && b.finalRank) return a.finalRank - b.finalRank;
+      return (a.qualifyingRank ?? 999) - (b.qualifyingRank ?? 999);
+    });
+
+    results.push({
+      group: stageData.group ?? '?',
+      date: stageData.date,
+      rondaNumber,
+      participants,
+    });
+  }
+
+  return results;
+}
+
+/**
+ * 레거시 단일 매칭 (mundial_results.json 기반) — 다른 연도용
+ */
+export function getParticipantsByRonda(year: number, rondaNumber: number): Participant[] {
   const idx = getAdvancementIndex(year);
   if (!idx) return [];
 
@@ -118,10 +202,7 @@ export function getParticipantsByRonda(
     });
   }
 
-  // 진출 단계 우선 정렬 (결승 → 준결승 → 8강 → 예선), 그 안에서 qualifying 순위
-  const stageWeight: Record<AdvancementStage, number> = {
-    final: 0, semifinal: 1, cuartos: 2, qualifying: 3, none: 4,
-  };
+  const stageWeight: Record<AdvancementStage, number> = { final: 0, semifinal: 1, cuartos: 2, qualifying: 3, none: 4 };
   result.sort((a, b) => {
     const w = stageWeight[a.advancedTo] - stageWeight[b.advancedTo];
     if (w !== 0) return w;
@@ -132,7 +213,6 @@ export function getParticipantsByRonda(
   return result;
 }
 
-/** 어드밴스 배지 라벨/색 */
 export const ADVANCE_LABEL: Record<AdvancementStage, { label: string; short: string; color: string }> = {
   final: { label: '🏆 결승 진출', short: '결승', color: 'bg-tango-brass text-tango-ink' },
   semifinal: { label: '◆ 준결승 진출', short: '준결승', color: 'bg-tango-brass/40 text-tango-brass border border-tango-brass/60' },
@@ -141,8 +221,8 @@ export const ADVANCE_LABEL: Record<AdvancementStage, { label: string; short: str
   none: { label: '—', short: '—', color: 'bg-white/5 text-tango-cream/40' },
 };
 
-/** 이 연도에 자동 진출 추적이 가능한지 */
 export function hasAdvancementData(year: number): boolean {
+  if (year === 2025) return true; // mundial_participants_2025.json
   const data = (mundialData as any)[String(year)];
   if (!data?.stages) return false;
   const hasQual = !!(data.stages.clasificatoria || data.stages.qualifying || data.stages.eliminatoria);

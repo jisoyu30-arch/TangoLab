@@ -1,7 +1,7 @@
 // 론다 출전자 + 진출 현황 — "이 론다 결승 진출자 X, 준결승 진출자 Y" 형식
 import { useMemo, useState } from 'react';
-import { getParticipantsByRonda, hasAdvancementData } from '../utils/rondaParticipants';
-import type { Participant, AdvancementStage } from '../utils/rondaParticipants';
+import { getParticipantsByRonda, getRondaGroups2025, hasAdvancementData } from '../utils/rondaParticipants';
+import type { Participant, AdvancementStage, RondaGroup } from '../utils/rondaParticipants';
 
 interface Props {
   year: number;
@@ -23,13 +23,29 @@ const SECTION_META: Record<AdvancementStage, { heading: string; emoji: string; a
 
 export function RondaParticipants({ year, rondaNumber, competition, stage, compact = false }: Props) {
   const [showAll, setShowAll] = useState(false);
+  const [selectedGroup, setSelectedGroup] = useState<string | null>(null);
 
   // Mundial 이외는 아직 데이터 없음
   const supported = competition === 'Mundial' && hasAdvancementData(year) && stage === 'qualifying';
 
-  const participants = useMemo(
-    () => supported ? getParticipantsByRonda(year, rondaNumber) : [],
+  // 2025는 그룹 분리형 (A/B/C/D), 그 외는 단일
+  const groups2025 = useMemo<RondaGroup[]>(
+    () => supported && year === 2025 ? getRondaGroups2025(rondaNumber) : [],
     [year, rondaNumber, supported]
+  );
+
+  const activeGroup = useMemo(() => {
+    if (groups2025.length === 0) return null;
+    if (selectedGroup) return groups2025.find(g => g.group === selectedGroup) ?? groups2025[0];
+    return groups2025[0];
+  }, [groups2025, selectedGroup]);
+
+  const participants = useMemo(
+    () => {
+      if (year === 2025) return activeGroup?.participants ?? [];
+      return supported ? getParticipantsByRonda(year, rondaNumber) : [];
+    },
+    [year, rondaNumber, supported, activeGroup]
   );
 
   const grouped = useMemo(() => {
@@ -69,11 +85,39 @@ export function RondaParticipants({ year, rondaNumber, competition, stage, compa
 
   return (
     <div className="space-y-3">
+      {/* 2025 그룹 선택 (여러 그룹에 같은 ronda 번호가 있을 때) */}
+      {groups2025.length > 1 && (
+        <div className="bg-white/3 border border-tango-brass/15 rounded-sm p-2">
+          <div className="text-[10px] tracking-widest uppercase text-tango-cream/60 font-sans mb-2">
+            ⓘ Ronda {rondaNumber}은 여러 그룹에 있습니다. 영상의 날짜/그룹과 일치하는 것을 선택하세요:
+          </div>
+          <div className="flex gap-1 flex-wrap">
+            {groups2025.map(g => {
+              const isActive = activeGroup?.group === g.group;
+              return (
+                <button
+                  key={g.group}
+                  onClick={() => setSelectedGroup(g.group)}
+                  className={`text-xs px-3 py-1.5 rounded-sm border transition-colors ${
+                    isActive
+                      ? 'border-tango-brass bg-tango-brass/15 text-tango-brass'
+                      : 'border-white/10 text-tango-cream/60 hover:border-tango-brass/40'
+                  }`}
+                >
+                  그룹 {g.group} · {g.date.slice(5)} · {g.participants.length}팀
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
       {/* 헤더 */}
       <div className="flex items-center justify-between">
         <div>
           <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans">
-            Ronda {rondaNumber} · 출전 커플
+            Ronda {rondaNumber}
+            {activeGroup ? ` · 그룹 ${activeGroup.group} (${activeGroup.date.slice(5)})` : ''} · 출전 커플
           </div>
           <div className="text-xs text-tango-cream/60 font-sans mt-0.5">
             총 <span className="text-tango-paper font-semibold">{totalCount}</span>팀 중{' '}

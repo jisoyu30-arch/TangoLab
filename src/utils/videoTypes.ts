@@ -25,6 +25,10 @@ const CHANNEL_TYPE: Record<string, VideoType> = {
   '한선우': 'performance',                     // PTC 결승 풀버전
   'Thanh Dang': 'music',                     // 곡만 모은 영상 (no dance)
   'Tango Master': 'music',                   // 곡 설명 영상
+  'Martín Iarussi': 'performance',           // Mundial 2024 clasificatoria
+  'Martin Iarussi': 'performance',
+  'Pamela Villegas': 'performance',          // Mundial 2024 semifinal, Campeonato Ciudad
+  'Tango Dancers Rome': 'performance',       // Mundial 2023 Final
 };
 
 const CHANNEL_LABEL: Record<string, string> = {
@@ -40,6 +44,10 @@ const CHANNEL_LABEL: Record<string, string> = {
   '한선우': '🎥 실제 대회',
   'Thanh Dang': '🎵 곡 전용',
   'Tango Master': '🎵 곡 설명',
+  'Martín Iarussi': '🎥 실제 대회',
+  'Martin Iarussi': '🎥 실제 대회',
+  'Pamela Villegas': '🎥 실제 대회',
+  'Tango Dancers Rome': '🎥 실제 대회',
 };
 
 export function classifyVideo(v: { channel?: string; type?: VideoType }): VideoType {

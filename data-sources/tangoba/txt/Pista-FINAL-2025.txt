@@ -1,0 +1,85 @@
+RONDA  PAREJA  Nombre y Apellido        Nombre y Apellido                 Javier     Aoniken  Cristina Sosa  Paola Tacceti  Diego Gauna  Roxana  Cristian  PROMEDIO
+
+                                                                          Rodriguez  Quiroga                                             Suarez  Marquez
+
+5      530     Diego Ortega             Aldana Silveyra                   9.990      9.550    9.970          9.990          9.600        9.780   9.900     9.826
+
+1      490     Lucas  Gauto             Naima Gerasopoulou                9.350      9.980    9.950          9.300          9.500        9.650   9.500     9.604
+
+5      780     Juan David Vargas        Ornella Simonetto                 9.800      9.000    9.990          9.200          9.200        9.900   9.700     9.541
+
+2      4       Erik Deslarmes           Nadia Aguilar                     9.350      9.350    9.520          9.400          9.900        9.800   9.450     9.539
+
+3      1       Juan Ignacio Braida      Natasha Kaliszuk Lee              9.550      9.100    9.880          9.400          9.350        9.780   9.400     9.494
+
+1      152     leonardo pankow          valentina massari                 9.450      9.950    9.850          9.150          9.150        9.300   9.400     9.464
+
+5      747     Sebastian Fernandez      Mara   Oviedo                     9.500      9.500    9.290          9.150          9.450        9.730   9.380     9.429
+
+2      725     Haruna Izutani           Ezequiel Nuñez                    9.450      9.400    9.900          8.990          9.230        9.500   9.350     9.403
+
+1      143     Gustavo Chaile           Mayela Aponte                     9.500      9.200    9.850          9.050          9.100        9.750   9.200     9.379
+
+2      751     Ariel Taritolay          Laura Casco Zorzon                9.300      8.900    9.880          9.300          9.800        9.400   8.950     9.361
+
+3      242     Norair Arakelian         Sofiia Seminskaia                 9.500      9.550    9.050          9.150          9.200        9.480   9.020     9.279
+
+2      37      Joaquin Besga            Katherine Laiton                  9.550      8.700    9.920          9.500          9.100        9.250   8.850     9.267
+
+4      483     Dmitrii Liferov          Dana Son                          8.950      9.300    9.490          9.000          9.730        9.300   9.080     9.264
+
+4      391     Sergei Kurkatov          Kseniia Rubina                    9.250      9.100    8.620          9.300          9.750        9.000   9.320     9.191
+
+1      450     London                          Sol                        8.450      9.970    8.900          9.000          9.650        8.900   9.250     9.160
+
+4      728     Victoria Pesci           Lucas Martin                      9.550      8.750    8.950          9.050          9.250        9.350   9.100     9.143
+
+5      351     Juan fernando Cabral     Laura  Castiñeiras                9.450      9.200    9.040          8.980          9.150        8.800   9.180     9.114
+
+3      609     juan manuel Rosales      Lisa Rosales                      9.250      8.900    8.900          9.100          9.250        8.900   9.350     9.093
+
+4      466     Carlos Estigarribia      Marina Alcalde                    9.300      9.000    8.740          8.900          9.400        8.900   9.100     9.049
+
+5      253     Jesus Paez               Iara Duarte                       8.950      9.000    9.420          8.800          9.100        9.080   8.850     9.029
+
+4      97      Edwin Enrique Espinosa   Alexa Yepes                       9.450      8.800    9.100          8.700          9.150        8.830   9.150     9.026
+
+3      275     Marcelo Javier Torres    Francisca Alarcon Irrazabal       9.650      8.400    8.530          9.180          9.600        8.890   8.850     9.014
+
+1      149     Alexander Moncada Rojas  Martina Waldman                   9.550      9.250    9.050          8.500          9.000        8.550   9.100     9.000
+
+3      748     Matias Gutierrez         Aldana Belen Figueroa             8.750      9.050    9.000          9.050          9.190        8.700   9.180     8.989
+
+3      44      Luciano Paulino          Dana Zampieri                     9.150      8.500    8.900          8.800          9.300        8.700   9.320     8.953
+
+2      116     Alejandro Lázzaro        Gabriela Gallese                  8.100      8.750    9.840          8.780          9.500        8.530   9.120     8.946
+
+1      125     Alexander Sossa          Ana Thomas                        8.500      9.100    8.500          8.750          9.300        9.400   9.050     8.943
+
+4      20      Matteo Antonietti        Añes Rosario Arredondo Maiztegui  8.900      8.700    8.580          9.100          9.350        8.420   9.360     8.916
+
+3      731     Ekaterina Simonova       Stanislav Fursov                  8.300      8.850    9.000          8.700          9.750        8.650   9.120     8.910
+
+4      230     Ferrol Matthew Poluan    Muliany Rambe                     9.500      9.000    8.500          8.800          9.050        8.520   8.970     8.906
+
+4      245     Artem Luchin             Polina Luchina                    8.750      9.030    8.590          8.990          9.000        9.200   8.700     8.894
+
+2      762     juan   cupini            Erica  Rossi                      8.800      8.800    8.490          8.990          9.150        9.050   8.900     8.883
+
+1      53      Ariel Manzanares         Laisa Souza                       8.750      9.000    8.520          9.200          9.050        8.500   9.150     8.881
+
+2      417     Max Piero Vera Ramirez   Anastasiia Rudiak                 8.200      9.500    8.500          8.800          9.200        8.800   9.150     8.879
+
+3      189     Jorge Benvenutti         Sol Irupé Gabis Gómez             8.800      8.600    8.490          8.950          9.100        9.350   8.820     8.873
+
+1      184     Gonzalo Angeles de Soto  Nathalia Peña Muñoz               8.300      8.970    8.990          8.900          8.950        9.100   8.800     8.859
+5  262  Valentin Bobkov         Katerina Tsybrova       8.300  9.200  8.600  9.000  9.130  8.900  8.600  8.819
+
+2  166  Leandro Capparelli      Jeannette Erazú         8.050  8.850  8.600  8.850  9.180  8.700  9.050  8.754
+
+5  178  Alfredo Ricardo Encina  Ana Luisa Di Francisco  8.550  8.300  8.200  9.600  8.930  8.500  8.950  8.719
+
+5  752  Javier Omar Santillan   Gladys Noemi Rivero     8.700  8.100  8.180  8.990  8.950  8.900  8.800  8.660
+
+5  355  Luis Mario Saihueque    Marcela Patricia Jara   9.150  8.200  8.300  8.700  8.800  8.600  8.750  8.643
+
