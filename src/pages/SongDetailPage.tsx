@@ -12,7 +12,7 @@ import { FavoriteButton } from '../components/FavoriteButton';
 import { SongLifecycleTimeline } from '../components/SongLifecycleTimeline';
 import { SongCooccurrenceNetwork } from '../components/SongCooccurrenceNetwork';
 import { usePageMeta } from '../hooks/usePageMeta';
-import { isPerformanceVideo } from '../utils/videoTypes';
+import { isPerformanceVideo, isMusicVideo } from '../utils/videoTypes';
 
 import songsData from '../data/songs.json';
 import appearancesData from '../data/appearances.json';
@@ -79,19 +79,31 @@ interface VideoInfo {
   competition: string;
   stage: string;
   roundLabel: string | null;
+  channel?: string;
+  isMusic?: boolean;
 }
 
-function pickBestVideos(songId: string, songAppearances: Appearance[], maxCount = 4): VideoInfo[] {
-  const videos: VideoInfo[] = [];
+function pickBestVideos(
+  songId: string,
+  songAppearances: Appearance[],
+  maxCount = 4
+): { performance: VideoInfo[]; music: VideoInfo[] } {
+  const performance: VideoInfo[] = [];
+  const music: VideoInfo[] = [];
   const seenVideoIds = new Set<string>();
 
-  // 1. perfVideos 우선 (명시된 퍼포먼스 영상)
+  const pushTo = (list: VideoInfo[], info: VideoInfo, limit = maxCount) => {
+    if (list.length >= limit) return;
+    if (seenVideoIds.has(info.videoId)) return;
+    seenVideoIds.add(info.videoId);
+    list.push(info);
+  };
+
+  // 1. perfVideos (명시된 퍼포먼스 영상) — 채널 교차 확인
   const perfVids = perfVideos[songId] ?? [];
   for (const pv of perfVids) {
-    if (videos.length >= maxCount) break;
-    if (seenVideoIds.has(pv.video_id)) continue;
-    seenVideoIds.add(pv.video_id);
-    videos.push({
+    const ch = videoChannelMap.get(pv.video_id);
+    const info: VideoInfo = {
       videoId: pv.video_id,
       label: pv.label,
       songOrder: pv.song_order ?? null,
@@ -99,19 +111,21 @@ function pickBestVideos(songId: string, songAppearances: Appearance[], maxCount 
       competition: '',
       stage: '',
       roundLabel: null,
-    });
+      channel: ch,
+    };
+    if (ch && isMusicVideo({ channel: ch })) {
+      info.isMusic = true;
+      pushTo(music, info, 3);
+    } else {
+      pushTo(performance, info);
+    }
   }
 
-  // 2. rounds에서 이 곡이 있는 라운드의 퍼포먼스 영상 (Thanh Dang 제외)
+  // 2. rounds에서 이 곡이 있는 라운드의 영상 — 퍼포먼스/음원 분기
   for (const r of allRounds) {
-    if (videos.length >= maxCount) break;
     if (!r.songs.some(s => s.song_id === songId)) continue;
     for (const v of (r.videos || [])) {
-      if (videos.length >= maxCount) break;
-      if (seenVideoIds.has(v.video_id)) continue;
-      if (!isPerformanceVideo(v)) continue; // 🎵 음악 전용 제외
-      seenVideoIds.add(v.video_id);
-      videos.push({
+      const info: VideoInfo = {
         videoId: v.video_id,
         label: `${r.competition} ${r.year} ${STAGE_LABELS[r.stage] ?? r.stage}${r.ronda_number ? ` R${r.ronda_number}` : ''}`,
         songOrder: r.songs.find(s => s.song_id === songId)?.order ?? null,
@@ -119,12 +133,19 @@ function pickBestVideos(songId: string, songAppearances: Appearance[], maxCount 
         competition: r.competition,
         stage: STAGE_LABELS[r.stage] ?? r.stage,
         roundLabel: `R${r.ronda_number}`,
-      });
+        channel: v.channel,
+      };
+      if (isPerformanceVideo(v)) {
+        pushTo(performance, info);
+      } else if (isMusicVideo(v)) {
+        info.isMusic = true;
+        pushTo(music, info, 3);
+      }
     }
   }
 
-  // 3. appearances에서 추가 (채널 확인하여 퍼포먼스만)
-  if (videos.length < maxCount) {
+  // 3. appearances — 퍼포먼스만 (부족 시 채움)
+  if (performance.length < maxCount) {
     const priorityOrder = ['COMP-005', 'COMP-004', 'COMP-001', 'COMP-002', 'COMP-003'];
     const sorted = [...songAppearances].sort((a, b) => {
       const aPri = priorityOrder.indexOf(a.competition_id);
@@ -136,14 +157,16 @@ function pickBestVideos(songId: string, songAppearances: Appearance[], maxCount 
     });
 
     for (const a of sorted) {
-      if (videos.length >= maxCount) break;
+      if (performance.length >= maxCount) break;
       const vid = extractYouTubeId(a.source_url);
       if (!vid || seenVideoIds.has(vid)) continue;
-      // 채널 정보로 필터
       const ch = videoChannelMap.get(vid);
-      if (ch && !isPerformanceVideo({ channel: ch })) continue;
-      seenVideoIds.add(vid);
-      videos.push({
+      // 음원 전용으로 알려진 영상은 스킵 (이미 music에 추가됨)
+      if (ch && isMusicVideo({ channel: ch })) continue;
+      // 채널 알 수 없으면 보수적으로 스킵 (확신 없는 영상 제외)
+      if (!ch) continue;
+      if (!isPerformanceVideo({ channel: ch })) continue;
+      pushTo(performance, {
         videoId: vid,
         label: `${getCompetitionShortName(a.competition_id)} ${a.year} ${STAGE_LABELS[a.stage] ?? a.stage}${a.round_label ? ` ${a.round_label}` : ''}`,
         songOrder: a.song_order_in_round,
@@ -151,11 +174,12 @@ function pickBestVideos(songId: string, songAppearances: Appearance[], maxCount 
         competition: getCompetitionShortName(a.competition_id),
         stage: STAGE_LABELS[a.stage] ?? a.stage,
         roundLabel: a.round_label,
+        channel: ch,
       });
     }
   }
 
-  return videos;
+  return { performance, music };
 }
 
 
@@ -207,7 +231,10 @@ export function SongDetailPage() {
   const rank = useMemo(() => rankings.findIndex(r => r.song_id === id) + 1, [rankings, id]);
   const ranking = useMemo(() => rankings.find(r => r.song_id === id), [rankings, id]);
 
-  const videos = useMemo(() => id ? pickBestVideos(id, songAppearances, 2) : [], [id, songAppearances]);
+  const { performance: videos, music: musicRefs } = useMemo(
+    () => id ? pickBestVideos(id, songAppearances, 2) : { performance: [], music: [] },
+    [id, songAppearances]
+  );
 
   // 이 곡이 사용된 모든 라운드 찾기
   const songRounds = useMemo(() => {
@@ -556,15 +583,21 @@ export function SongDetailPage() {
           )}
 
           <div id="videos"></div>
-          {/* YouTube 플레이어 — 최대 2개, 각각 다른 대회/연도 */}
-          {videos.length > 0 ? (
+          {/* 🎥 대회 영상 (실제 커플 퍼포먼스) — 최대 2개 */}
+          {videos.length > 0 && (
             <div className="space-y-4">
+              <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans">
+                🎥 대회 영상 · Competition Performance
+              </div>
               {videos.map((v, i) => (
-                <div key={v.videoId} className="bg-white/5 rounded-xl overflow-hidden border border-tango-brass/10">
-                  <div className="px-4 py-2 border-b border-tango-brass/10 flex items-center justify-between">
+                <div key={v.videoId} className="bg-white/5 rounded-xl overflow-hidden border border-tango-brass/30">
+                  <div className="px-4 py-2 border-b border-tango-brass/20 flex items-center justify-between">
                     <div className="flex items-center gap-2">
                       <span className="text-tango-brass text-xs font-semibold">영상 {i + 1}</span>
                       <span className="text-gray-300 text-xs">{v.label}</span>
+                      {v.channel && (
+                        <span className="text-[10px] text-tango-cream/50">· {v.channel}</span>
+                      )}
                     </div>
                     {v.songOrder && (
                       <span className="text-xs bg-tango-brass/20 text-tango-brass px-2 py-0.5 rounded-full">
@@ -584,9 +617,54 @@ export function SongDetailPage() {
                 </div>
               ))}
             </div>
-          ) : (
-            <div className="bg-white/5 rounded-xl p-8 text-center border border-tango-brass/10">
-              <div className="text-gray-500 text-sm">이 곡의 대회 영상을 찾을 수 없습니다.</div>
+          )}
+
+          {/* 대회 영상 없음 안내 */}
+          {videos.length === 0 && (
+            <div className="bg-orange-500/5 border border-orange-500/20 rounded-xl p-5">
+              <div className="text-[10px] tracking-[0.3em] uppercase text-orange-400 font-sans mb-2">
+                ⚠ 대회 영상 미확보
+              </div>
+              <p className="text-sm text-tango-paper/80 font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                이 곡의 실제 커플 퍼포먼스 영상을 아직 찾지 못했습니다.
+                {musicRefs.length > 0 && ' 아래 음원 참고 영상으로 곡을 먼저 익히세요.'}
+              </p>
+            </div>
+          )}
+
+          {/* 🎵 음원 참고 — 춤 없는 플레이리스트/음원 모음 (명확히 분리) */}
+          {musicRefs.length > 0 && (
+            <div className="space-y-3">
+              <div className="text-[10px] tracking-[0.3em] uppercase text-tango-cream/60 font-sans">
+                🎵 음원 참고 · Music Reference (퍼포먼스 없음)
+              </div>
+              <div className="bg-white/3 border border-white/10 rounded-xl p-3 text-[11px] text-tango-cream/60 font-sans">
+                ⓘ 춤 영상이 아닌 <strong>음원·플레이리스트</strong>입니다. 대회 참고가 아닌 곡 학습용.
+              </div>
+              <div className="space-y-3">
+                {musicRefs.map((v, i) => (
+                  <details key={v.videoId} className="bg-white/3 rounded-xl border border-white/10 overflow-hidden">
+                    <summary className="px-4 py-3 cursor-pointer hover:bg-white/5 flex items-center justify-between text-sm text-tango-cream/70">
+                      <div className="flex items-center gap-2">
+                        <span className="text-tango-cream/40">🎵</span>
+                        <span>음원 {i + 1}</span>
+                        <span className="text-xs">· {v.label}</span>
+                        {v.channel && <span className="text-[10px] text-tango-cream/40">· {v.channel}</span>}
+                      </div>
+                      <span className="text-tango-cream/40 text-xs">▸ 펼쳐서 재생</span>
+                    </summary>
+                    <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                      <iframe
+                        className="absolute inset-0 w-full h-full"
+                        src={`https://www.youtube.com/embed/${v.videoId}`}
+                        title={`${song.title} - ${v.label} (music)`}
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      />
+                    </div>
+                  </details>
+                ))}
+              </div>
             </div>
           )}
 
