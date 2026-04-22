@@ -11457,6 +11457,12 @@
           "channel": "Jose Valverde",
           "title": "Final Mundial de Tango Pista 2025 - Ronda 5 (전체 영상 타임스탬프)",
           "start_sec": 5465
+        },
+        {
+          "video_id": "pkGFeQeNP3k",
+          "url": "https://www.youtube.com/watch?v=pkGFeQeNP3k",
+          "channel": "AiresDeMilonga",
+          "title": "No creerás este baile de la ronda 5 de los campeones Mundiales tango pista 2025 Aldana y Diego"
         }
       ],
       "rankings": [],
@@ -11826,6 +11832,31 @@
         "Dante Sanchez",
         "Facundo de la Cruz",
         "Jimena Hoeffner"
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2025-PISTA-Q08",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 8,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "HmKDYkX2SHI",
+          "url": "https://www.youtube.com/watch?v=HmKDYkX2SHI",
+          "channel": "AiresDeMilonga",
+          "title": "Ronda 8 Mundial de tango Clasificatoria pista 2025 08 23 Buenos Aires"
+        }
+      ],
+      "judges": [
+        "Maria Ines Bogado",
+        "Monica Matera",
+        "Ricardo Calvo Bonaventura",
+        "Carolina Giorgini",
+        "Pablo"
       ]
     }
   ]
