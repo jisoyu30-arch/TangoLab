@@ -1,0 +1,2794 @@
+{
+  "year": 2024,
+  "competition": "Mundial",
+  "category": "pista",
+  "stages": {
+    "semifinal": {
+      "stage": "semifinal",
+      "group": null,
+      "date": "2024-08-25",
+      "judges_count": 6,
+      "judges": [
+        "Olga Besio",
+        "Cristina Sosa",
+        "Javier Rodriguez",
+        "Ricardo Barrios",
+        "Adrian Veredice",
+        "Ines Muzzopappa"
+      ],
+      "couples": [
+        {
+          "pareja": 67,
+          "leader": "Dmitrii Liferov",
+          "follower": "Dana Son",
+          "country": "Russia",
+          "scores": [
+            8.85,
+            8.58,
+            8.9,
+            8.85,
+            8.51,
+            8.69
+          ],
+          "promedio": 8.73,
+          "rank": 1
+        },
+        {
+          "pareja": 466,
+          "leader": "Ariel Taritolay",
+          "follower": "Laura Casco Zorzón",
+          "country": "Argentina",
+          "scores": [
+            8.8,
+            8.72,
+            8.45,
+            8.9,
+            8.53,
+            8.72
+          ],
+          "promedio": 8.687,
+          "rank": 2
+        },
+        {
+          "pareja": 477,
+          "leader": "Diego Ortega",
+          "follower": "Aldana Silveyra",
+          "country": "Argentina",
+          "scores": [
+            8.7,
+            8.9,
+            9,
+            8.1,
+            8.62,
+            8.72
+          ],
+          "promedio": 8.673,
+          "rank": 3
+        },
+        {
+          "pareja": 585,
+          "leader": "Juan David Vargas",
+          "follower": "Ornella Simonetto",
+          "country": "Ornella Simonetto",
+          "scores": [
+            8.3,
+            8.89,
+            8.9,
+            8.2,
+            8.9,
+            8.61
+          ],
+          "promedio": 8.633,
+          "rank": 4
+        },
+        {
+          "pareja": 424,
+          "leader": "Lucas Gauto",
+          "follower": "Naima Gerasopoulou",
+          "country": "Argentina",
+          "scores": [
+            8.6,
+            8.61,
+            8.95,
+            8.15,
+            8.65,
+            8.52
+          ],
+          "promedio": 8.58,
+          "rank": 5
+        },
+        {
+          "pareja": 672,
+          "leader": "Lucio Agustin Galvan",
+          "follower": "Morena Marquez",
+          "country": "Argentina",
+          "scores": [
+            8.65,
+            8.65,
+            8.9,
+            8.1,
+            8.5,
+            8.65
+          ],
+          "promedio": 8.575,
+          "rank": 6
+        },
+        {
+          "pareja": 8,
+          "leader": "Erik Deslarmes",
+          "follower": "Nadia Aguilar",
+          "country": "Argentina",
+          "scores": [
+            8.55,
+            8.69,
+            8.9,
+            8.1,
+            8.52,
+            8.63
+          ],
+          "promedio": 8.565,
+          "rank": 7
+        },
+        {
+          "pareja": 281,
+          "leader": "Sebastián Fernandez",
+          "follower": "Mara Oviedo",
+          "country": "Argentina",
+          "scores": [
+            8.6,
+            8.34,
+            8.87,
+            8.4,
+            8.4,
+            8.75
+          ],
+          "promedio": 8.56,
+          "rank": 8
+        },
+        {
+          "pareja": 697,
+          "leader": "Ana Carolina Di Monaco",
+          "follower": "Simone Raucci",
+          "country": "Brasil",
+          "scores": [
+            8.7,
+            8.48,
+            8.85,
+            7.9,
+            8.43,
+            8.78
+          ],
+          "promedio": 8.523,
+          "rank": 9
+        },
+        {
+          "pareja": 431,
+          "leader": "Agustin Rojas",
+          "follower": "Victoria Olivella",
+          "country": "Argentina",
+          "scores": [
+            7.8,
+            8.52,
+            8.99,
+            8.4,
+            8.52,
+            8.83
+          ],
+          "promedio": 8.51,
+          "rank": 10
+        },
+        {
+          "pareja": 688,
+          "leader": "Valentina Massari",
+          "follower": "Leonardo Pankow",
+          "country": "Agentina",
+          "scores": [
+            8.5,
+            8.92,
+            8.85,
+            7.9,
+            8.6,
+            8.22
+          ],
+          "promedio": 8.498,
+          "rank": 11
+        },
+        {
+          "pareja": 256,
+          "leader": "Joaquin Besga",
+          "follower": "Katherine Laitón",
+          "country": "Argentina",
+          "scores": [
+            8.75,
+            8.85,
+            8.63,
+            8.5,
+            8.1,
+            8.13
+          ],
+          "promedio": 8.493,
+          "rank": 12
+        },
+        {
+          "pareja": 119,
+          "leader": "Ezequiel Núñez",
+          "follower": "Haruna Ashizawa",
+          "country": "Japon",
+          "scores": [
+            8.7,
+            8.62,
+            9,
+            8.15,
+            8.41,
+            8.07
+          ],
+          "promedio": 8.492,
+          "rank": 13
+        },
+        {
+          "pareja": 586,
+          "leader": "Cristian Rubén Zalazar",
+          "follower": "Carla Daniela Espinoza",
+          "country": "Argentina",
+          "scores": [
+            8.3,
+            8.72,
+            8.9,
+            8.3,
+            8.47,
+            8.25
+          ],
+          "promedio": 8.49,
+          "rank": 14
+        },
+        {
+          "pareja": 708,
+          "leader": "Naoko Tsutsumisaky",
+          "follower": "Cristian Lopez",
+          "country": "",
+          "scores": [
+            8.7,
+            8.68,
+            8.8,
+            8.25,
+            8.54,
+            7.97
+          ],
+          "promedio": 8.49,
+          "rank": 15
+        },
+        {
+          "pareja": 263,
+          "leader": "Emanuel Ledesma",
+          "follower": "Carolina Couto",
+          "country": "Argentina",
+          "scores": [
+            8.15,
+            8.7,
+            8.7,
+            8.15,
+            8.5,
+            8.51
+          ],
+          "promedio": 8.452,
+          "rank": 16
+        },
+        {
+          "pareja": 60,
+          "leader": "Ariel Manzanares",
+          "follower": "Aldana Belen Figueroa",
+          "country": "Argentina",
+          "scores": [
+            8.45,
+            8.66,
+            8.6,
+            7.95,
+            8.57,
+            8.47
+          ],
+          "promedio": 8.45,
+          "rank": 17
+        },
+        {
+          "pareja": 373,
+          "leader": "Miguel Angel Quintero",
+          "follower": "Yanel Pedraza",
+          "country": "Argentina",
+          "scores": [
+            8.7,
+            8.71,
+            8.9,
+            7.85,
+            8.5,
+            7.97
+          ],
+          "promedio": 8.438,
+          "rank": 18
+        },
+        {
+          "pareja": 205,
+          "leader": "Mariano Vazquez",
+          "follower": "Lulu Qin",
+          "country": "China",
+          "scores": [
+            8.6,
+            8.62,
+            8.9,
+            7.85,
+            8.47,
+            8.03
+          ],
+          "promedio": 8.412,
+          "rank": 19
+        },
+        {
+          "pareja": 563,
+          "leader": "Carlos Estigarribia",
+          "follower": "Marina Alcalde Sainz",
+          "country": "Argentina",
+          "scores": [
+            8,
+            8.6,
+            8.45,
+            8.5,
+            8.58,
+            8.32
+          ],
+          "promedio": 8.408,
+          "rank": 20
+        },
+        {
+          "pareja": 706,
+          "leader": "Seung-Jun Hong",
+          "follower": "Eunkyoung Jung",
+          "country": "",
+          "scores": [
+            8.3,
+            8.5,
+            8.8,
+            8,
+            8.47,
+            8.29
+          ],
+          "promedio": 8.393,
+          "rank": 21
+        },
+        {
+          "pareja": 452,
+          "leader": "Ezequiel Mendoza",
+          "follower": "Magdalena Myszka",
+          "country": "Argentina",
+          "scores": [
+            8.4,
+            8.39,
+            8.45,
+            7.95,
+            8.54,
+            8.61
+          ],
+          "promedio": 8.39,
+          "rank": 22
+        },
+        {
+          "pareja": 440,
+          "leader": "Alejandro Paul Lencina",
+          "follower": "María Victoria Ramírez Merlo",
+          "country": "Argentina",
+          "scores": [
+            8.35,
+            8.11,
+            8.99,
+            7.9,
+            8.45,
+            8.54
+          ],
+          "promedio": 8.39,
+          "rank": 23
+        },
+        {
+          "pareja": 265,
+          "leader": "Rodrigo Ivan Videla",
+          "follower": "Marina Teves",
+          "country": "Argentina",
+          "scores": [
+            8.6,
+            8.71,
+            8.45,
+            7.9,
+            8.5,
+            8.15
+          ],
+          "promedio": 8.385,
+          "rank": 24
+        },
+        {
+          "pareja": 541,
+          "leader": "Juliano Andrade",
+          "follower": "Paula Emerick",
+          "country": "Brazil",
+          "scores": [
+            8.7,
+            8.67,
+            8.75,
+            7.6,
+            8.2,
+            8.33
+          ],
+          "promedio": 8.375,
+          "rank": 25
+        },
+        {
+          "pareja": 568,
+          "leader": "Raul Pardo",
+          "follower": "Lucía Curín",
+          "country": "Argentina",
+          "scores": [
+            8.15,
+            8.59,
+            8.9,
+            8.15,
+            8.52,
+            7.93
+          ],
+          "promedio": 8.373,
+          "rank": 26
+        },
+        {
+          "pareja": 144,
+          "leader": "Alejandro Quaglia",
+          "follower": "Lucia Barrios",
+          "country": "Jap0n",
+          "scores": [
+            7.95,
+            8.59,
+            8.8,
+            8.35,
+            8.32,
+            8.21
+          ],
+          "promedio": 8.37,
+          "rank": 27
+        },
+        {
+          "pareja": 438,
+          "leader": "Leonardo Salvador Guerra",
+          "follower": "Noelia Romina Andino",
+          "country": "Argentina",
+          "scores": [
+            8.9,
+            7.95,
+            8.6,
+            8.6,
+            7.9,
+            8.25
+          ],
+          "promedio": 8.367,
+          "rank": 28
+        },
+        {
+          "pareja": 390,
+          "leader": "Stiwar Calle",
+          "follower": "Luisa Calle",
+          "country": "Colombia",
+          "scores": [
+            8.7,
+            8.48,
+            8.8,
+            8.05,
+            8.31,
+            7.82
+          ],
+          "promedio": 8.36,
+          "rank": 29
+        },
+        {
+          "pareja": 130,
+          "leader": "Maxi Copello",
+          "follower": "Karu Terenzio",
+          "country": "Argentina",
+          "scores": [
+            8.5,
+            8.55,
+            8.65,
+            7.75,
+            8.45,
+            8.26
+          ],
+          "promedio": 8.36,
+          "rank": 30
+        },
+        {
+          "pareja": 442,
+          "leader": "Alexander Sossa Benitez",
+          "follower": "Karina Daluda",
+          "country": "Colombia",
+          "scores": [
+            8.3,
+            8.48,
+            8.4,
+            8.1,
+            8.46,
+            8.41
+          ],
+          "promedio": 8.358,
+          "rank": 31
+        },
+        {
+          "pareja": 683,
+          "leader": "Maria Florencia Borgnia",
+          "follower": "Marcos Pereira",
+          "country": "Agentina",
+          "scores": [
+            8.2,
+            8.65,
+            8.25,
+            8,
+            8.51,
+            8.45
+          ],
+          "promedio": 8.343,
+          "rank": 32
+        },
+        {
+          "pareja": 385,
+          "leader": "Wonjun Seol",
+          "follower": "Hyemi Seo",
+          "country": "South Korea",
+          "scores": [
+            8.9,
+            8.59,
+            8.45,
+            8.05,
+            8.2,
+            7.87
+          ],
+          "promedio": 8.343,
+          "rank": 33
+        },
+        {
+          "pareja": 153,
+          "leader": "Juan Braida",
+          "follower": "Natasha Kaliszuk Lee",
+          "country": "Argentina",
+          "scores": [
+            8.2,
+            8.62,
+            8.77,
+            7.7,
+            8.51,
+            8.23
+          ],
+          "promedio": 8.338,
+          "rank": 34
+        },
+        {
+          "pareja": 377,
+          "leader": "Raúl Choque",
+          "follower": "Jorgelina Cohen",
+          "country": "Argentina",
+          "scores": [
+            7.85,
+            8.64,
+            8.65,
+            8.25,
+            8.47,
+            8.15
+          ],
+          "promedio": 8.335,
+          "rank": 35
+        },
+        {
+          "pareja": 693,
+          "leader": "Deysi Aguilera",
+          "follower": "Matias Goyeneche",
+          "country": "Agentina",
+          "scores": [
+            8.1,
+            8.48,
+            8.99,
+            8.25,
+            8.31,
+            7.85
+          ],
+          "promedio": 8.33,
+          "rank": 36
+        },
+        {
+          "pareja": 89,
+          "leader": "Leonel Herrera",
+          "follower": "Magali Tokian",
+          "country": "Argentina",
+          "scores": [
+            8,
+            8.58,
+            8.75,
+            8.05,
+            8.4,
+            8.16
+          ],
+          "promedio": 8.323,
+          "rank": 37
+        },
+        {
+          "pareja": 112,
+          "leader": "Dario Artunduaga",
+          "follower": "Anastasiia Rudiak",
+          "country": "Ukraine",
+          "scores": [
+            8.5,
+            8.58,
+            8.45,
+            7.75,
+            8.46,
+            8.2
+          ],
+          "promedio": 8.323,
+          "rank": 38
+        },
+        {
+          "pareja": 24,
+          "leader": "Ramiro Nicolas Almiron",
+          "follower": "Lali Torres",
+          "country": "Argentina",
+          "scores": [
+            8.05,
+            8.4,
+            8.8,
+            8.05,
+            8.54,
+            8.07
+          ],
+          "promedio": 8.318,
+          "rank": 39
+        },
+        {
+          "pareja": 253,
+          "leader": "Franco Lus",
+          "follower": "Bruna Lavaroni",
+          "country": "Italia",
+          "scores": [
+            8.65,
+            8.52,
+            8.9,
+            7.5,
+            8.2,
+            8.12
+          ],
+          "promedio": 8.315,
+          "rank": 40
+        },
+        {
+          "pareja": 446,
+          "leader": "Facundo Berrios Valdez",
+          "follower": "Simin Ogur",
+          "country": "Turkey",
+          "scores": [
+            8.2,
+            8.46,
+            8.85,
+            7.7,
+            8.28,
+            8.4
+          ],
+          "promedio": 8.315,
+          "rank": 41
+        },
+        {
+          "pareja": 225,
+          "leader": "Luciano Paulino",
+          "follower": "Dana Zampieri",
+          "country": "Argentina",
+          "scores": [
+            8.15,
+            8.61,
+            8.65,
+            7.8,
+            8.55,
+            8.12
+          ],
+          "promedio": 8.313,
+          "rank": 42
+        },
+        {
+          "pareja": 359,
+          "leader": "Luis Alberto Amaya",
+          "follower": "María Florencia Tellechea",
+          "country": "Argentina",
+          "scores": [
+            8.15,
+            8.54,
+            8.9,
+            7.8,
+            8.15,
+            8.31
+          ],
+          "promedio": 8.308,
+          "rank": 43
+        },
+        {
+          "pareja": 371,
+          "leader": "Edwin Enrique Espinosa Rodriguez",
+          "follower": "Alexa Yepes Arboleda",
+          "country": "Colombia",
+          "scores": [
+            7.95,
+            8.55,
+            8.3,
+            8.25,
+            8.32,
+            8.47
+          ],
+          "promedio": 8.307,
+          "rank": 44
+        },
+        {
+          "pareja": 92,
+          "leader": "Andrés Rojas",
+          "follower": "Mayela Aponte",
+          "country": "Colombia",
+          "scores": [
+            7.8,
+            8.62,
+            8.8,
+            7.7,
+            8.31,
+            8.6
+          ],
+          "promedio": 8.305,
+          "rank": 45
+        },
+        {
+          "pareja": 355,
+          "leader": "Federico Carrizo",
+          "follower": "Laura Rojas Larrea",
+          "country": "Argentina",
+          "scores": [
+            8.75,
+            8.22,
+            8.65,
+            7.7,
+            8.08,
+            8.42
+          ],
+          "promedio": 8.303,
+          "rank": 46
+        },
+        {
+          "pareja": 692,
+          "leader": "Magdalena del Milagro Yrahola",
+          "follower": "Hector Abel Colque",
+          "country": "Agentina",
+          "scores": [
+            7.8,
+            8.64,
+            8.9,
+            7.7,
+            8.51,
+            8.25
+          ],
+          "promedio": 8.3,
+          "rank": 47
+        },
+        {
+          "pareja": 633,
+          "leader": "Gustavo Chaile",
+          "follower": "Micaela Garcia",
+          "country": "Argentina",
+          "scores": [
+            7.7,
+            8.78,
+            8.75,
+            8.1,
+            8.24,
+            8.23
+          ],
+          "promedio": 8.3,
+          "rank": 48
+        },
+        {
+          "pareja": 323,
+          "leader": "Gustavo Fabián Ippolito",
+          "follower": "Rosana Lujan Porres",
+          "country": "Argentina",
+          "scores": [
+            8.2,
+            8.43,
+            8.85,
+            7.9,
+            8.36,
+            7.99
+          ],
+          "promedio": 8.288,
+          "rank": 49
+        },
+        {
+          "pareja": 214,
+          "leader": "Cristian Correa",
+          "follower": "Miriam Copello",
+          "country": "Argentina",
+          "scores": [
+            8.5,
+            8.62,
+            8.1,
+            8,
+            8.25,
+            8.23
+          ],
+          "promedio": 8.283,
+          "rank": 50
+        },
+        {
+          "pareja": 360,
+          "leader": "Marcelo Torres",
+          "follower": "Francisca Alarcon Irrazabal",
+          "country": "Argentina",
+          "scores": [
+            8.2,
+            8.6,
+            8.2,
+            7.75,
+            8.61,
+            8.32
+          ],
+          "promedio": 8.28,
+          "rank": 51
+        },
+        {
+          "pareja": 351,
+          "leader": "Valentin Bobkov",
+          "follower": "Ekaterina Tsybrova",
+          "country": "Russia",
+          "scores": [
+            8.2,
+            8.5,
+            8.15,
+            8,
+            8.45,
+            8.37
+          ],
+          "promedio": 8.278,
+          "rank": 52
+        },
+        {
+          "pareja": 494,
+          "leader": "Edison Chaves",
+          "follower": "Tatiana López",
+          "country": "Colombia",
+          "scores": [
+            7.9,
+            8.84,
+            8.87,
+            7.95,
+            7.95,
+            8.15
+          ],
+          "promedio": 8.277,
+          "rank": 53
+        },
+        {
+          "pareja": 397,
+          "leader": "Federico Borquez",
+          "follower": "Agostina Cala",
+          "country": "Argentina",
+          "scores": [
+            8.2,
+            8.49,
+            8.75,
+            8,
+            8.35,
+            7.87
+          ],
+          "promedio": 8.277,
+          "rank": 54
+        },
+        {
+          "pareja": 383,
+          "leader": "Juan Cupini",
+          "follower": "Erica Rossi",
+          "country": "Argentina",
+          "scores": [
+            8.3,
+            8.54,
+            8.6,
+            7.6,
+            8.33,
+            8.27
+          ],
+          "promedio": 8.273,
+          "rank": 55
+        },
+        {
+          "pareja": 599,
+          "leader": "Juan Seliman",
+          "follower": "Natasha Arapé",
+          "country": "Venezuela",
+          "scores": [
+            8.15,
+            8.43,
+            8.7,
+            8,
+            8.38,
+            7.93
+          ],
+          "promedio": 8.265,
+          "rank": 56
+        },
+        {
+          "pareja": 145,
+          "leader": "Gennysam Alcantara",
+          "follower": "Li Li Tan",
+          "country": "Singapore",
+          "scores": [
+            7.4,
+            8.58,
+            8.7,
+            8.35,
+            8.43,
+            8.13
+          ],
+          "promedio": 8.265,
+          "rank": 57
+        },
+        {
+          "pareja": 244,
+          "leader": "Joel De La O",
+          "follower": "Verónica Peinado",
+          "country": "Mexico",
+          "scores": [
+            8,
+            8.13,
+            8.75,
+            8.3,
+            8.32,
+            8.09
+          ],
+          "promedio": 8.265,
+          "rank": 58
+        },
+        {
+          "pareja": 608,
+          "leader": "Konstantin Moshinskiy",
+          "follower": "Analía Alfaro",
+          "country": "Russia",
+          "scores": [
+            8.6,
+            8.62,
+            8.05,
+            7.8,
+            8.52,
+            7.98
+          ],
+          "promedio": 8.262,
+          "rank": 59
+        },
+        {
+          "pareja": 694,
+          "leader": "Mavi Rotili",
+          "follower": "Matias Gutierrez",
+          "country": "Agentina",
+          "scores": [
+            7.8,
+            8.38,
+            8.45,
+            8.3,
+            8.23,
+            8.41
+          ],
+          "promedio": 8.262,
+          "rank": 60
+        },
+        {
+          "pareja": 208,
+          "leader": "Juan Fernando Cabral",
+          "follower": "Laura Castiñeiras",
+          "country": "Argentina",
+          "scores": [
+            8,
+            8.58,
+            8.4,
+            7.8,
+            8.29,
+            8.48
+          ],
+          "promedio": 8.258,
+          "rank": 61
+        },
+        {
+          "pareja": 681,
+          "leader": "Noelia Rocio Soldera",
+          "follower": "Damian Ignacio Eselevsky",
+          "country": "Agentina",
+          "scores": [
+            8,
+            8.51,
+            8.83,
+            7.85,
+            8.38,
+            7.98
+          ],
+          "promedio": 8.258,
+          "rank": 62
+        },
+        {
+          "pareja": 102,
+          "leader": "Ricardo Ariel Albornoz",
+          "follower": "Daniela Elizabeth Inglese",
+          "country": "Argentina",
+          "scores": [
+            8.45,
+            7.89,
+            8.65,
+            7.75,
+            8.32,
+            8.47
+          ],
+          "promedio": 8.255,
+          "rank": 63
+        },
+        {
+          "pareja": 566,
+          "leader": "Lucas Carrizo",
+          "follower": "Paula Tejeda",
+          "country": "Argentina",
+          "scores": [
+            7,
+            8.74,
+            8.75,
+            7.95,
+            8.66,
+            8.43
+          ],
+          "promedio": 8.255,
+          "rank": 64
+        },
+        {
+          "pareja": 284,
+          "leader": "Matías Cabezuelo",
+          "follower": "Nicole Mazza",
+          "country": "Argentina",
+          "scores": [
+            8.1,
+            8.1,
+            8.9,
+            8.15,
+            8.32,
+            7.95
+          ],
+          "promedio": 8.253,
+          "rank": 65
+        },
+        {
+          "pareja": 685,
+          "leader": "Victoria Pesci",
+          "follower": "Lucas Martin",
+          "country": "Agentina",
+          "scores": [
+            7.1,
+            8.59,
+            9,
+            7.9,
+            8.48,
+            8.44
+          ],
+          "promedio": 8.252,
+          "rank": 66
+        },
+        {
+          "pareja": 116,
+          "leader": "Emilio Banco",
+          "follower": "Alejandra Jorgelina Herrera",
+          "country": "Argentina",
+          "scores": [
+            8.3,
+            8.59,
+            8.3,
+            7.8,
+            8.48,
+            7.98
+          ],
+          "promedio": 8.242,
+          "rank": 67
+        },
+        {
+          "pareja": 77,
+          "leader": "Adrián Luppi",
+          "follower": "Ana Escobar",
+          "country": "Argentina",
+          "scores": [
+            7.8,
+            8.52,
+            8.95,
+            7.95,
+            8.25,
+            7.97
+          ],
+          "promedio": 8.24,
+          "rank": 68
+        },
+        {
+          "pareja": 151,
+          "leader": "Aldo Romero",
+          "follower": "Cynthia Giannini",
+          "country": "Argentina",
+          "scores": [
+            8.2,
+            8.4,
+            8.3,
+            7.95,
+            8.35,
+            8.23
+          ],
+          "promedio": 8.238,
+          "rank": 69
+        },
+        {
+          "pareja": 696,
+          "leader": "Camila Rocha",
+          "follower": "Kelvin Cal",
+          "country": "Uruguay",
+          "scores": [
+            8.1,
+            8.49,
+            8.1,
+            8.2,
+            8.54,
+            7.98
+          ],
+          "promedio": 8.235,
+          "rank": 70
+        },
+        {
+          "pareja": 327,
+          "leader": "Tania Gutierrez",
+          "follower": "Sebastian Avendaño",
+          "country": "Alemania",
+          "scores": [
+            8.35,
+            8.52,
+            7.9,
+            8.25,
+            8.46,
+            7.92
+          ],
+          "promedio": 8.233,
+          "rank": 71
+        },
+        {
+          "pareja": 59,
+          "leader": "Mario Sergio",
+          "follower": "Vanessa Jardim",
+          "country": "Brazil",
+          "scores": [
+            8.2,
+            8.4,
+            8.57,
+            7.7,
+            8.22,
+            8.3
+          ],
+          "promedio": 8.232,
+          "rank": 72
+        },
+        {
+          "pareja": 481,
+          "leader": "Martin Cayesse",
+          "follower": "Mauge Corna",
+          "country": "Argentina",
+          "scores": [
+            8,
+            8.11,
+            8.55,
+            8.2,
+            8.27,
+            8.24
+          ],
+          "promedio": 8.228,
+          "rank": 73
+        },
+        {
+          "pareja": 12,
+          "leader": "Dmitrii Soldatov",
+          "follower": "Alina Sukretnaia",
+          "country": "Russia",
+          "scores": [
+            8.3,
+            8.12,
+            8.3,
+            8.1,
+            8.32,
+            8.22
+          ],
+          "promedio": 8.227,
+          "rank": 74
+        },
+        {
+          "pareja": 128,
+          "leader": "Matteo Antonietti",
+          "follower": "Ravena Abdyli",
+          "country": "Italy",
+          "scores": [
+            8.6,
+            8.14,
+            8.45,
+            7.3,
+            8.42,
+            8.42
+          ],
+          "promedio": 8.222,
+          "rank": 75
+        },
+        {
+          "pareja": 127,
+          "leader": "Leandro Capparelli",
+          "follower": "Jeannette Erazú",
+          "country": "Argentina",
+          "scores": [
+            7,
+            8.63,
+            8.75,
+            8.15,
+            8.55,
+            8.23
+          ],
+          "promedio": 8.218,
+          "rank": 76
+        },
+        {
+          "pareja": 331,
+          "leader": "Anahí Carballo",
+          "follower": "Natalia Fures",
+          "country": "Argentina",
+          "scores": [
+            7.9,
+            8.53,
+            8.6,
+            7.85,
+            8.07,
+            8.32
+          ],
+          "promedio": 8.212,
+          "rank": 77
+        },
+        {
+          "pareja": 239,
+          "leader": "Alejandro Segovia",
+          "follower": "Ana Isabel Lopera",
+          "country": "Argentina",
+          "scores": [
+            8.6,
+            8.51,
+            8.3,
+            7.7,
+            8.29,
+            7.85
+          ],
+          "promedio": 8.208,
+          "rank": 78
+        },
+        {
+          "pareja": 86,
+          "leader": "Evgeny Bykovskiy",
+          "follower": "Nelli Ganzhela",
+          "country": "Russia",
+          "scores": [
+            8.1,
+            8.23,
+            8.55,
+            7.95,
+            8.49,
+            7.93
+          ],
+          "promedio": 8.208,
+          "rank": 79
+        },
+        {
+          "pareja": 588,
+          "leader": "Emile Gayoso",
+          "follower": "Ekaterina Malko",
+          "country": "France",
+          "scores": [
+            8.1,
+            8.31,
+            8.48,
+            7.9,
+            8.57,
+            7.88
+          ],
+          "promedio": 8.207,
+          "rank": 80
+        },
+        {
+          "pareja": 297,
+          "leader": "Diego Churquina",
+          "follower": "Paula Pandol",
+          "country": "Argentina",
+          "scores": [
+            7.4,
+            8.57,
+            8.6,
+            8.25,
+            8.44,
+            7.92
+          ],
+          "promedio": 8.197,
+          "rank": 81
+        },
+        {
+          "pareja": 236,
+          "leader": "Marcelo Hocquart",
+          "follower": "Fernanda Valenzuela",
+          "country": "Argentina",
+          "scores": [
+            8.2,
+            8.23,
+            8.25,
+            7.75,
+            8.41,
+            8.33
+          ],
+          "promedio": 8.195,
+          "rank": 82
+        },
+        {
+          "pareja": 181,
+          "leader": "Alexander Moncada Rojas",
+          "follower": "Martina Waldman",
+          "country": "Argentina",
+          "scores": [
+            8.5,
+            8.7,
+            8.25,
+            7.9,
+            8.55,
+            7.2
+          ],
+          "promedio": 8.183,
+          "rank": 83
+        },
+        {
+          "pareja": 172,
+          "leader": "Pedro Ochoa",
+          "follower": "Lola Ruiz",
+          "country": "Argentina",
+          "scores": [
+            8.5,
+            8.61,
+            8.5,
+            7.2,
+            8.49,
+            7.78
+          ],
+          "promedio": 8.18,
+          "rank": 84
+        },
+        {
+          "pareja": 487,
+          "leader": "Juan Pablo Valdebenito",
+          "follower": "Rosario Belén Gimenez",
+          "country": "Argentina",
+          "scores": [
+            7.2,
+            8.58,
+            8.6,
+            8.05,
+            8.12,
+            8.48
+          ],
+          "promedio": 8.172,
+          "rank": 85
+        },
+        {
+          "pareja": 11,
+          "leader": "Carlos Alberto Lafuente",
+          "follower": "Maria Ofelia Prado",
+          "country": "Argentina",
+          "scores": [
+            8.5,
+            8.42,
+            8.6,
+            7.4,
+            8.46,
+            7.63
+          ],
+          "promedio": 8.168,
+          "rank": 86
+        },
+        {
+          "pareja": 562,
+          "leader": "Jakub Grzybek",
+          "follower": "Patrycja Cisowska-Grzybek",
+          "country": "Poland",
+          "scores": [
+            8.3,
+            8.39,
+            8.1,
+            8,
+            8.23,
+            7.98
+          ],
+          "promedio": 8.167,
+          "rank": 87
+        },
+        {
+          "pareja": 707,
+          "leader": "Jia Han",
+          "follower": "Bumhee Lee",
+          "country": "China",
+          "scores": [
+            7.5,
+            8.58,
+            8.3,
+            8.05,
+            8.49,
+            8.07
+          ],
+          "promedio": 8.165,
+          "rank": 88
+        },
+        {
+          "pareja": 594,
+          "leader": "Hernan Camilo Bernal Varela",
+          "follower": "Mayi Yulie Yepes Arboleda",
+          "country": "Colombia",
+          "scores": [
+            7,
+            8.61,
+            8.85,
+            7.7,
+            8.49,
+            8.31
+          ],
+          "promedio": 8.16,
+          "rank": 89
+        },
+        {
+          "pareja": 581,
+          "leader": "Nikita Trofimov",
+          "follower": "Olga Beituganova",
+          "country": "Russia",
+          "scores": [
+            8.6,
+            8.21,
+            7.95,
+            7.95,
+            8.36,
+            7.88
+          ],
+          "promedio": 8.158,
+          "rank": 90
+        },
+        {
+          "pareja": 56,
+          "leader": "Miguel García",
+          "follower": "Sandra Martínez",
+          "country": "Mexico",
+          "scores": [
+            8.7,
+            8.34,
+            7.55,
+            7.9,
+            8.48,
+            7.97
+          ],
+          "promedio": 8.157,
+          "rank": 91
+        },
+        {
+          "pareja": 529,
+          "leader": "Csongor Kicsi",
+          "follower": "Laísa Souza",
+          "country": "Argentina",
+          "scores": [
+            8,
+            8.52,
+            7.85,
+            7.6,
+            8.42,
+            8.54
+          ],
+          "promedio": 8.155,
+          "rank": 92
+        },
+        {
+          "pareja": 526,
+          "leader": "Jonathan Cañete",
+          "follower": "Magdalena Maria",
+          "country": "Argentina",
+          "scores": [
+            7.9,
+            8.58,
+            8.35,
+            7.65,
+            8.36,
+            8.09
+          ],
+          "promedio": 8.155,
+          "rank": 93
+        },
+        {
+          "pareja": 687,
+          "leader": "Micaela Diaz",
+          "follower": "Anibal Millanao",
+          "country": "Agentina",
+          "scores": [
+            8.3,
+            8.29,
+            7.8,
+            7.8,
+            8.37,
+            8.35
+          ],
+          "promedio": 8.152,
+          "rank": 94
+        },
+        {
+          "pareja": 95,
+          "leader": "Gonzalo Angeles",
+          "follower": "Nathalia Peña Muñoz",
+          "country": "Argentina",
+          "scores": [
+            7.9,
+            8.61,
+            7.85,
+            7.9,
+            8.48,
+            8.17
+          ],
+          "promedio": 8.152,
+          "rank": 95
+        },
+        {
+          "pareja": 413,
+          "leader": "Grigorios Adamidis",
+          "follower": "Sofia Chatzipavlou",
+          "country": "Cyprus",
+          "scores": [
+            7.3,
+            8.49,
+            8.05,
+            8,
+            8.43,
+            8.63
+          ],
+          "promedio": 8.15,
+          "rank": 96
+        },
+        {
+          "pareja": 302,
+          "leader": "Diego Converti",
+          "follower": "Graciela Gamba",
+          "country": "Argentina",
+          "scores": [
+            8.7,
+            8.54,
+            8.1,
+            7.55,
+            8.39,
+            7.62
+          ],
+          "promedio": 8.15,
+          "rank": 97
+        },
+        {
+          "pareja": 78,
+          "leader": "Cristian Mosler",
+          "follower": "Ornella Lowenberg",
+          "country": "Argentina",
+          "scores": [
+            8.5,
+            8.57,
+            7.8,
+            7.65,
+            8.48,
+            7.89
+          ],
+          "promedio": 8.148,
+          "rank": 98
+        },
+        {
+          "pareja": 470,
+          "leader": "Jeremias Fors",
+          "follower": "Veronica Vazquez",
+          "country": "Argentina",
+          "scores": [
+            7.9,
+            8.64,
+            7.85,
+            7.75,
+            8.42,
+            8.31
+          ],
+          "promedio": 8.145,
+          "rank": 99
+        },
+        {
+          "pareja": 394,
+          "leader": "Julio Saavedra",
+          "follower": "Jimena Martinez Berruete",
+          "country": "Argentina",
+          "scores": [
+            8,
+            8.1,
+            8.5,
+            7.7,
+            8.14,
+            8.42
+          ],
+          "promedio": 8.143,
+          "rank": 100
+        },
+        {
+          "pareja": 539,
+          "leader": "Mariela Josebachuili",
+          "follower": "Noelia Frias",
+          "country": "Argentina",
+          "scores": [
+            8.85,
+            8.15,
+            7.9,
+            8,
+            7.95,
+            7.85
+          ],
+          "promedio": 8.117,
+          "rank": 101
+        },
+        {
+          "pareja": 250,
+          "leader": "Vladislav Kurilko",
+          "follower": "Viktoriia Tsivinskaia",
+          "country": "Kazakhstan",
+          "scores": [
+            8.4,
+            8.18,
+            7.9,
+            7.6,
+            8.26,
+            8.35
+          ],
+          "promedio": 8.115,
+          "rank": 102
+        },
+        {
+          "pareja": 154,
+          "leader": "Facundo Barrionuevo",
+          "follower": "Agustina Juanbelz",
+          "country": "Argentina",
+          "scores": [
+            7.2,
+            8.25,
+            8.55,
+            8.45,
+            8.24,
+            7.98
+          ],
+          "promedio": 8.112,
+          "rank": 103
+        },
+        {
+          "pareja": 328,
+          "leader": "Diego Pichimil",
+          "follower": "Marina Millalen",
+          "country": "Argentina",
+          "scores": [
+            7.75,
+            8.14,
+            8.85,
+            7.6,
+            7.81,
+            8.51
+          ],
+          "promedio": 8.11,
+          "rank": 104
+        },
+        {
+          "pareja": 596,
+          "leader": "Vicente Albarengo",
+          "follower": "Jessica Estigarribia",
+          "country": "Argentina",
+          "scores": [
+            8.1,
+            8.54,
+            8.1,
+            7.65,
+            8.45,
+            7.82
+          ],
+          "promedio": 8.11,
+          "rank": 105
+        },
+        {
+          "pareja": 618,
+          "leader": "Pedro Zamin",
+          "follower": "Florencia Mendez",
+          "country": "Argentina",
+          "scores": [
+            8,
+            8.12,
+            8.35,
+            7.7,
+            8.49,
+            7.99
+          ],
+          "promedio": 8.108,
+          "rank": 106
+        },
+        {
+          "pareja": 40,
+          "leader": "Luis Dirassar",
+          "follower": "Patricia Vazquez",
+          "country": "Argentina",
+          "scores": [
+            8.7,
+            7.89,
+            8.3,
+            7.8,
+            7.88,
+            8.05
+          ],
+          "promedio": 8.103,
+          "rank": 107
+        },
+        {
+          "pareja": 665,
+          "leader": "Stanislav Fursov",
+          "follower": "Ekaterina Simonova",
+          "country": "Russia",
+          "scores": [
+            8.5,
+            8.66,
+            7.8,
+            7.9,
+            8.3,
+            7.45
+          ],
+          "promedio": 8.102,
+          "rank": 108
+        },
+        {
+          "pareja": 484,
+          "leader": "Jorge Lopez",
+          "follower": "Sandra Naccache",
+          "country": "Argentina",
+          "scores": [
+            7,
+            8.57,
+            8.3,
+            7.8,
+            8.4,
+            8.53
+          ],
+          "promedio": 8.1,
+          "rank": 109
+        },
+        {
+          "pareja": 718,
+          "leader": "Cristian Quevedo",
+          "follower": "Mariel Quintana Grasso",
+          "country": "Argentina",
+          "scores": [
+            8.75,
+            7.86,
+            8.45,
+            7.65,
+            7.89,
+            7.92
+          ],
+          "promedio": 8.087,
+          "rank": 110
+        },
+        {
+          "pareja": 219,
+          "leader": "Esteban Adrian De Gregorio",
+          "follower": "Angela Romina Cides",
+          "country": "Argentina",
+          "scores": [
+            8.55,
+            8.12,
+            8.5,
+            7.4,
+            7.82,
+            8.12
+          ],
+          "promedio": 8.085,
+          "rank": 111
+        },
+        {
+          "pareja": 524,
+          "leader": "Arturo Zanetti",
+          "follower": "Anel Marrón",
+          "country": "Mexico",
+          "scores": [
+            8.4,
+            8.12,
+            8.15,
+            7.85,
+            8.19,
+            7.8
+          ],
+          "promedio": 8.085,
+          "rank": 112
+        },
+        {
+          "pareja": 538,
+          "leader": "Artem Dovbush",
+          "follower": "Daria Pechatnikova",
+          "country": "Russia",
+          "scores": [
+            8.55,
+            8.1,
+            7.95,
+            7.9,
+            8.49,
+            7.47
+          ],
+          "promedio": 8.077,
+          "rank": 113
+        },
+        {
+          "pareja": 103,
+          "leader": "Sergio Saucet",
+          "follower": "Veronica Carina Pascual",
+          "country": "Argentina",
+          "scores": [
+            7,
+            8.53,
+            8.65,
+            8.05,
+            8.19,
+            8.03
+          ],
+          "promedio": 8.075,
+          "rank": 114
+        },
+        {
+          "pareja": 501,
+          "leader": "Cristian Correa",
+          "follower": "Amanda Marques",
+          "country": "Argentina",
+          "scores": [
+            8.3,
+            8.29,
+            8.1,
+            7.5,
+            8.3,
+            7.93
+          ],
+          "promedio": 8.07,
+          "rank": 115
+        },
+        {
+          "pareja": 404,
+          "leader": "Emmanuel David Avendaño",
+          "follower": "Marina Belén Machado Riquelme",
+          "country": "Argentina",
+          "scores": [
+            8.1,
+            8.23,
+            7.95,
+            7.75,
+            8.51,
+            7.86
+          ],
+          "promedio": 8.067,
+          "rank": 116
+        },
+        {
+          "pareja": 702,
+          "leader": "Paulina Cazabon",
+          "follower": "Camilo Exequiel Rubilar Vallejos",
+          "country": "",
+          "scores": [
+            7,
+            8.43,
+            8.45,
+            7.95,
+            8.3,
+            8.27
+          ],
+          "promedio": 8.067,
+          "rank": 117
+        },
+        {
+          "pareja": 192,
+          "leader": "Daniel Octavo",
+          "follower": "Marianna Osorio",
+          "country": "Colombia",
+          "scores": [
+            7.9,
+            8.21,
+            7.8,
+            7.85,
+            8.54,
+            7.97
+          ],
+          "promedio": 8.045,
+          "rank": 118
+        },
+        {
+          "pareja": 264,
+          "leader": "Alberto Re",
+          "follower": "María Susana Eguaburo",
+          "country": "Argentina",
+          "scores": [
+            8,
+            8.43,
+            8.1,
+            7.5,
+            8.2,
+            8.03
+          ],
+          "promedio": 8.043,
+          "rank": 119
+        },
+        {
+          "pareja": 132,
+          "leader": "Gabriel Esteban Salvi",
+          "follower": "Carolina Leonardelli",
+          "country": "Argentina",
+          "scores": [
+            7.7,
+            8.37,
+            7.95,
+            7.8,
+            8.47,
+            7.97
+          ],
+          "promedio": 8.043,
+          "rank": 120
+        },
+        {
+          "pareja": 597,
+          "leader": "Leonardo Sarazola",
+          "follower": "Jennifer Orjuela",
+          "country": "Argentina",
+          "scores": [
+            7.8,
+            8.24,
+            8.4,
+            7.6,
+            8.31,
+            7.89
+          ],
+          "promedio": 8.04,
+          "rank": 121
+        },
+        {
+          "pareja": 704,
+          "leader": "Simeng Wu",
+          "follower": "Jinzheng Ma",
+          "country": "",
+          "scores": [
+            8.7,
+            8.11,
+            7.45,
+            7.7,
+            8.28,
+            7.99
+          ],
+          "promedio": 8.038,
+          "rank": 122
+        },
+        {
+          "pareja": 671,
+          "leader": "Andrea Vighi",
+          "follower": "Chiara Benati",
+          "country": "Italy",
+          "scores": [
+            7.2,
+            8.58,
+            7.85,
+            7.75,
+            8.51,
+            8.31
+          ],
+          "promedio": 8.033,
+          "rank": 123
+        },
+        {
+          "pareja": 63,
+          "leader": "Rommel Oramas",
+          "follower": "Utha Callen",
+          "country": "Ecuador",
+          "scores": [
+            8,
+            8.12,
+            8.1,
+            7.85,
+            8.26,
+            7.87
+          ],
+          "promedio": 8.033,
+          "rank": 124
+        },
+        {
+          "pareja": 678,
+          "leader": "Marcela Patricia Jara",
+          "follower": "Luis Mario Saihueque",
+          "country": "Argentina",
+          "scores": [
+            8.4,
+            8.41,
+            8.5,
+            7.7,
+            7.87,
+            7.27
+          ],
+          "promedio": 8.025,
+          "rank": 125
+        },
+        {
+          "pareja": 3,
+          "leader": "Dario Cieri",
+          "follower": "Rocio De La Torre",
+          "country": "Argentina",
+          "scores": [
+            7,
+            8.59,
+            8.5,
+            7.65,
+            8.49,
+            7.92
+          ],
+          "promedio": 8.025,
+          "rank": 126
+        },
+        {
+          "pareja": 15,
+          "leader": "Julio Azorin",
+          "follower": "Belén Valdez",
+          "country": "Argentina",
+          "scores": [
+            8.5,
+            7.68,
+            8.3,
+            7.6,
+            8.36,
+            7.68
+          ],
+          "promedio": 8.02,
+          "rank": 127
+        },
+        {
+          "pareja": 342,
+          "leader": "Kevin Dos Santos",
+          "follower": "Miriam Gutierrez",
+          "country": "Argentina",
+          "scores": [
+            7,
+            8.29,
+            8.6,
+            7.85,
+            8.36,
+            7.98
+          ],
+          "promedio": 8.013,
+          "rank": 128
+        },
+        {
+          "pareja": 83,
+          "leader": "Pablo Martínez",
+          "follower": "Barbara Cecilia Benítez",
+          "country": "Argentina",
+          "scores": [
+            7.75,
+            8.39,
+            7.8,
+            7.8,
+            8.46,
+            7.87
+          ],
+          "promedio": 8.012,
+          "rank": 129
+        },
+        {
+          "pareja": 111,
+          "leader": "Oscar Buroz",
+          "follower": "Mercedes Allerbon",
+          "country": "Peru",
+          "scores": [
+            7.7,
+            7.98,
+            7.9,
+            7.7,
+            8.49,
+            8.3
+          ],
+          "promedio": 8.012,
+          "rank": 130
+        },
+        {
+          "pareja": 469,
+          "leader": "Gerardo Lecich",
+          "follower": "Silvana Meneses",
+          "country": "Argentina",
+          "scores": [
+            8.2,
+            8.22,
+            7.7,
+            7.7,
+            8.33,
+            7.91
+          ],
+          "promedio": 8.01,
+          "rank": 131
+        },
+        {
+          "pareja": 160,
+          "leader": "Daniel Elio Avila",
+          "follower": "Andrea Guassardo",
+          "country": "Argentina",
+          "scores": [
+            8,
+            7.9,
+            8.5,
+            7.8,
+            8.22,
+            7.63
+          ],
+          "promedio": 8.008,
+          "rank": 132
+        },
+        {
+          "pareja": 343,
+          "leader": "Daniel Peralta",
+          "follower": "Meiling Wei",
+          "country": "Argentina",
+          "scores": [
+            8.8,
+            8.21,
+            8.1,
+            7.8,
+            8.13,
+            6.95
+          ],
+          "promedio": 7.998,
+          "rank": 133
+        },
+        {
+          "pareja": 57,
+          "leader": "Luciano Capparelli",
+          "follower": "Rocio De Los Santos",
+          "country": "Argentina",
+          "scores": [
+            7,
+            8.68,
+            8.7,
+            7.8,
+            8.47,
+            7.32
+          ],
+          "promedio": 7.995,
+          "rank": 134
+        },
+        {
+          "pareja": 660,
+          "leader": "Facundo Arnedo",
+          "follower": "Ana Barros",
+          "country": "Argentina",
+          "scores": [
+            7.1,
+            8.3,
+            8.7,
+            7.5,
+            7.98,
+            8.32
+          ],
+          "promedio": 7.983,
+          "rank": 135
+        },
+        {
+          "pareja": 257,
+          "leader": "Alejandro Berón",
+          "follower": "Kelly Lettieri",
+          "country": "Argentina",
+          "scores": [
+            7.7,
+            8.49,
+            7.45,
+            7.9,
+            7.89,
+            8.44
+          ],
+          "promedio": 7.978,
+          "rank": 136
+        },
+        {
+          "pareja": 97,
+          "leader": "Hernán Ariel Rodriguez",
+          "follower": "Maria Florencia Labiano",
+          "country": "Argentina",
+          "scores": [
+            7,
+            8.59,
+            8.75,
+            7.4,
+            8.02,
+            8.06
+          ],
+          "promedio": 7.97,
+          "rank": 137
+        },
+        {
+          "pareja": 674,
+          "leader": "Ana Luisa Difrancisco",
+          "follower": "Alfredo Ricardo Encina",
+          "country": "Argentina",
+          "scores": [
+            8,
+            8.4,
+            7.9,
+            7.5,
+            7.71,
+            8.25
+          ],
+          "promedio": 7.96,
+          "rank": 138
+        },
+        {
+          "pareja": 341,
+          "leader": "John Fredis Rendón Osorio",
+          "follower": "Diana Ismary González López",
+          "country": "Colombia",
+          "scores": [
+            7.85,
+            7.9,
+            7.9,
+            7.7,
+            8.22,
+            8.11
+          ],
+          "promedio": 7.947,
+          "rank": 139
+        },
+        {
+          "pareja": 292,
+          "leader": "Matias Ivan Persico",
+          "follower": "valentina ramirez",
+          "country": "Argentina",
+          "scores": [
+            7.9,
+            7.92,
+            8.25,
+            7.6,
+            8.17,
+            7.82
+          ],
+          "promedio": 7.943,
+          "rank": 140
+        },
+        {
+          "pareja": 444,
+          "leader": "Javier Oscar Jofre",
+          "follower": "Paola Susana Valdivia",
+          "country": "Argentina",
+          "scores": [
+            8.1,
+            8.35,
+            7.35,
+            7.85,
+            8.34,
+            7.67
+          ],
+          "promedio": 7.943,
+          "rank": 141
+        },
+        {
+          "pareja": 514,
+          "leader": "Jeyson Ravagli",
+          "follower": "Vanessa Giraldo",
+          "country": "Colombia",
+          "scores": [
+            8.3,
+            7.9,
+            7.35,
+            7.8,
+            8.19,
+            8.09
+          ],
+          "promedio": 7.938,
+          "rank": 142
+        },
+        {
+          "pareja": 684,
+          "leader": "Laura Cardozo",
+          "follower": "Matias Molina",
+          "country": "Agentina",
+          "scores": [
+            8.4,
+            7.95,
+            7.35,
+            7.8,
+            8.37,
+            7.72
+          ],
+          "promedio": 7.932,
+          "rank": 143
+        },
+        {
+          "pareja": 547,
+          "leader": "Diana Cortés",
+          "follower": "Laura Flores",
+          "country": "Germany",
+          "scores": [
+            8,
+            8.25,
+            8.1,
+            7.5,
+            8.08,
+            7.65
+          ],
+          "promedio": 7.93,
+          "rank": 144
+        },
+        {
+          "pareja": 644,
+          "leader": "Javier Lobos",
+          "follower": "Matias Vallejos",
+          "country": "Argentina",
+          "scores": [
+            8,
+            8.11,
+            8.1,
+            7.65,
+            8.06,
+            7.6
+          ],
+          "promedio": 7.92,
+          "rank": 145
+        },
+        {
+          "pareja": 459,
+          "leader": "Facundo Cabral",
+          "follower": "Mara Navarro",
+          "country": "Argentina",
+          "scores": [
+            8.1,
+            8.23,
+            8.25,
+            7.65,
+            7.89,
+            7.4
+          ],
+          "promedio": 7.92,
+          "rank": 146
+        },
+        {
+          "pareja": 677,
+          "leader": "Marcela Pilatti",
+          "follower": "Alejandro Montes de Oca",
+          "country": "Argentina",
+          "scores": [
+            8.4,
+            8.1,
+            7.3,
+            7.85,
+            7.89,
+            7.93
+          ],
+          "promedio": 7.912,
+          "rank": 147
+        },
+        {
+          "pareja": 530,
+          "leader": "Dmitrii Astafev",
+          "follower": "Sabrina Amuchastegui",
+          "country": "Argentina",
+          "scores": [
+            7,
+            8.54,
+            7.9,
+            7.75,
+            8.56,
+            7.68
+          ],
+          "promedio": 7.905,
+          "rank": 148
+        },
+        {
+          "pareja": 290,
+          "leader": "Elio Maximiliano Roldan",
+          "follower": "Lucia Perotti",
+          "country": "Argentina",
+          "scores": [
+            8.2,
+            8.42,
+            6.95,
+            7.6,
+            8.31,
+            7.91
+          ],
+          "promedio": 7.898,
+          "rank": 149
+        },
+        {
+          "pareja": 28,
+          "leader": "Carlos Alberto Martinez",
+          "follower": "Patricia Laura Gury",
+          "country": "Argentina",
+          "scores": [
+            7.8,
+            7.89,
+            7.9,
+            7.6,
+            8.11,
+            8.07
+          ],
+          "promedio": 7.895,
+          "rank": 150
+        },
+        {
+          "pareja": 64,
+          "leader": "Lucas Cartagena",
+          "follower": "Lucila Diaz Colodrero",
+          "country": "Argentina",
+          "scores": [
+            7,
+            8.55,
+            7.45,
+            7.95,
+            8.16,
+            8.2
+          ],
+          "promedio": 7.885,
+          "rank": 151
+        },
+        {
+          "pareja": 680,
+          "leader": "Jorgelina Arrieta Llamosas",
+          "follower": "Alberto Leis",
+          "country": "Agentina",
+          "scores": [
+            7.9,
+            8,
+            7.75,
+            7.6,
+            8.12,
+            7.89
+          ],
+          "promedio": 7.877,
+          "rank": 152
+        },
+        {
+          "pareja": 362,
+          "leader": "Lucio Javier Chavez",
+          "follower": "Nina Pauluzzi",
+          "country": "Argentina",
+          "scores": [
+            8.45,
+            7.83,
+            7.75,
+            7.5,
+            7.95,
+            7.63
+          ],
+          "promedio": 7.852,
+          "rank": 153
+        },
+        {
+          "pareja": 712,
+          "leader": "Levan Gomelauri",
+          "follower": "Cecilia Acosta",
+          "country": "Georgia",
+          "scores": [
+            7,
+            8.24,
+            7.7,
+            7.75,
+            8.19,
+            8.23
+          ],
+          "promedio": 7.852,
+          "rank": 154
+        },
+        {
+          "pareja": 358,
+          "leader": "Diego Ali Delgado",
+          "follower": "Tamara Borda",
+          "country": "Argentina",
+          "scores": [
+            7.8,
+            7.6,
+            8.55,
+            7.6,
+            8.15,
+            7.4
+          ],
+          "promedio": 7.85,
+          "rank": 155
+        },
+        {
+          "pareja": 667,
+          "leader": "Rochelle Banuet",
+          "follower": "Andres Martinez",
+          "country": "Estados Unidos",
+          "scores": [
+            8.25,
+            8.15,
+            6.75,
+            7.95,
+            8.1,
+            7.82
+          ],
+          "promedio": 7.837,
+          "rank": 156
+        },
+        {
+          "pareja": 227,
+          "leader": "Walter Schefer",
+          "follower": "Micaela Dagnino",
+          "country": "Argentina",
+          "scores": [
+            7,
+            8.45,
+            8.45,
+            7.8,
+            8.02,
+            7.21
+          ],
+          "promedio": 7.822,
+          "rank": 157
+        },
+        {
+          "pareja": 670,
+          "leader": "Manuel Bianchi",
+          "follower": "Michela Elicio",
+          "country": "Italia",
+          "scores": [
+            8.1,
+            8.35,
+            7.2,
+            7.6,
+            8.31,
+            7.32
+          ],
+          "promedio": 7.813,
+          "rank": 158
+        },
+        {
+          "pareja": 705,
+          "leader": "Mariya Katsun",
+          "follower": "Jorge Luis Olguin",
+          "country": "",
+          "scores": [
+            7.3,
+            8.16,
+            7.1,
+            8,
+            8.51,
+            7.79
+          ],
+          "promedio": 7.81,
+          "rank": 159
+        },
+        {
+          "pareja": 395,
+          "leader": "Sebastián Martinez",
+          "follower": "Ayelen Morando",
+          "country": "Argentina",
+          "scores": [
+            7.2,
+            8.49,
+            7.85,
+            7.55,
+            8.5,
+            7.21
+          ],
+          "promedio": 7.8,
+          "rank": 160
+        },
+        {
+          "pareja": 682,
+          "leader": "Carolina Marquez",
+          "follower": "Ezequiel Lescano",
+          "country": "Agentina",
+          "scores": [
+            7.5,
+            7.63,
+            7.1,
+            8.5,
+            8.09,
+            7.95
+          ],
+          "promedio": 7.795,
+          "rank": 161
+        },
+        {
+          "pareja": 673,
+          "leader": "Gary Etchegaray",
+          "follower": "Angelina Diaz",
+          "country": "Uruguay",
+          "scores": [
+            7.25,
+            8.22,
+            6.85,
+            7.8,
+            8.18,
+            8.32
+          ],
+          "promedio": 7.77,
+          "rank": 162
+        },
+        {
+          "pareja": 675,
+          "leader": "Silvia Fassio",
+          "follower": "Toni Barrios",
+          "country": "Argentina",
+          "scores": [
+            8.3,
+            8.42,
+            7.3,
+            7.5,
+            7.88,
+            7.12
+          ],
+          "promedio": 7.753,
+          "rank": 163
+        },
+        {
+          "pareja": 503,
+          "leader": "Santiago Salazar Botero",
+          "follower": "Alejandra Ospina Marin",
+          "country": "Colombia",
+          "scores": [
+            7.9,
+            7.6,
+            7.75,
+            7.6,
+            7.89,
+            7.73
+          ],
+          "promedio": 7.745,
+          "rank": 164
+        },
+        {
+          "pareja": 32,
+          "leader": "Horacio Herrera",
+          "follower": "Sabrina Ramos Carrasco",
+          "country": "Argentina",
+          "scores": [
+            7.4,
+            7.88,
+            7.5,
+            7.5,
+            8.28,
+            7.9
+          ],
+          "promedio": 7.743,
+          "rank": 165
+        },
+        {
+          "pareja": 49,
+          "leader": "Ezequiel Gomez",
+          "follower": "Jane Lee",
+          "country": "Brunei Darussalam",
+          "scores": [
+            7,
+            7.85,
+            7.75,
+            7.95,
+            8.37,
+            7.53
+          ],
+          "promedio": 7.742,
+          "rank": 166
+        },
+        {
+          "pareja": 293,
+          "leader": "Oscar Guillermo Claure",
+          "follower": "Martina Bordón",
+          "country": "Argentina",
+          "scores": [
+            7.5,
+            7.88,
+            7.65,
+            7.6,
+            8.06,
+            7.73
+          ],
+          "promedio": 7.737,
+          "rank": 167
+        },
+        {
+          "pareja": 142,
+          "leader": "Leandro Ariel Vilche",
+          "follower": "Fuyuko Yagihashi",
+          "country": "Japon",
+          "scores": [
+            8.4,
+            7.66,
+            7.2,
+            7.7,
+            8.01,
+            7.35
+          ],
+          "promedio": 7.72,
+          "rank": 168
+        },
+        {
+          "pareja": 182,
+          "leader": "Yoonchul Hur",
+          "follower": "Juyoung Jeong",
+          "country": "South Korea",
+          "scores": [
+            7.9,
+            8.52,
+            6.75,
+            7.65,
+            8.16,
+            7.32
+          ],
+          "promedio": 7.717,
+          "rank": 169
+        },
+        {
+          "pareja": 288,
+          "leader": "Walter Alberto Bergalo",
+          "follower": "Montserrat Ruiz",
+          "country": "Argentina",
+          "scores": [
+            7.8,
+            7.95,
+            7.75,
+            7.7,
+            7.86,
+            7.15
+          ],
+          "promedio": 7.702,
+          "rank": 170
+        },
+        {
+          "pareja": 4,
+          "leader": "Federico Heredia",
+          "follower": "Nadia Caparrós",
+          "country": "Argentina",
+          "scores": [
+            7.8,
+            7.64,
+            7.2,
+            7.8,
+            8.05,
+            7.59
+          ],
+          "promedio": 7.68,
+          "rank": 171
+        },
+        {
+          "pareja": 676,
+          "leader": "Maria Salinas",
+          "follower": "Jose Luis Lozano",
+          "country": "Argentina",
+          "scores": [
+            7.85,
+            7.85,
+            7.3,
+            7.4,
+            7.53,
+            7.41
+          ],
+          "promedio": 7.557,
+          "rank": 172
+        },
+        {
+          "pareja": 85,
+          "leader": "Vitalii Balan",
+          "follower": "Irina Martynova",
+          "country": "Russia",
+          "scores": [
+            7.2,
+            7.8,
+            6.5,
+            7.7,
+            7.7,
+            7.35
+          ],
+          "promedio": 7.375,
+          "rank": 173
+        }
+      ]
+    }
+  },
+  "summary": {
+    "semifinal_total": 173
+  }
+}
