@@ -7,6 +7,7 @@ import roundsData from '../data/competition_rounds.json';
 import songsData from '../data/songs.json';
 import appearancesData from '../data/appearances.json';
 import { extractYouTubeId, getCompetitionShortName } from '../utils/tangoHelpers';
+import { classifyVideo, sortVideosByPriority, isPerformanceVideo } from '../utils/videoTypes';
 
 import type { Song, Appearance } from '../types/tango';
 
@@ -31,6 +32,7 @@ interface Tanda {
   ronda: number;
   songs: Array<{ song_id: string; title: string; orchestra: string; order: number }>;
   videoIds: string[];
+  videos: RoundVideo[]; // 전체 영상 정보 (type 분류용)
   source: 'round' | 'appearance';
 }
 
@@ -65,6 +67,8 @@ function buildAllTandas(): Tanda[] {
 
   for (const r of allRounds) {
     if (r.songs.length < 2) continue;
+    // 퍼포먼스 영상 우선 정렬
+    const sortedVids = sortVideosByPriority(r.videos || []);
     tandas.push({
       id: r.round_id,
       competition: r.competition,
@@ -73,7 +77,8 @@ function buildAllTandas(): Tanda[] {
       stage: r.stage,
       ronda: r.ronda_number,
       songs: r.songs,
-      videoIds: (r.videos || []).map(v => v.video_id),
+      videoIds: sortedVids.map(v => v.video_id),
+      videos: sortedVids,
       source: 'round',
     });
   }
@@ -126,6 +131,7 @@ function buildAllTandas(): Tanda[] {
       ronda: 0,
       songs: groupSongs,
       videoIds,
+      videos: videoIds.map(id => ({ video_id: id, url: '', channel: '', title: '' })),
       source: 'appearance',
     });
   }
@@ -457,25 +463,37 @@ function TandaCard({
             </div>
           )}
 
-          {/* 영상 목록 */}
+          {/* 영상 목록 (퍼포먼스 우선) */}
           <div className="flex flex-wrap gap-2">
-            {tanda.videoIds.map((vid, i) => {
-              const isPlaying = playingVideo === vid;
+            {tanda.videos.map((v, i) => {
+              const isPlaying = playingVideo === v.video_id;
+              const type = classifyVideo(v);
+              const isPerf = type === 'performance';
               return (
                 <button
-                  key={vid}
-                  onClick={() => setPlayingVideo(isPlaying ? null : vid)}
-                  className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-all min-h-[40px] ${
+                  key={v.video_id}
+                  onClick={() => setPlayingVideo(isPlaying ? null : v.video_id)}
+                  className={`flex items-center gap-2 px-3 py-2 rounded-sm text-sm transition-all min-h-[40px] border ${
                     isPlaying
-                      ? 'bg-tango-brass/20 text-tango-brass border border-tango-brass/30'
-                      : 'bg-white/5 text-gray-400 hover:text-white hover:bg-white/10 border border-transparent'
+                      ? 'bg-tango-brass/20 text-tango-brass border-tango-brass/40'
+                      : isPerf
+                      ? 'bg-tango-brass/5 text-tango-paper hover:bg-tango-brass/15 border-tango-brass/30'
+                      : 'bg-white/5 text-gray-400 hover:text-white hover:bg-white/10 border-transparent'
                   }`}
                 >
                   <span>{isPlaying ? '⏸' : '▶'}</span>
-                  <span>영상 {i + 1}</span>
+                  <span className="text-xs">{isPerf ? '🎥 대회' : '🎵 음악'}</span>
+                  <span className="text-[10px] text-tango-cream/60 truncate max-w-[200px]">
+                    {v.channel || `영상 ${i + 1}`}
+                  </span>
                 </button>
               );
             })}
+            {tanda.videos.filter(v => isPerformanceVideo(v)).length === 0 && tanda.videos.length > 0 && (
+              <div className="text-[10px] text-tango-cream/40 italic px-2 py-1 self-center">
+                ⚠ 실제 대회 영상이 없습니다
+              </div>
+            )}
           </div>
         </div>
       )}

@@ -215,6 +215,15 @@ export function HomePage() {
 
         {/* ╔══════════ 간결한 통계 스트립 ══════════╗ */}
         <section className="border-y border-tango-brass/20 bg-tango-shadow/50">
+          <div className="max-w-5xl mx-auto px-6 md:px-12 py-4 flex flex-wrap items-center justify-center md:justify-between gap-4 text-center">
+            <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans italic">
+              소유 · 신랑 · Mundial 우승 도전 랩실
+            </div>
+          </div>
+        </section>
+
+        {/* 우승 전략 진입 */}
+        <section className="border-y border-tango-brass/20 bg-tango-burgundy/5">
           <div className="max-w-5xl mx-auto px-6 md:px-12 py-6 flex flex-wrap items-center justify-center md:justify-between gap-6 text-center">
             <div>
               <span className="font-display text-2xl md:text-3xl text-tango-brass font-bold" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
@@ -276,6 +285,27 @@ export function HomePage() {
               이번 호 <em className="text-tango-brass">목차</em>
             </h2>
           </div>
+
+          {/* 우승 전략 특집 — 큰 카드 */}
+          <Link
+            to="/champions"
+            className="block bg-gradient-to-br from-tango-burgundy/30 via-tango-shadow to-tango-ink border border-tango-brass/40 hover:border-tango-brass rounded-sm p-6 md:p-8 mb-8 group transition-all"
+          >
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-2">
+                  ★ FEATURED · Strategy
+                </div>
+                <h3 className="font-display text-2xl md:text-4xl text-tango-paper italic group-hover:text-tango-brass transition-colors" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                  우승자는 <em className="text-tango-brass">무엇을</em> 춤췄는가
+                </h3>
+                <p className="font-serif italic text-sm md:text-base text-tango-cream/70 mt-2 max-w-xl" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                  Mundial 결승 곡·악단 패턴. 우승자들의 공통점. 나의 전략 설계용 데이터.
+                </p>
+              </div>
+              <span className="text-tango-brass text-2xl group-hover:translate-x-1 transition-transform">→</span>
+            </div>
+          </Link>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-0">
             <TocItem num="01" title="Trends" korean="트렌드 분석" desc="2012-2025 악단 변천사 스트림그래프" to="/trends" />
