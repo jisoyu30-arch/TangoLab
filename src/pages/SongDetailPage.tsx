@@ -12,6 +12,7 @@ import { FavoriteButton } from '../components/FavoriteButton';
 import { SongLifecycleTimeline } from '../components/SongLifecycleTimeline';
 import { SongCooccurrenceNetwork } from '../components/SongCooccurrenceNetwork';
 import { usePageMeta } from '../hooks/usePageMeta';
+import { isPerformanceVideo } from '../utils/videoTypes';
 
 import songsData from '../data/songs.json';
 import appearancesData from '../data/appearances.json';
@@ -57,6 +58,14 @@ interface CompetitionRound {
 
 const allRounds = (roundsData as { rounds: CompetitionRound[] }).rounds;
 
+// video_id → channel 맵 (appearance의 source_url은 채널 정보가 없어서 rounds에서 조회)
+const videoChannelMap = new Map<string, string>();
+for (const r of allRounds) {
+  for (const v of r.videos || []) {
+    if (v.video_id && v.channel) videoChannelMap.set(v.video_id, v.channel);
+  }
+}
+
 const songs = songsData as Song[];
 const appearances = appearancesData as Appearance[];
 const danceGuides = danceGuidesData as DanceGuide[];
@@ -72,11 +81,11 @@ interface VideoInfo {
   roundLabel: string | null;
 }
 
-function pickBestVideos(songId: string, songAppearances: Appearance[], maxCount = 2): VideoInfo[] {
+function pickBestVideos(songId: string, songAppearances: Appearance[], maxCount = 4): VideoInfo[] {
   const videos: VideoInfo[] = [];
   const seenVideoIds = new Set<string>();
 
-  // 1. 먼저 퍼포먼스 전용 영상이 있으면 우선 사용
+  // 1. perfVideos 우선 (명시된 퍼포먼스 영상)
   const perfVids = perfVideos[songId] ?? [];
   for (const pv of perfVids) {
     if (videos.length >= maxCount) break;
@@ -93,7 +102,28 @@ function pickBestVideos(songId: string, songAppearances: Appearance[], maxCount 
     });
   }
 
-  // 2. 부족하면 appearances에서 보충
+  // 2. rounds에서 이 곡이 있는 라운드의 퍼포먼스 영상 (Thanh Dang 제외)
+  for (const r of allRounds) {
+    if (videos.length >= maxCount) break;
+    if (!r.songs.some(s => s.song_id === songId)) continue;
+    for (const v of (r.videos || [])) {
+      if (videos.length >= maxCount) break;
+      if (seenVideoIds.has(v.video_id)) continue;
+      if (!isPerformanceVideo(v)) continue; // 🎵 음악 전용 제외
+      seenVideoIds.add(v.video_id);
+      videos.push({
+        videoId: v.video_id,
+        label: `${r.competition} ${r.year} ${STAGE_LABELS[r.stage] ?? r.stage}${r.ronda_number ? ` R${r.ronda_number}` : ''}`,
+        songOrder: r.songs.find(s => s.song_id === songId)?.order ?? null,
+        year: r.year,
+        competition: r.competition,
+        stage: STAGE_LABELS[r.stage] ?? r.stage,
+        roundLabel: `R${r.ronda_number}`,
+      });
+    }
+  }
+
+  // 3. appearances에서 추가 (채널 확인하여 퍼포먼스만)
   if (videos.length < maxCount) {
     const priorityOrder = ['COMP-005', 'COMP-004', 'COMP-001', 'COMP-002', 'COMP-003'];
     const sorted = [...songAppearances].sort((a, b) => {
@@ -109,6 +139,9 @@ function pickBestVideos(songId: string, songAppearances: Appearance[], maxCount 
       if (videos.length >= maxCount) break;
       const vid = extractYouTubeId(a.source_url);
       if (!vid || seenVideoIds.has(vid)) continue;
+      // 채널 정보로 필터
+      const ch = videoChannelMap.get(vid);
+      if (ch && !isPerformanceVideo({ channel: ch })) continue;
       seenVideoIds.add(vid);
       videos.push({
         videoId: vid,

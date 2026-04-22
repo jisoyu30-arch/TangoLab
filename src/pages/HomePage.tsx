@@ -7,6 +7,7 @@ import { usePracticeStore } from '../hooks/usePracticeStore';
 import { useRecentItems } from '../hooks/useRecentItems';
 import { computeRankings } from '../utils/tangoRanking';
 import { shortOrchestraName } from '../utils/tandaAnalysis';
+import { isPerformanceVideo, sortVideosByPriority } from '../utils/videoTypes';
 
 import songsData from '../data/songs.json';
 import appearancesData from '../data/appearances.json';
@@ -18,13 +19,18 @@ const songs = songsData as Song[];
 const appearances = appearancesData as Appearance[];
 const rounds = (roundsData as any).rounds;
 
-// 오늘 날짜 기반 결정적 탄다 선택
+// 오늘 날짜 기반 결정적 탄다 선택 — 🎥 실제 대회 영상 있는 라운드만
 function pickDailyTanda() {
   const today = new Date();
   const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
-  const eligible = rounds.filter((r: any) => r.songs?.length >= 3 && r.videos?.length > 0);
+  const eligible = rounds.filter((r: any) =>
+    r.songs?.length >= 3 &&
+    (r.videos || []).some((v: any) => isPerformanceVideo(v))
+  );
   if (eligible.length === 0) return null;
-  return eligible[seed % eligible.length];
+  const picked = eligible[seed % eligible.length];
+  // 퍼포먼스 영상 우선 정렬
+  return { ...picked, videos: sortVideosByPriority(picked.videos || []).filter((v: any) => isPerformanceVideo(v)) };
 }
 
 export function HomePage() {

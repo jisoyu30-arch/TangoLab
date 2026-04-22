@@ -7,6 +7,7 @@ import orchestrasData from '../data/orchestras.json';
 import roundsData from '../data/competition_rounds.json';
 import danceGuidesData from '../data/dance_guides.json';
 import { extractYouTubeId, getCompetitionShortName, STAGE_LABELS } from '../utils/tangoHelpers';
+import { isPerformanceVideo } from '../utils/videoTypes';
 import type { Song, Appearance, Orchestra, DanceGuide } from '../types/tango';
 
 const songs = songsData as Song[];
@@ -88,6 +89,14 @@ function computeOrchestraStats(): OrchestraStats[] {
     songComps.get(a.song_id)!.add(a.competition_id);
   }
 
+  // 채널 맵 (video_id → channel), 퍼포먼스 영상 필터용
+  const videoChannelMap = new Map<string, string>();
+  for (const r of allRounds) {
+    for (const v of r.videos || []) {
+      if (v.video_id && v.channel) videoChannelMap.set(v.video_id, v.channel);
+    }
+  }
+
   function getVideosForSong(songId: string): VideoEntry[] {
     const seen = new Set<string>();
     const result: VideoEntry[] = [];
@@ -96,6 +105,8 @@ function computeOrchestraStats(): OrchestraStats[] {
       if (!matchedSong) continue;
       for (const v of r.videos) {
         if (seen.has(v.video_id)) continue;
+        // 🎥 실제 대회 영상만 (Thanh Dang, Tango Master 제외)
+        if (!isPerformanceVideo(v)) continue;
         seen.add(v.video_id);
         result.push({ videoId: v.video_id, competition: r.competition, year: r.year, stage: r.stage, source: 'round', songOrder: matchedSong.order ?? null });
       }
@@ -104,6 +115,9 @@ function computeOrchestraStats(): OrchestraStats[] {
       if (a.song_id !== songId) continue;
       const vid = extractYouTubeId(a.source_url);
       if (!vid || seen.has(vid)) continue;
+      // appearance의 video도 채널 조회해서 필터
+      const ch = videoChannelMap.get(vid);
+      if (ch && !isPerformanceVideo({ channel: ch })) continue;
       seen.add(vid);
       result.push({ videoId: vid, competition: getCompetitionShortName(a.competition_id), year: a.year, stage: a.stage, source: 'appearance', songOrder: a.song_order_in_round ?? null });
     }

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import roundsData from '../data/competition_rounds.json';
 import { shortOrchestraName } from '../utils/tandaAnalysis';
 import { OrnamentDivider } from './editorial';
+import { isPerformanceVideo, sortVideosByPriority } from '../utils/videoTypes';
 
 const rounds = (roundsData as any).rounds;
 
@@ -12,11 +13,15 @@ function pickDailyTanda() {
   const today = new Date();
   const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
 
-  // 곡 3개 이상 있는 라운드만
-  const eligible = rounds.filter((r: any) => r.songs?.length >= 3 && r.videos?.length > 0);
+  // 실제 대회 영상 있는 라운드만
+  const eligible = rounds.filter((r: any) =>
+    r.songs?.length >= 3 &&
+    (r.videos || []).some((v: any) => isPerformanceVideo(v))
+  );
   if (eligible.length === 0) return null;
 
-  return eligible[seed % eligible.length];
+  const picked = eligible[seed % eligible.length];
+  return { ...picked, videos: sortVideosByPriority(picked.videos || []).filter((v: any) => isPerformanceVideo(v)) };
 }
 
 export function DailyTandaWidget() {
