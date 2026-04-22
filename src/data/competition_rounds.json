@@ -1867,8 +1867,35 @@
       "category": "pista",
       "stage": "final",
       "ronda_number": 1,
-      "songs": [],
-      "videos": [],
+      "songs": [
+        {
+          "song_id": "SONG-619",
+          "title": "Duelo Criollo",
+          "orchestra": "Carlos Di Sarli con Jorge Durán",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-459",
+          "title": "Bailemos",
+          "orchestra": "Carlos Di Sarli con Roberto Florio",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-364",
+          "title": "El Marne",
+          "orchestra": "Juan D'Arienzo",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "YnYEyMzEfag",
+          "url": "https://www.youtube.com/watch?v=YnYEyMzEfag&t=2078s",
+          "channel": "Jose Valverde",
+          "title": "Final Mundial de Tango Pista 2025 - Ronda 1 (전체 영상 타임스탬프)",
+          "start_sec": 2078
+        }
+      ],
       "rankings": [
         {
           "rank": 1,
@@ -1899,36 +1926,6 @@
           "leader": "Juan Ignacio Braida",
           "follower": "Natasha Kaliszuk Lee",
           "promedio": 9.494
-        },
-        {
-          "rank": 6,
-          "leader": "leonardo pankow",
-          "follower": "valentina massari",
-          "promedio": 9.464
-        },
-        {
-          "rank": 7,
-          "leader": "Sebastian Fernandez",
-          "follower": "Mara Oviedo",
-          "promedio": 9.429
-        },
-        {
-          "rank": 8,
-          "leader": "Haruna Izutani",
-          "follower": "Ezequiel Nuñez",
-          "promedio": 9.403
-        },
-        {
-          "rank": 9,
-          "leader": "Gustavo Chaile",
-          "follower": "Mayela Aponte",
-          "promedio": 9.379
-        },
-        {
-          "rank": 10,
-          "leader": "Ariel Taritolay",
-          "follower": "Laura Casco Zorzon",
-          "promedio": 9.361
         }
       ],
       "total_couples": 41,
@@ -1940,6 +1937,64 @@
         "Diego Gauna",
         "Roxana Suarez",
         "Cristian Marquez"
+      ],
+      "participants": [
+        {
+          "pareja": 490,
+          "leader": "Lucas  Gauto",
+          "follower": "Naima Gerasopoulou",
+          "rank": 2,
+          "promedio": 9.604
+        },
+        {
+          "pareja": 152,
+          "leader": "leonardo pankow",
+          "follower": "valentina massari",
+          "rank": 6,
+          "promedio": 9.464
+        },
+        {
+          "pareja": 143,
+          "leader": "Gustavo Chaile",
+          "follower": "Mayela Aponte",
+          "rank": 9,
+          "promedio": 9.379
+        },
+        {
+          "pareja": 450,
+          "leader": "London",
+          "follower": "Sol",
+          "rank": 15,
+          "promedio": 9.16
+        },
+        {
+          "pareja": 149,
+          "leader": "Alexander Moncada Ro",
+          "follower": "jas  Martina Waldman",
+          "rank": 23,
+          "promedio": 9
+        },
+        {
+          "pareja": 125,
+          "leader": "Alexander Sossa",
+          "follower": "Ana Thomas",
+          "rank": 27,
+          "promedio": 8.943
+        },
+        {
+          "pareja": 53,
+          "leader": "Ariel Manzanares",
+          "follower": "Laisa Souza",
+          "rank": 33,
+          "promedio": 8.881
+        },
+        {
+          "pareja": 184,
+          "leader": "Gonzalo Angeles de Sot",
+          "follower": "o  Nathalia Peña Muñoz",
+          "rank": 36,
+          "promedio": 8.859
+        }
       ]
     },
     {
@@ -10901,13 +10956,39 @@
       "category": "pista",
       "stage": "final",
       "ronda_number": 2,
-      "songs": [],
+      "songs": [
+        {
+          "song_id": "UNMATCHED-LA_ABANDONÉ_Y_NO_SABÍA",
+          "title": "La Abandoné y No Sabía",
+          "orchestra": "Miguel Caló con Raúl Berón",
+          "order": 1
+        },
+        {
+          "song_id": "UNMATCHED-CANTEMOS_CORAZÓN",
+          "title": "Cantemos Corazón",
+          "orchestra": "Carlos Di Sarli con Roberto Florio",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-051",
+          "title": "Jueves",
+          "orchestra": "Juan D'Arienzo",
+          "order": 3
+        }
+      ],
       "videos": [
         {
           "video_id": "aSdv8UksKDk",
           "url": "https://www.youtube.com/watch?v=aSdv8UksKDk",
           "channel": "밀롱가",
           "title": "Mira estA increíble RONDA 1 DE FINAL TANGO MUNDIAL PISTA"
+        },
+        {
+          "video_id": "YnYEyMzEfag",
+          "url": "https://www.youtube.com/watch?v=YnYEyMzEfag&t=2886s",
+          "channel": "Jose Valverde",
+          "title": "Final Mundial de Tango Pista 2025 - Ronda 2 (전체 영상 타임스탬프)",
+          "start_sec": 2886
         }
       ],
       "rankings": [],
@@ -10919,6 +11000,64 @@
         "Diego Gauna",
         "Roxana Suarez",
         "Cristian Marquez"
+      ],
+      "participants": [
+        {
+          "pareja": 4,
+          "leader": "Erik Deslarmes",
+          "follower": "Nadia Aguilar",
+          "rank": 4,
+          "promedio": 9.539
+        },
+        {
+          "pareja": 725,
+          "leader": "Haruna Izutani",
+          "follower": "Ezequiel Nuñez",
+          "rank": 8,
+          "promedio": 9.403
+        },
+        {
+          "pareja": 751,
+          "leader": "Ariel Taritolay",
+          "follower": "Laura Casco Zorzon",
+          "rank": 10,
+          "promedio": 9.361
+        },
+        {
+          "pareja": 37,
+          "leader": "Joaquin Besga",
+          "follower": "Katherine Laiton",
+          "rank": 12,
+          "promedio": 9.267
+        },
+        {
+          "pareja": 116,
+          "leader": "Alejandro Lázzaro",
+          "follower": "Gabriela Gallese",
+          "rank": 26,
+          "promedio": 8.946
+        },
+        {
+          "pareja": 762,
+          "leader": "juan",
+          "follower": "cupini            Erica  Rossi",
+          "rank": 32,
+          "promedio": 8.883
+        },
+        {
+          "pareja": 417,
+          "leader": "Max Piero Vera Ramirez",
+          "follower": "Anastasiia Rudiak",
+          "rank": 34,
+          "promedio": 8.879
+        },
+        {
+          "pareja": 166,
+          "leader": "Leandro Capparelli",
+          "follower": "Jeannette Erazú",
+          "rank": 38,
+          "promedio": 8.754
+        }
       ]
     },
     {
@@ -10929,8 +11068,35 @@
       "category": "pista",
       "stage": "final",
       "ronda_number": 3,
-      "songs": [],
-      "videos": [],
+      "songs": [
+        {
+          "song_id": "SONG-272",
+          "title": "Qué Te Importa Que Te Llore",
+          "orchestra": "Miguel Caló con Raúl Berón",
+          "order": 1
+        },
+        {
+          "song_id": "UNMATCHED-YUNTA_DE_ORO",
+          "title": "Yunta de Oro",
+          "orchestra": "Osvaldo Pugliese",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-147",
+          "title": "Sentimiento Gaucho",
+          "orchestra": "Juan D'Arienzo con Osvaldo Ramos",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "YnYEyMzEfag",
+          "url": "https://www.youtube.com/watch?v=YnYEyMzEfag&t=3728s",
+          "channel": "Jose Valverde",
+          "title": "Final Mundial de Tango Pista 2025 - Ronda 3 (전체 영상 타임스탬프)",
+          "start_sec": 3728
+        }
+      ],
       "rankings": [],
       "judges": [
         "Javier Rodriguez",
@@ -10940,6 +11106,64 @@
         "Diego Gauna",
         "Roxana Suarez",
         "Cristian Marquez"
+      ],
+      "participants": [
+        {
+          "pareja": 1,
+          "leader": "Juan Ignacio Braida",
+          "follower": "Natasha Kaliszuk Lee",
+          "rank": 5,
+          "promedio": 9.494
+        },
+        {
+          "pareja": 242,
+          "leader": "Norair Arakelian",
+          "follower": "Sofiia Seminskaia",
+          "rank": 11,
+          "promedio": 9.279
+        },
+        {
+          "pareja": 609,
+          "leader": "juan manuel Rosales",
+          "follower": "Lisa Rosales",
+          "rank": 18,
+          "promedio": 9.093
+        },
+        {
+          "pareja": 275,
+          "leader": "Marcelo Javier Torres",
+          "follower": "Francisca Alarcon Irrazabal",
+          "rank": 22,
+          "promedio": 9.014
+        },
+        {
+          "pareja": 748,
+          "leader": "Matias Gutierrez",
+          "follower": "Aldana Belen Figueroa",
+          "rank": 24,
+          "promedio": 8.989
+        },
+        {
+          "pareja": 44,
+          "leader": "Luciano Paulino",
+          "follower": "Dana Zampieri",
+          "rank": 25,
+          "promedio": 8.953
+        },
+        {
+          "pareja": 731,
+          "leader": "Ekaterina Simonova",
+          "follower": "Stanislav Fursov",
+          "rank": 29,
+          "promedio": 8.91
+        },
+        {
+          "pareja": 189,
+          "leader": "Jorge Benvenutti",
+          "follower": "Sol Irupé Gabis Gómez",
+          "rank": 35,
+          "promedio": 8.873
+        }
       ]
     },
     {
@@ -10950,8 +11174,35 @@
       "category": "pista",
       "stage": "final",
       "ronda_number": 4,
-      "songs": [],
-      "videos": [],
+      "songs": [
+        {
+          "song_id": "SONG-473",
+          "title": "A las Siete en el Café",
+          "orchestra": "Miguel Caló con Alberto Podestá",
+          "order": 1
+        },
+        {
+          "song_id": "UNMATCHED-MELANCÓLICO",
+          "title": "Melancólico",
+          "orchestra": "Aníbal Troilo",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-233",
+          "title": "No Me Extraña",
+          "orchestra": "Pedro Laurenz con Juan Carlos Casas",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "YnYEyMzEfag",
+          "url": "https://www.youtube.com/watch?v=YnYEyMzEfag&t=4580s",
+          "channel": "Jose Valverde",
+          "title": "Final Mundial de Tango Pista 2025 - Ronda 4 (전체 영상 타임스탬프)",
+          "start_sec": 4580
+        }
+      ],
       "rankings": [],
       "judges": [
         "Javier Rodriguez",
@@ -10961,6 +11212,64 @@
         "Diego Gauna",
         "Roxana Suarez",
         "Cristian Marquez"
+      ],
+      "participants": [
+        {
+          "pareja": 483,
+          "leader": "Dmitrii Liferov",
+          "follower": "Dana Son",
+          "rank": 13,
+          "promedio": 9.264
+        },
+        {
+          "pareja": 391,
+          "leader": "Sergei Kurkatov",
+          "follower": "Kseniia Rubina",
+          "rank": 14,
+          "promedio": 9.191
+        },
+        {
+          "pareja": 728,
+          "leader": "Victoria Pesci",
+          "follower": "Lucas Martin",
+          "rank": 16,
+          "promedio": 9.143
+        },
+        {
+          "pareja": 466,
+          "leader": "Carlos Estigarribia",
+          "follower": "Marina Alcalde",
+          "rank": 19,
+          "promedio": 9.049
+        },
+        {
+          "pareja": 97,
+          "leader": "Edwin Enrique Espinosa",
+          "follower": "Alexa Yepes",
+          "rank": 21,
+          "promedio": 9.026
+        },
+        {
+          "pareja": 20,
+          "leader": "Matteo Antonietti",
+          "follower": "Añes Rosario Arredondo Maiztegui",
+          "rank": 28,
+          "promedio": 8.916
+        },
+        {
+          "pareja": 230,
+          "leader": "Ferrol Matthew Poluan",
+          "follower": "Muliany Rambe",
+          "rank": 30,
+          "promedio": 8.906
+        },
+        {
+          "pareja": 245,
+          "leader": "Artem Luchin",
+          "follower": "Polina Luchina",
+          "rank": 31,
+          "promedio": 8.894
+        }
       ]
     },
     {
@@ -10971,8 +11280,35 @@
       "category": "pista",
       "stage": "final",
       "ronda_number": 5,
-      "songs": [],
-      "videos": [],
+      "songs": [
+        {
+          "song_id": "SONG-032",
+          "title": "Café Domínguez",
+          "orchestra": "Ángel D'Agostino",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-044",
+          "title": "Esta Noche de Luna",
+          "orchestra": "Osvaldo Pugliese con Jorge Maciel",
+          "order": 2
+        },
+        {
+          "song_id": "UNMATCHED-SUMA_Y_SIGUE",
+          "title": "Suma y Sigue",
+          "orchestra": "Juan D'Arienzo con Alberto Rey",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "YnYEyMzEfag",
+          "url": "https://www.youtube.com/watch?v=YnYEyMzEfag&t=5465s",
+          "channel": "Jose Valverde",
+          "title": "Final Mundial de Tango Pista 2025 - Ronda 5 (전체 영상 타임스탬프)",
+          "start_sec": 5465
+        }
+      ],
       "rankings": [],
       "judges": [
         "Javier Rodriguez",
@@ -10982,6 +11318,71 @@
         "Diego Gauna",
         "Roxana Suarez",
         "Cristian Marquez"
+      ],
+      "participants": [
+        {
+          "pareja": 530,
+          "leader": "Diego Ortega",
+          "follower": "Aldana Silveyra",
+          "rank": 1,
+          "promedio": 9.826
+        },
+        {
+          "pareja": 780,
+          "leader": "Juan David Vargas",
+          "follower": "Ornella Simonetto",
+          "rank": 3,
+          "promedio": 9.541
+        },
+        {
+          "pareja": 747,
+          "leader": "Sebastian Fernandez",
+          "follower": "Mara   Oviedo",
+          "rank": 7,
+          "promedio": 9.429
+        },
+        {
+          "pareja": 351,
+          "leader": "Juan fernando Cabral",
+          "follower": "Laura  Castiñeiras",
+          "rank": 17,
+          "promedio": 9.114
+        },
+        {
+          "pareja": 253,
+          "leader": "Jesus Paez",
+          "follower": "Iara Duarte",
+          "rank": 20,
+          "promedio": 9.029
+        },
+        {
+          "pareja": 262,
+          "leader": "Valentin Bobkov",
+          "follower": "Katerina Tsybrova",
+          "rank": 37,
+          "promedio": 8.819
+        },
+        {
+          "pareja": 178,
+          "leader": "Alfredo Ricardo Encina",
+          "follower": "Ana Luisa Di Francisco",
+          "rank": 39,
+          "promedio": 8.719
+        },
+        {
+          "pareja": 752,
+          "leader": "Javier Omar Santillan",
+          "follower": "Gladys Noemi Rivero",
+          "rank": 40,
+          "promedio": 8.66
+        },
+        {
+          "pareja": 355,
+          "leader": "Luis Mario Saihueque",
+          "follower": "Marcela Patricia Jara",
+          "rank": 41,
+          "promedio": 8.643
+        }
       ]
     }
   ]
