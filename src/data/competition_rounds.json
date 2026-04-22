@@ -3862,6 +3862,12 @@
           "url": "https://www.youtube.com/watch?v=umOosKWLhzo",
           "channel": "AiresDeMilonga",
           "title": "Mundial de Tango Buenos Aires 2021 - Final - Ronda 2"
+        },
+        {
+          "video_id": "eQ-LGtnlqN4",
+          "url": "https://www.youtube.com/watch?v=eQ-LGtnlqN4",
+          "channel": "AiresDeMilonga",
+          "title": "Final Escenario, Ronda 2 Mundial de Tango 2021, baile de tango"
         }
       ]
     },
@@ -3880,6 +3886,12 @@
           "url": "https://www.youtube.com/watch?v=3RRrWK9ySBk",
           "channel": "AiresDeMilonga",
           "title": "Mundial de Tango Buenos Aires 2021 - Final - Ronda 3"
+        },
+        {
+          "video_id": "PQcKbwKhRpM",
+          "url": "https://www.youtube.com/watch?v=PQcKbwKhRpM",
+          "channel": "AiresDeMilonga",
+          "title": "Final Escenario, Ronda 3 Mundial de Tango 2021, baile de tango mp4"
         }
       ]
     },
@@ -4078,6 +4090,12 @@
           "url": "https://www.youtube.com/watch?v=F0V_ReJawfI",
           "channel": "AiresDeMilonga",
           "title": "Mundial de Tango Buenos Aires 2021 - Semi Final - Ronda 8"
+        },
+        {
+          "video_id": "GkzmLvMiRBs",
+          "url": "https://www.youtube.com/watch?v=GkzmLvMiRBs",
+          "channel": "AiresDeMilonga",
+          "title": "How was dancing Argentine tango in the semifinal pista World Tango 2021, round 8th round 7471"
         }
       ]
     },
@@ -4680,7 +4698,26 @@
       "category": "tango_de_pista",
       "stage": "qualifying",
       "ronda_number": 11,
-      "songs": [],
+      "songs": [
+        {
+          "song_id": "UNMATCHED-LA_ABANDONE_Y_NO_SABIA",
+          "title": "La Abandoné y No Sabía",
+          "orchestra": "Miguel Caló",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-011",
+          "title": "La Yumba",
+          "orchestra": "Osvaldo Pugliese",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-077",
+          "title": "Farabute",
+          "orchestra": "Juan D'Arienzo",
+          "order": 3
+        }
+      ],
       "videos": [
         {
           "video_id": "ZGb3YPAsJjw",
@@ -4850,6 +4887,12 @@
           "url": "https://www.youtube.com/watch?v=iCWy9phr3_g",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2019 - Final - Ronda 1"
+        },
+        {
+          "video_id": "T77ZAGA51Yk",
+          "url": "https://www.youtube.com/watch?v=T77ZAGA51Yk",
+          "channel": "Mundial Historic",
+          "title": "Tango World Championship 2019  Tango de pista  Final Ronda 1"
         }
       ]
     },
@@ -4887,6 +4930,12 @@
           "url": "https://www.youtube.com/watch?v=ZMzC2P_geec",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2019 - Final - Ronda 2"
+        },
+        {
+          "video_id": "cMnMw9fawWc",
+          "url": "https://www.youtube.com/watch?v=cMnMw9fawWc",
+          "channel": "Mundial Historic",
+          "title": "Tango World Championship 2019  Tango de pista  Final Ronda 2"
         }
       ]
     },
@@ -4924,6 +4973,12 @@
           "url": "https://www.youtube.com/watch?v=1kacz8uHpn4",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2019 - Final - Ronda 3"
+        },
+        {
+          "video_id": "CR7DtooCTd8",
+          "url": "https://www.youtube.com/watch?v=CR7DtooCTd8",
+          "channel": "Mundial Historic",
+          "title": "Tango World Championship 2019  Tango de pista  Final Ronda 3"
         }
       ]
     },
@@ -4961,6 +5016,12 @@
           "url": "https://www.youtube.com/watch?v=OAWYMAGypAA",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2019 - Final - Ronda 4"
+        },
+        {
+          "video_id": "-0u2rpGWzKk",
+          "url": "https://www.youtube.com/watch?v=-0u2rpGWzKk",
+          "channel": "Mundial Historic",
+          "title": "Tango World Championship 2019  Tango de pista  Final Ronda 4"
         }
       ]
     },
@@ -5004,6 +5065,12 @@
           "url": "https://www.youtube.com/watch?v=_GZ0sJmVFNI",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2017 - Final - Ronda 1"
+        },
+        {
+          "video_id": "QaqYafuw_mA",
+          "url": "https://www.youtube.com/watch?v=QaqYafuw_mA",
+          "channel": "Mundial Historic",
+          "title": "Final tango pista mundial 2017 ronda 1"
         }
       ]
     },
@@ -5047,6 +5114,12 @@
           "url": "https://www.youtube.com/watch?v=G_Rmlpdj_Ck",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2017 - Final - Ronda 2"
+        },
+        {
+          "video_id": "529JK_3xxdE",
+          "url": "https://www.youtube.com/watch?v=529JK_3xxdE",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2017, FINAL Pista, Ronda 2"
         }
       ]
     },
@@ -5090,6 +5163,12 @@
           "url": "https://www.youtube.com/watch?v=OSUyxAxurHk",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2017 - Final - Ronda 3"
+        },
+        {
+          "video_id": "l7D24BhjqGY",
+          "url": "https://www.youtube.com/watch?v=l7D24BhjqGY",
+          "channel": "AiresDeMilonga",
+          "title": "2017 Tango World Championship, Final Stage, Round 3"
         }
       ]
     },
@@ -5133,6 +5212,12 @@
           "url": "https://www.youtube.com/watch?v=hXH_p-2W4ZI",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2017 - Final - Ronda 4"
+        },
+        {
+          "video_id": "uJl7JzraLRo",
+          "url": "https://www.youtube.com/watch?v=uJl7JzraLRo",
+          "channel": "AiresDeMilonga",
+          "title": "participantes Final Pista Ronda 4 Mundial de tango Buenos Aires 2017"
         }
       ]
     },
@@ -5397,6 +5482,18 @@
           "url": "https://www.youtube.com/watch?v=Qe1xM2NS8UA",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2018 - Final - Ronda 4"
+        },
+        {
+          "video_id": "pwEKhjn7ByQ",
+          "url": "https://www.youtube.com/watch?v=pwEKhjn7ByQ",
+          "channel": "AiresDeMilonga",
+          "title": "Final Pista,Ronda 4, Mundial de Tango 2018"
+        },
+        {
+          "video_id": "P9qi48vBcmE",
+          "url": "https://www.youtube.com/watch?v=P9qi48vBcmE",
+          "channel": "Mundial Historic",
+          "title": "Mundial de Tango 2018 | Final Pista | Ronda 4"
         }
       ]
     },
@@ -5434,6 +5531,18 @@
           "url": "https://www.youtube.com/watch?v=NifT1EDTMS4",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2018 - Final - Ronda 3"
+        },
+        {
+          "video_id": "5XJ9vqB-6Jo",
+          "url": "https://www.youtube.com/watch?v=5XJ9vqB-6Jo",
+          "channel": "AiresDeMilonga",
+          "title": "Final Pista, Mundial de Tango 2018  Ronda 3"
+        },
+        {
+          "video_id": "vnnaWjvBRiU",
+          "url": "https://www.youtube.com/watch?v=vnnaWjvBRiU",
+          "channel": "Mundial Historic",
+          "title": "Mundial de Tango 2018 | Final Pista | Ronda 3 | Ronda de los Campeones"
         }
       ]
     },
@@ -5471,6 +5580,18 @@
           "url": "https://www.youtube.com/watch?v=E2ihvw4VZnM",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2018 - Final - Ronda 2"
+        },
+        {
+          "video_id": "gAuh9PK5GIE",
+          "url": "https://www.youtube.com/watch?v=gAuh9PK5GIE",
+          "channel": "AiresDeMilonga",
+          "title": "Final Pista, Mundial de Tango 2018,  Ronda 2"
+        },
+        {
+          "video_id": "DKViJpvns6Y",
+          "url": "https://www.youtube.com/watch?v=DKViJpvns6Y",
+          "channel": "Mundial Historic",
+          "title": "Mundial de Tango 2018 | Final Pista | Ronda 2"
         }
       ]
     },
@@ -5508,6 +5629,18 @@
           "url": "https://www.youtube.com/watch?v=blZTu1wJkdU",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2018 - Final - Ronda 1"
+        },
+        {
+          "video_id": "BAoTAQ3_y9g",
+          "url": "https://www.youtube.com/watch?v=BAoTAQ3_y9g",
+          "channel": "AiresDeMilonga",
+          "title": "Final Pista, Mundial de Tango 2018  Ronda 1"
+        },
+        {
+          "video_id": "4yIniZfl6qs",
+          "url": "https://www.youtube.com/watch?v=4yIniZfl6qs",
+          "channel": "Mundial Historic",
+          "title": "Mundial de Tango 2018 | Final Pista | Ronda 1"
         }
       ]
     },
@@ -5545,6 +5678,12 @@
           "url": "https://www.youtube.com/watch?v=f5ZHxH-M6qM",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2018 - Semi Final - Ronda 14"
+        },
+        {
+          "video_id": "CVLPx7Amlpc",
+          "url": "https://www.youtube.com/watch?v=CVLPx7Amlpc",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2018, semifinal PISTA, Ronda14 , Usina del Arte, Buenos Aires"
         }
       ]
     },
@@ -5619,6 +5758,12 @@
           "url": "https://www.youtube.com/watch?v=AtP6iVrGvGw",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2018 - Semi Final - Ronda 11"
+        },
+        {
+          "video_id": "sEGSvIdZIko",
+          "url": "https://www.youtube.com/watch?v=sEGSvIdZIko",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2018, semifinal PISTA, Ronda11 , Usina del Arte, Buenos Aires"
         }
       ]
     },
@@ -5656,6 +5801,12 @@
           "url": "https://www.youtube.com/watch?v=nl_DAZEKaDk",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2018 - Semi Final - Ronda 10"
+        },
+        {
+          "video_id": "9YH0MHzd9p0",
+          "url": "https://www.youtube.com/watch?v=9YH0MHzd9p0",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2018, semifinal PISTA, Ronda 10 , Usina del Arte, Buenos Aires"
         }
       ]
     },
@@ -5693,6 +5844,12 @@
           "url": "https://www.youtube.com/watch?v=UfTWpi5opRw",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2018 - Semi Final - Ronda 9"
+        },
+        {
+          "video_id": "22Vh_D79CYM",
+          "url": "https://www.youtube.com/watch?v=22Vh_D79CYM",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2018, semifinal PISTA, Ronda 9 , Usina del Arte, Buenos Aires"
         }
       ]
     },
@@ -5841,6 +5998,12 @@
           "url": "https://www.youtube.com/watch?v=hhGDRnS2bHQ",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2018 - Semi Final - Ronda 5"
+        },
+        {
+          "video_id": "NQD-k8RsKs8",
+          "url": "https://www.youtube.com/watch?v=NQD-k8RsKs8",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2018, semifinal PISTA, ronda 5  , Buenos Aires, Usina del Arte"
         }
       ]
     },
@@ -5878,6 +6041,12 @@
           "url": "https://www.youtube.com/watch?v=yY7g6WpGTKg",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2018 - Semi Final - Ronda 4"
+        },
+        {
+          "video_id": "ikzNWbnGyyI",
+          "url": "https://www.youtube.com/watch?v=ikzNWbnGyyI",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2018, semifinal PISTA, ronda 4  , Buenos Aires, Usina del Arte"
         }
       ]
     },
@@ -5915,6 +6084,12 @@
           "url": "https://www.youtube.com/watch?v=WyBDXk5wX54",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2018 - Semi Final - Ronda 3"
+        },
+        {
+          "video_id": "a7GkIhRi3H4",
+          "url": "https://www.youtube.com/watch?v=a7GkIhRi3H4",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2018, semifinal PISTA, ronda 3  , Buenos Aires, Usina del Arte"
         }
       ]
     },
@@ -5952,6 +6127,12 @@
           "url": "https://www.youtube.com/watch?v=-kuwuET-brs",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2018 - Semi Final - Ronda 2"
+        },
+        {
+          "video_id": "Eth_O7FiO3s",
+          "url": "https://www.youtube.com/watch?v=Eth_O7FiO3s",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2018, semifinal PISTA, ronda 2  , Buenos Aires, Usina del Arte"
         }
       ]
     },
@@ -5989,6 +6170,12 @@
           "url": "https://www.youtube.com/watch?v=rVAPGxl3Lu0",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2018 - Semi Final - Ronda 1"
+        },
+        {
+          "video_id": "-GQzJPzB8Ls",
+          "url": "https://www.youtube.com/watch?v=-GQzJPzB8Ls",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2018, semifinal PISTA, ronda 1  , Buenos Aires, Usina del Arte"
         }
       ]
     },
@@ -6026,6 +6213,12 @@
           "url": "https://www.youtube.com/watch?v=MRP-ZGLqJLo",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2017 - Semi Final - Ronda 12"
+        },
+        {
+          "video_id": "8uUoHx-Fa94",
+          "url": "https://www.youtube.com/watch?v=8uUoHx-Fa94",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2017,  Semifinal  pista Ronda 12"
         }
       ]
     },
@@ -6137,6 +6330,12 @@
           "url": "https://www.youtube.com/watch?v=MRRI3MoYGoc",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2017 - Semi Final - Ronda 9"
+        },
+        {
+          "video_id": "gzUCtRnQWzI",
+          "url": "https://www.youtube.com/watch?v=gzUCtRnQWzI",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2017, Semifinal Pista Ronda 9"
         }
       ]
     },
@@ -6211,6 +6410,12 @@
           "url": "https://www.youtube.com/watch?v=4ivlF03tDoU",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2017 - Semi Final - Ronda 7"
+        },
+        {
+          "video_id": "yY6Q3gB-IxY",
+          "url": "https://www.youtube.com/watch?v=yY6Q3gB-IxY",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2017, Semifinal Pista Ronda 7"
         }
       ]
     },
@@ -6248,6 +6453,12 @@
           "url": "https://www.youtube.com/watch?v=XyegzR6ci3g",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2017 - Semi Final - Ronda 6"
+        },
+        {
+          "video_id": "-R_DrW0sO60",
+          "url": "https://www.youtube.com/watch?v=-R_DrW0sO60",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2017,  Semifinal pista Ronda  6"
         }
       ]
     },
@@ -6285,6 +6496,12 @@
           "url": "https://www.youtube.com/watch?v=4p7naiXl-7A",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2017 - Semi Final - Ronda 5"
+        },
+        {
+          "video_id": "K5xMz_YD5Vg",
+          "url": "https://www.youtube.com/watch?v=K5xMz_YD5Vg",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2017,  Semifinal pista Ronda 5"
         }
       ]
     },
@@ -6322,6 +6539,12 @@
           "url": "https://www.youtube.com/watch?v=VjGONhSHXgA",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2017 - Semi Final - Ronda 3"
+        },
+        {
+          "video_id": "9s5Q5f9NlYA",
+          "url": "https://www.youtube.com/watch?v=9s5Q5f9NlYA",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2017,  Semifinal  pista Ronda  3"
         }
       ]
     },
@@ -6359,6 +6582,12 @@
           "url": "https://www.youtube.com/watch?v=onWd55CZnpw",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2017 - Semi Final - Ronda 2"
+        },
+        {
+          "video_id": "2v1er7GVJz0",
+          "url": "https://www.youtube.com/watch?v=2v1er7GVJz0",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2017,  Semifinal  pista Ronda 2"
         }
       ]
     },
@@ -6396,6 +6625,12 @@
           "url": "https://www.youtube.com/watch?v=x70OLM-o0v8",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2017 - Semi Final - Ronda 1"
+        },
+        {
+          "video_id": "MdvqJruPZsc",
+          "url": "https://www.youtube.com/watch?v=MdvqJruPZsc",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de tango 2017 Semifinal Pista Ronda 1"
         }
       ]
     },
@@ -6433,6 +6668,12 @@
           "url": "https://www.youtube.com/watch?v=8eD9dzYg-Xw",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2016 - Final - Ronda 4"
+        },
+        {
+          "video_id": "8M5RQYwDU70",
+          "url": "https://www.youtube.com/watch?v=8M5RQYwDU70",
+          "channel": "Mundial Historic",
+          "title": "Final Tango Pista 2016 - Cuarta Ronda"
         }
       ]
     },
@@ -6507,6 +6748,12 @@
           "url": "https://www.youtube.com/watch?v=-UxsztGnDhQ",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2016 - Final - Ronda 2"
+        },
+        {
+          "video_id": "5MuqBheqezw",
+          "url": "https://www.youtube.com/watch?v=5MuqBheqezw",
+          "channel": "Mundial Historic",
+          "title": "Final Tango Pista 2016 - Segunda Ronda"
         }
       ]
     },
@@ -6544,6 +6791,12 @@
           "url": "https://www.youtube.com/watch?v=dKs5HGvHF-k",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2016 - Final - Ronda 1"
+        },
+        {
+          "video_id": "M1lTkYr8_hk",
+          "url": "https://www.youtube.com/watch?v=M1lTkYr8_hk",
+          "channel": "Mundial Historic",
+          "title": "Final Tango Pista 2016 - Primera Ronda"
         }
       ]
     },
@@ -7913,6 +8166,12 @@
           "url": "https://www.youtube.com/watch?v=c69r3GTD-k4",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2015 - Final - Ronda 4"
+        },
+        {
+          "video_id": "vlWDSM0K7wk",
+          "url": "https://www.youtube.com/watch?v=vlWDSM0K7wk",
+          "channel": "Mundial Historic",
+          "title": "Ronda 4 Final Pista Mundial de Tango 2015"
         }
       ]
     },
@@ -7950,6 +8209,12 @@
           "url": "https://www.youtube.com/watch?v=nPwknA5Rpag",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2015 - Final - Ronda 3"
+        },
+        {
+          "video_id": "7uOaTqjMV3Q",
+          "url": "https://www.youtube.com/watch?v=7uOaTqjMV3Q",
+          "channel": "Mundial Historic",
+          "title": "Final Pista Ronda 3 Mundial de tango 2015"
         }
       ]
     },
@@ -7987,6 +8252,12 @@
           "url": "https://www.youtube.com/watch?v=edsm-jC0oRE",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2015 - Final - Ronda 2"
+        },
+        {
+          "video_id": "2I6Yh8xG5Ao",
+          "url": "https://www.youtube.com/watch?v=2I6Yh8xG5Ao",
+          "channel": "Mundial Historic",
+          "title": "Final Pista Ronda 2 Mundial de tango 2015"
         }
       ]
     },
@@ -8024,6 +8295,12 @@
           "url": "https://www.youtube.com/watch?v=dsMXo-4XBzE",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2015 - Final - Ronda 1"
+        },
+        {
+          "video_id": "29jx0yhhu6E",
+          "url": "https://www.youtube.com/watch?v=29jx0yhhu6E",
+          "channel": "Mundial Historic",
+          "title": "Final Pista, Ronda 1 Mundial de Tango 2015"
         }
       ]
     },
@@ -9578,6 +9855,12 @@
           "url": "https://www.youtube.com/watch?v=mrnKP-FBVbc",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2014 - Final - Ronda 4"
+        },
+        {
+          "video_id": "30GJqFfmREw",
+          "url": "https://www.youtube.com/watch?v=30GJqFfmREw",
+          "channel": "Mundial Historic",
+          "title": "Ronda 4, Final Pista, Mundial de Tango 2014"
         }
       ]
     },
@@ -9615,6 +9898,12 @@
           "url": "https://www.youtube.com/watch?v=LsSvvXk0CdU",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2014 - Final - Ronda 3"
+        },
+        {
+          "video_id": "aTfXAbAbIbA",
+          "url": "https://www.youtube.com/watch?v=aTfXAbAbIbA",
+          "channel": "Mundial Historic",
+          "title": "Ronda 3 , Final Pista, Mundial de Tango 2014"
         }
       ]
     },
@@ -9652,6 +9941,12 @@
           "url": "https://www.youtube.com/watch?v=B_S7ZGncPQY",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2014 - Final - Ronda 2"
+        },
+        {
+          "video_id": "97la7GiZyX0",
+          "url": "https://www.youtube.com/watch?v=97la7GiZyX0",
+          "channel": "Mundial Historic",
+          "title": "Ronda 2, Final Pista, baile del campen Lorena Gonzales, Sebastian Acosta, Mundial de Tango 2014"
         }
       ]
     },
@@ -9689,6 +9984,12 @@
           "url": "https://www.youtube.com/watch?v=MEosK8T29zQ",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2014 - Final - Ronda 1"
+        },
+        {
+          "video_id": "TQeJS1q6XlE",
+          "url": "https://www.youtube.com/watch?v=TQeJS1q6XlE",
+          "channel": "Mundial Historic",
+          "title": "Ronda 1, Final Pista, Mundial de Tango 2014"
         }
       ]
     },
@@ -10836,6 +11137,12 @@
           "url": "https://www.youtube.com/watch?v=QJMKjEC88Vc",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2013 - Final - Ronda 4"
+        },
+        {
+          "video_id": "KvoQiZSZr9M",
+          "url": "https://www.youtube.com/watch?v=KvoQiZSZr9M",
+          "channel": "Mundial Historic",
+          "title": "Ronda 4, Final Pista,  Mundiial de Tango 2013"
         }
       ]
     },
@@ -10873,6 +11180,12 @@
           "url": "https://www.youtube.com/watch?v=AaNTI5_1x3Q",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2013 - Final - Ronda 3"
+        },
+        {
+          "video_id": "Ne8bZ-QI4cU",
+          "url": "https://www.youtube.com/watch?v=Ne8bZ-QI4cU",
+          "channel": "Mundial Historic",
+          "title": "Ronda 3 Final pista Mundial Tango 2013"
         }
       ]
     },
@@ -10910,6 +11223,12 @@
           "url": "https://www.youtube.com/watch?v=GOYdaCieLw4",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2013 - Final - Ronda 2"
+        },
+        {
+          "video_id": "cQ3Tx6eIfzc",
+          "url": "https://www.youtube.com/watch?v=cQ3Tx6eIfzc",
+          "channel": "Mundial Historic",
+          "title": "Ronda 2, Final Pista,  Mundiial de Tango 2013"
         }
       ]
     },
@@ -10947,6 +11266,12 @@
           "url": "https://www.youtube.com/watch?v=NE_necYFzhI",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2013 - Final - Ronda 1"
+        },
+        {
+          "video_id": "SNRS37r--cU",
+          "url": "https://www.youtube.com/watch?v=SNRS37r--cU",
+          "channel": "Mundial Historic",
+          "title": "Ronda 1, final pista, mundial tango 2013"
         }
       ]
     },
@@ -11021,6 +11346,12 @@
           "url": "https://www.youtube.com/watch?v=l8Db6zdLYV0",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2012 - Final - Ronda 3"
+        },
+        {
+          "video_id": "0mT32f1FrAw",
+          "url": "https://www.youtube.com/watch?v=0mT32f1FrAw",
+          "channel": "Mundial Historic",
+          "title": "Mundial de Tango 2012 + Final Tango Salon Ronda 3"
         }
       ]
     },
@@ -11058,6 +11389,12 @@
           "url": "https://www.youtube.com/watch?v=b9ctpj6wPLE",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2012 - Final - Ronda 2"
+        },
+        {
+          "video_id": "XxuKPIdKobU",
+          "url": "https://www.youtube.com/watch?v=XxuKPIdKobU",
+          "channel": "Mundial Historic",
+          "title": "Mundial de Tango 2012 + Final Tango Salon Ronda 2"
         }
       ]
     },
@@ -11970,6 +12307,210 @@
         "Ricardo Calvo Bonaventura",
         "Carolina Giorgini",
         "Pablo"
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2017-PISTA-SF4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2017,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "XDIvBr8AJvo",
+          "url": "https://www.youtube.com/watch?v=XDIvBr8AJvo",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2017,  Semifinal  pista Ronda 4"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2018-PISTA-SF12",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2018,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 12,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "vrD5ET26YuU",
+          "url": "https://www.youtube.com/watch?v=vrD5ET26YuU",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de Tango 2018, semifinal PISTA, ronda 12  , Buenos Aires, Usina del Arte"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2021-PISTA-SF7473",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2021,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 7473,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "-sYOzVJUrlk",
+          "url": "https://www.youtube.com/watch?v=-sYOzVJUrlk",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de tango 2021, SEMIFINAL PISTA,1 tango 9�� ronda  7473"
+        },
+        {
+          "video_id": "teha8j-8QT0",
+          "url": "https://www.youtube.com/watch?v=teha8j-8QT0",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de tango 2021, SEMIFINAL PISTA,1 tango 9�� ronda  7473"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2021-PISTA-Q26",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2021,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 26,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "iZQmYwjyHlo",
+          "url": "https://www.youtube.com/watch?v=iZQmYwjyHlo",
+          "channel": "AiresDeMilonga",
+          "title": "Mundial de tango  2021 Clasificatoria Pista Ronda 26 completa, 7423"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2011-PISTA-F3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2011,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "5FZEkS6Fbao",
+          "url": "https://www.youtube.com/watch?v=5FZEkS6Fbao",
+          "channel": "Mundial Historic",
+          "title": "Mundial de Tango 2011 - Tercera Ronda Final Luna Park- Tango Saln"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2010-PISTA-F2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2010,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "QxuOWjELtjU",
+          "url": "https://www.youtube.com/watch?v=QxuOWjELtjU",
+          "channel": "Mundial Historic",
+          "title": "Mundial de Tango Salon 2010 Final Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2010-PISTA-F3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2010,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "mgRuJvrQ3kY",
+          "url": "https://www.youtube.com/watch?v=mgRuJvrQ3kY",
+          "channel": "Mundial Historic",
+          "title": "Mundial de Tango Salon 2010 Final Ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2009-PISTA-F1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2009,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "7Ue-VUvFYLA",
+          "url": "https://www.youtube.com/watch?v=7Ue-VUvFYLA",
+          "channel": "Mundial Historic",
+          "title": "Mundial de Tango Salon 2009 FINAL 1ra Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2009-PISTA-F2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2009,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "4pijVQApVvQ",
+          "url": "https://www.youtube.com/watch?v=4pijVQApVvQ",
+          "channel": "Mundial Historic",
+          "title": "Mundial de Tango Salon 2009 FINAL 2da Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2009-PISTA-F3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2009,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "z5ZvfkcfhqA",
+          "url": "https://www.youtube.com/watch?v=z5ZvfkcfhqA",
+          "channel": "Mundial Historic",
+          "title": "Mundial de Tango Salon 2009 Final 3ra Ronda con los Campeones Hiroshi Yamao & Kyoko Yamao"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2009-PISTA-F4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2009,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "Fgq6n96kgAo",
+          "url": "https://www.youtube.com/watch?v=Fgq6n96kgAo",
+          "channel": "Mundial Historic",
+          "title": "Mundial de Tango Salon 2009 Final 4ta ronda"
+        }
       ]
     }
   ]
