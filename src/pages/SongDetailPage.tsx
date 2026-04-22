@@ -217,6 +217,69 @@ export function SongDetailPage() {
       .sort((a, b) => b.year - a.year || a.stage.localeCompare(b.stage));
   }, [id]);
 
+  // 🎯 Mundial 전략 분석 — 결승 배치 포지션, 챔피언 선정률, 시대 트렌드
+  const strategy = useMemo(() => {
+    if (!id || songRounds.length === 0) return null;
+
+    const finals = songRounds.filter(r => r.stage === 'final');
+    const semifinals = songRounds.filter(r => r.stage === 'semifinal');
+    const totalRounds = songRounds.length;
+
+    // 결승에서의 배치 포지션 분포 (1/2/3/4번째 곡)
+    const posCount: Record<number, number> = {};
+    for (const r of finals) {
+      const s = r.songs.find(x => x.song_id === id);
+      if (s?.order) posCount[s.order] = (posCount[s.order] ?? 0) + 1;
+    }
+    const topPos = Object.entries(posCount).sort((a, b) => b[1] - a[1])[0];
+    const preferredPosition = topPos ? Number(topPos[0]) : null;
+
+    // 챔피언 (1위) 커플이 이 곡으로 춤춘 횟수
+    let championUses = 0;
+    for (const r of finals) {
+      if (r.rankings?.some(rk => rk.rank === 1)) championUses++;
+    }
+
+    // 연도 분포
+    const years = songRounds.map(r => r.year).sort();
+    const yearSpan = years.length > 0 ? `${years[0]}-${years[years.length - 1]}` : '';
+    const recentYears = years.filter(y => y >= 2022).length;
+    const recentRate = totalRounds > 0 ? recentYears / totalRounds : 0;
+
+    // 대회 다양성
+    const competitions = new Set(songRounds.map(r => r.competition));
+
+    // 전략 판정
+    let verdict = '';
+    let tier: 'gold' | 'silver' | 'bronze' | 'neutral' = 'neutral';
+    if (finals.length >= 3 && championUses >= 1) {
+      tier = 'gold';
+      verdict = '결승 단골 + 우승자 선택곡. 실전 필수 레퍼런스.';
+    } else if (finals.length >= 2) {
+      tier = 'silver';
+      verdict = '결승권 곡. 우리 탄다에 넣을 때 최종 3곡 후보로 고려.';
+    } else if (semifinals.length >= 2) {
+      tier = 'bronze';
+      verdict = '준결승권. 예선~준결승 돌파용 탄다에 적합.';
+    } else {
+      verdict = '출현 빈도 낮음. 차별화 카드 또는 연습용으로.';
+    }
+
+    return {
+      finalCount: finals.length,
+      semiCount: semifinals.length,
+      totalRounds,
+      preferredPosition,
+      posCount,
+      championUses,
+      yearSpan,
+      recentRate,
+      competitionCount: competitions.size,
+      verdict,
+      tier,
+    };
+  }, [id, songRounds]);
+
   if (!song) {
     return (
       <div className="flex-1 flex items-center justify-center">
@@ -370,6 +433,94 @@ export function SongDetailPage() {
           </div>
 
           <div id="strategy"></div>
+          {/* 🎯 Mundial 전략 분석 — 데이터 기반 배치 전략 */}
+          {strategy && (
+            <div className={`rounded-sm border p-6 ${
+              strategy.tier === 'gold' ? 'bg-gradient-to-br from-tango-brass/15 via-tango-shadow to-tango-ink border-tango-brass/40' :
+              strategy.tier === 'silver' ? 'bg-gradient-to-br from-tango-brass/8 via-tango-shadow to-tango-ink border-tango-brass/25' :
+              'bg-white/5 border-tango-brass/15'
+            }`}>
+              <div className="flex items-start justify-between mb-4">
+                <div>
+                  <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-1">
+                    Mundial Strategy · 전략 분석
+                  </div>
+                  <h3 className="font-display italic text-2xl text-tango-paper" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                    {strategy.tier === 'gold' ? '★ 결승 필수곡' :
+                     strategy.tier === 'silver' ? '◆ 결승권 곡' :
+                     strategy.tier === 'bronze' ? '◇ 준결승권 곡' : '○ 차별화 카드'}
+                  </h3>
+                </div>
+                {strategy.championUses > 0 && (
+                  <div className="text-right">
+                    <div className="text-2xl font-bold text-tango-brass">🏆 {strategy.championUses}</div>
+                    <div className="text-[10px] uppercase tracking-widest text-tango-cream/50">우승 탄다 사용</div>
+                  </div>
+                )}
+              </div>
+
+              <p className="text-tango-paper/90 font-serif italic text-base mb-5" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                {strategy.verdict}
+              </p>
+
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
+                <StatCard label="결승 출현" value={`${strategy.finalCount}회`} accent={strategy.finalCount >= 2} />
+                <StatCard label="준결승" value={`${strategy.semiCount}회`} />
+                <StatCard label="대회 수" value={`${strategy.competitionCount}개`} />
+                <StatCard label="활동 기간" value={strategy.yearSpan} />
+              </div>
+
+              {/* 결승 배치 포지션 분석 */}
+              {strategy.finalCount > 0 && (
+                <div className="mt-4 pt-4 border-t border-tango-brass/15">
+                  <div className="text-[10px] tracking-widest uppercase text-tango-cream/50 font-sans mb-2">
+                    결승 탄다 배치 포지션
+                  </div>
+                  <div className="flex items-end gap-2 h-16">
+                    {[1, 2, 3, 4].map(pos => {
+                      const count = strategy.posCount[pos] ?? 0;
+                      const max = Math.max(...Object.values(strategy.posCount), 1);
+                      const h = count > 0 ? (count / max) * 100 : 5;
+                      const isPreferred = pos === strategy.preferredPosition;
+                      return (
+                        <div key={pos} className="flex-1 flex flex-col items-center gap-1">
+                          <div className="text-[10px] text-tango-cream/60">{count > 0 ? count : ''}</div>
+                          <div
+                            className={`w-full rounded-sm transition-all ${
+                              isPreferred ? 'bg-tango-brass' : count > 0 ? 'bg-tango-brass/40' : 'bg-white/5'
+                            }`}
+                            style={{ height: `${h}%` }}
+                          />
+                          <div className={`text-[10px] ${isPreferred ? 'text-tango-brass font-semibold' : 'text-tango-cream/40'}`}>
+                            {pos}번
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                  {strategy.preferredPosition && (
+                    <div className="text-xs text-tango-cream/70 mt-2 font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                      → 결승에서 주로 <span className="text-tango-brass font-semibold">{strategy.preferredPosition}번째 곡</span>으로 배치됨
+                      {strategy.preferredPosition === 1 && ' (탄다 오프너 — 에너지 세팅)'}
+                      {strategy.preferredPosition === 2 && ' (빌드업 — 드라이브 강화)'}
+                      {strategy.preferredPosition === 3 && ' (클라이맥스 — 결정적 어필)'}
+                      {strategy.preferredPosition === 4 && ' (클로저 — 인상 남기기)'}
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* 최근성 지표 */}
+              {strategy.recentRate > 0 && (
+                <div className="mt-3 text-xs text-tango-cream/60 font-sans">
+                  최근 3년(2022~) 활용 비중:{' '}
+                  <span className="text-tango-brass font-semibold">{Math.round(strategy.recentRate * 100)}%</span>
+                  {strategy.recentRate >= 0.5 ? ' · 현재 트렌드' : strategy.recentRate >= 0.25 ? ' · 꾸준' : ' · 클래식'}
+                </div>
+              )}
+            </div>
+          )}
+
           {/* 전략 포인트 요약 (DanceGuide에서 추출) */}
           {guide && (
             <div className="bg-white/5 rounded-xl border border-tango-brass/10 p-5">
@@ -608,6 +759,17 @@ export function SongDetailPage() {
         </div>
       </div>
     </>
+  );
+}
+
+function StatCard({ label, value, accent }: { label: string; value: string; accent?: boolean }) {
+  return (
+    <div className={`rounded-sm border p-3 ${accent ? 'border-tango-brass/40 bg-tango-brass/5' : 'border-tango-brass/15 bg-white/5'}`}>
+      <div className="text-[10px] tracking-widest uppercase text-tango-cream/50 font-sans mb-1">{label}</div>
+      <div className={`font-display text-xl ${accent ? 'text-tango-brass' : 'text-tango-paper'}`} style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+        {value}
+      </div>
+    </div>
   );
 }
 

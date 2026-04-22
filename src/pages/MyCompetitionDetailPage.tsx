@@ -6,6 +6,35 @@ import { useTrainingStore } from '../hooks/useTrainingStore';
 import { DEFAULT_JUDGING_CRITERIA } from '../types/tango';
 import { VideoUploader } from '../components/VideoUploader';
 import type { ScoreEntry, ScoreCriteria } from '../types/tango';
+import { Link } from 'react-router-dom';
+import roundsData from '../data/competition_rounds.json';
+
+const allRoundsRaw = (roundsData as any).rounds as Array<any>;
+const mundialFinals = allRoundsRaw.filter(r => r.competition === 'Mundial' && r.stage === 'final');
+
+// 곡 제목 정규화 (공백/악센트/대소문자 무시)
+function normTitle(s: string) {
+  return (s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '');
+}
+
+// Mundial 결승 곡 DB (제목 → {count, champion, years})
+const mundialFinalSongsDB = (() => {
+  const db = new Map<string, { title: string; orchestra: string; count: number; championCount: number; years: Set<number>; songId?: string }>();
+  for (const r of mundialFinals) {
+    const isChampion = r.rankings?.some((rk: any) => rk.rank === 1);
+    for (const s of r.songs || []) {
+      const key = normTitle(s.title);
+      if (!key) continue;
+      const entry = db.get(key) || { title: s.title, orchestra: s.orchestra || '', count: 0, championCount: 0, years: new Set(), songId: s.song_id };
+      entry.count++;
+      if (isChampion) entry.championCount++;
+      entry.years.add(r.year);
+      if (s.song_id) entry.songId = s.song_id;
+      db.set(key, entry);
+    }
+  }
+  return db;
+})();
 
 const STAGE_OPTIONS = [
   { value: 'qualifying', label: '예선' },
@@ -86,6 +115,34 @@ export function MyCompetitionDetailPage() {
     if (vals.length === 0) return 0;
     return Math.round(vals.reduce((a, b) => a + b, 0) / vals.length * 10) / 10;
   };
+
+  // 🏆 Champion Benchmark — 내 곡을 Mundial 결승 DB와 대조
+  const championBenchmark = useMemo(() => {
+    if (comp.songs.length === 0) return null;
+    const analyzed = comp.songs.map(s => {
+      const key = normTitle(s.title);
+      const entry = mundialFinalSongsDB.get(key);
+      return {
+        title: s.title,
+        orchestra: s.orchestra,
+        songId: entry?.songId,
+        finalCount: entry?.count ?? 0,
+        championCount: entry?.championCount ?? 0,
+        tier: !entry ? 'unknown' : entry.championCount > 0 ? 'gold' : entry.count >= 2 ? 'silver' : 'bronze',
+      };
+    });
+    const championTier = analyzed.filter(a => a.tier === 'gold').length;
+    const silverTier = analyzed.filter(a => a.tier === 'silver').length;
+    const totalScore = analyzed.reduce((sum, a) => sum + (a.tier === 'gold' ? 3 : a.tier === 'silver' ? 2 : a.tier === 'bronze' ? 1 : 0), 0);
+    const maxScore = analyzed.length * 3;
+    const pct = maxScore > 0 ? Math.round((totalScore / maxScore) * 100) : 0;
+    let verdict = '';
+    if (pct >= 80) verdict = '결승급 선곡 조합. Mundial 탑 탄다와 직접 비교 가능.';
+    else if (pct >= 55) verdict = '준결승 돌파 수준. 한두 곡만 gold 티어로 교체하면 결승권.';
+    else if (pct >= 30) verdict = '예선 통과 수준. 최소 1곡은 결승 단골곡으로 교체 권장.';
+    else verdict = '차별화 전략. 익숙하지 않은 곡들이라 심사위원 임팩트 약할 수 있음.';
+    return { analyzed, championTier, silverTier, pct, verdict };
+  }, [comp.songs]);
 
   const overallAvg = useMemo(() => {
     if (comp.scores.length === 0) return 0;
@@ -220,6 +277,73 @@ export function MyCompetitionDetailPage() {
               + 곡 추가
             </button>
           </div>
+
+          {/* 🏆 Champion Benchmark — 내 선곡 vs Mundial 결승 DB */}
+          {championBenchmark && championBenchmark.analyzed.length > 0 && (
+            <div className={`rounded-xl border p-5 ${
+              championBenchmark.pct >= 80 ? 'bg-gradient-to-br from-tango-brass/15 via-tango-shadow to-tango-ink border-tango-brass/40' :
+              championBenchmark.pct >= 55 ? 'bg-gradient-to-br from-tango-brass/8 via-tango-shadow to-tango-ink border-tango-brass/25' :
+              'bg-white/5 border-tango-brass/15'
+            }`}>
+              <div className="flex items-start justify-between mb-3">
+                <div>
+                  <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-1">
+                    Champion Benchmark
+                  </div>
+                  <h3 className="font-display italic text-xl text-tango-paper" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                    Mundial 결승 비교
+                  </h3>
+                </div>
+                <div className="text-right">
+                  <div className="text-3xl font-bold text-tango-brass">{championBenchmark.pct}<span className="text-base">%</span></div>
+                  <div className="text-[10px] uppercase tracking-widest text-tango-cream/50">결승 적합도</div>
+                </div>
+              </div>
+
+              <p className="text-sm text-tango-paper/85 font-serif italic mb-4" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                {championBenchmark.verdict}
+              </p>
+
+              <div className="space-y-1.5">
+                {championBenchmark.analyzed.map((a, i) => (
+                  <div key={i} className="flex items-center gap-3 bg-white/5 rounded-lg px-3 py-2">
+                    <span className={`text-lg w-5 text-center ${
+                      a.tier === 'gold' ? 'text-tango-brass' :
+                      a.tier === 'silver' ? 'text-tango-brass/60' :
+                      a.tier === 'bronze' ? 'text-tango-brass/40' : 'text-gray-600'
+                    }`}>
+                      {a.tier === 'gold' ? '★' : a.tier === 'silver' ? '◆' : a.tier === 'bronze' ? '◇' : '○'}
+                    </span>
+                    <div className="flex-1 min-w-0">
+                      {a.songId ? (
+                        <Link to={`/song/${a.songId}`} className="text-sm text-white truncate hover:text-tango-brass transition-colors">
+                          {a.title}
+                        </Link>
+                      ) : (
+                        <div className="text-sm text-white truncate">{a.title}</div>
+                      )}
+                      {a.orchestra && <div className="text-[11px] text-gray-500">{a.orchestra}</div>}
+                    </div>
+                    <div className="text-right text-[11px]">
+                      {a.championCount > 0 && (
+                        <div className="text-tango-brass">🏆 {a.championCount}</div>
+                      )}
+                      {a.finalCount > 0 ? (
+                        <div className="text-gray-400">결승 {a.finalCount}회</div>
+                      ) : (
+                        <div className="text-gray-600">결승 이력 없음</div>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <div className="mt-4 pt-3 border-t border-tango-brass/15 flex items-center justify-between text-[11px] text-tango-cream/60">
+                <span>★ 우승 탄다 포함 · ◆ 결승 2회+ · ◇ 결승 1회 · ○ 결승 이력 없음</span>
+                <Link to="/champions" className="text-tango-brass hover:underline">챔피언 전체 →</Link>
+              </div>
+            </div>
+          )}
 
           {/* 심사위원 */}
           <div className="bg-white/5 border border-tango-brass/10 rounded-xl p-5">

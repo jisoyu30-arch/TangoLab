@@ -308,6 +308,51 @@ function OrchestraDetail({ stats, onBack }: { stats: OrchestraStats; onBack: () 
   const [playingVideo, setPlayingVideo] = useState<string | null>(null);
   const [showInfo, setShowInfo] = useState(false);
 
+  // 🎯 결승 포지션 분석 — 이 악단이 결승 탄다에서 몇 번째 곡으로 주로 배치되는가
+  const positionAnalysis = useMemo(() => {
+    const orchSongIds = new Set(stats.topSongs.map(sd => sd.song.song_id));
+    const positionCount: Record<number, number> = { 1: 0, 2: 0, 3: 0, 4: 0 };
+    const championCount: Record<number, number> = { 1: 0, 2: 0, 3: 0, 4: 0 };
+    let totalFinalUses = 0;
+    let totalChampionUses = 0;
+
+    for (const r of allRounds) {
+      if (r.stage !== 'final') continue;
+      const isChampion = (r as any).rankings?.some((rk: any) => rk.rank === 1);
+      for (const s of r.songs) {
+        if (!orchSongIds.has(s.song_id)) continue;
+        const pos = s.order;
+        if (pos >= 1 && pos <= 4) {
+          positionCount[pos] = (positionCount[pos] ?? 0) + 1;
+          totalFinalUses++;
+          if (isChampion) {
+            championCount[pos] = (championCount[pos] ?? 0) + 1;
+            totalChampionUses++;
+          }
+        }
+      }
+    }
+
+    const topPos = Object.entries(positionCount).sort((a, b) => b[1] - a[1])[0];
+    const preferredPos = topPos && Number(topPos[1]) > 0 ? Number(topPos[0]) : null;
+
+    return {
+      positionCount,
+      championCount,
+      totalFinalUses,
+      totalChampionUses,
+      preferredPos,
+    };
+  }, [stats.topSongs]);
+
+  const positionRole = (pos: number): string => {
+    if (pos === 1) return '오프너 — 탄다 에너지 세팅';
+    if (pos === 2) return '빌드업 — 드라이브 강화';
+    if (pos === 3) return '클라이맥스 — 결정적 어필';
+    if (pos === 4) return '클로저 — 인상 각인';
+    return '';
+  };
+
   return (
     <div className="space-y-8">
 
@@ -409,6 +454,76 @@ function OrchestraDetail({ stats, onBack }: { stats: OrchestraStats; onBack: () 
                   <span key={v} className="text-xs px-2 py-0.5 bg-white/5 border border-white/10 rounded-full text-gray-300">{v}</span>
                 ))}
               </div>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* 🎯 결승 포지션 분석 — 이 악단을 탄다 몇 번째에 넣을까? */}
+      {positionAnalysis.totalFinalUses > 0 && (
+        <div className="bg-gradient-to-br from-tango-brass/10 via-tango-shadow to-tango-ink rounded-sm border border-tango-brass/25 p-6">
+          <div className="flex items-start justify-between mb-4">
+            <div>
+              <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-1">
+                Final Position Analysis
+              </div>
+              <h3 className="font-display italic text-2xl text-tango-paper" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                결승 탄다 <em className="text-tango-brass">배치 전략</em>
+              </h3>
+            </div>
+            <div className="text-right">
+              <div className="font-display text-2xl text-tango-brass" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                {positionAnalysis.totalFinalUses}
+              </div>
+              <div className="text-[10px] uppercase tracking-widest text-tango-cream/50">결승 배치 총</div>
+            </div>
+          </div>
+
+          {/* 4개 포지션 바 차트 */}
+          <div className="grid grid-cols-4 gap-3 mb-4">
+            {[1, 2, 3, 4].map(pos => {
+              const count = positionAnalysis.positionCount[pos] ?? 0;
+              const champ = positionAnalysis.championCount[pos] ?? 0;
+              const max = Math.max(...Object.values(positionAnalysis.positionCount), 1);
+              const pct = count > 0 ? (count / max) * 100 : 5;
+              const isPreferred = pos === positionAnalysis.preferredPos;
+              return (
+                <div key={pos} className={`rounded-sm border p-3 ${
+                  isPreferred ? 'border-tango-brass/50 bg-tango-brass/5' : 'border-tango-brass/15 bg-white/5'
+                }`}>
+                  <div className="text-[10px] tracking-widest uppercase text-tango-cream/50 mb-1 font-sans">
+                    {pos}번째 곡
+                  </div>
+                  <div className={`font-display text-3xl mb-2 ${isPreferred ? 'text-tango-brass' : 'text-tango-paper/70'}`} style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                    {count}
+                  </div>
+                  <div className="h-1 bg-white/5 rounded-full overflow-hidden mb-2">
+                    <div
+                      className={`h-full ${isPreferred ? 'bg-tango-brass' : 'bg-tango-brass/30'}`}
+                      style={{ width: `${pct}%` }}
+                    />
+                  </div>
+                  {champ > 0 && (
+                    <div className="text-[10px] text-tango-brass">🏆 우승 {champ}</div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+
+          {/* 포지션 해석 */}
+          {positionAnalysis.preferredPos && (
+            <div className="text-sm text-tango-paper/85 font-serif italic leading-relaxed" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+              → <strong className="text-tango-brass not-italic">{shortName}</strong>은(는) 결승 탄다에서 주로{' '}
+              <span className="text-tango-brass font-semibold not-italic">{positionAnalysis.preferredPos}번째 곡</span>으로 배치됨
+              {' · '}
+              {positionRole(positionAnalysis.preferredPos)}
+            </div>
+          )}
+
+          {positionAnalysis.totalChampionUses > 0 && (
+            <div className="mt-3 pt-3 border-t border-tango-brass/15 text-xs text-tango-cream/70 font-sans">
+              역대 Mundial 우승 탄다에 이 악단의 곡이 <span className="text-tango-brass font-semibold">{positionAnalysis.totalChampionUses}회</span> 사용됨
             </div>
           )}
         </div>
