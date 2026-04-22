@@ -28,6 +28,8 @@ const FavoritesPage = lazy(() => import('./pages/FavoritesPage').then(m => ({ de
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage').then(m => ({ default: m.NotFoundPage })));
 const OrchestraComparePage = lazy(() => import('./pages/OrchestraComparePage').then(m => ({ default: m.OrchestraComparePage })));
 const JudgesPage = lazy(() => import('./pages/JudgesPage').then(m => ({ default: m.JudgesPage })));
+const YearComparePage = lazy(() => import('./pages/YearComparePage').then(m => ({ default: m.YearComparePage })));
+const VocalistsPage = lazy(() => import('./pages/VocalistsPage').then(m => ({ default: m.VocalistsPage })));
 
 function PageLoader() {
   return (
@@ -60,6 +62,8 @@ export function App() {
           <Route path="/favorites" element={<Suspense fallback={<PageLoader />}><FavoritesPage /></Suspense>} />
           <Route path="/compare-orchestra" element={<Suspense fallback={<PageLoader />}><OrchestraComparePage /></Suspense>} />
           <Route path="/judges" element={<Suspense fallback={<PageLoader />}><JudgesPage /></Suspense>} />
+          <Route path="/compare-year" element={<Suspense fallback={<PageLoader />}><YearComparePage /></Suspense>} />
+          <Route path="/vocalists" element={<Suspense fallback={<PageLoader />}><VocalistsPage /></Suspense>} />
           <Route path="/practice" element={<Suspense fallback={<PageLoader />}><PracticeBoardListPage /></Suspense>} />
           <Route path="/practice/:id" element={<Suspense fallback={<PageLoader />}><PracticeBoardDetailPage /></Suspense>} />
           <Route path="/compare" element={<Suspense fallback={<PageLoader />}><CompareRoomListPage /></Suspense>} />

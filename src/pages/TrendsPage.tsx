@@ -3,6 +3,7 @@ import { useMemo, useState } from 'react';
 import { PageHeader } from '../components/PageHeader';
 import { EditorialHeader, EditorialStat, OrnamentDivider } from '../components/editorial';
 import { OrchestraStreamgraph } from '../components/OrchestraStreamgraph';
+import { TrendInsight } from '../components/TrendInsight';
 import songsData from '../data/songs.json';
 import appearancesData from '../data/appearances.json';
 import roundsData from '../data/competition_rounds.json';
@@ -160,6 +161,11 @@ export function TrendsPage() {
             <div className="mt-8 bg-tango-shadow/40 border border-tango-brass/15 rounded-sm p-4 md:p-6">
               <OrchestraStreamgraph stageFilter={stageFilter} />
             </div>
+            <TrendInsight
+              context={`상위 10개 악단: ${yearOrchMatrix.orchestras.map(o => `${o}(${yearOrchMatrix.totals[o]}회)`).join(', ')}. 조사 기간 ${yearOrchMatrix.years[0]}~${yearOrchMatrix.years[yearOrchMatrix.years.length-1]}. 필터: ${stageFilter === 'all' ? '전체' : stageFilter}.`}
+              cacheKey={`streamgraph-${stageFilter}`}
+              title="악단 트렌드"
+            />
           </section>
 
           {/* 히트맵: 연도 × 악단 */}

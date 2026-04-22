@@ -295,43 +295,83 @@ function OrchestraDetail({ stats, onBack }: { stats: OrchestraStats; onBack: () 
   const [showInfo, setShowInfo] = useState(false);
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-8">
 
-      {/* 헤더: 뒤로가기 + 악단 이름 + 요약 */}
-      <div className="flex items-center gap-3">
-        <button
-          onClick={onBack}
-          className="text-gray-400 hover:text-tango-brass text-sm transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
+      {/* 뒤로가기 */}
+      <button
+        onClick={onBack}
+        className="text-[10px] tracking-[0.3em] uppercase text-tango-brass hover:text-tango-paper transition-colors font-sans"
+      >
+        ← 목차로
+      </button>
+
+      {/* 매거진 프로필 HERO */}
+      <div className="relative border-y border-tango-brass/20 py-10 md:py-16 -mx-5 md:-mx-8 px-5 md:px-8 bg-gradient-to-br from-tango-burgundy/10 via-transparent to-tango-brass/5">
+        <div className="text-[10px] tracking-[0.4em] uppercase text-tango-brass font-sans mb-4">
+          Feature · Orchestra Profile
+        </div>
+        <h1
+          className="font-display text-tango-paper italic leading-none mb-4"
+          style={{ fontFamily: '"Playfair Display", Georgia, serif', fontSize: 'clamp(2.5rem, 7vw, 6rem)' }}
         >
-          ←
-        </button>
-        <div className="flex-1">
-          <h1 className="text-xl font-bold text-white">{shortName}</h1>
-          <div className="flex items-center gap-3 text-xs text-gray-500 mt-0.5">
-            <span>{stats.totalAppearances}회 출현</span>
-            <span className="text-red-400">결 {stats.finalCount}</span>
-            <span className="text-orange-400">준 {stats.semifinalCount}</span>
-            {orch.active_era !== 'unknown' && <span>{orch.active_era}</span>}
+          <em className="text-tango-brass">{shortName}</em>
+        </h1>
+        <p className="font-serif italic text-lg md:text-xl text-tango-cream/70 mb-6 max-w-2xl" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+          {orch.orchestra_name}
+        </p>
+
+        {/* 스타일 태그 */}
+        {orch.style_tags.length > 0 && (
+          <div className="flex flex-wrap gap-1.5 mb-6">
+            {orch.style_tags.map(tag => (
+              <span key={tag} className="text-[10px] px-2 py-0.5 border border-tango-brass/40 text-tango-brass rounded-sm uppercase tracking-widest font-sans">
+                {STYLE_TAG_LABELS[tag] || tag}
+              </span>
+            ))}
+          </div>
+        )}
+
+        {/* 핵심 통계 */}
+        <div className="grid grid-cols-3 md:grid-cols-5 gap-6 border-t border-tango-brass/20 pt-6">
+          <div>
+            <div className="font-display text-3xl md:text-4xl text-tango-brass font-bold" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+              {stats.totalAppearances}
+            </div>
+            <div className="text-[10px] tracking-widest uppercase text-tango-cream/50 mt-1 font-sans">총 출현</div>
+          </div>
+          <div>
+            <div className="font-display text-3xl md:text-4xl text-tango-rose font-bold" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+              {stats.finalCount}
+            </div>
+            <div className="text-[10px] tracking-widest uppercase text-tango-cream/50 mt-1 font-sans">결승</div>
+          </div>
+          <div>
+            <div className="font-display text-3xl md:text-4xl text-tango-paper font-bold" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+              {stats.semifinalCount}
+            </div>
+            <div className="text-[10px] tracking-widest uppercase text-tango-cream/50 mt-1 font-sans">준결승</div>
+          </div>
+          <div>
+            <div className="font-display text-3xl md:text-4xl text-tango-paper font-bold" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+              {stats.songCount}
+            </div>
+            <div className="text-[10px] tracking-widest uppercase text-tango-cream/50 mt-1 font-sans">곡 수</div>
+          </div>
+          <div className="hidden md:block">
+            <div className="font-display text-xl text-tango-paper" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+              {stats.yearSpread.length > 0 ? `${stats.yearSpread[0]}–${stats.yearSpread[stats.yearSpread.length - 1]}` : '—'}
+            </div>
+            <div className="text-[10px] tracking-widest uppercase text-tango-cream/50 mt-1 font-sans">활동 시기</div>
           </div>
         </div>
+
         <button
           onClick={() => setShowInfo(!showInfo)}
-          className="text-xs text-gray-500 hover:text-tango-brass px-3 py-2 bg-white/5 rounded-lg transition-colors min-h-[40px]"
+          className="text-[11px] tracking-widest uppercase text-tango-brass hover:text-tango-paper mt-6 font-sans transition-colors"
         >
-          {showInfo ? '정보 닫기' : '악단 정보'}
+          {showInfo ? '— 상세 정보 닫기' : '+ 상세 정보 열기'}
         </button>
       </div>
-
-      {/* 스타일 태그 */}
-      {orch.style_tags.length > 0 && (
-        <div className="flex flex-wrap gap-1.5">
-          {orch.style_tags.map(tag => (
-            <span key={tag} className="text-xs px-2 py-0.5 rounded-full bg-tango-brass/10 text-tango-brass">
-              {STYLE_TAG_LABELS[tag] || tag}
-            </span>
-          ))}
-        </div>
-      )}
 
       {/* 접을 수 있는 악단 상세 정보 */}
       {showInfo && (
