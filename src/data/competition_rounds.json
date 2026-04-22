@@ -2227,6 +2227,12 @@
           "url": "https://www.youtube.com/watch?v=U-E7EPi31xw",
           "channel": "한선우",
           "title": "Pista Final - 2025 Pacific Tango Championship"
+        },
+        {
+          "video_id": "VXIrmhRuKpw",
+          "url": "https://www.youtube.com/watch?v=VXIrmhRuKpw",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Tango de Pista Final"
         }
       ]
     },
@@ -12911,6 +12917,422 @@
           "channel": "Martín Iarussi",
           "title": "Mundial de tango 2024 |  clasificatoria da 2 Ronda 18"
         }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-ESCENARIO-F1",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "escenario",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "O2Up0fnuvz4",
+          "url": "https://www.youtube.com/watch?v=O2Up0fnuvz4",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Escenario Final Hongsu y Jinnju"
+        },
+        {
+          "video_id": "cXJEaoQtIY4",
+          "url": "https://www.youtube.com/watch?v=cXJEaoQtIY4",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Escenario Final Basil y Ellin"
+        },
+        {
+          "video_id": "YORjY3zaTio",
+          "url": "https://www.youtube.com/watch?v=YORjY3zaTio",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Escenario Final Victor y Sarah"
+        },
+        {
+          "video_id": "weciOEHMz2c",
+          "url": "https://www.youtube.com/watch?v=weciOEHMz2c",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Escenario Final  Ezequiel Nuez y Haruna Izutani"
+        },
+        {
+          "video_id": "QJKempvHNqA",
+          "url": "https://www.youtube.com/watch?v=QJKempvHNqA",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Escenario Final Epiton y Vicky"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-PISTA-SINGLES-GENERAL-F1",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "pista_singles_general",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "vHgyOCtTv3o",
+          "url": "https://www.youtube.com/watch?v=vHgyOCtTv3o",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Singles General Final"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-ESCENARIO-Q01",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "escenario",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "pm0sHMoKbIM",
+          "url": "https://www.youtube.com/watch?v=pm0sHMoKbIM",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Tango Escenario Qualifier - Exo y Rosso"
+        },
+        {
+          "video_id": "hdXi-_dlG6w",
+          "url": "https://www.youtube.com/watch?v=hdXi-_dlG6w",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Tango Escenario Qualifier - Ezequiel Nuez y Haruna Izutani"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-PISTA-Q03",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "rdVCmMfKOXw",
+          "url": "https://www.youtube.com/watch?v=rdVCmMfKOXw",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Tango de Pista  Qualification Ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-PISTA-Q02",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "ZMxqWVXhDTw",
+          "url": "https://www.youtube.com/watch?v=ZMxqWVXhDTw",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Tango de Pista  Qualification Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-PISTA-SINGLES-GENERAL-SF4",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "pista_singles_general",
+      "stage": "semifinal",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "0T02IbAM52o",
+          "url": "https://www.youtube.com/watch?v=0T02IbAM52o",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Singles General Semifinal Ronda 4"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-PISTA-SINGLES-GENERAL-SF3",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "pista_singles_general",
+      "stage": "semifinal",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "69r0nORPnqQ",
+          "url": "https://www.youtube.com/watch?v=69r0nORPnqQ",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Singles General Semifinal Ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-PISTA-SINGLES-GENERAL-SF1",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "pista_singles_general",
+      "stage": "semifinal",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "AIT8ZU5asFk",
+          "url": "https://www.youtube.com/watch?v=AIT8ZU5asFk",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Singles General Semifinal Ronda 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-PISTA-SINGLES-GENERAL-SF2",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "pista_singles_general",
+      "stage": "semifinal",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "HntSfPqQ_5w",
+          "url": "https://www.youtube.com/watch?v=HntSfPqQ_5w",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Singles General  Semifinal Ronta 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-MILONGA-SF2",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "milonga",
+      "stage": "semifinal",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "-JMEEKOVhmY",
+          "url": "https://www.youtube.com/watch?v=-JMEEKOVhmY",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Milonga Semifinal Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-MILONGA-SF1",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "milonga",
+      "stage": "semifinal",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "tY7hN_bjRBE",
+          "url": "https://www.youtube.com/watch?v=tY7hN_bjRBE",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Milonga Semifinal Ronda 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-VALS-SF3",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "vals",
+      "stage": "semifinal",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "f5glXxmJKHk",
+          "url": "https://www.youtube.com/watch?v=f5glXxmJKHk",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Vals Semifinal Ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-VALS-SF2",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "vals",
+      "stage": "semifinal",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "LQ6iKkX4CKQ",
+          "url": "https://www.youtube.com/watch?v=LQ6iKkX4CKQ",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Vals Semifinal Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-VALS-SF1",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "vals",
+      "stage": "semifinal",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "Zp42-OwW1YA",
+          "url": "https://www.youtube.com/watch?v=Zp42-OwW1YA",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Vals Semifinal Ronda 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-PISTA-SINGLES-GENERAL-Q06",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "pista_singles_general",
+      "stage": "qualifying",
+      "ronda_number": 6,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "JjHKeXON_7I",
+          "url": "https://www.youtube.com/watch?v=JjHKeXON_7I",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Singles General Qualification Ronda 6"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-PISTA-SINGLES-GENERAL-Q04",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "pista_singles_general",
+      "stage": "qualifying",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "BclJFMp6k5I",
+          "url": "https://www.youtube.com/watch?v=BclJFMp6k5I",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Singles General Qualification Ronda 4"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-PISTA-SINGLES-GENERAL-Q03",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "pista_singles_general",
+      "stage": "qualifying",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "m3QIRzuWrd8",
+          "url": "https://www.youtube.com/watch?v=m3QIRzuWrd8",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Singles General Qualification Ronda 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-PISTA-SINGLES-GENERAL-Q02",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "pista_singles_general",
+      "stage": "qualifying",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "e3-o4xke3t0",
+          "url": "https://www.youtube.com/watch?v=e3-o4xke3t0",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Singles General Qualification Ronda 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-PISTA-SINGLES-GENERAL-Q01",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "pista_singles_general",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "BItY3CLpxOs",
+          "url": "https://www.youtube.com/watch?v=BItY3CLpxOs",
+          "channel": "TangoCafe",
+          "title": "PTC 2025 Singles General Qualification Ronda 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2025-PISTA-Q16",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 16,
+      "songs": [
+        {
+          "song_id": "SONG-293",
+          "title": "Si la llegaran a ver",
+          "orchestra": "Juan D'Arienzo",
+          "order": 1
+        },
+        {
+          "song_id": "UNMATCHED-ANTIGUO_RELOJ_DE_COBRE",
+          "title": "Antiguo Reloj De Cobre",
+          "orchestra": "Osvaldo Pugliese",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-122",
+          "title": "La Viruta",
+          "orchestra": "Rodolfo Biagi",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "0eOU9vpskHs",
+          "url": "https://www.youtube.com/watch?v=0eOU9vpskHs",
+          "channel": "AiresDeMilonga",
+          "title": "16 Ronda tango pista Mundial de Tango 2025 08 24 #tangoba"
+        }
+      ],
+      "judges": [
+        "Fernando Carrasco",
+        "Silvina Valz",
+        "Graciela Gonzalez",
+        "Sebastian Bolivar",
+        "Laila Resk"
       ]
     }
   ]
