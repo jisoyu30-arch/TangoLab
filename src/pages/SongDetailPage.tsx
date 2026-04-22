@@ -211,8 +211,36 @@ export function SongDetailPage() {
       />
 
       <div className="flex-1 overflow-y-auto">
+        {/* 탭 네비게이션 — sticky */}
+        <div className="sticky top-0 z-20 bg-tango-ink/95 backdrop-blur-sm border-b border-tango-brass/20">
+          <div className="max-w-4xl mx-auto flex gap-0 overflow-x-auto">
+            {[
+              { anchor: 'overview', label: '개요' },
+              { anchor: 'strategy', label: '전략' },
+              { anchor: 'videos', label: '영상' },
+              { anchor: 'timeline', label: '타임라인' },
+              { anchor: 'network', label: '네트워크' },
+              { anchor: 'history', label: '히스토리' },
+            ].map(t => (
+              <a
+                key={t.anchor}
+                href={`#${t.anchor}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById(t.anchor)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }}
+                className="px-4 py-3 text-sm font-serif italic whitespace-nowrap text-tango-cream/60 hover:text-tango-brass border-b-2 border-transparent hover:border-tango-brass/50 transition-all"
+                style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}
+              >
+                {t.label}
+              </a>
+            ))}
+          </div>
+        </div>
+
         <div className="max-w-4xl mx-auto p-5 space-y-6">
           {/* 곡 정보 헤더 */}
+          <div id="overview"></div>
           <div className="bg-white/5 rounded-xl border border-tango-brass/10 p-6">
             <div className="flex items-start justify-between mb-4">
               <div>
@@ -308,6 +336,7 @@ export function SongDetailPage() {
             )}
           </div>
 
+          <div id="strategy"></div>
           {/* 전략 포인트 요약 (DanceGuide에서 추출) */}
           {guide && (
             <div className="bg-white/5 rounded-xl border border-tango-brass/10 p-5">
@@ -342,6 +371,7 @@ export function SongDetailPage() {
             </div>
           )}
 
+          <div id="videos"></div>
           {/* YouTube 플레이어 — 최대 2개, 각각 다른 대회/연도 */}
           {videos.length > 0 ? (
             <div className="space-y-4">
@@ -382,15 +412,18 @@ export function SongDetailPage() {
           {/* 춤 분석 */}
           <DanceAnalysis guide={guide} />
 
+          <div id="timeline"></div>
           {/* 라이프사이클 타임라인 (대회 출현 점 그래프) */}
           <SongLifecycleTimeline appearances={songAppearances} />
 
+          <div id="network"></div>
           {/* 공출현 네트워크 (이 곡과 자주 묶이는 곡들) */}
           {id && <SongCooccurrenceNetwork focusSongId={id} />}
 
           {/* 연도별 추이 */}
           <SongTrendChart data={trend} />
 
+          <div id="history"></div>
           {/* 곡별 대회 히스토리 — 론다 단위 */}
           <div className="bg-white/5 rounded-xl border border-tango-brass/10 p-5">
             <h3 className="text-sm font-semibold text-tango-brass mb-4">대회 히스토리</h3>

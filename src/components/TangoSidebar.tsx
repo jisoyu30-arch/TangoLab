@@ -6,6 +6,8 @@ const NAV_ITEMS = [
   { to: '/songs', label: 'Songs', sub: '곡 아카이브', num: '01', end: false },
   { to: '/tanda', label: 'Tandas', sub: '탄다 연구소', num: '02', end: false },
   { to: '/orchestra', label: 'Orchestras', sub: '악단 연구', num: '03', end: false },
+  { to: '/compare-orchestra', label: 'Duel', sub: '악단 비교', num: '03a', end: false },
+  { to: '/judges', label: 'Judges', sub: '심사위원', num: '03b', end: false },
   { to: '/trends', label: 'Trends', sub: '트렌드 분석', num: '04', end: false },
   { to: '/results', label: 'Rankings', sub: '대회 순위', num: '05', end: false },
   { to: '/quiz', label: 'Quiz', sub: '곡 맞추기', num: '06', end: false },

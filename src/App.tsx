@@ -25,6 +25,9 @@ const AIRecommendPage = lazy(() => import('./pages/AIRecommendPage').then(m => (
 const ChecklistPage = lazy(() => import('./pages/ChecklistPage').then(m => ({ default: m.ChecklistPage })));
 const MundialStoryPage = lazy(() => import('./pages/MundialStoryPage').then(m => ({ default: m.MundialStoryPage })));
 const FavoritesPage = lazy(() => import('./pages/FavoritesPage').then(m => ({ default: m.FavoritesPage })));
+const NotFoundPage = lazy(() => import('./pages/NotFoundPage').then(m => ({ default: m.NotFoundPage })));
+const OrchestraComparePage = lazy(() => import('./pages/OrchestraComparePage').then(m => ({ default: m.OrchestraComparePage })));
+const JudgesPage = lazy(() => import('./pages/JudgesPage').then(m => ({ default: m.JudgesPage })));
 
 function PageLoader() {
   return (
@@ -55,6 +58,8 @@ export function App() {
           <Route path="/mundial/:year" element={<Suspense fallback={<PageLoader />}><MundialStoryPage /></Suspense>} />
           <Route path="/mundial" element={<Suspense fallback={<PageLoader />}><MundialStoryPage /></Suspense>} />
           <Route path="/favorites" element={<Suspense fallback={<PageLoader />}><FavoritesPage /></Suspense>} />
+          <Route path="/compare-orchestra" element={<Suspense fallback={<PageLoader />}><OrchestraComparePage /></Suspense>} />
+          <Route path="/judges" element={<Suspense fallback={<PageLoader />}><JudgesPage /></Suspense>} />
           <Route path="/practice" element={<Suspense fallback={<PageLoader />}><PracticeBoardListPage /></Suspense>} />
           <Route path="/practice/:id" element={<Suspense fallback={<PageLoader />}><PracticeBoardDetailPage /></Suspense>} />
           <Route path="/compare" element={<Suspense fallback={<PageLoader />}><CompareRoomListPage /></Suspense>} />
@@ -65,6 +70,7 @@ export function App() {
           <Route path="/my-competitions/:id" element={<Suspense fallback={<PageLoader />}><MyCompetitionDetailPage /></Suspense>} />
           <Route path="/chat" element={<Suspense fallback={<PageLoader />}><TangoChatPage /></Suspense>} />
           <Route path="/song/:id" element={<Suspense fallback={<PageLoader />}><SongDetailPage /></Suspense>} />
+          <Route path="*" element={<Suspense fallback={<PageLoader />}><NotFoundPage /></Suspense>} />
         </Route>
       </Routes>
     </BrowserRouter>

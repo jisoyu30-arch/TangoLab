@@ -75,7 +75,7 @@ export function HomePage() {
       <div className="flex-1 overflow-y-auto bg-tango-ink">
 
         {/* ╔══════════ HERO COVER STORY ══════════╗ */}
-        <section className="relative min-h-[calc(100vh-56px)] overflow-hidden">
+        <section className="relative min-h-[75vh] md:min-h-[calc(100vh-56px)] overflow-hidden">
           {/* 배경 영상 (auto-play 대신 블러드 썸네일 + 클릭시 재생) */}
           <div className="absolute inset-0 bg-gradient-to-br from-tango-burgundy/30 via-tango-shadow to-tango-ink pointer-events-none" />
 
@@ -108,7 +108,7 @@ export function HomePage() {
           </div>
 
           {/* 메인 커버 콘텐츠 */}
-          <div className="relative z-10 flex flex-col min-h-[calc(100vh-56px)] justify-center max-w-5xl mx-auto px-6 md:px-12 py-24">
+          <div className="relative z-10 flex flex-col min-h-[75vh] md:min-h-[calc(100vh-56px)] justify-center max-w-5xl mx-auto px-6 md:px-12 py-16 md:py-24">
             {dailyTanda ? (
               <>
                 {/* Eyebrow */}

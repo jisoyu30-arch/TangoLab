@@ -24,8 +24,9 @@ export default {
         },
       },
       fontFamily: {
-        serif: ['"Cormorant Garamond"', '"Playfair Display"', 'Georgia', 'serif'],
-        display: ['"Playfair Display"', 'Georgia', 'serif'],
+        serif: ['"Cormorant Garamond"', '"Playfair Display"', '"Noto Serif KR"', '"Nanum Myeongjo"', 'Georgia', 'serif'],
+        display: ['"Playfair Display"', '"Nanum Myeongjo"', 'Georgia', 'serif'],
+        korean: ['"Noto Serif KR"', '"Nanum Myeongjo"', 'serif'],
         sans: ['"Inter"', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
       },
       animation: {
