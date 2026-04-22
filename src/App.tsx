@@ -9,6 +9,7 @@ const SongDetailPage = lazy(() => import('./pages/SongDetailPage').then(m => ({ 
 const CompetitionResultsPage = lazy(() => import('./pages/CompetitionResultsPage').then(m => ({ default: m.CompetitionResultsPage })));
 const TangoChatPage = lazy(() => import('./pages/TangoChatPage').then(m => ({ default: m.TangoChatPage })));
 const TandaLabPage = lazy(() => import('./pages/TandaLabPage').then(m => ({ default: m.TandaLabPage })));
+const TandaSimulatorPage = lazy(() => import('./pages/TandaSimulatorPage').then(m => ({ default: m.TandaSimulatorPage })));
 const OrchestraAnalysisPage = lazy(() => import('./pages/OrchestraAnalysisPage').then(m => ({ default: m.OrchestraAnalysisPage })));
 const PracticeBoardListPage = lazy(() => import('./pages/PracticeBoardListPage').then(m => ({ default: m.PracticeBoardListPage })));
 const PracticeBoardDetailPage = lazy(() => import('./pages/PracticeBoardDetailPage').then(m => ({ default: m.PracticeBoardDetailPage })));
@@ -52,6 +53,7 @@ export function App() {
           <Route path="/songs" element={<Suspense fallback={<PageLoader />}><TangoArchivePage /></Suspense>} />
           <Route path="/results" element={<Suspense fallback={<PageLoader />}><CompetitionResultsPage /></Suspense>} />
           <Route path="/tanda" element={<Suspense fallback={<PageLoader />}><TandaLabPage /></Suspense>} />
+          <Route path="/tanda-simulator" element={<Suspense fallback={<PageLoader />}><TandaSimulatorPage /></Suspense>} />
           <Route path="/orchestra" element={<Suspense fallback={<PageLoader />}><OrchestraAnalysisPage /></Suspense>} />
           <Route path="/trends" element={<Suspense fallback={<PageLoader />}><TrendsPage /></Suspense>} />
           <Route path="/quiz" element={<Suspense fallback={<PageLoader />}><SongQuizPage /></Suspense>} />

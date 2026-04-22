@@ -26,6 +26,7 @@ const NAV_GROUPS: NavGroup[] = [
     title: 'Championship Strategy',
     items: [
       { to: '/champions', label: 'Champions', sub: '우승자 분석', num: '★' },
+      { to: '/tanda-simulator', label: 'Simulator', sub: '탄다 시뮬레이터', num: '◎' },
       { to: '/mundial', label: 'Year Stories', sub: 'Mundial 연도별', num: '01' },
       { to: '/trends', label: 'Trends', sub: '트렌드 분석', num: '02' },
       { to: '/compare-year', label: 'Cross-Year', sub: '연도 비교', num: '03' },
