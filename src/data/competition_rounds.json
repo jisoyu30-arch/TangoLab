@@ -11384,6 +11384,51 @@
           "promedio": 8.643
         }
       ]
+    },
+    {
+      "round_id": "R-MUNDIAL2025-PISTA-SF6",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 6,
+      "songs": [
+        {
+          "song_id": "SONG-026",
+          "title": "Dos Fracasos",
+          "orchestra": "Miguel Caló y su Orquesta Típica con Alberto Podestá",
+          "order": 1
+        },
+        {
+          "song_id": "UNMATCHED-NO_ME_HABLEN_DE_ELLA",
+          "title": "No Me Hablen De Ella",
+          "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-025",
+          "title": "El Puntazo",
+          "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "KZ74jdSLkYY",
+          "url": "https://www.youtube.com/watch?v=KZ74jdSLkYY",
+          "channel": "AiresDeMilonga",
+          "title": "6 TANGO BAILE PISTA semifinal MUNDIAL DE TANGO 2025"
+        }
+      ],
+      "judges": [
+        "Moira Castellano",
+        "Stella Baez",
+        "Daniel Naccuchio",
+        "Dante Sanchez",
+        "Facundo de la Cruz",
+        "Jimena Hoeffner"
+      ]
     }
   ]
 }
