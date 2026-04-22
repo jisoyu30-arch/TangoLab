@@ -10892,6 +10892,97 @@
           "title": "Mundial de Tango Buenos Aires  2012 - Final - Ronda 1"
         }
       ]
+    },
+    {
+      "round_id": "R-MUNDIAL2025-PISTA-F2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "aSdv8UksKDk",
+          "url": "https://www.youtube.com/watch?v=aSdv8UksKDk",
+          "channel": "밀롱가",
+          "title": "Mira estA increíble RONDA 1 DE FINAL TANGO MUNDIAL PISTA"
+        }
+      ],
+      "rankings": [],
+      "judges": [
+        "Javier Rodriguez",
+        "Aoniken Quiroga",
+        "Cristina Sosa",
+        "Paola Tacceti",
+        "Diego Gauna",
+        "Roxana Suarez",
+        "Cristian Marquez"
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2025-PISTA-F3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [],
+      "rankings": [],
+      "judges": [
+        "Javier Rodriguez",
+        "Aoniken Quiroga",
+        "Cristina Sosa",
+        "Paola Tacceti",
+        "Diego Gauna",
+        "Roxana Suarez",
+        "Cristian Marquez"
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2025-PISTA-F4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [],
+      "rankings": [],
+      "judges": [
+        "Javier Rodriguez",
+        "Aoniken Quiroga",
+        "Cristina Sosa",
+        "Paola Tacceti",
+        "Diego Gauna",
+        "Roxana Suarez",
+        "Cristian Marquez"
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2025-PISTA-F5",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 5,
+      "songs": [],
+      "videos": [],
+      "rankings": [],
+      "judges": [
+        "Javier Rodriguez",
+        "Aoniken Quiroga",
+        "Cristina Sosa",
+        "Paola Tacceti",
+        "Diego Gauna",
+        "Roxana Suarez",
+        "Cristian Marquez"
+      ]
     }
   ]
 }
