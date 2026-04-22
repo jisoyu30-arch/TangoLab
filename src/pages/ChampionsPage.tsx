@@ -8,20 +8,42 @@ import { shortOrchestraName } from '../utils/tandaAnalysis';
 import { isPerformanceVideo } from '../utils/videoTypes';
 import roundsData from '../data/competition_rounds.json';
 import songsData from '../data/songs.json';
+import championsHistory from '../data/mundial_champions_history.json';
 import type { Song } from '../types/tango';
 
 const songs = songsData as Song[];
 const rounds = (roundsData as any).rounds;
 const songMap = new Map(songs.map(s => [s.song_id, s]));
 
-// 역대 우승자
-const CHAMPIONS: Record<string, { leader: string; follower: string; country: string }> = {
-  '2025': { leader: 'Diego Ortega', follower: 'Aldana Silveyra', country: 'Argentina' },
-  '2024': { leader: 'Brenno Lucas Márquez', follower: 'Fátima Caracoch', country: 'Argentina/Brazil' },
-  '2023': { leader: 'Suyay Quiroga', follower: 'Jhonny Carvajal', country: 'Argentina' },
-  '2022': { leader: 'Constanza Vieyto', follower: 'Ricardo Astrada', country: 'Argentina' },
-  '2019': { leader: 'Agustina Piaggio', follower: 'Maxim Gerasimov', country: 'Argentina/Russia' },
-};
+// 역대 우승자 — Wikipedia 기반 (2003~2025)
+interface ChampionEntry {
+  year: number;
+  category: 'pista' | 'escenario';
+  leader: string;
+  follower: string;
+  country: string;
+}
+const ALL_CHAMPIONS = championsHistory.champions as ChampionEntry[];
+
+// 현 심사위원 중 전 우승자 탐지용
+const CURRENT_JUDGES_WHO_WON = [
+  'Cristina Sosa', 'Daniel Nacucchio', 'Dante Sánchez', 'Dante Sanchez',
+  'Inés Muzzopappa', 'Ines Muzzopappa',
+  'Moira Castellano', 'Facundo de la Cruz', 'Jimena Hoeffner',
+  'Diego Ortega', 'María Inés Bogado', 'Maria Ines Bogado',
+];
+
+function championBadge(leader: string, follower: string): string | null {
+  const name1 = leader.toLowerCase();
+  const name2 = follower.toLowerCase();
+  for (const j of CURRENT_JUDGES_WHO_WON) {
+    const jn = j.toLowerCase();
+    if (name1.includes(jn) || name2.includes(jn) || jn.includes(name1) || jn.includes(name2)) {
+      return `🎓 현 심사위원`;
+    }
+  }
+  return null;
+}
 
 export function ChampionsPage() {
   const analysis = useMemo(() => {
@@ -77,7 +99,34 @@ export function ChampionsPage() {
     return { topOrchs, topSongs, positionFreq, totalFinalRondas: finalRoundsData.length, perfVideos, finalSongs };
   }, []);
 
-  const years = Object.keys(CHAMPIONS).sort().reverse();
+  // Pista 우승자 연도 역순
+  const pistaChampions = useMemo(
+    () => ALL_CHAMPIONS.filter(c => c.category === 'pista').sort((a, b) => b.year - a.year),
+    []
+  );
+
+  // 국적별 통계
+  const countryStats = useMemo(() => {
+    const stats: Record<string, number> = {};
+    for (const c of pistaChampions) {
+      const main = c.country.split('/')[0].trim();
+      stats[main] = (stats[main] || 0) + 1;
+    }
+    return Object.entries(stats).sort((a, b) => b[1] - a[1]);
+  }, [pistaChampions]);
+
+  // 중복 우승자 탐지
+  const multipleWins = useMemo(() => {
+    const counts: Record<string, { name: string; years: number[]; categories: string[] }> = {};
+    for (const c of ALL_CHAMPIONS) {
+      for (const name of [c.leader, c.follower]) {
+        if (!counts[name]) counts[name] = { name, years: [], categories: [] };
+        counts[name].years.push(c.year);
+        counts[name].categories.push(c.category);
+      }
+    }
+    return Object.values(counts).filter(x => x.years.length >= 2).sort((a, b) => b.years.length - a.years.length);
+  }, []);
 
   return (
     <>
@@ -98,36 +147,140 @@ export function ChampionsPage() {
             <OrnamentDivider className="mt-6" />
           </div>
 
-          {/* 역대 챔피언 */}
+          {/* 역대 챔피언 — Pista 2003~2025 */}
           <section>
-            <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-4">
-              Hall of Champions
+            <div className="flex items-baseline justify-between mb-4">
+              <div>
+                <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans">
+                  Hall of Champions
+                </div>
+                <h2 className="font-display text-2xl md:text-3xl text-tango-paper italic mt-1" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                  Pista 역대 우승자 · <em className="text-tango-brass">{pistaChampions.length}팀</em>
+                </h2>
+              </div>
+              <div className="text-right text-[10px] tracking-widest uppercase text-tango-cream/50">
+                2003–2025
+              </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {years.map(year => (
-                <Link
-                  key={year}
-                  to={`/mundial/${year}`}
-                  className="bg-tango-shadow/60 hover:bg-tango-shadow border border-tango-brass/20 hover:border-tango-brass/40 rounded-sm p-5 transition-all group"
-                >
-                  <div className="flex items-baseline justify-between mb-2">
-                    <span className="font-display text-3xl text-tango-brass font-bold italic leading-none" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
-                      {year}
+
+            {/* 국가별 분포 */}
+            <div className="mb-6 bg-tango-shadow/40 border border-tango-brass/15 rounded-sm p-4">
+              <div className="text-[10px] tracking-widest uppercase text-tango-cream/60 font-sans mb-2">
+                국가별 우승 분포
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {countryStats.map(([country, count]) => (
+                  <div key={country} className="bg-tango-ink border border-tango-brass/25 rounded-sm px-3 py-1.5">
+                    <span className="font-serif italic text-tango-paper" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                      {country}
                     </span>
-                    <span className="text-[10px] tracking-widest uppercase text-tango-cream/50 font-sans">
-                      {CHAMPIONS[year].country}
-                    </span>
+                    <span className="text-tango-brass font-semibold ml-2">{count}회</span>
                   </div>
-                  <h3 className="font-display italic text-xl text-tango-paper group-hover:text-tango-brass transition-colors" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
-                    {CHAMPIONS[year].leader}
-                  </h3>
-                  <p className="font-serif italic text-sm text-tango-cream/70 mt-0.5" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
-                    & {CHAMPIONS[year].follower}
-                  </p>
-                </Link>
-              ))}
+                ))}
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+              {pistaChampions.map(c => {
+                const badge = championBadge(c.leader, c.follower);
+                const hasStoryPage = rounds.some((r: any) => r.year === c.year && r.stage === 'final');
+                const isRecent = c.year >= 2022;
+                return (
+                  <Link
+                    key={`${c.year}-${c.category}`}
+                    to={hasStoryPage ? `/mundial/${c.year}` : '#'}
+                    className={`relative border rounded-sm p-4 transition-all group ${
+                      isRecent
+                        ? 'bg-gradient-to-br from-tango-brass/10 via-tango-shadow to-tango-ink border-tango-brass/40 hover:border-tango-brass'
+                        : 'bg-tango-shadow/50 border-tango-brass/15 hover:border-tango-brass/30'
+                    }`}
+                  >
+                    <div className="flex items-baseline justify-between mb-2">
+                      <span className={`font-display font-bold italic leading-none ${isRecent ? 'text-3xl text-tango-brass' : 'text-2xl text-tango-brass/70'}`} style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                        {c.year}
+                      </span>
+                      <span className="text-[9px] tracking-widest uppercase text-tango-cream/50 font-sans">
+                        {c.country}
+                      </span>
+                    </div>
+                    <h3 className="font-display italic text-base text-tango-paper group-hover:text-tango-brass transition-colors leading-tight" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                      {c.leader}
+                    </h3>
+                    <p className="font-serif italic text-[13px] text-tango-cream/70 mt-0.5 truncate" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                      & {c.follower}
+                    </p>
+                    {badge && (
+                      <div className="mt-2 text-[9px] px-1.5 py-0.5 inline-block bg-tango-brass/20 text-tango-brass rounded-sm border border-tango-brass/40">
+                        {badge}
+                      </div>
+                    )}
+                  </Link>
+                );
+              })}
+              <div className="relative border border-dashed border-white/10 rounded-sm p-4 flex flex-col items-center justify-center text-tango-cream/40">
+                <div className="font-display text-2xl italic" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>2020</div>
+                <div className="text-[10px] uppercase tracking-widest mt-1">COVID — 대회 취소</div>
+              </div>
             </div>
           </section>
+
+          {/* 🎓 심사위원이었던 전 우승자 */}
+          {(() => {
+            const judgesWhoWon = pistaChampions.filter(c => championBadge(c.leader, c.follower));
+            if (judgesWhoWon.length === 0) return null;
+            return (
+              <section className="bg-gradient-to-br from-tango-brass/10 via-tango-shadow to-tango-ink border border-tango-brass/30 rounded-sm p-6">
+                <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-2">
+                  Judge ≡ Former Champion
+                </div>
+                <h3 className="font-display italic text-2xl text-tango-paper mb-3" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                  지금 심사하는 사람이 <em className="text-tango-brass">과거에 우승</em>했다
+                </h3>
+                <p className="text-sm text-tango-paper/80 font-serif italic mb-4" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                  이들은 자신이 우승했던 기준으로 심사합니다 — 그들의 우승 연도 패턴을 분석해두면 현 대회 유리
+                </p>
+                <div className="space-y-2">
+                  {judgesWhoWon.map(c => (
+                    <div key={`${c.year}-judge`} className="flex items-baseline gap-4 text-sm border-b border-tango-brass/10 pb-2">
+                      <span className="text-tango-brass font-bold w-12">{c.year}</span>
+                      <span className="text-tango-paper font-serif italic flex-1" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                        {c.leader} & {c.follower}
+                      </span>
+                      <span className="text-[10px] text-tango-cream/50">{c.country}</span>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            );
+          })()}
+
+          {/* 다중 우승자 */}
+          {multipleWins.length > 0 && (
+            <section>
+              <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-3">
+                Multi-Champion Dancers
+              </div>
+              <h3 className="font-display italic text-2xl text-tango-paper mb-3" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                여러 번 우승한 <em className="text-tango-brass">커플들</em>
+              </h3>
+              <div className="space-y-2">
+                {multipleWins.map(p => (
+                  <div key={p.name} className="flex items-baseline gap-3 text-sm bg-tango-shadow/40 border border-tango-brass/15 rounded-sm px-4 py-2">
+                    <span className="font-serif italic text-tango-paper flex-1" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                      {p.name}
+                    </span>
+                    <span className="text-[10px] text-tango-cream/60">
+                      {p.years.sort((a, b) => a - b).join(' · ')}
+                    </span>
+                    <span className="text-tango-brass font-bold">{p.years.length}회</span>
+                    <span className="text-[10px] text-tango-cream/50">
+                      ({[...new Set(p.categories)].join(', ')})
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
 
           {/* 결승 악단 TOP 8 */}
           <section>
