@@ -288,10 +288,11 @@
     "lyricist": null,
     "mood_tags": [
       "nostalgic",
-      "youthful",
-      "lyrical"
+      "melodic",
+      "expressive",
+      "traditional"
     ],
-    "tempo": "medium",
+    "tempo": "slow",
     "dance_notes": "Pugliese 19세(1924년)에 작곡. 첫 녹음은 Julio De Caro(1926), Pugliese 자신의 녹음은 1944년. 서정적이면서도 Pugliese 특유의 드라마가 있음.",
     "source_confidence": "B",
     "evidence_note": "Wikipedia에서 작곡(1924), De Caro 녹음(1926) 확인. Pugliese 자체 녹음연도 1944년은 일반 출처 기준.",
@@ -357,9 +358,10 @@
     "composer": "Francisco Canaro / Ivo Pelay",
     "lyricist": "Ivo Pelay",
     "mood_tags": [
-      "assertive",
       "traditional",
-      "proud"
+      "melodic",
+      "expressive",
+      "vocal_focused"
     ],
     "tempo": "medium",
     "dance_notes": "탱고는 탱고다 — 전통 탱고의 정체성을 선언하는 곡. Castillo의 강렬한 보컬.",
@@ -471,8 +473,13 @@
     "recording_date": "1942",
     "composer": null,
     "lyricist": null,
-    "mood_tags": [],
-    "tempo": null,
+    "mood_tags": [
+      "rhythmic",
+      "expressive",
+      "vocal_focused",
+      "traditional"
+    ],
+    "tempo": "medium",
     "dance_notes": "2024 Mundial Final Pista R1에서 사용됨. YouTube 음악 인식으로 확인.",
     "source_confidence": "B",
     "evidence_note": "YouTube 영상(tn_1QNxRg7A) 음악 인식에서 'Pedro Laurenz con Martin Podesta' 확인. 녹음연도/작곡자 미확인 — el-recodo 교차확인 필요.",
@@ -490,10 +497,12 @@
     "composer": "Emilio Balcarce",
     "lyricist": null,
     "mood_tags": [
-      "instrumental",
-      "classic"
+      "traditional",
+      "nostalgic",
+      "expressive",
+      "rubato"
     ],
-    "tempo": null,
+    "tempo": "medium",
     "dance_notes": "2024 Mundial Final Pista R1에서 사용됨. 인스트루멘탈. YouTube 음악 인식으로 확인.",
     "source_confidence": "B",
     "evidence_note": "YouTube 영상(tn_1QNxRg7A) 음악 인식에서 'La Bordona (Instrumental) - Aníbal Troilo' 확인.",
@@ -513,9 +522,12 @@
     "composer": "Juan D'Arienzo / Héctor Varela",
     "lyricist": null,
     "mood_tags": [
-      "rhythmic"
+      "rhythmic",
+      "energetic",
+      "powerful",
+      "traditional"
     ],
-    "tempo": null,
+    "tempo": "fast",
     "dance_notes": "2024 Mundial Final Pista R1에서 사용됨. YouTube 음악 인식으로 확인.",
     "source_confidence": "B",
     "evidence_note": "YouTube 영상(tn_1QNxRg7A) 음악 인식에서 'El Simpatico - Juan d'Arienzo' 확인.",
@@ -576,9 +588,12 @@
     "composer": "Miguel Caló",
     "lyricist": "Homero Expósito",
     "mood_tags": [
-      "vocal"
+      "elegant",
+      "melodic",
+      "lyrical",
+      "smooth"
     ],
-    "tempo": null,
+    "tempo": "medium",
     "dance_notes": "2024 Mundial Final Pista R3에서 사용됨. Alberto Podestá 보컬 확인. 오케스트라 미확인 (Di Sarli 또는 Troilo 추정).",
     "source_confidence": "A",
     "evidence_note": "el-recodo.com에서 확인. Miguel Caló 1941년 녹음, vocalist Alberto Podestá, 작곡 Miguel Caló, 작사 Homero Expósito.",
@@ -660,10 +675,12 @@
     "composer": "Juan D'Arienzo / Francisco Gorrindo",
     "lyricist": null,
     "mood_tags": [
-      "vocal",
-      "expressive"
+      "rhythmic",
+      "marcato",
+      "energetic",
+      "powerful"
     ],
-    "tempo": null,
+    "tempo": "fast",
     "dance_notes": "2024 Mundial Final Pista R4에서 사용됨. D'Arienzo-Echagüe 조합. YouTube 음악 인식에서 'Ausencia/Paciencia' 두 이름으로 표시.",
     "source_confidence": "B",
     "evidence_note": "YouTube 영상(vfNkamPH9-M) 음악 인식에서 'Paciencia - Juan D'Arienzo y su Orquesta Típica, Alberto Echagüe' 확인. 'Ausencia'와 병기.",
@@ -682,8 +699,13 @@
     "recording_date": "1942",
     "composer": "Osmar Maderna / Miguel Caló",
     "lyricist": null,
-    "mood_tags": [],
-    "tempo": null,
+    "mood_tags": [
+      "nostalgic",
+      "emotional",
+      "vocal_focused",
+      "melodic"
+    ],
+    "tempo": "slow",
     "dance_notes": "2023 Mundial Final Pista R1에서 사용.",
     "source_confidence": "A",
     "evidence_note": "el-recodo 확인. Miguel Caló 1942년 녹음, vocalist Raúl Berón.",
@@ -722,8 +744,13 @@
     "recording_date": "1951",
     "composer": "José Dionisio Fuster",
     "lyricist": null,
-    "mood_tags": [],
-    "tempo": null,
+    "mood_tags": [
+      "rhythmic",
+      "energetic",
+      "traditional",
+      "marcato"
+    ],
+    "tempo": "medium",
     "dance_notes": "2023 Mundial Final Pista R1에서 사용.",
     "source_confidence": "B",
     "evidence_note": "교차확인: el-recodo에이전트는 D'Arienzo 1951, 기존에는 Troilo 1943. 대회 버전은 YouTube 음악인식으로 재확인 필요.",
@@ -781,10 +808,12 @@
     "composer": "Pedro Maffia / Sebastián Piana",
     "lyricist": null,
     "mood_tags": [
-      "vocal",
-      "emotional"
+      "vocal_focused",
+      "lyrical",
+      "emotional",
+      "smooth"
     ],
-    "tempo": null,
+    "tempo": "medium",
     "dance_notes": "2023 Mundial Final Pista R2에서 사용. Troilo/Fiorentino 조합.",
     "source_confidence": "B",
     "evidence_note": "YouTube 영상(36rHYDmX3Sk) 음악 인식 + 검색결과 영상 제목에서 'Aníbal Troilo/Francisco Fiorentino' 확인.",
@@ -802,9 +831,12 @@
     "composer": "Emilio Marchiano",
     "lyricist": null,
     "mood_tags": [
-      "emotional"
+      "emotional",
+      "vocal_focused",
+      "romantic",
+      "nostalgic"
     ],
-    "tempo": null,
+    "tempo": "slow",
     "dance_notes": "2023 Mundial Final Pista R3에서 사용.",
     "source_confidence": "A",
     "evidence_note": "el-recodo 확인. Ricardo Tanturi 1943년 녹음, vocalist Enrique Campos.",
@@ -821,8 +853,13 @@
     "recording_date": "1941",
     "composer": "Vicente Greco",
     "lyricist": null,
-    "mood_tags": [],
-    "tempo": null,
+    "mood_tags": [
+      "rhythmic",
+      "traditional",
+      "expressive",
+      "nostalgic"
+    ],
+    "tempo": "medium",
     "dance_notes": "2023 Mundial Final Pista R3에서 사용.",
     "source_confidence": "A",
     "evidence_note": "el-recodo 확인. Ricardo Tanturi 1941년 인스트루멘탈. 2012+2023 결승에서 사용됨.",
@@ -857,8 +894,13 @@
     "recording_date": "1942",
     "composer": "Roberto Firpo / Homero Manzi",
     "lyricist": null,
-    "mood_tags": [],
-    "tempo": null,
+    "mood_tags": [
+      "traditional",
+      "melodic",
+      "vocal_focused",
+      "romantic"
+    ],
+    "tempo": "medium",
     "dance_notes": "2022 Mundial Final Pista R1에서 사용.",
     "source_confidence": "B",
     "evidence_note": "Abrazo tv 2022 R1 챕터에서 'Miguel Calo - Barrio de Tango' 확인.",
@@ -875,8 +917,13 @@
     "recording_date": "1945",
     "composer": "Juan D'Arienzo / Héctor Varela",
     "lyricist": null,
-    "mood_tags": [],
-    "tempo": null,
+    "mood_tags": [
+      "rhythmic",
+      "energetic",
+      "traditional",
+      "vocal_focused"
+    ],
+    "tempo": "fast",
     "dance_notes": "2022 Mundial Final Pista R1에서 사용.",
     "source_confidence": "B",
     "evidence_note": "Abrazo tv 2022 R1 챕터에서 'Juan D'Arienzo - El nene del Abasto' 확인.",
@@ -896,9 +943,12 @@
     "composer": "Osvaldo Pugliese",
     "lyricist": null,
     "mood_tags": [
-      "dramatic"
+      "nostalgic",
+      "emotional",
+      "vocal_focused",
+      "melodic"
     ],
-    "tempo": null,
+    "tempo": "slow",
     "dance_notes": "2022 Mundial Final Pista R2에서 사용. Korea Tango Championship 2022에서도 사용됨.",
     "source_confidence": "B",
     "evidence_note": "Abrazo tv 2022 R2 + Korea TC 2022 챕터에서 'Osvaldo Pugliese - Adios Bardi' 확인.",
@@ -937,9 +987,11 @@
     "lyricist": null,
     "mood_tags": [
       "romantic",
-      "nocturnal"
+      "smooth",
+      "vocal_focused",
+      "nostalgic"
     ],
-    "tempo": null,
+    "tempo": "slow",
     "dance_notes": "2022 Mundial Final Pista R3에서 사용.",
     "source_confidence": "B",
     "evidence_note": "Abrazo tv 2022 R3 챕터에서 'Carlos Di Sarli - Esta noche de luna' 확인.",
@@ -974,8 +1026,13 @@
     "recording_date": "1944",
     "composer": "Francisco Canaro / Ivo Pelay",
     "lyricist": null,
-    "mood_tags": [],
-    "tempo": null,
+    "mood_tags": [
+      "traditional",
+      "nostalgic",
+      "smooth",
+      "expressive"
+    ],
+    "tempo": "slow",
     "dance_notes": "2022 Mundial Final Pista R4에서 사용.",
     "source_confidence": "B",
     "evidence_note": "Abrazo tv 2022 R4 챕터에서 'Carlos Di Sarli - Indio Manso' 확인.",
@@ -1055,10 +1112,12 @@
     "composer": "Ricardo Tanturi",
     "lyricist": null,
     "mood_tags": [
-      "festive",
-      "vocal"
+      "traditional",
+      "melodic",
+      "vocal_focused",
+      "nostalgic"
     ],
-    "tempo": null,
+    "tempo": "medium",
     "dance_notes": "2019 Mundial Final Pista R2. Tanturi-Castillo 조합.",
     "source_confidence": "B",
     "evidence_note": "탱고마스터 YouTube 챕터: 'Bailongo de los Domingos / Tanturi-Castillo'",
@@ -1118,10 +1177,12 @@
     "composer": "Carlos Di Sarli",
     "lyricist": null,
     "mood_tags": [
-      "instrumental",
-      "elegant"
+      "elegant",
+      "melodic",
+      "smooth",
+      "nostalgic"
     ],
-    "tempo": null,
+    "tempo": "medium",
     "dance_notes": "2019 Mundial Final Pista R4. Di Sarli 인스트루멘탈.",
     "source_confidence": "B",
     "evidence_note": "탱고마스터 YouTube 챕터: 'Viviani / Di Sarli'",
@@ -1179,8 +1240,13 @@
     "recording_date": "1944",
     "composer": "Esteban Laureano Mauri",
     "lyricist": null,
-    "mood_tags": [],
-    "tempo": null,
+    "mood_tags": [
+      "dramatic",
+      "emotional",
+      "vocal_focused",
+      "nostalgic"
+    ],
+    "tempo": "slow",
     "dance_notes": "Korea Tango Championship 2022 (Metropolitan) Pista Final에서 사용.",
     "source_confidence": "B",
     "evidence_note": "Abrazo tv 2022 Korea TC 챕터: 'Siete Palabras - Carlos Di Sarli'",
@@ -1197,8 +1263,13 @@
     "recording_date": "1941",
     "composer": "Juan D'Arienzo / Héctor Varela",
     "lyricist": null,
-    "mood_tags": [],
-    "tempo": null,
+    "mood_tags": [
+      "rhythmic",
+      "energetic",
+      "powerful",
+      "vocal_focused"
+    ],
+    "tempo": "medium",
     "dance_notes": "Korea Tango Championship 2022 (Metropolitan) Pista Final에서 사용.",
     "source_confidence": "B",
     "evidence_note": "Abrazo tv 2022 Korea TC 챕터: 'El Olivo - Juan D'Arienzo'",
@@ -1269,8 +1340,13 @@
     "recording_date": "1942",
     "composer": "Alfredo De Angelis / José Rótulo",
     "lyricist": null,
-    "mood_tags": [],
-    "tempo": null,
+    "mood_tags": [
+      "rhythmic",
+      "expressive",
+      "vocal_focused",
+      "nostalgic"
+    ],
+    "tempo": "medium",
     "dance_notes": "Thanh Dang 채널 크롤링으로 수집. 2025 Mundial qualifying에서 사용.",
     "source_confidence": "B",
     "evidence_note": "Thanh Dang YouTube 설명란: 'Cuatro Compases - Raul Beron - Miguel Caló - 1942'",
@@ -1413,8 +1489,13 @@
     "recording_date": "1955",
     "composer": "Eduardo Arolas",
     "lyricist": null,
-    "mood_tags": [],
-    "tempo": null,
+    "mood_tags": [
+      "elegant",
+      "melodic",
+      "smooth",
+      "nostalgic"
+    ],
+    "tempo": "medium",
     "dance_notes": "Thanh Dang 채널 크롤링으로 수집. 2025 Mundial qualifying에서 사용.",
     "source_confidence": "B",
     "evidence_note": "Thanh Dang YouTube 설명란: 'Comme Il Faut - Instrumental - Carlos di Sarli - 1955'",
@@ -1665,8 +1746,13 @@
     "recording_date": "1945",
     "composer": "Julio De Caro / José González Castillo",
     "lyricist": null,
-    "mood_tags": [],
-    "tempo": null,
+    "mood_tags": [
+      "rhythmic",
+      "marcato",
+      "powerful",
+      "traditional"
+    ],
+    "tempo": "medium",
     "dance_notes": "Thanh Dang 채널 크롤링으로 수집. 2018 Mundial semifinal에서 사용.",
     "source_confidence": "B",
     "evidence_note": "Thanh Dang YouTube 설명란: 'Pugliese - Instrumental - Pelele - 1945'",
@@ -1953,8 +2039,13 @@
     "recording_date": "1939",
     "composer": "Juan D'Arienzo / Héctor Varela",
     "lyricist": null,
-    "mood_tags": [],
-    "tempo": null,
+    "mood_tags": [
+      "rhythmic",
+      "marcato",
+      "energetic",
+      "traditional"
+    ],
+    "tempo": "medium",
     "dance_notes": "Thanh Dang 채널 크롤링으로 수집. 2018 Mundial semifinal에서 사용.",
     "source_confidence": "B",
     "evidence_note": "Thanh Dang YouTube 설명란: 'D'Arienzo - Instrumental - Por Qué Razón - 1939'",
@@ -2079,8 +2170,13 @@
     "recording_date": "1938",
     "composer": "Juan D'Arienzo",
     "lyricist": null,
-    "mood_tags": [],
-    "tempo": null,
+    "mood_tags": [
+      "rhythmic",
+      "energetic",
+      "traditional",
+      "marcato"
+    ],
+    "tempo": "fast",
     "dance_notes": "Thanh Dang 채널 크롤링으로 수집. 2018 Mundial semifinal에서 사용.",
     "source_confidence": "B",
     "evidence_note": "Thanh Dang YouTube 설명란: 'D'Arienzo - Instrumental - Champagne Tango - 1938'",
@@ -2097,8 +2193,13 @@
     "recording_date": "1944",
     "composer": "Mario Melfi",
     "lyricist": null,
-    "mood_tags": [],
-    "tempo": null,
+    "mood_tags": [
+      "rhythmic",
+      "vocal_focused",
+      "elegant",
+      "melodic"
+    ],
+    "tempo": "medium",
     "dance_notes": "Thanh Dang 채널 크롤링으로 수집. 2018 Mundial semifinal에서 사용.",
     "source_confidence": "B",
     "evidence_note": "파싱 오류 수정. 원래 'Angelis - Bajo el Cono Azul'에서 곡명/오케스트라가 뒤바뀌었음. De Angelis 오케스트라의 대표 인스트루멘탈.",
@@ -2169,8 +2270,13 @@
     "recording_date": "1943",
     "composer": "Carlos Di Sarli",
     "lyricist": null,
-    "mood_tags": [],
-    "tempo": null,
+    "mood_tags": [
+      "nostalgic",
+      "melodic",
+      "smooth",
+      "elegant"
+    ],
+    "tempo": "slow",
     "dance_notes": "Thanh Dang 채널 크롤링으로 수집. 2018 Mundial final에서 사용.",
     "source_confidence": "B",
     "evidence_note": "Thanh Dang YouTube 설명란: 'Di Sarli - Instrumental - Ensueños  - 1943'",
@@ -2187,8 +2293,13 @@
     "recording_date": "1939",
     "composer": "Francisco Canaro / Ivo Pelay",
     "lyricist": null,
-    "mood_tags": [],
-    "tempo": null,
+    "mood_tags": [
+      "rhythmic",
+      "energetic",
+      "powerful",
+      "traditional"
+    ],
+    "tempo": "fast",
     "dance_notes": "Thanh Dang 채널 크롤링으로 수집. 2018 Mundial final에서 사용.",
     "source_confidence": "B",
     "evidence_note": "Thanh Dang YouTube 설명란: 'D'Arienzo - Echagüe - Mandria - 1939'",
@@ -2385,8 +2496,13 @@
     "recording_date": "1941",
     "composer": null,
     "lyricist": null,
-    "mood_tags": [],
-    "tempo": null,
+    "mood_tags": [
+      "rhythmic",
+      "marcato",
+      "energetic",
+      "vocal_focused"
+    ],
+    "tempo": "fast",
     "dance_notes": "Thanh Dang 채널 크롤링으로 수집. 2017 Mundial semifinal에서 사용.",
     "source_confidence": "B",
     "evidence_note": "Thanh Dang YouTube 설명란: 'D'Arienzo - Maure - Humillacion - 1941'",

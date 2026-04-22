@@ -22,7 +22,7 @@ const argv = process.argv.slice(2);
 const LIMIT = parseInt((argv.find(a => a.startsWith('--limit=')) || '').replace('--limit=', '')) || 30;
 const DRY_RUN = argv.includes('--dry-run');
 const API_KEY = process.env.GEMINI_API_KEY || process.env.VITE_GEMINI_API_KEY;
-const MODEL = 'gemini-2.5-flash';
+const MODEL = 'gemini-2.5-flash-lite'; // 무료 티어 15 RPM, 1000 RPD
 
 if (!API_KEY) {
   console.error('❌ GEMINI_API_KEY 환경변수 필요');
@@ -165,8 +165,8 @@ ${song.recording_date ? `녹음연도: ${song.recording_date}` : ''}
       console.log(`✗ ${e.message.slice(0, 60)}`);
     }
 
-    // rate limit — free tier: 매우 안전하게 20초 (3 RPM)
-    await new Promise(r => setTimeout(r, 20000));
+    // Flash-Lite 무료: 15 RPM → 5초 간격 (12 RPM 안전)
+    await new Promise(r => setTimeout(r, 5000));
   }
 
   if (!DRY_RUN) {
