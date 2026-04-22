@@ -45,7 +45,12 @@ function parseEntry(title) {
   const noise = /campeones|campeon|premio|premio|entrevista|interview|highlight|top\s*\d|homenaje|show|apertura|cierre|fashion|moda|reflejo|bailaron|baile.*inclu/i;
   if (!ronda && noise.test(title)) return null;
 
-  return { year, stage, ronda };
+  // day 판별 (clasificatoria 전용) — día 1 / día 2
+  let day = null;
+  const dayMatch = title.match(/d(?:ía|a|\u00ed?a)\s*(\d)/i);
+  if (dayMatch) day = parseInt(dayMatch[1]);
+
+  return { year, stage, ronda, day };
 }
 
 function roundIdFor(year, stage, ronda, category = 'pista') {
@@ -88,6 +93,9 @@ const playlistFiles = [
   { file: '2019-mundial.txt', channel: 'AiresDeMilonga' },
   { file: '2021-mundial.txt', channel: 'AiresDeMilonga' },
   { file: 'finals-2010-2024.txt', channel: 'Mundial Historic' },
+  { file: '2024-mundial-curated.txt', channel: 'AiresDeMilonga' },
+  { file: '2024-martin-iarussi-curated.txt', channel: 'Martín Iarussi' },
+  { file: 'martin-iarussi.txt', channel: 'Martín Iarussi' },
 ];
 
 const stats = { added: 0, exists: 0, skipped: 0, parsed: 0 };
