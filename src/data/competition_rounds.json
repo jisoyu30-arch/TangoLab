@@ -11429,6 +11429,96 @@
         "Facundo de la Cruz",
         "Jimena Hoeffner"
       ]
+    },
+    {
+      "round_id": "R-MUNDIAL2025-PISTA-SF2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "UNMATCHED-SI_SUPIERA_QUE_LA_EXTRANO",
+          "title": "Si supiera que la extraño",
+          "orchestra": "Juan D'Arienzo",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-024",
+          "title": "Abandono",
+          "orchestra": "Pedro Laurenz",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-180",
+          "title": "Milongueando en el '40",
+          "orchestra": "Aníbal Troilo",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "BT6MWQQhFd8",
+          "url": "https://www.youtube.com/watch?v=BT6MWQQhFd8",
+          "channel": "AiresDeMilonga",
+          "title": "2 TANGO BAILE PISTA semifinal MUNDIAL DE TANGO 2025"
+        }
+      ],
+      "judges": [
+        "Moira Castellano",
+        "Stella Baez",
+        "Daniel Naccuchio",
+        "Dante Sanchez",
+        "Facundo de la Cruz",
+        "Jimena Hoeffner"
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2025-PISTA-SF3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2025,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 3,
+      "songs": [
+        {
+          "song_id": "SONG-363",
+          "title": "Cartón Junao",
+          "orchestra": "Juan D'Arienzo",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-021",
+          "title": "Al Verla Pasar",
+          "orchestra": "Pedro Laurenz con Martín Podestá",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-038",
+          "title": "Comparsa Criolla",
+          "orchestra": "Ricardo Tanturi",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "2Rwu12kDR3o",
+          "url": "https://www.youtube.com/watch?v=2Rwu12kDR3o",
+          "channel": "AiresDeMilonga",
+          "title": "3 TANGO BAILE PISTA semifinal MUNDIAL DE TANGO 2025"
+        }
+      ],
+      "judges": [
+        "Moira Castellano",
+        "Stella Baez",
+        "Daniel Naccuchio",
+        "Dante Sanchez",
+        "Facundo de la Cruz",
+        "Jimena Hoeffner"
+      ]
     }
   ]
 }
