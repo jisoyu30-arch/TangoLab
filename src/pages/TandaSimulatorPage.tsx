@@ -5,6 +5,7 @@ import { PageHeader } from '../components/PageHeader';
 import { OrnamentDivider } from '../components/editorial';
 import songsData from '../data/songs.json';
 import roundsData from '../data/competition_rounds.json';
+import { isPerformanceVideo } from '../utils/videoTypes';
 import type { Song } from '../types/tango';
 
 const songs = songsData as Song[];
@@ -50,6 +51,66 @@ const strategyMap: Map<string, SongStrat> = (() => {
     else entry.tier = 'unknown';
   }
   return map;
+})();
+
+// 🏆 역대 우승 탄다 DB (Mundial 결승 + rank 1 커플)
+interface ChampionTanda {
+  round_id: string;
+  year: number;
+  competition: string;
+  category: string;
+  champion: string; // "leader & follower"
+  promedio: number;
+  songs: Array<{ song_id: string; title: string; orchestra: string; order: number }>;
+  videoId: string | null;
+  orchestraId: string | null; // 대표 악단 (과반)
+  primaryGenre: string | null;
+  yearMin: number;
+  yearMax: number;
+}
+
+const championTandas: ChampionTanda[] = (() => {
+  const result: ChampionTanda[] = [];
+  for (const r of allRoundsRaw) {
+    if (r.stage !== 'final') continue;
+    const winner = r.rankings?.find((rk: any) => rk.rank === 1);
+    if (!winner) continue;
+    if (!r.songs || r.songs.length === 0) continue;
+
+    // 대표 악단: 과반
+    const orchCount: Record<string, number> = {};
+    const genreCount: Record<string, number> = {};
+    const years: number[] = [];
+    for (const s of r.songs) {
+      const meta = songMap.get(s.song_id);
+      const oid = meta?.orchestra_id;
+      if (oid) orchCount[oid] = (orchCount[oid] ?? 0) + 1;
+      if (meta?.genre) genreCount[meta.genre] = (genreCount[meta.genre] ?? 0) + 1;
+      if (meta?.recording_date) {
+        const y = parseInt(meta.recording_date);
+        if (!isNaN(y)) years.push(y);
+      }
+    }
+    const topOrch = Object.entries(orchCount).sort((a, b) => b[1] - a[1])[0];
+    const topGenre = Object.entries(genreCount).sort((a, b) => b[1] - a[1])[0];
+
+    const perfVid = (r.videos || []).find((v: any) => isPerformanceVideo(v));
+    result.push({
+      round_id: r.round_id,
+      year: r.year,
+      competition: r.competition,
+      category: r.category,
+      champion: `${winner.leader} & ${winner.follower}`,
+      promedio: winner.promedio,
+      songs: r.songs,
+      videoId: perfVid?.video_id ?? null,
+      orchestraId: topOrch ? topOrch[0] : null,
+      primaryGenre: topGenre ? topGenre[0] : null,
+      yearMin: years.length > 0 ? Math.min(...years) : 0,
+      yearMax: years.length > 0 ? Math.max(...years) : 0,
+    });
+  }
+  return result;
 })();
 
 const STORAGE_KEY = 'tango_simulator_draft';
@@ -170,6 +231,60 @@ export function TandaSimulatorPage() {
       totalChampionUses, totalFinalUses,
       tiers, posHints, orchCount: orchIds.size, years,
     };
+  }, [pickedSongs]);
+
+  // 🏆 닮은 우승 탄다 TOP 3
+  const similarChampions = useMemo(() => {
+    const filled = pickedSongs.filter((s): s is Song => !!s);
+    if (filled.length < 2) return [];
+
+    const mySongIds = new Set(filled.map(s => s.song_id));
+    const myOrchIds = new Set(filled.map(s => s.orchestra_id).filter(Boolean));
+    const myGenres = new Set(filled.map(s => s.genre));
+    const myYears = filled.map(s => s.recording_date ? parseInt(s.recording_date) : null).filter((y): y is number => y !== null);
+    const myYearAvg = myYears.length > 0 ? myYears.reduce((a, b) => a + b, 0) / myYears.length : 0;
+
+    const scored = championTandas.map(ct => {
+      // 1) 곡 겹침 (40점) — jaccard 유사도
+      const ctSongIds = new Set(ct.songs.map(s => s.song_id));
+      const intersect = [...mySongIds].filter(id => ctSongIds.has(id)).length;
+      const union = new Set([...mySongIds, ...ctSongIds]).size;
+      const songOverlap = union > 0 ? intersect / union : 0;
+      const songScore = songOverlap * 40;
+
+      // 2) 악단 일치 (30점) — 대표 악단이 내 악단들과 일치
+      const orchScore = ct.orchestraId && myOrchIds.has(ct.orchestraId) ? 30 : 0;
+
+      // 3) 장르 일치 (20점)
+      const genreScore = ct.primaryGenre && myGenres.has(ct.primaryGenre) ? 20 : 0;
+
+      // 4) 연도 근접 (10점) — 5년 이내 중앙값
+      let yearScore = 0;
+      if (myYearAvg > 0 && ct.yearMin > 0) {
+        const ctYearAvg = (ct.yearMin + ct.yearMax) / 2;
+        const diff = Math.abs(myYearAvg - ctYearAvg);
+        if (diff <= 3) yearScore = 10;
+        else if (diff <= 7) yearScore = 6;
+        else if (diff <= 15) yearScore = 2;
+      }
+
+      const total = songScore + orchScore + genreScore + yearScore;
+
+      // 차이점 생성
+      const diffs: string[] = [];
+      if (intersect > 0) diffs.push(`곡 ${intersect}개 공유`);
+      if (orchScore > 0) diffs.push('악단 일치');
+      else if (ct.orchestraId) {
+        const orchName = songs.find(s => s.orchestra_id === ct.orchestraId)?.orchestra?.split(' ').slice(0, 2).join(' ') || '';
+        if (orchName) diffs.push(`악단 차이: ${orchName}`);
+      }
+      if (genreScore === 0 && ct.primaryGenre) diffs.push(`장르 ${ct.primaryGenre}`);
+
+      return { tanda: ct, score: Math.round(total), intersect, diffs };
+    }).filter(x => x.score > 0);
+
+    scored.sort((a, b) => b.score - a.score);
+    return scored.slice(0, 3);
   }, [pickedSongs]);
 
   const updateSlot = (idx: number, songId: string | null) => {
@@ -409,6 +524,107 @@ export function TandaSimulatorPage() {
               ★ 우승 탄다 포함 (gold) · ◆ 결승 2회+ (silver) · ◇ 결승 1회 (bronze) · ○ 결승 이력 없음
             </div>
           </div>
+
+          {/* 🏆 닮은 우승 탄다 TOP 3 */}
+          {similarChampions.length > 0 && (
+            <div>
+              <div className="flex items-center justify-between mb-3">
+                <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans">
+                  Champion Benchmark · 닮은 우승 탄다
+                </div>
+                <Link to="/champions" className="text-[10px] text-tango-brass hover:underline">전체 →</Link>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {similarChampions.map(({ tanda, score, intersect, diffs }) => {
+                  const stageLabel = tanda.category === 'vals' ? '발스' : tanda.category === 'milonga' ? '밀롱가' : '피스타';
+                  const myIds = new Set(pickedSongs.filter(Boolean).map(s => s!.song_id));
+                  return (
+                    <div key={tanda.round_id} className="rounded-sm border border-tango-brass/25 bg-white/5 overflow-hidden flex flex-col">
+                      {/* 영상 썸네일 */}
+                      {tanda.videoId ? (
+                        <a
+                          href={`https://www.youtube.com/watch?v=${tanda.videoId}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="relative block aspect-video bg-black group"
+                        >
+                          <img
+                            src={`https://img.youtube.com/vi/${tanda.videoId}/mqdefault.jpg`}
+                            alt={`${tanda.champion} Mundial ${tanda.year}`}
+                            className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
+                          />
+                          <div className="absolute inset-0 flex items-center justify-center">
+                            <div className="w-10 h-10 rounded-full bg-tango-brass/80 flex items-center justify-center">
+                              <span className="text-tango-ink text-sm ml-0.5">▶</span>
+                            </div>
+                          </div>
+                          <div className="absolute top-2 right-2 bg-tango-brass text-tango-ink px-2 py-0.5 rounded-sm text-[10px] font-bold">
+                            {score}점 유사
+                          </div>
+                        </a>
+                      ) : (
+                        <div className="aspect-video bg-tango-shadow flex items-center justify-center relative">
+                          <span className="text-tango-cream/30 text-xs">영상 없음</span>
+                          <div className="absolute top-2 right-2 bg-tango-brass text-tango-ink px-2 py-0.5 rounded-sm text-[10px] font-bold">
+                            {score}점 유사
+                          </div>
+                        </div>
+                      )}
+
+                      {/* 본문 */}
+                      <div className="p-4 flex-1 flex flex-col">
+                        <div className="text-[10px] tracking-widest uppercase text-tango-brass font-sans mb-1">
+                          🏆 {tanda.competition} {tanda.year} · {stageLabel}
+                        </div>
+                        <div className="font-serif italic text-base text-tango-paper mb-2" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                          {tanda.champion}
+                        </div>
+                        <div className="text-[10px] text-tango-cream/50 font-sans mb-3">
+                          평균 {tanda.promedio.toFixed(3)}
+                        </div>
+
+                        {/* 곡 리스트 */}
+                        <div className="space-y-1 mb-3 flex-1">
+                          {tanda.songs.map((s, i) => {
+                            const shared = myIds.has(s.song_id);
+                            return (
+                              <div key={i} className={`flex items-baseline gap-2 text-xs ${shared ? 'text-tango-brass' : 'text-tango-cream/70'}`}>
+                                <span className="w-4 font-mono text-[10px]">{i + 1}</span>
+                                {shared && <span className="text-[10px]">✓</span>}
+                                <Link to={`/song/${s.song_id}`} className="truncate hover:underline font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                                  {s.title}
+                                </Link>
+                              </div>
+                            );
+                          })}
+                        </div>
+
+                        {/* 차이점 */}
+                        {diffs.length > 0 && (
+                          <div className="pt-3 border-t border-tango-brass/15 flex flex-wrap gap-1">
+                            {diffs.map((d, i) => (
+                              <span key={i} className="text-[10px] px-1.5 py-0.5 bg-tango-brass/10 text-tango-brass/80 rounded-sm">
+                                {d}
+                              </span>
+                            ))}
+                          </div>
+                        )}
+
+                        {intersect > 0 && (
+                          <div className="mt-2 text-[10px] text-green-400 font-sans">
+                            ✓ 내 탄다와 {intersect}곡 일치
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+              <div className="mt-3 text-[10px] text-tango-cream/40 font-sans">
+                유사도 = 곡 겹침(40) + 악단 일치(30) + 장르 일치(20) + 연도 근접(10)
+              </div>
+            </div>
+          )}
 
           {/* 곡 선택 모달 */}
           {searchIdx !== null && (
