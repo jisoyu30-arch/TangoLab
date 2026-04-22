@@ -96,6 +96,9 @@ const playlistFiles = [
   { file: '2024-mundial-curated.txt', channel: 'AiresDeMilonga' },
   { file: '2024-martin-iarussi-curated.txt', channel: 'Martín Iarussi' },
   { file: 'martin-iarussi.txt', channel: 'Martín Iarussi' },
+  { file: 'masha-step.txt', channel: 'Masha Step' },
+  { file: 'pamela-villegas.txt', channel: 'Pamela Villegas' },
+  { file: 'lulu-y-mariano.txt', channel: 'Lulu y Mariano' },
 ];
 
 const stats = { added: 0, exists: 0, skipped: 0, parsed: 0 };
