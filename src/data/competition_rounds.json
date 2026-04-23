@@ -2539,6 +2539,71 @@
           "url": "https://www.youtube.com/watch?v=9q_Tvz0MM1w",
           "channel": "Korea Tango Cooperative",
           "title": "2023 Korea Tango Championship : Tango de pista B (Preliminaries Ronda 2)"
+        },
+        {
+          "video_id": "brvm1nmjqMM",
+          "url": "https://www.youtube.com/watch?v=brvm1nmjqMM&t=760s",
+          "channel": "Abrazo tv",
+          "type": "performance",
+          "title": "2023 Korea Tango Championship : Tango de pista Preliminaries Ronda 1~7 - Group B Ronda 2",
+          "start_sec": 760,
+          "song_timestamps": [
+            {
+              "order": 1,
+              "sec": 859
+            },
+            {
+              "order": 2,
+              "sec": 1031
+            },
+            {
+              "order": 3,
+              "sec": 1198
+            }
+          ]
+        }
+      ],
+      "group": "B",
+      "participants": [
+        {
+          "pareja": 113,
+          "nickname": "저스틴&이유",
+          "advanced": false
+        },
+        {
+          "pareja": 114,
+          "nickname": "유월청&벨르",
+          "advanced": false
+        },
+        {
+          "pareja": 115,
+          "nickname": "미겔 리&벨라 킴",
+          "advanced": false
+        },
+        {
+          "pareja": 117,
+          "nickname": "샹디&팀맥스",
+          "advanced": true
+        },
+        {
+          "pareja": 118,
+          "nickname": "오덕곰&칼리",
+          "advanced": false
+        },
+        {
+          "pareja": 119,
+          "nickname": "레오&솔레다드",
+          "advanced": true
+        },
+        {
+          "pareja": 121,
+          "nickname": "문래&제니",
+          "advanced": false
+        },
+        {
+          "pareja": 123,
+          "nickname": "이리&플로라",
+          "advanced": true
         }
       ]
     },
@@ -16997,6 +17062,1304 @@
         "Graciela Gonzalez",
         "Sebastian Bolivar",
         "Laila Resk"
+      ]
+    },
+    {
+      "round_id": "R-KTC2022-PISTA-Q1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2022,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "oI-3sRhZ6oc",
+          "url": "https://www.youtube.com/watch?v=oI-3sRhZ6oc",
+          "channel": "doya doya",
+          "title": "KTC 2022 Korea tango championship 예선 1"
+        }
+      ],
+      "judges": [
+        "Miguel",
+        "Pelin",
+        "Gustavo",
+        "Talia",
+        "Ariel"
+      ]
+    },
+    {
+      "round_id": "R-KTC2022-PISTA-Q2",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2022,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "Bwy_mVxigPU",
+          "url": "https://www.youtube.com/watch?v=Bwy_mVxigPU",
+          "channel": "doya doya",
+          "title": "KTC 2022 Korea tango championship 예선 2"
+        }
+      ],
+      "judges": [
+        "Miguel",
+        "Pelin",
+        "Gustavo",
+        "Talia",
+        "Ariel"
+      ]
+    },
+    {
+      "round_id": "R-KTC2022-PISTA-Q3",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2022,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "ASYQs7lGbd8",
+          "url": "https://www.youtube.com/watch?v=ASYQs7lGbd8",
+          "channel": "doya doya",
+          "title": "KTC 2022 Tango de pista 3"
+        }
+      ],
+      "judges": [
+        "Miguel",
+        "Pelin",
+        "Gustavo",
+        "Talia",
+        "Ariel"
+      ]
+    },
+    {
+      "round_id": "R-KTC2022-PISTA-Q4",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2022,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "aRc9-6SKmP4",
+          "url": "https://www.youtube.com/watch?v=aRc9-6SKmP4",
+          "channel": "doya doya",
+          "title": "KTC 2022 Tango de pista 4"
+        }
+      ],
+      "judges": [
+        "Miguel",
+        "Pelin",
+        "Gustavo",
+        "Talia",
+        "Ariel"
+      ]
+    },
+    {
+      "round_id": "R-KTC2022-PISTA-Q5",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2022,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 5,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "iMvcY10pdOY",
+          "url": "https://www.youtube.com/watch?v=iMvcY10pdOY",
+          "channel": "doya doya",
+          "title": "KTC 2022 Tango de pista 5"
+        }
+      ],
+      "judges": [
+        "Miguel",
+        "Pelin",
+        "Gustavo",
+        "Talia",
+        "Ariel"
+      ]
+    },
+    {
+      "round_id": "R-KTC2022-PISTA-Q6",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2022,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 6,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "mqdtlhWsyEs",
+          "url": "https://www.youtube.com/watch?v=mqdtlhWsyEs",
+          "channel": "doya doya",
+          "title": "KTC 2022 Tango de pista 6"
+        }
+      ],
+      "judges": [
+        "Miguel",
+        "Pelin",
+        "Gustavo",
+        "Talia",
+        "Ariel"
+      ]
+    },
+    {
+      "round_id": "R-KTC2022-PISTA-Q7",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2022,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 7,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "K_2sVtj8YWI",
+          "url": "https://www.youtube.com/watch?v=K_2sVtj8YWI",
+          "channel": "doya doya",
+          "title": "KTC 2022 Tango de pista 7"
+        }
+      ],
+      "judges": [
+        "Miguel",
+        "Pelin",
+        "Gustavo",
+        "Talia",
+        "Ariel"
+      ]
+    },
+    {
+      "round_id": "R-KTC2022-PISTA-Q8",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2022,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 8,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "7BjlhcHPCZ4",
+          "url": "https://www.youtube.com/watch?v=7BjlhcHPCZ4",
+          "channel": "doya doya",
+          "title": "KTC 2022 Tango de pista 8"
+        }
+      ],
+      "judges": [
+        "Miguel",
+        "Pelin",
+        "Gustavo",
+        "Talia",
+        "Ariel"
+      ]
+    },
+    {
+      "round_id": "R-KTC2022-PISTA-SF1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2022,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "VWUpwTWmKzc",
+          "url": "https://www.youtube.com/watch?v=VWUpwTWmKzc",
+          "channel": "doya doya",
+          "title": "KTC 2022 Tango de pista Semi final A"
+        }
+      ],
+      "judges": [
+        "Miguel",
+        "Pelin",
+        "Gustavo",
+        "Talia",
+        "Ariel"
+      ],
+      "group": "A"
+    },
+    {
+      "round_id": "R-KTC2022-PISTA-SF2",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2022,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "ZO0RhrJ6x-4",
+          "url": "https://www.youtube.com/watch?v=ZO0RhrJ6x-4",
+          "channel": "doya doya",
+          "title": "KTC 2022 Tango de pista Semi final B"
+        }
+      ],
+      "judges": [
+        "Miguel",
+        "Pelin",
+        "Gustavo",
+        "Talia",
+        "Ariel"
+      ],
+      "group": "B"
+    },
+    {
+      "round_id": "R-KTC2022-PISTA-SF3",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2022,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "Uk-ofzKbv4E",
+          "url": "https://www.youtube.com/watch?v=Uk-ofzKbv4E",
+          "channel": "doya doya",
+          "title": "KTC 2022 Tango de pista Semi final C"
+        }
+      ],
+      "judges": [
+        "Miguel",
+        "Pelin",
+        "Gustavo",
+        "Talia",
+        "Ariel"
+      ],
+      "group": "C"
+    },
+    {
+      "round_id": "R-KTC2022-PISTA-SF4",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2022,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "037h-E5lyx0",
+          "url": "https://www.youtube.com/watch?v=037h-E5lyx0",
+          "channel": "doya doya",
+          "title": "KTC 2022 Tango de pista Semi final D"
+        }
+      ],
+      "judges": [
+        "Miguel",
+        "Pelin",
+        "Gustavo",
+        "Talia",
+        "Ariel"
+      ],
+      "group": "D"
+    },
+    {
+      "round_id": "R-KTC2022-PISTA-F1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2022,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "Ic2OFOJ6FRQ",
+          "url": "https://www.youtube.com/watch?v=Ic2OFOJ6FRQ",
+          "channel": "doya doya",
+          "title": "KTC 2022 Korea tango championship Pista - final"
+        }
+      ],
+      "judges": [
+        "Miguel",
+        "Pelin",
+        "Gustavo",
+        "Talia",
+        "Ariel"
+      ]
+    },
+    {
+      "round_id": "R-KTC2022-MILONGA-Q1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2022,
+      "category": "milonga",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "M4myaNH9t9U",
+          "url": "https://www.youtube.com/watch?v=M4myaNH9t9U",
+          "channel": "doya doya",
+          "title": "KTC 2022 Milonga 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2022-MILONGA-Q2",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2022,
+      "category": "milonga",
+      "stage": "qualifying",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "9Vpa__8luNA",
+          "url": "https://www.youtube.com/watch?v=9Vpa__8luNA",
+          "channel": "doya doya",
+          "title": "KTC 2022 Milonga 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2022-MILONGA-Q3",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2022,
+      "category": "milonga",
+      "stage": "qualifying",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "in1Wp4Sdkpc",
+          "url": "https://www.youtube.com/watch?v=in1Wp4Sdkpc",
+          "channel": "doya doya",
+          "title": "KTC 2022 Milonga 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2022-VALS-F1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2022,
+      "category": "vals",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "dC-P1Muqfjk",
+          "url": "https://www.youtube.com/watch?v=dC-P1Muqfjk",
+          "channel": "doya doya",
+          "title": "KTC 2022 Vals - final"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2022-PISTA-SINGLES-JACKANDJILL-SF1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2022,
+      "category": "pista_singles_jackandjill",
+      "stage": "semifinal",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "j_p6k1YHcfY",
+          "url": "https://www.youtube.com/watch?v=j_p6k1YHcfY",
+          "channel": "doya doya",
+          "title": "KTC 2022 JACK & JILL Semi final"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2022-PISTA-SINGLES-JACKANDJILL-F1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2022,
+      "category": "pista_singles_jackandjill",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "-Kcqwqx92-c",
+          "url": "https://www.youtube.com/watch?v=-Kcqwqx92-c",
+          "channel": "doya doya",
+          "title": "KTC 2022 JACK & JILL - final"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2022-PISTA-NEWSTAR-F1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2022,
+      "category": "pista_newstar",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "A_ScxHreqf4",
+          "url": "https://www.youtube.com/watch?v=A_ScxHreqf4",
+          "channel": "doya doya",
+          "title": "KTC 2022 New star - final"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2025-PISTA-F1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2025,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "jVxSu98c9Jk",
+          "url": "https://www.youtube.com/watch?v=jVxSu98c9Jk",
+          "channel": "doya doya",
+          "title": "2025 KTC Pista Final"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2023-PISTA-F1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2023,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "fMXT6r8CQKM",
+          "url": "https://www.youtube.com/watch?v=fMXT6r8CQKM&t=592s",
+          "channel": "Abrazo tv",
+          "type": "performance",
+          "title": "2023 Korea Tango Championship : Tango de pista - Final Rounds - 1round (09:52 start)",
+          "start_sec": 592,
+          "song_timestamps": [
+            {
+              "order": 1,
+              "sec": 609
+            },
+            {
+              "order": 2,
+              "sec": 751
+            },
+            {
+              "order": 3,
+              "sec": 935
+            }
+          ]
+        }
+      ],
+      "participants": [
+        {
+          "pareja": 178,
+          "final_rank": 11,
+          "avg": 9.4575,
+          "nickname": "알리나&미키"
+        },
+        {
+          "pareja": 169,
+          "final_rank": 1,
+          "avg": 9.955,
+          "nickname": "지아&버범",
+          "winner": true
+        },
+        {
+          "pareja": 162,
+          "final_rank": 2,
+          "avg": 9.9125,
+          "nickname": "엘리&엘또리또"
+        },
+        {
+          "pareja": 161,
+          "final_rank": 5,
+          "avg": 9.7875,
+          "nickname": "비키정&에피톤진"
+        },
+        {
+          "pareja": 137,
+          "final_rank": 12,
+          "avg": 9.4375,
+          "nickname": "니나&미카엘"
+        },
+        {
+          "pareja": 123,
+          "final_rank": 14,
+          "avg": 9.4,
+          "nickname": "플로라&이리"
+        },
+        {
+          "pareja": 109,
+          "final_rank": 16,
+          "avg": 9.3625,
+          "nickname": "클라라&피닉스"
+        },
+        {
+          "pareja": 104,
+          "final_rank": 3,
+          "avg": 9.86,
+          "nickname": "유진&주니"
+        },
+        {
+          "pareja": 103,
+          "final_rank": 15,
+          "avg": 9.3975,
+          "nickname": "뮤즈&우노"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2023-PISTA-F2",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2023,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "fMXT6r8CQKM",
+          "url": "https://www.youtube.com/watch?v=fMXT6r8CQKM",
+          "channel": "Abrazo tv",
+          "type": "performance",
+          "title": "2023 Korea Tango Championship : Tango de pista - Final Rounds - 2round (00:00 start)",
+          "start_sec": 0,
+          "song_timestamps": [
+            {
+              "order": 1,
+              "sec": 18
+            },
+            {
+              "order": 2,
+              "sec": 213
+            },
+            {
+              "order": 3,
+              "sec": 390
+            }
+          ]
+        }
+      ],
+      "participants": [
+        {
+          "pareja": 145,
+          "final_rank": 7,
+          "avg": 9.685,
+          "nickname": "연꽃&소똥"
+        },
+        {
+          "pareja": 142,
+          "final_rank": 4,
+          "avg": 9.8375,
+          "nickname": "베카&아이오닉"
+        },
+        {
+          "pareja": 141,
+          "final_rank": 8,
+          "avg": 9.5125,
+          "nickname": "리아&빅토르"
+        },
+        {
+          "pareja": 133,
+          "final_rank": 9,
+          "avg": 9.5,
+          "nickname": "멜리사&라스"
+        },
+        {
+          "pareja": 132,
+          "final_rank": 10,
+          "avg": 9.4725,
+          "nickname": "라벤더&매우파랗다"
+        },
+        {
+          "pareja": 119,
+          "final_rank": 17,
+          "avg": 9.35,
+          "nickname": "솔레다드&레오"
+        },
+        {
+          "pareja": 172,
+          "final_rank": 13,
+          "avg": 9.435,
+          "nickname": "엘린&바질"
+        },
+        {
+          "pareja": 154,
+          "final_rank": 6,
+          "avg": 9.685,
+          "nickname": "브리즈&미스탕"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2023-PISTA-Q1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2023,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "brvm1nmjqMM",
+          "url": "https://www.youtube.com/watch?v=brvm1nmjqMM&t=30s",
+          "channel": "Abrazo tv",
+          "type": "performance",
+          "title": "2023 Korea Tango Championship : Tango de pista Preliminaries Ronda 1~7 - Group A Ronda 1",
+          "start_sec": 30,
+          "song_timestamps": [
+            {
+              "order": 1,
+              "sec": 147
+            },
+            {
+              "order": 2,
+              "sec": 319
+            },
+            {
+              "order": 3,
+              "sec": 524
+            }
+          ]
+        }
+      ],
+      "group": "A",
+      "participants": [
+        {
+          "pareja": 101,
+          "nickname": "카이사르&유진",
+          "advanced": true
+        },
+        {
+          "pareja": 103,
+          "nickname": "우노&뮤즈",
+          "advanced": true
+        },
+        {
+          "pareja": 104,
+          "nickname": "주니&유진",
+          "advanced": true
+        },
+        {
+          "pareja": 105,
+          "nickname": "히로&줄리",
+          "advanced": false
+        },
+        {
+          "pareja": 106,
+          "nickname": "지내고&엘로",
+          "advanced": false
+        },
+        {
+          "pareja": 109,
+          "nickname": "피닉스&클라라",
+          "advanced": true
+        },
+        {
+          "pareja": 110,
+          "nickname": "알마&기쁨",
+          "advanced": true
+        },
+        {
+          "pareja": 112,
+          "nickname": "에디&이담",
+          "advanced": true
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2023-PISTA-Q3",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2023,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "brvm1nmjqMM",
+          "url": "https://www.youtube.com/watch?v=brvm1nmjqMM&t=1423s",
+          "channel": "Abrazo tv",
+          "type": "performance",
+          "title": "2023 Korea Tango Championship : Tango de pista Preliminaries Ronda 1~7 - Group C Ronda 3",
+          "start_sec": 1423,
+          "song_timestamps": [
+            {
+              "order": 1,
+              "sec": 1549
+            },
+            {
+              "order": 2,
+              "sec": 1759
+            },
+            {
+              "order": 3,
+              "sec": 1949
+            }
+          ]
+        }
+      ],
+      "group": "C",
+      "participants": [
+        {
+          "pareja": 126,
+          "nickname": "연풍&시실리",
+          "advanced": false
+        },
+        {
+          "pareja": 127,
+          "nickname": "비토&태라",
+          "advanced": false
+        },
+        {
+          "pareja": 128,
+          "nickname": "올라&대즐",
+          "advanced": false
+        },
+        {
+          "pareja": 129,
+          "nickname": "데이비드&아미",
+          "advanced": true
+        },
+        {
+          "pareja": 130,
+          "nickname": "난다&아난도",
+          "advanced": true
+        },
+        {
+          "pareja": 131,
+          "nickname": "산또&차차",
+          "advanced": false
+        },
+        {
+          "pareja": 132,
+          "nickname": "매우파랗다&라벤더",
+          "advanced": true
+        },
+        {
+          "pareja": 133,
+          "nickname": "라스&멜리사",
+          "advanced": true
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2023-PISTA-Q6",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2023,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 6,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "brvm1nmjqMM",
+          "url": "https://www.youtube.com/watch?v=brvm1nmjqMM&t=2210s",
+          "channel": "Abrazo tv",
+          "type": "performance",
+          "title": "2023 Korea Tango Championship : Tango de pista Preliminaries Ronda 1~7 - Group F Ronda 6",
+          "start_sec": 2210,
+          "song_timestamps": [
+            {
+              "order": 1,
+              "sec": 2233
+            },
+            {
+              "order": 2,
+              "sec": 2433
+            },
+            {
+              "order": 3,
+              "sec": 2589
+            }
+          ]
+        }
+      ],
+      "group": "F",
+      "participants": [
+        {
+          "pareja": 150,
+          "nickname": "블랙체리&유리엘",
+          "advanced": false
+        },
+        {
+          "pareja": 151,
+          "nickname": "션&디온",
+          "advanced": true
+        },
+        {
+          "pareja": 152,
+          "nickname": "사탕&칼라",
+          "advanced": true
+        },
+        {
+          "pareja": 153,
+          "nickname": "아메&아현",
+          "advanced": true
+        },
+        {
+          "pareja": 154,
+          "nickname": "브리즈&미스탕",
+          "advanced": true
+        },
+        {
+          "pareja": 155,
+          "nickname": "스테파노&조앤",
+          "advanced": true
+        },
+        {
+          "pareja": 156,
+          "nickname": "카일&쥬니",
+          "advanced": false
+        },
+        {
+          "pareja": 157,
+          "nickname": "자올&줄리",
+          "advanced": false
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2023-PISTA-Q7",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2023,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 7,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "brvm1nmjqMM",
+          "url": "https://www.youtube.com/watch?v=brvm1nmjqMM&t=2820s",
+          "channel": "Abrazo tv",
+          "type": "performance",
+          "title": "2023 Korea Tango Championship : Tango de pista Preliminaries Ronda 1~7 - Group G Ronda 7",
+          "start_sec": 2820,
+          "song_timestamps": [
+            {
+              "order": 1,
+              "sec": 2910
+            },
+            {
+              "order": 2,
+              "sec": 3100
+            },
+            {
+              "order": 3,
+              "sec": 3287
+            }
+          ]
+        }
+      ],
+      "group": "G",
+      "participants": [
+        {
+          "pareja": 158,
+          "nickname": "마테로&비비아나",
+          "advanced": false
+        },
+        {
+          "pareja": 159,
+          "nickname": "태리&아브릴",
+          "advanced": false
+        },
+        {
+          "pareja": 160,
+          "nickname": "오즈&소피아",
+          "advanced": true
+        },
+        {
+          "pareja": 161,
+          "nickname": "에피톤진&비키정",
+          "advanced": true
+        },
+        {
+          "pareja": 162,
+          "nickname": "엘또리또&엘리",
+          "advanced": true
+        },
+        {
+          "pareja": 163,
+          "nickname": "오하&바비",
+          "advanced": true
+        },
+        {
+          "pareja": 164,
+          "nickname": "세바스찬&리지",
+          "advanced": false
+        },
+        {
+          "pareja": 165,
+          "nickname": "안태&민새",
+          "advanced": false
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2023-PISTA-Q8",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2023,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 8,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "brvm1nmjqMM",
+          "url": "https://www.youtube.com/watch?v=brvm1nmjqMM&t=3532s",
+          "channel": "Abrazo tv",
+          "type": "performance",
+          "title": "2023 Korea Tango Championship : Tango de pista Preliminaries Ronda 1~7 - Group H Ronda 8",
+          "start_sec": 3532,
+          "song_timestamps": []
+        }
+      ],
+      "group": "H",
+      "participants": [
+        {
+          "pareja": 166,
+          "nickname": "중리&양양",
+          "advanced": false
+        },
+        {
+          "pareja": 167,
+          "nickname": "현이&세레나",
+          "advanced": true
+        },
+        {
+          "pareja": 168,
+          "nickname": "KD&TARA",
+          "advanced": false
+        },
+        {
+          "pareja": 169,
+          "nickname": "지아&버범",
+          "advanced": true
+        },
+        {
+          "pareja": 170,
+          "nickname": "케이&마리",
+          "advanced": false
+        },
+        {
+          "pareja": 171,
+          "nickname": "동혁&포노",
+          "advanced": true
+        },
+        {
+          "pareja": 172,
+          "nickname": "아르볼&보스케",
+          "advanced": false
+        },
+        {
+          "pareja": 173,
+          "nickname": "바질&엘린",
+          "advanced": true
+        }
+      ],
+      "note": "H(8) ronda는 녹화 일부만 (다음 ronda D로 이어짐)"
+    },
+    {
+      "round_id": "R-KTC2023-PISTA-Q4",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2023,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "brvm1nmjqMM",
+          "url": "https://www.youtube.com/watch?v=brvm1nmjqMM&t=3650s",
+          "channel": "Abrazo tv",
+          "type": "performance",
+          "title": "2023 Korea Tango Championship : Tango de pista Preliminaries Ronda 1~7 - Group D Ronda 4",
+          "start_sec": 3650,
+          "song_timestamps": [
+            {
+              "order": 1,
+              "sec": 3745
+            },
+            {
+              "order": 2,
+              "sec": 3949
+            },
+            {
+              "order": 3,
+              "sec": 4106
+            }
+          ]
+        }
+      ],
+      "group": "D",
+      "participants": [
+        {
+          "pareja": 134,
+          "nickname": "에단&지아나",
+          "advanced": true
+        },
+        {
+          "pareja": 135,
+          "nickname": "에릭&바비",
+          "advanced": false
+        },
+        {
+          "pareja": 136,
+          "nickname": "올라&리사",
+          "advanced": false
+        },
+        {
+          "pareja": 137,
+          "nickname": "미카엘&니나",
+          "advanced": true
+        },
+        {
+          "pareja": 138,
+          "nickname": "카헬&윤비",
+          "advanced": true
+        },
+        {
+          "pareja": 139,
+          "nickname": "철환&연주",
+          "advanced": true
+        },
+        {
+          "pareja": 140,
+          "nickname": "차이&메텔",
+          "advanced": true
+        },
+        {
+          "pareja": 141,
+          "nickname": "빅토르&리아",
+          "advanced": true
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2023-PISTA-Q5",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2023,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 5,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "brvm1nmjqMM",
+          "url": "https://www.youtube.com/watch?v=brvm1nmjqMM&t=4345s",
+          "channel": "Abrazo tv",
+          "type": "performance",
+          "title": "2023 Korea Tango Championship : Tango de pista Preliminaries Ronda 1~7 - Group E Ronda 5",
+          "start_sec": 4345,
+          "song_timestamps": [
+            {
+              "order": 1,
+              "sec": 4428
+            },
+            {
+              "order": 2,
+              "sec": 4617
+            },
+            {
+              "order": 3,
+              "sec": 4814
+            }
+          ]
+        }
+      ],
+      "group": "E",
+      "participants": [
+        {
+          "pareja": 142,
+          "nickname": "아이오닉&베카",
+          "advanced": true
+        },
+        {
+          "pareja": 143,
+          "nickname": "이원국&김수아",
+          "advanced": true
+        },
+        {
+          "pareja": 144,
+          "nickname": "산드로&리타",
+          "advanced": false
+        },
+        {
+          "pareja": 145,
+          "nickname": "소똥&연꽃",
+          "advanced": true
+        },
+        {
+          "pareja": 146,
+          "nickname": "우드&사라",
+          "advanced": false
+        },
+        {
+          "pareja": 147,
+          "nickname": "바비조&파미",
+          "advanced": false
+        },
+        {
+          "pareja": 148,
+          "nickname": "노남기&숀",
+          "advanced": true
+        },
+        {
+          "pareja": 149,
+          "nickname": "방랑&끼아라",
+          "advanced": false
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2023-VALS-F2",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2023,
+      "category": "vals",
+      "stage": "final",
+      "ronda_number": 2,
+      "songs": [
+        {
+          "song_id": "UNMATCHED-NO_TE_OLVIDES_DE_MI_CORAZON",
+          "title": "No Te Olvides de Mi Corazón",
+          "orchestra": "Miguel Calo",
+          "order": 1
+        },
+        {
+          "song_id": "UNMATCHED-EL_VIEJO_VALS",
+          "title": "El Viejo Vals",
+          "orchestra": "Francisco Rotundo",
+          "order": 2
+        },
+        {
+          "song_id": "UNMATCHED-VIOLETAS",
+          "title": "Violetas",
+          "orchestra": "Alberto Castillo",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "oceRdk26B8k",
+          "url": "https://www.youtube.com/watch?v=oceRdk26B8k",
+          "channel": "Abrazo tv",
+          "type": "performance",
+          "title": "2023 Pacific Tango Championship - Vals - Final Rounds - #2 (23.05.28)",
+          "song_timestamps": [
+            {
+              "order": 1,
+              "sec": 46,
+              "title": "No Te Olvides de Mi Corazón",
+              "orchestra": "Miguel Calo"
+            },
+            {
+              "order": 2,
+              "sec": 210,
+              "title": "El Viejo Vals",
+              "orchestra": "Francisco Rotundo"
+            },
+            {
+              "order": 3,
+              "sec": 393,
+              "title": "Violetas",
+              "orchestra": "Alberto Castillo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2023-MILONGA-F1",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2023,
+      "category": "milonga",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "UNMATCHED-MILONGA_QUE_PEINA_CANAS",
+          "title": "Milonga Que Peina Canas",
+          "orchestra": "Miguel Calo",
+          "order": 1
+        },
+        {
+          "song_id": "UNMATCHED-LA_MILONGA_DE_BUENOS_AIRES",
+          "title": "La Milonga de Buenos Aires",
+          "orchestra": "Francisco Canaro",
+          "order": 2
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "okJgel2eY9A",
+          "url": "https://www.youtube.com/watch?v=okJgel2eY9A",
+          "channel": "Abrazo tv",
+          "type": "performance",
+          "title": "2023 Pacific Tango Championship - Milonga - Final Round (23.05.28)",
+          "song_timestamps": [
+            {
+              "order": 1,
+              "sec": 0,
+              "title": "Milonga Que Peina Canas",
+              "orchestra": "Miguel Calo"
+            },
+            {
+              "order": 2,
+              "sec": 129,
+              "title": "La Milonga de Buenos Aires",
+              "orchestra": "Francisco Canaro"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2023-PISTA-F3",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2023,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "a6EhpTmVbyo",
+          "url": "https://www.youtube.com/watch?v=a6EhpTmVbyo",
+          "channel": "Abrazo tv",
+          "type": "performance",
+          "title": "2023 Pacific Tango Championship - Pista - Final Rounds - #3 (23.05.28)"
+        }
       ]
     }
   ]
