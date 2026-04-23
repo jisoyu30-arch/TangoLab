@@ -163,47 +163,71 @@
       "source_note": "2023 KTC MILONGA 준결승 · 상위 9팀 결승 진출 (노란색)",
       "rondas": {
         "A": {
-          "note": "🌟 석정&소유 커플이 속한 조",
-          "parejas": [103, 145, 146, 155, 173, 176, 178, 180],
-          "couples": [
-            { "pareja": 103, "nickname": "우노&뮤즈" },
-            { "pareja": 145, "nickname": "소똥&연꽃" },
-            { "pareja": 146, "nickname": "우드&사라" },
-            { "pareja": 155, "nickname": "스테파노 & 조앤" },
-            { "pareja": 173, "nickname": "바질&앨린" },
-            { "pareja": 176, "nickname": "김토끼 & 캘리" },
-            { "pareja": 178, "nickname": "미키 & 알리나" },
-            { "pareja": 180, "nickname": "석정&소유", "is_my_couple": true }
-          ],
-          "video_note": "영상 데이터 추후 연결 예정 (A조 ronda 영상)"
-        },
-        "B": {
-          "parejas": [102, 117, 122, 123, 137, 138, 148, 153],
+          "ronda": 1,
           "couples": [
             { "pareja": 102, "nickname": "JONA y TATIANA" },
+            { "pareja": 103, "nickname": "우노&뮤즈" },
+            { "pareja": 107, "nickname": "Kaz & Momi" },
             { "pareja": 117, "nickname": "샨디&팀맥스" },
             { "pareja": 122, "nickname": "Kyan & Rie" },
             { "pareja": 123, "nickname": "이리 & 플로라" },
-            { "pareja": 137, "nickname": "미카엘 & 니나" },
-            { "pareja": 138, "nickname": "카헬&윤비" },
-            { "pareja": 148, "nickname": "노남기&손" },
-            { "pareja": 153, "nickname": "아메&아현" }
-          ],
-          "video_note": "영상 데이터 추후 연결 예정 (B조 ronda 영상)"
-        },
-        "C": {
-          "parejas": [106, 127, 129, 132, 139, 140, 162, 171],
-          "couples": [
-            { "pareja": 106, "nickname": "지내고 & 옐로" },
             { "pareja": 127, "nickname": "비토&태라" },
             { "pareja": 129, "nickname": "데이비드&아미" },
+            { "pareja": 131, "nickname": "산또&치차" }
+          ]
+        },
+        "B": {
+          "ronda": 2,
+          "couples": [
             { "pareja": 132, "nickname": "매우파랑다&라벤더" },
+            { "pareja": 135, "nickname": "에릭&비비" },
+            { "pareja": 136, "nickname": "올라&리사" },
+            { "pareja": 137, "nickname": "미카엘 & 니나" },
+            { "pareja": 138, "nickname": "카헬&윤비" },
             { "pareja": 139, "nickname": "철환 & 연주" },
             { "pareja": 140, "nickname": "차이&메텔" },
+            { "pareja": 144, "nickname": "산드로&리타" }
+          ]
+        },
+        "C": {
+          "ronda": 3,
+          "couples": [
+            { "pareja": 145, "nickname": "소똥&연꽃" },
+            { "pareja": 146, "nickname": "우드&사라" },
+            { "pareja": 148, "nickname": "노남기&손" },
+            { "pareja": 150, "nickname": "블랙체리&유리엘" },
+            { "pareja": 151, "nickname": "션&디온" },
+            { "pareja": 153, "nickname": "아메&아현" },
+            { "pareja": 155, "nickname": "스테파노 & 조앤" },
+            { "pareja": 156, "nickname": "카일&쥬니" }
+          ]
+        },
+        "D": {
+          "ronda": 4,
+          "couples": [
+            { "pareja": 157, "nickname": "자올&줄리" },
+            { "pareja": 158, "nickname": "마테오 &비비아나" },
+            { "pareja": 159, "nickname": "테리& 아브릴" },
+            { "pareja": 160, "nickname": "오즈&소피아" },
             { "pareja": 162, "nickname": "엘 또리또 & 엘리" },
-            { "pareja": 171, "nickname": "동혁&포노" }
-          ],
-          "video_note": "영상 데이터 추후 연결 예정 (C조 ronda 영상)"
+            { "pareja": 165, "nickname": "안태&민새" },
+            { "pareja": 171, "nickname": "동혁&포노" },
+            { "pareja": 172, "nickname": "아르볼&보스케" }
+          ]
+        },
+        "E": {
+          "ronda": 5,
+          "note": "🌟 소유&석정 커플이 속한 조 (E조 Ronda 5)",
+          "couples": [
+            { "pareja": 173, "nickname": "바질&앨린" },
+            { "pareja": 106, "nickname": "지내고 & 옐로" },
+            { "pareja": 176, "nickname": "김토끼 & 캘리" },
+            { "pareja": 178, "nickname": "미키 & 알리나" },
+            { "pareja": 180, "nickname": "석정&소유", "is_my_couple": true },
+            { "pareja": 183, "nickname": "밤참먹고&아라라" },
+            { "pareja": 184, "nickname": "토마스&미소천사" },
+            { "pareja": 186, "nickname": "아키&플로라(심)" }
+          ]
         }
       },
       "highlight": "🏆 소유&석정 커플 9위로 결승 진출!",
@@ -296,6 +320,209 @@
         "judge_style_2023": "Martin과 Oscar는 9.7+ 고점 집중, Valelia와 Cecilia는 편차 큰 까다로운 기준"
       }
     },
+    "ktc-2022-pista-semifinal": {
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2022,
+      "category": "pista",
+      "stage": "semifinal",
+      "judges": ["Miguel", "Pelin", "Gustavo", "Talia", "Ariel"],
+      "scoring_method": "5명 점수 중 최고점(A)/최저점(B) 제외 후 나머지 3점 합산 = 조정총합",
+      "source_note": "2022 KTC Tango de Pista Semifinal · 상위 9팀 결승 진출 (노란색 하이라이트)",
+      "couples": [
+        { "rank": 1, "pareja": 343, "leader": "시온/Xion", "follower": "혜미/Hyemi", "advanced": true, "scores": [7.8, 7.8, 7.5, 7.6, 7.9], "max_score": 7.9, "min_score": 7.5, "adjusted_total": 23.2 },
+        { "rank": 2, "pareja": 300, "leader": "David Kim", "follower": "ami kim", "advanced": true, "scores": [7.8, 7.8, 7.4, 7.1, 7.7], "max_score": 7.8, "min_score": 7.1, "adjusted_total": 22.9 },
+        { "rank": 2, "pareja": 323, "leader": "바질/basil", "follower": "엘린/elin", "advanced": true, "scores": [7.6, 7.6, 7.6, 7.7, 7.7], "max_score": 7.7, "min_score": 7.6, "adjusted_total": 22.9 },
+        { "rank": 4, "pareja": 381, "leader": "네로/Nero", "follower": "프렌치/Frenchy", "advanced": true, "scores": [7.8, 7.6, 7.5, 7.7, 7.2], "max_score": 7.8, "min_score": 7.2, "adjusted_total": 22.8 },
+        { "rank": 5, "pareja": 360, "leader": "피닉스/PHOENIX", "follower": "클라라/Clara", "advanced": true, "scores": [7.7, 7.3, 7.4, 7.7, 7.4], "max_score": 7.7, "min_score": 7.3, "adjusted_total": 22.5 },
+        { "rank": 6, "pareja": 383, "leader": "버범/beobeom", "follower": "지아/JIA", "advanced": true, "scores": [7.7, 7.3, 7.2, 7.7, 7.4], "max_score": 7.7, "min_score": 7.2, "adjusted_total": 22.4 },
+        { "rank": 7, "pareja": 350, "leader": "미키/Mickey", "follower": "알리나/Alina", "advanced": true, "scores": [7.8, 7.4, 7.0, 7.2, 7.6], "max_score": 7.8, "min_score": 7.0, "adjusted_total": 22.2 },
+        { "rank": 7, "pareja": 328, "leader": "매우파랑다/Berryblue", "follower": "라벤더/Lavender", "advanced": true, "scores": [7.5, 6.8, 7.3, 7.5, 7.4], "max_score": 7.5, "min_score": 6.8, "adjusted_total": 22.2 },
+        { "rank": 9, "pareja": 365, "leader": "브리즈/Breeze", "follower": "미스탕/Miss.Tang", "advanced": true, "scores": [7.4, 7.3, 7.2, 7.7, 7.5], "max_score": 7.7, "min_score": 7.2, "adjusted_total": 22.2 },
+        { "rank": 10, "pareja": 389, "leader": "Emilio Araya", "follower": "Lina Kim", "advanced": false, "scores": [7.5, 6.9, 7.4, 7.4, 7.3], "adjusted_total": 22.1 },
+        { "rank": 10, "pareja": 362, "leader": "현이/Hyoni", "follower": "아네스/Agnes", "advanced": false, "scores": [7.5, 7.3, 7.1, 7.6, 7.3], "adjusted_total": 22.1 },
+        { "rank": 12, "pareja": 354, "leader": "레오/Leo", "follower": "솔레다드(Soledad)", "advanced": false, "scores": [7.6, 6.6, 7.3, 7.1, 7.6], "adjusted_total": 22.0 },
+        { "rank": 12, "pareja": 341, "leader": "Miguel Lee", "follower": "Bella Kim", "advanced": false, "scores": [7.5, 7.3, 7.3, 7.4, 7.0], "adjusted_total": 22.0 },
+        { "rank": 14, "pareja": 340, "leader": "니고/Nigo", "follower": "카일라/Kayla", "advanced": false, "scores": [7.5, 7.4, 6.9, 7.5, 7.0], "adjusted_total": 21.9 },
+        { "rank": 15, "pareja": 321, "leader": "세모/Semo", "follower": "신보배/shin bo bae", "advanced": false, "scores": [7.6, 7.1, 7.0, 7.2, 7.5], "adjusted_total": 21.8 },
+        { "rank": 15, "pareja": 334, "leader": "아메/ame", "follower": "아현/A hyun", "advanced": false, "scores": [7.3, 7.0, 7.2, 7.5, 7.3], "adjusted_total": 21.8 },
+        { "rank": 17, "pareja": 317, "leader": "Epitone Jin", "follower": "Vikky Jeong", "advanced": false, "scores": [7.4, 7.4, 6.9, 7.6, 6.9], "adjusted_total": 21.7 },
+        { "rank": 17, "pareja": 349, "leader": "난다/Nanda", "follower": "아난도/Anando", "advanced": false, "scores": [7.4, 7.0, 7.0, 7.5, 7.3], "adjusted_total": 21.7 },
+        { "rank": 19, "pareja": 301, "leader": "원국/wonkook", "follower": "수아/sua", "advanced": false, "scores": [7.4, 6.9, 7.0, 7.5, 7.2], "adjusted_total": 21.6 },
+        { "rank": 19, "pareja": 366, "leader": "우노/Uno", "follower": "멜리사/Melissa", "advanced": false, "scores": [7.4, 6.7, 6.9, 7.6, 7.3], "adjusted_total": 21.6 },
+        { "rank": 19, "pareja": 372, "leader": "코너/Conor", "follower": "이수연/Lee Soo Yeon", "advanced": false, "scores": [7.4, 7.3, 7.0, 7.3, 6.8], "adjusted_total": 21.6 },
+        { "rank": 22, "pareja": 335, "leader": "루팡", "follower": "줄리엣", "advanced": false, "scores": [7.3, 7.2, 7.1, 7.0, 7.1], "adjusted_total": 21.4 },
+        { "rank": 22, "pareja": 320, "leader": "아이오닉/Ionic", "follower": "베카/Becca", "advanced": false, "scores": [7.4, 6.8, 6.6, 7.9, 7.2], "adjusted_total": 21.4 },
+        { "rank": 22, "pareja": 361, "leader": "에디/eddie", "follower": "이담/idam", "advanced": false, "scores": [7.6, 7.0, 6.8, 7.2, 7.2], "adjusted_total": 21.4 },
+        { "rank": 25, "pareja": 355, "leader": "동혁/DONGHYUK", "follower": "포노/PONO", "advanced": false, "scores": [7.4, 6.8, 6.9, 7.0, 7.4], "adjusted_total": 21.3 },
+        { "rank": 25, "pareja": 306, "leader": "아리/Ari", "follower": "홍헌/honghern", "advanced": false, "scores": [7.3, 7.2, 6.9, 7.0, 7.1], "adjusted_total": 21.3 },
+        { "rank": 27, "pareja": 307, "leader": "이리/Iri", "follower": "루나/Luna", "advanced": false, "scores": [7.4, 7.0, 7.1, 6.9, 7.1], "adjusted_total": 21.2 },
+        { "rank": 27, "pareja": 302, "leader": "테오/Teo", "follower": "마리/Marie", "advanced": false, "scores": [7.6, 6.7, 7.0, 6.9, 7.2], "adjusted_total": 21.2 },
+        { "rank": 29, "pareja": 326, "leader": "달봉이(Dalbong E)", "follower": "리사/Risa", "advanced": false, "scores": [7.4, 6.9, 7.0, 6.9, 7.2], "adjusted_total": 21.1 },
+        { "rank": 29, "pareja": 364, "leader": "중리/jungri", "follower": "양양/yangyang", "advanced": false, "scores": [7.3, 6.8, 6.7, 7.5, 7.0], "adjusted_total": 21.1 },
+        { "rank": 31, "pareja": 336, "leader": "맘보/mambo", "follower": "레모나/lemona", "advanced": false, "scores": [7.6, 6.8, 6.7, 7.0, 7.2], "adjusted_total": 21.0 },
+        { "rank": 32, "pareja": 327, "leader": "리수/Risoo", "follower": "에반스/Evans", "advanced": false, "scores": [7.4, 6.6, 6.9, 7.0, 7.0], "adjusted_total": 20.9 },
+        { "rank": 33, "pareja": 325, "leader": "아르볼/Arbol", "follower": "보스케/Bosque", "advanced": false, "scores": [7.5, 6.8, 7.1, 6.9, 6.8], "adjusted_total": 20.8 }
+      ],
+      "analysis": {
+        "total_semifinalists": 33,
+        "advanced_count": 9,
+        "cutoff_score": 22.2,
+        "notable": "시온&혜미 1위 → 이 해 우승 가능성 높음. 데이비드 킴&아미 킴 공동 2위. 에피톤 진&비키 정 17위 (2023엔 5위, 2024엔 Jack 4위로 개선)",
+        "pareja_340_note": "2022 #340은 니고&카일라 (14위). 같은 번호가 2024엔 소유&석정 — 해마다 번호 재배정됨"
+      }
+    },
+    "ktc-2022-milonga-semifinal": {
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2022,
+      "category": "milonga",
+      "stage": "semifinal",
+      "judges": ["Miguel", "Pelin", "Gustavo", "Talia", "Ariel"],
+      "scoring_method": "5명 점수 중 최고점(A)/최저점(B) 제외 후 나머지 3점 합산",
+      "source_note": "2022 KTC Milonga Semifinal · 상위 9팀 결승 진출 (노란색) · 총 18팀 중 상위 18위까지 표시",
+      "couples": [
+        { "rank": 1, "pareja": 343, "leader": "시온/Xion", "follower": "혜미/Hyemi", "advanced": true, "scores": [7.7, 8.0, 7.3, 7.6, 7.7], "max_score": 8.0, "min_score": 7.3, "adjusted_total": 23.0 },
+        { "rank": 2, "pareja": 360, "leader": "피닉스/PHOENIX", "follower": "클라라/Clara", "advanced": true, "scores": [7.7, 7.6, 7.2, 7.7, 7.4], "adjusted_total": 22.7 },
+        { "rank": 3, "pareja": 323, "leader": "바질/basil", "follower": "엘린/elin", "advanced": true, "scores": [7.6, 7.0, 7.4, 7.9, 7.6], "adjusted_total": 22.6 },
+        { "rank": 4, "pareja": 381, "leader": "네로/Nero", "follower": "프렌치/Frenchy", "advanced": true, "scores": [7.8, 7.5, 6.9, 7.6, 7.2], "adjusted_total": 22.3 },
+        { "rank": 5, "pareja": 300, "leader": "David Kim", "follower": "ami kim", "advanced": true, "scores": [7.8, 7.8, 6.6, 7.0, 7.4], "adjusted_total": 22.2 },
+        { "rank": 6, "pareja": 391, "leader": "다니/Dani", "follower": "세실/Cecil", "advanced": true, "scores": [7.9, 7.0, 7.3, 7.4, 7.3], "adjusted_total": 22.0 },
+        { "rank": 7, "pareja": 334, "leader": "아메/ame", "follower": "아현/A hyun", "advanced": true, "scores": [7.5, 6.9, 7.0, 7.7, 7.4], "adjusted_total": 21.9 },
+        { "rank": 7, "pareja": 362, "leader": "현이/Hyoni", "follower": "아네스/Agnes", "advanced": true, "scores": [7.6, 7.6, 6.8, 7.3, 7.0], "adjusted_total": 21.9 },
+        { "rank": 9, "pareja": 340, "leader": "니고/Nigo", "follower": "카일라/Kayla", "advanced": true, "scores": [7.6, 7.2, 7.0, 7.5, 7.1], "adjusted_total": 21.8 },
+        { "rank": 10, "pareja": 366, "leader": "우노/Uno", "follower": "멜리사/Melissa", "advanced": false, "scores": [7.4, 5.9, 7.4, 7.1, 7.2], "adjusted_total": 21.7 },
+        { "rank": 10, "pareja": 335, "leader": "루팡", "follower": "줄리엣", "advanced": false, "scores": [7.5, 7.3, 6.8, 7.5, 6.9], "adjusted_total": 21.7 },
+        { "rank": 12, "pareja": 328, "leader": "매우파랑다/Berryblue", "follower": "라벤더/Lavender", "advanced": false, "scores": [7.5, 6.9, 7.1, 7.9, 7.0], "adjusted_total": 21.6 },
+        { "rank": 12, "pareja": 350, "leader": "미키/Mickey", "follower": "알리나/Alina", "advanced": false, "scores": [7.4, 6.8, 7.2, 7.0, 7.4], "adjusted_total": 21.6 },
+        { "rank": 14, "pareja": 307, "leader": "이리/Iri", "follower": "루나/Luna", "advanced": false, "scores": [7.5, 7.2, 7.1, 7.0, 7.1], "adjusted_total": 21.4 },
+        { "rank": 15, "pareja": 379, "leader": "팀맥스/Teammax", "follower": "샹디(Shangdi)", "advanced": false, "scores": [7.4, 7.1, 6.9, 7.0, 7.2], "adjusted_total": 21.3 },
+        { "rank": 16, "pareja": 325, "leader": "아르볼/Arbol", "follower": "보스케/Bosque", "advanced": false, "scores": [7.4, 6.8, 6.9, 7.5, 6.8], "adjusted_total": 21.1 },
+        { "rank": 17, "pareja": 349, "leader": "난다/Nanda", "follower": "아난도/Anando", "advanced": false, "scores": [7.5, 6.7, 6.8, 7.0, 7.2], "adjusted_total": 21.0 },
+        { "rank": 18, "pareja": 330, "leader": "미카엘/Mikael", "follower": "니나/Nina", "advanced": false, "scores": [7.4, 6.7, 6.9, 7.2, 6.8], "adjusted_total": 20.9 }
+      ],
+      "analysis": {
+        "total_semifinalists_shown": 18,
+        "advanced_count": 9,
+        "cutoff_score": 21.8,
+        "notable": "시온&혜미 양 부문(Pista+Milonga) 공동 1위. 니고&카일라 9위로 밀롱가 결승 진출 (Pista는 14위로 탈락) — 밀롱가가 강점 부문인 사례"
+      }
+    },
+    "ktc-2023-pista-qualifying-rondas": {
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2023,
+      "category": "pista",
+      "stage": "qualifying",
+      "source_note": "2023 KTC Tango de Pista 예선 조편성 (A~H, 8조)",
+      "rondas": {
+        "A": {
+          "ronda": 1,
+          "couples": [
+            { "pareja": 101, "nickname": "카이사르&유진" },
+            { "pareja": 103, "nickname": "우노&뮤즈" },
+            { "pareja": 104, "nickname": "주니&유진" },
+            { "pareja": 105, "nickname": "히로&줄리" },
+            { "pareja": 106, "nickname": "지내고 & 옐로" },
+            { "pareja": 109, "nickname": "피닉스&클라라" },
+            { "pareja": 110, "nickname": "알마 & 기쁨" },
+            { "pareja": 112, "nickname": "에디 & 이담" }
+          ]
+        },
+        "B": {
+          "ronda": 2,
+          "couples": [
+            { "pareja": 113, "nickname": "저스틴&이유" },
+            { "pareja": 114, "nickname": "유월청&벨르" },
+            { "pareja": 115, "nickname": "미겔 리 &벨라 킴" },
+            { "pareja": 117, "nickname": "샨디&팀맥스" },
+            { "pareja": 118, "nickname": "오덕곰&칼리" },
+            { "pareja": 119, "nickname": "레오 & 솔레다드" },
+            { "pareja": 121, "nickname": "문래&제니" },
+            { "pareja": 123, "nickname": "이리 & 플로라" }
+          ]
+        },
+        "C": {
+          "ronda": 3,
+          "couples": [
+            { "pareja": 126, "nickname": "연풍&시실리" },
+            { "pareja": 127, "nickname": "비토&태라" },
+            { "pareja": 128, "nickname": "울라&대줄" },
+            { "pareja": 129, "nickname": "데이비드&아미" },
+            { "pareja": 130, "nickname": "난다&아난도" },
+            { "pareja": 131, "nickname": "산또&치차" },
+            { "pareja": 132, "nickname": "매우파랑다&라벤더" },
+            { "pareja": 133, "nickname": "라스&멜리사" }
+          ]
+        },
+        "D": {
+          "ronda": 4,
+          "couples": [
+            { "pareja": 134, "nickname": "에단&지아나" },
+            { "pareja": 135, "nickname": "에릭&비비" },
+            { "pareja": 136, "nickname": "올라&리사" },
+            { "pareja": 137, "nickname": "미카엘 & 니나" },
+            { "pareja": 138, "nickname": "카헬&윤비" },
+            { "pareja": 139, "nickname": "철환 & 연주" },
+            { "pareja": 140, "nickname": "차이&메텔" },
+            { "pareja": 141, "nickname": "빅토르 & 리아" }
+          ]
+        },
+        "E": {
+          "ronda": 5,
+          "couples": [
+            { "pareja": 142, "nickname": "아이오닉&베카" },
+            { "pareja": 143, "nickname": "이원국 & 김수아" },
+            { "pareja": 144, "nickname": "산드로&리타" },
+            { "pareja": 145, "nickname": "소똥&연꽃" },
+            { "pareja": 146, "nickname": "우드&사라" },
+            { "pareja": 147, "nickname": "바비 조& 파미" },
+            { "pareja": 148, "nickname": "노남기&손" },
+            { "pareja": 149, "nickname": "방랑&끼아라" }
+          ]
+        },
+        "F": {
+          "ronda": 6,
+          "couples": [
+            { "pareja": 150, "nickname": "블랙체리&유리엘" },
+            { "pareja": 151, "nickname": "션&디온" },
+            { "pareja": 152, "nickname": "사탕 & 칼라" },
+            { "pareja": 153, "nickname": "아메&아현" },
+            { "pareja": 154, "nickname": "브리즈 & 미스탕" },
+            { "pareja": 155, "nickname": "스테파노 & 조앤" },
+            { "pareja": 156, "nickname": "카일&쥬니" },
+            { "pareja": 157, "nickname": "자올&줄리" }
+          ]
+        },
+        "G": {
+          "ronda": 7,
+          "couples": [
+            { "pareja": 158, "nickname": "마테오 &비비아나" },
+            { "pareja": 159, "nickname": "테리& 아브릴" },
+            { "pareja": 160, "nickname": "오즈&소피아" },
+            { "pareja": 161, "nickname": "에피톤 진 & 비키 정" },
+            { "pareja": 162, "nickname": "엘 또리또& 엘리" },
+            { "pareja": 163, "nickname": "오하&바비" },
+            { "pareja": 164, "nickname": "세바스찬&리지" },
+            { "pareja": 165, "nickname": "안태&민새" }
+          ]
+        },
+        "H": {
+          "ronda": 8,
+          "couples": [
+            { "pareja": 166, "nickname": "중리& 양양" },
+            { "pareja": 167, "nickname": "현이&세레나" },
+            { "pareja": 168, "nickname": "KD & TARA" },
+            { "pareja": 169, "nickname": "지아&버범" },
+            { "pareja": 170, "nickname": "케이&마리" },
+            { "pareja": 171, "nickname": "동혁&포노" },
+            { "pareja": 172, "nickname": "아르볼&보스케" },
+            { "pareja": 173, "nickname": "바질&앨린" }
+          ]
+        }
+      },
+      "note": "⚠ 이 예선 조편성에 #180 석정&소유 커플이 없음 — 별도 조 또는 불참 가능성. 확인 필요."
+    },
     "ktc-2023-pista-international-final": {
       "competition": "KTC",
       "competition_id": "COMP-005",
@@ -305,6 +532,19 @@
       "stage_label": "Tango de Pista INTERNATIONAL FINAL",
       "judges": ["Martin", "Valelia", "Oscar", "Cecilia"],
       "source_note": "2023 KTC Pista International Final · 상위 3위 (노란색)",
+      "final_ronda_group_a": {
+        "note": "결승 A조 참가자 (8팀)",
+        "couples": [
+          { "pareja": 102, "nickname": "JONA y TATIANA" },
+          { "pareja": 104, "nickname": "주니&유진" },
+          { "pareja": 123, "nickname": "이리 & 플로라" },
+          { "pareja": 154, "nickname": "브리즈 & 미스탕" },
+          { "pareja": 161, "nickname": "에피톤 진 & 비키 정" },
+          { "pareja": 169, "nickname": "지아 & 버범" },
+          { "pareja": 175, "nickname": "마르꼬 & 에이미" },
+          { "pareja": 178, "nickname": "미키 & 알리나" }
+        ]
+      },
       "couples": [
         { "rank": 1, "pareja": 169, "nickname": "지아 & 버범", "winner": true, "scores": [9.99, 9.95, 9.75, 9.75], "total": 39.44, "average": 9.86 },
         { "rank": 2, "pareja": 154, "nickname": "브리즈 & 미스탕", "scores": [9.85, 9.15, 9.75, 9.8], "total": 38.55, "average": 9.6375 },
