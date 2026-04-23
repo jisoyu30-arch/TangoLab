@@ -25,6 +25,15 @@ const CHANNEL_TYPE: Record<string, VideoType> = {
   '한선우': 'performance',                     // PTC 결승 풀버전
   'Thanh Dang': 'music',                     // 곡만 모은 영상 (no dance)
   'Tango Master': 'music',                   // 곡 설명 영상
+  // 음악 플레이리스트 전용 (Tango BA 로고 + 곡 리스트 편집본)
+  'Abrazo tv': 'music',                      // 2022 Final 4개 음악 편집
+  '030tango': 'music',                       // 2019 Final 음악 편집
+  'Molinotango Ricardo Rosales': 'music',    // 짧은 클립, 음악 편집
+  'Jose Paulo Santos': 'music',              // 2018 Final 음악 편집
+  'Tangotrazo': 'music',                     // 2016 Final 음악 편집
+  'puntotango': 'music',                     // 2012 Final 음악 편집
+  'Darcostango': 'music',                    // 2011 음악 편집
+  '2XTANGO TV': 'music',                     // 2009-2010 음악 편집
   'Martín Iarussi': 'performance',           // Mundial 2024 clasificatoria
   'Martin Iarussi': 'performance',
   'Pamela Villegas': 'performance',          // Mundial 2024 semifinal, Campeonato Ciudad
@@ -32,14 +41,6 @@ const CHANNEL_TYPE: Record<string, VideoType> = {
   'Masha Step': 'performance',               // Mundial 2023 semifinal
   'Lulu y Mariano': 'performance',
   '밀롱가': 'performance',                     // Mundial 2025 결승 밀롱가 채널
-  // 역대 결승 영상 채널 (2008~2024)
-  '030tango': 'performance',
-  'Molinotango Ricardo Rosales': 'performance',
-  'Jose Paulo Santos': 'performance',
-  'Tangotrazo': 'performance',
-  'puntotango': 'performance',
-  'Darcostango': 'performance',
-  '2XTANGO TV': 'performance',
   'Tango Turkey': 'performance',
   'Barbara Ferreyra & Agustin Agnez Tango': 'performance',
   'The Curious Tanguero': 'performance',

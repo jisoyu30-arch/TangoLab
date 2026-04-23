@@ -1,5 +1,5 @@
 // 역대 우승자 분석 — Mundial 챔피언이 춤춘 곡·악단·패턴
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { PageHeader } from '../components/PageHeader';
 import { OrnamentDivider } from '../components/editorial';
@@ -9,6 +9,7 @@ import { isPerformanceVideo } from '../utils/videoTypes';
 import roundsData from '../data/competition_rounds.json';
 import songsData from '../data/songs.json';
 import championsHistory from '../data/mundial_champions_history.json';
+import championProfiles from '../data/champion_profiles.json';
 import type { Song } from '../types/tango';
 
 const songs = songsData as Song[];
@@ -24,6 +25,29 @@ interface ChampionEntry {
   country: string;
 }
 const ALL_CHAMPIONS = championsHistory.champions as ChampionEntry[];
+
+interface ChampionProfile {
+  year: number;
+  category: string;
+  couple: string;
+  origin: string;
+  style_summary: string;
+  characteristics: string[];
+  strategic_takeaway: string;
+  teaching_activity?: string;
+  diego_previous?: string;
+}
+const PROFILES = (championProfiles as any).profiles as Record<string, ChampionProfile>;
+const PATTERN_INSIGHTS = (championProfiles as any).pattern_insights as string[];
+
+function getProfile(year: number, leader: string): ChampionProfile | null {
+  // 프로필 key는 "2025-pista-diego-ortega" 형태
+  const leaderSlug = leader.toLowerCase().split(' ')[0];
+  for (const v of Object.values(PROFILES)) {
+    if (v.year === year && v.couple.toLowerCase().includes(leaderSlug)) return v;
+  }
+  return null;
+}
 
 // 현 심사위원 중 전 우승자 탐지용
 const CURRENT_JUDGES_WHO_WON = [
@@ -46,6 +70,8 @@ function championBadge(leader: string, follower: string): string | null {
 }
 
 export function ChampionsPage() {
+  const [selectedProfile, setSelectedProfile] = useState<ChampionProfile | null>(null);
+
   const analysis = useMemo(() => {
     // 결승 곡 전체
     const finalSongs: Array<{ year: number; song_id: string; title: string; orchestra: string; order: number }> = [];
@@ -183,17 +209,18 @@ export function ChampionsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
               {pistaChampions.map(c => {
                 const badge = championBadge(c.leader, c.follower);
-                const hasStoryPage = rounds.some((r: any) => r.year === c.year && r.stage === 'final');
+                const profile = getProfile(c.year, c.leader);
                 const isRecent = c.year >= 2022;
                 return (
-                  <Link
+                  <button
                     key={`${c.year}-${c.category}`}
-                    to={hasStoryPage ? `/mundial/${c.year}` : '#'}
-                    className={`relative border rounded-sm p-4 transition-all group ${
+                    onClick={() => profile ? setSelectedProfile(profile) : null}
+                    disabled={!profile}
+                    className={`relative border rounded-sm p-4 transition-all group text-left ${
                       isRecent
                         ? 'bg-gradient-to-br from-tango-brass/10 via-tango-shadow to-tango-ink border-tango-brass/40 hover:border-tango-brass'
                         : 'bg-tango-shadow/50 border-tango-brass/15 hover:border-tango-brass/30'
-                    }`}
+                    } ${profile ? 'cursor-pointer' : 'cursor-default'}`}
                   >
                     <div className="flex items-baseline justify-between mb-2">
                       <span className={`font-display font-bold italic leading-none ${isRecent ? 'text-3xl text-tango-brass' : 'text-2xl text-tango-brass/70'}`} style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
@@ -209,12 +236,19 @@ export function ChampionsPage() {
                     <p className="font-serif italic text-[13px] text-tango-cream/70 mt-0.5 truncate" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
                       & {c.follower}
                     </p>
-                    {badge && (
-                      <div className="mt-2 text-[9px] px-1.5 py-0.5 inline-block bg-tango-brass/20 text-tango-brass rounded-sm border border-tango-brass/40">
-                        {badge}
-                      </div>
-                    )}
-                  </Link>
+                    <div className="flex gap-1 mt-2 flex-wrap">
+                      {badge && (
+                        <div className="text-[9px] px-1.5 py-0.5 inline-block bg-tango-brass/20 text-tango-brass rounded-sm border border-tango-brass/40">
+                          {badge}
+                        </div>
+                      )}
+                      {profile && (
+                        <div className="text-[9px] px-1.5 py-0.5 inline-block bg-tango-rose/15 text-tango-rose rounded-sm border border-tango-rose/30">
+                          📖 분석 있음
+                        </div>
+                      )}
+                    </div>
+                  </button>
                 );
               })}
               <div className="relative border border-dashed border-white/10 rounded-sm p-4 flex flex-col items-center justify-center text-tango-cream/40">
@@ -222,6 +256,24 @@ export function ChampionsPage() {
                 <div className="text-[10px] uppercase tracking-widest mt-1">COVID — 대회 취소</div>
               </div>
             </div>
+          </section>
+
+          {/* 🔍 패턴 인사이트 */}
+          <section className="bg-tango-shadow/40 border border-tango-brass/20 rounded-sm p-5">
+            <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-2">
+              Champion Patterns
+            </div>
+            <h3 className="font-display italic text-2xl text-tango-paper mb-4" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+              22년 우승자 데이터가 <em className="text-tango-brass">말해주는 것</em>
+            </h3>
+            <ul className="space-y-2">
+              {PATTERN_INSIGHTS.map((p, i) => (
+                <li key={i} className="flex gap-2 text-sm text-tango-paper/85 font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                  <span className="text-tango-brass flex-shrink-0">→</span>
+                  <span>{p}</span>
+                </li>
+              ))}
+            </ul>
           </section>
 
           {/* 🎓 심사위원이었던 전 우승자 */}
@@ -404,6 +456,79 @@ export function ChampionsPage() {
           <OrnamentDivider className="pt-8" />
         </div>
       </div>
+
+      {/* Champion 프로필 모달 */}
+      {selectedProfile && (
+        <div
+          className="fixed inset-0 z-50 bg-tango-ink/90 backdrop-blur-sm flex items-start justify-center p-4 overflow-y-auto"
+          onClick={() => setSelectedProfile(null)}
+        >
+          <div
+            className="w-full max-w-2xl bg-gradient-to-br from-tango-brass/10 via-tango-shadow to-tango-ink border border-tango-brass/40 rounded-sm p-6 md:p-8 my-10"
+            onClick={e => e.stopPropagation()}
+          >
+            <div className="flex items-start justify-between mb-6">
+              <div>
+                <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-1">
+                  Mundial {selectedProfile.year} · {selectedProfile.category.toUpperCase()} Champion
+                </div>
+                <h2 className="font-display italic text-3xl text-tango-paper" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                  {selectedProfile.couple}
+                </h2>
+                <p className="text-sm text-tango-cream/60 mt-1 font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                  {selectedProfile.origin}
+                </p>
+              </div>
+              <button onClick={() => setSelectedProfile(null)} className="text-tango-cream/60 hover:text-tango-brass text-2xl leading-none">×</button>
+            </div>
+
+            {/* Style Summary */}
+            <div className="mb-5">
+              <div className="text-[10px] tracking-widest uppercase text-tango-brass font-sans mb-2">Style Signature</div>
+              <p className="font-serif italic text-lg text-tango-paper leading-relaxed" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                {selectedProfile.style_summary}
+              </p>
+            </div>
+
+            {/* Characteristics */}
+            <div className="mb-5">
+              <div className="text-[10px] tracking-widest uppercase text-tango-brass font-sans mb-2">Dance Characteristics</div>
+              <ul className="space-y-1.5">
+                {selectedProfile.characteristics.map((c, i) => (
+                  <li key={i} className="text-sm text-tango-paper/85 flex gap-2 font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                    <span className="text-tango-brass flex-shrink-0">·</span>
+                    <span>{c}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Strategic Takeaway */}
+            <div className="mb-5 bg-tango-brass/10 border border-tango-brass/30 rounded-sm p-4">
+              <div className="text-[10px] tracking-widest uppercase text-tango-brass font-sans mb-2">🎯 Strategic Takeaway</div>
+              <p className="text-sm text-tango-paper leading-relaxed font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                {selectedProfile.strategic_takeaway}
+              </p>
+            </div>
+
+            {/* Optional fields */}
+            {selectedProfile.diego_previous && (
+              <div className="mb-3 text-xs text-tango-cream/70 font-sans">
+                📌 <strong>이전 경력:</strong> {selectedProfile.diego_previous}
+              </div>
+            )}
+            {selectedProfile.teaching_activity && (
+              <div className="text-xs text-tango-cream/70 font-sans">
+                🎓 <strong>활동:</strong> {selectedProfile.teaching_activity}
+              </div>
+            )}
+
+            <div className="mt-5 pt-4 border-t border-tango-brass/15 text-[10px] text-tango-cream/40 font-sans">
+              TangoLab 큐레이션 — 추가 정보는 Wikipedia, 공식 인터뷰 기반
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 }
