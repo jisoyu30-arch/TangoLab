@@ -91,6 +91,171 @@
       }
     },
 
+    "ktc-2023-jack-semifinal": {
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2023,
+      "category": "pista_singles_jackandjill",
+      "stage": "semifinal",
+      "judges": ["Martin", "Oscar"],
+      "source_note": "2023 KTC Jack&Jill 준결승 · A/B/C/D 4개 그룹 · 상위 17명 결승 진출 (노란색)",
+      "couples": [
+        { "rank": 1, "pareja": 123, "nickname": "이리", "group": "A", "advanced": true, "scores": [8.66, 8.7], "total": 17.36, "average": 8.68 },
+        { "rank": 2, "pareja": 141, "nickname": "빅토르", "group": "A", "advanced": true, "scores": [8.6, 8.75], "total": 17.35, "average": 8.675 },
+        { "rank": 3, "pareja": 178, "nickname": "미키", "group": "A", "advanced": true, "scores": [8.6, 8.5], "total": 17.1, "average": 8.55 },
+        { "rank": 4, "pareja": 175, "nickname": "마르꼬", "group": "A", "advanced": true, "scores": [8.55, 8.5], "total": 17.05, "average": 8.525 },
+        { "rank": 5, "pareja": 112, "nickname": "에디", "group": "A", "advanced": true, "scores": [8.3, 8.5], "total": 16.8, "average": 8.4 },
+        { "rank": 6, "pareja": 137, "nickname": "미카엘", "group": "A", "advanced": true, "scores": [8.0, 8.5], "total": 16.5, "average": 8.25 },
+        { "rank": 7, "pareja": 167, "nickname": "현이", "group": "A", "advanced": true, "scores": [7.88, 8.5], "total": 16.38, "average": 8.19 },
+        { "rank": 8, "pareja": 207, "nickname": "Masa", "group": "A", "advanced": true, "scores": [8.33, 8.0], "total": 16.33, "average": 8.165 },
+        { "rank": 9, "pareja": 217, "nickname": "강민전사", "group": "B", "advanced": true, "scores": [8.3, 8.0], "total": 16.3, "average": 8.15 },
+        { "rank": 10, "pareja": 146, "nickname": "우드", "group": "B", "advanced": true, "scores": [8.0, 8.25], "total": 16.25, "average": 8.125 },
+        { "rank": 10, "pareja": 107, "nickname": "Kaz", "group": "B", "advanced": true, "scores": [8.0, 8.25], "total": 16.25, "average": 8.125 },
+        { "rank": 12, "pareja": 172, "nickname": "아르볼", "group": "B", "advanced": true, "scores": [8.15, 8.0], "total": 16.15, "average": 8.075 },
+        { "rank": 13, "pareja": 148, "nickname": "노남기", "group": "B", "advanced": true, "scores": [7.6, 8.5], "total": 16.1, "average": 8.05 },
+        { "rank": 14, "pareja": 105, "nickname": "히로", "group": "B", "advanced": true, "scores": [8.0, 8.0], "total": 16.0, "average": 8.0 },
+        { "rank": 15, "pareja": 155, "nickname": "스테파노", "group": "B", "advanced": true, "scores": [7.5, 8.25], "total": 15.75, "average": 7.875 },
+        { "rank": 15, "pareja": 218, "nickname": "Ivan Neo", "group": "B", "advanced": true, "scores": [7.5, 8.25], "total": 15.75, "average": 7.875 },
+        { "rank": 15, "pareja": 204, "nickname": "명하", "group": "C", "advanced": true, "scores": [7.5, 8.25], "total": 15.75, "average": 7.875 },
+        { "rank": 18, "pareja": 130, "nickname": "난다", "group": "C", "advanced": false, "scores": [7.0, 8.7], "total": 15.7, "average": 7.85 },
+        { "rank": 19, "pareja": 140, "nickname": "차이", "group": "C", "advanced": false, "scores": [7.66, 8.0], "total": 15.66, "average": 7.83 },
+        { "rank": 20, "pareja": 171, "nickname": "동혁", "group": "C", "advanced": false, "scores": [7.0, 8.6], "total": 15.6, "average": 7.8 },
+        { "rank": 21, "pareja": 159, "nickname": "테리", "group": "C", "advanced": false, "scores": [7.0, 8.5], "total": 15.5, "average": 7.75 },
+        {
+          "rank": 22, "pareja": 180, "nickname": "석정", "group": "C",
+          "advanced": false, "scores": [6.9, 8.5], "total": 15.4, "average": 7.7,
+          "is_my_partner": true,
+          "strategic_analysis": {
+            "cutoff_gap": -0.35,
+            "judge_breakdown": {
+              "Martin": { "score": 6.9, "gap_to_leader": -1.76, "note": "기본기·리듬 심사. 가장 큰 개선 영역" },
+              "Oscar": { "score": 8.5, "gap_to_leader": -0.2, "note": "표현·음악성 심사. 이미 상위급" }
+            },
+            "cross_year": "2023 잭 22위 (7.7) → 2024 잭 20위 (8.18) → Martin 계열(기본기) 지속 보강 필요"
+          }
+        },
+        { "rank": 23, "pareja": 208, "nickname": "별군", "group": "C", "advanced": false, "scores": [7.0, 8.25], "total": 15.25, "average": 7.625 },
+        { "rank": 24, "pareja": 128, "nickname": "울라(박희웅)", "group": "C", "advanced": false, "scores": [7.0, 8.0], "total": 15.0, "average": 7.5 },
+        { "rank": 25, "pareja": 161, "nickname": "에피톤 진", "group": "D", "advanced": false, "scores": [6.5, 8.5], "total": 15.0, "average": 7.5 },
+        { "rank": 26, "pareja": 163, "nickname": "오하", "group": "D", "advanced": false, "scores": [7.0, 8.0], "total": 15.0, "average": 7.5 },
+        { "rank": 27, "pareja": 113, "nickname": "저스틴", "group": "D", "advanced": false, "scores": [7.0, 8.0], "total": 15.0, "average": 7.5 },
+        { "rank": 28, "pareja": 110, "nickname": "알마", "group": "D", "advanced": false, "scores": [7.0, 8.0], "total": 15.0, "average": 7.5 },
+        { "rank": 29, "pareja": 168, "nickname": "KD", "group": "D", "advanced": false, "scores": [6.8, 8.0], "total": 14.8, "average": 7.4 },
+        { "rank": 30, "pareja": 135, "nickname": "에릭", "group": "D", "advanced": false, "scores": [6.8, 8.0], "total": 14.8, "average": 7.4 },
+        { "rank": 31, "pareja": 150, "nickname": "블랙체리", "group": "D", "advanced": false, "scores": [6.5, 8.0], "total": 14.5, "average": 7.25 },
+        { "rank": 32, "pareja": 211, "nickname": "앤디", "group": "D", "advanced": false, "scores": [6.3, 8.0], "total": 14.3, "average": 7.15 },
+        { "rank": 33, "pareja": 214, "nickname": "미키류", "group": "D", "advanced": false, "scores": [6.0, 8.0], "total": 14.0, "average": 7.0 }
+      ],
+      "analysis": {
+        "total": 33,
+        "advanced_count": 17,
+        "cutoff_score": 15.75,
+        "groups": ["A (8명)", "B (9명)", "C (7명)", "D (9명)"]
+      }
+    },
+    "ktc-2023-milonga-semifinal": {
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2023,
+      "category": "milonga",
+      "stage": "semifinal",
+      "judges": ["Martin", "Valelia", "Oscar", "Cecilia"],
+      "source_note": "2023 KTC MILONGA 준결승 · 상위 9팀 결승 진출 (노란색)",
+      "rondas": {
+        "A": {
+          "note": "🌟 석정&소유 커플이 속한 조",
+          "parejas": [103, 145, 146, 155, 173, 176, 178, 180],
+          "couples": [
+            { "pareja": 103, "nickname": "우노&뮤즈" },
+            { "pareja": 145, "nickname": "소똥&연꽃" },
+            { "pareja": 146, "nickname": "우드&사라" },
+            { "pareja": 155, "nickname": "스테파노 & 조앤" },
+            { "pareja": 173, "nickname": "바질&앨린" },
+            { "pareja": 176, "nickname": "김토끼 & 캘리" },
+            { "pareja": 178, "nickname": "미키 & 알리나" },
+            { "pareja": 180, "nickname": "석정&소유", "is_my_couple": true }
+          ],
+          "video_note": "영상 데이터 추후 연결 예정 (A조 ronda 영상)"
+        },
+        "B": {
+          "parejas": [102, 117, 122, 123, 137, 138, 148, 153],
+          "couples": [
+            { "pareja": 102, "nickname": "JONA y TATIANA" },
+            { "pareja": 117, "nickname": "샨디&팀맥스" },
+            { "pareja": 122, "nickname": "Kyan & Rie" },
+            { "pareja": 123, "nickname": "이리 & 플로라" },
+            { "pareja": 137, "nickname": "미카엘 & 니나" },
+            { "pareja": 138, "nickname": "카헬&윤비" },
+            { "pareja": 148, "nickname": "노남기&손" },
+            { "pareja": 153, "nickname": "아메&아현" }
+          ],
+          "video_note": "영상 데이터 추후 연결 예정 (B조 ronda 영상)"
+        },
+        "C": {
+          "parejas": [106, 127, 129, 132, 139, 140, 162, 171],
+          "couples": [
+            { "pareja": 106, "nickname": "지내고 & 옐로" },
+            { "pareja": 127, "nickname": "비토&태라" },
+            { "pareja": 129, "nickname": "데이비드&아미" },
+            { "pareja": 132, "nickname": "매우파랑다&라벤더" },
+            { "pareja": 139, "nickname": "철환 & 연주" },
+            { "pareja": 140, "nickname": "차이&메텔" },
+            { "pareja": 162, "nickname": "엘 또리또 & 엘리" },
+            { "pareja": 171, "nickname": "동혁&포노" }
+          ],
+          "video_note": "영상 데이터 추후 연결 예정 (C조 ronda 영상)"
+        }
+      },
+      "highlight": "🏆 소유&석정 커플 9위로 결승 진출!",
+      "couples": [
+        { "rank": 1, "pareja": 145, "nickname": "소똥&연꽃", "advanced": true, "scores": [8.3, 8.6, 8.75, 8.95], "total": 34.6, "average": 8.65 },
+        { "rank": 2, "pareja": 153, "nickname": "아메&아현", "advanced": true, "scores": [8.5, 8.05, 8.25, 8.9], "total": 33.7, "average": 8.425 },
+        { "rank": 3, "pareja": 102, "nickname": "JONA y TATIANA", "advanced": true, "scores": [8.15, 8.18, 8.5, 8.8], "total": 33.63, "average": 8.4075 },
+        { "rank": 4, "pareja": 123, "nickname": "이리 & 플로라", "advanced": true, "scores": [8.0, 8.15, 8.5, 8.5], "total": 33.15, "average": 8.2875 },
+        { "rank": 5, "pareja": 132, "nickname": "매우파랑다&라벤더", "advanced": true, "scores": [8.0, 7.89, 8.6, 8.65], "total": 33.14, "average": 8.285 },
+        { "rank": 6, "pareja": 162, "nickname": "엘 또리또 & 엘리", "advanced": true, "scores": [8.0, 8.38, 8.0, 8.5], "total": 32.88, "average": 8.22 },
+        { "rank": 7, "pareja": 137, "nickname": "미카엘 & 니나", "advanced": true, "scores": [6.59, 8.4, 8.5, 8.85], "total": 32.34, "average": 8.085 },
+        { "rank": 8, "pareja": 129, "nickname": "데이비드&아미", "advanced": true, "scores": [7.0, 8.02, 8.5, 8.8], "total": 32.32, "average": 8.08 },
+        {
+          "rank": 9, "pareja": 180, "nickname": "석정&소유",
+          "advanced": true, "scores": [7.8, 7.6, 8.7, 8.2], "total": 32.3, "average": 8.075,
+          "is_my_couple": true,
+          "strategic_analysis": {
+            "achievement": "🏆 KTC 2023 MILONGA 결승 진출 (9위)",
+            "judge_breakdown": {
+              "Martin": { "score": 7.8, "rank_among_top9": "낮음 (9팀 중 7~8위급)" },
+              "Valelia": { "score": 7.6, "rank_among_top9": "낮음 (9팀 중 최하위)" },
+              "Oscar": { "score": 8.7, "rank_among_top9": "중상위 (9팀 중 2-3위)" },
+              "Cecilia": { "score": 8.2, "rank_among_top9": "중간" }
+            },
+            "strength": "Oscar(표현/음악성) 8.7점으로 상위권 수준",
+            "improvement": "Martin/Valelia(기본기/정확성) 기준에서 8.0 돌파가 결승 상위권 진입 열쇠",
+            "cross_category": "같은 2023년 Pista에서는 결승 진출 실패 → Milonga가 강점 부문"
+          }
+        },
+        { "rank": 10, "pareja": 178, "nickname": "미키 & 알리나", "advanced": false, "scores": [7.0, 7.89, 8.7, 8.7], "total": 32.29, "average": 8.0725 },
+        { "rank": 11, "pareja": 171, "nickname": "동혁&포노", "advanced": false, "scores": [6.0, 8.15, 8.75, 8.85], "total": 31.75, "average": 7.9375 },
+        { "rank": 12, "pareja": 148, "nickname": "노남기&손", "advanced": false, "scores": [7.0, 8.1, 8.25, 8.3], "total": 31.65, "average": 7.9125 },
+        { "rank": 13, "pareja": 103, "nickname": "우노&뮤즈", "advanced": false, "scores": [7.45, 7.1, 8.5, 8.3], "total": 31.35, "average": 7.8375 },
+        { "rank": 14, "pareja": 155, "nickname": "스테파노 & 조앤", "advanced": false, "scores": [8.0, 7.6, 8.0, 7.6], "total": 31.2, "average": 7.8 },
+        { "rank": 15, "pareja": 146, "nickname": "우드&사라", "advanced": false, "scores": [6.8, 7.85, 8.5, 7.8], "total": 30.95, "average": 7.7375 },
+        { "rank": 16, "pareja": 117, "nickname": "샨디&팀맥스", "advanced": false, "scores": [7.0, 7.05, 8.5, 8.2], "total": 30.75, "average": 7.6875 },
+        { "rank": 17, "pareja": 127, "nickname": "비토&태라", "advanced": false, "scores": [6.6, 7.3, 8.5, 8.3], "total": 30.7, "average": 7.675 },
+        { "rank": 18, "pareja": 173, "nickname": "바질&앨린", "advanced": false, "scores": [6.0, 8.05, 8.7, 7.9], "total": 30.65, "average": 7.6625 },
+        { "rank": 19, "pareja": 122, "nickname": "Kyan & Rie", "advanced": false, "scores": [6.33, 7.23, 8.25, 8.1], "total": 29.91, "average": 7.4775 },
+        { "rank": 20, "pareja": 176, "nickname": "김토끼 & 캘리", "advanced": false, "scores": [6.0, 7.95, 8.0, 7.95], "total": 29.9, "average": 7.475 },
+        { "rank": 21, "pareja": 140, "nickname": "차이&메텔", "advanced": false, "scores": [6.0, 7.0, 8.0, 8.55], "total": 29.55, "average": 7.3875 },
+        { "rank": 22, "pareja": 106, "nickname": "지내고 & 옐로", "advanced": false, "scores": [6.0, 6.98, 8.5, 7.9], "total": 29.38, "average": 7.345 },
+        { "rank": 23, "pareja": 138, "nickname": "카헬&윤비", "advanced": false, "scores": [6.5, 6.95, 8.25, 7.6], "total": 29.3, "average": 7.325 },
+        { "rank": 24, "pareja": 139, "nickname": "철환 & 연주", "advanced": false, "scores": [6.0, 6.99, 8.0, 8.2], "total": 29.19, "average": 7.2975 }
+      ],
+      "analysis": {
+        "total": 24,
+        "advanced_count": 9,
+        "cutoff_score": 32.3,
+        "my_couple_verdict": "🎯 결승 진출 커트라인 바로 걸침! MILONGA는 명확한 강점 부문."
+      }
+    },
     "ktc-2023-pista-final": {
       "competition": "KTC",
       "competition_id": "COMP-005",
@@ -129,6 +294,84 @@
           "소똥": { "2023_pista_final_rank": 7, "2024_jack_semi_rank": 1, "note": "Jack&Jill 단독 우승" }
         },
         "judge_style_2023": "Martin과 Oscar는 9.7+ 고점 집중, Valelia와 Cecilia는 편차 큰 까다로운 기준"
+      }
+    },
+    "ktc-2023-pista-international-final": {
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2023,
+      "category": "pista",
+      "stage": "final",
+      "stage_label": "Tango de Pista INTERNATIONAL FINAL",
+      "judges": ["Martin", "Valelia", "Oscar", "Cecilia"],
+      "source_note": "2023 KTC Pista International Final · 상위 3위 (노란색)",
+      "couples": [
+        { "rank": 1, "pareja": 169, "nickname": "지아 & 버범", "winner": true, "scores": [9.99, 9.95, 9.75, 9.75], "total": 39.44, "average": 9.86 },
+        { "rank": 2, "pareja": 154, "nickname": "브리즈 & 미스탕", "scores": [9.85, 9.15, 9.75, 9.8], "total": 38.55, "average": 9.6375 },
+        { "rank": 3, "pareja": 104, "nickname": "주니 & 유진", "scores": [9.96, 9.7, 9.5, 9.2], "total": 38.36, "average": 9.59 },
+        { "rank": 4, "pareja": 161, "nickname": "에피톤 진 & 비키 정", "scores": [9.59, 9.75, 9.5, 9.35], "total": 38.19, "average": 9.5475 },
+        { "rank": 5, "pareja": 102, "nickname": "JONA y TATIANA", "scores": [9.8, 9.6, 9.4, 9.0], "total": 37.8, "average": 9.45 },
+        { "rank": 6, "pareja": 123, "nickname": "이리 & 플로라", "scores": [9.96, 9.25, 9.25, 9.1], "total": 37.56, "average": 9.39 },
+        { "rank": 7, "pareja": 178, "nickname": "미키 & 알리나", "scores": [9.45, 9.3, 9.25, 9.3], "total": 37.3, "average": 9.325 },
+        { "rank": 8, "pareja": 175, "nickname": "마르꼬 & 에이미", "scores": [9.33, 9.0, 9.25, 9.5], "total": 37.08, "average": 9.27 }
+      ],
+      "analysis": {
+        "total_finalists": 8,
+        "winner": { "pareja": 169, "nickname": "지아 & 버범", "avg": 9.86 },
+        "runner_up": { "pareja": 154, "nickname": "브리즈 & 미스탕", "avg": 9.6375 },
+        "third": { "pareja": 104, "nickname": "주니 & 유진", "avg": 9.59 }
+      }
+    },
+    "ktc-2023-milonga-final": {
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2023,
+      "category": "milonga",
+      "stage": "final",
+      "judges": ["Martin", "Valelia", "Oscar", "Cecilia"],
+      "source_note": "2023 KTC MILONGA FINAL · 9커플 결승 (준결승 진출자 전원)",
+      "highlight": "🏆 소유&석정 커플 6위! 준결승 9위 → 결승 6위 (3단계 상승)",
+      "couples": [
+        { "rank": 1, "pareja": 145, "nickname": "소똥&연꽃", "winner": true, "scores": [9.99, 9.95, 9.9, 9.9], "total": 39.74, "average": 9.935 },
+        { "rank": 2, "pareja": 162, "nickname": "엘 또리또 & 엘리", "scores": [9.92, 9.92, 9.75, 9.7], "total": 39.29, "average": 9.8225 },
+        { "rank": 3, "pareja": 132, "nickname": "매우파랑다 & 라벤더", "scores": [9.9, 9.32, 9.8, 9.4], "total": 38.42, "average": 9.605 },
+        { "rank": 4, "pareja": 153, "nickname": "아메&아현", "scores": [9.65, 9.4, 9.8, 9.25], "total": 38.1, "average": 9.525 },
+        { "rank": 5, "pareja": 137, "nickname": "미카엘 & 니나", "scores": [9.1, 9.75, 9.8, 9.35], "total": 38.0, "average": 9.5 },
+        {
+          "rank": 6, "pareja": 180, "nickname": "석정&소유",
+          "scores": [9.94, 9.1, 9.75, 8.9], "total": 37.69, "average": 9.4225,
+          "is_my_couple": true,
+          "strategic_analysis": {
+            "achievement": "🎯 KTC 2023 Milonga 전국 6위! (준결승 9위 → 결승 6위, 3단계 상승)",
+            "semifinal_comparison": {
+              "semi_scores": [7.8, 7.6, 8.7, 8.2],
+              "semi_total": 32.3,
+              "final_scores": [9.94, 9.1, 9.75, 8.9],
+              "final_total": 37.69,
+              "improvement": "+5.39 (준결승 대비 17% 상승)",
+              "best_judge_swing": "Martin: 7.8 → 9.94 (+2.14) — 무대에서 폭발적 퍼포먼스"
+            },
+            "judge_breakdown_final": {
+              "Martin": { "score": 9.94, "rank_among_finalists": "2위급 (1위 소똥 9.99와 -0.05)", "note": "🌟 본 대회 최대 강점 — 기본기·리듬 심사에서 최상위" },
+              "Valelia": { "score": 9.1, "note": "중하위 (1위 9.95와 -0.85)" },
+              "Oscar": { "score": 9.75, "note": "상위권 수준" },
+              "Cecilia": { "score": 8.9, "note": "개선 여지 — 감정·표현 심사 보강" }
+            },
+            "strategic_takeaway": "🎪 결승 무대에서 Martin의 기본기 심사 기준 9.94 — 본 대회 최고 기본기 평가 중 하나. 밀롱가는 명확한 강점 카테고리. Valelia/Cecilia 기준에서 9.5+ 끌어올리면 상위 3위권 가능.",
+            "next_year_plan": "Milonga 2024/2025에서는 준결승 이상에서도 Martin·Oscar 기준 유지, Valelia·Cecilia 9.3+ 목표"
+          }
+        },
+        { "rank": 7, "pareja": 102, "nickname": "JONA y TATIANA", "scores": [9.44, 9.35, 9.8, 9.0], "total": 37.59, "average": 9.3975 },
+        { "rank": 8, "pareja": 123, "nickname": "이리 & 플로라", "scores": [9.25, 9.25, 9.8, 9.2], "total": 37.5, "average": 9.375 },
+        { "rank": 9, "pareja": 129, "nickname": "데이비드&아미", "scores": [9.1, 9.3, 9.8, 9.1], "total": 37.3, "average": 9.325 }
+      ],
+      "analysis": {
+        "total_finalists": 9,
+        "winner": { "pareja": 145, "nickname": "소똥&연꽃", "avg": 9.935 },
+        "runner_up": { "pareja": 162, "nickname": "엘 또리또 & 엘리", "avg": 9.8225 },
+        "third": { "pareja": 132, "nickname": "매우파랑다 & 라벤더", "avg": 9.605 },
+        "my_couple_rank": 6,
+        "gap_to_3rd": 0.18
       }
     },
     "ktc-2024-jack-semifinal": {
