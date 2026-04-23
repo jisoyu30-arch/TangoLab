@@ -2035,8 +2035,35 @@
       "category": "pista_senior",
       "stage": "final",
       "ronda_number": 1,
-      "songs": [],
-      "videos": [],
+      "songs": [
+        {
+          "song_id": "UNMATCHED-JUNTO_A_TU_CORAZON",
+          "title": "Junto a tu corazón",
+          "orchestra": "Juan D'Arienzo con Alberto Podestá",
+          "order": 1
+        },
+        {
+          "song_id": "UNMATCHED-EMANCIPACION",
+          "title": "Emancipación",
+          "orchestra": "Osvaldo Pugliese",
+          "order": 2
+        },
+        {
+          "song_id": "UNMATCHED-EL_TAURA_DE_ABASTO",
+          "title": "El taura de Abasto",
+          "orchestra": "Juan D'Arienzo",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "YnYEyMzEfag",
+          "url": "https://www.youtube.com/watch?v=YnYEyMzEfag&t=1024s",
+          "channel": "Jose Valverde",
+          "title": "Final Senior Tango Pista 2025 - Ronda única (전체방송 17:04~29:28)",
+          "start_sec": 1024
+        }
+      ],
       "rankings": [
         {
           "rank": 1,
@@ -2099,14 +2126,23 @@
           "promedio": 8.744
         }
       ],
-      "total_couples": 10
+      "total_couples": 10,
+      "judges": [
+        "Javier Rodriguez",
+        "Aoniken Quiroga",
+        "Cristina Sosa",
+        "Paola Tacceti",
+        "Diego Gauna",
+        "Roxana Suarez",
+        "Cristian Marquez"
+      ]
     },
     {
       "round_id": "R-PTC2023-PISTA-SF1",
       "competition": "PTC",
       "competition_id": "COMP-004",
       "year": 2023,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 1,
       "songs": [
@@ -2143,7 +2179,7 @@
       "competition": "PTC",
       "competition_id": "COMP-004",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 2,
       "songs": [
@@ -2180,7 +2216,7 @@
       "competition": "PTC",
       "competition_id": "COMP-004",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 3,
       "songs": [
@@ -2217,7 +2253,7 @@
       "competition": "PTC",
       "competition_id": "COMP-004",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 1,
       "songs": [],
@@ -2241,7 +2277,7 @@
       "competition": "TDAC",
       "competition_id": "COMP-006",
       "year": 2024,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 1,
       "songs": [
@@ -2271,7 +2307,7 @@
       "competition": "TDAC",
       "competition_id": "COMP-006",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 2,
       "songs": [],
@@ -2289,7 +2325,7 @@
       "competition": "KTC",
       "competition_id": "COMP-005",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 1,
       "songs": [
@@ -2326,7 +2362,7 @@
       "competition": "KTC",
       "competition_id": "COMP-005",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 2,
       "songs": [
@@ -2363,7 +2399,7 @@
       "competition": "KTC",
       "competition_id": "COMP-005",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 4,
       "songs": [
@@ -2400,7 +2436,7 @@
       "competition": "KTC",
       "competition_id": "COMP-005",
       "year": 2023,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 3,
       "songs": [
@@ -2437,7 +2473,7 @@
       "competition": "KTC",
       "competition_id": "COMP-005",
       "year": 2023,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 4,
       "songs": [
@@ -2474,7 +2510,7 @@
       "competition": "KTC",
       "competition_id": "COMP-005",
       "year": 2023,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 2,
       "songs": [
@@ -2511,7 +2547,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 1,
       "songs": [
@@ -2556,6 +2592,88 @@
         "Dante Sanchez",
         "Facundo de la Cruz",
         "Jimena Hoeffner"
+      ],
+      "participants": [
+        {
+          "pareja": 762,
+          "leader": "juan",
+          "follower": "cupini            Erica  Rossi",
+          "rank": 32,
+          "promedio": 8.51,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 245,
+          "leader": "Artem Luchin",
+          "follower": "Polina Luchina",
+          "rank": 37,
+          "promedio": 8.493,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 449,
+          "leader": "Martin Artunduaga",
+          "follower": "Noelia Andino",
+          "rank": 39,
+          "promedio": 8.481,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 510,
+          "leader": "Miguel Angel Quintero",
+          "follower": "Luciana Yanela Olivera Pedraza",
+          "rank": 66,
+          "promedio": 8.358,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 195,
+          "leader": "Daniel Boujon",
+          "follower": "Yuki  Misaki",
+          "rank": 69,
+          "promedio": 8.345,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 246,
+          "leader": "Alejandro Quaglia",
+          "follower": "Lucia Barrios",
+          "rank": 126,
+          "promedio": 8.118,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 791,
+          "leader": "Ezgi Turmuş Binici",
+          "follower": "Lourdes Medina",
+          "rank": 146,
+          "promedio": 8.007,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 773,
+          "leader": "Matias Ezequiel Vallejos  A",
+          "follower": "ldana Mileva Godoy Calligari",
+          "rank": 147,
+          "promedio": 7.988,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 357,
+          "leader": "Grzegorz Kałmuczak",
+          "follower": "Dominika Jasik",
+          "rank": 154,
+          "promedio": 7.915,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 464,
+          "leader": "Alexis Arie Velasquez",
+          "follower": "Laura Florencia Guardia",
+          "rank": 155,
+          "promedio": 7.864,
+          "advancedTo": "semifinal"
+        }
       ]
     },
     {
@@ -2563,7 +2681,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 4,
       "songs": [
@@ -2608,6 +2726,88 @@
         "Dante Sanchez",
         "Facundo de la Cruz",
         "Jimena Hoeffner"
+      ],
+      "participants": [
+        {
+          "pareja": 184,
+          "leader": "Gonzalo Angeles de Soto",
+          "follower": "Nathalia Peña Muñoz",
+          "rank": 35,
+          "promedio": 8.498,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 417,
+          "leader": "MAX PIERO VERA RAMIREZ",
+          "follower": "Anastasiia Rudiak",
+          "rank": 36,
+          "promedio": 8.495,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 563,
+          "leader": "Alejandro Beron",
+          "follower": "Kelly Lettieri",
+          "rank": 58,
+          "promedio": 8.402,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 397,
+          "leader": "Mateo Blandón",
+          "follower": "Valeria Villa",
+          "rank": 70,
+          "promedio": 8.342,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 674,
+          "leader": "Ernesto Suter",
+          "follower": "Paola Klinger",
+          "rank": 93,
+          "promedio": 8.267,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 746,
+          "leader": "Humberto Pouchulu",
+          "follower": "Aura Tateossian",
+          "rank": 98,
+          "promedio": 8.231,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 767,
+          "leader": "Mauro Caiazza",
+          "follower": "Sabrina Amuchastegui",
+          "rank": 103,
+          "promedio": 8.218,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 733,
+          "leader": "Magdalena del Milagro Yrahola",
+          "follower": "Hector Abel Colque",
+          "rank": 110,
+          "promedio": 8.197,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 465,
+          "leader": "Andrés Martínez",
+          "follower": "Fernanda Cardona Sossa",
+          "rank": 114,
+          "promedio": 8.173,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 94,
+          "leader": "Julio Azorin",
+          "follower": "Belén Valdez",
+          "rank": 120,
+          "promedio": 8.142,
+          "advancedTo": "semifinal"
+        }
       ]
     },
     {
@@ -2615,7 +2815,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 5,
       "songs": [
@@ -2660,6 +2860,88 @@
         "Dante Sanchez",
         "Facundo de la Cruz",
         "Jimena Hoeffner"
+      ],
+      "participants": [
+        {
+          "pareja": 530,
+          "leader": "Diego Ortega",
+          "follower": "Aldana Silveyra",
+          "rank": 1,
+          "promedio": 8.988,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 261,
+          "leader": "Cristian Correa",
+          "follower": "Miriam Copello",
+          "rank": 51,
+          "promedio": 8.418,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 132,
+          "leader": "Facundo Barrionuevo",
+          "follower": "Agustina Juanbelz",
+          "rank": 67,
+          "promedio": 8.355,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 320,
+          "leader": "Sebastian Avendaño",
+          "follower": "Tania Gutierrez",
+          "rank": 78,
+          "promedio": 8.328,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 738,
+          "leader": "Sandra Nadia Naccache",
+          "follower": "Jorge Carlos Lopez",
+          "rank": 81,
+          "promedio": 8.32,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 679,
+          "leader": "Federico Carrizo",
+          "follower": "Karina Dovbush",
+          "rank": 89,
+          "promedio": 8.28,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 757,
+          "leader": "Facundo Arnedo",
+          "follower": "Ana Barros",
+          "rank": 100,
+          "promedio": 8.229,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 40,
+          "leader": "Diego Ezequiel Pérez",
+          "follower": "María Soledad Cantarini",
+          "rank": 105,
+          "promedio": 8.208,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 652,
+          "leader": "Franz alvaro Bravo basso",
+          "follower": "Marta Kubicz",
+          "rank": 113,
+          "promedio": 8.177,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 487,
+          "leader": "Matías Cabezuelo",
+          "follower": "Nicole Mazza",
+          "rank": 130,
+          "promedio": 8.111,
+          "advancedTo": "semifinal"
+        }
       ]
     },
     {
@@ -2667,7 +2949,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 9,
       "songs": [],
@@ -2693,6 +2975,88 @@
         "Dante Sanchez",
         "Facundo de la Cruz",
         "Jimena Hoeffner"
+      ],
+      "participants": [
+        {
+          "pareja": 1,
+          "leader": "Juan Ignacio Braida",
+          "follower": "Natasha Kaliszuk Lee",
+          "rank": 12,
+          "promedio": 8.707,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 262,
+          "leader": "Valentin Bobkov",
+          "follower": "Katerina Tsybrova",
+          "rank": 25,
+          "promedio": 8.567,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 446,
+          "leader": "Andrei Bogdanov",
+          "follower": "Aleksandra Shumeiko (Klinova)",
+          "rank": 46,
+          "promedio": 8.438,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 404,
+          "leader": "claudio Peralta",
+          "follower": "mariia marinova",
+          "rank": 48,
+          "promedio": 8.425,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 605,
+          "leader": "David Figueroa caicedo",
+          "follower": "Susana Ocampo ruiz",
+          "rank": 53,
+          "promedio": 8.408,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 787,
+          "leader": "Javier Borlicher",
+          "follower": "Anabella Linzalata Raso",
+          "rank": 83,
+          "promedio": 8.313,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 723,
+          "leader": "Nguyen Thi Thanh Phuong",
+          "follower": "Louie Canillo Serentas",
+          "rank": 107,
+          "promedio": 8.203,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 502,
+          "leader": "Manuel Bianchi",
+          "follower": "Michela Elicio",
+          "rank": 109,
+          "promedio": 8.202,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 720,
+          "leader": "Sara Lupparelli",
+          "follower": "Byron Alonso Torres",
+          "rank": 122,
+          "promedio": 8.138,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 379,
+          "leader": "Lucio Javier Chavez",
+          "follower": "Nina Pauluzzi",
+          "rank": 132,
+          "promedio": 8.085,
+          "advancedTo": "semifinal"
+        }
       ]
     },
     {
@@ -2700,7 +3064,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 11,
       "songs": [],
@@ -2726,6 +3090,88 @@
         "Dante Sanchez",
         "Facundo de la Cruz",
         "Jimena Hoeffner"
+      ],
+      "participants": [
+        {
+          "pareja": 466,
+          "leader": "Carlos Estigarribia",
+          "follower": "Marina Alcalde",
+          "rank": 21,
+          "promedio": 8.578,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 748,
+          "leader": "Matias Gutierrez",
+          "follower": "Aldana Belen Figueroa",
+          "rank": 24,
+          "promedio": 8.575,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 355,
+          "leader": "Luis Mario Saihueque",
+          "follower": "Marcela Patricia Jara",
+          "rank": 34,
+          "promedio": 8.5,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 742,
+          "leader": "Orlando Nieto",
+          "follower": "Marcela Mansilla",
+          "rank": 41,
+          "promedio": 8.468,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 281,
+          "leader": "Ramiro Andres Perez C",
+          "follower": "aricchio  Iara Deluchi",
+          "rank": 50,
+          "promedio": 8.422,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 288,
+          "leader": "Dmitrii Soldatov",
+          "follower": "Alina Sukretnaia",
+          "rank": 73,
+          "promedio": 8.332,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 57,
+          "leader": "Gustavo Fabián Ippolito",
+          "follower": "Rosana Luján Porres",
+          "rank": 88,
+          "promedio": 8.288,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 427,
+          "leader": "Carlos Ochoa",
+          "follower": "Marisol Rivas",
+          "rank": 104,
+          "promedio": 8.217,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 708,
+          "leader": "GABRIEL EDUARDO TOLABA",
+          "follower": "YANINA ANDREA CEBALLO HOYOS",
+          "rank": 121,
+          "promedio": 8.14,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 118,
+          "leader": "NICOLAS PONCE",
+          "follower": "GRETA HEKIER",
+          "rank": 143,
+          "promedio": 8.025,
+          "advancedTo": "semifinal"
+        }
       ]
     },
     {
@@ -2733,7 +3179,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 12,
       "songs": [],
@@ -2759,6 +3205,80 @@
         "Dante Sanchez",
         "Facundo de la Cruz",
         "Jimena Hoeffner"
+      ],
+      "participants": [
+        {
+          "pareja": 230,
+          "leader": "FERROL MATTHEW POLUAN",
+          "follower": "Muliany Rambe",
+          "rank": 8,
+          "promedio": 8.767,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 152,
+          "leader": "leonardo pankow",
+          "follower": "valentina massari",
+          "rank": 10,
+          "promedio": 8.723,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 508,
+          "leader": "Mariela Josebachuili",
+          "follower": "Noelia Frias",
+          "rank": 74,
+          "promedio": 8.332,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 722,
+          "leader": "Mariel Quintana Grasso",
+          "follower": "Cristian Quevedo",
+          "rank": 116,
+          "promedio": 8.151,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 136,
+          "leader": "Yumar Zambrano",
+          "follower": "Mariel Filadoro",
+          "rank": 119,
+          "promedio": 8.143,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 724,
+          "leader": "Wonjun Seol",
+          "follower": "Hyemi Seo",
+          "rank": 125,
+          "promedio": 8.123,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 122,
+          "leader": "Mariano Vazquez",
+          "follower": "Lulú Qin",
+          "rank": 133,
+          "promedio": 8.083,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 462,
+          "leader": "Mariano Serrudo",
+          "follower": "Ekaterina Malko",
+          "rank": 136,
+          "promedio": 8.065,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 177,
+          "leader": "Maximiliano Astorga",
+          "follower": "Fernanda Valenzuela",
+          "rank": 139,
+          "promedio": 8.04,
+          "advancedTo": "semifinal"
+        }
       ]
     },
     {
@@ -2766,7 +3286,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 13,
       "songs": [],
@@ -2792,6 +3312,80 @@
         "Dante Sanchez",
         "Facundo de la Cruz",
         "Jimena Hoeffner"
+      ],
+      "participants": [
+        {
+          "pareja": 490,
+          "leader": "Lucas  Gauto",
+          "follower": "Naima Gerasopoulou",
+          "rank": 2,
+          "promedio": 8.937,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 728,
+          "leader": "Victoria Pesci",
+          "follower": "Lucas Martin",
+          "rank": 18,
+          "promedio": 8.6,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 351,
+          "leader": "Juan fernando Cabral",
+          "follower": "Laura  Castiñeiras",
+          "rank": 30,
+          "promedio": 8.515,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 53,
+          "leader": "Ariel Manzanares",
+          "follower": "Laisa Souza",
+          "rank": 31,
+          "promedio": 8.513,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 373,
+          "leader": "Andrea Vighi",
+          "follower": "Chiara Benati",
+          "rank": 56,
+          "promedio": 8.403,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 732,
+          "leader": "Xing Zhu Guo",
+          "follower": "Jun Qiang Su",
+          "rank": 65,
+          "promedio": 8.36,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 305,
+          "leader": "Ariel Adrian Almiron",
+          "follower": "Aluminé Deluchi",
+          "rank": 75,
+          "promedio": 8.332,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 467,
+          "leader": "Ezequiel Angel Franco Ro",
+          "follower": "driguez  Sofia Belen Diaz",
+          "rank": 108,
+          "promedio": 8.202,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 264,
+          "leader": "Mario Gavito",
+          "follower": "Jessica Moreno",
+          "rank": 153,
+          "promedio": 7.927,
+          "advancedTo": "semifinal"
+        }
       ]
     },
     {
@@ -2799,7 +3393,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 14,
       "songs": [],
@@ -2825,6 +3419,80 @@
         "Dante Sanchez",
         "Facundo de la Cruz",
         "Jimena Hoeffner"
+      ],
+      "participants": [
+        {
+          "pareja": 253,
+          "leader": "Jesus Paez",
+          "follower": "IARA DUARTE",
+          "rank": 27,
+          "promedio": 8.552,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 361,
+          "leader": "Cristian Zalazar",
+          "follower": "Carla Espinoza",
+          "rank": 38,
+          "promedio": 8.49,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 730,
+          "leader": "Olena Sergiienko",
+          "follower": "Sergiy Podbolotnyy",
+          "rank": 44,
+          "promedio": 8.442,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 594,
+          "leader": "Dante Culcuy",
+          "follower": "Veronica Vazquez",
+          "rank": 71,
+          "promedio": 8.338,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 237,
+          "leader": "Bumhee Lee",
+          "follower": "Jia Han",
+          "rank": 76,
+          "promedio": 8.332,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 385,
+          "leader": "Lucas Robañera",
+          "follower": "becky Navarro",
+          "rank": 87,
+          "promedio": 8.295,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 520,
+          "leader": "Guillermo Cerneaz",
+          "follower": "Juan Pablo Ramírez",
+          "rank": 92,
+          "promedio": 8.275,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 726,
+          "leader": "Natalia Casanova",
+          "follower": "Damian Marquez Veron",
+          "rank": 112,
+          "promedio": 8.18,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 618,
+          "leader": "Aldana Lozano rueda",
+          "follower": "César Javier Ferreyra",
+          "rank": 135,
+          "promedio": 8.077,
+          "advancedTo": "semifinal"
+        }
       ]
     },
     {
@@ -2832,7 +3500,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 15,
       "songs": [],
@@ -2858,6 +3526,80 @@
         "Dante Sanchez",
         "Facundo de la Cruz",
         "Jimena Hoeffner"
+      ],
+      "participants": [
+        {
+          "pareja": 4,
+          "leader": "Erik Deslarmes",
+          "follower": "Nadia Aguilar",
+          "rank": 5,
+          "promedio": 8.845,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 609,
+          "leader": "juan manuel Rosales",
+          "follower": "Lisa Rosales",
+          "rank": 17,
+          "promedio": 8.603,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 166,
+          "leader": "Leandro Capparelli",
+          "follower": "Jeannette Erazú",
+          "rank": 26,
+          "promedio": 8.567,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 37,
+          "leader": "Joaquin Besga",
+          "follower": "Katherine Laiton",
+          "rank": 29,
+          "promedio": 8.52,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 267,
+          "leader": "Konstantin Moshinskiy",
+          "follower": "analia alfaro",
+          "rank": 57,
+          "promedio": 8.403,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 556,
+          "leader": "Rodrigo Hernan Saucedo",
+          "follower": "Magdalena Maria",
+          "rank": 68,
+          "promedio": 8.347,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 739,
+          "leader": "Marina Belen Machado Riquel",
+          "follower": "me  Emmanuel David Avendaño",
+          "rank": 80,
+          "promedio": 8.325,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 23,
+          "leader": "Santiago Marolo",
+          "follower": "Luna Mendez",
+          "rank": 111,
+          "promedio": 8.182,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 630,
+          "leader": "Guilherme Ferreira",
+          "follower": "Eliza Moritz",
+          "rank": 117,
+          "promedio": 8.15,
+          "advancedTo": "semifinal"
+        }
       ]
     },
     {
@@ -2865,7 +3607,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 16,
       "songs": [],
@@ -2891,6 +3633,80 @@
         "Dante Sanchez",
         "Facundo de la Cruz",
         "Jimena Hoeffner"
+      ],
+      "participants": [
+        {
+          "pareja": 143,
+          "leader": "Gustavo Chaile",
+          "follower": "Mayela Aponte",
+          "rank": 6,
+          "promedio": 8.787,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 116,
+          "leader": "Alejandro Lázzaro",
+          "follower": "Gabriela Gallese",
+          "rank": 15,
+          "promedio": 8.618,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 169,
+          "leader": "Luciano Capparelli",
+          "follower": "Rocio De los santos",
+          "rank": 40,
+          "promedio": 8.471,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 365,
+          "leader": "Rodrigo Videla",
+          "follower": "Marina Teves",
+          "rank": 47,
+          "promedio": 8.432,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 157,
+          "leader": "Carlos Santos David",
+          "follower": "Mirella Santos David",
+          "rank": 59,
+          "promedio": 8.402,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 318,
+          "leader": "Maxi Copello",
+          "follower": "Karen Terenzio",
+          "rank": 84,
+          "promedio": 8.303,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 480,
+          "leader": "Adriel Cristhian Bournissen",
+          "follower": "Maria Soledad Mallo",
+          "rank": 94,
+          "promedio": 8.258,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 532,
+          "leader": "JORGE PADILLA",
+          "follower": "Ana Zoraida Gomez",
+          "rank": 128,
+          "promedio": 8.117,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 272,
+          "leader": "Pedro Ochoa",
+          "follower": "Lola Ruiz",
+          "rank": 140,
+          "promedio": 8.032,
+          "advancedTo": "semifinal"
+        }
       ]
     },
     {
@@ -2898,7 +3714,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 3,
       "songs": [],
@@ -2916,7 +3732,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 4,
       "songs": [],
@@ -2934,7 +3750,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 5,
       "songs": [],
@@ -2952,7 +3768,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 6,
       "songs": [],
@@ -2970,7 +3786,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 7,
       "songs": [],
@@ -2988,7 +3804,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 9,
       "songs": [],
@@ -3006,7 +3822,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 10,
       "songs": [],
@@ -3024,7 +3840,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 11,
       "songs": [],
@@ -3042,7 +3858,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 12,
       "songs": [],
@@ -3060,7 +3876,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 13,
       "songs": [],
@@ -3078,7 +3894,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 14,
       "songs": [],
@@ -3096,7 +3912,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 19,
       "songs": [],
@@ -3114,7 +3930,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 20,
       "songs": [],
@@ -3132,7 +3948,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 21,
       "songs": [],
@@ -3150,7 +3966,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 22,
       "songs": [],
@@ -3168,7 +3984,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 23,
       "songs": [],
@@ -3186,7 +4002,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 25,
       "songs": [],
@@ -3204,7 +4020,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 26,
       "songs": [],
@@ -3222,7 +4038,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 27,
       "songs": [],
@@ -3240,7 +4056,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 1,
       "songs": [],
@@ -3251,6 +4067,88 @@
           "channel": "Jose Valverde",
           "title": "Ronda 01 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 20,
+          "leader": "Matteo Antonietti",
+          "follower": "Añes Rosario Arredondo Maiztegui",
+          "rank": 21,
+          "promedio": 7.57,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 446,
+          "leader": "Andrei Bogdanov",
+          "follower": "Aleksandra Shumeiko (Klinova)",
+          "rank": 45,
+          "promedio": 7.41,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 230,
+          "leader": "FERROL MATTHEW POLUAN",
+          "follower": "Muliany Rambe",
+          "rank": 58,
+          "promedio": 7.36,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 48,
+          "leader": "Łukasz Antoni Wiśniewski",
+          "follower": "Tekla Gogritchiani",
+          "rank": 95,
+          "promedio": 7.162,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 468,
+          "leader": "ilya skripkin",
+          "follower": "micaela marin",
+          "rank": 119,
+          "promedio": 7.02,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 350,
+          "leader": "Facundo",
+          "follower": "Cabral           Mara  Navarro",
+          "rank": 126,
+          "promedio": 6.974,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 380,
+          "leader": "Rodolfo Saile",
+          "follower": "Jane Lee",
+          "rank": 129,
+          "promedio": 6.938,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 741,
+          "leader": "Carolina Marquez",
+          "follower": "Ezequiel Lescano",
+          "rank": 135,
+          "promedio": 6.884,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 413,
+          "leader": "Luis Alberto Amaya",
+          "follower": "María Florencia Tellechea",
+          "rank": 136,
+          "promedio": 6.876,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 704,
+          "leader": "Emiliano Mamani",
+          "follower": "Lucia Pertierra",
+          "rank": 148,
+          "promedio": 6.624,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3258,7 +4156,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 2,
       "songs": [
@@ -3288,6 +4186,88 @@
           "channel": "Jose Valverde",
           "title": "Ronda 02 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 125,
+          "leader": "Alexander Sossa",
+          "follower": "Ana Thomas",
+          "rank": 6,
+          "promedio": 7.696,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 481,
+          "leader": "Artem Dovbush",
+          "follower": "Daria Pechatnikova",
+          "rank": 23,
+          "promedio": 7.558,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 253,
+          "leader": "Jesus Paez",
+          "follower": "IARA DUARTE",
+          "rank": 38,
+          "promedio": 7.43,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 114,
+          "leader": "Diego Churquina",
+          "follower": "Paula Pandol",
+          "rank": 44,
+          "promedio": 7.42,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 583,
+          "leader": "roque bravo",
+          "follower": "Elise Barbot",
+          "rank": 51,
+          "promedio": 7.394,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 508,
+          "leader": "Mariela Josebachuili",
+          "follower": "Noelia Frias",
+          "rank": 71,
+          "promedio": 7.26,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 760,
+          "leader": "Marcelo Matías Conti",
+          "follower": "Ana Belén Lione",
+          "rank": 107,
+          "promedio": 7.114,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 336,
+          "leader": "Maximiliano Gaston Ch",
+          "follower": "ollet  Iuliia Dranchuk",
+          "rank": 132,
+          "promedio": 6.932,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 294,
+          "leader": "Leonardo Nahuel Saraz",
+          "follower": "ola  Jennifer Orjuela",
+          "rank": 145,
+          "promedio": 6.73,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 302,
+          "leader": "Fadi Yahya",
+          "follower": "Juliana Troles",
+          "rank": 149,
+          "promedio": 6.556,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3295,7 +4275,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 3,
       "songs": [
@@ -3325,6 +4305,88 @@
           "channel": "Jose Valverde",
           "title": "Ronda 03 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 166,
+          "leader": "Leandro Capparelli",
+          "follower": "Jeannette Erazú",
+          "rank": 13,
+          "promedio": 7.646,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 275,
+          "leader": "Marcelo Javier Torres",
+          "follower": "Francisca Alarcon Irrazabal",
+          "rank": 20,
+          "promedio": 7.58,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 171,
+          "leader": "Damián Esell",
+          "follower": "Noelia Soldera",
+          "rank": 47,
+          "promedio": 7.408,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 767,
+          "leader": "Mauro Caiazza",
+          "follower": "Sabrina Amuchastegui",
+          "rank": 50,
+          "promedio": 7.398,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 722,
+          "leader": "Mariel Quintana Grasso",
+          "follower": "Cristian Quevedo",
+          "rank": 56,
+          "promedio": 7.369,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 282,
+          "leader": "Rommel Oramas",
+          "follower": "Utha Callen",
+          "rank": 64,
+          "promedio": 7.296,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 406,
+          "leader": "Leandro Matías Robledo",
+          "follower": "Mara Craham",
+          "rank": 106,
+          "promedio": 7.128,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 377,
+          "leader": "Jorge Roberto Hualde",
+          "follower": "Claudia Elena Hernández",
+          "rank": 114,
+          "promedio": 7.067,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 638,
+          "leader": "Andres Rojas",
+          "follower": "Simin Ogur",
+          "rank": 117,
+          "promedio": 7.026,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 41,
+          "leader": "Yakut Castanedo Zayas",
+          "follower": "Annika Sarv",
+          "rank": 140,
+          "promedio": 6.83,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3332,7 +4394,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 4,
       "songs": [],
@@ -3343,6 +4405,88 @@
           "channel": "Jose Valverde",
           "title": "Ronda 04 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 143,
+          "leader": "Gustavo Chaile",
+          "follower": "Mayela Aponte",
+          "rank": 1,
+          "promedio": 7.79,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 53,
+          "leader": "Ariel Manzanares",
+          "follower": "Laisa Souza",
+          "rank": 26,
+          "promedio": 7.546,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 787,
+          "leader": "Javier Borlicher",
+          "follower": "Anabella Linzalata Raso",
+          "rank": 48,
+          "promedio": 7.406,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 361,
+          "leader": "Cristian Zalazar",
+          "follower": "Carla Espinoza",
+          "rank": 49,
+          "promedio": 7.406,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 653,
+          "leader": "Endre Szeghalmi",
+          "follower": "Andrea Serban",
+          "rank": 55,
+          "promedio": 7.372,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 373,
+          "leader": "Andrea Vighi",
+          "follower": "Chiara Benati",
+          "rank": 59,
+          "promedio": 7.354,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 491,
+          "leader": "Javier Oscar Jofre",
+          "follower": "Paola Susana Valdivia",
+          "rank": 63,
+          "promedio": 7.308,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 531,
+          "leader": "Branndon Cardenas",
+          "follower": "Susana Ortiz",
+          "rank": 101,
+          "promedio": 7.142,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 27,
+          "leader": "gonzalo Robín",
+          "follower": "Natalia Brest",
+          "rank": 127,
+          "promedio": 6.964,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 188,
+          "leader": "Valentin Mayores",
+          "follower": "Constanza Cano Morel",
+          "rank": 146,
+          "promedio": 6.718,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3350,7 +4494,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 5,
       "songs": [],
@@ -3361,6 +4505,88 @@
           "channel": "Jose Valverde",
           "title": "Ronda 05 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 320,
+          "leader": "Sebastian Avendaño",
+          "follower": "Tania Gutierrez",
+          "rank": 4,
+          "promedio": 7.73,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 245,
+          "leader": "Artem Luchin",
+          "follower": "Polina Luchina",
+          "rank": 9,
+          "promedio": 7.666,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 548,
+          "leader": "Dmitrii Kuznetsov",
+          "follower": "Olga Nikolaeva",
+          "rank": 25,
+          "promedio": 7.548,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 779,
+          "leader": "Nelson Piliu",
+          "follower": "Giselle Tacon",
+          "rank": 35,
+          "promedio": 7.444,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 708,
+          "leader": "GABRIEL EDUARDO TOLABA",
+          "follower": "YANINA ANDREA CEBALLO HOYOS",
+          "rank": 69,
+          "promedio": 7.274,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 608,
+          "leader": "Aleksei Smirnov",
+          "follower": "Ekaterina Soloveva",
+          "rank": 103,
+          "promedio": 7.13,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 31,
+          "leader": "Augusto Giraldo",
+          "follower": "Leidy Vanessa Restrepo",
+          "rank": 121,
+          "promedio": 7.016,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 9,
+          "leader": "jorge luis olguin",
+          "follower": "SIGITA LEMESIUTE",
+          "rank": 123,
+          "promedio": 7.005,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 390,
+          "leader": "Sergio Ibanez",
+          "follower": "Jésica Pierucci",
+          "rank": 124,
+          "promedio": 7.004,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 207,
+          "leader": "Fernando Aranda Marti",
+          "follower": "nez  Yachiyo Kurokawa",
+          "rank": 141,
+          "promedio": 6.814,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3368,7 +4594,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 6,
       "songs": [
@@ -3398,6 +4624,88 @@
           "channel": "Jose Valverde",
           "title": "Ronda 06 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 281,
+          "leader": "Ramiro Andres Perez C",
+          "follower": "aricchio  Iara Deluchi",
+          "rank": 15,
+          "promedio": 7.626,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 604,
+          "leader": "Juliano Andrade",
+          "follower": "Paula Emerick",
+          "rank": 17,
+          "promedio": 7.618,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 723,
+          "leader": "Nguyen Thi Thanh Phuong",
+          "follower": "Louie Canillo Serentas",
+          "rank": 28,
+          "promedio": 7.526,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 237,
+          "leader": "Bumhee Lee",
+          "follower": "Jia Han",
+          "rank": 29,
+          "promedio": 7.524,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 56,
+          "leader": "Raúl Choque",
+          "follower": "Jorgelina Cohen",
+          "rank": 31,
+          "promedio": 7.516,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 529,
+          "leader": "Marcos Morinigo",
+          "follower": "Marcela Subelza",
+          "rank": 76,
+          "promedio": 7.238,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 312,
+          "leader": "Omar Mendoza",
+          "follower": "Eva Falxa",
+          "rank": 108,
+          "promedio": 7.112,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 489,
+          "leader": "Franco Luciano Cespi",
+          "follower": "Karina Daluda",
+          "rank": 116,
+          "promedio": 7.04,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 408,
+          "leader": "José Eduardo Perez Pardo",
+          "follower": "Johanna Madelaine Guevara Pérez",
+          "rank": 137,
+          "promedio": 6.856,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 201,
+          "leader": "Diana Cortés",
+          "follower": "Vira Baranovska-Andrigo",
+          "rank": 142,
+          "promedio": 6.806,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3405,7 +4713,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 7,
       "songs": [],
@@ -3416,6 +4724,88 @@
           "channel": "Jose Valverde",
           "title": "Ronda 07 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 262,
+          "leader": "Valentin Bobkov",
+          "follower": "Katerina Tsybrova",
+          "rank": 3,
+          "promedio": 7.75,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 267,
+          "leader": "Konstantin Moshinskiy",
+          "follower": "analia alfaro",
+          "rank": 30,
+          "promedio": 7.52,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 179,
+          "leader": "MIGUEL GARCIA",
+          "follower": "Sandra Martinez",
+          "rank": 33,
+          "promedio": 7.456,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 640,
+          "leader": "Vicente Albarengo",
+          "follower": "Piera Primiterra",
+          "rank": 39,
+          "promedio": 7.43,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 480,
+          "leader": "Adriel Cristhian Bournissen",
+          "follower": "Maria Soledad Mallo",
+          "rank": 46,
+          "promedio": 7.41,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 40,
+          "leader": "Diego Ezequiel Pérez",
+          "follower": "María Soledad Cantarini",
+          "rank": 68,
+          "promedio": 7.278,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 459,
+          "leader": "Lorenzo Emanuel Ledesma",
+          "follower": "Irina Baranova",
+          "rank": 77,
+          "promedio": 7.236,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 299,
+          "leader": "maximiliano Vega",
+          "follower": "Pamela Camia",
+          "rank": 84,
+          "promedio": 7.19,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 3,
+          "leader": "Julio Mariño",
+          "follower": "Valeria Correa",
+          "rank": 88,
+          "promedio": 7.178,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 582,
+          "leader": "Sebastian  Marco",
+          "follower": "Shina Nancy",
+          "rank": 131,
+          "promedio": 6.936,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3423,7 +4813,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 8,
       "songs": [],
@@ -3434,6 +4824,88 @@
           "channel": "Jose Valverde",
           "title": "Ronda 08 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 450,
+          "leader": "London",
+          "follower": "Sol",
+          "rank": 5,
+          "promedio": 7.71,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 189,
+          "leader": "Jorge Benbenutti",
+          "follower": "Sol Irupé Gabis Gómez",
+          "rank": 36,
+          "promedio": 7.442,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 750,
+          "leader": "Sergio Bustos",
+          "follower": "Jesica Gomez",
+          "rank": 40,
+          "promedio": 7.43,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 431,
+          "leader": "Facundo Berrios Valdez",
+          "follower": "Eliana de marco",
+          "rank": 66,
+          "promedio": 7.29,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 300,
+          "leader": "Vadim Cheremnykh",
+          "follower": "Anna Shakirova",
+          "rank": 80,
+          "promedio": 7.229,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 101,
+          "leader": "Walter Ezequiel Vilca",
+          "follower": "Micaela Soledad Alvarez",
+          "rank": 89,
+          "promedio": 7.178,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 121,
+          "leader": "Walter Alberto Bergalo",
+          "follower": "Vanina Elizabeth Markov",
+          "rank": 92,
+          "promedio": 7.166,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 527,
+          "leader": "wamber Sarazola",
+          "follower": "Julia Cayo",
+          "rank": 104,
+          "promedio": 7.13,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 402,
+          "leader": "Eduardo Román",
+          "follower": "Marilyn Mongui",
+          "rank": 111,
+          "promedio": 7.098,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 645,
+          "leader": "Leonel Natanael Aguirre",
+          "follower": "Lilian Mabel Domínguez",
+          "rank": 130,
+          "promedio": 6.937,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3441,7 +4913,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 9,
       "songs": [],
@@ -3452,6 +4924,88 @@
           "channel": "Jose Valverde",
           "title": "Ronda 09 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 152,
+          "leader": "leonardo pankow",
+          "follower": "valentina massari",
+          "rank": 2,
+          "promedio": 7.772,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 44,
+          "leader": "Luciano Paulino",
+          "follower": "Dana Zampieri",
+          "rank": 11,
+          "promedio": 7.654,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 449,
+          "leader": "Martin Artunduaga",
+          "follower": "Noelia Andino",
+          "rank": 18,
+          "promedio": 7.616,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 517,
+          "leader": "John Fredis Rendón Osorio",
+          "follower": "Diana Ismary González López",
+          "rank": 83,
+          "promedio": 7.2,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 718,
+          "leader": "Micaela Diaz",
+          "follower": "Anibal Millanao",
+          "rank": 99,
+          "promedio": 7.152,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 705,
+          "leader": "Nicolás Alejandro Segovia",
+          "follower": "Milena Hopkins",
+          "rank": 105,
+          "promedio": 7.13,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 96,
+          "leader": "Pedro Robelto",
+          "follower": "Martha Patricia Caballero",
+          "rank": 110,
+          "promedio": 7.1,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 2,
+          "leader": "Vinicius Osterne Ribeiro",
+          "follower": "Gabriela Gómez Fernandez",
+          "rank": 112,
+          "promedio": 7.088,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 469,
+          "leader": "Elio Maximiliano Roldan",
+          "follower": "Lucia Perotti",
+          "rank": 134,
+          "promedio": 6.902,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 360,
+          "leader": "HECTOR TOBAR MONDACA",
+          "follower": "YAEL TOPOROWICZ ZAMBON",
+          "rank": 143,
+          "promedio": 6.75,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3459,7 +5013,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 10,
       "songs": [
@@ -3489,6 +5043,88 @@
           "channel": "Jose Valverde",
           "title": "Ronda 10 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 556,
+          "leader": "Rodrigo Hernan Saucedo",
+          "follower": "Magdalena Maria",
+          "rank": 27,
+          "promedio": 7.532,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 288,
+          "leader": "Dmitrii Soldatov",
+          "follower": "Alina Sukretnaia",
+          "rank": 41,
+          "promedio": 7.43,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 94,
+          "leader": "Julio Azorin",
+          "follower": "Belén Valdez",
+          "rank": 53,
+          "promedio": 7.374,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 594,
+          "leader": "Dante Culcuy",
+          "follower": "Veronica Vazquez",
+          "rank": 60,
+          "promedio": 7.352,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 118,
+          "leader": "NICOLAS PONCE",
+          "follower": "GRETA HEKIER",
+          "rank": 73,
+          "promedio": 7.246,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 636,
+          "leader": "Lionel Espindola",
+          "follower": "Ambar Hidalgo",
+          "rank": 81,
+          "promedio": 7.204,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 204,
+          "leader": "Artem Topolian",
+          "follower": "Barbara Benitez",
+          "rank": 93,
+          "promedio": 7.162,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 185,
+          "leader": "SANTIAGO SALAZAR BOTERO",
+          "follower": "MARIA ALEJANDRA OSPINA MARIN",
+          "rank": 118,
+          "promedio": 7.024,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 633,
+          "leader": "Matias Sotto",
+          "follower": "Lucia Mullins",
+          "rank": 125,
+          "promedio": 6.996,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 375,
+          "leader": "Matteo Faricciotti",
+          "follower": "Michela Toro",
+          "rank": 147,
+          "promedio": 6.704,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3496,7 +5132,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 11,
       "songs": [],
@@ -3507,6 +5143,88 @@
           "channel": "Jose Valverde",
           "title": "Ronda 11 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 97,
+          "leader": "Edwin Enrique Espinosa",
+          "follower": "Alexa Yepes",
+          "rank": 8,
+          "promedio": 7.672,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 618,
+          "leader": "Aldana Lozano rueda",
+          "follower": "César Javier Ferreyra",
+          "rank": 42,
+          "promedio": 7.43,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 504,
+          "leader": "Kirill Parshakov",
+          "follower": "Elena Manevich",
+          "rank": 52,
+          "promedio": 7.39,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 559,
+          "leader": "Yeferson Orrego",
+          "follower": "Andres Olaya",
+          "rank": 61,
+          "promedio": 7.338,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 471,
+          "leader": "Francis Aguilar",
+          "follower": "Sophie Sperling",
+          "rank": 87,
+          "promedio": 7.18,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 196,
+          "leader": "Felix Alberto Bon",
+          "follower": "Angela Patricia Sarmiento Ramirez",
+          "rank": 96,
+          "promedio": 7.156,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 220,
+          "leader": "Federico Borquez",
+          "follower": "Agostina cala",
+          "rank": 98,
+          "promedio": 7.152,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 421,
+          "leader": "Ilia Ligostaev",
+          "follower": "Tatiana Berenzaft",
+          "rank": 102,
+          "promedio": 7.142,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 533,
+          "leader": "Martín Alejo Carreira",
+          "follower": "Veronica soledad Garcia",
+          "rank": 122,
+          "promedio": 7.016,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 139,
+          "leader": "Brayan León",
+          "follower": "Candela Lucia Mendez",
+          "rank": 139,
+          "promedio": 6.84,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3514,7 +5232,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 12,
       "songs": [],
@@ -3525,6 +5243,88 @@
           "channel": "Jose Valverde",
           "title": "Ronda 12 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 37,
+          "leader": "Joaquin Besga",
+          "follower": "Katherine Laiton",
+          "rank": 12,
+          "promedio": 7.65,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 242,
+          "leader": "Norair Arakelian",
+          "follower": "Sofiia Seminskaia",
+          "rank": 22,
+          "promedio": 7.562,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 374,
+          "leader": "Batuhan Boy",
+          "follower": "Nida İnceoğlu Boy",
+          "rank": 34,
+          "promedio": 7.456,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 340,
+          "leader": "Jonathan Cañete",
+          "follower": "Jessica Estigarribia",
+          "rank": 54,
+          "promedio": 7.374,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 502,
+          "leader": "Manuel Bianchi",
+          "follower": "Michela Elicio",
+          "rank": 74,
+          "promedio": 7.246,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 629,
+          "leader": "Emile Gayoso",
+          "follower": "Sophie Cellarius",
+          "rank": 78,
+          "promedio": 7.23,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 732,
+          "leader": "Xing Zhu Guo",
+          "follower": "Jun Qiang Su",
+          "rank": 79,
+          "promedio": 7.23,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 457,
+          "leader": "Marcos Monzon",
+          "follower": "Elena Parlattore",
+          "rank": 109,
+          "promedio": 7.106,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 700,
+          "leader": "villa javier agustin",
+          "follower": "Silvana Fiorentino",
+          "rank": 128,
+          "promedio": 6.94,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 758,
+          "leader": "Franco raul Nieva",
+          "follower": "Ibel Villarreal",
+          "rank": 138,
+          "promedio": 6.854,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3532,7 +5332,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 13,
       "songs": [],
@@ -3543,6 +5343,88 @@
           "channel": "Jose Valverde",
           "title": "Ronda 13 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 575,
+          "leader": "Miguel Francisco Coria",
+          "follower": "Yael Nahir Ferrarelli Fontanella",
+          "rank": 24,
+          "promedio": 7.558,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 733,
+          "leader": "Magdalena del Milagro Yr",
+          "follower": "ahola  Hector Abel Colque",
+          "rank": 32,
+          "promedio": 7.51,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 397,
+          "leader": "Mateo Blandón",
+          "follower": "Valeria Villa",
+          "rank": 37,
+          "promedio": 7.436,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 231,
+          "leader": "Sangeon Nam",
+          "follower": "Misun Bang",
+          "rank": 57,
+          "promedio": 7.364,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 378,
+          "leader": "Adrian De Gregorio",
+          "follower": "Romina Cides",
+          "rank": 62,
+          "promedio": 7.322,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 522,
+          "leader": "Jorge Calabrigo",
+          "follower": "Tiziana Silva",
+          "rank": 65,
+          "promedio": 7.296,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 532,
+          "leader": "JORGE PADILLA",
+          "follower": "Ana Zoraida Gomez",
+          "rank": 72,
+          "promedio": 7.26,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 22,
+          "leader": "SERGIO SAUCET",
+          "follower": "VERONICA CARINA PASCUAL",
+          "rank": 91,
+          "promedio": 7.172,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 156,
+          "leader": "Alberto Leis",
+          "follower": "Jorgelina Arrieta",
+          "rank": 94,
+          "promedio": 7.162,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 46,
+          "leader": "DENIS BALLARIN",
+          "follower": "XIA LI",
+          "rank": 120,
+          "promedio": 7.02,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3550,7 +5432,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 14,
       "songs": [
@@ -3568,6 +5450,80 @@
           "channel": "Jose Valverde",
           "title": "Ronda 14 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 132,
+          "leader": "Facundo Barrionuevo",
+          "follower": "Agustina Juanbelz",
+          "rank": 7,
+          "promedio": 7.696,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 567,
+          "leader": "EZEQUIEL GOMEZ",
+          "follower": "Viktoriia Tsivinskaia",
+          "rank": 10,
+          "promedio": 7.664,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 417,
+          "leader": "MAX PIERO VERA RAMIREZ",
+          "follower": "Anastasiia Rudiak",
+          "rank": 16,
+          "promedio": 7.62,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 773,
+          "leader": "Matias Ezequiel Vallejos",
+          "follower": "Aldana Mileva Godoy Calligari",
+          "rank": 43,
+          "promedio": 7.426,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 177,
+          "leader": "Maximiliano Astorga",
+          "follower": "Fernanda Valenzuela",
+          "rank": 70,
+          "promedio": 7.266,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 574,
+          "leader": "Martu Salem",
+          "follower": "Claudia Cortes Labarca",
+          "rank": 82,
+          "promedio": 7.202,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 717,
+          "leader": "Andres Felipe Gonzalez Bal",
+          "follower": "lesteros  Sara Gomez Quiroz",
+          "rank": 97,
+          "promedio": 7.154,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 578,
+          "leader": "Horacio sepulveda",
+          "follower": "Yésica Saavedra",
+          "rank": 100,
+          "promedio": 7.146,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 764,
+          "leader": "Leandro Espinoza",
+          "follower": "Isabella Rissi",
+          "rank": 113,
+          "promedio": 7.076,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3575,7 +5531,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 15,
       "songs": [],
@@ -3586,6 +5542,88 @@
           "channel": "Jose Valverde",
           "title": "Ronda 15 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 609,
+          "leader": "juan manuel Rosales",
+          "follower": "Lisa Rosales",
+          "rank": 14,
+          "promedio": 7.634,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 261,
+          "leader": "Cristian Correa",
+          "follower": "Miriam Copello",
+          "rank": 19,
+          "promedio": 7.582,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 147,
+          "leader": "Walter Schefer",
+          "follower": "Silvina Hirschfeld",
+          "rank": 67,
+          "promedio": 7.286,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 414,
+          "leader": "Damián Roezgas",
+          "follower": "Amira Luna Zarate",
+          "rank": 75,
+          "promedio": 7.244,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 63,
+          "leader": "Jared Ramos",
+          "follower": "Rocío Selesan",
+          "rank": 85,
+          "promedio": 7.188,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 88,
+          "leader": "Daniel Toloza",
+          "follower": "Goldie",
+          "rank": 86,
+          "promedio": 7.186,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 105,
+          "leader": "Guillermo Martínez",
+          "follower": "Laura Alamo",
+          "rank": 90,
+          "promedio": 7.178,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 671,
+          "leader": "Francisco De Freitas",
+          "follower": "Melina Castro",
+          "rank": 115,
+          "promedio": 7.046,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 777,
+          "leader": "DARIO ALONSO Pastor",
+          "follower": "Vanesa cintia González",
+          "rank": 133,
+          "promedio": 6.93,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 448,
+          "leader": "Antonio Hair",
+          "follower": "Juliana sol Bernardi",
+          "rank": 144,
+          "promedio": 6.75,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3593,7 +5631,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 16,
       "songs": [],
@@ -3604,6 +5642,72 @@
           "channel": "Jose Valverde",
           "title": "Ronda 16 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 57,
+          "leader": "Gustavo Fabián Ippolito",
+          "follower": "Rosana Luján Porres",
+          "rank": 29,
+          "promedio": 7.342,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 746,
+          "leader": "Humberto Pouchulu",
+          "follower": "Aura Tateossian",
+          "rank": 58,
+          "promedio": 7.223,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 110,
+          "leader": "ELIAS RAMON ABDALA",
+          "follower": "MARIA SILVINA DEL BOSQUE",
+          "rank": 82,
+          "promedio": 7.123,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 441,
+          "leader": "Pedro Zamin",
+          "follower": "Florencia Mendez",
+          "rank": 102,
+          "promedio": 7.056,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 65,
+          "leader": "Navir Salas Morales",
+          "follower": "Monica Sant'Anna Furtado de Mendonça",
+          "rank": 103,
+          "promedio": 7.047,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 75,
+          "leader": "Walter Mario Tejeda",
+          "follower": "Clara Rosa Poggi",
+          "rank": 135,
+          "promedio": 6.606,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 182,
+          "leader": "Gustavo Rau",
+          "follower": "Julia Saquieres",
+          "rank": 136,
+          "promedio": 6.524,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 229,
+          "leader": "Ruben Dario Malaver",
+          "follower": "Silvia Graciela Ercolani",
+          "rank": 137,
+          "promedio": 6.52,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3611,7 +5715,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 17,
       "songs": [
@@ -3629,6 +5733,88 @@
           "channel": "Jose Valverde",
           "title": "Ronda 17 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 780,
+          "leader": "Juan David Vargas",
+          "follower": "Ornella Simonetto",
+          "rank": 6,
+          "promedio": 7.611,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 730,
+          "leader": "Olena Sergiienko",
+          "follower": "Sergiy Podbolotnyy",
+          "rank": 20,
+          "promedio": 7.415,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 674,
+          "leader": "Ernesto Suter",
+          "follower": "Paola Klinger",
+          "rank": 61,
+          "promedio": 7.218,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 343,
+          "leader": "LUIS EMILIO CAPPELLETTI",
+          "follower": "vittoria franchina",
+          "rank": 63,
+          "promedio": 7.2,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 499,
+          "leader": "Franco Lus",
+          "follower": "Bruna Lavaroni",
+          "rank": 70,
+          "promedio": 7.158,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 797,
+          "leader": "Matias Emmanuel Fuente",
+          "follower": "alba  Valentina Medina",
+          "rank": 96,
+          "promedio": 7.076,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 411,
+          "leader": "Maicol Mira",
+          "follower": "Natalia Galain",
+          "rank": 97,
+          "promedio": 7.07,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 73,
+          "leader": "Jerry Perez",
+          "follower": "Christine Marie Lopez",
+          "rank": 101,
+          "promedio": 7.058,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 612,
+          "leader": "Angel Martin",
+          "follower": "Anna Yablokova",
+          "rank": 118,
+          "promedio": 6.928,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 260,
+          "leader": "Martín Etcheverry Feely",
+          "follower": "Verónica Rueco",
+          "rank": 128,
+          "promedio": 6.798,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3636,7 +5822,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 18,
       "songs": [],
@@ -3647,6 +5833,88 @@
           "channel": "Jose Valverde",
           "title": "Ronda 18 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 530,
+          "leader": "Diego Ortega",
+          "follower": "Aldana Silveyra",
+          "rank": 4,
+          "promedio": 7.756,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 719,
+          "leader": "Ruth Hernandez",
+          "follower": "Carlos Urrego",
+          "rank": 43,
+          "promedio": 7.303,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 465,
+          "leader": "Andrés Martínez",
+          "follower": "Fernanda Cardona Sossa",
+          "rank": 47,
+          "promedio": 7.27,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 393,
+          "leader": "David Ospina",
+          "follower": "Paula Andrea Betancur",
+          "rank": 69,
+          "promedio": 7.162,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 478,
+          "leader": "Yoshi Shinji",
+          "follower": "Magdalena Benitez",
+          "rank": 90,
+          "promedio": 7.094,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 319,
+          "leader": "Cristian Correa",
+          "follower": "Fiamma Clozza",
+          "rank": 93,
+          "promedio": 7.087,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 10,
+          "leader": "Juan Eduardo Andrada",
+          "follower": "María Laura Sastría",
+          "rank": 130,
+          "promedio": 6.752,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 545,
+          "leader": "Orhan Tekşen",
+          "follower": "elena akhmetova",
+          "rank": 133,
+          "promedio": 6.659,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 622,
+          "leader": "Benjamín Grisoni",
+          "follower": "Anabel Fontela",
+          "rank": 134,
+          "promedio": 6.628,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 591,
+          "leader": "Alejandro Javier Astuena",
+          "follower": "Gabriela Lorena Ocaño casas",
+          "rank": 138,
+          "promedio": 6.486,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3654,7 +5922,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 19,
       "songs": [],
@@ -3665,6 +5933,80 @@
           "channel": "Jose Valverde",
           "title": "Ronda 19 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 679,
+          "leader": "Jorge Federico Carrizo",
+          "follower": "Karina Dovbush",
+          "rank": 24,
+          "promedio": 7.374,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 605,
+          "leader": "David Figueroa caicedo",
+          "follower": "Susana Ocampo ruiz",
+          "rank": 26,
+          "promedio": 7.372,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 184,
+          "leader": "Gonzalo Angeles de Soto",
+          "follower": "Nathalia Peña Muñoz",
+          "rank": 32,
+          "promedio": 7.338,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 122,
+          "leader": "Mariano Vazquez",
+          "follower": "Lulú Qin",
+          "rank": 37,
+          "promedio": 7.318,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 630,
+          "leader": "Guilherme Ferreira",
+          "follower": "Eliza Moritz",
+          "rank": 65,
+          "promedio": 7.182,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 148,
+          "leader": "Federico Antonio Frete",
+          "follower": "Laura Ayelen Grimaldi",
+          "rank": 87,
+          "promedio": 7.108,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 763,
+          "leader": "Pablo Nicolas Crededio",
+          "follower": "Galina Kostysheva",
+          "rank": 104,
+          "promedio": 7.044,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 497,
+          "leader": "Facundo Argañaraz",
+          "follower": "Saras Renner",
+          "rank": 123,
+          "promedio": 6.888,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 678,
+          "leader": "Jorge Rey",
+          "follower": "Maria Victoria Mussa",
+          "rank": 131,
+          "promedio": 6.73,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3672,7 +6014,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 20,
       "songs": [],
@@ -3683,6 +6025,80 @@
           "channel": "Jose Valverde",
           "title": "Ronda 20 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 351,
+          "leader": "Juan fernando Cabral",
+          "follower": "Laura  Castiñeiras",
+          "rank": 16,
+          "promedio": 7.46,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 726,
+          "leader": "Natalia Casanova",
+          "follower": "Damian Marquez Veron",
+          "rank": 21,
+          "promedio": 7.404,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 190,
+          "leader": "Raúl Pardo",
+          "follower": "Evrim Kivancer",
+          "rank": 22,
+          "promedio": 7.386,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 585,
+          "leader": "Matias Goyeneche",
+          "follower": "Deysi Aguilera",
+          "rank": 34,
+          "promedio": 7.336,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 329,
+          "leader": "JUAN IGNACIO ETCHEVERRY",
+          "follower": "VERONICA BACHINI",
+          "rank": 60,
+          "promedio": 7.219,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 379,
+          "leader": "Lucio Javier Chavez",
+          "follower": "Nina Pauluzzi",
+          "rank": 67,
+          "promedio": 7.168,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 428,
+          "leader": "Orlando Saccomanno",
+          "follower": "Lisa Gonzales Saccomanno",
+          "rank": 79,
+          "promedio": 7.132,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 710,
+          "leader": "Marco Ten-Pow",
+          "follower": "Silvia Santini",
+          "rank": 124,
+          "promedio": 6.866,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 547,
+          "leader": "Timofei Filippov",
+          "follower": "Olga Domashova",
+          "rank": 127,
+          "promedio": 6.826,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3690,7 +6106,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 21,
       "songs": [],
@@ -3701,6 +6117,80 @@
           "channel": "Jose Valverde",
           "title": "Ronda 21 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 490,
+          "leader": "Lucas  Gauto",
+          "follower": "Naima Gerasopoulou",
+          "rank": 1,
+          "promedio": 7.788,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 546,
+          "leader": "Raúl Ehijo",
+          "follower": "Ximena Santana",
+          "rank": 52,
+          "promedio": 7.244,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 357,
+          "leader": "Grzegorz Kałmuczak",
+          "follower": "Dominika Jasik",
+          "rank": 62,
+          "promedio": 7.204,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 563,
+          "leader": "Alejandro Beron",
+          "follower": "Kelly Lettieri",
+          "rank": 68,
+          "promedio": 7.168,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 180,
+          "leader": "Abel Matias Cejas",
+          "follower": "Jorgelina Cañadas",
+          "rank": 80,
+          "promedio": 7.13,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 516,
+          "leader": "NIKOLAOS PAPADIMITRIOU",
+          "follower": "NEFELI KOUMARIANOU",
+          "rank": 95,
+          "promedio": 7.078,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 243,
+          "leader": "Froyamel Corro",
+          "follower": "Angeles Carrión",
+          "rank": 105,
+          "promedio": 7.044,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 219,
+          "leader": "Maximiliano Nicolás Almey",
+          "follower": "ra  Yamila Daniela Herlein",
+          "rank": 116,
+          "promedio": 6.94,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 736,
+          "leader": "Estefani Deleón",
+          "follower": "Marcos Cañete",
+          "rank": 122,
+          "promedio": 6.894,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3708,7 +6198,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 22,
       "songs": [],
@@ -3719,6 +6209,80 @@
           "channel": "Jose Valverde",
           "title": "Ronda 22 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 466,
+          "leader": "Carlos Estigarribia",
+          "follower": "Marina Alcalde",
+          "rank": 15,
+          "promedio": 7.496,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 791,
+          "leader": "Ezgi Turmuş Binici",
+          "follower": "Lourdes Medina",
+          "rank": 33,
+          "promedio": 7.338,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 467,
+          "leader": "Ezequiel Angel Franco Ro",
+          "follower": "driguez  Sofia Belen Diaz",
+          "rank": 39,
+          "promedio": 7.312,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 757,
+          "leader": "Facundo Arnedo",
+          "follower": "Ana Barros",
+          "rank": 42,
+          "promedio": 7.304,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 264,
+          "leader": "Mario Gavito",
+          "follower": "Jessica Moreno",
+          "rank": 53,
+          "promedio": 7.242,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 136,
+          "leader": "Yumar Zambrano",
+          "follower": "Mariel Filadoro",
+          "rank": 54,
+          "promedio": 7.24,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 314,
+          "leader": "MAURICIO JOSE GORBARÁN",
+          "follower": "MARIKO NAKATSUBO",
+          "rank": 83,
+          "promedio": 7.118,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 167,
+          "leader": "Diego Leiva",
+          "follower": "Maria Verónica Galvan",
+          "rank": 86,
+          "promedio": 7.114,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 619,
+          "leader": "MARTIN EZEQUIEL IARUSSI",
+          "follower": "MARIA BELEN CORDOBA",
+          "rank": 89,
+          "promedio": 7.096,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3726,7 +6290,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 23,
       "songs": [],
@@ -3737,6 +6301,80 @@
           "channel": "Jose Valverde",
           "title": "Ronda 23 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 178,
+          "leader": "Alfredo Ricardo Encina",
+          "follower": "Ana Luisa Di Francisco",
+          "rank": 10,
+          "promedio": 7.532,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 272,
+          "leader": "Pedro Ochoa",
+          "follower": "Lola Ruiz",
+          "rank": 30,
+          "promedio": 7.342,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 356,
+          "leader": "Marcelo Sassi",
+          "follower": "Esther Ines Correa",
+          "rank": 77,
+          "promedio": 7.136,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 346,
+          "leader": "Fernando Barrios",
+          "follower": "Alicia Beliera",
+          "rank": 88,
+          "promedio": 7.108,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 716,
+          "leader": "Carlos Hipolito Bouzas",
+          "follower": "Ilma Lima",
+          "rank": 114,
+          "promedio": 6.952,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 85,
+          "leader": "Jorge edgardo Balatti",
+          "follower": "Gabriela Fabiana Forte",
+          "rank": 117,
+          "promedio": 6.934,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 11,
+          "leader": "Carlos Alberto Martinez",
+          "follower": "Patricia Laura Gury",
+          "rank": 125,
+          "promedio": 6.86,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 745,
+          "leader": "Alejandro Montes de Oca",
+          "follower": "Liliana Beatriz del Valle",
+          "rank": 129,
+          "promedio": 6.784,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 269,
+          "leader": "Dancy Andrades",
+          "follower": "Salvador Antonio Rubio",
+          "rank": 132,
+          "promedio": 6.664,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3744,7 +6382,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 24,
       "songs": [],
@@ -3755,6 +6393,80 @@
           "channel": "Jose Valverde",
           "title": "Ronda 24 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 762,
+          "leader": "juan",
+          "follower": "cupini               Erica  Rossi",
+          "rank": 5,
+          "promedio": 7.626,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 157,
+          "leader": "Carlos Santos David",
+          "follower": "Mirella Santos David",
+          "rank": 12,
+          "promedio": 7.5,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 169,
+          "leader": "Luciano Capparelli",
+          "follower": "Rocio De los santos",
+          "rank": 13,
+          "promedio": 7.5,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 116,
+          "leader": "Alejandro Lázzaro",
+          "follower": "Gabriela Gallese",
+          "rank": 18,
+          "promedio": 7.452,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 68,
+          "leader": "Dario Cieri",
+          "follower": "Rocío de la Torre",
+          "rank": 36,
+          "promedio": 7.328,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 464,
+          "leader": "Alexis Arie Velasquez",
+          "follower": "Laura Florencia Guardia",
+          "rank": 44,
+          "promedio": 7.296,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 487,
+          "leader": "Matías Cabezuelo",
+          "follower": "Nicole Mazza",
+          "rank": 57,
+          "promedio": 7.224,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 183,
+          "leader": "Juan Pablo Valdebenito",
+          "follower": "Rosario BELEN GIMENEZ",
+          "rank": 75,
+          "promedio": 7.138,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 191,
+          "leader": "Vitalii Balan",
+          "follower": "IRINA MARTYNOVA",
+          "rank": 110,
+          "promedio": 7.01,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3762,7 +6474,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 25,
       "songs": [],
@@ -3773,6 +6485,88 @@
           "channel": "Jose Valverde",
           "title": "Ronda 25 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 738,
+          "leader": "Sandra Nadia Naccache",
+          "follower": "Jorge Carlos Lopez",
+          "rank": 7,
+          "promedio": 7.586,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 149,
+          "leader": "Alexander Moncada Rojas",
+          "follower": "Martina Waldman",
+          "rank": 8,
+          "promedio": 7.554,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 695,
+          "leader": "Rodrigo Hector Verón",
+          "follower": "Celeste Noelia Mattia",
+          "rank": 48,
+          "promedio": 7.264,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 222,
+          "leader": "Nahuel ARAGON",
+          "follower": "Evelyn Ponce",
+          "rank": 49,
+          "promedio": 7.261,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 371,
+          "leader": "Kevin Valencia",
+          "follower": "Valentina Villarreal",
+          "rank": 72,
+          "promedio": 7.152,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 28,
+          "leader": "Lucas Nicolás Cartagena",
+          "follower": "Lucila Inés Díaz Colodrero",
+          "rank": 73,
+          "promedio": 7.142,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 316,
+          "leader": "Nicolás Cot",
+          "follower": "Julieta Victoria Alao",
+          "rank": 78,
+          "promedio": 7.135,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 540,
+          "leader": "Pablo Martinez",
+          "follower": "Yuka Kutajima",
+          "rank": 108,
+          "promedio": 7.037,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 137,
+          "leader": "Levan Gomelauri",
+          "follower": "Cecilia Acosta",
+          "rank": 111,
+          "promedio": 7.01,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 151,
+          "leader": "Pablo Andrade",
+          "follower": "Valeria Montes",
+          "rank": 112,
+          "promedio": 6.978,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3780,7 +6574,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 26,
       "songs": [],
@@ -3791,6 +6585,80 @@
           "channel": "Jose Valverde",
           "title": "Ronda 26 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 483,
+          "leader": "Dmitrii Liferov",
+          "follower": "Dana Son",
+          "rank": 2,
+          "promedio": 7.78,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 4,
+          "leader": "Erik Deslarmes",
+          "follower": "Nadia Aguilar",
+          "rank": 3,
+          "promedio": 7.766,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 510,
+          "leader": "Miguel Angel Quintero",
+          "follower": "Luciana Yanela Olivera Pedraza",
+          "rank": 9,
+          "promedio": 7.552,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 246,
+          "leader": "Alejandro Quaglia",
+          "follower": "Lucia Barrios",
+          "rank": 31,
+          "promedio": 7.34,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 427,
+          "leader": "Carlos Ochoa",
+          "follower": "Marisol Rivas",
+          "rank": 41,
+          "promedio": 7.306,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 313,
+          "leader": "Alejandro Ferreyra",
+          "follower": "Fernanda Grosso",
+          "rank": 55,
+          "promedio": 7.238,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 16,
+          "leader": "Joel Maximiliano Tempestti",
+          "follower": "Águeda Jimena Mansilla",
+          "rank": 59,
+          "promedio": 7.222,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 142,
+          "leader": "Pablo Altamira",
+          "follower": "Virginia Cosci",
+          "rank": 92,
+          "promedio": 7.092,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 771,
+          "leader": "Esteban Tripailao",
+          "follower": "Natalia Mora",
+          "rank": 99,
+          "promedio": 7.064,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3798,7 +6666,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 27,
       "songs": [],
@@ -3809,6 +6677,80 @@
           "channel": "Jose Valverde",
           "title": "Ronda 27 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 385,
+          "leader": "Lucas Robañera",
+          "follower": "becky Navarro",
+          "rank": 27,
+          "promedio": 7.36,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 305,
+          "leader": "Ariel Adrian Almiron",
+          "follower": "Aluminé Deluchi",
+          "rank": 35,
+          "promedio": 7.33,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 138,
+          "leader": "Ricardo Ariel Albornoz",
+          "follower": "Daniela Elizabeth Inglese",
+          "rank": 46,
+          "promedio": 7.272,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 404,
+          "leader": "claudio Peralta",
+          "follower": "mariia marinova",
+          "rank": 50,
+          "promedio": 7.248,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 462,
+          "leader": "Mariano Serrudo",
+          "follower": "Ekaterina Malko",
+          "rank": 64,
+          "promedio": 7.188,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 19,
+          "leader": "Agustín Gutiérrez",
+          "follower": "Luz Mariel Mamani",
+          "rank": 98,
+          "promedio": 7.07,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 554,
+          "leader": "Matias Rivas",
+          "follower": "Romina Elizabeth Cordone",
+          "rank": 107,
+          "promedio": 7.042,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 528,
+          "leader": "Valentín Arias delgado",
+          "follower": "Diana Paola Franco Durango",
+          "rank": 109,
+          "promedio": 7.014,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 660,
+          "leader": "Julian Del Vecchio",
+          "follower": "Camila Diaz",
+          "rank": 120,
+          "promedio": 6.914,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3816,7 +6758,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 28,
       "songs": [],
@@ -3827,6 +6769,80 @@
           "channel": "Jose Valverde",
           "title": "Ronda 28 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 1,
+          "leader": "Juan Ignacio Braida",
+          "follower": "Natasha Kaliszuk Lee",
+          "rank": 14,
+          "promedio": 7.5,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 318,
+          "leader": "Maxi Copello",
+          "follower": "Karen Terenzio",
+          "rank": 17,
+          "promedio": 7.454,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 768,
+          "leader": "Andrey Prokopov",
+          "follower": "Olha Kozyavkina",
+          "rank": 25,
+          "promedio": 7.374,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 111,
+          "leader": "David Samaniego",
+          "follower": "Roció Aragón Diani",
+          "rank": 38,
+          "promedio": 7.316,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 520,
+          "leader": "Guillermo Cerneaz",
+          "follower": "Juan Pablo Ramírez",
+          "rank": 40,
+          "promedio": 7.31,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 735,
+          "leader": "Paulina Hernandez",
+          "follower": "Aaron Barraza",
+          "rank": 74,
+          "promedio": 7.142,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 279,
+          "leader": "Ivan Nabokin",
+          "follower": "Anastasia Makarova",
+          "rank": 76,
+          "promedio": 7.138,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 447,
+          "leader": "Joel De la O Arredondo",
+          "follower": "Veronica Peinado Flores",
+          "rank": 81,
+          "promedio": 7.126,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 507,
+          "leader": "Gera Lecich",
+          "follower": "Silvana Meneses",
+          "rank": 94,
+          "promedio": 7.082,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3834,7 +6850,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 29,
       "songs": [],
@@ -3845,6 +6861,80 @@
           "channel": "Jose Valverde",
           "title": "Ronda 29 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 195,
+          "leader": "Daniel Boujon",
+          "follower": "Yuki Boujon Misaki",
+          "rank": 11,
+          "promedio": 7.506,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 365,
+          "leader": "Rodrigo Videla",
+          "follower": "Marina Teves",
+          "rank": 19,
+          "promedio": 7.422,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 424,
+          "leader": "Diego ali Delgado",
+          "follower": "Tamara Borda",
+          "rank": 23,
+          "promedio": 7.381,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 652,
+          "leader": "Franz alvaro Bravo basso",
+          "follower": "Marta Kubicz",
+          "rank": 45,
+          "promedio": 7.294,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 739,
+          "leader": "Marina Belen Machado Riquelme",
+          "follower": "Emmanuel David Avendaño",
+          "rank": 51,
+          "promedio": 7.246,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 301,
+          "leader": "Alexander Desiatov",
+          "follower": "Maria Makarenko",
+          "rank": 56,
+          "promedio": 7.236,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 23,
+          "leader": "Santiago Marolo",
+          "follower": "Luna Mendez",
+          "rank": 66,
+          "promedio": 7.172,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 754,
+          "leader": "Grigorios Adamidis",
+          "follower": "Sofia Chatzipavlou",
+          "rank": 71,
+          "promedio": 7.154,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 354,
+          "leader": "Pablo Lavadenz",
+          "follower": "Erika Claros",
+          "rank": 106,
+          "promedio": 7.044,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3852,7 +6942,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2025,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "quarterfinal",
       "ronda_number": 30,
       "songs": [],
@@ -3863,6 +6953,88 @@
           "channel": "Jose Valverde",
           "title": "Ronda 30 Cuartos de Final Tango Pista 2025"
         }
+      ],
+      "participants": [
+        {
+          "pareja": 355,
+          "leader": "Luis Mario Saihueque",
+          "follower": "Marcela Patricia Jara",
+          "rank": 28,
+          "promedio": 7.356,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 693,
+          "leader": "Edgardo Patita Palleyro",
+          "follower": "María Rosa Corsisky",
+          "rank": 84,
+          "promedio": 7.116,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 67,
+          "leader": "Aldo Romero",
+          "follower": "Marcela Pilatti",
+          "rank": 85,
+          "promedio": 7.116,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 172,
+          "leader": "Marcelo Alejandro Dulman",
+          "follower": "Andrea Gabriela Rebolini",
+          "rank": 91,
+          "promedio": 7.092,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 14,
+          "leader": "LUIS DIRASSAR",
+          "follower": "PATRICIA VAZQUEZ",
+          "rank": 100,
+          "promedio": 7.06,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 560,
+          "leader": "Horacio Aspiroz",
+          "follower": "Sandra Curiel",
+          "rank": 113,
+          "promedio": 6.974,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 338,
+          "leader": "CHANGO MONASTERIO",
+          "follower": "MONICA DEL HUERTO FLORES",
+          "rank": 115,
+          "promedio": 6.942,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 123,
+          "leader": "Alberto Angel Re",
+          "follower": "Maria Susana Eguaburo",
+          "rank": 119,
+          "promedio": 6.919,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 256,
+          "leader": "Luz Elena de Jurado",
+          "follower": "Eduardo Fabian Perez",
+          "rank": 121,
+          "promedio": 6.909,
+          "advancedTo": "cuartos"
+        },
+        {
+          "pareja": 334,
+          "leader": "Gabriel \"colo\" Bologna",
+          "follower": "Stella Sosa",
+          "rank": 126,
+          "promedio": 6.852,
+          "advancedTo": "cuartos"
+        }
       ]
     },
     {
@@ -3870,7 +7042,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 1,
       "songs": [],
@@ -3888,7 +7060,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 2,
       "songs": [],
@@ -3912,7 +7084,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 3,
       "songs": [],
@@ -3936,7 +7108,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 4,
       "songs": [],
@@ -3954,7 +7126,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 5,
       "songs": [],
@@ -3972,7 +7144,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 6,
       "songs": [],
@@ -3990,7 +7162,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 1,
       "songs": [],
@@ -4008,7 +7180,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 2,
       "songs": [],
@@ -4026,7 +7198,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 3,
       "songs": [],
@@ -4044,7 +7216,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 4,
       "songs": [],
@@ -4062,7 +7234,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 5,
       "songs": [],
@@ -4080,7 +7252,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 6,
       "songs": [],
@@ -4098,7 +7270,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 7,
       "songs": [],
@@ -4116,7 +7288,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 8,
       "songs": [],
@@ -4140,7 +7312,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2021,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 9,
       "songs": [],
@@ -4158,7 +7330,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2022,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 1,
       "songs": [
@@ -4195,7 +7367,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2022,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 2,
       "songs": [
@@ -4232,7 +7404,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2022,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 3,
       "songs": [
@@ -4269,7 +7441,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2022,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 4,
       "songs": [
@@ -4306,7 +7478,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2023,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 1,
       "songs": [
@@ -4343,7 +7515,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2023,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 2,
       "songs": [
@@ -4380,7 +7552,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2023,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 3,
       "songs": [
@@ -4417,7 +7589,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2023,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 4,
       "songs": [
@@ -4454,7 +7626,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 2,
       "songs": [],
@@ -4478,7 +7650,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 3,
       "songs": [],
@@ -4502,7 +7674,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 4,
       "songs": [],
@@ -4526,7 +7698,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 11,
       "songs": [],
@@ -4550,7 +7722,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 12,
       "songs": [],
@@ -4574,7 +7746,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 14,
       "songs": [],
@@ -4598,7 +7770,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 16,
       "songs": [],
@@ -4622,7 +7794,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 3,
       "songs": [],
@@ -4646,7 +7818,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 4,
       "songs": [],
@@ -4670,7 +7842,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 5,
       "songs": [],
@@ -4694,7 +7866,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 7,
       "songs": [
@@ -4737,7 +7909,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 4,
       "songs": [],
@@ -4755,7 +7927,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 7,
       "songs": [],
@@ -4773,7 +7945,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 11,
       "songs": [
@@ -4816,7 +7988,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 17,
       "songs": [],
@@ -4840,7 +8012,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 22,
       "songs": [],
@@ -4858,7 +8030,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 23,
       "songs": [],
@@ -4876,7 +8048,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 27,
       "songs": [],
@@ -4894,7 +8066,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 28,
       "songs": [],
@@ -4912,7 +8084,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 29,
       "songs": [],
@@ -4930,7 +8102,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2024,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 34,
       "songs": [],
@@ -4948,7 +8120,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2019,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 1,
       "songs": [
@@ -4991,7 +8163,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2019,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 2,
       "songs": [
@@ -5034,7 +8206,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2019,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 3,
       "songs": [
@@ -5077,7 +8249,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2019,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 4,
       "songs": [
@@ -5120,7 +8292,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2017,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 1,
       "songs": [
@@ -5169,7 +8341,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2017,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 2,
       "songs": [
@@ -5218,7 +8390,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2017,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 3,
       "songs": [
@@ -5267,7 +8439,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2017,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 4,
       "songs": [
@@ -5316,7 +8488,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 13,
       "songs": [
@@ -5371,7 +8543,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 6,
       "songs": [
@@ -5414,7 +8586,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 7,
       "songs": [
@@ -5457,7 +8629,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 8,
       "songs": [
@@ -5500,7 +8672,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 9,
       "songs": [
@@ -5543,7 +8715,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2018,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 4,
       "songs": [
@@ -5592,7 +8764,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2018,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 3,
       "songs": [
@@ -5641,7 +8813,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2018,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 2,
       "songs": [
@@ -5690,7 +8862,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2018,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 1,
       "songs": [
@@ -5739,7 +8911,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2018,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 14,
       "songs": [
@@ -5782,7 +8954,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2018,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 13,
       "songs": [
@@ -5819,7 +8991,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2018,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 11,
       "songs": [
@@ -5862,7 +9034,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2018,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 10,
       "songs": [
@@ -5905,7 +9077,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2018,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 9,
       "songs": [
@@ -5948,7 +9120,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2018,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 8,
       "songs": [
@@ -5985,7 +9157,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2018,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 7,
       "songs": [
@@ -6022,7 +9194,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2018,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 6,
       "songs": [
@@ -6059,7 +9231,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2018,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 5,
       "songs": [
@@ -6102,7 +9274,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2018,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 4,
       "songs": [
@@ -6145,7 +9317,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2018,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 3,
       "songs": [
@@ -6188,7 +9360,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2018,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 2,
       "songs": [
@@ -6231,7 +9403,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2018,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 1,
       "songs": [
@@ -6274,7 +9446,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2017,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 12,
       "songs": [
@@ -6317,7 +9489,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2017,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 11,
       "songs": [
@@ -6354,7 +9526,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2017,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 10,
       "songs": [
@@ -6391,7 +9563,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2017,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 9,
       "songs": [
@@ -6434,7 +9606,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2017,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 8,
       "songs": [
@@ -6471,7 +9643,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2017,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 7,
       "songs": [
@@ -6514,7 +9686,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2017,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 6,
       "songs": [
@@ -6557,7 +9729,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2017,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 5,
       "songs": [
@@ -6600,7 +9772,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2017,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 3,
       "songs": [
@@ -6643,7 +9815,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2017,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 2,
       "songs": [
@@ -6686,7 +9858,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2017,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 1,
       "songs": [
@@ -6729,7 +9901,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 4,
       "songs": [
@@ -6772,7 +9944,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 3,
       "songs": [
@@ -6809,7 +9981,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 2,
       "songs": [
@@ -6852,7 +10024,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 1,
       "songs": [
@@ -6895,7 +10067,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 11,
       "songs": [
@@ -6932,7 +10104,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 9,
       "songs": [
@@ -6969,7 +10141,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 7,
       "songs": [
@@ -7006,7 +10178,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 6,
       "songs": [
@@ -7043,7 +10215,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 5,
       "songs": [
@@ -7080,7 +10252,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 4,
       "songs": [
@@ -7117,7 +10289,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 3,
       "songs": [
@@ -7154,7 +10326,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 2,
       "songs": [
@@ -7191,7 +10363,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 1,
       "songs": [
@@ -7228,7 +10400,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 39,
       "songs": [
@@ -7265,7 +10437,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 38,
       "songs": [
@@ -7302,7 +10474,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 37,
       "songs": [
@@ -7339,7 +10511,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 35,
       "songs": [
@@ -7376,7 +10548,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 34,
       "songs": [
@@ -7413,7 +10585,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 33,
       "songs": [
@@ -7450,7 +10622,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 32,
       "songs": [
@@ -7487,7 +10659,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 31,
       "songs": [
@@ -7524,7 +10696,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 29,
       "songs": [
@@ -7561,7 +10733,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 28,
       "songs": [
@@ -7598,7 +10770,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 27,
       "songs": [
@@ -7635,7 +10807,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 26,
       "songs": [
@@ -7672,7 +10844,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 25,
       "songs": [
@@ -7709,7 +10881,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 24,
       "songs": [
@@ -7746,7 +10918,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 22,
       "songs": [
@@ -7783,7 +10955,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 20,
       "songs": [
@@ -7820,7 +10992,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 18,
       "songs": [
@@ -7857,7 +11029,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 17,
       "songs": [
@@ -7894,7 +11066,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 16,
       "songs": [
@@ -7931,7 +11103,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 15,
       "songs": [
@@ -7968,7 +11140,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 14,
       "songs": [
@@ -8005,7 +11177,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 11,
       "songs": [
@@ -8042,7 +11214,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 10,
       "songs": [
@@ -8079,7 +11251,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 5,
       "songs": [
@@ -8116,7 +11288,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 4,
       "songs": [
@@ -8153,7 +11325,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 2,
       "songs": [
@@ -8190,7 +11362,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2016,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 1,
       "songs": [
@@ -8227,7 +11399,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 4,
       "songs": [
@@ -8270,7 +11442,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 3,
       "songs": [
@@ -8313,7 +11485,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 2,
       "songs": [
@@ -8356,7 +11528,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 1,
       "songs": [
@@ -8399,7 +11571,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 11,
       "songs": [
@@ -8436,7 +11608,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 10,
       "songs": [
@@ -8473,7 +11645,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 9,
       "songs": [
@@ -8510,7 +11682,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 7,
       "songs": [
@@ -8547,7 +11719,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 6,
       "songs": [
@@ -8584,7 +11756,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 5,
       "songs": [
@@ -8621,7 +11793,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 3,
       "songs": [
@@ -8658,7 +11830,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 2,
       "songs": [
@@ -8695,7 +11867,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 1,
       "songs": [
@@ -8732,7 +11904,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 37,
       "songs": [
@@ -8769,7 +11941,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 36,
       "songs": [
@@ -8806,7 +11978,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 35,
       "songs": [
@@ -8843,7 +12015,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 33,
       "songs": [
@@ -8880,7 +12052,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 32,
       "songs": [
@@ -8917,7 +12089,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 31,
       "songs": [
@@ -8954,7 +12126,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 30,
       "songs": [
@@ -8991,7 +12163,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 29,
       "songs": [
@@ -9028,7 +12200,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 28,
       "songs": [
@@ -9065,7 +12237,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 27,
       "songs": [
@@ -9102,7 +12274,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 26,
       "songs": [
@@ -9139,7 +12311,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 25,
       "songs": [
@@ -9176,7 +12348,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 24,
       "songs": [
@@ -9213,7 +12385,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 22,
       "songs": [
@@ -9250,7 +12422,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 20,
       "songs": [
@@ -9287,7 +12459,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 19,
       "songs": [
@@ -9324,7 +12496,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 18,
       "songs": [
@@ -9361,7 +12533,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 17,
       "songs": [
@@ -9398,7 +12570,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 16,
       "songs": [
@@ -9435,7 +12607,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 15,
       "songs": [
@@ -9472,7 +12644,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 14,
       "songs": [
@@ -9509,7 +12681,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 13,
       "songs": [
@@ -9546,7 +12718,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 12,
       "songs": [
@@ -9583,7 +12755,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 10,
       "songs": [
@@ -9620,7 +12792,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 9,
       "songs": [
@@ -9657,7 +12829,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 8,
       "songs": [
@@ -9694,7 +12866,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 7,
       "songs": [
@@ -9731,7 +12903,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 6,
       "songs": [
@@ -9768,7 +12940,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 5,
       "songs": [
@@ -9805,7 +12977,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 4,
       "songs": [
@@ -9842,7 +13014,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 3,
       "songs": [
@@ -9879,7 +13051,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2015,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 1,
       "songs": [
@@ -9916,7 +13088,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 4,
       "songs": [
@@ -9959,7 +13131,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 3,
       "songs": [
@@ -10002,7 +13174,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 2,
       "songs": [
@@ -10045,7 +13217,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 1,
       "songs": [
@@ -10088,7 +13260,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 9,
       "songs": [
@@ -10125,7 +13297,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 7,
       "songs": [
@@ -10162,7 +13334,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 6,
       "songs": [
@@ -10199,7 +13371,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 5,
       "songs": [
@@ -10236,7 +13408,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 4,
       "songs": [
@@ -10273,7 +13445,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 3,
       "songs": [
@@ -10310,7 +13482,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 2,
       "songs": [
@@ -10347,7 +13519,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "semifinal",
       "ronda_number": 1,
       "songs": [
@@ -10384,7 +13556,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 36,
       "songs": [
@@ -10421,7 +13593,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 34,
       "songs": [
@@ -10458,7 +13630,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 30,
       "songs": [
@@ -10495,7 +13667,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 29,
       "songs": [
@@ -10532,7 +13704,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 28,
       "songs": [
@@ -10569,7 +13741,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 25,
       "songs": [
@@ -10606,7 +13778,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 24,
       "songs": [
@@ -10643,7 +13815,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 22,
       "songs": [
@@ -10680,7 +13852,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 19,
       "songs": [
@@ -10717,7 +13889,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 17,
       "songs": [
@@ -10754,7 +13926,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 16,
       "songs": [
@@ -10791,7 +13963,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 15,
       "songs": [
@@ -10828,7 +14000,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 14,
       "songs": [
@@ -10865,7 +14037,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 13,
       "songs": [
@@ -10902,7 +14074,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 12,
       "songs": [
@@ -10939,7 +14111,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 8,
       "songs": [
@@ -10976,7 +14148,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 7,
       "songs": [
@@ -11013,7 +14185,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 6,
       "songs": [
@@ -11050,7 +14222,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 5,
       "songs": [
@@ -11087,7 +14259,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 3,
       "songs": [
@@ -11124,7 +14296,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 2,
       "songs": [
@@ -11161,7 +14333,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2014,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "qualifying",
       "ronda_number": 1,
       "songs": [
@@ -11198,7 +14370,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2013,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 4,
       "songs": [
@@ -11241,7 +14413,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2013,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 3,
       "songs": [
@@ -11284,7 +14456,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2013,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 2,
       "songs": [
@@ -11327,7 +14499,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2013,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 1,
       "songs": [
@@ -11370,7 +14542,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2012,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 4,
       "songs": [
@@ -11407,7 +14579,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2012,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 3,
       "songs": [
@@ -11450,7 +14622,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2012,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 2,
       "songs": [
@@ -11493,7 +14665,7 @@
       "competition": "Mundial",
       "competition_id": "COMP-001",
       "year": 2012,
-      "category": "tango_de_pista",
+      "category": "pista",
       "stage": "final",
       "ronda_number": 1,
       "songs": [
@@ -12030,6 +15202,88 @@
         "Dante Sanchez",
         "Facundo de la Cruz",
         "Jimena Hoeffner"
+      ],
+      "participants": [
+        {
+          "pareja": 391,
+          "leader": "Sergei Kurkatov",
+          "follower": "Kseniia Rubina",
+          "rank": 11,
+          "promedio": 8.717,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 779,
+          "leader": "Nelson Piliu",
+          "follower": "Giselle Tacon",
+          "rank": 43,
+          "promedio": 8.457,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 719,
+          "leader": "Ruth Hernandez",
+          "follower": "Carlos Urrego",
+          "rank": 49,
+          "promedio": 8.422,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 604,
+          "leader": "Juliano Andrade",
+          "follower": "Paula Emerick",
+          "rank": 62,
+          "promedio": 8.385,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 301,
+          "leader": "Alexander Desiatov",
+          "follower": "Maria Makarenko",
+          "rank": 64,
+          "promedio": 8.367,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 585,
+          "leader": "Matias Goyeneche",
+          "follower": "Deysi Aguilera",
+          "rank": 86,
+          "promedio": 8.295,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 431,
+          "leader": "Facundo Berrios Valdez",
+          "follower": "Eliana de marco",
+          "rank": 96,
+          "promedio": 8.24,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 414,
+          "leader": "Damián Roezgas",
+          "follower": "Amira Luna Zarate",
+          "rank": 124,
+          "promedio": 8.127,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 147,
+          "leader": "Walter Schefer",
+          "follower": "Silvina Hirschfeld",
+          "rank": 131,
+          "promedio": 8.103,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 340,
+          "leader": "Jonathan Cañete",
+          "follower": "Jessica Estigarribia",
+          "rank": 144,
+          "promedio": 8.02,
+          "advancedTo": "semifinal"
+        }
       ]
     },
     {
@@ -12082,6 +15336,88 @@
         "Dante Sanchez",
         "Facundo de la Cruz",
         "Jimena Hoeffner"
+      ],
+      "participants": [
+        {
+          "pareja": 450,
+          "leader": "London",
+          "follower": "Sol",
+          "rank": 22,
+          "promedio": 8.578,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 114,
+          "leader": "Diego Churquina",
+          "follower": "Paula Pandol",
+          "rank": 54,
+          "promedio": 8.407,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 750,
+          "leader": "Sergio Bustos",
+          "follower": "Jesica Gomez",
+          "rank": 63,
+          "promedio": 8.368,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 504,
+          "leader": "Kirill Parshakov",
+          "follower": "Elena Manevich",
+          "rank": 90,
+          "promedio": 8.277,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 16,
+          "leader": "Joel Maximiliano Tempestti",
+          "follower": "Águeda Jimena Mansilla",
+          "rank": 137,
+          "promedio": 8.063,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 133,
+          "leader": "Fernando De Campos",
+          "follower": "Debora Ambrosano",
+          "rank": 138,
+          "promedio": 8.057,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 522,
+          "leader": "Jorge Calabrigo",
+          "follower": "Tiziana Silva",
+          "rank": 142,
+          "promedio": 8.028,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 491,
+          "leader": "Javier Oscar Jofre",
+          "follower": "Paola Susana Valdivia",
+          "rank": 148,
+          "promedio": 7.965,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 282,
+          "leader": "Rommel Oramas",
+          "follower": "Utha Callen",
+          "rank": 151,
+          "promedio": 7.942,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 343,
+          "leader": "LUIS EMILIO CAPPELLETTI",
+          "follower": "vittoria franchina",
+          "rank": 152,
+          "promedio": 7.934,
+          "advancedTo": "semifinal"
+        }
       ]
     },
     {
@@ -12134,6 +15470,88 @@
         "Dante Sanchez",
         "Facundo de la Cruz",
         "Jimena Hoeffner"
+      ],
+      "participants": [
+        {
+          "pareja": 275,
+          "leader": "Marcelo Javier Torres",
+          "follower": "Francisca Alarcon Irrazabal",
+          "rank": 7,
+          "promedio": 8.777,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 20,
+          "leader": "Matteo Antonietti",
+          "follower": "Añes Rosario Arredondo Maiztegui",
+          "rank": 16,
+          "promedio": 8.615,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 178,
+          "leader": "Alfredo Ricardo Encina",
+          "follower": "Ana Luisa Di Francisco",
+          "rank": 19,
+          "promedio": 8.583,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 329,
+          "leader": "JUAN IGNACIO ETCHEVERRY",
+          "follower": "VERONICA BACHINI",
+          "rank": 45,
+          "promedio": 8.44,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 56,
+          "leader": "Raúl Choque",
+          "follower": "Jorgelina Cohen",
+          "rank": 77,
+          "promedio": 8.328,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 583,
+          "leader": "roque bravo",
+          "follower": "Elise Barbot",
+          "rank": 85,
+          "promedio": 8.298,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 393,
+          "leader": "David Ospina",
+          "follower": "Paula Andrea Betancur",
+          "rank": 95,
+          "promedio": 8.25,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 190,
+          "leader": "Raúl Pardo",
+          "follower": "Evrim Kivancer",
+          "rank": 123,
+          "promedio": 8.132,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 575,
+          "leader": "Miguel Francisco Coria",
+          "follower": "Yael Nahir Ferrarelli Fontanella",
+          "rank": 127,
+          "promedio": 8.117,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 768,
+          "leader": "Andrey Prokopov",
+          "follower": "Olha Kozyavkina",
+          "rank": 150,
+          "promedio": 7.945,
+          "advancedTo": "semifinal"
+        }
       ]
     },
     {
@@ -12186,6 +15604,88 @@
         "Dante Sanchez",
         "Facundo de la Cruz",
         "Jimena Hoeffner"
+      ],
+      "participants": [
+        {
+          "pareja": 242,
+          "leader": "Norair Arakelian",
+          "follower": "Sofiia Seminskaia",
+          "rank": 20,
+          "promedio": 8.582,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 149,
+          "leader": "Alexander Moncada Ro",
+          "follower": "jas  Martina Waldman",
+          "rank": 23,
+          "promedio": 8.575,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 138,
+          "leader": "Ricardo Ariel Albornoz",
+          "follower": "Daniela Elizabeth Inglese",
+          "rank": 52,
+          "promedio": 8.413,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 695,
+          "leader": "Rodrigo Hector Verón",
+          "follower": "Celeste Noelia Mattia",
+          "rank": 55,
+          "promedio": 8.407,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 374,
+          "leader": "Batuhan Boy",
+          "follower": "Nida İnceoğlu Boy",
+          "rank": 61,
+          "promedio": 8.385,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 653,
+          "leader": "Endre Szeghalmi",
+          "follower": "Andrea Serban",
+          "rank": 102,
+          "promedio": 8.223,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 481,
+          "leader": "Artem Dovbush",
+          "follower": "Daria Pechatnikova",
+          "rank": 106,
+          "promedio": 8.206,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 743,
+          "leader": "Elio Daniel Avila",
+          "follower": "Andrea Guassardo",
+          "rank": 129,
+          "promedio": 8.113,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 378,
+          "leader": "Adrian De Gregorio",
+          "follower": "Romina Cides",
+          "rank": 134,
+          "promedio": 8.078,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 179,
+          "leader": "MIGUEL GARCIA",
+          "follower": "Sandra Martinez",
+          "rank": 149,
+          "promedio": 7.945,
+          "advancedTo": "semifinal"
+        }
       ]
     },
     {
@@ -12238,6 +15738,88 @@
         "Dante Sanchez",
         "Facundo de la Cruz",
         "Jimena Hoeffner"
+      ],
+      "participants": [
+        {
+          "pareja": 780,
+          "leader": "Juan David Vargas",
+          "follower": "Ornella Simonetto",
+          "rank": 3,
+          "promedio": 8.9,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 747,
+          "leader": "Sebastian Fernandez",
+          "follower": "Mara   Oviedo",
+          "rank": 9,
+          "promedio": 8.765,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 97,
+          "leader": "Edwin Enrique Espinosa",
+          "follower": "Alexa Yepes",
+          "rank": 14,
+          "promedio": 8.622,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 125,
+          "leader": "Alexander Sossa",
+          "follower": "Ana Thomas",
+          "rank": 28,
+          "promedio": 8.532,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 189,
+          "leader": "Jorge Benvenutti",
+          "follower": "Sol Irupé Gabis Gómez",
+          "rank": 33,
+          "promedio": 8.503,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 548,
+          "leader": "Dmitrii Kuznetsov",
+          "follower": "Olga Nikolaeva",
+          "rank": 42,
+          "promedio": 8.457,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 640,
+          "leader": "Vicente Albarengo",
+          "follower": "Piera Primiterra",
+          "rank": 60,
+          "promedio": 8.4,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 231,
+          "leader": "Sangeon Nam",
+          "follower": "Misun Bang",
+          "rank": 82,
+          "promedio": 8.318,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 559,
+          "leader": "Yeferson Orrego",
+          "follower": "Andres Olaya",
+          "rank": 99,
+          "promedio": 8.23,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 424,
+          "leader": "Diego ali Delgado",
+          "follower": "Tamara Borda",
+          "rank": 118,
+          "promedio": 8.15,
+          "advancedTo": "semifinal"
+        }
       ]
     },
     {
@@ -12271,6 +15853,88 @@
         "Dante Sanchez",
         "Facundo de la Cruz",
         "Jimena Hoeffner"
+      ],
+      "participants": [
+        {
+          "pareja": 483,
+          "leader": "Dmitrii Liferov",
+          "follower": "Dana Son",
+          "rank": 4,
+          "promedio": 8.845,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 44,
+          "leader": "Luciano Paulino",
+          "follower": "Dana Zampieri",
+          "rank": 13,
+          "promedio": 8.677,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 171,
+          "leader": "Damián Esell",
+          "follower": "Noelia Soldera",
+          "rank": 72,
+          "promedio": 8.333,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 111,
+          "leader": "David Samaniego",
+          "follower": "Roció Aragón Diani",
+          "rank": 79,
+          "promedio": 8.327,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 567,
+          "leader": "EZEQUIEL GOMEZ",
+          "follower": "Viktoriia Tsivinskaia",
+          "rank": 91,
+          "promedio": 8.275,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 546,
+          "leader": "Raúl Ehijo",
+          "follower": "Ximena Santana",
+          "rank": 97,
+          "promedio": 8.233,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 68,
+          "leader": "Dario Cieri",
+          "follower": "Rocío de la Torre",
+          "rank": 101,
+          "promedio": 8.227,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 313,
+          "leader": "Alejandro Ferreyra",
+          "follower": "Fernanda Grosso",
+          "rank": 115,
+          "promedio": 8.155,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 222,
+          "leader": "Nahuel ARAGON",
+          "follower": "Evelyn Ponce",
+          "rank": 141,
+          "promedio": 8.031,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 744,
+          "leader": "Tony Barrios",
+          "follower": "Silvia Fassio",
+          "rank": 145,
+          "promedio": 8.012,
+          "advancedTo": "semifinal"
+        }
       ]
     },
     {
