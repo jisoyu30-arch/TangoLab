@@ -133,6 +133,12 @@
           "url": "https://www.youtube.com/watch?v=hmyWixhkU9M",
           "channel": "Tango Mafia",
           "title": "Korea Tango Championship | Milonga Semi Final 1 Ronda"
+        },
+        {
+          "video_id": "1rf3fd46F0E",
+          "url": "https://www.youtube.com/watch?v=1rf3fd46F0E",
+          "channel": "Korea Tango Cooperative",
+          "title": "KTC 20260228 24 Semifinal   Final   Senior Milonga"
         }
       ]
     },
@@ -17564,6 +17570,12 @@
           "url": "https://www.youtube.com/watch?v=eLwwsIqS8jI",
           "channel": "Korea Tango Cooperative",
           "title": "2025 KTC - Tango de Pista (Official) Final Ronda"
+        },
+        {
+          "video_id": "iiMOtBrey7k",
+          "url": "https://www.youtube.com/watch?v=iiMOtBrey7k",
+          "channel": "Korea Tango Cooperative",
+          "title": "2025 KTC - Seniro Tango - Final Ronda"
         }
       ]
     },
@@ -18419,6 +18431,12 @@
           "channel": "Abrazo tv",
           "type": "performance",
           "title": "2023 Pacific Tango Championship - Pista - Final Rounds - #3 (23.05.28)"
+        },
+        {
+          "video_id": "qCfpD1tw6kw",
+          "url": "https://www.youtube.com/watch?v=qCfpD1tw6kw",
+          "channel": "Korea Tango Cooperative",
+          "title": "2023 Pacific Tango Championship - Tango de Fista . Final 3"
         }
       ]
     },
@@ -23609,6 +23627,1200 @@
           "url": "https://www.youtube.com/watch?v=p0KzbhJQR-g",
           "channel": "Korea Tango Cooperative",
           "title": "Tango Pista(Salon) 1st Qualifying Round 1. 2014 Korea Tango Championship."
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2026-ESCENARIO-F1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2026,
+      "category": "escenario",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "vbIVVfPKlX4",
+          "url": "https://www.youtube.com/watch?v=vbIVVfPKlX4",
+          "channel": "Korea Tango Cooperative",
+          "title": "KTC 20260302 24 Final   Tango Escenario"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2025-PISTA-Q1",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2025,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "IjLef8yEajU",
+          "url": "https://www.youtube.com/watch?v=IjLef8yEajU",
+          "channel": "Korea Tango Cooperative",
+          "title": "BA Preliminary 4 Juires' Grand Party Ronda Performance in PTC 2025"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2024-FREESTYLE-F1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2024,
+      "category": "freestyle",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "pV2_rj-z-_0",
+          "url": "https://www.youtube.com/watch?v=pV2_rj-z-_0",
+          "channel": "Korea Tango Cooperative",
+          "title": "2024 Korea Tango Championship Free Style Final Ronda"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2023-PISTA-F1",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2023,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "J3dkZ9vn77Y",
+          "url": "https://www.youtube.com/watch?v=J3dkZ9vn77Y",
+          "channel": "Korea Tango Cooperative",
+          "title": "2023 Pacific Tango Championship - Tango de Fista . Final 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2023-PISTA-F2",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2023,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "8JB9_R0GLDQ",
+          "url": "https://www.youtube.com/watch?v=8JB9_R0GLDQ",
+          "channel": "Korea Tango Cooperative",
+          "title": "2023 Pacific Tango Championship - Tango de Fista . Final 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2023-PISTA-SENIOR-F1",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2023,
+      "category": "pista_senior",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "lgW6fCDSrj0",
+          "url": "https://www.youtube.com/watch?v=lgW6fCDSrj0",
+          "channel": "Korea Tango Cooperative",
+          "title": "2023 Pacific Tango Championship - Senior . Final"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2023-PISTA-SENIOR-Q2",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2023,
+      "category": "pista_senior",
+      "stage": "qualifying",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "5BvTHSEH43E",
+          "url": "https://www.youtube.com/watch?v=5BvTHSEH43E",
+          "channel": "Korea Tango Cooperative",
+          "title": "2023 Pacific Tango Championship - Senior Qualification 2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-PTC2023-PISTA-SENIOR-Q1",
+      "competition": "PTC",
+      "competition_id": "COMP-004",
+      "year": 2023,
+      "category": "pista_senior",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "qAeVLg7Qxs8",
+          "url": "https://www.youtube.com/watch?v=qAeVLg7Qxs8",
+          "channel": "Korea Tango Cooperative",
+          "title": "2023 Pacific Tango Championship - Senior Qualification 1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2023-FREESTYLE-F1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2023,
+      "category": "freestyle",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "WrZSQlWceu0",
+          "url": "https://www.youtube.com/watch?v=WrZSQlWceu0",
+          "channel": "Korea Tango Cooperative",
+          "title": "2023 Korea Tango Championship : Free style (Final)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2023-FREESTYLE-Q2",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2023,
+      "category": "freestyle",
+      "stage": "qualifying",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "AkqY68Uy_94",
+          "url": "https://www.youtube.com/watch?v=AkqY68Uy_94",
+          "channel": "Korea Tango Cooperative",
+          "title": "2023 Korea Tango Championship :  Free style B (Preliminaries Ronda 2)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2023-FREESTYLE-Q1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2023,
+      "category": "freestyle",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "iWyIhdNPhCY",
+          "url": "https://www.youtube.com/watch?v=iWyIhdNPhCY",
+          "channel": "Korea Tango Cooperative",
+          "title": "2023 Korea Tango Championship :  Free style A (Preliminaries Ronda 1)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KITC2018-ESCENARIO-Q1",
+      "competition": "KITC",
+      "competition_id": "COMP-008",
+      "year": 2018,
+      "category": "escenario",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "Eadk4MwEs4o",
+          "url": "https://www.youtube.com/watch?v=Eadk4MwEs4o",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Korea International Tango Championship-Preliminary Tango Escenario"
+        },
+        {
+          "video_id": "dX5sL8tKmwo",
+          "url": "https://www.youtube.com/watch?v=dX5sL8tKmwo",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Korea International Tango Championship-Preliminary Tango Escenario"
+        },
+        {
+          "video_id": "XzR6xHYjWR8",
+          "url": "https://www.youtube.com/watch?v=XzR6xHYjWR8",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Korea International Tango Championship-Preliminary Tango Escenario"
+        },
+        {
+          "video_id": "G0JVBNYaglg",
+          "url": "https://www.youtube.com/watch?v=G0JVBNYaglg",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Korea International Tango Championship-Preliminary Tango Escenario"
+        },
+        {
+          "video_id": "QrsCLZY5Re8",
+          "url": "https://www.youtube.com/watch?v=QrsCLZY5Re8",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Korea International Tango Championship-Preliminary Tango Escenario"
+        },
+        {
+          "video_id": "nzyBxYL35Uc",
+          "url": "https://www.youtube.com/watch?v=nzyBxYL35Uc",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Korea International Tango Championship-Preliminary Tango Escenario"
+        },
+        {
+          "video_id": "9VYc1PImGys",
+          "url": "https://www.youtube.com/watch?v=9VYc1PImGys",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Korea International Tango Championship-Preliminary Tango Escenario"
+        },
+        {
+          "video_id": "BfdF7Pqd8QA",
+          "url": "https://www.youtube.com/watch?v=BfdF7Pqd8QA",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Korea International Tango Championship-Preliminary Tango Escenario"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-PISTA-Q12",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 12,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "whHhbMtVHvs",
+          "url": "https://www.youtube.com/watch?v=whHhbMtVHvs",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship preliminary(12)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-PISTA-Q11",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 11,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "AUOrujoNsL0",
+          "url": "https://www.youtube.com/watch?v=AUOrujoNsL0",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship preliminary(11)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-PISTA-Q10",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 10,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "xXILcj5OMCA",
+          "url": "https://www.youtube.com/watch?v=xXILcj5OMCA",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship preliminary(10)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-PISTA-Q9",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 9,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "wXVLSCq4sIQ",
+          "url": "https://www.youtube.com/watch?v=wXVLSCq4sIQ",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship preliminary(9)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-PISTA-Q8",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 8,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "ZISaf0iXCZo",
+          "url": "https://www.youtube.com/watch?v=ZISaf0iXCZo",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship preliminary(8)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-PISTA-Q7",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 7,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "tN1YtaSzNek",
+          "url": "https://www.youtube.com/watch?v=tN1YtaSzNek",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship preliminary(7)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-PISTA-Q6",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 6,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "dgPz-b7Uf-M",
+          "url": "https://www.youtube.com/watch?v=dgPz-b7Uf-M",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship preliminary(6)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-PISTA-Q5",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 5,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "ctosySNPOec",
+          "url": "https://www.youtube.com/watch?v=ctosySNPOec",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship preliminary(5)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-PISTA-Q4",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "IsKuh_r_Qtc",
+          "url": "https://www.youtube.com/watch?v=IsKuh_r_Qtc",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship preliminary(4)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-PISTA-Q3",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "z2A0sQMV_us",
+          "url": "https://www.youtube.com/watch?v=z2A0sQMV_us",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship preliminary(3)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-PISTA-Q2",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "MbGsvHo37QI",
+          "url": "https://www.youtube.com/watch?v=MbGsvHo37QI",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship preliminary(2)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-PISTA-Q1",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "pul2jz9sMlE",
+          "url": "https://www.youtube.com/watch?v=pul2jz9sMlE",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship preliminary(1)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KITC2017-ESCENARIO-F1",
+      "competition": "KITC",
+      "competition_id": "COMP-008",
+      "year": 2017,
+      "category": "escenario",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "dubk76aT5ro",
+          "url": "https://www.youtube.com/watch?v=dubk76aT5ro",
+          "channel": "Korea Tango Cooperative",
+          "title": "Final, Escenario(Simjang y Barbie), 2017 Korea International Tango Championship"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KITC2016-PISTA-F1",
+      "competition": "KITC",
+      "competition_id": "COMP-008",
+      "year": 2016,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "Ni6pdHG8T3s",
+          "url": "https://www.youtube.com/watch?v=Ni6pdHG8T3s",
+          "channel": "Korea Tango Cooperative",
+          "title": "2016 Korea International Tango Championship - Final (Tango de Pista)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KITC2017-PISTA-SF1",
+      "competition": "KITC",
+      "competition_id": "COMP-008",
+      "year": 2017,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "QCPiAiIZP9c",
+          "url": "https://www.youtube.com/watch?v=QCPiAiIZP9c",
+          "channel": "Korea Tango Cooperative",
+          "title": "Ronda D, Semi-Finale, Tango de Pisat, 2017 Korea International Tango Championship"
+        },
+        {
+          "video_id": "X0A_6m45EpQ",
+          "url": "https://www.youtube.com/watch?v=X0A_6m45EpQ",
+          "channel": "Korea Tango Cooperative",
+          "title": "Ronda C, Semi-Finale, Tango de Pisat, 2017 Korea International Tango Championship ,"
+        },
+        {
+          "video_id": "Jv7ZUpprXiA",
+          "url": "https://www.youtube.com/watch?v=Jv7ZUpprXiA",
+          "channel": "Korea Tango Cooperative",
+          "title": "Ronda B, Semi-Finale, Tango de Pisat, 2017 Korea International Tango Championship ,"
+        },
+        {
+          "video_id": "U1cp-MD5CCE",
+          "url": "https://www.youtube.com/watch?v=U1cp-MD5CCE",
+          "channel": "Korea Tango Cooperative",
+          "title": "Ronda A, Semi-Finale, Tango de Pisat, 2017 Korea International Tango Championship ,"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KITC2016-ESCENARIO-Q3",
+      "competition": "KITC",
+      "competition_id": "COMP-008",
+      "year": 2016,
+      "category": "escenario",
+      "stage": "qualifying",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "sXI_c1sc1gY",
+          "url": "https://www.youtube.com/watch?v=sXI_c1sc1gY",
+          "channel": "Korea Tango Cooperative",
+          "title": "2016 KOREA INTERNATIONAL TANGO CHAMPIONSHIP(ESCENARIO)QUALIFICATION 3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KITC2016-PISTA-SF3",
+      "competition": "KITC",
+      "competition_id": "COMP-008",
+      "year": 2016,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "oUEcnGV8IzA",
+          "url": "https://www.youtube.com/watch?v=oUEcnGV8IzA",
+          "channel": "Korea Tango Cooperative",
+          "title": "2016 KOREA INTERNATIONAL TANGO CHAMPIONSHIP(TANGO DE PISTA) SEMI-FINAL3"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KITC2016-ESCENARIO-Q2",
+      "competition": "KITC",
+      "competition_id": "COMP-008",
+      "year": 2016,
+      "category": "escenario",
+      "stage": "qualifying",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "efD2svEc9Q0",
+          "url": "https://www.youtube.com/watch?v=efD2svEc9Q0",
+          "channel": "Korea Tango Cooperative",
+          "title": "2016 KOREA INTERNATIONAL TANGO CHAMPIONSHIP(ESCENARIO)QUALIFICATION 2"
+        },
+        {
+          "video_id": "WEp4JGLa_RE",
+          "url": "https://www.youtube.com/watch?v=WEp4JGLa_RE",
+          "channel": "Korea Tango Cooperative",
+          "title": "2016 KOREA INTERNATIONAL TANGO CHAMPIONSHIP(ESCENARIO)QUALIFICATION 2-1"
+        },
+        {
+          "video_id": "TCVAXSgWI3Q",
+          "url": "https://www.youtube.com/watch?v=TCVAXSgWI3Q",
+          "channel": "Korea Tango Cooperative",
+          "title": "2016 KOREA INTERNATIONAL TANGO CHAMPIONSHIP(ESCENARIO)QUALIFICATION 2-4"
+        },
+        {
+          "video_id": "8C7EWXLAYEU",
+          "url": "https://www.youtube.com/watch?v=8C7EWXLAYEU",
+          "channel": "Korea Tango Cooperative",
+          "title": "2016 KOREA INTERNATIONAL TANGO CHAMPIONSHIP(ESCENARIO)QUALIFICATION 2-5"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KITC2016-PISTA-SF2",
+      "competition": "KITC",
+      "competition_id": "COMP-008",
+      "year": 2016,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "Xp290MD88tY",
+          "url": "https://www.youtube.com/watch?v=Xp290MD88tY",
+          "channel": "Korea Tango Cooperative",
+          "title": "2016 KOREA INTERNATIONAL TANGO CHAMPIONSHIP(TANGO DE PISTA) SEMI-FINAL2"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KITC2016-PISTA-SF4",
+      "competition": "KITC",
+      "competition_id": "COMP-008",
+      "year": 2016,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "TAu4FJDmPoE",
+          "url": "https://www.youtube.com/watch?v=TAu4FJDmPoE",
+          "channel": "Korea Tango Cooperative",
+          "title": "2016 KOREA INTERNATIONAL TANGO CHAMPIONSHIP(TANGO DE PISTA) SEMI-FINAL4"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KITC2016-PISTA-SF1",
+      "competition": "KITC",
+      "competition_id": "COMP-008",
+      "year": 2016,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "LfEH0oCiZV0",
+          "url": "https://www.youtube.com/watch?v=LfEH0oCiZV0",
+          "channel": "Korea Tango Cooperative",
+          "title": "2016 KOREA INTERNATIONAL TANGO CHAMPIONSHIP(TANGO DE PISTA) SEMI-FINAL1"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KITC2016-PISTA-Q1",
+      "competition": "KITC",
+      "competition_id": "COMP-008",
+      "year": 2016,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "wTaa2SC1Q5M",
+          "url": "https://www.youtube.com/watch?v=wTaa2SC1Q5M",
+          "channel": "Korea Tango Cooperative",
+          "title": "2016 Korea International Tango Championship [Tango de Pista] Qualifying round 1 Group A"
+        },
+        {
+          "video_id": "npxYghs8ipw",
+          "url": "https://www.youtube.com/watch?v=npxYghs8ipw",
+          "channel": "Korea Tango Cooperative",
+          "title": "2016 Korea International Tango Championship [Tango de Pista] Qualifying round 1 Group E"
+        },
+        {
+          "video_id": "Zy-SkeYxHFk",
+          "url": "https://www.youtube.com/watch?v=Zy-SkeYxHFk",
+          "channel": "Korea Tango Cooperative",
+          "title": "2016 Korea International Tango Championship [Tango de Pista] Qualifying round 1 Group D"
+        },
+        {
+          "video_id": "ZDcUOthXiCE",
+          "url": "https://www.youtube.com/watch?v=ZDcUOthXiCE",
+          "channel": "Korea Tango Cooperative",
+          "title": "2016 Korea International Tango Championship [Tango de Pista] Qualifying round 1 Group B"
+        },
+        {
+          "video_id": "ViTgd8n2nfs",
+          "url": "https://www.youtube.com/watch?v=ViTgd8n2nfs",
+          "channel": "Korea Tango Cooperative",
+          "title": "2016 Korea International Tango Championship [Tango de Pista] Qualifying round 1 Group F"
+        },
+        {
+          "video_id": "R20A3HXqaRE",
+          "url": "https://www.youtube.com/watch?v=R20A3HXqaRE",
+          "channel": "Korea Tango Cooperative",
+          "title": "2016 Korea International Tango Championship [Tango de Pista] Qualifying round 1 Group C"
+        },
+        {
+          "video_id": "4GRMm8gPIJA",
+          "url": "https://www.youtube.com/watch?v=4GRMm8gPIJA",
+          "channel": "Korea Tango Cooperative",
+          "title": "2016 Korea International Tango Championship [Tango de Pista] Qualifying round 1 Group G"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2015-FORMATION-Q3",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2015,
+      "category": "formation",
+      "stage": "qualifying",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "akxKTcG1bbM",
+          "url": "https://www.youtube.com/watch?v=akxKTcG1bbM",
+          "channel": "Korea Tango Cooperative",
+          "title": "Tango Formation 2nd Round 3  2015 Korea Tango Championship"
+        },
+        {
+          "video_id": "sDYI0PVpB-Y",
+          "url": "https://www.youtube.com/watch?v=sDYI0PVpB-Y",
+          "channel": "Korea Tango Cooperative",
+          "title": "Tango Formation 1st Round 3  2015 Korea Tango Championship"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2015-FORMATION-Q4",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2015,
+      "category": "formation",
+      "stage": "qualifying",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "qyGOBGOaP1g",
+          "url": "https://www.youtube.com/watch?v=qyGOBGOaP1g",
+          "channel": "Korea Tango Cooperative",
+          "title": "Tango Formation 2nd Round 4  2015 Korea Tango Championship"
+        },
+        {
+          "video_id": "2oKFrlUBEFU",
+          "url": "https://www.youtube.com/watch?v=2oKFrlUBEFU",
+          "channel": "Korea Tango Cooperative",
+          "title": "Tango Formation 1st Round 4  2015 Korea Tango Championship"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2015-FORMATION-Q2",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2015,
+      "category": "formation",
+      "stage": "qualifying",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "wEBGMle69oE",
+          "url": "https://www.youtube.com/watch?v=wEBGMle69oE",
+          "channel": "Korea Tango Cooperative",
+          "title": "Tango Formation 2nd Round 2  2015 Korea Tango Championship"
+        },
+        {
+          "video_id": "73n4smgtOE4",
+          "url": "https://www.youtube.com/watch?v=73n4smgtOE4",
+          "channel": "Korea Tango Cooperative",
+          "title": "Tango Formation 1st Round 2  2015 Korea Tango Championship"
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2015-FORMATION-Q1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2015,
+      "category": "formation",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "pNQK1VguF6A",
+          "url": "https://www.youtube.com/watch?v=pNQK1VguF6A",
+          "channel": "Korea Tango Cooperative",
+          "title": "Tango Formation 2nd Round 1  2015 Korea Tango Championship"
+        },
+        {
+          "video_id": "3MZc-z3Azj8",
+          "url": "https://www.youtube.com/watch?v=3MZc-z3Azj8",
+          "channel": "Korea Tango Cooperative",
+          "title": "Tango Formation 1st Round 1  2015 Korea Tango Championship"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2014-MILONGA-Q1",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2014,
+      "category": "milonga",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "K-M0dD4zZvY",
+          "url": "https://www.youtube.com/watch?v=K-M0dD4zZvY",
+          "channel": "Korea Tango Cooperative",
+          "title": "Milonga / Vals Qualifying Round. 2014 Seoul Metropolitan Tango Championship."
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2014-MILONGA-F1",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2014,
+      "category": "milonga",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "6YNidZr20qg",
+          "url": "https://www.youtube.com/watch?v=6YNidZr20qg",
+          "channel": "Korea Tango Cooperative",
+          "title": "Milonga / Vals Final Round. 2014 Seoul Metropolitan Tango Championship."
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2014-PISTA-F1",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2014,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "2oaUouYpFoI",
+          "url": "https://www.youtube.com/watch?v=2oaUouYpFoI",
+          "channel": "Korea Tango Cooperative",
+          "title": "Tango Pista(Salon) Final Round. 2014 Seoul Metropolitan Tango Championship."
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2014-PISTA-Q1",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2014,
+      "category": "pista",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "Fmwkkmb_JY8",
+          "url": "https://www.youtube.com/watch?v=Fmwkkmb_JY8",
+          "channel": "Korea Tango Cooperative",
+          "title": "Tango Pista(Salon) Qualifying Round. 2014 Seoul Metropolitan Tango Championship."
+        }
+      ]
+    },
+    {
+      "round_id": "R-KTC2024-ESCENARIO-F4",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2024,
+      "category": "escenario",
+      "stage": "final",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "EUeBqo5BZUU",
+          "url": "https://www.youtube.com/watch?v=EUeBqo5BZUU",
+          "channel": "Korea Tango Cooperative",
+          "title": "K2024 Korea Tango Championship Escenario Final Stage 4"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-MILONGA-Q6",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "milonga",
+      "stage": "qualifying",
+      "ronda_number": 6,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "L8sevH8kIC0",
+          "url": "https://www.youtube.com/watch?v=L8sevH8kIC0",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship milonga(6)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-MILONGA-Q5",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "milonga",
+      "stage": "qualifying",
+      "ronda_number": 5,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "_eHeto5ZP-M",
+          "url": "https://www.youtube.com/watch?v=_eHeto5ZP-M",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship milonga(5)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-MILONGA-Q4",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "milonga",
+      "stage": "qualifying",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "LRrzfM3ZLis",
+          "url": "https://www.youtube.com/watch?v=LRrzfM3ZLis",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship milonga(4)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-MILONGA-Q3",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "milonga",
+      "stage": "qualifying",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "1iPMxJQXrLM",
+          "url": "https://www.youtube.com/watch?v=1iPMxJQXrLM",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship milonga(3)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-MILONGA-Q2",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "milonga",
+      "stage": "qualifying",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "9PHEL8QE6mU",
+          "url": "https://www.youtube.com/watch?v=9PHEL8QE6mU",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship milonga(2)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-MILONGA-Q1",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "milonga",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "7wba0lQgeRk",
+          "url": "https://www.youtube.com/watch?v=7wba0lQgeRk",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship milonga(1)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-VALS-Q4",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "vals",
+      "stage": "qualifying",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "sQWkkYkoBa0",
+          "url": "https://www.youtube.com/watch?v=sQWkkYkoBa0",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship vals(4)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-VALS-Q3",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "vals",
+      "stage": "qualifying",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "kfjrZUZBO-c",
+          "url": "https://www.youtube.com/watch?v=kfjrZUZBO-c",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship vals(3)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-VALS-Q2",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "vals",
+      "stage": "qualifying",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "3KJuAM_gzEM",
+          "url": "https://www.youtube.com/watch?v=3KJuAM_gzEM",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship vals(2)"
+        },
+        {
+          "video_id": "nag-Ci8_vi8",
+          "url": "https://www.youtube.com/watch?v=nag-Ci8_vi8",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship vals(2)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-VALS-Q1",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "vals",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "kGXMQeXBfX0",
+          "url": "https://www.youtube.com/watch?v=kGXMQeXBfX0",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship vals(1)"
+        },
+        {
+          "video_id": "M6VK00AD6fA",
+          "url": "https://www.youtube.com/watch?v=M6VK00AD6fA",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 Seoul Metropolitan Tango Championship vals(1)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-ESCENARIO-Q5",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "escenario",
+      "stage": "qualifying",
+      "ronda_number": 5,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "MhdjvqMRb3U",
+          "url": "https://www.youtube.com/watch?v=MhdjvqMRb3U",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 seoul metropolitan tango championship escenario(5)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-ESCENARIO-Q4",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "escenario",
+      "stage": "qualifying",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "j177GWSub0M",
+          "url": "https://www.youtube.com/watch?v=j177GWSub0M",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 seoul metropolitan tango championship escenario(4)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-ESCENARIO-Q3",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "escenario",
+      "stage": "qualifying",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "4kP0-9e8mLk",
+          "url": "https://www.youtube.com/watch?v=4kP0-9e8mLk",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 seoul metropolitan tango championship escenario(3)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-ESCENARIO-Q2",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "escenario",
+      "stage": "qualifying",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "zXpcpdHPNOI",
+          "url": "https://www.youtube.com/watch?v=zXpcpdHPNOI",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 seoul metropolitan tango championship escenario(2)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-SMTC2018-ESCENARIO-Q1",
+      "competition": "SMTC",
+      "competition_id": "COMP-007",
+      "year": 2018,
+      "category": "escenario",
+      "stage": "qualifying",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "W-e9Z_Fu65M",
+          "url": "https://www.youtube.com/watch?v=W-e9Z_Fu65M",
+          "channel": "Korea Tango Cooperative",
+          "title": "2018 seoul metropolitan tango championship escenario(1)"
         }
       ]
     }
