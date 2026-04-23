@@ -30,20 +30,55 @@ export function MyCompetitionsPage() {
 
   const handleImportKTC = () => {
     const data = ktcData as any;
+    // 우리 론다별 영상 URL 매핑 (확인된 영상만)
+    const MY_RONDA_VIDEOS: Record<string, { url: string; note: string }> = {
+      // 2023 Milonga Final — GbiiDONSSWI (확인됨, 6위)
+      '2023-milonga-final': {
+        url: 'https://www.youtube.com/watch?v=GbiiDONSSWI',
+        note: '🏆 소유&석정 6위 결승 영상 (Korea Tango Cooperative 공식 촬영)',
+      },
+      // 2023 Milonga 예선 E조 Ronda 5 — 소유&석정이 속한 조
+      '2023-milonga-semifinal': {
+        url: 'https://www.youtube.com/watch?v=w4j12NGjOD4',
+        note: '⚠ E조 Preliminaries Ronda 5 영상 (소유&석정 #180 속한 조). 준결승 영상은 A/B/C 중 조 확인 필요',
+      },
+      // 2023 Jack 준결승 C조 (석정 #180)
+      '2023-jack-semifinal': {
+        url: 'https://www.youtube.com/watch?v=e43rSSxA0sg',
+        note: 'Jack&Jill C조 (석정 #180 속한 조)',
+      },
+      // 2024 Pista 준결승 — 어느 Ronda인지 확인 필요 (4개 후보)
+      '2024-pista-semifinal': {
+        url: 'https://www.youtube.com/results?search_query=2024+Korea+Tango+Championship+Tango+de+Pista+Semi-Final',
+        note: '⚠ 소유&석정 #340 속한 Ronda 확인 필요:\n• R1: U0rO8A-_mFE\n• R2: rbdGrbJwHi0\n• R3: eHFIdVEG2oQ\n• R4: tKtkLcmSPKg\n영상 확인 후 실제 우리 론다 URL로 업데이트하세요',
+      },
+      // 2024 Jack 준결승 — 어느 Ronda인지 확인 필요
+      '2024-jack-semifinal': {
+        url: 'https://www.youtube.com/results?search_query=2024+Korea+Tango+Championship+Jack+Jill+Semi-Final',
+        note: '⚠ 석정 #340 속한 Jack Ronda 확인 필요:\n• R1: ed2mTnQ1iHg\n• R2: KsI2EgUno5s\n• R3: yQ9-M9QKjKw\n• R4: QemtrDIcZ9Q',
+      },
+    };
+
     const imports: Array<any> = [];
     for (const [, ev] of Object.entries(data.events)) {
       const e = ev as any;
       for (const c of e.couples || []) {
         if (!(c.is_my_couple || c.is_my_partner)) continue;
-        // 이미 임포트된 것 확인
         const existing = ownCompetitions.find(own =>
           own.competition_name.includes(String(e.year)) &&
           own.competition_name.toLowerCase().includes(e.category) &&
           own.stage === e.stage
         );
         if (existing) continue;
+
         const catLabel = { pista: '피스타', milonga: '밀롱가', vals: '발스', pista_singles_jackandjill: '잭앤질' }[e.category as string] ?? e.category;
         const stageLabel = { final: '결승', semifinal: '준결승', qualifying: '예선' }[e.stage as string] ?? e.stage;
+
+        // 영상 매핑 키
+        const catKey = /jack/.test(e.category) ? 'jack' : e.category;
+        const videoKey = `${e.year}-${catKey}-${e.stage}`;
+        const videoInfo = MY_RONDA_VIDEOS[videoKey];
+
         imports.push({
           competition_name: `${e.competition} ${e.year} ${catLabel} ${stageLabel}`,
           date: e.year + (e.stage === 'final' ? '-03-02' : e.stage === 'semifinal' ? '-03-01' : '-02-28'),
@@ -69,8 +104,8 @@ export function MyCompetitionsPage() {
               overall: c.scores[idx] ?? 0,
             },
           })),
-          video_url: null,
-          video_note: '',
+          video_url: videoInfo?.url ?? null,
+          video_note: videoInfo?.note ?? '',
           overall_notes: `평균 ${c.average} · 총점 ${c.total ?? ''}${c.strategic_analysis?.achievement ? ' · ' + c.strategic_analysis.achievement : ''}`,
           strengths: c.strategic_analysis?.strength ?? '',
           improvements: c.strategic_analysis?.improvement ?? '',
@@ -81,12 +116,12 @@ export function MyCompetitionsPage() {
       alert('이미 모두 임포트되었거나 불러올 기록이 없습니다.');
       return;
     }
-    if (!confirm(`KTC 기록 ${imports.length}개 불러오시겠습니까?\n\n(소유&석정 커플 + 석정 단독 포함)`)) return;
+    if (!confirm(`KTC 기록 ${imports.length}개 불러오시겠습니까?\n\n(소유&석정 + 석정 단독 · 각 기록에 영상 자동 연결됨)`)) return;
     for (const imp of imports) {
       const id = addOwnCompetition(imp);
       void id;
     }
-    alert(`${imports.length}개 기록 임포트 완료. 새로고침됩니다.`);
+    alert(`${imports.length}개 기록 임포트 완료.\n\n🏆 2023 Milonga 결승: 영상 연결됨\n• 기타 기록: 후보 영상 URL 노트 포함 (해당 Ronda 확인 후 직접 교체)\n\n새로고침됩니다.`);
     window.location.reload();
   };
 
