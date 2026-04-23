@@ -18361,6 +18361,46 @@
           "title": "2023 Pacific Tango Championship - Pista - Final Rounds - #3 (23.05.28)"
         }
       ]
+    },
+    {
+      "round_id": "R-KTC2023-MILONGA-F1",
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2023,
+      "category": "milonga",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [
+        {
+          "song_id": "SONG-441",
+          "title": "El Porteñito",
+          "orchestra": "Ángel D'Agostino y Ángel Vargas",
+          "order": 1
+        },
+        {
+          "song_id": "SONG-431",
+          "title": "Zorzal",
+          "orchestra": "Carlos Di Sarli",
+          "order": 2
+        },
+        {
+          "song_id": "SONG-382",
+          "title": "Milonga Del Ochenta Y Tres",
+          "orchestra": "Juan D'Arienzo y su Orquesta",
+          "order": 3
+        }
+      ],
+      "videos": [
+        {
+          "video_id": "GbiiDONSSWI",
+          "url": "https://www.youtube.com/watch?v=GbiiDONSSWI",
+          "channel": "Korea Tango Cooperative",
+          "type": "performance",
+          "title": "2023 Korea Tango Championship : Milonga (Final)",
+          "highlight": "🏆 소유&석정 커플 6위 기록 영상"
+        }
+      ],
+      "my_couple_highlight": true
     }
   ]
 }
