@@ -1,0 +1,204 @@
+{
+  "source": "KTC 공식 결과 게시판 스크린샷",
+  "note": "한국 탱고 대회 (Korea Tango Championship) 출전자 데이터",
+  "my_couple": {
+    "leader": "석정 (남편)",
+    "follower": "소유 (지소유 작가님)",
+    "pareja": 340,
+    "nickname_duo": "소유 & 석정",
+    "nickname_solo_jack": "석정"
+  },
+  "events": {
+    "ktc-2024-pista-semifinal": {
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2024,
+      "category": "pista",
+      "stage": "semifinal",
+      "judges": ["Juan Carlos Katuren", "Saeko Miyazaki", "Claudio Peralta", "Carolina Alberici"],
+      "source_note": "Tango de Pista 준결승 결과 · 상위 10명 결승 진출",
+      "couples": [
+        { "rank": 1, "pareja": 431, "nickname": "소똥 & 클라라", "advanced": true, "scores": [8.7, 8.8, 8.0, 8.5], "total": 34.0, "average": 8.5 },
+        { "rank": 2, "pareja": 398, "nickname": "매우파랑다 & 라벤더", "advanced": true, "scores": [8.5, 8.5, 8.2, 8.7], "total": 33.9, "average": 8.5 },
+        { "rank": 3, "pareja": 342, "nickname": "주니 & 유진", "advanced": true, "scores": [8.5, 8.5, 8.2, 8.7], "total": 33.9, "average": 8.5 },
+        { "rank": 4, "pareja": 397, "nickname": "Epitone Jin & Vicky Jeong", "advanced": true, "scores": [8.8, 8.8, 8.0, 8.2], "total": 33.8, "average": 8.5 },
+        { "rank": 5, "pareja": 335, "nickname": "Mickey Choi & Alina Kim", "advanced": true, "scores": [8.7, 8.7, 7.9, 8.4], "total": 33.7, "average": 8.4 },
+        { "rank": 6, "pareja": 308, "nickname": "이안 & 에리카", "advanced": true, "scores": [8.5, 8.6, 7.9, 8.4], "total": 33.4, "average": 8.4 },
+        { "rank": 7, "pareja": 386, "nickname": "Alice & beom", "advanced": true, "scores": [8.6, 8.2, 8.5, 8.1], "total": 33.4, "average": 8.4 },
+        { "rank": 8, "pareja": 322, "nickname": "유진 & 카이사르", "advanced": true, "scores": [8.6, 8.7, 8.0, 7.8], "total": 33.1, "average": 8.3 },
+        { "rank": 9, "pareja": 432, "nickname": "이리 & 루나", "advanced": true, "scores": [8.5, 8.5, 7.9, 8.2], "total": 33.1, "average": 8.3 },
+        { "rank": 10, "pareja": 433, "nickname": "이원국 & 김수아", "advanced": true, "scores": [8.5, 8.5, 7.8, 8.2], "total": 33.0, "average": 8.3 },
+        { "rank": 11, "pareja": 369, "nickname": "다니 & 상디", "advanced": false, "scores": [8.4, 8.5, 7.9, 8.1], "total": 32.9, "average": 8.2 },
+        { "rank": 12, "pareja": 393, "nickname": "니고 & 카이라", "advanced": false, "scores": [8.5, 7.7, 8.5, 8.1], "total": 32.8, "average": 8.2 },
+        { "rank": 13, "pareja": 394, "nickname": "우노 & 뮤즈", "advanced": false, "scores": [8.6, 8.5, 7.7, 8.0], "total": 32.8, "average": 8.2 },
+        { "rank": 14, "pareja": 344, "nickname": "맘보 & 레모나", "advanced": false, "scores": [8.6, 8.2, 8.0, 7.9], "total": 32.7, "average": 8.2 },
+        { "rank": 15, "pareja": 319, "nickname": "난다 & 아난도", "advanced": false, "scores": [8.5, 8.7, 7.7, 7.7], "total": 32.6, "average": 8.2 },
+        { "rank": 16, "pareja": 377, "nickname": "태라(Taera) & 비토(Bito)", "advanced": false, "scores": [8.2, 8.5, 7.8, 8.1], "total": 32.6, "average": 8.2 },
+        { "rank": 17, "pareja": 388, "nickname": "바질 & 엘린", "advanced": false, "scores": [8.5, 8.3, 7.5, 8.3], "total": 32.6, "average": 8.2 },
+        { "rank": 18, "pareja": 409, "nickname": "에디 & 소리", "advanced": false, "scores": [8.6, 8.4, 7.9, 7.7], "total": 32.6, "average": 8.2 },
+        { "rank": 19, "pareja": 329, "nickname": "브리즈 & 루루", "advanced": false, "scores": [8.7, 8.0, 7.8, 8.0], "total": 32.5, "average": 8.1 },
+        { "rank": 20, "pareja": 332, "nickname": "토미 & 뮤리엘", "advanced": false, "scores": [8.5, 8.3, 7.9, 7.8], "total": 32.5, "average": 8.1 },
+        { "rank": 21, "pareja": 385, "nickname": "소고귀 & 애비", "advanced": false, "scores": [8.4, 8.3, 7.8, 8.0], "total": 32.5, "average": 8.1 },
+        { "rank": 22, "pareja": 349, "nickname": "아르볼 & 보스케", "advanced": false, "scores": [8.5, 8.1, 7.9, 7.8], "total": 32.4, "average": 8.1 },
+        { "rank": 23, "pareja": 391, "nickname": "강민전사 & 샤인", "advanced": false, "scores": [8.2, 8.2, 7.9, 8.1], "total": 32.4, "average": 8.1 },
+        { "rank": 24, "pareja": 411, "nickname": "아메 & 아현", "advanced": false, "scores": [7.9, 8.5, 7.9, 8.0], "total": 32.3, "average": 8.1 },
+        { "rank": 25, "pareja": 376, "nickname": "차이 & 까르띤", "advanced": false, "scores": [8.4, 8.1, 7.7, 8.0], "total": 32.2, "average": 8.1 },
+        { "rank": 26, "pareja": 347, "nickname": "Oha & Vavi", "advanced": false, "scores": [8.5, 8.0, 7.9, 7.8], "total": 32.2, "average": 8.1 },
+        { "rank": 27, "pareja": 430, "nickname": "가가멜 & 마리", "advanced": false, "scores": [7.9, 8.4, 8.0, 7.8], "total": 32.2, "average": 8.1 },
+        { "rank": 28, "pareja": 327, "nickname": "벨라 & 미겔 (김영호 & 장예람)", "advanced": false, "scores": [8.0, 8.3, 7.9, 7.9], "total": 32.1, "average": 8.0 },
+        { "rank": 29, "pareja": 336, "nickname": "앤디 & 솔레다드", "advanced": false, "scores": [7.9, 8.3, 7.9, 8.0], "total": 32.1, "average": 8.0 },
+        {
+          "rank": 30, "pareja": 340, "nickname": "소유 & 석정",
+          "advanced": false, "scores": [7.8, 7.8, 8.0, 8.5], "total": 32.1, "average": 8.0,
+          "is_my_couple": true,
+          "strategic_analysis": {
+            "judge_breakdown": {
+              "Juan Carlos Katuren": { "score": 7.8, "gap_vs_cutoff": -0.7, "note": "4위(Epitone Jin) 대비 -1.0. 이 심사위원 기준점이 가장 부족한 영역 — 기본기/리듬" },
+              "Saeko Miyazaki": { "score": 7.8, "gap_vs_cutoff": -0.7, "note": "최고 8.8점과 -1.0 차이. Saeko 기준 기초가 가장 큰 개선 포인트" },
+              "Claudio Peralta": { "score": 8.0, "gap_vs_cutoff": -0.2, "note": "컷오프와 0.2점만 차이. 안정적 — 유지하면 충분" },
+              "Carolina Alberici": { "score": 8.5, "gap_vs_cutoff": +0.3, "note": "🏆 최고 수준 — 1위 커플과 동점. Carolina 스타일 기준을 이미 충족" }
+            },
+            "overall_verdict": "Claudio + Carolina 쪽 기준은 이미 결승 진출급. Juan Carlos + Saeko 기준에서 -0.7씩 벌어짐. 이 둘은 기본기/정확성 계열 심사로 보이며 그쪽 교정이 다음 대회 가장 큰 레버리지.",
+            "gap_to_final": 0.9,
+            "gap_to_top3": 1.8,
+            "gap_to_winner": 1.9,
+            "next_steps": [
+              "Juan Carlos 계열(기본기): 걷기/체중 이동 정밀도 1-to-1 피드백 세션",
+              "Saeko 계열(명확성): 파트너링 frame/connection 보강",
+              "Carolina·Claudio 기준 유지(감정/표현)를 떨어뜨리지 않으면서 교정"
+            ]
+          }
+        },
+        { "rank": 31, "pareja": 423, "nickname": "달봉 & 리사", "advanced": false, "scores": [8.0, 8.4, 8.0, 7.7], "total": 32.1, "average": 8.0 },
+        { "rank": 32, "pareja": 325, "nickname": "동혁 & 포노", "advanced": false, "scores": [8.3, 8.3, 7.5, 7.8], "total": 31.9, "average": 8.0 },
+        { "rank": 33, "pareja": 362, "nickname": "루팡 & 줄리엣", "advanced": false, "scores": [8.2, 8.1, 7.5, 8.1], "total": 31.9, "average": 8.0 },
+        { "rank": 34, "pareja": 359, "nickname": "잭 & 칼라", "advanced": false, "scores": [8.0, 8.1, 7.7, 8.0], "total": 31.8, "average": 8.0 },
+        { "rank": 35, "pareja": 357, "nickname": "세바스찬 & 리지", "advanced": false, "scores": [7.8, 8.2, 7.6, 8.1], "total": 31.7, "average": 7.9 },
+        { "rank": 36, "pareja": 372, "nickname": "Chul Hwan & Lena", "advanced": false, "scores": [8.3, 8.4, 7.1, 7.7], "total": 31.5, "average": 7.9 },
+        { "rank": 37, "pareja": 331, "nickname": "파스텔 & 망고", "advanced": false, "scores": [8.0, 8.2, 7.0, 7.6], "total": 30.8, "average": 7.7 }
+      ],
+      "analysis": {
+        "total_participants": 37,
+        "advanced_count": 10,
+        "cutoff_score": 33.0,
+        "cutoff_avg": 8.3,
+        "judge_profiles": {
+          "Juan Carlos Katuren": "중간 분포 (8.2~8.8). 기본기·리듬 심사로 추정",
+          "Saeko Miyazaki": "넓은 분포 (7.7~8.8). 명확성·파트너 콘넥션 심사로 추정",
+          "Claudio Peralta": "까다로운 편 (7.0~8.5). 차별화 요구하는 타이트 기준",
+          "Carolina Alberici": "감정·표현 계열. 분포 넓음 (7.6~8.7)"
+        }
+      }
+    },
+
+    "ktc-2023-pista-final": {
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2023,
+      "category": "pista",
+      "stage": "final",
+      "judges": ["Martin", "Valelia", "Oscar", "Cecilia"],
+      "source_note": "Tango de Pista FINAL · 상위 3위 수상",
+      "couples": [
+        { "rank": 1, "pareja": 169, "nickname": "지아&버범", "scores": [10.0, 9.97, 9.9, 9.95], "total": 39.82, "average": 9.955, "winner": true },
+        { "rank": 2, "pareja": 162, "nickname": "엘 또리또 & 엘리", "scores": [9.96, 9.99, 9.8, 9.9], "total": 39.65, "average": 9.9125 },
+        { "rank": 3, "pareja": 104, "nickname": "주니&유진", "scores": [9.9, 9.89, 9.8, 9.85], "total": 39.44, "average": 9.86 },
+        { "rank": 4, "pareja": 142, "nickname": "아이오닉&베카", "scores": [9.98, 9.82, 9.85, 9.7], "total": 39.35, "average": 9.8375 },
+        { "rank": 5, "pareja": 161, "nickname": "에피톤 진 & 비키 정", "scores": [9.55, 9.95, 9.8, 9.85], "total": 39.15, "average": 9.7875 },
+        { "rank": 6, "pareja": 154, "nickname": "브리즈 & 미스탕", "scores": [9.88, 9.41, 9.9, 9.55], "total": 38.74, "average": 9.685 },
+        { "rank": 7, "pareja": 145, "nickname": "소똥&연꽃", "scores": [9.97, 9.12, 9.85, 9.65], "total": 38.59, "average": 9.6475 },
+        { "rank": 8, "pareja": 141, "nickname": "빅토르 & 리아", "scores": [9.94, 9.31, 9.8, 9.0], "total": 38.05, "average": 9.5125 },
+        { "rank": 9, "pareja": 133, "nickname": "라스&멜리사", "scores": [9.37, 9.63, 9.75, 9.25], "total": 38.0, "average": 9.5 },
+        { "rank": 10, "pareja": 132, "nickname": "매우파랑다&라벤더", "scores": [9.43, 9.41, 9.75, 9.3], "total": 37.89, "average": 9.4725 },
+        { "rank": 11, "pareja": 178, "nickname": "미키 & 알리나", "scores": [9.46, 9.32, 9.75, 9.3], "total": 37.83, "average": 9.4575 },
+        { "rank": 12, "pareja": 137, "nickname": "미카엘 & 니나", "scores": [9.45, 9.35, 9.7, 9.25], "total": 37.75, "average": 9.4375 },
+        { "rank": 13, "pareja": 173, "nickname": "바질&앨린", "scores": [9.4, 9.29, 9.85, 9.2], "total": 37.74, "average": 9.435 },
+        { "rank": 14, "pareja": 123, "nickname": "이리 & 플로라", "scores": [9.6, 9.15, 9.7, 9.15], "total": 37.6, "average": 9.4 },
+        { "rank": 15, "pareja": 103, "nickname": "우노&뮤즈", "scores": [9.69, 9.05, 9.75, 9.1], "total": 37.59, "average": 9.3975 },
+        { "rank": 16, "pareja": 109, "nickname": "피닉스&클라라", "scores": [9.55, 9.0, 9.7, 9.2], "total": 37.45, "average": 9.3625 },
+        { "rank": 17, "pareja": 119, "nickname": "레오 & 솔레다드", "scores": [9.45, 9.1, 9.75, 9.1], "total": 37.4, "average": 9.35 }
+      ],
+      "analysis": {
+        "total_finalists": 17,
+        "winner": { "pareja": 169, "nickname": "지아&버범", "avg": 9.955 },
+        "runner_up": { "pareja": 162, "nickname": "엘 또리또 & 엘리", "avg": 9.9125 },
+        "third": { "pareja": 104, "nickname": "주니&유진", "avg": 9.86 },
+        "cross_year_trackers": {
+          "매우파랑다&라벤더": { "2023_final_rank": 10, "2024_semi_rank": 2, "trajectory": "📈 1년 만에 상위권 약진" },
+          "에피톤 진": { "2023_pista_final_rank": 5, "2024_jack_semi_rank": 4, "note": "꾸준한 상위권" },
+          "소똥": { "2023_pista_final_rank": 7, "2024_jack_semi_rank": 1, "note": "Jack&Jill 단독 우승" }
+        },
+        "judge_style_2023": "Martin과 Oscar는 9.7+ 고점 집중, Valelia와 Cecilia는 편차 큰 까다로운 기준"
+      }
+    },
+    "ktc-2024-jack-semifinal": {
+      "competition": "KTC",
+      "competition_id": "COMP-005",
+      "year": 2024,
+      "category": "pista_singles_jackandjill",
+      "stage": "semifinal",
+      "judges": ["Juan Carlos Katuren", "Claudio Peralta"],
+      "source_note": "Jack Semi-final · 잭 준결승 결과 · 상위 9명 결승 진출",
+      "couples": [
+        { "rank": 1, "pareja": 431, "nickname": "소똥", "advanced": true, "scores": [8.65, 8.15], "total": 16.80, "average": 8.40 },
+        { "rank": 2, "pareja": 335, "nickname": "Mickey Choi", "advanced": true, "scores": [8.58, 8.10], "total": 16.68, "average": 8.34 },
+        { "rank": 3, "pareja": 321, "nickname": "빅토르", "advanced": true, "scores": [8.55, 8.10], "total": 16.65, "average": 8.33 },
+        { "rank": 4, "pareja": 397, "nickname": "Epitone Jin", "advanced": true, "scores": [8.67, 7.95], "total": 16.62, "average": 8.31 },
+        { "rank": 5, "pareja": 368, "nickname": "Kevin", "advanced": true, "scores": [8.45, 8.10], "total": 16.55, "average": 8.28 },
+        { "rank": 6, "pareja": 349, "nickname": "아르볼", "advanced": true, "scores": [8.56, 7.95], "total": 16.51, "average": 8.26 },
+        { "rank": 7, "pareja": 343, "nickname": "Kai", "advanced": true, "scores": [8.55, 7.95], "total": 16.50, "average": 8.25 },
+        { "rank": 8, "pareja": 391, "nickname": "강민전사", "advanced": true, "scores": [8.55, 7.95], "total": 16.50, "average": 8.25 },
+        { "rank": 9, "pareja": 432, "nickname": "이리", "advanced": true, "scores": [8.55, 7.95], "total": 16.50, "average": 8.25 },
+        { "rank": 10, "pareja": 372, "nickname": "Chul Hwan", "advanced": false, "scores": [8.50, 7.95], "total": 16.45, "average": 8.23 },
+        { "rank": 11, "pareja": 394, "nickname": "우노", "advanced": false, "scores": [8.50, 7.95], "total": 16.45, "average": 8.23 },
+        { "rank": 12, "pareja": 396, "nickname": "미카엘", "advanced": false, "scores": [8.35, 8.10], "total": 16.45, "average": 8.23 },
+        { "rank": 13, "pareja": 357, "nickname": "세바스찬", "advanced": false, "scores": [8.33, 8.10], "total": 16.43, "average": 8.22 },
+        { "rank": 14, "pareja": 363, "nickname": "따라", "advanced": false, "scores": [8.32, 8.10], "total": 16.42, "average": 8.21 },
+        { "rank": 15, "pareja": 325, "nickname": "동혁", "advanced": false, "scores": [8.45, 7.95], "total": 16.40, "average": 8.20 },
+        { "rank": 16, "pareja": 337, "nickname": "김토끼", "advanced": false, "scores": [8.45, 7.95], "total": 16.40, "average": 8.20 },
+        { "rank": 17, "pareja": 364, "nickname": "솔로몬", "advanced": false, "scores": [8.25, 8.15], "total": 16.40, "average": 8.20 },
+        { "rank": 18, "pareja": 395, "nickname": "라반", "advanced": false, "scores": [8.45, 7.95], "total": 16.40, "average": 8.20 },
+        { "rank": 19, "pareja": 376, "nickname": "차이", "advanced": false, "scores": [8.25, 8.13], "total": 16.38, "average": 8.19 },
+        { "rank": 20, "pareja": 340, "nickname": "석정", "advanced": false, "scores": [8.25, 8.10], "total": 16.35, "average": 8.18, "is_my_partner": true },
+        { "rank": 21, "pareja": 425, "nickname": "로기", "advanced": false, "scores": [8.25, 8.10], "total": 16.35, "average": 8.18 },
+        { "rank": 22, "pareja": 352, "nickname": "Marco (마르꼬)", "advanced": false, "scores": [8.35, 7.95], "total": 16.30, "average": 8.15 },
+        { "rank": 23, "pareja": 362, "nickname": "루팡", "advanced": false, "scores": [8.35, 7.95], "total": 16.30, "average": 8.15 },
+        { "rank": 24, "pareja": 383, "nickname": "태풍", "advanced": false, "scores": [8.35, 7.95], "total": 16.30, "average": 8.15 },
+        { "rank": 25, "pareja": 405, "nickname": "신다", "advanced": false, "scores": [8.65, 7.65], "total": 16.30, "average": 8.15 },
+        { "rank": 26, "pareja": 310, "nickname": "라스", "advanced": false, "scores": [8.20, 8.10], "total": 16.30, "average": 8.15 },
+        { "rank": 27, "pareja": 403, "nickname": "현이 Hyoni", "advanced": false, "scores": [8.20, 8.10], "total": 16.30, "average": 8.15 },
+        { "rank": 28, "pareja": 323, "nickname": "자울", "advanced": false, "scores": [8.25, 7.95], "total": 16.20, "average": 8.10 },
+        { "rank": 29, "pareja": 302, "nickname": "안태", "advanced": false, "scores": [8.22, 7.95], "total": 16.17, "average": 8.09 },
+        { "rank": 30, "pareja": 344, "nickname": "맘보", "advanced": false, "scores": [8.55, 7.55], "total": 16.10, "average": 8.05 },
+        { "rank": 31, "pareja": 400, "nickname": "구르메", "advanced": false, "scores": [8.25, 7.75], "total": 16.00, "average": 8.00 },
+        { "rank": 32, "pareja": 423, "nickname": "달봉", "advanced": false, "scores": [8.35, 7.60], "total": 15.95, "average": 7.98 },
+        { "rank": 33, "pareja": 346, "nickname": "헤븐", "advanced": false, "scores": [8.35, 7.55], "total": 15.90, "average": 7.95 },
+        { "rank": 34, "pareja": 390, "nickname": "에릭", "advanced": false, "scores": [8.25, 7.55], "total": 15.80, "average": 7.90 },
+        { "rank": 35, "pareja": 304, "nickname": "이종익", "advanced": false, "scores": [8.32, 7.45], "total": 15.77, "average": 7.89 },
+        { "rank": 36, "pareja": 328, "nickname": "카헬", "advanced": false, "scores": [8.30, 7.45], "total": 15.75, "average": 7.88 },
+        { "rank": 37, "pareja": 306, "nickname": "one", "advanced": false, "scores": [8.15, 7.55], "total": 15.70, "average": 7.85 },
+        { "rank": 38, "pareja": 314, "nickname": "위드", "advanced": false, "scores": [8.25, 7.45], "total": 15.70, "average": 7.85 }
+      ],
+      "analysis": {
+        "total_participants": 38,
+        "advanced_count": 9,
+        "cutoff_score": 16.50,
+        "judge_style": {
+          "Juan Carlos Katuren": "전체 평균 높음 · 기본기 후한 편 (대부분 8.2~8.6)",
+          "Claudio Peralta": "전체 평균 더 낮음 · 차별화 까다로움 (7.45~8.15)"
+        },
+        "my_partner_analysis": {
+          "name": "석정",
+          "rank": 20,
+          "cutoff_diff": 0.15,
+          "strategic_note": "결승 진출선까지 0.15점 차이. 두 심사 모두 안정적(8.25/8.10)이었으나 결정적 한 끗 부족. Juan Carlos 점수는 4위(8.67) 대비 -0.42, Claudio 점수는 1위(8.15)와 동점. Claudio 쪽 기준은 이미 충족했고 Juan Carlos(기본기/리듬 계열) 쪽 보강이 다음 대회 우승 전략 핵심.",
+          "compared_to_winners": {
+            "soyoung_avg": 8.18,
+            "rank1_avg": 8.40,
+            "gap": 0.22
+          }
+        }
+      }
+    }
+  }
+}
