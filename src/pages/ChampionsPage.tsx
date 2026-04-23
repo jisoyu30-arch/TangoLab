@@ -35,18 +35,17 @@ interface ChampionProfile {
   characteristics: string[];
   strategic_takeaway: string;
   teaching_activity?: string;
-  diego_previous?: string;
+  key_quote?: string;
+  music_preference?: string;
+  notable_history?: string;
+  links?: string[];
 }
 const PROFILES = (championProfiles as any).profiles as Record<string, ChampionProfile>;
 const PATTERN_INSIGHTS = (championProfiles as any).pattern_insights as string[];
 
-function getProfile(year: number, leader: string): ChampionProfile | null {
-  // 프로필 key는 "2025-pista-diego-ortega" 형태
-  const leaderSlug = leader.toLowerCase().split(' ')[0];
-  for (const v of Object.values(PROFILES)) {
-    if (v.year === year && v.couple.toLowerCase().includes(leaderSlug)) return v;
-  }
-  return null;
+function getProfile(year: number): ChampionProfile | null {
+  // 프로필 key는 "2025-pista", "2024-pista" 형태
+  return PROFILES[`${year}-pista`] ?? null;
 }
 
 // 현 심사위원 중 전 우승자 탐지용
@@ -209,7 +208,7 @@ export function ChampionsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
               {pistaChampions.map(c => {
                 const badge = championBadge(c.leader, c.follower);
-                const profile = getProfile(c.year, c.leader);
+                const profile = getProfile(c.year);
                 const isRecent = c.year >= 2022;
                 return (
                   <button
@@ -511,17 +510,36 @@ export function ChampionsPage() {
               </p>
             </div>
 
+            {/* Key Quote */}
+            {selectedProfile.key_quote && (
+              <div className="mb-4 pl-4 border-l-2 border-tango-brass/50">
+                <p className="text-sm italic text-tango-paper font-serif" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                  "{selectedProfile.key_quote}"
+                </p>
+              </div>
+            )}
+
             {/* Optional fields */}
-            {selectedProfile.diego_previous && (
-              <div className="mb-3 text-xs text-tango-cream/70 font-sans">
-                📌 <strong>이전 경력:</strong> {selectedProfile.diego_previous}
-              </div>
-            )}
-            {selectedProfile.teaching_activity && (
-              <div className="text-xs text-tango-cream/70 font-sans">
-                🎓 <strong>활동:</strong> {selectedProfile.teaching_activity}
-              </div>
-            )}
+            <div className="space-y-1.5 text-xs text-tango-cream/70 font-sans">
+              {selectedProfile.music_preference && (
+                <div>🎵 <strong className="text-tango-brass">선호 악단:</strong> {selectedProfile.music_preference}</div>
+              )}
+              {selectedProfile.teaching_activity && (
+                <div>🎓 <strong className="text-tango-brass">활동:</strong> {selectedProfile.teaching_activity}</div>
+              )}
+              {selectedProfile.notable_history && (
+                <div>📌 <strong className="text-tango-brass">주목할 이력:</strong> {selectedProfile.notable_history}</div>
+              )}
+              {selectedProfile.links && selectedProfile.links.length > 0 && (
+                <div className="pt-2">
+                  {selectedProfile.links.map((link, i) => (
+                    <a key={i} href={link} target="_blank" rel="noopener noreferrer" className="text-tango-brass hover:underline mr-3">
+                      🔗 참고 링크
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
 
             <div className="mt-5 pt-4 border-t border-tango-brass/15 text-[10px] text-tango-cream/40 font-sans">
               TangoLab 큐레이션 — 추가 정보는 Wikipedia, 공식 인터뷰 기반

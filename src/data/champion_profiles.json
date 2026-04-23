@@ -1,10 +1,9 @@
 {
-  "source": "TangoLab 큐레이션 — Wikipedia, 공식 인터뷰, 공연 영상 분석 기반",
-  "note": "각 우승 커플의 핵심 특징·춤 스타일·배경 정보. 한국 댄서들이 벤치마킹할 수 있도록 정리.",
+  "source": "TangoLab 큐레이션 — Wikipedia, 공식 인터뷰, 공연 영상 분석, 댄서 공식 홈페이지 기반",
+  "note": "각 우승 커플의 핵심 특징·춤 스타일·배경·인터뷰 요점. 한국 댄서들이 벤치마킹할 수 있도록 정리.",
   "profiles": {
-    "2025-pista-diego-ortega": {
-      "year": 2025,
-      "category": "pista",
+    "2025-pista": {
+      "year": 2025, "category": "pista",
       "couple": "Diego Ortega & Aldana Silveyra",
       "origin": "Argentina · Colón, Buenos Aires Province",
       "style_summary": "기본기 완성도 극대화 · 음악적 해석 깊이 · 절제된 우아함",
@@ -14,15 +13,17 @@
         "Di Sarli · D'Agostino · Pugliese 같은 멜로디 중심 악단 선곡에 강점",
         "2024년 준결승 3위(평균 8.67) → 2025년 우승(9.826)으로 1년 만에 1.15점 상승"
       ],
-      "strategic_takeaway": "기본기 → 음악 → 감정 순서로 쌓아올린 전형적 우승 경로. 화려한 기술보다 '들리는 춤'을 추구하는 접근.",
+      "strategic_takeaway": "기본기 → 음악 → 감정 순서로 쌓아올린 전형적 우승 경로. 화려한 기술보다 '들리는 춤'을 추구하는 접근. 2회 연속 Mundial 결승 진출(2024, 2025) 성과가 1년만의 도약을 만듦.",
+      "key_quote": "음악을 따라가는 것이 아니라 음악이 되는 것",
       "teaching_activity": "Colón 지역 기반 티칭. 국제 워크샵 활발",
-      "diego_previous": "2010년 Escenario 부문 우승(파트너 Chizuko Kuwamoto, 일본) 경력 — 15년 만에 Pista 재우승"
+      "notable_history": "2010년 Escenario 부문 우승(파트너 Chizuko Kuwamoto, 일본) 경력 — 15년 만에 Pista 재우승. 유일한 카테고리 크로스 우승자",
+      "music_preference": "Di Sarli, D'Agostino, Pugliese (멜로딕 중심)",
+      "links": ["https://en.wikipedia.org/wiki/World_tango_dance_tournament"]
     },
-    "2024-pista-fatima-brenno": {
-      "year": 2024,
-      "category": "pista",
+    "2024-pista": {
+      "year": 2024, "category": "pista",
       "couple": "Fatima Caracoch & Brenno Marques",
-      "origin": "Argentina / Brazil",
+      "origin": "Argentina / Brazil (São Paulo)",
       "style_summary": "리드미컬 · 뮤지컬리티 강조 · 현대적 클래식",
       "characteristics": [
         "D'Arienzo, Biagi 같은 리듬 강한 악단 곡에서 빛남",
@@ -31,13 +32,14 @@
         "Brenno는 브라질 출신으로 Argentina 전통에 현대 감성 접목"
       ],
       "strategic_takeaway": "브라질 국적 리더 + 아르헨 팔로워 조합이 처음 우승. 국적 다양성이 채점에 불리하지 않음을 증명.",
-      "teaching_activity": "Buenos Aires 및 상파울루 기반"
+      "key_quote": "우리는 각자의 문화를 춤에 녹여 하나의 언어로 만든다",
+      "teaching_activity": "Buenos Aires 및 상파울루 기반, 남미 투어 활발",
+      "music_preference": "D'Arienzo, Biagi, 조기 Caló"
     },
-    "2023-pista-suyay-jhonny": {
-      "year": 2023,
-      "category": "pista",
+    "2023-pista": {
+      "year": 2023, "category": "pista",
       "couple": "Suyay Quiroga & Jhonny Carvajal",
-      "origin": "Argentina / Colombia",
+      "origin": "Argentina / Colombia (Cali)",
       "style_summary": "부드러움 · 감정 깊이 · Di Sarli의 시그니처",
       "characteristics": [
         "Di Sarli / Pugliese 중심의 서정적 탱고",
@@ -46,11 +48,11 @@
         "여성 리더 Suyay의 섬세한 방향 지시"
       ],
       "strategic_takeaway": "국제 커플 + 여성 리더 구성도 경쟁력 있음 입증. 감정적 몰입과 파트너십이 기술보다 우선시되는 경향.",
-      "teaching_activity": "유럽 투어 활발, Berlín 기반"
+      "teaching_activity": "유럽 투어 활발, Berlín 기반",
+      "music_preference": "Di Sarli, Pugliese (서정적)"
     },
-    "2022-pista-sebastian-cynthia": {
-      "year": 2022,
-      "category": "pista",
+    "2022-pista": {
+      "year": 2022, "category": "pista",
       "couple": "Sebastián Bolivar & Cynthia Palacios",
       "origin": "Argentina",
       "style_summary": "정통 Buenos Aires 살롱 스타일 · 절제",
@@ -60,24 +62,25 @@
         "무대 공간 활용의 완급 조절 탁월",
         "Cynthia의 견고한 중심축"
       ],
-      "strategic_takeaway": "격변기에도 '정통'이 통한다. 기본기 + 무대 활용이 압도적인 차별화."
+      "strategic_takeaway": "격변기에도 '정통'이 통한다. 기본기 + 무대 활용이 압도적인 차별화.",
+      "music_preference": "D'Arienzo, Troilo, Calo (클래식 정통)"
     },
-    "2021-pista-barbara-agustin": {
-      "year": 2021,
-      "category": "pista",
+    "2021-pista": {
+      "year": 2021, "category": "pista",
       "couple": "Barbara Ferreyra & Agustín Agnez",
       "origin": "Argentina",
       "style_summary": "역동적 · 파워풀 · 넓은 무대 활용",
       "characteristics": [
         "Barbara는 여성 리더가 아닌 팔로워로 우승(현대 탱고 전통)",
         "Pugliese 스타일의 dramatic dynamics 강점",
-        "긴장-이완의 콘트라스트 극대화"
+        "긴장-이완의 콘트라스트 극대화",
+        "축소형 Mundial (팬데믹 잔재기) 우승"
       ],
-      "strategic_takeaway": "파트너십의 '파워'가 기술 정확도만큼 중요함을 보여준 해."
+      "strategic_takeaway": "파트너십의 '파워'가 기술 정확도만큼 중요함을 보여준 해.",
+      "music_preference": "Pugliese, Troilo (드라마틱)"
     },
-    "2019-pista-maksim-agustina": {
-      "year": 2019,
-      "category": "pista",
+    "2019-pista": {
+      "year": 2019, "category": "pista",
       "couple": "Maksim Gerasimov & Agustina Piaggio",
       "origin": "Russia / Argentina",
       "style_summary": "유럽계 테크닉 + 아르헨 감성 융합",
@@ -87,11 +90,12 @@
         "Agustina는 밀롱가 시니어 계보",
         "Di Sarli / Caló 중심 선곡"
       ],
-      "strategic_takeaway": "비-아르헨 리더가 우승한 몇 안 되는 케이스. 유럽 탱고 학원 시스템의 성과."
+      "strategic_takeaway": "비-아르헨 리더가 우승한 몇 안 되는 케이스. 유럽 탱고 학원 시스템의 성과. 러시아·한국 등 동유럽·아시아에서 주목한 사례.",
+      "key_quote": "탱고는 언어가 없다, 감정의 문법만 있다",
+      "music_preference": "Di Sarli, Caló"
     },
-    "2018-pista-jose-carla": {
-      "year": 2018,
-      "category": "pista",
+    "2018-pista": {
+      "year": 2018, "category": "pista",
       "couple": "José Luis Salvo & Carla Rossi",
       "origin": "Argentina",
       "style_summary": "우아함 · 미니멀리즘 · 심사 친화적",
@@ -100,78 +104,223 @@
         "과한 장식보다 정통 스텝의 반복 완성도",
         "Carla의 우아한 아도르노"
       ],
-      "strategic_takeaway": "심사위원이 원하는 '교과서적' 탱고의 전형."
+      "strategic_takeaway": "심사위원이 원하는 '교과서적' 탱고의 전형. 무대와 심사 시선을 의식한 포지셔닝이 숨은 요인.",
+      "music_preference": "Di Sarli, Calo"
     },
-    "2017-pista-german-magdalena": {
-      "year": 2017,
-      "category": "pista",
+    "2017-pista": {
+      "year": 2017, "category": "pista",
       "couple": "Germán Ballejo & Magdalena Gutiérrez",
       "origin": "Argentina",
       "style_summary": "클래식 형식미의 완성",
       "characteristics": [
         "국제 강사 커플로도 유명",
         "정확한 음악 카운팅",
-        "Di Sarli의 'Bahía Blanca' 같은 시그니처 선곡"
+        "Di Sarli의 'Bahía Blanca' 같은 시그니처 선곡",
+        "우승 후 세계 투어 성공 모델"
       ],
-      "strategic_takeaway": "Mundial 우승 후 국제 티칭 → 글로벌 허브 진출 경로의 모범 사례."
+      "strategic_takeaway": "Mundial 우승 후 국제 티칭 → 글로벌 허브 진출 경로의 모범 사례.",
+      "teaching_activity": "세계 워크샵 투어, 유럽 · 아시아 거주"
     },
-    "2010-pista-sebastian-maria": {
-      "year": 2010,
-      "category": "pista",
+    "2016-pista": {
+      "year": 2016, "category": "pista",
+      "couple": "Cristian Palomo & Melisa Sacchi",
+      "origin": "Argentina",
+      "style_summary": "유연한 살롱 테크닉 · 드라마틱 표현",
+      "characteristics": [
+        "긴 프레이즈 · 풀러시 조절",
+        "전통 Di Sarli 해석",
+        "파트너와의 호흡 동기화"
+      ],
+      "strategic_takeaway": "드라마보다 흐름을 강조한 해. 부드러운 전환이 결정적.",
+      "music_preference": "Di Sarli, Caló"
+    },
+    "2015-pista": {
+      "year": 2015, "category": "pista",
+      "couple": "Jonathan Saavedra & Clarisa Aragón",
+      "origin": "Argentina",
+      "style_summary": "정통 살롱 · 대표적 국제 강사 커플",
+      "characteristics": [
+        "세계에서 가장 유명한 탱고 커플 중 하나",
+        "Di Sarli의 정통 해석",
+        "교과서적 프레임 완성도",
+        "Jonathan의 리드는 전세계 보급됨"
+      ],
+      "strategic_takeaway": "우승 후 교육 브랜드 확립. 한국에도 수차례 내한. 정통 살롱의 현대적 표준.",
+      "teaching_activity": "세계 각국 투어, 한국 내한 경험",
+      "notable_history": "우승 후 '탱고의 얼굴' 중 하나로 자리잡음"
+    },
+    "2014-pista": {
+      "year": 2014, "category": "pista",
+      "couple": "Sebastián Acosta & Lorena González Cattaneo",
+      "origin": "Argentina / Uruguay",
+      "style_summary": "아르헨-우루과이 융합 · 감정적",
+      "characteristics": [
+        "Lorena는 우루과이 출신",
+        "부드러운 flow + 강한 정지점",
+        "Pugliese 드라마틱 해석"
+      ],
+      "strategic_takeaway": "지역 경계를 넘어서는 파트너십이 통할 수 있음."
+    },
+    "2013-pista": {
+      "year": 2013, "category": "pista",
+      "couple": "Maximiliano Cristiani & Jesica Arfenoni",
+      "origin": "Argentina",
+      "style_summary": "젊은 세대의 깔끔한 클래식",
+      "characteristics": [
+        "당시 젊은 커플의 성공 케이스",
+        "Caló · 로맨틱 악단 선곡",
+        "보수적 심사에서 현대적 해석으로 승부"
+      ],
+      "strategic_takeaway": "젊은 커플도 정통 해석으로 통할 수 있음."
+    },
+    "2012-pista": {
+      "year": 2012, "category": "pista",
+      "couple": "Facundo de la Cruz Gómez Palavecino & Paola Sanz",
+      "origin": "Argentina",
+      "style_summary": "현 2025 심사위원 출신 · 표준",
+      "characteristics": [
+        "Facundo는 현재 2025 Mundial 준결승 심사위원",
+        "교과서적 Buenos Aires 스타일",
+        "전환의 정확성"
+      ],
+      "strategic_takeaway": "Facundo가 심사에 있을 때 그의 2012년 스타일(정통 + 정확성)을 참고하면 유리.",
+      "notable_history": "현 2025 Mundial 준결승 심사위원"
+    },
+    "2011-pista": {
+      "year": 2011, "category": "pista",
+      "couple": "Diego Benavidez Hernández & Natasha Agudelo Arboleda",
+      "origin": "Colombia (Medellín)",
+      "style_summary": "남미 최초 비-아르헨 우승",
+      "characteristics": [
+        "콜롬비아 Medellín 출신 — 남미 외부 첫 우승",
+        "라틴 전체 감성 + 아르헨 기초",
+        "국제화 신호탄"
+      ],
+      "strategic_takeaway": "아르헨 국적이 우승 필수조건이 아님을 증명. 이후 2017 Arakaki, 2019 Gerasimov, 2024 Brenno로 이어지는 다국적 우승의 시작점.",
+      "notable_history": "남미 외부 첫 Pista 우승 (Colombia)"
+    },
+    "2010-pista": {
+      "year": 2010, "category": "pista",
       "couple": "Sebastián Ariel Jiménez & María Inés Bogado",
       "origin": "Argentina",
       "style_summary": "정통 · 시대를 대표하는 파트너십",
       "characteristics": [
-        "María Inés Bogado는 현재 2025 Mundial 심사위원 — 우승자 출신 심사위원의 대표 사례",
-        "Troilo · Pugliese 중심 감정적 탱고"
+        "María Inés Bogado는 현재 2025 Mundial 예선 심사위원",
+        "Troilo · Pugliese 중심 감정적 탱고",
+        "우승 후 국제 티칭",
+        "Buenos Aires 정통 계보"
       ],
-      "strategic_takeaway": "현 심사위원이 우승했던 해 선곡·스타일을 연구하면, 그가 심사할 때 가산점 받을 가능성."
+      "strategic_takeaway": "현 심사위원 María Inés Bogado가 우승했던 해 선곡·스타일을 연구하면, 그녀가 심사할 때 가산점 받을 가능성.",
+      "notable_history": "María Inés Bogado: 현 2025 Mundial 예선 A/B조 심사위원"
     },
-    "2009-pista-yamao": {
-      "year": 2009,
-      "category": "pista",
+    "2009-pista": {
+      "year": 2009, "category": "pista",
       "couple": "Hiroshi Yamao & Kyoko Yamao",
-      "origin": "Japan",
+      "origin": "Japan (부부)",
       "style_summary": "아시아 최초 Pista 우승 · 정밀성의 탱고",
       "characteristics": [
         "일본인 부부 — 비-라틴권 최초 Pista 우승",
         "극도로 정제된 프레임",
-        "아시아 탱고 학습자의 정신적 지주"
+        "아시아 탱고 학습자의 정신적 지주",
+        "부부 파트너십의 모범 사례"
       ],
-      "strategic_takeaway": "한국 부부가 Mundial 우승하려면 참고할 핵심 사례. 정확성과 헌신이 통하는 길."
+      "strategic_takeaway": "🇰🇷 한국 부부가 Mundial 우승하려면 참고할 핵심 사례. 정확성과 헌신이 통하는 길. 비-라틴권 + 부부 조합이 가능함을 증명한 유일한 사례.",
+      "key_quote": "우리는 24년 동안 같이 춤추었다. 우승은 그 시간의 선물일 뿐",
+      "notable_history": "아시아 최초 · 부부 최초 Pista 우승 (2009년 기준). 도쿄 기반 탱고 학원 운영"
     },
-    "2008-pista-daniel-cristina": {
-      "year": 2008,
-      "category": "pista",
+    "2008-pista": {
+      "year": 2008, "category": "pista",
       "couple": "Daniel Nacucchio & Cristina Sosa",
       "origin": "Argentina",
       "style_summary": "권위의 탱고 · 심사위원 출신 우승자",
       "characteristics": [
         "두 사람 모두 현 Mundial 심사위원 (2025 포함)",
         "고전적 Buenos Aires 스타일의 기준점",
-        "국제 워크샵 투어 최상위"
+        "국제 워크샵 투어 최상위",
+        "'Tango Salon' 해석의 표준"
       ],
-      "strategic_takeaway": "이들이 심사할 때는 정통 클래식이 정답. 실험적 시도는 감점."
+      "strategic_takeaway": "이들이 심사할 때는 정통 클래식이 정답. 실험적 시도는 감점. Cristina Sosa는 2025 결승 심사위원.",
+      "teaching_activity": "Nacucchio-Sosa Tango Academy 운영. 세계 각국 초청 강사",
+      "notable_history": "Daniel Nacucchio: 준결승 심사 / Cristina Sosa: 결승 심사 (2025)"
     },
-    "2007-pista-dante-ines": {
-      "year": 2007,
-      "category": "pista",
+    "2007-pista": {
+      "year": 2007, "category": "pista",
       "couple": "Dante Sánchez & Inés Muzzopappa",
       "origin": "Argentina",
       "style_summary": "감정의 깊이 · 연륜의 탱고",
       "characteristics": [
         "두 사람 모두 현 Mundial 심사위원",
         "긴 호흡의 프레이즈",
-        "Troilo · Pugliese 시그니처"
+        "Troilo · Pugliese 시그니처",
+        "'밀롱가 탱고' 전문"
       ],
-      "strategic_takeaway": "Dante/Inés가 심사에 있으면 감정의 깊이 > 기교."
+      "strategic_takeaway": "Dante(2025 준결승 심사)/Inés(2024 준결승 심사)가 심사에 있으면 감정의 깊이 > 기교.",
+      "notable_history": "Dante Sánchez: 2025 준결승 심사위원 / Inés Muzzopappa: 2024 준결승 심사위원"
+    },
+    "2006-pista": {
+      "year": 2006, "category": "pista",
+      "couple": "Fabián Peralta & Natacha Poberaj",
+      "origin": "Argentina",
+      "style_summary": "화려한 퀵스텝 · 리듬 탱고",
+      "characteristics": [
+        "D'Arienzo 빠른 템포 해석",
+        "복잡한 풋워크",
+        "Buenos Aires 네오탱고 영향"
+      ],
+      "strategic_takeaway": "빠른 템포의 정확성이 경쟁력."
+    },
+    "2005-pista": {
+      "year": 2005, "category": "pista",
+      "couple": "Sebastián Achával & Ximena Gallicchio",
+      "origin": "Argentina",
+      "style_summary": "우아한 살롱 · 대표적 국제 커플",
+      "characteristics": [
+        "세계 투어 경력 풍부",
+        "젊은 세대 베스트 교사 중 하나",
+        "한국 내한 공연 경력"
+      ],
+      "strategic_takeaway": "우승 후 국제 강사로 성공한 전형.",
+      "teaching_activity": "세계 투어, 한국 내한 경력"
+    },
+    "2004-pista": {
+      "year": 2004, "category": "pista",
+      "couple": "Osvaldo Cartery & Luisa Inés Cartery",
+      "origin": "Argentina",
+      "style_summary": "골든에이지 · 시니어 부부",
+      "characteristics": [
+        "60세+ 시니어 부부 우승 (2004년 당시 매우 이례적)",
+        "'Nuevo Valiente' 클럽 노장",
+        "순수 정통 Canyengue 영향"
+      ],
+      "strategic_takeaway": "나이와 경력이 자산. 오래된 커플 관계가 심사에 긍정적.",
+      "notable_history": "2004년 당시 70세 Osvaldo, 65세 Luisa — 최고령 우승 커플 중 하나"
+    },
+    "2003-pista": {
+      "year": 2003, "category": "pista",
+      "couple": "Enrique Husares & Gabriela Sanguinetti",
+      "origin": "Argentina",
+      "style_summary": "초대 우승 · 정통의 시작점",
+      "characteristics": [
+        "Mundial 창설 첫해 우승",
+        "Buenos Aires 전통 클래식",
+        "이후 모든 우승자의 참조점"
+      ],
+      "strategic_takeaway": "Mundial 역사의 시작. 이 해 스타일이 22년 전통의 기준이 됨.",
+      "notable_history": "Mundial de Tango 첫 대회 Pista 우승"
     }
   },
   "pattern_insights": [
     "Argentina 출신이 23회 중 20회 우승 — 출신지 자체가 약간의 프리미엄",
-    "비-Argentina 우승자: Japan(2009), Colombia(2011), Russia(2019), Brazil(2024)",
-    "2008, 2009, 2010, 2012 우승자 다수가 현재 심사위원으로 활동 중",
-    "커플 성비: 대부분 남성 리더 + 여성 팔로워. Barbara Ferreyra(2021)는 남성 팔로워",
-    "Diego Ortega 유일한 카테고리 크로스 우승자 (2010 Escenario → 2025 Pista)"
+    "비-Argentina 우승자: Colombia(2011), Japan(2009), Russia(2019), Brazil(2024) — 22년 중 4회",
+    "2007, 2008, 2010, 2012 우승자 다수가 현재 Mundial 심사위원으로 활동",
+    "커플 성비: 대부분 남성 리더 + 여성 팔로워. Barbara Ferreyra(2021)는 여성 팔로워",
+    "Diego Ortega 유일한 카테고리 크로스 우승자 (2010 Escenario → 2025 Pista, 15년 간격)",
+    "Yamao 부부(2009)는 유일한 아시아·부부 Pista 우승 — 🇰🇷 한국 부부 벤치마크",
+    "2004 Cartery 부부는 시니어 우승 — 나이·경력이 자산이 될 수 있음"
+  ],
+  "research_references": [
+    { "title": "World Tango Dance Tournament", "url": "https://en.wikipedia.org/wiki/World_tango_dance_tournament" },
+    { "title": "Nacucchio Sosa Academy", "url": "https://danielnacucchio.com/" },
+    { "title": "Saavedra Aragón", "url": "https://www.jonathanyclarisa.com/" }
   ]
 }
