@@ -29,6 +29,21 @@ const CHANNEL_TYPE: Record<string, VideoType> = {
   'Martin Iarussi': 'performance',
   'Pamela Villegas': 'performance',          // Mundial 2024 semifinal, Campeonato Ciudad
   'Tango Dancers Rome': 'performance',       // Mundial 2023 Final
+  'Masha Step': 'performance',               // Mundial 2023 semifinal
+  'Lulu y Mariano': 'performance',
+  '밀롱가': 'performance',                     // Mundial 2025 결승 밀롱가 채널
+  // 역대 결승 영상 채널 (2008~2024)
+  '030tango': 'performance',
+  'Molinotango Ricardo Rosales': 'performance',
+  'Jose Paulo Santos': 'performance',
+  'Tangotrazo': 'performance',
+  'puntotango': 'performance',
+  'Darcostango': 'performance',
+  '2XTANGO TV': 'performance',
+  'Tango Turkey': 'performance',
+  'Barbara Ferreyra & Agustin Agnez Tango': 'performance',
+  'The Curious Tanguero': 'performance',
+  'MilongueroTV': 'performance',
 };
 
 const CHANNEL_LABEL: Record<string, string> = {
