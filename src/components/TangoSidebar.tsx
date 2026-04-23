@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { AuthButton } from './AuthButton';
+import { BackupRestore } from './BackupRestore';
 
 // 그룹화된 네비게이션 — "우승 전략 랩실" 관점
 interface NavItem {
@@ -138,6 +139,11 @@ export function TangoSidebar({ onNavigate }: Props) {
           </div>
         ))}
       </nav>
+
+      {/* 백업·복원 */}
+      <div className="p-3 border-t border-tango-brass/20 space-y-2">
+        <BackupRestore compact />
+      </div>
 
       {/* 로그인 */}
       <div className="p-3 border-t border-tango-brass/20">
