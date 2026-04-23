@@ -114,23 +114,92 @@ const championTandas: ChampionTanda[] = (() => {
 })();
 
 const STORAGE_KEY = 'tango_simulator_draft';
+const CAT_KEY = 'tango_simulator_category';
 
 type Slot = { song_id: string | null };
+type TandaCategory = 'pista' | 'milonga' | 'vals';
+
+// 부문 메타
+const CATEGORY_META: Record<TandaCategory, {
+  label: string;
+  labelKo: string;
+  description: string;
+  slots: number;
+  positionRoles: string[];
+  genres: string[]; // 매칭 가능한 song.genre 값
+  keywords: RegExp; // 탠다 제목에서 카테고리 판별용
+  emoji: string;
+}> = {
+  pista: {
+    label: 'Tango de Pista',
+    labelKo: '피스타 (살롱)',
+    description: '전통 살롱 탱고 탄다 · 4/4박자 · Di Sarli/Caló/Pugliese/Troilo 중심',
+    slots: 4,
+    positionRoles: ['오프너', '빌드업', '클라이맥스', '클로저'],
+    genres: ['tango'],
+    keywords: /^(?!.*(milonga|vals|waltz)).*/i,
+    emoji: '🎭',
+  },
+  milonga: {
+    label: 'Milonga',
+    labelKo: '밀롱가',
+    description: '빠른 2/4박자 · D\'Arienzo/Canaro/Rodríguez 중심 · 리듬 스텝',
+    slots: 3,
+    positionRoles: ['오프너', '빌드업', '클라이맥스'],
+    genres: ['milonga'],
+    keywords: /milonga/i,
+    emoji: '💃',
+  },
+  vals: {
+    label: 'Vals',
+    labelKo: '발스 (왈츠)',
+    description: '3/4박자 · Pugliese/Caló/Canaro/D\'Agostino 중심 · 회전·흐름',
+    slots: 3,
+    positionRoles: ['오프너', '빌드업', '클라이맥스'],
+    genres: ['vals'],
+    keywords: /vals|waltz/i,
+    emoji: '🎵',
+  },
+};
 
 export function TandaSimulatorPage() {
+  const [category, setCategory] = useState<TandaCategory>(() => {
+    try {
+      const saved = localStorage.getItem(CAT_KEY);
+      if (saved === 'pista' || saved === 'milonga' || saved === 'vals') return saved;
+    } catch { /* ignore */ }
+    return 'pista';
+  });
+  const meta = CATEGORY_META[category];
+
   const [slots, setSlots] = useState<Slot[]>(() => {
     try {
-      const raw = localStorage.getItem(STORAGE_KEY);
+      const raw = localStorage.getItem(`${STORAGE_KEY}_${category}`);
       if (raw) return JSON.parse(raw);
     } catch { /* ignore */ }
-    return [{ song_id: null }, { song_id: null }, { song_id: null }, { song_id: null }];
+    return Array(meta.slots).fill(null).map(() => ({ song_id: null }));
   });
   const [searchIdx, setSearchIdx] = useState<number | null>(null);
   const [query, setQuery] = useState('');
 
+  // 카테고리 변경 시 해당 카테고리 저장본 불러오기
   useEffect(() => {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(slots));
-  }, [slots]);
+    localStorage.setItem(CAT_KEY, category);
+    try {
+      const raw = localStorage.getItem(`${STORAGE_KEY}_${category}`);
+      if (raw) {
+        setSlots(JSON.parse(raw));
+      } else {
+        setSlots(Array(CATEGORY_META[category].slots).fill(null).map(() => ({ song_id: null })));
+      }
+    } catch {
+      setSlots(Array(CATEGORY_META[category].slots).fill(null).map(() => ({ song_id: null })));
+    }
+  }, [category]);
+
+  useEffect(() => {
+    localStorage.setItem(`${STORAGE_KEY}_${category}`, JSON.stringify(slots));
+  }, [slots, category]);
 
   const pickedSongs = useMemo(
     () => slots.map(s => s.song_id ? songMap.get(s.song_id) ?? null : null),
@@ -233,7 +302,7 @@ export function TandaSimulatorPage() {
     };
   }, [pickedSongs]);
 
-  // 🏆 닮은 우승 탄다 TOP 3
+  // 🏆 닮은 우승 탄다 TOP 3 (현재 카테고리에 맞는 탄다만)
   const similarChampions = useMemo(() => {
     const filled = pickedSongs.filter((s): s is Song => !!s);
     if (filled.length < 2) return [];
@@ -244,7 +313,16 @@ export function TandaSimulatorPage() {
     const myYears = filled.map(s => s.recording_date ? parseInt(s.recording_date) : null).filter((y): y is number => y !== null);
     const myYearAvg = myYears.length > 0 ? myYears.reduce((a, b) => a + b, 0) / myYears.length : 0;
 
-    const scored = championTandas.map(ct => {
+    // 현재 카테고리에 맞는 챔피언 탄다만 필터
+    const filteredChampions = championTandas.filter(ct => {
+      const ctCat = (ct.category || '').toLowerCase();
+      if (category === 'milonga') return /milonga/.test(ctCat);
+      if (category === 'vals') return /vals/.test(ctCat);
+      // pista: 밀롱가/발스 제외 + tango_de_pista, pista, pista_senior 허용
+      return !/milonga|vals|escenario|fantasia|freestyle|formation/.test(ctCat);
+    });
+
+    const scored = filteredChampions.map(ct => {
       // 1) 곡 겹침 (40점) — jaccard 유사도
       const ctSongIds = new Set(ct.songs.map(s => s.song_id));
       const intersect = [...mySongIds].filter(id => ctSongIds.has(id)).length;
@@ -285,7 +363,7 @@ export function TandaSimulatorPage() {
 
     scored.sort((a, b) => b.score - a.score);
     return scored.slice(0, 3);
-  }, [pickedSongs]);
+  }, [pickedSongs, category]);
 
   const updateSlot = (idx: number, songId: string | null) => {
     setSlots(prev => prev.map((s, i) => i === idx ? { song_id: songId } : s));
@@ -305,21 +383,24 @@ export function TandaSimulatorPage() {
     setSlots([{ song_id: null }, { song_id: null }, { song_id: null }, { song_id: null }]);
   };
 
-  // 검색 결과
+  // 검색 결과 — 현재 카테고리의 장르만 필터
   const searchResults = useMemo(() => {
+    // 카테고리 맞는 곡만
+    const categorySongs = songs.filter(s => meta.genres.includes(s.genre));
+
     if (!query.trim()) {
       // 초기: 상위 인기곡 (결승 사용 많은 순)
-      return [...songs]
+      return [...categorySongs]
         .sort((a, b) => (strategyMap.get(b.song_id)?.finalCount ?? 0) - (strategyMap.get(a.song_id)?.finalCount ?? 0))
         .slice(0, 30);
     }
     const q = query.toLowerCase();
-    return songs.filter(s =>
+    return categorySongs.filter(s =>
       s.title.toLowerCase().includes(q) ||
       (s.orchestra || '').toLowerCase().includes(q) ||
       (s.vocalist || '').toLowerCase().includes(q)
     ).slice(0, 40);
-  }, [query]);
+  }, [query, category, meta.genres]);
 
   return (
     <>
@@ -327,13 +408,48 @@ export function TandaSimulatorPage() {
       <div className="flex-1 overflow-y-auto bg-tango-ink">
         <div className="max-w-5xl mx-auto px-5 md:px-8 py-10 space-y-8">
 
+          {/* 부문 선택 탭 */}
+          <div className="flex gap-2 justify-center">
+            {(['pista', 'milonga', 'vals'] as const).map(c => {
+              const m = CATEGORY_META[c];
+              const isActive = category === c;
+              return (
+                <button
+                  key={c}
+                  onClick={() => setCategory(c)}
+                  className={`flex-1 max-w-xs rounded-sm border p-4 text-left transition-all ${
+                    isActive
+                      ? 'border-tango-brass bg-tango-brass/10 shadow-lg'
+                      : 'border-tango-brass/20 bg-white/5 hover:border-tango-brass/50'
+                  }`}
+                >
+                  <div className={`text-2xl mb-1 ${isActive ? '' : 'opacity-60'}`}>{m.emoji}</div>
+                  <div className={`text-[10px] tracking-[0.3em] uppercase font-sans mb-1 ${isActive ? 'text-tango-brass' : 'text-tango-cream/50'}`}>
+                    {m.label}
+                  </div>
+                  <div className={`font-display italic text-lg ${isActive ? 'text-tango-paper' : 'text-tango-cream/70'}`} style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                    {m.labelKo}
+                  </div>
+                  <div className={`text-[10px] font-serif italic mt-1 ${isActive ? 'text-tango-cream/80' : 'text-tango-cream/40'}`} style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                    {m.slots}곡 탄다
+                  </div>
+                </button>
+              );
+            })}
+          </div>
+
+          {/* 부문 설명 */}
+          <div className="bg-gradient-to-br from-tango-brass/5 to-transparent border border-tango-brass/15 rounded-sm p-4 text-sm text-tango-cream/80 font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+            <span className="text-tango-brass font-semibold">{meta.emoji} {meta.label}</span> · {meta.description}
+          </div>
+
           {/* HERO */}
           <div className="text-center">
             <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-3">
-              Tanda Simulator · 결승 적합도 시뮬레이션
+              Tanda Simulator · {meta.label} 결승 적합도
             </div>
             <h1 className="font-display text-4xl md:text-5xl text-tango-paper italic" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
-              내 <em className="text-tango-brass">탄다</em> 실험실
+              내 <em className="text-tango-brass">{meta.labelKo}</em> 탄다 실험실
             </h1>
             <p className="text-sm text-tango-cream/60 mt-3 font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
               곡 4개를 고르면 Mundial 결승 데이터로 적합도를 계산합니다
