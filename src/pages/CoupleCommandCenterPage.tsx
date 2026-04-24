@@ -520,6 +520,73 @@ export function CoupleCommandCenterPage() {
             </div>
           </section>
 
+          {/* 📹 영상 보며 연습 — 약점 기반 추천 */}
+          {(() => {
+            // 가장 낮은 점수 받은 기록 추출 (약점 우선 연습)
+            if (myData.length === 0) return null;
+            const weakest = [...myData]
+              .filter(r => r.judges.length > 0)
+              .map(r => {
+                const lowIdx = r.scores.indexOf(Math.min(...r.scores));
+                return { record: r, weakJudge: r.judges[lowIdx], weakScore: r.scores[lowIdx] };
+              })
+              .sort((a, b) => a.weakScore - b.weakScore)
+              .slice(0, 3);
+            if (weakest.length === 0) return null;
+            return (
+              <section>
+                <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-3">
+                  Practice Recommendations · 약점 기반 연습
+                </div>
+                <h2 className="font-display italic text-2xl md:text-3xl text-tango-paper mb-2" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                  📹 이 영상 보며 <em className="text-tango-brass">복습</em>
+                </h2>
+                <p className="text-xs text-tango-cream/60 mb-4 font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                  가장 낮은 점수 받은 기록 — 그 영상을 보며 약점 파악 + 연습 방향 설정
+                </p>
+                <div className="space-y-2">
+                  {weakest.map((w, i) => {
+                    const vKey = `${w.record.year}-${w.record.category}-${w.record.stage}`;
+                    const video = MY_VIDEOS[vKey];
+                    return (
+                      <div key={i} className="rounded-sm border border-orange-500/20 bg-orange-500/5 p-3">
+                        <div className="flex items-center justify-between gap-3 mb-2">
+                          <div className="flex-1 min-w-0">
+                            <div className="text-[10px] uppercase tracking-widest text-orange-400 font-sans mb-0.5">
+                              약점 포인트 #{i + 1}
+                            </div>
+                            <div className="font-serif italic text-base text-tango-paper" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                              {w.record.year} {catLabels[w.record.category] ?? w.record.category} · {w.record.stage === 'final' ? '결승' : '준결승'}
+                            </div>
+                            <div className="text-xs text-tango-cream/60 mt-0.5">
+                              <span className="text-orange-400 font-semibold">{w.weakJudge}</span>에게 가장 낮은 점수{' '}
+                              <span className="font-mono text-orange-400 font-bold">{w.weakScore}</span>
+                              {' '}— 이 기준 보강 필요
+                            </div>
+                          </div>
+                          {video && (
+                            <button
+                              onClick={() => setPlayingVideo(playingVideo === video.id ? null : video.id)}
+                              className="flex-shrink-0 bg-tango-brass/20 hover:bg-tango-brass/30 text-tango-brass rounded-sm px-3 py-2 text-xs font-semibold"
+                            >
+                              📹 영상 보며 연습
+                            </button>
+                          )}
+                        </div>
+                        <div className="text-[11px] text-tango-cream/70 font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                          <Link to="/training" className="text-tango-brass hover:underline">
+                            → 연습 노트 작성
+                          </Link>
+                          {' '}· 다음에 {w.weakJudge} 심사 있으면 집중
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </section>
+            );
+          })()}
+
           {/* 다음 대회 액션 */}
           <section className="bg-gradient-to-br from-tango-brass/10 to-transparent border border-tango-brass/30 rounded-sm p-6">
             <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-2">

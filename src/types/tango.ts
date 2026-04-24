@@ -174,6 +174,9 @@ export interface PracticeLog {
   notes: string;
   energy_level: 'low' | 'medium' | 'high' | null;
   created_at: string;
+  // 🎬 참고 영상 연결 (우리 대회 영상 또는 Mundial 영상)
+  linked_video_id?: string;
+  linked_video_label?: string; // 예: '🏆 2023 Milonga 결승 6위'
 }
 
 // === 우리 대회 기록 ===
