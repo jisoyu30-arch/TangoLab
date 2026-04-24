@@ -1,9 +1,18 @@
 // 소유 & 석정 부부 Command Center — 전략 대시보드
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { PageHeader } from '../components/PageHeader';
 import { OrnamentDivider } from '../components/editorial';
 import ktcData from '../data/ktc_participants.json';
+
+// 우리 대회 영상 매핑 (key = year-category-stage)
+const MY_VIDEOS: Record<string, { id: string; label: string; group?: string }> = {
+  '2023-milonga-final': { id: 'GbiiDONSSWI', label: '🏆 2023 Milonga 결승 6위', group: 'Final' },
+  '2023-milonga-semifinal': { id: 'zyMNqg4N0XU', label: '2023 Milonga 준결승 A조 R1 · 9위', group: 'A조 R1' },
+  '2023-pista_singles_jackandjill-semifinal': { id: 'Hl1FSNIlY1w', label: '2023 Jack 준결승 B조 R2 · 22위 (석정)', group: 'B조 R2' },
+  '2024-pista-semifinal': { id: 'rbdGrbJwHi0', label: '2024 Pista 준결승 R2 · 30위', group: 'R2' },
+  '2024-pista_singles_jackandjill-semifinal': { id: 'KsI2EgUno5s', label: '2024 Jack 준결승 R2 · 20위 (석정)', group: 'R2' },
+};
 
 // 데이터 타입
 interface MyRecord {
@@ -31,6 +40,8 @@ interface JudgeStat {
 }
 
 export function CoupleCommandCenterPage() {
+  const [playingVideo, setPlayingVideo] = useState<string | null>(null);
+
   const myData = useMemo(() => {
     const records: MyRecord[] = [];
     const data = ktcData as any;
@@ -214,6 +225,85 @@ export function CoupleCommandCenterPage() {
             </section>
           )}
 
+          {/* 🎬 우리 영상 갤러리 */}
+          <section>
+            <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-3">
+              Our Competition Videos · 우리가 춤춘 영상
+            </div>
+            <h2 className="font-display italic text-3xl text-tango-paper mb-2" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+              우리의 <em className="text-tango-brass">무대</em>
+            </h2>
+            <p className="text-xs text-tango-cream/60 mb-5 font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+              실제 대회에서 춤춘 모든 영상 — 썸네일 클릭하면 바로 재생
+            </p>
+
+            {/* 현재 재생 중 플레이어 */}
+            {playingVideo && (
+              <div className="mb-4 rounded-sm overflow-hidden border border-tango-brass/40 bg-tango-shadow">
+                <div className="flex items-center justify-between px-3 py-2 bg-tango-brass/10 border-b border-tango-brass/20">
+                  <span className="text-xs text-tango-brass font-semibold">▶ 재생 중</span>
+                  <button onClick={() => setPlayingVideo(null)} className="text-tango-cream/60 hover:text-red-400 text-sm">✕ 닫기</button>
+                </div>
+                <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                  <iframe
+                    className="absolute inset-0 w-full h-full"
+                    src={`https://www.youtube.com/embed/${playingVideo}?autoplay=1`}
+                    title="우리 대회 영상"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div>
+              </div>
+            )}
+
+            {/* 영상 썸네일 그리드 */}
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+              {Object.entries(MY_VIDEOS).map(([key, video]) => {
+                const isFinal = key.includes('final') && !key.includes('semi');
+                const isPlaying = playingVideo === video.id;
+                return (
+                  <button
+                    key={key}
+                    onClick={() => setPlayingVideo(isPlaying ? null : video.id)}
+                    className={`group relative aspect-video rounded-sm overflow-hidden border transition-all ${
+                      isPlaying ? 'border-tango-brass ring-2 ring-tango-brass/40' :
+                      isFinal ? 'border-tango-brass/50 hover:border-tango-brass' :
+                      'border-tango-brass/20 hover:border-tango-brass/50'
+                    }`}
+                  >
+                    <img
+                      src={`https://img.youtube.com/vi/${video.id}/mqdefault.jpg`}
+                      alt={video.label}
+                      className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/40 to-transparent flex flex-col justify-end p-2">
+                      {video.group && (
+                        <div className="text-[9px] tracking-widest uppercase text-tango-brass font-sans mb-0.5">
+                          {video.group}
+                        </div>
+                      )}
+                      <div className="text-[11px] text-tango-paper font-serif italic leading-tight" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                        {video.label}
+                      </div>
+                    </div>
+                    <div className={`absolute inset-0 flex items-center justify-center transition-opacity ${isPlaying ? 'opacity-0' : 'opacity-100'}`}>
+                      <div className={`w-12 h-12 rounded-full flex items-center justify-center ${
+                        isFinal ? 'bg-tango-brass' : 'bg-tango-brass/80 group-hover:bg-tango-brass'
+                      }`}>
+                        <span className="text-tango-ink text-lg ml-0.5">▶</span>
+                      </div>
+                    </div>
+                    {isFinal && (
+                      <div className="absolute top-2 right-2 bg-tango-brass text-tango-ink text-[9px] font-bold px-1.5 py-0.5 rounded-sm">
+                        🏆
+                      </div>
+                    )}
+                  </button>
+                );
+              })}
+            </div>
+          </section>
+
           {/* 부문별 성적 */}
           <section>
             <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-3">
@@ -313,46 +403,59 @@ export function CoupleCommandCenterPage() {
               대회 <em className="text-tango-brass">출전 기록</em>
             </h2>
             <div className="space-y-3">
-              {myData.map((r, i) => (
-                <div
-                  key={i}
-                  className={`rounded-sm border p-4 ${
-                    r.advanced ? 'border-tango-brass/40 bg-tango-brass/5' :
-                    'border-tango-brass/15 bg-white/3'
-                  }`}
-                >
-                  <div className="flex items-baseline justify-between mb-2">
-                    <div>
-                      <span className="font-display text-2xl font-bold text-tango-brass mr-2" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
-                        {r.year}
-                      </span>
-                      <span className="font-serif italic text-lg text-tango-paper" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
-                        {r.competition} {catLabels[r.category] ?? r.category} · {r.stage === 'final' ? '결승' : r.stage === 'semifinal' ? '준결승' : '예선'}
-                      </span>
-                      {r.is_solo && <span className="text-[10px] text-tango-cream/50 ml-2">(석정 단독)</span>}
-                      {r.advanced && <span className="text-[10px] bg-tango-brass/20 text-tango-brass rounded-sm px-2 py-0.5 ml-2">✓ 결승 진출</span>}
-                    </div>
-                    <div className="text-right">
-                      <div className="text-xs text-tango-cream/50">
-                        <span className="font-display text-xl text-tango-brass font-bold" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
-                          {r.rank}
+              {myData.map((r, i) => {
+                const vKey = `${r.year}-${r.category}-${r.stage}`;
+                const video = MY_VIDEOS[vKey];
+                return (
+                  <div
+                    key={i}
+                    className={`rounded-sm border p-4 ${
+                      r.advanced ? 'border-tango-brass/40 bg-tango-brass/5' :
+                      'border-tango-brass/15 bg-white/3'
+                    }`}
+                  >
+                    <div className="flex items-baseline justify-between mb-2">
+                      <div>
+                        <span className="font-display text-2xl font-bold text-tango-brass mr-2" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                          {r.year}
                         </span>
-                        {r.total_participants && <span className="text-tango-cream/40">/{r.total_participants}</span>}
+                        <span className="font-serif italic text-lg text-tango-paper" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                          {r.competition} {catLabels[r.category] ?? r.category} · {r.stage === 'final' ? '결승' : r.stage === 'semifinal' ? '준결승' : '예선'}
+                        </span>
+                        {r.is_solo && <span className="text-[10px] text-tango-cream/50 ml-2">(석정 단독)</span>}
+                        {r.advanced && <span className="text-[10px] bg-tango-brass/20 text-tango-brass rounded-sm px-2 py-0.5 ml-2">✓ 결승 진출</span>}
+                        {video && (
+                          <button
+                            onClick={() => setPlayingVideo(playingVideo === video.id ? null : video.id)}
+                            className="text-[10px] bg-tango-rose/20 text-tango-rose rounded-sm px-2 py-0.5 ml-2 hover:bg-tango-rose/30"
+                            title="이 영상 재생"
+                          >
+                            ▶ 영상
+                          </button>
+                        )}
                       </div>
-                      <div className="text-[10px] text-tango-cream/50">평균 {r.avg.toFixed(3)}</div>
+                      <div className="text-right">
+                        <div className="text-xs text-tango-cream/50">
+                          <span className="font-display text-xl text-tango-brass font-bold" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                            {r.rank}
+                          </span>
+                          {r.total_participants && <span className="text-tango-cream/40">/{r.total_participants}</span>}
+                        </div>
+                        <div className="text-[10px] text-tango-cream/50">평균 {r.avg.toFixed(3)}</div>
+                      </div>
+                    </div>
+                    {/* 심사별 점수 */}
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mt-2">
+                      {r.judges.map((j, idx) => (
+                        <div key={idx} className="bg-white/5 rounded-sm px-2 py-1 flex items-baseline justify-between">
+                          <span className="text-[10px] text-tango-cream/60 truncate">{j}</span>
+                          <span className="font-mono text-sm text-tango-brass font-semibold">{r.scores[idx]}</span>
+                        </div>
+                      ))}
                     </div>
                   </div>
-                  {/* 심사별 점수 */}
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mt-2">
-                    {r.judges.map((j, idx) => (
-                      <div key={idx} className="bg-white/5 rounded-sm px-2 py-1 flex items-baseline justify-between">
-                        <span className="text-[10px] text-tango-cream/60 truncate">{j}</span>
-                        <span className="font-mono text-sm text-tango-brass font-semibold">{r.scores[idx]}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </section>
 
