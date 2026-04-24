@@ -19697,7 +19697,9 @@
           "video_id": "rbdGrbJwHi0",
           "url": "https://www.youtube.com/watch?v=rbdGrbJwHi0",
           "channel": "Korea Tango Cooperative",
-          "title": "2024 Korea Tango Championship Tango de Pista Semi-Final Ronda 2"
+          "title": "2024 Korea Tango Championship Tango de Pista Semi-Final Ronda 2",
+          "type": "performance",
+          "my_couple_in": true
         },
         {
           "video_id": "h7f_lzjrINc",
@@ -19705,7 +19707,8 @@
           "channel": "Korea Tango Cooperative",
           "title": "2024 Korea Tango Championship Tango de Pista (International) Semi-Final Ronda 2"
         }
-      ]
+      ],
+      "highlight": "🌟 소유&석정 #340 출전 (Pista R2 · 30위)"
     },
     {
       "round_id": "R-KTC2024-PISTA-SF1",

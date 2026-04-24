@@ -47,10 +47,10 @@ export function MyCompetitionsPage() {
         url: 'https://www.youtube.com/watch?v=Hl1FSNIlY1w',
         note: '✅ Jack&Jill B조 Ronda 2 · 석정 #180 · 22위',
       },
-      // 2024 Pista 준결승 — 어느 Ronda인지 확인 필요 (4개 후보)
+      // 2024 Pista 준결승 R2 (소유&석정 #340) — 사용자 확정
       '2024-pista-semifinal': {
-        url: 'https://www.youtube.com/results?search_query=2024+Korea+Tango+Championship+Tango+de+Pista+Semi-Final',
-        note: '⚠ 소유&석정 #340 속한 Ronda 확인 필요:\n• R1: U0rO8A-_mFE\n• R2: rbdGrbJwHi0\n• R3: eHFIdVEG2oQ\n• R4: tKtkLcmSPKg\n영상 확인 후 실제 우리 론다 URL로 업데이트하세요',
+        url: 'https://www.youtube.com/watch?v=rbdGrbJwHi0',
+        note: '✅ 2024 KTC Tango de Pista Semi-Final Ronda 2 · 소유&석정 #340 · 30위',
       },
       // 2024 Jack 준결승 R2 (석정 #340) — 사용자 확정
       '2024-jack-semifinal': {
