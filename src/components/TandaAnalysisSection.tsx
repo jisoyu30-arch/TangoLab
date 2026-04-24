@@ -147,8 +147,13 @@ function PosBar({ pct, count, color }: { pct: number; count: number; color: stri
 }
 
 function EnergyAnalysis({ tandas }: { tandas: Tanda[] }) {
+  const [expandedPattern, setExpandedPattern] = useState<EnergyPattern | null>(null);
+
   const patterns = useMemo(() => {
     const counts: Record<EnergyPattern, number> = { ascending: 0, descending: 0, valley: 0, peak: 0, flat: 0, other: 0 };
+    const byPattern: Record<EnergyPattern, Array<Tanda & { energies: number[] }>> = {
+      ascending: [], descending: [], valley: [], peak: [], flat: [], other: [],
+    };
     const avgEnergies = [0, 0, 0];
     let validCount = 0;
 
@@ -160,11 +165,12 @@ function EnergyAnalysis({ tandas }: { tandas: Tanda[] }) {
       });
       const pattern = classifyEnergyPattern(energies);
       counts[pattern]++;
+      byPattern[pattern].push({ ...t, energies });
       energies.forEach((e, i) => { avgEnergies[i] += e; });
       validCount++;
     }
     const avgPerPos = avgEnergies.map(e => validCount > 0 ? e / validCount : 0);
-    return { counts, avgPerPos, validCount };
+    return { counts, byPattern, avgPerPos, validCount };
   }, [tandas]);
 
   const total = patterns.validCount || 1;
@@ -220,29 +226,101 @@ function EnergyAnalysis({ tandas }: { tandas: Tanda[] }) {
       </div>
 
       <div>
-        <div className="text-xs text-gray-400 mb-3">탄다 에너지 패턴 분포</div>
+        <div className="text-xs text-gray-400 mb-3">탄다 에너지 패턴 분포 · 카드 클릭 시 대표 론다 + 영상</div>
         <div className="space-y-1.5">
           {sortedPatterns.filter(p => p.count > 0).map(p => {
             const info = PATTERN_LABELS[p.key];
+            const isExpanded = expandedPattern === p.key;
+            // 대표 론다: 결승 > 준결승 > 예선, 영상 있는 것 우선
+            const representatives = [...patterns.byPattern[p.key]]
+              .sort((a, b) => {
+                const stageOrder: Record<string, number> = { final: 0, semifinal: 1, quarterfinal: 2, qualifying: 3 };
+                const sA = stageOrder[a.stage] ?? 4;
+                const sB = stageOrder[b.stage] ?? 4;
+                if (sA !== sB) return sA - sB;
+                const vA = (a.videoIds?.length ?? 0) > 0 ? 0 : 1;
+                const vB = (b.videoIds?.length ?? 0) > 0 ? 0 : 1;
+                if (vA !== vB) return vA - vB;
+                return b.year - a.year;
+              })
+              .slice(0, 8);
             return (
-              <div key={p.key} className="bg-white/5 border border-white/10 rounded-lg p-3">
-                <div className="flex items-center justify-between mb-2">
-                  <div className="flex items-center gap-2">
-                    <span className="text-xl">{info.emoji}</span>
-                    <div>
-                      <div className="text-sm font-semibold text-white">{info.label}</div>
-                      <div className="text-[10px] text-gray-500">{info.desc}</div>
+              <div key={p.key} className="bg-white/5 border border-white/10 rounded-lg overflow-hidden">
+                <button
+                  onClick={() => setExpandedPattern(isExpanded ? null : p.key)}
+                  className="w-full text-left p-3 hover:bg-white/5 transition-colors"
+                >
+                  <div className="flex items-center justify-between mb-2">
+                    <div className="flex items-center gap-2">
+                      <span className="text-xl">{info.emoji}</span>
+                      <div>
+                        <div className="text-sm font-semibold text-white flex items-center gap-1.5">
+                          {info.label}
+                          <span className="text-[10px] text-tango-brass/80">{isExpanded ? '▲' : '▼'}</span>
+                        </div>
+                        <div className="text-[10px] text-gray-500">{info.desc}</div>
+                      </div>
+                    </div>
+                    <div className="text-right">
+                      <div className="text-sm font-bold text-tango-brass">{p.count}개</div>
+                      <div className="text-[10px] text-gray-500">{p.pct.toFixed(0)}%</div>
                     </div>
                   </div>
-                  <div className="text-right">
-                    <div className="text-sm font-bold text-tango-brass">{p.count}개</div>
-                    <div className="text-[10px] text-gray-500">{p.pct.toFixed(0)}%</div>
+                  <div className="h-1.5 bg-black/40 rounded-full overflow-hidden">
+                    <div className="h-full bg-gradient-to-r from-tango-brass to-yellow-300 rounded-full transition-all duration-700"
+                      style={{ width: `${p.pct}%` }} />
                   </div>
-                </div>
-                <div className="h-1.5 bg-black/40 rounded-full overflow-hidden">
-                  <div className="h-full bg-gradient-to-r from-tango-brass to-yellow-300 rounded-full transition-all duration-700"
-                    style={{ width: `${p.pct}%` }} />
-                </div>
+                </button>
+
+                {isExpanded && (
+                  <div className="border-t border-white/10 p-3 bg-black/20 space-y-2">
+                    <div className="text-[10px] text-tango-brass uppercase tracking-widest mb-2">
+                      대표 론다 TOP {representatives.length} · 결승/영상 있는 것 우선
+                    </div>
+                    {representatives.map(r => {
+                      const firstVidId = r.videoIds?.[0];
+                      const stageLabel = r.stage === 'final' ? '🏆 결승' : r.stage === 'semifinal' ? '◆ 준결승' : r.stage === 'quarterfinal' ? '◇ 8강' : '○ 예선';
+                      return (
+                        <div key={r.id} className="bg-white/5 border border-white/10 rounded-sm p-2.5">
+                          <div className="flex items-baseline justify-between mb-1.5 gap-2">
+                            <div className="flex-1 min-w-0">
+                              <span className="text-[10px] text-tango-brass font-semibold mr-2">{stageLabel}</span>
+                              <span className="text-xs text-white font-medium">{r.competition} {r.year}</span>
+                              {r.ronda > 0 && <span className="text-[10px] text-gray-500 ml-1">R{r.ronda}</span>}
+                            </div>
+                            <div className="flex gap-1 text-[9px] text-tango-cream/60 font-mono">
+                              <span>{r.energies[0].toFixed(1)}→</span>
+                              <span>{r.energies[1].toFixed(1)}→</span>
+                              <span className="text-tango-brass">{r.energies[2].toFixed(1)}</span>
+                            </div>
+                          </div>
+                          {/* 곡 리스트 */}
+                          <div className="flex flex-wrap gap-1 mb-2">
+                            {r.songs.slice(0, 3).map((s, i) => (
+                              <span key={i} className="text-[10px] bg-black/30 rounded-sm px-1.5 py-0.5 text-gray-300">
+                                {s.title} <span className="text-gray-500">· {(s.orchestra || '').split(' ').slice(0, 2).join(' ')}</span>
+                              </span>
+                            ))}
+                          </div>
+                          {/* 영상 재생 버튼 */}
+                          {firstVidId && (
+                            <a
+                              href={`https://www.youtube.com/watch?v=${firstVidId}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-1 text-[10px] bg-tango-brass/20 hover:bg-tango-brass/30 text-tango-brass rounded-sm px-2 py-1"
+                            >
+                              ▶ 영상 보기
+                            </a>
+                          )}
+                          {!firstVidId && (
+                            <span className="text-[9px] text-tango-cream/40">영상 없음</span>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
               </div>
             );
           })}
