@@ -37,10 +37,10 @@ export function MyCompetitionsPage() {
         url: 'https://www.youtube.com/watch?v=GbiiDONSSWI',
         note: '🏆 소유&석정 6위 결승 영상 (Korea Tango Cooperative 공식 촬영)',
       },
-      // 2023 Milonga 예선 E조 Ronda 5 — 소유&석정이 속한 조
+      // 2023 Milonga 준결승 A조 Ronda 1 — 소유&석정 확정
       '2023-milonga-semifinal': {
-        url: 'https://www.youtube.com/watch?v=w4j12NGjOD4',
-        note: '⚠ E조 Preliminaries Ronda 5 영상 (소유&석정 #180 속한 조). 준결승 영상은 A/B/C 중 조 확인 필요',
+        url: 'https://www.youtube.com/watch?v=zyMNqg4N0XU',
+        note: '✅ 준결승 A조 Ronda 1 (소유&석정 #180 확정) · 9위로 결승 진출 · 예선 영상 별도: w4j12NGjOD4 (E조)',
       },
       // 2023 Jack 준결승 C조 (석정 #180)
       '2023-jack-semifinal': {
