@@ -1,7 +1,10 @@
 // 대회 준비 체크리스트 템플릿 — D-30부터 D-day까지
-import { useState } from 'react';
+// 🎯 개인화: 다음 대회 날짜 + D-day 자동 계산 + 약점 기반 맞춤 과제
+import { useState, useMemo } from 'react';
+import { Link } from 'react-router-dom';
 import { PageHeader } from '../components/PageHeader';
 import { OrnamentDivider, EditorialButton } from '../components/editorial';
+import { useTrainingStore } from '../hooks/useTrainingStore';
 
 interface ChecklistItem {
   id: string;
@@ -9,6 +12,7 @@ interface ChecklistItem {
   task: string;
   category: 'body' | 'music' | 'technique' | 'gear' | 'mental' | 'admin';
   done: boolean;
+  custom?: boolean; // 개인화 맞춤 과제 표시
 }
 
 const DEFAULT_ITEMS: Array<Omit<ChecklistItem, 'done'>> = [
@@ -59,6 +63,7 @@ const DEFAULT_ITEMS: Array<Omit<ChecklistItem, 'done'>> = [
 ];
 
 const STORAGE_KEY = 'tango_lab_checklist_state';
+const TARGET_KEY = 'tango_lab_checklist_target'; // { name, date }
 
 const PHASE_COLORS: Record<string, string> = {
   'D-30': '#5D7A8E',
@@ -80,6 +85,8 @@ const CATEGORY_LABELS: Record<string, { label: string; icon: string }> = {
   admin: { label: '행정', icon: '📋' },
 };
 
+const PHASE_ORDER = ['D-30', 'D-21', 'D-14', 'D-7', 'D-3', 'D-1', 'D-day', 'D+1'] as const;
+
 function loadState(): Record<string, boolean> {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
@@ -89,12 +96,84 @@ function loadState(): Record<string, boolean> {
   }
 }
 
+function loadTarget(): { name: string; date: string } {
+  try {
+    const raw = localStorage.getItem(TARGET_KEY);
+    return raw ? JSON.parse(raw) : { name: '', date: '' };
+  } catch {
+    return { name: '', date: '' };
+  }
+}
+
+// D-day 계산 → 현재 phase
+function daysUntil(dateStr: string): number | null {
+  if (!dateStr) return null;
+  const target = new Date(dateStr + 'T00:00:00');
+  if (isNaN(target.getTime())) return null;
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  return Math.round((target.getTime() - today.getTime()) / 86400000);
+}
+
+function currentPhase(days: number | null): typeof PHASE_ORDER[number] | null {
+  if (days === null) return null;
+  if (days > 21) return 'D-30';
+  if (days > 14) return 'D-21';
+  if (days > 7) return 'D-14';
+  if (days > 3) return 'D-7';
+  if (days > 1) return 'D-3';
+  if (days === 1) return 'D-1';
+  if (days === 0) return 'D-day';
+  if (days < 0) return 'D+1';
+  return null;
+}
+
 export function ChecklistPage() {
   const [doneMap, setDoneMap] = useState<Record<string, boolean>>(loadState);
   const [filterCategory, setFilterCategory] = useState<string>('all');
+  const [target, setTarget] = useState(loadTarget);
+  const [editTarget, setEditTarget] = useState(false);
 
-  const items = DEFAULT_ITEMS.map(it => ({ ...it, done: !!doneMap[it.id] }));
-  const filtered = filterCategory === 'all' ? items : items.filter(it => it.category === filterCategory);
+  const { ownCompetitions } = useTrainingStore();
+
+  // 🎯 개인화 맞춤 과제 — 약점 심사위원 기반
+  const personalizedItems = useMemo<Array<Omit<ChecklistItem, 'done'>>>(() => {
+    if (!ownCompetitions || ownCompetitions.length === 0) return [];
+
+    // 최저 점수 심사위원 찾기
+    const weakList: Array<{ judge: string; score: number; comp: string }> = [];
+    for (const rec of ownCompetitions) {
+      if (!rec.scores || rec.scores.length === 0) continue;
+      for (const s of rec.scores) {
+        const sc = s.total ?? 0;
+        if (sc > 0 && sc < 8.5) {
+          weakList.push({
+            judge: s.judge_name || '심사위원',
+            score: sc,
+            comp: rec.competition_name,
+          });
+        }
+      }
+    }
+    // 점수 낮은 순, 상위 3개
+    weakList.sort((a, b) => a.score - b.score);
+    const top3 = weakList.slice(0, 3);
+
+    return top3.map((w, i) => ({
+      id: `custom-weak-${i}`,
+      phase: 'D-21' as const,
+      task: `${w.judge} 기준 약점 특훈 (${w.comp} · ${w.score.toFixed(1)}점)`,
+      category: 'technique' as const,
+      custom: true,
+    }));
+  }, [ownCompetitions]);
+
+  const allItems = useMemo(
+    () => [...DEFAULT_ITEMS, ...personalizedItems].map(it => ({ ...it, done: !!doneMap[it.id] })),
+    [personalizedItems, doneMap]
+  );
+
+  const filtered = filterCategory === 'all' ? allItems : allItems.filter(it => it.category === filterCategory);
 
   const toggle = (id: string) => {
     const next = { ...doneMap, [id]: !doneMap[id] };
@@ -109,14 +188,23 @@ export function ChecklistPage() {
     }
   };
 
-  const phases = ['D-30', 'D-21', 'D-14', 'D-7', 'D-3', 'D-1', 'D-day', 'D+1'] as const;
-  const grouped = phases.map(p => ({
+  const saveTarget = (name: string, date: string) => {
+    const t = { name, date };
+    setTarget(t);
+    localStorage.setItem(TARGET_KEY, JSON.stringify(t));
+    setEditTarget(false);
+  };
+
+  const dDay = daysUntil(target.date);
+  const activePhase = currentPhase(dDay);
+
+  const grouped = PHASE_ORDER.map(p => ({
     phase: p,
     items: filtered.filter(it => it.phase === p),
   }));
 
-  const progress = items.filter(it => it.done).length;
-  const total = items.length;
+  const progress = allItems.filter(it => it.done).length;
+  const total = allItems.length;
   const pct = total > 0 ? Math.round((progress / total) * 100) : 0;
 
   return (
@@ -133,6 +221,50 @@ export function ChecklistPage() {
               대회 <em className="text-tango-brass">준비</em>
             </h1>
             <OrnamentDivider className="mt-6" />
+          </div>
+
+          {/* 🎯 다음 대회 타겟 */}
+          <div className="bg-gradient-to-br from-tango-shadow/60 to-tango-ink border border-tango-brass/30 rounded-sm p-5 md:p-6">
+            {editTarget || !target.date ? (
+              <TargetEditor initial={target} onSave={saveTarget} onCancel={() => setEditTarget(false)} canCancel={!!target.date} />
+            ) : (
+              <div className="flex items-start justify-between gap-4 flex-wrap">
+                <div>
+                  <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-2">
+                    Next Competition
+                  </div>
+                  <div className="font-display text-2xl md:text-3xl text-tango-paper italic" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                    {target.name || '(이름 미설정)'}
+                  </div>
+                  <div className="text-sm text-tango-cream/60 font-sans mt-1">
+                    {target.date}
+                  </div>
+                </div>
+                <div className="text-right">
+                  {dDay !== null && (
+                    <>
+                      <div
+                        className="font-display text-4xl md:text-5xl font-bold"
+                        style={{
+                          color: activePhase ? PHASE_COLORS[activePhase] : '#D4AF37',
+                          fontFamily: '"Playfair Display", Georgia, serif',
+                        }}
+                      >
+                        {dDay > 0 ? `D-${dDay}` : dDay === 0 ? 'D-day' : `D+${Math.abs(dDay)}`}
+                      </div>
+                      {activePhase && (
+                        <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass/80 font-sans mt-1">
+                          현재 단계 · {activePhase}
+                        </div>
+                      )}
+                    </>
+                  )}
+                  <EditorialButton variant="ghost" onClick={() => setEditTarget(true)} className="mt-2 text-xs">
+                    수정
+                  </EditorialButton>
+                </div>
+              </div>
+            )}
           </div>
 
           {/* 진행률 */}
@@ -157,6 +289,23 @@ export function ChecklistPage() {
               <div className="h-full bg-gradient-to-r from-tango-brass to-tango-rose rounded-full transition-all duration-500" style={{ width: `${pct}%` }} />
             </div>
           </div>
+
+          {/* 🎯 맞춤 과제 안내 */}
+          {personalizedItems.length > 0 && (
+            <div className="bg-tango-rose/5 border border-tango-rose/30 rounded-sm p-4 text-sm">
+              <div className="flex items-start gap-3">
+                <span className="text-tango-rose text-xl">★</span>
+                <div className="flex-1">
+                  <div className="text-tango-rose font-serif italic text-base mb-1" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                    약점 기반 맞춤 과제 {personalizedItems.length}개 추가됨
+                  </div>
+                  <div className="text-tango-cream/70 text-xs">
+                    <Link to="/command" className="text-tango-brass hover:underline">Command Center</Link>의 최저 점수 심사위원 분석을 기반으로 D-21 구간에 자동 추가됐습니다.
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
 
           {/* 카테고리 필터 */}
           <div className="flex gap-0 border-b border-tango-brass/20 overflow-x-auto">
@@ -188,54 +337,110 @@ export function ChecklistPage() {
           </div>
 
           {/* 단계별 리스트 */}
-          {grouped.filter(g => g.items.length > 0).map(({ phase, items: phaseItems }) => (
-            <section key={phase}>
-              <div className="flex items-center gap-3 mb-3">
-                <span
-                  className="font-display text-3xl font-bold italic"
-                  style={{ color: PHASE_COLORS[phase], fontFamily: '"Playfair Display", Georgia, serif' }}
-                >
-                  {phase}
-                </span>
-                <div className="h-px flex-1 bg-tango-brass/20" />
-                <span className="text-[10px] tracking-widest uppercase text-tango-cream/50 font-sans">
-                  {phaseItems.filter(it => it.done).length} / {phaseItems.length}
-                </span>
-              </div>
-              <div className="space-y-px bg-tango-brass/15 rounded-sm overflow-hidden">
-                {phaseItems.map(it => {
-                  const cat = CATEGORY_LABELS[it.category];
-                  return (
-                    <button
-                      key={it.id}
-                      onClick={() => toggle(it.id)}
-                      className={`w-full flex items-start gap-3 bg-tango-ink hover:bg-tango-shadow p-4 text-left transition-colors ${
-                        it.done ? 'opacity-50' : ''
-                      }`}
-                    >
-                      <span className={`flex-shrink-0 w-5 h-5 rounded-sm border-2 flex items-center justify-center mt-0.5 transition-all ${
-                        it.done ? 'bg-tango-brass border-tango-brass' : 'border-tango-brass/40'
-                      }`}>
-                        {it.done && <span className="text-tango-ink text-sm">✓</span>}
-                      </span>
-                      <div className="flex-1 min-w-0">
-                        <div className={`font-serif text-base ${it.done ? 'line-through text-tango-cream/50' : 'text-tango-paper'}`} style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
-                          {it.task}
+          {grouped.filter(g => g.items.length > 0).map(({ phase, items: phaseItems }) => {
+            const isActive = activePhase === phase;
+            return (
+              <section key={phase} className={isActive ? 'ring-2 ring-tango-brass/50 rounded-sm p-4 -mx-4 bg-tango-brass/5' : ''}>
+                <div className="flex items-center gap-3 mb-3">
+                  <span
+                    className="font-display text-3xl font-bold italic"
+                    style={{ color: PHASE_COLORS[phase], fontFamily: '"Playfair Display", Georgia, serif' }}
+                  >
+                    {phase}
+                  </span>
+                  {isActive && (
+                    <span className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans px-2 py-1 bg-tango-brass/15 rounded-sm">
+                      ◈ NOW
+                    </span>
+                  )}
+                  <div className="h-px flex-1 bg-tango-brass/20" />
+                  <span className="text-[10px] tracking-widest uppercase text-tango-cream/50 font-sans">
+                    {phaseItems.filter(it => it.done).length} / {phaseItems.length}
+                  </span>
+                </div>
+                <div className="space-y-px bg-tango-brass/15 rounded-sm overflow-hidden">
+                  {phaseItems.map(it => {
+                    const cat = CATEGORY_LABELS[it.category];
+                    return (
+                      <button
+                        key={it.id}
+                        onClick={() => toggle(it.id)}
+                        className={`w-full flex items-start gap-3 bg-tango-ink hover:bg-tango-shadow p-4 text-left transition-colors ${
+                          it.done ? 'opacity-50' : ''
+                        }`}
+                      >
+                        <span className={`flex-shrink-0 w-5 h-5 rounded-sm border-2 flex items-center justify-center mt-0.5 transition-all ${
+                          it.done ? 'bg-tango-brass border-tango-brass' : 'border-tango-brass/40'
+                        }`}>
+                          {it.done && <span className="text-tango-ink text-sm">✓</span>}
+                        </span>
+                        <div className="flex-1 min-w-0">
+                          <div className={`font-serif text-base ${it.done ? 'line-through text-tango-cream/50' : 'text-tango-paper'}`} style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                            {it.task}
+                            {it.custom && <span className="ml-2 text-tango-rose text-xs">★ 맞춤</span>}
+                          </div>
+                          <div className="text-[10px] tracking-widest uppercase text-tango-brass/70 mt-1 font-sans">
+                            {cat.icon} {cat.label}
+                          </div>
                         </div>
-                        <div className="text-[10px] tracking-widest uppercase text-tango-brass/70 mt-1 font-sans">
-                          {cat.icon} {cat.label}
-                        </div>
-                      </div>
-                    </button>
-                  );
-                })}
-              </div>
-            </section>
-          ))}
+                      </button>
+                    );
+                  })}
+                </div>
+              </section>
+            );
+          })}
 
           <OrnamentDivider className="pt-8" />
         </div>
       </div>
     </>
+  );
+}
+
+// 타겟 대회 편집 폼
+function TargetEditor({
+  initial,
+  onSave,
+  onCancel,
+  canCancel,
+}: {
+  initial: { name: string; date: string };
+  onSave: (name: string, date: string) => void;
+  onCancel: () => void;
+  canCancel: boolean;
+}) {
+  const [name, setName] = useState(initial.name);
+  const [date, setDate] = useState(initial.date);
+
+  return (
+    <div className="space-y-3">
+      <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-2">
+        다음 대회 설정
+      </div>
+      <input
+        type="text"
+        value={name}
+        onChange={e => setName(e.target.value)}
+        placeholder="대회 이름 (예: KTC 2026 Pista)"
+        className="w-full bg-tango-ink border border-tango-brass/30 rounded-sm px-3 py-2 text-tango-paper font-serif text-sm focus:outline-none focus:border-tango-brass"
+      />
+      <input
+        type="date"
+        value={date}
+        onChange={e => setDate(e.target.value)}
+        className="w-full bg-tango-ink border border-tango-brass/30 rounded-sm px-3 py-2 text-tango-paper font-sans text-sm focus:outline-none focus:border-tango-brass"
+      />
+      <div className="flex gap-2">
+        <EditorialButton onClick={() => date && onSave(name, date)} className="text-xs">
+          저장
+        </EditorialButton>
+        {canCancel && (
+          <EditorialButton variant="ghost" onClick={onCancel} className="text-xs">
+            취소
+          </EditorialButton>
+        )}
+      </div>
+    </div>
   );
 }
