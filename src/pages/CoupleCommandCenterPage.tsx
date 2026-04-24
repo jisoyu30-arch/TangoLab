@@ -177,22 +177,22 @@ export function CoupleCommandCenterPage() {
 
   return (
     <>
-      <PageHeader title="소유 & 석정 Command Center" />
+      <PageHeader title="Command Center" />
       <div className="flex-1 overflow-y-auto bg-tango-ink">
-        <div className="max-w-5xl mx-auto px-5 md:px-8 py-10 space-y-10">
+        <div className="max-w-5xl mx-auto px-3 md:px-8 py-6 md:py-10 space-y-6 md:space-y-10">
 
-          {/* HERO */}
+          {/* HERO - 모바일에서 더 컴팩트 */}
           <section className="text-center">
-            <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-3">
-              Couple Command Center · Our Strategy Hub
+            <div className="text-[9px] md:text-[10px] tracking-[0.25em] md:tracking-[0.3em] uppercase text-tango-brass font-sans mb-2 md:mb-3">
+              Couple Command Center
             </div>
-            <h1 className="font-display text-4xl md:text-5xl text-tango-paper italic leading-tight" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+            <h1 className="font-display text-3xl md:text-5xl text-tango-paper italic leading-tight" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
               석정 <em className="text-tango-brass">&amp;</em> 소유
             </h1>
-            <p className="text-sm text-tango-cream/60 mt-3 font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
-              우리 부부의 모든 대회 데이터를 한 화면에 · Mundial 우승까지의 전략
+            <p className="text-xs md:text-sm text-tango-cream/60 mt-2 md:mt-3 font-serif italic px-2" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+              모든 대회 데이터를 한 화면에 · Mundial 우승 전략
             </p>
-            <OrnamentDivider className="mt-6" />
+            <OrnamentDivider className="mt-4 md:mt-6" />
           </section>
 
           {/* 전략 인사이트 배너 */}
@@ -230,7 +230,7 @@ export function CoupleCommandCenterPage() {
             <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-3">
               Our Competition Videos · 우리가 춤춘 영상
             </div>
-            <h2 className="font-display italic text-3xl text-tango-paper mb-2" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+            <h2 className="font-display italic text-2xl md:text-3xl text-tango-paper mb-2" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
               우리의 <em className="text-tango-brass">무대</em>
             </h2>
             <p className="text-xs text-tango-cream/60 mb-5 font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
@@ -256,8 +256,8 @@ export function CoupleCommandCenterPage() {
               </div>
             )}
 
-            {/* 영상 썸네일 그리드 */}
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+            {/* 영상 썸네일 그리드 - 모바일에선 2열 고정 */}
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-2 md:gap-3">
               {Object.entries(MY_VIDEOS).map(([key, video]) => {
                 const isFinal = key.includes('final') && !key.includes('semi');
                 const isPlaying = playingVideo === video.id;
@@ -276,25 +276,25 @@ export function CoupleCommandCenterPage() {
                       alt={video.label}
                       className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/40 to-transparent flex flex-col justify-end p-2">
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/40 to-transparent flex flex-col justify-end p-1.5 md:p-2">
                       {video.group && (
-                        <div className="text-[9px] tracking-widest uppercase text-tango-brass font-sans mb-0.5">
+                        <div className="text-[8px] md:text-[9px] tracking-widest uppercase text-tango-brass font-sans mb-0.5">
                           {video.group}
                         </div>
                       )}
-                      <div className="text-[11px] text-tango-paper font-serif italic leading-tight" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                      <div className="text-[10px] md:text-[11px] text-tango-paper font-serif italic leading-tight line-clamp-2" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
                         {video.label}
                       </div>
                     </div>
                     <div className={`absolute inset-0 flex items-center justify-center transition-opacity ${isPlaying ? 'opacity-0' : 'opacity-100'}`}>
-                      <div className={`w-12 h-12 rounded-full flex items-center justify-center ${
+                      <div className={`w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center ${
                         isFinal ? 'bg-tango-brass' : 'bg-tango-brass/80 group-hover:bg-tango-brass'
                       }`}>
-                        <span className="text-tango-ink text-lg ml-0.5">▶</span>
+                        <span className="text-tango-ink text-base md:text-lg ml-0.5">▶</span>
                       </div>
                     </div>
                     {isFinal && (
-                      <div className="absolute top-2 right-2 bg-tango-brass text-tango-ink text-[9px] font-bold px-1.5 py-0.5 rounded-sm">
+                      <div className="absolute top-1 right-1 md:top-2 md:right-2 bg-tango-brass text-tango-ink text-[9px] font-bold px-1 md:px-1.5 py-0.5 rounded-sm">
                         🏆
                       </div>
                     )}
@@ -309,7 +309,7 @@ export function CoupleCommandCenterPage() {
             <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-3">
               Category Performance
             </div>
-            <h2 className="font-display italic text-3xl text-tango-paper mb-6" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+            <h2 className="font-display italic text-2xl md:text-3xl text-tango-paper mb-4 md:mb-6" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
               부문별 <em className="text-tango-brass">성적</em>
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
@@ -343,7 +343,7 @@ export function CoupleCommandCenterPage() {
             <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-3">
               Judge Heat Map · 심사위원별 점수 패턴
             </div>
-            <h2 className="font-display italic text-3xl text-tango-paper mb-2" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+            <h2 className="font-display italic text-2xl md:text-3xl text-tango-paper mb-2" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
               우리를 <em className="text-tango-brass">보는 눈</em>
             </h2>
             <p className="text-xs text-tango-cream/60 mb-5 font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
@@ -399,7 +399,7 @@ export function CoupleCommandCenterPage() {
             <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-3">
               Full Competition History
             </div>
-            <h2 className="font-display italic text-3xl text-tango-paper mb-5" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+            <h2 className="font-display italic text-2xl md:text-3xl text-tango-paper mb-4 md:mb-5" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
               대회 <em className="text-tango-brass">출전 기록</em>
             </h2>
             <div className="space-y-3">
@@ -409,34 +409,39 @@ export function CoupleCommandCenterPage() {
                 return (
                   <div
                     key={i}
-                    className={`rounded-sm border p-4 ${
+                    className={`rounded-sm border p-3 md:p-4 ${
                       r.advanced ? 'border-tango-brass/40 bg-tango-brass/5' :
                       'border-tango-brass/15 bg-white/3'
                     }`}
                   >
-                    <div className="flex items-baseline justify-between mb-2">
-                      <div>
-                        <span className="font-display text-2xl font-bold text-tango-brass mr-2" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
-                          {r.year}
-                        </span>
-                        <span className="font-serif italic text-lg text-tango-paper" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
-                          {r.competition} {catLabels[r.category] ?? r.category} · {r.stage === 'final' ? '결승' : r.stage === 'semifinal' ? '준결승' : '예선'}
-                        </span>
-                        {r.is_solo && <span className="text-[10px] text-tango-cream/50 ml-2">(석정 단독)</span>}
-                        {r.advanced && <span className="text-[10px] bg-tango-brass/20 text-tango-brass rounded-sm px-2 py-0.5 ml-2">✓ 결승 진출</span>}
-                        {video && (
-                          <button
-                            onClick={() => setPlayingVideo(playingVideo === video.id ? null : video.id)}
-                            className="text-[10px] bg-tango-rose/20 text-tango-rose rounded-sm px-2 py-0.5 ml-2 hover:bg-tango-rose/30"
-                            title="이 영상 재생"
-                          >
-                            ▶ 영상
-                          </button>
-                        )}
+                    {/* 모바일: 제목+점수 쌓이기 · 데스크톱: 한 줄 */}
+                    <div className="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-2">
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-baseline gap-1.5 flex-wrap">
+                          <span className="font-display text-xl md:text-2xl font-bold text-tango-brass" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                            {r.year}
+                          </span>
+                          <span className="font-serif italic text-base md:text-lg text-tango-paper" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                            {r.competition} {catLabels[r.category] ?? r.category} · {r.stage === 'final' ? '결승' : r.stage === 'semifinal' ? '준결승' : '예선'}
+                          </span>
+                        </div>
+                        <div className="flex items-center gap-1.5 flex-wrap mt-1">
+                          {r.is_solo && <span className="text-[10px] text-tango-cream/50">(석정 단독)</span>}
+                          {r.advanced && <span className="text-[10px] bg-tango-brass/20 text-tango-brass rounded-sm px-2 py-0.5">✓ 결승 진출</span>}
+                          {video && (
+                            <button
+                              onClick={() => setPlayingVideo(playingVideo === video.id ? null : video.id)}
+                              className="text-[10px] bg-tango-rose/20 text-tango-rose rounded-sm px-2 py-0.5 hover:bg-tango-rose/30"
+                              title="이 영상 재생"
+                            >
+                              ▶ 영상
+                            </button>
+                          )}
+                        </div>
                       </div>
-                      <div className="text-right">
+                      <div className="text-right flex-shrink-0 flex md:block items-baseline gap-2 md:gap-0">
                         <div className="text-xs text-tango-cream/50">
-                          <span className="font-display text-xl text-tango-brass font-bold" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                          <span className="font-display text-lg md:text-xl text-tango-brass font-bold" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
                             {r.rank}
                           </span>
                           {r.total_participants && <span className="text-tango-cream/40">/{r.total_participants}</span>}
@@ -444,12 +449,12 @@ export function CoupleCommandCenterPage() {
                         <div className="text-[10px] text-tango-cream/50">평균 {r.avg.toFixed(3)}</div>
                       </div>
                     </div>
-                    {/* 심사별 점수 */}
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mt-2">
+                    {/* 심사별 점수 - 모바일 2열 고정 */}
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-1.5 md:gap-2 mt-2">
                       {r.judges.map((j, idx) => (
-                        <div key={idx} className="bg-white/5 rounded-sm px-2 py-1 flex items-baseline justify-between">
+                        <div key={idx} className="bg-white/5 rounded-sm px-2 py-1 flex items-baseline justify-between gap-1">
                           <span className="text-[10px] text-tango-cream/60 truncate">{j}</span>
-                          <span className="font-mono text-sm text-tango-brass font-semibold">{r.scores[idx]}</span>
+                          <span className="font-mono text-sm text-tango-brass font-semibold flex-shrink-0">{r.scores[idx]}</span>
                         </div>
                       ))}
                     </div>
