@@ -4,13 +4,23 @@ import { PageHeader } from '../components/PageHeader';
 import { EditorialButton, OrnamentDivider } from '../components/editorial';
 import { extractYouTubeId } from '../utils/tangoHelpers';
 import { shortOrchestraName } from '../utils/tandaAnalysis';
+import { isMusicVideo } from '../utils/videoTypes';
 import songsData from '../data/songs.json';
 import appearancesData from '../data/appearances.json';
+import roundsData from '../data/competition_rounds.json';
 import type { Song, Appearance } from '../types/tango';
 
 const songs = songsData as Song[];
 const appearances = appearancesData as Appearance[];
 const songMap = new Map(songs.map(s => [s.song_id, s]));
+
+// video_id → channel 맵 (음원 플레이리스트 필터용)
+const videoChannelMap = new Map<string, string>();
+for (const r of (roundsData as any).rounds) {
+  for (const v of r.videos || []) {
+    if (v.video_id && v.channel) videoChannelMap.set(v.video_id, v.channel);
+  }
+}
 
 const MAJOR_ORCHS = [
   "D'Arienzo", 'Di Sarli', 'Pugliese', 'Tanturi',
@@ -27,9 +37,14 @@ interface QuizItem {
 
 function pickRandomQuiz(): QuizItem | null {
   // 대회에 많이 나온 곡 위주 + YouTube 영상 있는 것
+  // ⚠ 음원 플레이리스트 (Thanh Dang 등)는 화면에 정답이 노출되므로 제외
   const appsBySong = new Map<string, Appearance[]>();
   for (const a of appearances) {
-    if (!extractYouTubeId(a.source_url)) continue;
+    const vid = extractYouTubeId(a.source_url);
+    if (!vid) continue;
+    // 음원 플레이리스트 영상 제외 (화면에 곡명·악단 노출)
+    const ch = videoChannelMap.get(vid);
+    if (ch && isMusicVideo({ channel: ch })) continue;
     const song = songMap.get(a.song_id);
     if (!song?.orchestra) continue;
     const list = appsBySong.get(a.song_id) || [];
@@ -44,7 +59,15 @@ function pickRandomQuiz(): QuizItem | null {
   const song = songMap.get(songId);
   if (!song) return null;
 
-  const videoId = extractYouTubeId(apps[0].source_url);
+  // 추가 안전장치: 채널 미상이면 exclude (확신 없는 영상 스킵)
+  const validApp = apps.find(a => {
+    const vid = extractYouTubeId(a.source_url);
+    const ch = vid ? videoChannelMap.get(vid) : null;
+    return ch && !isMusicVideo({ channel: ch });
+  });
+  if (!validApp) return null;
+
+  const videoId = extractYouTubeId(validApp.source_url);
   const correctOrch = shortOrchestraName(song.orchestra);
 
   // 오답 3개 무작위
@@ -146,16 +169,33 @@ export function SongQuizPage() {
 
           {quiz ? (
             <>
-              {/* 영상 */}
+              {/* 영상 — 정답 제출 전까지 블러 처리 (혹시라도 정답 보이는 영상 방지) */}
               {quiz.videoId && (
                 <div className="relative w-full rounded-sm overflow-hidden border border-tango-brass/20" style={{ paddingBottom: '56.25%' }}>
                   <iframe
                     className="absolute inset-0 w-full h-full"
-                    src={`https://www.youtube.com/embed/${quiz.videoId}?autoplay=0`}
+                    src={`https://www.youtube.com/embed/${quiz.videoId}?autoplay=0&rel=0&showinfo=0&modestbranding=1`}
                     title="Quiz"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                   />
+                  {/* 정답 전까지 화면 가리기 (소리만 듣기) · 클릭은 iframe으로 전달 */}
+                  {!answer && (
+                    <div className="absolute inset-0 backdrop-blur-3xl bg-tango-ink/90 flex items-center justify-center pointer-events-none">
+                      <div className="text-center">
+                        <div className="text-5xl mb-3">🔊</div>
+                        <div className="text-tango-brass text-xs tracking-[0.3em] uppercase font-sans mb-1">
+                          Listen Only · 화면 가림
+                        </div>
+                        <div className="text-tango-cream/70 font-serif italic text-sm" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                          소리로만 악단 맞추기
+                        </div>
+                        <div className="text-tango-cream/50 font-sans text-[10px] mt-2">
+                          플레이 버튼은 ▶ 중앙 클릭 · 정답 제출 후 화면 공개
+                        </div>
+                      </div>
+                    </div>
+                  )}
                 </div>
               )}
 
