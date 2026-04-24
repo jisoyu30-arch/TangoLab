@@ -7153,14 +7153,9 @@
           "url": "https://www.youtube.com/watch?v=umOosKWLhzo",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2021 - Final - Ronda 2"
-        },
-        {
-          "video_id": "eQ-LGtnlqN4",
-          "url": "https://www.youtube.com/watch?v=eQ-LGtnlqN4",
-          "channel": "AiresDeMilonga",
-          "title": "Final Escenario, Ronda 2 Mundial de Tango 2021, baile de tango"
         }
-      ]
+      ],
+      "note": "⚠ 2021년 COVID 시기 · 실제 대회 영상 공개 안 됨. Thanh Dang 음원 참고만 가능."
     },
     {
       "round_id": "R-MUNDIAL2021-PISTA-F3",
@@ -7177,14 +7172,9 @@
           "url": "https://www.youtube.com/watch?v=3RRrWK9ySBk",
           "channel": "Thanh Dang",
           "title": "Mundial de Tango Buenos Aires 2021 - Final - Ronda 3"
-        },
-        {
-          "video_id": "PQcKbwKhRpM",
-          "url": "https://www.youtube.com/watch?v=PQcKbwKhRpM",
-          "channel": "AiresDeMilonga",
-          "title": "Final Escenario, Ronda 3 Mundial de Tango 2021, baile de tango mp4"
         }
-      ]
+      ],
+      "note": "⚠ 2021년 COVID 시기 · 실제 대회 영상 공개 안 됨. Thanh Dang 음원 참고만 가능."
     },
     {
       "round_id": "R-MUNDIAL2021-PISTA-F4",
@@ -24837,6 +24827,42 @@
           "url": "https://www.youtube.com/watch?v=W-e9Z_Fu65M",
           "channel": "Korea Tango Cooperative",
           "title": "2018 seoul metropolitan tango championship escenario(1)"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2021-ESCENARIO-F2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2021,
+      "category": "escenario",
+      "stage": "final",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "eQ-LGtnlqN4",
+          "url": "https://www.youtube.com/watch?v=eQ-LGtnlqN4",
+          "channel": "AiresDeMilonga",
+          "title": "Final Escenario, Ronda 2 Mundial de Tango 2021, baile de tango"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2021-ESCENARIO-F3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2021,
+      "category": "escenario",
+      "stage": "final",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "PQcKbwKhRpM",
+          "url": "https://www.youtube.com/watch?v=PQcKbwKhRpM",
+          "channel": "AiresDeMilonga",
+          "title": "Final Escenario, Ronda 3 Mundial de Tango 2021, baile de tango"
         }
       ]
     }
