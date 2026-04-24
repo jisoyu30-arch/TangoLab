@@ -19532,9 +19532,12 @@
           "video_id": "KsI2EgUno5s",
           "url": "https://www.youtube.com/watch?v=KsI2EgUno5s",
           "channel": "Korea Tango Cooperative",
-          "title": "2024 Korea Tango Championship Jack & Jill Semi-Final Ronda 2"
+          "title": "2024 Korea Tango Championship Jack & Jill Semi-Final Ronda 2",
+          "type": "performance",
+          "my_partner_in": true
         }
-      ]
+      ],
+      "highlight": "🌟 석정 #340 출전 (Jack R2 · 20위)"
     },
     {
       "round_id": "R-KTC2024-PISTA-SINGLES-JACKANDJILL-SF1",
