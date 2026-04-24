@@ -3,7 +3,10 @@ import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { PageHeader } from '../components/PageHeader';
 import { OrnamentDivider } from '../components/editorial';
+import { TaggedVideoPlayer } from '../components/TaggedVideoPlayer';
+import type { VideoSong, VideoParticipant } from '../components/TaggedVideoPlayer';
 import ktcData from '../data/ktc_participants.json';
+import roundsData from '../data/competition_rounds.json';
 
 // 우리 대회 영상 매핑 (key = year-category-stage)
 const MY_VIDEOS: Record<string, { id: string; label: string; group?: string }> = {
@@ -237,24 +240,77 @@ export function CoupleCommandCenterPage() {
               실제 대회에서 춤춘 모든 영상 — 썸네일 클릭하면 바로 재생
             </p>
 
-            {/* 현재 재생 중 플레이어 */}
-            {playingVideo && (
-              <div className="mb-4 rounded-sm overflow-hidden border border-tango-brass/40 bg-tango-shadow">
-                <div className="flex items-center justify-between px-3 py-2 bg-tango-brass/10 border-b border-tango-brass/20">
-                  <span className="text-xs text-tango-brass font-semibold">▶ 재생 중</span>
-                  <button onClick={() => setPlayingVideo(null)} className="text-tango-cream/60 hover:text-red-400 text-sm">✕ 닫기</button>
-                </div>
-                <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-                  <iframe
-                    className="absolute inset-0 w-full h-full"
-                    src={`https://www.youtube.com/embed/${playingVideo}?autoplay=1`}
-                    title="우리 대회 영상"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
+            {/* 현재 재생 중 플레이어 — 곡/참가자/심사 메타 정보 포함 */}
+            {playingVideo && (() => {
+              const rounds = (roundsData as any).rounds as Array<any>;
+              const round = rounds.find(r => (r.videos || []).some((v: any) => v.video_id === playingVideo));
+              if (!round) {
+                return (
+                  <div className="mb-4 rounded-sm overflow-hidden border border-tango-brass/40 bg-tango-shadow">
+                    <div className="flex items-center justify-between px-3 py-2 bg-tango-brass/10 border-b border-tango-brass/20">
+                      <span className="text-xs text-tango-brass font-semibold">▶ 재생 중</span>
+                      <button onClick={() => setPlayingVideo(null)} className="text-tango-cream/60 hover:text-red-400 text-sm">✕ 닫기</button>
+                    </div>
+                    <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                      <iframe className="absolute inset-0 w-full h-full" src={`https://www.youtube.com/embed/${playingVideo}?autoplay=1`} title="영상" allow="autoplay; encrypted-media; picture-in-picture" allowFullScreen />
+                    </div>
+                  </div>
+                );
+              }
+              const v = round.videos.find((v: any) => v.video_id === playingVideo);
+              // 내가 받은 점수 매핑 (현재 round와 일치하는 myData 기록)
+              const myRec = myData.find(r =>
+                r.year === round.year &&
+                r.category === round.category &&
+                r.stage === round.stage
+              );
+              const myScoresByJudge: Record<string, number> = {};
+              if (myRec) {
+                myRec.judges.forEach((j, i) => { myScoresByJudge[j] = myRec.scores[i]; });
+              }
+
+              const songs: VideoSong[] = (round.songs || []).map((s: any) => ({
+                song_id: s.song_id, title: s.title, orchestra: s.orchestra, order: s.order, vocalist: s.vocalist,
+              }));
+              const participants: VideoParticipant[] = (round.participants || []).map((p: any) => ({
+                pareja: p.pareja, leader: p.leader, follower: p.follower, rank: p.rank,
+                advancedTo: p.advancedTo, isMyCouple: p.pareja === 180 || p.pareja === 340,
+              }));
+
+              return (
+                <div className="mb-4 relative">
+                  <button
+                    onClick={() => setPlayingVideo(null)}
+                    className="absolute top-2 right-2 z-10 w-8 h-8 rounded-full bg-tango-ink/80 text-tango-cream/80 hover:bg-red-500/80 hover:text-white flex items-center justify-center"
+                    title="닫기"
+                  >
+                    ✕
+                  </button>
+                  <TaggedVideoPlayer
+                    video={{
+                      video_id: playingVideo,
+                      title: v?.title,
+                      channel: v?.channel,
+                      start_sec: v?.start_sec,
+                      song_timestamps: v?.song_timestamps,
+                    }}
+                    songs={songs}
+                    participants={participants}
+                    judges={round.judges || []}
+                    myJudgeScores={myScoresByJudge}
+                    roundInfo={{
+                      competition: round.competition,
+                      year: round.year,
+                      stage: round.stage,
+                      ronda: round.ronda_number,
+                      group: round.group,
+                    }}
+                    highlight={round.highlight || (myRec ? `🌟 우리 출전 · ${myRec.rank}위` : undefined)}
+                    autoPlay
                   />
                 </div>
-              </div>
-            )}
+              );
+            })()}
 
             {/* 영상 썸네일 그리드 - 모바일에선 2열 고정 */}
             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-2 md:gap-3">
