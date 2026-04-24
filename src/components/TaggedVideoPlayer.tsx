@@ -1,6 +1,7 @@
 // 태그 영상 플레이어 — 영상 재생 시 곡/참가자/심사위원 메타 정보 패널 동시 표시
 // 재사용 가능: Command Center · TandaLab · SongDetail 등
-import { useState, useMemo } from 'react';
+// + 곡 타임스탬프 클릭 시 해당 시점으로 점프 (postMessage API)
+import { useState, useMemo, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 export interface VideoSong {
@@ -58,15 +59,41 @@ export function TaggedVideoPlayer({
   const [activeTab, setActiveTab] = useState<'songs' | 'participants' | 'judges'>(
     songs.length > 0 ? 'songs' : participants.length > 0 ? 'participants' : 'judges'
   );
+  const iframeRef = useRef<HTMLIFrameElement>(null);
 
   const videoUrl = useMemo(() => {
     const params = new URLSearchParams();
     params.set('rel', '0');
     params.set('modestbranding', '1');
+    params.set('enablejsapi', '1'); // postMessage 지원
     if (autoPlay) params.set('autoplay', '1');
     if (video.start_sec) params.set('start', String(video.start_sec));
     return `https://www.youtube.com/embed/${video.video_id}?${params.toString()}`;
   }, [video.video_id, video.start_sec, autoPlay]);
+
+  // 특정 시점으로 점프 (YouTube postMessage API)
+  const seekTo = (seconds: number) => {
+    const iframe = iframeRef.current;
+    if (!iframe?.contentWindow) return;
+    iframe.contentWindow.postMessage(
+      JSON.stringify({ event: 'command', func: 'seekTo', args: [seconds, true] }),
+      '*'
+    );
+    // 자동으로 재생도 시작
+    iframe.contentWindow.postMessage(
+      JSON.stringify({ event: 'command', func: 'playVideo', args: [] }),
+      '*'
+    );
+  };
+
+  // 곡 타임스탬프 매핑 (order 기준)
+  const songTimestampByOrder = useMemo(() => {
+    const map = new Map<number, number>();
+    (video.song_timestamps || []).forEach(ts => {
+      map.set(ts.order, ts.sec);
+    });
+    return map;
+  }, [video.song_timestamps]);
 
   // 최종 진출 단계별 정렬
   const sortedParticipants = useMemo(() => {
@@ -121,6 +148,7 @@ export function TaggedVideoPlayer({
         {/* 영상 (2/3) */}
         <div className="lg:w-2/3 relative bg-black" style={{ aspectRatio: '16 / 9' }}>
           <iframe
+            ref={iframeRef}
             className="absolute inset-0 w-full h-full"
             src={videoUrl}
             title={video.title || 'Tagged video'}
@@ -153,7 +181,7 @@ export function TaggedVideoPlayer({
           {/* 탭 내용 */}
           <div className="flex-1 overflow-y-auto p-3 space-y-2">
             {activeTab === 'songs' && (
-              <SongsList songs={songs} />
+              <SongsList songs={songs} onSeek={seekTo} timestamps={songTimestampByOrder} />
             )}
             {activeTab === 'participants' && (
               <ParticipantsList participants={sortedParticipants} advanceBadge={advanceBadge} />
@@ -196,34 +224,54 @@ function TabButton({ children, active, onClick }: { children: React.ReactNode; a
   );
 }
 
-function SongsList({ songs }: { songs: VideoSong[] }) {
+function SongsList({ songs, onSeek, timestamps }: { songs: VideoSong[]; onSeek?: (sec: number) => void; timestamps?: Map<number, number> }) {
+  const formatTime = (sec: number) => {
+    const m = Math.floor(sec / 60);
+    const s = sec % 60;
+    return `${m}:${String(s).padStart(2, '0')}`;
+  };
   return (
     <div className="space-y-1.5">
-      {songs.map((s, i) => (
-        <div key={i} className="bg-white/5 rounded-sm p-2 text-xs">
-          <div className="flex items-baseline gap-2">
-            <span className="font-display text-sm text-tango-brass/60 font-bold flex-shrink-0" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
-              {s.order ?? i + 1}
-            </span>
-            <div className="flex-1 min-w-0">
-              {s.song_id && !s.song_id.startsWith('UNMATCHED') ? (
-                <Link to={`/song/${s.song_id}`} className="font-serif italic text-tango-paper hover:text-tango-brass truncate block" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
-                  {s.title}
-                </Link>
-              ) : (
-                <div className="font-serif italic text-tango-paper truncate" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
-                  {s.title}
+      {songs.map((s, i) => {
+        const order = s.order ?? i + 1;
+        const ts = timestamps?.get(order);
+        return (
+          <div key={i} className="bg-white/5 rounded-sm p-2 text-xs">
+            <div className="flex items-baseline gap-2">
+              <span className="font-display text-sm text-tango-brass/60 font-bold flex-shrink-0" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                {order}
+              </span>
+              <div className="flex-1 min-w-0">
+                <div className="flex items-baseline gap-2">
+                  {s.song_id && !s.song_id.startsWith('UNMATCHED') ? (
+                    <Link to={`/song/${s.song_id}`} className="font-serif italic text-tango-paper hover:text-tango-brass truncate" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                      {s.title}
+                    </Link>
+                  ) : (
+                    <div className="font-serif italic text-tango-paper truncate" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                      {s.title}
+                    </div>
+                  )}
+                  {ts !== undefined && onSeek && (
+                    <button
+                      onClick={() => onSeek(ts)}
+                      className="ml-auto flex-shrink-0 text-[10px] bg-tango-brass/20 hover:bg-tango-brass/40 text-tango-brass rounded-sm px-1.5 py-0.5 font-mono"
+                      title={`${formatTime(ts)} 지점으로 점프`}
+                    >
+                      ▶ {formatTime(ts)}
+                    </button>
+                  )}
                 </div>
-              )}
-              {s.orchestra && (
-                <div className="text-[10px] text-tango-cream/50 truncate">
-                  {s.orchestra}{s.vocalist ? ` · ${s.vocalist}` : ''}
-                </div>
-              )}
+                {s.orchestra && (
+                  <div className="text-[10px] text-tango-cream/50 truncate">
+                    {s.orchestra}{s.vocalist ? ` · ${s.vocalist}` : ''}
+                  </div>
+                )}
+              </div>
             </div>
           </div>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 }

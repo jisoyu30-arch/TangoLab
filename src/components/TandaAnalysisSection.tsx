@@ -8,6 +8,9 @@ import {
 } from '../utils/tandaAnalysis';
 import type { EnergyPattern } from '../utils/tandaAnalysis';
 import songsData from '../data/songs.json';
+import roundsData from '../data/competition_rounds.json';
+import { TaggedVideoPlayer } from './TaggedVideoPlayer';
+import type { VideoSong, VideoParticipant } from './TaggedVideoPlayer';
 import type { Song } from '../types/tango';
 
 const songs = songsData as Song[];
@@ -148,6 +151,7 @@ function PosBar({ pct, count, color }: { pct: number; count: number; color: stri
 
 function EnergyAnalysis({ tandas }: { tandas: Tanda[] }) {
   const [expandedPattern, setExpandedPattern] = useState<EnergyPattern | null>(null);
+  const [playingVideo, setPlayingVideo] = useState<string | null>(null);
 
   const patterns = useMemo(() => {
     const counts: Record<EnergyPattern, number> = { ascending: 0, descending: 0, valley: 0, peak: 0, flat: 0, other: 0 };
@@ -302,17 +306,53 @@ function EnergyAnalysis({ tandas }: { tandas: Tanda[] }) {
                               </span>
                             ))}
                           </div>
-                          {/* 영상 재생 버튼 */}
+                          {/* 영상 재생 버튼 — 인라인 TaggedVideoPlayer 펼침 */}
                           {firstVidId && (
-                            <a
-                              href={`https://www.youtube.com/watch?v=${firstVidId}`}
-                              target="_blank"
-                              rel="noopener noreferrer"
+                            <button
+                              onClick={() => setPlayingVideo(playingVideo === firstVidId ? null : firstVidId)}
                               className="inline-flex items-center gap-1 text-[10px] bg-tango-brass/20 hover:bg-tango-brass/30 text-tango-brass rounded-sm px-2 py-1"
                             >
-                              ▶ 영상 보기
-                            </a>
+                              {playingVideo === firstVidId ? '✕ 닫기' : '▶ 영상 + 메타'}
+                            </button>
                           )}
+                          {/* 인라인 플레이어 (이 론다가 선택됐을 때) */}
+                          {playingVideo === firstVidId && (() => {
+                            const allRounds = (roundsData as any).rounds as Array<any>;
+                            const fullRound = allRounds.find(x => (x.videos || []).some((v: any) => v.video_id === firstVidId));
+                            if (!fullRound) return null;
+                            const v = fullRound.videos.find((v: any) => v.video_id === firstVidId);
+                            const songs: VideoSong[] = (fullRound.songs || []).map((s: any) => ({
+                              song_id: s.song_id, title: s.title, orchestra: s.orchestra, order: s.order, vocalist: s.vocalist,
+                            }));
+                            const participants: VideoParticipant[] = (fullRound.participants || []).map((p: any) => ({
+                              pareja: p.pareja, leader: p.leader, follower: p.follower, rank: p.rank,
+                              advancedTo: p.advancedTo,
+                            }));
+                            return (
+                              <div className="mt-2">
+                                <TaggedVideoPlayer
+                                  video={{
+                                    video_id: firstVidId,
+                                    title: v?.title,
+                                    channel: v?.channel,
+                                    start_sec: v?.start_sec,
+                                  }}
+                                  songs={songs}
+                                  participants={participants}
+                                  judges={fullRound.judges || []}
+                                  roundInfo={{
+                                    competition: fullRound.competition,
+                                    year: fullRound.year,
+                                    stage: fullRound.stage,
+                                    ronda: fullRound.ronda_number,
+                                    group: fullRound.group,
+                                  }}
+                                  highlight={fullRound.highlight}
+                                  autoPlay
+                                />
+                              </div>
+                            );
+                          })()}
                           {!firstVidId && (
                             <span className="text-[9px] text-tango-cream/40">영상 없음</span>
                           )}

@@ -13,6 +13,8 @@ import { SongLifecycleTimeline } from '../components/SongLifecycleTimeline';
 import { SongCooccurrenceNetwork } from '../components/SongCooccurrenceNetwork';
 import { usePageMeta } from '../hooks/usePageMeta';
 import { isPerformanceVideo, isMusicVideo } from '../utils/videoTypes';
+import { TaggedVideoPlayer } from '../components/TaggedVideoPlayer';
+import type { VideoSong, VideoParticipant } from '../components/TaggedVideoPlayer';
 
 import songsData from '../data/songs.json';
 import appearancesData from '../data/appearances.json';
@@ -583,39 +585,56 @@ export function SongDetailPage() {
           )}
 
           <div id="videos"></div>
-          {/* 🎥 대회 영상 (실제 커플 퍼포먼스) — 최대 2개 */}
+          {/* 🎥 대회 영상 (실제 커플 퍼포먼스) — TaggedVideoPlayer로 통일 */}
           {videos.length > 0 && (
             <div className="space-y-4">
               <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans">
                 🎥 대회 영상 · Competition Performance
               </div>
-              {videos.map((v, i) => (
-                <div key={v.videoId} className="bg-white/5 rounded-xl overflow-hidden border border-tango-brass/30">
-                  <div className="px-4 py-2 border-b border-tango-brass/20 flex items-center justify-between">
-                    <div className="flex items-center gap-2">
+              {videos.map((v, i) => {
+                // 이 영상이 속한 round 찾기
+                const fullRound = allRounds.find(r => (r.videos || []).some(vv => vv.video_id === v.videoId));
+                const rawVideoMeta = fullRound?.videos?.find(vv => vv.video_id === v.videoId) as any;
+                const roundSongs: VideoSong[] = (fullRound?.songs || []).map((s: any) => ({
+                  song_id: s.song_id, title: s.title, orchestra: s.orchestra, order: s.order, vocalist: s.vocalist,
+                }));
+                const roundParticipants: VideoParticipant[] = ((fullRound as any)?.participants || []).map((p: any) => ({
+                  pareja: p.pareja, leader: p.leader, follower: p.follower, rank: p.rank,
+                  advancedTo: p.advancedTo,
+                }));
+                return (
+                  <div key={v.videoId}>
+                    <div className="flex items-center justify-between mb-1 px-1">
                       <span className="text-tango-brass text-xs font-semibold">영상 {i + 1}</span>
-                      <span className="text-gray-300 text-xs">{v.label}</span>
-                      {v.channel && (
-                        <span className="text-[10px] text-tango-cream/50">· {v.channel}</span>
+                      {v.songOrder && (
+                        <span className="text-xs bg-tango-brass/20 text-tango-brass px-2 py-0.5 rounded-full">
+                          이 영상에서 {song.title} = {v.songOrder}번째 곡
+                        </span>
                       )}
                     </div>
-                    {v.songOrder && (
-                      <span className="text-xs bg-tango-brass/20 text-tango-brass px-2 py-0.5 rounded-full">
-                        이 영상에서 {v.songOrder}번째 곡
-                      </span>
-                    )}
-                  </div>
-                  <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-                    <iframe
-                      className="absolute inset-0 w-full h-full"
-                      src={`https://www.youtube.com/embed/${v.videoId}`}
-                      title={`${song.title} - ${v.label}`}
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
+                    <TaggedVideoPlayer
+                      video={{
+                        video_id: v.videoId,
+                        title: rawVideoMeta?.title,
+                        channel: rawVideoMeta?.channel || v.channel,
+                        start_sec: rawVideoMeta?.start_sec,
+                        song_timestamps: rawVideoMeta?.song_timestamps,
+                      }}
+                      songs={roundSongs}
+                      participants={roundParticipants}
+                      judges={(fullRound as any)?.judges || []}
+                      roundInfo={fullRound ? {
+                        competition: fullRound.competition,
+                        year: fullRound.year,
+                        stage: fullRound.stage,
+                        ronda: fullRound.ronda_number,
+                        group: (fullRound as any).group,
+                      } : undefined}
+                      highlight={(fullRound as any)?.highlight || (rawVideoMeta?.my_couple_in ? '🌟 소유&석정 출전' : undefined)}
                     />
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           )}
 
