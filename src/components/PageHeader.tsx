@@ -16,23 +16,26 @@ export function PageHeader({ title, onBack, right, autoMeta = true }: PageHeader
   usePageMeta(autoMeta ? { title } : {});
 
   return (
-    <header className="h-14 border-b border-tango-brass/20 bg-tango-shadow/80 backdrop-blur-sm flex items-center justify-between px-4 flex-shrink-0">
-      <div className="flex items-center gap-3 min-w-0">
-        {onBack ? (
+    <header className="h-14 border-b border-tango-brass/20 bg-tango-shadow/80 backdrop-blur-sm flex items-center justify-between px-2 md:px-4 flex-shrink-0">
+      <div className="flex items-center gap-1 md:gap-3 min-w-0">
+        {/* 뒤로가기 (onBack 있을 때만) */}
+        {onBack && (
           <button
             onClick={onBack}
             className="text-tango-cream/60 hover:text-tango-brass text-lg transition-colors min-w-[40px] min-h-[40px] flex items-center justify-center flex-shrink-0"
+            aria-label="뒤로가기"
           >
             ←
           </button>
-        ) : (
-          <button
-            onClick={openSidebar}
-            className="md:hidden text-tango-brass text-lg min-w-[40px] min-h-[40px] flex items-center justify-center flex-shrink-0"
-          >
-            ☰
-          </button>
         )}
+        {/* 햄버거 (모바일에서 항상) */}
+        <button
+          onClick={openSidebar}
+          className="md:hidden text-tango-brass text-lg min-w-[40px] min-h-[40px] flex items-center justify-center flex-shrink-0"
+          aria-label="메뉴 열기"
+        >
+          ☰
+        </button>
         <h2 className="font-serif italic text-base md:text-lg text-tango-paper truncate" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
           {title}
         </h2>
