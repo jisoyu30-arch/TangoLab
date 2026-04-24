@@ -21513,12 +21513,10 @@
           "url": "https://www.youtube.com/watch?v=e43rSSxA0sg",
           "channel": "Korea Tango Cooperative",
           "title": "2023 Korea Tango Championship : Jack&Jill C (Semifinal Ronda 3)",
-          "type": "performance",
-          "my_partner_in": true
+          "type": "performance"
         }
       ],
-      "group": "C",
-      "highlight": "🌟 석정 #180 속한 조 (C조 Ronda 3) · 22위"
+      "group": "C"
     },
     {
       "round_id": "R-KTC2023-PISTA-NEWSTAR-F1",
@@ -21552,9 +21550,13 @@
           "video_id": "Hl1FSNIlY1w",
           "url": "https://www.youtube.com/watch?v=Hl1FSNIlY1w",
           "channel": "Korea Tango Cooperative",
-          "title": "2023 Korea Tango Championship : Jack&Jill B (Semifinal Ronda 2)"
+          "title": "2023 Korea Tango Championship : Jack&Jill B (Semifinal Ronda 2)",
+          "type": "performance",
+          "my_partner_in": true
         }
-      ]
+      ],
+      "group": "B",
+      "highlight": "🌟 석정 #180 속한 조 (B조 Ronda 2) · 22위"
     },
     {
       "round_id": "R-KTC2023-PISTA-SINGLES-JACKANDJILL-SF1",

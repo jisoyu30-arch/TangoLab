@@ -42,10 +42,10 @@ export function MyCompetitionsPage() {
         url: 'https://www.youtube.com/watch?v=zyMNqg4N0XU',
         note: '✅ 준결승 A조 Ronda 1 (소유&석정 #180 확정) · 9위로 결승 진출 · 예선 영상 별도: w4j12NGjOD4 (E조)',
       },
-      // 2023 Jack 준결승 C조 (석정 #180)
+      // 2023 Jack 준결승 B조 Ronda 2 (석정 #180) — 사용자 확정
       '2023-jack-semifinal': {
-        url: 'https://www.youtube.com/watch?v=e43rSSxA0sg',
-        note: 'Jack&Jill C조 (석정 #180 속한 조)',
+        url: 'https://www.youtube.com/watch?v=Hl1FSNIlY1w',
+        note: '✅ Jack&Jill B조 Ronda 2 · 석정 #180 · 22위',
       },
       // 2024 Pista 준결승 — 어느 Ronda인지 확인 필요 (4개 후보)
       '2024-pista-semifinal': {
