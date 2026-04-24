@@ -11,17 +11,10 @@ export default defineConfig({
     chunkSizeWarningLimit: 1000,
     rollupOptions: {
       output: {
+        // ⚠️ node_modules 수동 분리는 React 초기화 순서를 망쳐서
+        // "Cannot set properties of undefined (setting 'Children')" 에러 발생.
+        // Vite 기본 청크 전략을 그대로 두고, 큰 데이터 JSON만 별도 청크로 분리한다.
         manualChunks: (id) => {
-          // node_modules → vendor 청크로 분리
-          if (id.includes('node_modules')) {
-            if (id.includes('react-router') || id.includes('react-dom') || id.includes('react/')) {
-              return 'vendor-react';
-            }
-            if (id.includes('firebase')) return 'vendor-firebase';
-            if (id.includes('recharts') || id.includes('chart')) return 'vendor-charts';
-            return 'vendor-misc';
-          }
-          // 큰 데이터 파일 → 별도 청크 (한 번만 로드)
           if (id.includes('src/data/competition_rounds.json')) return 'data-rounds';
           if (id.includes('src/data/mundial_participants')) return 'data-participants';
           if (id.includes('src/data/mundial_results')) return 'data-mundial';
