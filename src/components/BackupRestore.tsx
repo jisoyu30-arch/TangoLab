@@ -70,19 +70,21 @@ export function BackupRestore({ compact = false }: { compact?: boolean }) {
   };
 
   if (compact) {
-    const needsBackup = !summary.lastBackup || (Date.now() - new Date(summary.lastBackup).getTime()) > 7 * 86400000;
+    // 🔧 데이터가 0KB면 "백업 필요"라 표시할 의미 없음
+    const hasData = (summary.sizeKB ?? 0) > 0;
+    const needsBackup = hasData && (!summary.lastBackup || (Date.now() - new Date(summary.lastBackup).getTime()) > 7 * 86400000);
     return (
       <div className="space-y-2">
         <button
           onClick={handleExport}
-          disabled={busy}
+          disabled={busy || !hasData}
           className={`w-full flex items-center justify-between px-3 py-2 rounded-sm text-xs border transition-colors ${
             needsBackup
               ? 'border-tango-brass/50 bg-tango-brass/10 text-tango-brass hover:bg-tango-brass/20'
               : 'border-tango-brass/20 bg-white/5 text-tango-cream/80 hover:bg-tango-brass/5'
-          }`}
+          } ${!hasData ? 'opacity-50 cursor-not-allowed' : ''}`}
         >
-          <span>📥 {needsBackup ? '백업 필요' : '백업 다운로드'}</span>
+          <span>📥 {!hasData ? '백업할 데이터 없음' : (needsBackup ? '백업 필요' : '백업 다운로드')}</span>
           <span className="opacity-60">{summary.sizeKB}KB</span>
         </button>
         <button

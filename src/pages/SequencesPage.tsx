@@ -180,6 +180,8 @@ function SequenceDetail({
   const [newClipUrl, setNewClipUrl] = useState('');
   const [newClipNote, setNewClipNote] = useState('');
   const [newClipDate, setNewClipDate] = useState(new Date().toISOString().split('T')[0]);
+  // 비교 모드 — 좁은 화면에서도 강제 나란히 보기 가능
+  const [compareMode, setCompareMode] = useState<'auto' | 'side' | 'stack'>('auto');
 
   const activeClip = seq.practice_clips.find(c => c.id === activeClipId) || seq.practice_clips[0];
   const refEmbed = extractEmbed(seq.reference_url);
@@ -242,8 +244,36 @@ function SequenceDetail({
         </div>
       </div>
 
+      {/* 비교 모드 토글 (모바일에서 유용) */}
+      <div className="flex items-center justify-between gap-2 flex-wrap">
+        <span className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans">
+          Comparison · 비교 모드
+        </span>
+        <div className="flex gap-1">
+          {([
+            { v: 'auto', l: '자동' },
+            { v: 'side', l: '🔀 나란히' },
+            { v: 'stack', l: '↕ 위아래' },
+          ] as const).map(t => (
+            <button
+              key={t.v}
+              onClick={() => setCompareMode(t.v)}
+              className={`text-[10px] px-2 py-1 rounded-sm border ${
+                compareMode === t.v ? 'border-tango-brass bg-tango-brass/15 text-tango-brass' : 'border-tango-brass/15 text-tango-cream/60 hover:border-tango-brass/40'
+              }`}
+            >
+              {t.l}
+            </button>
+          ))}
+        </div>
+      </div>
+
       {/* 2분할 영상 비교 — 좌:레퍼런스 / 우:우리 연습 */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
+      <div className={`grid gap-3 ${
+        compareMode === 'side' ? 'grid-cols-2' :
+        compareMode === 'stack' ? 'grid-cols-1' :
+        'grid-cols-1 md:grid-cols-2'
+      }`}>
         {/* 좌: 레퍼런스 */}
         <div className="bg-tango-shadow/40 border-2 border-tango-brass/30 rounded-sm overflow-hidden">
           <div className="bg-tango-brass/10 px-3 py-2 flex items-center justify-between">

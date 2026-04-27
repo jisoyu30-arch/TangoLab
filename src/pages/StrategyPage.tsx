@@ -270,7 +270,52 @@ export function StrategyPage() {
                 <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-3">
                   Full Matrix · 전체 한눈
                 </div>
-                <div className="overflow-x-auto">
+
+                {/* 모바일: 음악 분류별 카드 4개 (각 카드 안에 5차원) */}
+                <div className="md:hidden space-y-3">
+                  {MUSIC_TYPES.map(m => (
+                    <div key={m.key} className="border rounded-sm overflow-hidden" style={{ borderColor: `${m.color}33` }}>
+                      <div className="px-3 py-2 flex items-baseline justify-between" style={{ backgroundColor: `${m.color}15` }}>
+                        <span className="font-serif italic text-base text-tango-paper" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                          {m.label}
+                        </span>
+                        <span className="text-[10px] tracking-widest uppercase" style={{ color: m.color }}>{m.sub}</span>
+                      </div>
+                      <div className="grid grid-cols-5 gap-px bg-tango-brass/10">
+                        {DIMENSIONS.map(d => {
+                          const c = matrix.data.cells[cellKey(m.key, d.key)];
+                          const refs = c?.reference_videos?.length || 0;
+                          const owns = c?.own_videos?.length || 0;
+                          const hasNotes = !!c?.notes.trim();
+                          const filled = hasNotes || refs || owns;
+                          const isActive = activeMusic === m.key && activeDim === d.key;
+                          return (
+                            <button
+                              key={d.key}
+                              onClick={() => { setActiveMusic(m.key); setActiveDim(d.key); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+                              className={`bg-tango-ink p-2 text-center min-h-[56px] flex flex-col items-center justify-center gap-0.5 ${isActive ? 'ring-2 ring-tango-brass' : ''}`}
+                              title={d.label}
+                            >
+                              <span className="text-base">{d.icon}</span>
+                              {filled ? (
+                                <div className="flex items-center gap-0.5 text-[9px]">
+                                  {hasNotes && <span className="text-tango-brass">●</span>}
+                                  {refs > 0 && <span className="text-tango-brass">📚{refs}</span>}
+                                  {owns > 0 && <span className="text-tango-rose">🎬{owns}</span>}
+                                </div>
+                              ) : (
+                                <span className="text-tango-cream/30 text-[10px]">·</span>
+                              )}
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                {/* 데스크톱: 표 형태 */}
+                <div className="hidden md:block overflow-x-auto">
                   <table className="w-full text-xs border border-tango-brass/15 rounded-sm overflow-hidden">
                     <thead className="bg-tango-shadow/60">
                       <tr>
