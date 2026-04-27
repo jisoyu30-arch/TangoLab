@@ -50,12 +50,12 @@ export const CELL_GUIDES: Record<string, { headline: string; points: string[] }>
     ],
   },
   'rhythmic:calesita': {
-    headline: '빠른 회전 + 정확한 stop-go',
+    headline: '리더의 걸음이 박자에 정확 — 팔로워 축 단단히',
     points: [
-      '카레시따 안에 박자 단위로 멈추기',
-      '회전 자체를 빠르게, 그러나 박자 안에 정확히',
-      'Pivot 다음 박자에 멈추는 시각적 stop',
-      '팔로워 무릎은 늘 살짝 굽혀 즉시 정지 가능',
+      '팔로워는 한 발 축, 리더가 그 주위를 걷는 figura',
+      '리더의 발걸음 하나하나가 비트와 정확히 일치',
+      '팔로워 축은 흔들림 없음, 무게는 한 발에 단단히',
+      '팔로워는 다른 발로 짧은 타파다(tapada)·picado adornos',
     ],
   },
   'rhythmic:variation': {
@@ -97,12 +97,12 @@ export const CELL_GUIDES: Record<string, { headline: string; points: string[] }>
     ],
   },
   'melodic:calesita': {
-    headline: '느린 카레시따 — 발걸음을 음표 따라',
+    headline: '느린 카레시따 — 리더가 음표 따라 길게 걷기',
     points: [
-      '카레시따를 천천히, 음표 한 박자가 한 발걸음',
-      '리더는 거의 안 움직이고 팔로워가 부드럽게 회전',
-      '회전 중에도 끌리는 발자국 느낌',
-      '멈춤은 음악 페이즈 끝에서만',
+      '팔로워가 축, 리더가 천천히 큰 원을 그리며 걷는다',
+      '리더의 발걸음은 음표 길이 — 끌듯이 길게',
+      '팔로워는 안정된 축 위에서 부드러운 호흡',
+      '음악 라인에 따라 원의 크기 변화 — 안쪽으로 작게, 다시 크게',
     ],
   },
   'melodic:variation': {
@@ -144,12 +144,12 @@ export const CELL_GUIDES: Record<string, { headline: string; points: string[] }>
     ],
   },
   'show:calesita': {
-    headline: '드라마틱 회전 — 스폿라이트 의식',
+    headline: '드라마틱 카레시따 — 팔로워가 중심, 리더가 둘러싸기',
     points: [
-      '카레시따를 무대 중앙에 놓는 의도',
-      '회전 시 팔/시선까지 모두 표현',
-      '스피드 변화로 긴장감 — 빨라졌다 느려지기',
-      '회전 끝에 명확한 포즈',
+      '팔로워 축 위에서 화려한 adornos·planeo',
+      '리더가 큰 원을 그리며 시각적으로 둘러싸는 동선',
+      '스피드 변화로 긴장감 — 리더 걸음이 빨라졌다 느려지기',
+      '카레시따 마무리에 명확한 finishing pose',
     ],
   },
   'show:variation': {
@@ -193,12 +193,12 @@ export const CELL_GUIDES: Record<string, { headline: string; points: string[] }>
     ],
   },
   'traditional:calesita': {
-    headline: 'Pausa도 표현 — 잘 멈추는 것이 트래디셔널의 표식',
+    headline: '클래식 카레시따 — 안정된 축, 정통 figura',
     points: [
-      '회전 자체보다 "회전 후 멈춤"의 질이 핵심',
-      '리더가 중심 축, 팔로워는 정확한 원',
-      '회전 속도 일정 — 가속·과시 없음',
-      '멈춤(pausa)이 채움보다 더 큰 표현',
+      '팔로워가 한 발 축, 리더가 그 주위를 정통 워킹으로 걷기',
+      '원은 작게, 가속·과시 없이 안정',
+      '팔로워의 단단한 축이 모든 것의 토대',
+      '카레시따 후 자연스러운 워킹으로 흘러나가는 마무리',
     ],
   },
   'traditional:variation': {
