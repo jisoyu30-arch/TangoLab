@@ -174,42 +174,60 @@ export function WeaknessAnalysisPage() {
               <div className="text-[10px] tracking-[0.3em] uppercase text-tango-rose font-sans mb-3">
                 Critical · 최우선 보강 영역
               </div>
-              <h2 className="font-display text-2xl md:text-3xl text-tango-paper italic mb-6" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+              <h2 className="font-display text-2xl md:text-3xl text-tango-paper italic mb-3" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
                 지금 가장 <em className="text-tango-rose">아픈 곳</em>
               </h2>
+
+              {/* 🔧 샘플이 적을 때 신뢰도 경고 */}
+              {weakestJudges.every(j => j.samples < 5) && (
+                <div className="bg-tango-brass/5 border border-tango-brass/30 rounded-sm p-3 mb-5 text-xs text-tango-cream/70 font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                  ⚠ 모든 약점이 5회 미만 샘플에 기반 — 통계적 신뢰도 낮음. 대회 데이터가 더 쌓이면 정확도가 올라갑니다.
+                </div>
+              )}
+
               <div className="grid md:grid-cols-3 gap-4">
-                {weakestJudges.map((j, i) => (
-                  <div key={j.name} className="bg-tango-rose/5 border border-tango-rose/30 rounded-sm p-5">
-                    <div className="text-[9px] tracking-widest uppercase text-tango-rose/70 font-sans mb-2">
-                      Weak #{i + 1}
-                    </div>
-                    <div className="font-display text-xl text-tango-paper italic mb-3" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
-                      {j.name}
-                    </div>
-                    <div className="flex items-baseline gap-2 mb-3">
-                      <span className="font-display text-4xl text-tango-rose font-bold" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
-                        {j.avg.toFixed(2)}
-                      </span>
-                      <span className="text-xs text-tango-cream/50">평균 / {j.samples}회</span>
-                    </div>
-                    <div className="flex items-center gap-3 text-xs text-tango-cream/60 mb-3">
-                      <span>최저 {j.min}</span>
-                      <span>·</span>
-                      <span>최고 {j.max}</span>
-                      {Math.abs(j.trend) > 0.1 && (
-                        <>
-                          <span>·</span>
-                          <span className={j.trend > 0 ? 'text-tango-paper' : 'text-tango-rose'}>
-                            추세 {j.trend > 0 ? '+' : ''}{j.trend.toFixed(2)}
+                {weakestJudges.map((j, i) => {
+                  const lowSample = j.samples < 5;
+                  return (
+                    <div key={j.name} className="bg-tango-rose/5 border border-tango-rose/30 rounded-sm p-5">
+                      <div className="flex items-center justify-between mb-2">
+                        <div className="text-[9px] tracking-widest uppercase text-tango-rose/70 font-sans">
+                          Weak #{i + 1}
+                        </div>
+                        {lowSample && (
+                          <span className="text-[9px] tracking-widest uppercase text-tango-brass/70 font-sans" title="샘플 부족 — 5회 미만">
+                            ◯ 저신뢰
                           </span>
-                        </>
-                      )}
+                        )}
+                      </div>
+                      <div className="font-display text-xl text-tango-paper italic mb-3" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                        {j.name}
+                      </div>
+                      <div className="flex items-baseline gap-2 mb-3">
+                        <span className="font-display text-4xl text-tango-rose font-bold" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                          {j.avg.toFixed(2)}
+                        </span>
+                        <span className="text-xs text-tango-cream/50">평균 / {j.samples}회</span>
+                      </div>
+                      <div className="flex items-center gap-3 text-xs text-tango-cream/60 mb-3">
+                        <span>최저 {j.min}</span>
+                        <span>·</span>
+                        <span>최고 {j.max}</span>
+                        {Math.abs(j.trend) > 0.1 && (
+                          <>
+                            <span>·</span>
+                            <span className={j.trend > 0 ? 'text-tango-paper' : 'text-tango-rose'}>
+                              추세 {j.trend > 0 ? '+' : ''}{j.trend.toFixed(2)}
+                            </span>
+                          </>
+                        )}
+                      </div>
+                      <div className="text-xs text-tango-cream/80 font-serif italic leading-snug" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                        {j.diagnosis}
+                      </div>
                     </div>
-                    <div className="text-xs text-tango-cream/80 font-serif italic leading-snug" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
-                      {j.diagnosis}
-                    </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </section>
           )}

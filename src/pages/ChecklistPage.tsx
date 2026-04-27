@@ -413,11 +413,57 @@ function TargetEditor({
   const [name, setName] = useState(initial.name);
   const [date, setDate] = useState(initial.date);
 
+  // 🎯 자주 출전하는 대회 프리셋 (현재 연도 기준 자동 계산)
+  const presets = (() => {
+    const today = new Date();
+    const year = today.getFullYear();
+    const tryYear = (m: number, d: number) => {
+      const guess = new Date(year, m - 1, d);
+      // 이미 지난 날짜면 다음 해로
+      return guess.getTime() < today.getTime() ? new Date(year + 1, m - 1, d) : guess;
+    };
+    const fmt = (d: Date) => d.toISOString().split('T')[0];
+    return [
+      { label: 'Mundial Pista', date: fmt(tryYear(8, 24)), hint: '8월 말 부에노스아이레스' },
+      { label: 'Mundial Escenario', date: fmt(tryYear(8, 30)), hint: '8월 말 결승' },
+      { label: 'KTC Korea', date: fmt(tryYear(11, 1)), hint: '대략 가을 — 정확한 날짜 확인 필요' },
+      { label: 'Asia Tango Cup', date: fmt(tryYear(7, 1)), hint: '여름 — 정확한 날짜 확인 필요' },
+    ];
+  })();
+
   return (
     <div className="space-y-3">
       <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-2">
         다음 대회 설정
       </div>
+
+      {/* 프리셋 (이름이 비어있을 때만 노출) */}
+      {!name.trim() && (
+        <div className="bg-tango-brass/5 border border-tango-brass/20 rounded-sm p-3 space-y-2">
+          <div className="text-[10px] tracking-widest uppercase text-tango-cream/60 font-sans mb-1">
+            ⚡ 빠른 선택 — 자주 출전하는 대회
+          </div>
+          <div className="grid grid-cols-2 gap-2">
+            {presets.map(p => (
+              <button
+                key={p.label}
+                onClick={() => { setName(p.label + ' ' + (new Date(p.date).getFullYear())); setDate(p.date); }}
+                className="text-left p-2 rounded-sm border border-tango-brass/20 bg-tango-ink hover:bg-tango-brass/10 hover:border-tango-brass/50 transition-colors"
+              >
+                <div className="text-xs font-serif italic text-tango-paper" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                  {p.label}
+                </div>
+                <div className="text-[9px] text-tango-cream/50">{p.hint}</div>
+                <div className="text-[10px] text-tango-brass/70 font-mono mt-0.5">{p.date}</div>
+              </button>
+            ))}
+          </div>
+          <div className="text-[10px] text-tango-cream/40 italic">
+            대회 이름과 날짜는 입력 후 자유롭게 수정 가능
+          </div>
+        </div>
+      )}
+
       <input
         type="text"
         value={name}

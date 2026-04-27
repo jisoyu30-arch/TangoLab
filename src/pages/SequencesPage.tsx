@@ -31,6 +31,38 @@ export function SequencesPage() {
     setSelectedId(id);
   };
 
+  // 🎯 음악 4분류별 시작 시퀀스 4개 자동 생성
+  const handleSeedStarters = () => {
+    const starters: Array<{ title: string; music_type: 'rhythmic' | 'melodic' | 'show' | 'traditional'; description: string }> = [
+      {
+        title: '리드믹 시퀀스 1',
+        music_type: 'rhythmic',
+        description: 'D\'Arienzo / Biagi 같은 마르카토 음악에 꺼낼 짧고 또렷한 시퀀스.\n\n핵심: 비트 위에 정확한 발놀림, traspié·짧은 사카다, sub-pulse(반박자) 활용.',
+      },
+      {
+        title: '멜로디컬 시퀀스 1',
+        music_type: 'melodic',
+        description: 'Di Sarli / Calo 같은 우아한 음악에 꺼낼 길게 흐르는 시퀀스.\n\n핵심: 음표 따라 길게 끌기, 부드러운 헤다·사카다, 우아한 정지(pausa).',
+      },
+      {
+        title: '쇼 탱고 시퀀스 1',
+        music_type: 'show',
+        description: '극적 음악(Pugliese 후기/Piazzolla 등)에 꺼낼 큰 라인 시퀀스.\n\n핵심: la línea(긴 신체 라인), 의도적 분리·재연결. ⚠ Pista 출전 시 점프·트레파다 금지.',
+      },
+      {
+        title: '트래디셔널 시퀀스 1',
+        music_type: 'traditional',
+        description: 'Tango de Salón의 정통 시퀀스. 음악과의 conversation.\n\n핵심: 단순하지만 정확, apilado 아브라소, 음악과 정확히 맞물린 figura.',
+      },
+    ];
+    let firstId = '';
+    for (const s of starters) {
+      const id = store.addSequence(s);
+      if (!firstId) firstId = id;
+    }
+    setSelectedId(firstId);
+  };
+
   return (
     <>
       <PageHeader title="시퀀스 라이브러리" />
@@ -92,8 +124,25 @@ export function SequencesPage() {
             {/* 시퀀스 목록 */}
             <div className="space-y-1.5 max-h-[80vh] overflow-y-auto">
               {filtered.length === 0 ? (
-                <div className="text-center text-xs text-tango-cream/40 italic py-8">
-                  시퀀스가 없습니다.<br />"+ 새 시퀀스"로 시작하세요.
+                <div className="text-center py-8 px-4 space-y-3">
+                  <div className="text-xs text-tango-cream/40 italic">
+                    시퀀스가 없습니다.
+                  </div>
+                  {store.sequences.length === 0 && (
+                    <button
+                      onClick={handleSeedStarters}
+                      className="block w-full px-3 py-3 rounded-sm border border-tango-brass/40 bg-tango-brass/10 text-tango-brass text-xs hover:bg-tango-brass/20 transition-colors"
+                    >
+                      ◆ 음악 4분류 시작 시퀀스 자동 생성<br />
+                      <span className="text-[10px] text-tango-cream/60 mt-1 block">리드믹·멜로디컬·쇼·트래디셔널 각 1개</span>
+                    </button>
+                  )}
+                  <button
+                    onClick={handleAdd}
+                    className="block w-full px-3 py-2 text-xs text-tango-cream/60 hover:text-tango-brass"
+                  >
+                    + 빈 시퀀스 직접 추가
+                  </button>
                 </div>
               ) : filtered.map(s => {
                 const isActive = s.id === selectedId;
