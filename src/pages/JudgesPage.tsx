@@ -78,7 +78,7 @@ function computeJudgeStats(): JudgeStats[] {
           j.years.add(year);
           j.stages.add(stageName);
           j.finalYears.add(year);
-          j.finalParticipations++;
+          // 🔧 finalParticipations++ 는 이제 bucket 안에서 — winnerAligns 분모와 일치시킴
         }
 
         // 스코어 수집 (general/senior 모두)
@@ -111,6 +111,8 @@ function computeJudgeStats(): JudgeStats[] {
             // 우승자에 대한 이 심사위원 점수
             const winnerScore = winner.scores[jName];
             if (winnerScore !== undefined) {
+              // 🔧 분자(winnerAligns)와 분모(finalParticipations) 둘 다 bucket 단위로 카운트
+              j.finalParticipations++;
               // 이 심사위원이 우승자에게 최상위 점수를 준 경우
               const sortedScores = [...scores].sort((a, b) => b - a);
               const topScore = sortedScores[0];
@@ -129,7 +131,9 @@ function computeJudgeStats(): JudgeStats[] {
     const avgScore = d.allScores.length > 0 ? d.allScores.reduce((a, b) => a + b, 0) / d.allScores.length : 0;
     const panelAvg = d.panelAvgs.length > 0 ? d.panelAvgs.reduce((a, b) => a + b, 0) / d.panelAvgs.length : 0;
     const harshness = avgScore - panelAvg;
-    const winnerAlignRate = d.finalParticipations > 0 ? d.winnerAligns / d.finalParticipations : 0;
+    // 🔧 안전장치 — 1.0 초과 방지
+    const rawAlignRate = d.finalParticipations > 0 ? d.winnerAligns / d.finalParticipations : 0;
+    const winnerAlignRate = Math.min(rawAlignRate, 1);
     result.push({
       name,
       appearances: d.appearances,
@@ -195,7 +199,8 @@ export function JudgesPage() {
     }
     switch (sortBy) {
       case 'avg': return base.sort((a, b) => b.avgScore - a.avgScore);
-      case 'harsh': return base.sort((a, b) => a.avgScore - b.avgScore); // 낮은 평균 = 짠
+      // 🔧 "짠" 기준 = 패널 평균 대비 가장 낮은 점수 (harshness 음수)
+      case 'harsh': return base.sort((a, b) => a.harshness - b.harshness);
       case 'align': return base.sort((a, b) => b.winnerAlignRate - a.winnerAlignRate);
       default: return base.sort((a, b) => b.appearances.length - a.appearances.length);
     }
@@ -206,8 +211,9 @@ export function JudgesPage() {
   // 최상위 인사이트 계산
   const insights = useMemo(() => {
     const finalists = judges.filter(j => j.totalFinalScores >= 20);
-    const harshest = [...finalists].sort((a, b) => a.avgScore - b.avgScore)[0];
-    const mostGenerous = [...finalists].sort((a, b) => b.avgScore - a.avgScore)[0];
+    // 🔧 "짠/후한" 정확한 정의 = 패널 평균 대비 (harshness)
+    const harshest = [...finalists].sort((a, b) => a.harshness - b.harshness)[0];
+    const mostGenerous = [...finalists].sort((a, b) => b.harshness - a.harshness)[0];
     const mostAligned = [...finalists].sort((a, b) => b.winnerAlignRate - a.winnerAlignRate)[0];
     const mostActive = [...judges].sort((a, b) => b.appearances.length - a.appearances.length)[0];
     return { harshest, mostGenerous, mostAligned, mostActive };
@@ -249,7 +255,7 @@ export function JudgesPage() {
                 label="가장 짠 심사"
                 name={insights.harshest.name}
                 value={insights.harshest.avgScore.toFixed(2)}
-                caption={`평균 ${insights.harshest.harshness.toFixed(2)}`}
+                caption={`패널 대비 ${insights.harshest.harshness >= 0 ? '+' : ''}${insights.harshest.harshness.toFixed(2)}`}
                 onClick={() => setSelected(insights.harshest.name)}
                 accent="cold"
               />
@@ -259,7 +265,7 @@ export function JudgesPage() {
                 label="가장 후한 심사"
                 name={insights.mostGenerous.name}
                 value={insights.mostGenerous.avgScore.toFixed(2)}
-                caption={`+${insights.mostGenerous.harshness.toFixed(2)}`}
+                caption={`패널 대비 ${insights.mostGenerous.harshness >= 0 ? '+' : ''}${insights.mostGenerous.harshness.toFixed(2)}`}
                 onClick={() => setSelected(insights.mostGenerous.name)}
                 accent="warm"
               />

@@ -56,14 +56,24 @@ const CURRENT_JUDGES_WHO_WON = [
   'Diego Ortega', 'María Inés Bogado', 'Maria Ines Bogado',
 ];
 
+// 🔧 라틴 악센트 제거 + 단어 단위 비교
+function normalize(s: string): string {
+  return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+}
+
+function tokens(s: string): string[] {
+  return normalize(s).split(/\s+/).filter(t => t.length >= 3); // 3자 이상 단어만 (de, la 등 제거)
+}
+
 function championBadge(leader: string, follower: string): string | null {
-  const name1 = leader.toLowerCase();
-  const name2 = follower.toLowerCase();
+  // 챔피언 이름의 모든 단어 토큰 모음 (lead + follow)
+  const champTokens = new Set([...tokens(leader), ...tokens(follower)]);
   for (const j of CURRENT_JUDGES_WHO_WON) {
-    const jn = j.toLowerCase();
-    if (name1.includes(jn) || name2.includes(jn) || jn.includes(name1) || jn.includes(name2)) {
-      return `🎓 현 심사위원`;
-    }
+    const jTokens = tokens(j);
+    if (jTokens.length < 2) continue; // 단어 1개짜리는 매칭 안 함 (오인 방지)
+    // 심사위원 이름의 모든 단어가 챔피언 이름에 다 들어있어야 매칭
+    const allMatch = jTokens.every(t => champTokens.has(t));
+    if (allMatch) return `🎓 현 심사위원`;
   }
   return null;
 }
