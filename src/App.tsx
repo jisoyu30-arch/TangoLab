@@ -37,6 +37,7 @@ const ChampionsPage = lazy(() => import('./pages/ChampionsPage').then(m => ({ de
 const WeaknessAnalysisPage = lazy(() => import('./pages/WeaknessAnalysisPage').then(m => ({ default: m.WeaknessAnalysisPage })));
 const SettingsPage = lazy(() => import('./pages/SettingsPage').then(m => ({ default: m.SettingsPage })));
 const StrategyPage = lazy(() => import('./pages/StrategyPage').then(m => ({ default: m.StrategyPage })));
+const SequencesPage = lazy(() => import('./pages/SequencesPage').then(m => ({ default: m.SequencesPage })));
 
 function PageLoader() {
   return (
@@ -78,6 +79,7 @@ export function App() {
           <Route path="/weakness" element={<Suspense fallback={<PageLoader />}><WeaknessAnalysisPage /></Suspense>} />
           <Route path="/settings" element={<Suspense fallback={<PageLoader />}><SettingsPage /></Suspense>} />
           <Route path="/strategy" element={<Suspense fallback={<PageLoader />}><StrategyPage /></Suspense>} />
+          <Route path="/training/sequences" element={<Suspense fallback={<PageLoader />}><SequencesPage /></Suspense>} />
           <Route path="/practice" element={<Suspense fallback={<PageLoader />}><PracticeBoardListPage /></Suspense>} />
           <Route path="/practice/:id" element={<Suspense fallback={<PageLoader />}><PracticeBoardDetailPage /></Suspense>} />
           <Route path="/compare" element={<Suspense fallback={<PageLoader />}><CompareRoomListPage /></Suspense>} />

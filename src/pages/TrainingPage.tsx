@@ -68,7 +68,7 @@ export function TrainingPage() {
           </div>
 
           {/* 빠른 액션 */}
-          <div className="grid grid-cols-2 gap-px bg-tango-brass/15 rounded-sm overflow-hidden">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-px bg-tango-brass/15 rounded-sm overflow-hidden">
             <button
               onClick={handleQuickPractice}
               className="bg-tango-ink hover:bg-tango-shadow p-5 text-left transition-colors min-h-[100px] group"
@@ -85,6 +85,14 @@ export function TrainingPage() {
               <div className="font-display italic text-xl text-tango-paper group-hover:text-tango-brass transition-colors" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>수업 추가</div>
               <div className="text-[11px] text-tango-cream/50 mt-0.5 font-sans">새 수업 기록</div>
             </button>
+            <Link
+              to="/training/sequences"
+              className="bg-tango-ink hover:bg-tango-shadow p-5 text-left transition-colors min-h-[100px] group block"
+            >
+              <div className="text-2xl mb-2">◈</div>
+              <div className="font-display italic text-xl text-tango-paper group-hover:text-tango-brass transition-colors" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>시퀀스 라이브러리</div>
+              <div className="text-[11px] text-tango-cream/50 mt-0.5 font-sans">레퍼런스 ↔ 우리 연습 비교</div>
+            </Link>
           </div>
 
           {/* 탭 */}
