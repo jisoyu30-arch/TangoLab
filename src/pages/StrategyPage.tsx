@@ -185,7 +185,7 @@ export function StrategyPage() {
                   return (
                     <div className="bg-tango-brass/5 border-l-4 border-tango-brass/60 rounded-sm p-3 md:p-4">
                       <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-2">
-                        💡 기본 가이드
+                        💡 기본 가이드 (출처 기반)
                       </div>
                       <div className="font-serif italic text-base md:text-lg text-tango-paper mb-3" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
                         {guide.headline}
@@ -198,6 +198,20 @@ export function StrategyPage() {
                           </li>
                         ))}
                       </ul>
+                      {guide.sources && guide.sources.length > 0 && (
+                        <div className="mt-3 pt-3 border-t border-tango-brass/20">
+                          <div className="text-[9px] tracking-widest uppercase text-tango-cream/40 font-sans mb-1">Sources</div>
+                          <ul className="space-y-0.5">
+                            {guide.sources.map((s, i) => (
+                              <li key={i} className="text-[10px] text-tango-cream/60">
+                                <a href={s.url} target="_blank" rel="noopener noreferrer" className="hover:text-tango-brass hover:underline">
+                                  → {s.label}
+                                </a>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
                       <button
                         onClick={() => {
                           if (activeCell.notes.trim() && !confirm('현재 메모를 가이드 텍스트로 덮어쓸까요?')) return;

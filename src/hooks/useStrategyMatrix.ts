@@ -19,195 +19,284 @@ export const DIMENSIONS: { key: Dimension; label: string; icon: string; desc: st
   { key: 'variation', label: '바리아시옹',  icon: '⚡', desc: '음악 클라이맥스 대응' },
 ];
 
-// 음악 분류 × 차원별 기본 가이드 — 작가님이 직접 수정/보강 가능
-export const CELL_GUIDES: Record<string, { headline: string; points: string[] }> = {
+// 음악 분류 × 차원별 기본 가이드 — 영문/스페인어권 출처 기반
+// 출처는 각 셀의 sources 배열 참고 (Tejas Tango, Tangology 101, Ultimate Tango, Endre Tango, Tango Voice 등)
+export interface CellGuide {
+  headline: string;
+  points: string[];
+  sources?: { label: string; url: string }[];
+}
+
+export const CELL_GUIDES: Record<string, CellGuide> = {
   // ───── 리드믹 (D'Arienzo / Biagi / Tanturi) ─────
+  // D'Arienzo = "El Rey del Compás" (King of the Beat). Marcato in 4 + sub-pulse 강조.
   'rhythmic:walk': {
-    headline: '또렷한 마르카토 — 비트마다 발끝',
+    headline: '단단하고 일정한 마치(march) — solid steady march forward',
     points: [
-      '발끝으로 박자를 정확히 찍기, 뒤꿈치 내림은 절제',
-      '무게 이동을 짧고 분명하게 — 끌림 없이',
-      '비트와 비트 사이에 멈춤 없는 또렷한 워킹',
-      '몸통은 단단히, 다리만 분리하여 박자 표현',
+      'Tangology 101: "solid, steady march forward that was clear and easy to interpret"',
+      '드라이브가 분명한 워킹 — 피아노의 강한 비트와 반도네온의 choppy 사운드에 맞춰 행진하듯',
+      '리듬은 ONE-and-TWO-and-THREE-and-FOUR — sub-pulse(and)도 활용 가능',
+      '몸통 안정, 다리만 분리해 박자 표현',
+    ],
+    sources: [
+      { label: 'Tangology 101 — Juan d\'Arienzo', url: 'http://www.tangology101.com/main.cfm/title/Juan-d\'Arienzo/id/62' },
+      { label: 'Ignacio Varchausky — D\'Arienzo Course', url: 'https://www.ignaciovarchausky.com/curso-d\'arienzo-english' },
     ],
   },
   'rhythmic:embrace': {
-    headline: '단단하고 닫힌 아브라소 — 가슴 정렬 또렷',
+    headline: '가슴-가슴 클로즈 — 작은 리드믹 즉흥 동작',
     points: [
-      '클로즈드 아브라소 유지, 거리감 변동 최소화',
-      '가슴 정렬은 정면, 흐트러지지 않게',
-      '호흡은 짧고 분절적 — 비트와 함께',
-      '리더 가슴이 박자 신호를 분명히 전달',
+      'Tangology 101: "close chest-to-chest connection, executing tiny, rhythmic, and improvised movements"',
+      '클로즈 아브라소 유지 — 박자 신호를 가슴으로 정확히 전달',
+      '거리감 변동 최소, 두 사람 가슴 정렬을 흐트리지 않음',
+      '큰 figura보다 작고 빠른 즉흥 동작이 어울림',
+    ],
+    sources: [
+      { label: 'Tangology 101 — Juan d\'Arienzo', url: 'http://www.tangology101.com/main.cfm/title/Juan-d\'Arienzo/id/62' },
     ],
   },
   'rhythmic:sequence': {
-    headline: '짧은 단위 반복 — 8박 안에 매듭',
+    headline: '작은 즉흥 동작 + traspié·sub-pulse 활용',
     points: [
-      '8박 단위로 끊어지는 시퀀스 (corte 활용)',
-      'Traspié(트라스피에)·옴브로(ombro) 같은 분절 동작',
-      '복잡한 컴비네이션보다 정확한 박자 단위 반복',
-      '짧은 사카다·옥시오 단위로 빠르게 회전',
+      'Tango Inside Out: D\'Arienzo의 강한 sub-pulse 덕분에 댄서들은 "ands"(반박자)도 적극 사용',
+      '큰 컴비네이션보다 짧은 단위 반복 — 박자가 워낙 분명해서 정확도가 곧 인상',
+      'Traspié(트라스피에) 같은 분절 동작이 sub-pulse를 시각화',
+      '작은 사카다·짧은 오초로 비트 위에 즉흥 추가',
+    ],
+    sources: [
+      { label: 'Tango Inside Out — D\'Arienzo Music Talks', url: 'http://www.tangoinsideout.com/darienzo-music-talks/' },
     ],
   },
   'rhythmic:calesita': {
-    headline: '리더의 걸음이 박자에 정확 — 팔로워 축 단단히',
+    headline: '리더의 걸음이 비트와 정확히 일치 — 팔로워 축 단단히',
     points: [
-      '팔로워는 한 발 축, 리더가 그 주위를 걷는 figura',
-      '리더의 발걸음 하나하나가 비트와 정확히 일치',
-      '팔로워 축은 흔들림 없음, 무게는 한 발에 단단히',
-      '팔로워는 다른 발로 짧은 타파다(tapada)·picado adornos',
+      'Ultimate Tango (Calecita): "leader walks around partner while keeping her pivoting on her supporting leg"',
+      '리더 발걸음 거리가 일정해야 팔로워 축이 흐트러지지 않음 (consistency in step length is crucial)',
+      'D\'Arienzo의 강한 비트에 리더 걸음 하나하나가 정확히 맞물림',
+      '팔로워는 자유 다리로 짧고 또렷한 adornos (picado 계열)',
+    ],
+    sources: [
+      { label: 'Ultimate Tango — Calecita', url: 'https://www.ultimatetango.com/blog/all-you-need-to-know-about-calecita' },
+      { label: 'Endre Tango — Calesita', url: 'https://endretango.com/en/calesita-a-step-everyone-uses-but-no-one-knows-its-name-intermediate/' },
     ],
   },
   'rhythmic:variation': {
-    headline: '곡 후반 휘몰아치는 박자 — 칼처럼 정확한 빠른 히로·오초',
+    headline: '빠른 클라이맥스 구간 — sub-pulse 활용한 정확한 빠른 figura',
     points: [
-      '바리아시옹 = 곡 클라이맥스의 빠른 하이라이트 구간',
-      '비트를 한 박자도 놓치지 않는 정확한 빠른 히로(giro)',
-      '오초·트라스피에를 박자에 칼같이 맞춰 분리',
+      'D\'Arienzo의 변주 구간은 sub-pulse가 더욱 분명 → 빠른 히로/오초의 박자 정확도가 인상',
+      'Tango-Space: 빠른 히로는 어깨 회전과 임펄스를 더 빠르게, dissociation을 짧은 타이밍에',
+      '"ands" 박자 위에 짧은 액센트 동작 분리',
       'Picado(짧고 또렷한 발놀림)로 비트 강조 — 흐트러짐 0',
+    ],
+    sources: [
+      { label: 'Tango-Space — Faster giros', url: 'http://www.tango-space.com/technique/changing-dynamics-dance-slower-faster-giros/' },
+      { label: 'Tango Inside Out — D\'Arienzo', url: 'http://www.tangoinsideout.com/darienzo-music-talks/' },
     ],
   },
 
   // ───── 멜로디컬 (Di Sarli / Calo / Fresedo) ─────
+  // Di Sarli — smooth, lyrical, elegant pauses. Salon dancers의 favorite.
   'melodic:walk': {
-    headline: '길게 끌기 — 음악 라인을 다리로 그리기',
+    headline: '걷고 멈추기 — Walk and elegant pause',
     points: [
-      '발바닥 전체로 길게 끌기, 발끝만 찍지 않기',
-      '음표가 길면 다리도 길게, 끊지 않기',
-      '무게 이동을 천천히 — 음표 길이만큼',
+      'Tangology 101: "Dancing to di Sarli, you\'ll walk and you\'ll stop, making elegant pauses"',
+      '드라마틱한 템포 변화 없는, 흐르는 걸음 — smooth flowing arrangements',
+      '음악 페이즈 끝에서 우아한 정지(pausa)',
       '몸통도 함께 흐르게, 분리감 줄이기',
+    ],
+    sources: [
+      { label: 'Tangology 101 — Carlos di Sarli', url: 'http://www.tangology101.com/main.cfm/title/Carlos-di-Sarli/id/60' },
+      { label: 'TangoEvents AU — Di Sarli', url: 'https://tangoevents.au/carlos-di-sarli-the-maestro-of-tangos-golden-age/' },
     ],
   },
   'melodic:embrace': {
-    headline: '부드럽고 흐르는 아브라소 — 호흡 길게',
+    headline: 'Salon embrace — 살롱 스타일, 오초/히로에 살짝 열림',
     points: [
-      '아브라소를 살짝 풀었다 모이는 호흡 변화',
-      '가슴은 부드럽게 연결, 거리감을 곡선처럼',
-      '호흡은 길고 깊게 — 음악 페이즈에 맞춰',
-      '팔로워 등에 닿는 손은 안내자처럼 부드럽게',
+      'Di Sarli의 우아하고 서정적인 음악은 Tango de Salón 댄서의 favorite',
+      'Tango Voice: 살롱(Villa Urquiza) 스타일은 클로즈 유지하되 ocho/giro 때 살짝 열림',
+      '두 사람 사이 살짝의 V-shape — 정교한 풋워크와 우아한 leg sweep 가능',
+      '연결감은 가슴-몸통-팔 모두 통해 부드럽게 전달',
+    ],
+    sources: [
+      { label: 'Tango Voice — Embrace variations', url: 'https://tangovoice.wordpress.com/2014/05/20/variations-in-the-tango-embrace-open-embrace-and-close-embrace-styles-of-tango-the-evidence-from-buenos-aires-milongas/' },
+      { label: 'Tango Mentor — Close embrace', url: 'https://tangomentor.com/dancing-in-close-embrace/' },
     ],
   },
   'melodic:sequence': {
-    headline: '긴 호흡 시퀀스 — 끊김 없는 회전',
+    headline: '명료한 프레이즈 표현 — 우아하게, 미묘하게',
     points: [
-      '8박을 넘어가는 긴 헤다(giro) 시퀀스',
-      '사카다는 부드럽게 — 칼처럼 자르지 않기',
-      'Boleo는 길게 흘러, 멜로디 라인 따라가기',
-      '시퀀스 사이를 walking으로 자연스럽게 이음',
+      'El Portal del Tango: "beautiful melodies, clear phrasing, and subtle nuances, allowing dancers to express themselves with grace"',
+      '드라마틱한 액센트 대신 흐르는 컴포지션 — 동작도 끊지 않기',
+      '8박 안에 가두지 말고 음악 프레이즈에 맞춰 길게 호흡',
+      '오초·히로·사카다를 칼처럼 자르지 않고 곡선으로',
+    ],
+    sources: [
+      { label: 'El Portal del Tango — Di Sarli', url: 'https://elportaldeltango.com/carlos-di-sarli/' },
     ],
   },
   'melodic:calesita': {
-    headline: '느린 카레시따 — 리더가 음표 따라 길게 걷기',
+    headline: '느린 카레시따 — 리더의 긴 걸음, 팔로워의 우아한 축',
     points: [
-      '팔로워가 축, 리더가 천천히 큰 원을 그리며 걷는다',
-      '리더의 발걸음은 음표 길이 — 끌듯이 길게',
-      '팔로워는 안정된 축 위에서 부드러운 호흡',
-      '음악 라인에 따라 원의 크기 변화 — 안쪽으로 작게, 다시 크게',
+      'Ultimate Tango: 칼레시따 = 리더가 팔로워 주위를 걷고 팔로워는 축 발에 pivot',
+      'Di Sarli 음악의 "elegant pause" 성격에 맞춰 리더 걸음을 천천히 길게',
+      '팔로워는 자유 다리로 우아한 adornos·planeo (느긋한 footwork)',
+      '음악 프레이즈에 맞춰 원의 속도 변화',
+    ],
+    sources: [
+      { label: 'Ultimate Tango — Calecita', url: 'https://www.ultimatetango.com/blog/all-you-need-to-know-about-calecita' },
     ],
   },
   'melodic:variation': {
-    headline: '빠른 구간도 부드럽게 — 흐르는 빠른 히로',
+    headline: '빠른 구간 — 임펄스를 키우되 부드러움 유지',
     points: [
-      '바리아시옹의 빠른 박자에도 끊김 없이 연결',
-      '빠른 히로·오초를 칼처럼 자르지 않고 곡선으로',
-      '발은 빠르지만 몸통과 아브라소는 부드럽게',
-      '강조는 라인의 길이로 — 음악 절정에서 길게 늘이기',
+      'Tango-Space: 빠른 히로는 임펄스·dissociation 속도를 늘리되 연결감은 유지',
+      'Di Sarli의 변주는 보통 절제된 편 — 격렬함보다 라인의 길이로 강조',
+      '발은 빠르지만 몸통과 아브라소는 흐르게',
+      '음악 절정에서 길게 늘어지는 동작',
+    ],
+    sources: [
+      { label: 'Tango-Space — Faster giros', url: 'http://www.tango-space.com/technique/changing-dynamics-dance-slower-faster-giros/' },
     ],
   },
 
-  // ───── 쇼 탱고 (Show Tango) ─────
+  // ───── 쇼 탱고 (Tango Escenario / Stage Tango) ─────
+  // ⚠ 주의: Mundial Pista 규정상 점프(saltos), 두 발 떨어짐, 트레파다 등 escenario 요소는 금지.
+  // 이 섹션은 escenario 카테고리 출전 또는 musical interpretation의 극적 순간 활용 참고용.
   'show:walk': {
-    headline: '큰 보폭 — 표현적 무게 중심',
+    headline: '"La línea" — 길게 뻗는 시각적 라인',
     points: [
-      '보폭을 크게, 바깥 라인까지 사용',
-      '몸통 라인을 길게 펼쳐 시각적 인상',
-      '무게 중심 이동을 의도적으로 보이게',
+      'Hispanic Outlook: "perfect la línea — the beautiful, extended line of the body that creates a stunning silhouette"',
+      'Sydney Tango Collective: "intricate routines, strong lines, emphasis on technical skills"',
+      '댄서는 동시에 예술가 + 운동선수 — 정밀도, 힘, 유연성 모두 훈련',
       '시선·턱 라인까지 표현 요소로 활용',
+    ],
+    sources: [
+      { label: 'Hispanic Outlook — Stage Tango', url: 'https://www.hispanicoutlook.com/articles/stage-tango-style-has-reached-world' },
+      { label: 'Sydney Tango Collective — Stage vs Salon', url: 'https://sydneytangocollective.com.au/2025/06/02/stage-tango-and-tango-salon-what-is-the-difference/' },
     ],
   },
   'show:embrace': {
-    headline: '열림과 닫힘 의도적 변화',
+    headline: 'Open embrace — 분리와 재연결을 표현 도구로',
     points: [
-      '열린 아브라소 허용 — 거리감을 표현 도구로',
-      '닫혔다 열리는 변화로 드라마 만들기',
-      '시선 처리 적극 — 관객/심사 라인 의식',
-      '아브라소 깨졌다 다시 모이는 순간을 강조',
+      'Tango Voice: "open embrace with exaggerated movements"',
+      'Sydney Tango Collective: "separate and do large leg swings and poses, dancing apart from each other"',
+      '클로즈/오픈 의도적 전환 — 분리 자체가 드라마틱한 액션',
+      '관객/심사 라인 의식한 시선 처리',
+    ],
+    sources: [
+      { label: 'Tango Voice — Stage Tango', url: 'https://tangovoice.wordpress.com/2010/04/14/stage-tango-show-tango-exhibition-tango-tango-fantasia-tango-for-export/' },
+      { label: 'Sydney Tango Collective', url: 'https://sydneytangocollective.com.au/2025/06/02/stage-tango-and-tango-salon-what-is-the-difference/' },
     ],
   },
   'show:sequence': {
-    headline: '화려한 컴비네이션 — 대담하게',
+    headline: '극적 안무 — 발레 요소, 대담한 line',
     points: [
-      '하이 볼레오·간초·아도르노 적극 사용',
-      '컴비네이션 길게, 인상적인 finishing',
-      '리프트는 안전 범위 내에서 단 한 번 임팩트',
-      '시퀀스 끝에 시선 처리로 마무리',
+      'Tango Voice: "elements often taken from ballet that are not part of social tango vocabulary"',
+      '하이 볼레오, 큰 leg swing, 포즈 — 사회적 탱고에 없는 동작',
+      '⚠ Mundial Pista 규정: 점프(saltos), 트레파다(climbs), 두 발 떠는 동작 모두 금지 — Escenario 한정',
+      '컴비네이션은 길고, finishing pose 명확',
+    ],
+    sources: [
+      { label: 'Tango Voice — Stage Tango', url: 'https://tangovoice.wordpress.com/2010/04/14/stage-tango-show-tango-exhibition-tango-tango-fantasia-tango-for-export/' },
+      { label: 'US Argentine Tango Championship Rules', url: 'https://tangousachampionship.com/info-rules/' },
     ],
   },
   'show:calesita': {
-    headline: '드라마틱 카레시따 — 팔로워가 중심, 리더가 둘러싸기',
+    headline: '드라마틱 카레시따 — 팔로워 spotlight, 리더의 시각적 둘러싸기',
     points: [
-      '팔로워 축 위에서 화려한 adornos·planeo',
-      '리더가 큰 원을 그리며 시각적으로 둘러싸는 동선',
-      '스피드 변화로 긴장감 — 리더 걸음이 빨라졌다 느려지기',
+      'Ultimate Tango: 팔로워가 축에서 자유 다리로 footwork·body movement 표현 가능',
+      '쇼에서는 그 spotlight 시간을 적극 활용 — planeo, hi-adornos',
+      '리더 동선을 크게 그려 시각적 둘러싸기',
       '카레시따 마무리에 명확한 finishing pose',
+    ],
+    sources: [
+      { label: 'Ultimate Tango — Calecita', url: 'https://www.ultimatetango.com/blog/all-you-need-to-know-about-calecita' },
     ],
   },
   'show:variation': {
-    headline: '곡 절정 빠른 구간 — 임팩트 큰 빠른 동작',
+    headline: '곡 절정 = 무대 클라이맥스, 큰 임팩트 동작',
     points: [
-      '바리아시옹을 무대 클라이맥스로 활용',
-      '하이 볼레오·하이 히로·점프 같은 큰 동작',
+      '바리아시옹의 빠른 박자를 무대 정점으로 활용',
+      '⚠ Pista 출전 시: 점프·하이 볼레오 등은 금지 → 빠른 히로·오초를 정확하게',
+      'Escenario 출전 시: 점프, 하이 볼레오, hi-giro 등 ballet-influenced 동작',
       '음악이 휘몰아치는 정점에 가장 큰 동작 배치',
-      '여러 작은 동작보다 한 번의 강한 정점',
+    ],
+    sources: [
+      { label: 'Hispanic Outlook — Stage Tango', url: 'https://www.hispanicoutlook.com/articles/stage-tango-style-has-reached-world' },
+      { label: 'US Argentine Tango Championship Rules', url: 'https://tangousachampionship.com/info-rules/' },
     ],
   },
 
-  // ───── 트래디셔널 (Tango de Salón — 부에노스아이레스 밀롱가의 본 모습) ─────
-  // 아르헨티나 댄서들은 "트래디셔널"이라는 라벨을 잘 쓰지 않음.
-  // 황금기 밀롱게로들은 그냥 "Tango de Salón" — 밀롱가에서 실제 추는 탱고 그 자체.
+  // ───── 트래디셔널 (Tango de Salón / Pugliese / Troilo) ─────
+  // 아르헨티나에서는 "트래디셔널"보다 그냥 "Tango de Salón" — 밀롱가에서 실제 추는 탱고.
+  // Pugliese의 yumba beat (1/3박 강조 + 2/4박 약하게)는 트래디셔널 음악의 대표 sound 중 하나.
   'traditional:walk': {
-    headline: 'La Caminata — 걷기가 곧 당신의 탱고다',
+    headline: 'La Caminata — 모든 동작은 걷기에서',
     points: [
-      '"모든 동작은 걷기에서 나온다" — 시퀀스 화려함보다 발의 질',
-      '무릎 부드럽게 굽힘, 위아래 흔들림 0',
-      '발바닥 전체 안정적으로 — 끌듯이, 누르듯이',
+      'Tejas Tango / Tango Apilado: "all tango steps originate from the walk; one must master walking before complex moves"',
+      'Wikipedia: 황금기 댄서들은 모든 스타일을 그냥 "Tango de Salón"이라 불렀음 (Christine Denniston)',
+      '무릎 부드럽게, 위아래 흔들림 0 — 정통 마일롱게로 워킹',
       '몸통 차분, 다리만 정확히 — 변형 자제',
+    ],
+    sources: [
+      { label: 'Tejas Tango — Styles', url: 'https://www.tejastango.com/tango_styles.html' },
+      { label: 'Tango Apilado — Milonguero', url: 'https://www.tangoapilado.com/home/' },
+      { label: 'Wikipedia — Argentine Tango', url: 'https://en.wikipedia.org/wiki/Argentine_tango' },
     ],
   },
   'traditional:embrace': {
-    headline: 'Apilado — 명치까지 겹친 하나의 축',
+    headline: 'Apilado — 명치(solar plexus)까지 겹친 하나의 축',
     points: [
-      '두 사람 가슴이 solar plexus(명치)부터 겹쳐 한 축처럼',
+      'Tejas Tango: "joins torsos through the solar plexus to create a merged axis"',
+      'Tango Voice: 클로즈 아브라소가 처음부터 끝까지 유지되는 것이 milonguero/traditional의 핵심',
       '발은 살짝 떨어져 있어도 가슴은 떨어지지 않음',
-      '회전(giro)에서만 잠깐 풀렸다 다시 모임',
-      '아브라소 자체가 곡 전체의 그라운드 — 변하지 않는 토대',
+      '아브라소가 곡 전체의 그라운드 — 변하지 않는 토대',
+    ],
+    sources: [
+      { label: 'Tejas Tango — Styles', url: 'https://www.tejastango.com/tango_styles.html' },
+      { label: 'Siempre Milonguero', url: 'https://www.siempremilonguero.org/milonguero-style-tango/' },
+      { label: 'Tango Voice — Embrace', url: 'https://tangovoice.wordpress.com/2014/05/20/variations-in-the-tango-embrace-open-embrace-and-close-embrace-styles-of-tango-the-evidence-from-buenos-aires-milongas/' },
     ],
   },
   'traditional:sequence': {
-    headline: '"No bailás los pasos, bailás la música" — 음악을 춘다',
+    headline: '음악과의 conversation — 단순하지만 정확',
     points: [
-      '스텝을 추는 게 아니라 음악과 대화하는 것',
-      '단순하지만 음악과 정확히 맞물린 figura',
-      '사카다·옥시오 정석대로, 변형 자제',
-      '컴비네이션 길이보다 매 동작 완성도',
+      'Tejas Tango: Tango de Salón은 "small intricate movements creating a conversation between the dancers"',
+      'Pugliese의 음악은 "rhythmic and melodic energies at once" → 두 에너지를 한 시퀀스 안에서',
+      '사카다·오초 정석대로, 변형 자제',
+      '컴비네이션 길이보다 매 동작의 완성도',
+    ],
+    sources: [
+      { label: 'Tejas Tango — Styles', url: 'https://www.tejastango.com/tango_styles.html' },
+      { label: 'Tangology 101 — Pugliese', url: 'https://tangology101.com/main.cfm/id/63' },
+      { label: 'Marcelo Solis — La Yumba', url: 'https://escuelatangoba.com/marcelosolis/argentine-tango-music-la-yumba-osvaldo-pugliese/' },
     ],
   },
   'traditional:calesita': {
     headline: '클래식 카레시따 — 안정된 축, 정통 figura',
     points: [
-      '팔로워가 한 발 축, 리더가 그 주위를 정통 워킹으로 걷기',
-      '원은 작게, 가속·과시 없이 안정',
-      '팔로워의 단단한 축이 모든 것의 토대',
-      '카레시따 후 자연스러운 워킹으로 흘러나가는 마무리',
+      'Ultimate Tango: 카레시따 = 리더가 팔로워를 한 발 위에 lift한 채 그 주위를 걷기',
+      'Endre Tango: 리더 step length의 일관성이 매끄러운 카레시따의 핵심',
+      'Pugliese의 walking beat은 강력 → 카레시따 안정감과 잘 맞물림',
+      '원은 작게, 가속·과시 없이 안정 — 마무리는 자연스러운 워킹으로 흘러나감',
+    ],
+    sources: [
+      { label: 'Ultimate Tango — Calecita', url: 'https://www.ultimatetango.com/blog/all-you-need-to-know-about-calecita' },
+      { label: 'Endre Tango — Calesita', url: 'https://endretango.com/en/calesita-a-step-everyone-uses-but-no-one-knows-its-name-intermediate/' },
     ],
   },
   'traditional:variation': {
-    headline: '곡의 빠른 하이라이트 — 절제된 빠른 히로·오초',
+    headline: '곡 클라이맥스 빠른 구간 — 정통 라인 유지하며 빠른 figura',
     points: [
-      '바리아시옹 = 곡 클라이맥스의 빠른 구간 (Pugliese에 한정 안 됨)',
+      'Tangology 101: Pugliese는 "rhythmic and melodic energies at once" — 변주 구간에서 둘 다 나타남',
+      'La Yumba 분석: "sharp rítmico motives and lyrical cantando lines" 교차',
       '빠른 박자 위에서도 정통 라인 유지 — 동작이 음악 위로 뜨지 않게',
-      '히로·오초를 빠르지만 단단하게, 변형 자제',
-      'Pugliese yumba·arrastre 곡에서는 호흡 길게 늘이기',
+      'Pugliese의 yumba/arrastre 곡에서는 호흡 길게 늘이기 (1/3박 강조)',
+    ],
+    sources: [
+      { label: 'Tangology 101 — Pugliese', url: 'https://tangology101.com/main.cfm/id/63' },
+      { label: 'Wikipedia — La Yumba', url: 'https://en.wikipedia.org/wiki/La_yumba' },
+      { label: 'Marcelo Solis — La Yumba', url: 'https://escuelatangoba.com/marcelosolis/argentine-tango-music-la-yumba-osvaldo-pugliese/' },
     ],
   },
 };
