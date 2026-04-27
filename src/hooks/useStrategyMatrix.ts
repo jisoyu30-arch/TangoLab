@@ -59,12 +59,12 @@ export const CELL_GUIDES: Record<string, { headline: string; points: string[] }>
     ],
   },
   'rhythmic:variation': {
-    headline: '단순하고 선명한 다리 — 박자 위주',
+    headline: '곡 후반 휘몰아치는 박자 — 칼처럼 정확한 빠른 히로·오초',
     points: [
-      '복잡한 장식보다 박자 정확도 우선',
-      'Ocho/traspié 분리 — 한 박자에 한 동작',
-      '바리아시옹 구간에서도 흐트러지지 않는 단단함',
-      'Picado(짧고 또렷한 발놀림)로 박자 강조',
+      '바리아시옹 = 곡 클라이맥스의 빠른 하이라이트 구간',
+      '비트를 한 박자도 놓치지 않는 정확한 빠른 히로(giro)',
+      '오초·트라스피에를 박자에 칼같이 맞춰 분리',
+      'Picado(짧고 또렷한 발놀림)로 비트 강조 — 흐트러짐 0',
     ],
   },
 
@@ -106,12 +106,12 @@ export const CELL_GUIDES: Record<string, { headline: string; points: string[] }>
     ],
   },
   'melodic:variation': {
-    headline: '멜로디 라인 따라 — 끊김 없이',
+    headline: '빠른 구간도 부드럽게 — 흐르는 빠른 히로',
     points: [
-      '바리아시옹에서도 부드러움 유지',
-      '사카다·볼레오를 멜로디 곡선처럼 흐르게',
-      '강조는 길이로 — 빠르기로 강조하지 않기',
-      '음악 절정에서 길게 늘어지는 동작',
+      '바리아시옹의 빠른 박자에도 끊김 없이 연결',
+      '빠른 히로·오초를 칼처럼 자르지 않고 곡선으로',
+      '발은 빠르지만 몸통과 아브라소는 부드럽게',
+      '강조는 라인의 길이로 — 음악 절정에서 길게 늘이기',
     ],
   },
 
@@ -153,12 +153,12 @@ export const CELL_GUIDES: Record<string, { headline: string; points: string[] }>
     ],
   },
   'show:variation': {
-    headline: '점프·하이 볼레오 — 임팩트',
+    headline: '곡 절정 빠른 구간 — 임팩트 큰 빠른 동작',
     points: [
-      '바리아시옹을 클라이맥스로 활용',
-      '점프, 하이 볼레오, 하이 헤다',
-      '한 번의 큰 동작이 여러 작은 동작보다 효과',
-      '음악 절정에 정확히 정점 동작 배치',
+      '바리아시옹을 무대 클라이맥스로 활용',
+      '하이 볼레오·하이 히로·점프 같은 큰 동작',
+      '음악이 휘몰아치는 정점에 가장 큰 동작 배치',
+      '여러 작은 동작보다 한 번의 강한 정점',
     ],
   },
 
@@ -202,12 +202,12 @@ export const CELL_GUIDES: Record<string, { headline: string; points: string[] }>
     ],
   },
   'traditional:variation': {
-    headline: 'Pugliese yumba·arrastre — 채우지 말고 호흡으로',
+    headline: '곡의 빠른 하이라이트 — 절제된 빠른 히로·오초',
     points: [
-      'Yumba 호흡에 맞춰 길게 늘이는 표현',
-      'Arrastre(끌기)로 음악 압박감 표현',
-      '바리아시옹에서도 정통 라인 유지 — 동작이 음악 위로 뜨지 않게',
-      '"호흡과 정지" — 디테일한 테크닉 + 잘 멈추기',
+      '바리아시옹 = 곡 클라이맥스의 빠른 구간 (Pugliese에 한정 안 됨)',
+      '빠른 박자 위에서도 정통 라인 유지 — 동작이 음악 위로 뜨지 않게',
+      '히로·오초를 빠르지만 단단하게, 변형 자제',
+      'Pugliese yumba·arrastre 곡에서는 호흡 길게 늘이기',
     ],
   },
 };
