@@ -12,6 +12,9 @@ import {
   type MusicType,
   type Dimension,
   type VideoRef,
+  CELL_GUIDES,
+  PHRASING_GUIDE,
+  PREP_CLASS_GUIDE,
 } from '../hooks/useStrategyMatrix';
 import { useTrainingStore } from '../hooks/useTrainingStore';
 import ktcData from '../data/ktc_participants.json';
@@ -175,13 +178,47 @@ export function StrategyPage() {
                   </div>
                 </div>
 
+                {/* 💡 기본 가이드 */}
+                {(() => {
+                  const guide = CELL_GUIDES[cellKey(activeMusic, activeDim)];
+                  if (!guide) return null;
+                  return (
+                    <div className="bg-tango-brass/5 border-l-4 border-tango-brass/60 rounded-sm p-3 md:p-4">
+                      <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-2">
+                        💡 기본 가이드
+                      </div>
+                      <div className="font-serif italic text-base md:text-lg text-tango-paper mb-3" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                        {guide.headline}
+                      </div>
+                      <ul className="space-y-1.5 text-xs md:text-sm text-tango-cream/85 font-serif" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                        {guide.points.map((p, i) => (
+                          <li key={i} className="flex gap-2">
+                            <span className="text-tango-brass flex-shrink-0">·</span>
+                            <span>{p}</span>
+                          </li>
+                        ))}
+                      </ul>
+                      <button
+                        onClick={() => {
+                          if (activeCell.notes.trim() && !confirm('현재 메모를 가이드 텍스트로 덮어쓸까요?')) return;
+                          const text = `${guide.headline}\n\n${guide.points.map(p => `- ${p}`).join('\n')}`;
+                          matrix.updateCell(activeMusic, activeDim, { notes: text });
+                        }}
+                        className="mt-3 text-[10px] text-tango-brass hover:underline"
+                      >
+                        ↓ 메모로 복사
+                      </button>
+                    </div>
+                  );
+                })()}
+
                 {/* 메모 */}
                 <div>
-                  <label className="text-[10px] tracking-widest uppercase text-tango-brass font-sans">메모</label>
+                  <label className="text-[10px] tracking-widest uppercase text-tango-brass font-sans">우리만의 메모 (가이드 위에 작가님 식으로)</label>
                   <textarea
                     value={activeCell.notes}
                     onChange={e => matrix.updateCell(activeMusic, activeDim, { notes: e.target.value })}
-                    placeholder="이 음악·차원에 대한 우리 전략 정리…&#10;예: 리드믹 걷기 = 또렷한 마르카토, 발끝 박자 정확하게, 뒤꿈치 내림 절제"
+                    placeholder="우리 부부에게 적용된 변형, 강사 코멘트, 자주 잊는 부분…"
                     className="w-full mt-1 bg-tango-ink border border-tango-brass/30 rounded-sm px-3 py-2 text-tango-paper font-serif text-sm focus:outline-none focus:border-tango-brass min-h-[100px]"
                     style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}
                   />
@@ -362,6 +399,12 @@ export function StrategyPage() {
                 <h2 className="font-display text-xl md:text-2xl text-tango-paper italic mb-3" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
                   프레이즈 구별하기
                 </h2>
+                <div className="bg-tango-brass/5 border-l-4 border-tango-brass/60 rounded-sm p-3 mb-2">
+                  <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-2">💡 기본 가이드</div>
+                  <pre className="font-serif text-xs md:text-sm text-tango-cream/85 whitespace-pre-wrap" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+{PHRASING_GUIDE}
+                  </pre>
+                </div>
                 <textarea
                   value={matrix.data.phrasing_notes}
                   onChange={e => matrix.updatePhrasing(e.target.value)}
@@ -378,6 +421,12 @@ export function StrategyPage() {
                 <h2 className="font-display text-xl md:text-2xl text-tango-paper italic mb-3" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
                   대회준비반에서 배운 것
                 </h2>
+                <div className="bg-tango-brass/5 border-l-4 border-tango-brass/60 rounded-sm p-3 mb-2">
+                  <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-2">💡 가이드</div>
+                  <pre className="font-serif text-xs md:text-sm text-tango-cream/85 whitespace-pre-wrap" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+{PREP_CLASS_GUIDE}
+                  </pre>
+                </div>
                 <textarea
                   value={matrix.data.prep_class_notes}
                   onChange={e => matrix.updatePrepClass(e.target.value)}
