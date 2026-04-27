@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { PageHeader } from '../components/PageHeader';
 import { TandaAnalysisSection } from '../components/TandaAnalysisSection';
+import { TandaCombinationChart } from '../components/TandaCombinationChart';
 import { TandaAIInsight } from '../components/TandaAIInsight';
 import { RondaParticipants } from '../components/RondaParticipants';
 import roundsData from '../data/competition_rounds.json';
@@ -260,6 +261,17 @@ export function TandaLabPage() {
 
           {/* 📊 심층 분석 */}
           <TandaAnalysisSection tandas={tandas} />
+
+          {/* 🎯 결승 선곡 패턴 자동 감지 */}
+          <div className="bg-white/5 rounded-xl border border-tango-brass/20 p-4 md:p-6">
+            <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-1">
+              Pattern Detection · 선곡 패턴
+            </div>
+            <h3 className="font-display text-xl md:text-2xl text-tango-paper italic mb-4" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+              결승에서 자주 나오는 <em className="text-tango-brass">악단 조합</em>
+            </h3>
+            <TandaCombinationChart stageFilter="final" />
+          </div>
 
 
           {/* 곡 검색 → 동반 곡 */}

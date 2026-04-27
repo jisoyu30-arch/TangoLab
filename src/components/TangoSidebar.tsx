@@ -28,6 +28,7 @@ const NAV_GROUPS: NavGroup[] = [
     items: [
       { to: '/command', label: 'Command', sub: '우리 부부 허브', num: '♔' },
       { to: '/champions', label: 'Champions', sub: '우승자 분석', num: '★' },
+      { to: '/weakness', label: 'Weakness', sub: '약점 해부', num: '✕' },
       { to: '/tanda-simulator', label: 'Simulator', sub: '탄다 시뮬레이터', num: '◎' },
       { to: '/collage', label: 'Collage', sub: '영상 콜라주', num: '▦' },
       { to: '/mundial', label: 'Year Stories', sub: 'Mundial 연도별', num: '01' },
@@ -145,6 +146,13 @@ export function TangoSidebar({ onNavigate }: Props) {
       {/* 백업·복원 */}
       <div className="p-3 border-t border-tango-brass/20 space-y-2">
         <BackupRestore compact />
+        <NavLink
+          to="/settings"
+          onClick={onNavigate}
+          className="block w-full text-center text-[10px] tracking-[0.2em] uppercase text-tango-cream/50 hover:text-tango-brass transition-colors py-1"
+        >
+          ☁ 클라우드 백업 관리
+        </NavLink>
       </div>
 
       {/* 로그인 */}

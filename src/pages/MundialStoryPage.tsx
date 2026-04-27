@@ -18,6 +18,12 @@ const songMap = new Map(songs.map(s => [s.song_id, s]));
 
 // 연도별 스토리 데이터
 const YEAR_STORIES: Record<string, { champion: string; headline: string; angle: string; year: number }> = {
+  '2025': {
+    year: 2025,
+    champion: 'Diego Ortega & Aldana Silveyra',
+    headline: 'Movistar Arena, 두 번째 해',
+    angle: '2025년 Mundial은 **첫 도전 우승의 해**였다. Diego Ortega와 Aldana Silveyra는 클래식한 라인을 정확하게 지키며 결승 4 라운드 내내 안정된 음악 해석을 보여줬다. 148쌍이 클라시피카토리아 4그룹으로 나뉘어 출전한 가장 큰 규모의 대회 중 하나.',
+  },
   '2024': {
     year: 2024,
     champion: 'Brenno Lucas Márquez & Fátima Caracoch',
@@ -48,7 +54,7 @@ interface Props { }
 
 export function MundialStoryPage({ }: Props) {
   const params = useParams<{ year: string }>();
-  const year = params.year || '2024';
+  const year = params.year || '2025';
   const story = YEAR_STORIES[year];
 
   const yearData = useMemo(() => {

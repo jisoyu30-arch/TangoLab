@@ -148,6 +148,18 @@ function computeJudgeStats(): JudgeStats[] {
 
 type SortKey = 'appearances' | 'avg' | 'harsh' | 'align';
 
+// 심사위원 성향 분류
+type Tendency = '관대형' | '엄격형' | '균형형' | '정합형' | '독립형' | '신규';
+
+function classifyTendency(j: JudgeStats): { label: Tendency; color: string; desc: string } {
+  if (j.totalFinalScores < 10) return { label: '신규', color: '#8B7A4F', desc: '결승 데이터 부족' };
+  if (j.winnerAlignRate >= 0.7) return { label: '정합형', color: '#D4AF37', desc: '우승자에게 일관되게 높은 점수' };
+  if (j.harshness >= 0.15) return { label: '관대형', color: '#7A9E6E', desc: '패널 평균보다 후한 점수' };
+  if (j.harshness <= -0.15) return { label: '엄격형', color: '#C72C1C', desc: '패널 평균보다 짠 점수' };
+  if (j.winnerAlignRate <= 0.4) return { label: '독립형', color: '#5D7A8E', desc: '우승자와 무관한 독자 평가' };
+  return { label: '균형형', color: '#B0936F', desc: '평균에 가까운 안정 평가' };
+}
+
 export function JudgesPage() {
   const [query, setQuery] = useState('');
   const [sortBy, setSortBy] = useState<SortKey>('appearances');
@@ -346,8 +358,20 @@ export function JudgesPage() {
                     {String(i + 1).padStart(2, '0')}
                   </span>
                   <div className="min-w-0">
-                    <div className="font-serif italic text-base text-tango-paper truncate" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                    <div className="font-serif italic text-base text-tango-paper truncate flex items-center gap-1.5" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
                       {j.name}
+                      {(() => {
+                        const t = classifyTendency(j);
+                        return (
+                          <span
+                            className="text-[9px] tracking-widest uppercase font-sans px-1.5 py-0.5 rounded-sm flex-shrink-0"
+                            style={{ backgroundColor: `${t.color}25`, color: t.color }}
+                            title={t.desc}
+                          >
+                            {t.label}
+                          </span>
+                        );
+                      })()}
                     </div>
                     <div className="text-[10px] tracking-widest uppercase text-tango-cream/50 font-sans mt-0.5">
                       {j.finalYears.length > 0 ? `결승 ${j.finalYears.length}회` : j.stages.join(' / ')}
@@ -452,9 +476,23 @@ function JudgeDetail({ judge }: { judge: JudgeStats }) {
         <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-1">
           Judge Profile
         </div>
-        <h2 className="font-display text-3xl italic text-tango-paper" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
-          {judge.name}
-        </h2>
+        <div className="flex items-baseline gap-3 flex-wrap">
+          <h2 className="font-display text-3xl italic text-tango-paper" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+            {judge.name}
+          </h2>
+          {(() => {
+            const t = classifyTendency(judge);
+            return (
+              <span
+                className="text-[10px] tracking-[0.2em] uppercase font-sans px-2 py-1 rounded-sm"
+                style={{ backgroundColor: `${t.color}25`, color: t.color }}
+                title={t.desc}
+              >
+                {t.label} · {t.desc}
+              </span>
+            );
+          })()}
+        </div>
         <div className="text-[10px] tracking-widest uppercase text-tango-cream/50 font-sans mt-1">
           {judge.years[0]}–{judge.years[judge.years.length - 1]} · {judge.appearances.length}회 심사
         </div>

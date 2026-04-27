@@ -3,6 +3,7 @@ import { useMemo, useState } from 'react';
 import { PageHeader } from '../components/PageHeader';
 import { EditorialHeader, EditorialStat, OrnamentDivider } from '../components/editorial';
 import { OrchestraStreamgraph } from '../components/OrchestraStreamgraph';
+import { OrchestraStageChart } from '../components/OrchestraStageChart';
 import { TrendInsight } from '../components/TrendInsight';
 import songsData from '../data/songs.json';
 import appearancesData from '../data/appearances.json';
@@ -150,6 +151,18 @@ export function TrendsPage() {
               </button>
             ))}
           </div>
+
+          {/* 신규: 악단별 스테이지 분포 (결승 비율) */}
+          <section>
+            <EditorialHeader
+              eyebrow="Stage Distribution"
+              title="악단별 결승 진출 비율"
+              subtitle="어떤 악단이 결승 무대에서 더 자주 선택되는가 — 우승 전략 지표"
+            />
+            <div className="mt-8 bg-tango-shadow/40 border border-tango-brass/15 rounded-sm p-4 md:p-6">
+              <OrchestraStageChart />
+            </div>
+          </section>
 
           {/* 스트림그래프: 악단 점유율 변천사 */}
           <section>

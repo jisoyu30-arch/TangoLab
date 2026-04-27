@@ -5,6 +5,7 @@ import type { ClassRecord, PracticeLog, OwnCompetition, Judge, ScoreEntry, Score
 import { auth } from '../lib/firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 import { saveUserData, subscribeToUserData } from '../lib/firestoreUserData';
+import { autoBackupIfNeeded } from '../lib/firestoreBackup';
 
 interface TrainingData {
   classes: ClassRecord[];
@@ -67,6 +68,22 @@ export function useTrainingStore() {
     });
     return () => unsub();
   }, []);
+
+  // 로그인 시 자동 주간 백업 시도 (한 번만)
+  useEffect(() => {
+    if (!userUid) return;
+    const t = setTimeout(() => {
+      autoBackupIfNeeded({
+        classes: data.classes,
+        practices: data.practices,
+        ownCompetitions: data.ownCompetitions,
+        updatedAt: Date.now(),
+      }, userEmail).then(r => {
+        if (r.created) console.log('[backup] 자동 스냅샷 생성', r.id);
+      }).catch(() => {});
+    }, 5000); // 페이지 로드 5초 뒤 (로그인 + 데이터 동기화 후)
+    return () => clearTimeout(t);
+  }, [userUid, userEmail, data.classes.length, data.practices.length, data.ownCompetitions.length]);
 
   // 로그인 시 Firestore 구독 + 마이그레이션
   useEffect(() => {

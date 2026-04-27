@@ -1,8 +1,46 @@
 // 태그 영상 플레이어 — 영상 재생 시 곡/참가자/심사위원 메타 정보 패널 동시 표시
 // 재사용 가능: Command Center · TandaLab · SongDetail 등
 // + 곡 타임스탬프 클릭 시 해당 시점으로 점프 (postMessage API)
-import { useState, useMemo, useRef } from 'react';
+import { useState, useMemo, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+
+// === 영상 주석(메모) 저장 ===
+interface VideoAnnotation {
+  id: string;
+  sec: number;
+  text: string;
+  created_at: string;
+}
+
+const ANNOTATION_KEY = 'tango_lab_video_annotations';
+
+function loadAnnotations(videoId: string): VideoAnnotation[] {
+  try {
+    const raw = localStorage.getItem(ANNOTATION_KEY);
+    if (!raw) return [];
+    const all = JSON.parse(raw);
+    return (all[videoId] || []).sort((a: VideoAnnotation, b: VideoAnnotation) => a.sec - b.sec);
+  } catch {
+    return [];
+  }
+}
+
+function saveAnnotations(videoId: string, list: VideoAnnotation[]) {
+  try {
+    const raw = localStorage.getItem(ANNOTATION_KEY);
+    const all = raw ? JSON.parse(raw) : {};
+    all[videoId] = list;
+    localStorage.setItem(ANNOTATION_KEY, JSON.stringify(all));
+  } catch {
+    // ignore
+  }
+}
+
+function fmtTime(sec: number): string {
+  const m = Math.floor(sec / 60);
+  const s = Math.floor(sec % 60);
+  return `${m}:${String(s).padStart(2, '0')}`;
+}
 
 export interface VideoSong {
   song_id?: string;
@@ -56,10 +94,33 @@ export function TaggedVideoPlayer({
   autoPlay = false,
   highlight,
 }: TaggedVideoPlayerProps) {
-  const [activeTab, setActiveTab] = useState<'songs' | 'participants' | 'judges'>(
-    songs.length > 0 ? 'songs' : participants.length > 0 ? 'participants' : 'judges'
+  const [activeTab, setActiveTab] = useState<'songs' | 'participants' | 'judges' | 'notes'>(
+    songs.length > 0 ? 'songs' : participants.length > 0 ? 'participants' : judges.length > 0 ? 'judges' : 'notes'
   );
   const iframeRef = useRef<HTMLIFrameElement>(null);
+  const [annotations, setAnnotations] = useState<VideoAnnotation[]>(() => loadAnnotations(video.video_id));
+
+  // video_id 바뀌면 주석 다시 로드
+  useEffect(() => {
+    setAnnotations(loadAnnotations(video.video_id));
+  }, [video.video_id]);
+
+  const addAnnotation = (sec: number, text: string) => {
+    const next = [...annotations, {
+      id: `ann-${Date.now()}`,
+      sec: Math.floor(sec),
+      text: text.trim(),
+      created_at: new Date().toISOString(),
+    }].sort((a, b) => a.sec - b.sec);
+    setAnnotations(next);
+    saveAnnotations(video.video_id, next);
+  };
+
+  const deleteAnnotation = (id: string) => {
+    const next = annotations.filter(a => a.id !== id);
+    setAnnotations(next);
+    saveAnnotations(video.video_id, next);
+  };
 
   const videoUrl = useMemo(() => {
     const params = new URLSearchParams();
@@ -176,6 +237,9 @@ export function TaggedVideoPlayer({
                 ⚖ 심사 <span className="text-[10px] opacity-60 ml-1">{judges.length}</span>
               </TabButton>
             )}
+            <TabButton active={activeTab === 'notes'} onClick={() => setActiveTab('notes')}>
+              📝 메모 {annotations.length > 0 && <span className="text-[10px] opacity-60 ml-1">{annotations.length}</span>}
+            </TabButton>
           </div>
 
           {/* 탭 내용 */}
@@ -188,6 +252,14 @@ export function TaggedVideoPlayer({
             )}
             {activeTab === 'judges' && (
               <JudgesList judges={judges} myScores={myJudgeScores} />
+            )}
+            {activeTab === 'notes' && (
+              <NotesPanel
+                annotations={annotations}
+                onSeek={seekTo}
+                onAdd={addAnnotation}
+                onDelete={deleteAnnotation}
+              />
             )}
           </div>
         </div>
@@ -299,6 +371,105 @@ function ParticipantsList({ participants, advanceBadge }: { participants: VideoP
           </div>
         </div>
       ))}
+    </div>
+  );
+}
+
+function NotesPanel({
+  annotations,
+  onSeek,
+  onAdd,
+  onDelete,
+}: {
+  annotations: VideoAnnotation[];
+  onSeek: (sec: number) => void;
+  onAdd: (sec: number, text: string) => void;
+  onDelete: (id: string) => void;
+}) {
+  const [text, setText] = useState('');
+  const [secInput, setSecInput] = useState('');
+
+  const parseSec = (raw: string): number | null => {
+    const trimmed = raw.trim();
+    if (!trimmed) return null;
+    if (trimmed.includes(':')) {
+      const [m, s] = trimmed.split(':').map(Number);
+      if (isNaN(m) || isNaN(s)) return null;
+      return m * 60 + s;
+    }
+    const n = Number(trimmed);
+    return isNaN(n) ? null : n;
+  };
+
+  const handleAdd = () => {
+    const sec = parseSec(secInput);
+    if (sec === null || !text.trim()) return;
+    onAdd(sec, text);
+    setText('');
+    setSecInput('');
+  };
+
+  return (
+    <div className="space-y-2">
+      {/* 입력 폼 */}
+      <div className="bg-tango-brass/10 border border-tango-brass/25 rounded-sm p-2 space-y-1.5">
+        <div className="flex gap-1.5">
+          <input
+            type="text"
+            value={secInput}
+            onChange={e => setSecInput(e.target.value)}
+            placeholder="0:34"
+            className="w-16 bg-tango-ink border border-tango-brass/30 rounded-sm px-2 py-1 text-tango-paper text-xs font-mono focus:outline-none focus:border-tango-brass"
+          />
+          <input
+            type="text"
+            value={text}
+            onChange={e => setText(e.target.value)}
+            onKeyDown={e => e.key === 'Enter' && handleAdd()}
+            placeholder="메모 (예: 발 위치 좋음)"
+            className="flex-1 min-w-0 bg-tango-ink border border-tango-brass/30 rounded-sm px-2 py-1 text-tango-paper text-xs focus:outline-none focus:border-tango-brass"
+          />
+          <button
+            onClick={handleAdd}
+            disabled={!text.trim() || parseSec(secInput) === null}
+            className="px-2 py-1 text-[10px] bg-tango-brass/30 hover:bg-tango-brass/50 disabled:opacity-30 text-tango-brass rounded-sm font-sans"
+          >
+            추가
+          </button>
+        </div>
+        <div className="text-[9px] text-tango-cream/40">
+          타임스탬프 형식: <code className="text-tango-brass">0:34</code> 또는 <code className="text-tango-brass">34</code> (초)
+        </div>
+      </div>
+
+      {/* 주석 목록 */}
+      {annotations.length === 0 ? (
+        <div className="text-center text-[11px] text-tango-cream/40 py-6 font-serif italic">
+          이 영상에 메모가 없습니다.<br />위에서 첫 메모를 추가해보세요.
+        </div>
+      ) : (
+        annotations.map(a => (
+          <div key={a.id} className="bg-white/5 rounded-sm p-2 text-xs flex items-start gap-2">
+            <button
+              onClick={() => onSeek(a.sec)}
+              className="flex-shrink-0 text-[10px] bg-tango-brass/20 hover:bg-tango-brass/40 text-tango-brass rounded-sm px-1.5 py-0.5 font-mono"
+              title={`${fmtTime(a.sec)} 지점으로 점프`}
+            >
+              ▶ {fmtTime(a.sec)}
+            </button>
+            <div className="flex-1 min-w-0 font-serif italic text-tango-paper" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+              {a.text}
+            </div>
+            <button
+              onClick={() => onDelete(a.id)}
+              className="flex-shrink-0 text-tango-cream/30 hover:text-tango-rose text-[14px] leading-none"
+              title="삭제"
+            >
+              ×
+            </button>
+          </div>
+        ))
+      )}
     </div>
   );
 }

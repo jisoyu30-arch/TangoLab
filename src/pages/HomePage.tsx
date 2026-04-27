@@ -3,6 +3,7 @@ import { useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { PageHeader } from '../components/PageHeader';
 import { TodayInHistoryWidget } from '../components/DailyTandaWidget';
+import { DDayWidget } from '../components/DDayWidget';
 import { usePracticeStore } from '../hooks/usePracticeStore';
 import { useRecentItems } from '../hooks/useRecentItems';
 import { computeRankings } from '../utils/tangoRanking';
@@ -225,6 +226,13 @@ export function HomePage() {
             <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans italic">
               소유 · 신랑 · Mundial 우승 도전 랩실
             </div>
+          </div>
+        </section>
+
+        {/* ╔══════════ 다음 대회 D-day ══════════╗ */}
+        <section className="bg-tango-ink py-4 border-b border-tango-brass/15">
+          <div className="max-w-5xl mx-auto px-4 md:px-8">
+            <DDayWidget />
           </div>
         </section>
 
