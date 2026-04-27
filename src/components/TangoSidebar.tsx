@@ -27,6 +27,7 @@ const NAV_GROUPS: NavGroup[] = [
     title: 'Championship Strategy',
     items: [
       { to: '/command', label: 'Command', sub: '우리 부부 허브', num: '♔' },
+      { to: '/strategy', label: 'Game Plan', sub: '우승 전략 매트릭스', num: '◆' },
       { to: '/champions', label: 'Champions', sub: '우승자 분석', num: '★' },
       { to: '/weakness', label: 'Weakness', sub: '약점 해부', num: '✕' },
       { to: '/tanda-simulator', label: 'Simulator', sub: '탄다 시뮬레이터', num: '◎' },
