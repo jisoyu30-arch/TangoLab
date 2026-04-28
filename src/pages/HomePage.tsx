@@ -4,6 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { PageHeader } from '../components/PageHeader';
 import { TodayInHistoryWidget } from '../components/DailyTandaWidget';
 import { DDayWidget } from '../components/DDayWidget';
+import { WeeklyDashboard } from '../components/WeeklyDashboard';
 import { usePracticeStore } from '../hooks/usePracticeStore';
 import { useRecentItems } from '../hooks/useRecentItems';
 import { computeRankings } from '../utils/tangoRanking';
@@ -235,6 +236,9 @@ export function HomePage() {
             <DDayWidget />
           </div>
         </section>
+
+        {/* ╔══════════ 이번 주 미니 대시보드 ══════════╗ */}
+        <WeeklyDashboard />
 
         {/* 우승 전략 진입 */}
         <section className="border-y border-tango-brass/20 bg-tango-burgundy/5">

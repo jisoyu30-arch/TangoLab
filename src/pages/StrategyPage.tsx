@@ -1,6 +1,6 @@
 // 우승 전략 페이지 — 음악 분류 4 × 차원 5 매트릭스 + 우리/우승자 분석
 import { useState, useMemo } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { PageHeader } from '../components/PageHeader';
 import { OrnamentDivider } from '../components/editorial';
 import {
@@ -16,12 +16,15 @@ import {
   PHRASING_GUIDE,
   PREP_CLASS_GUIDE,
 } from '../hooks/useStrategyMatrix';
+import { useSequencesStore } from '../hooks/useSequencesStore';
 import { useTrainingStore } from '../hooks/useTrainingStore';
 import ktcData from '../data/ktc_participants.json';
 import champData from '../data/mundial_champions_history.json';
 
 export function StrategyPage() {
+  const navigate = useNavigate();
   const matrix = useStrategyMatrix();
+  const seqStore = useSequencesStore();
   const [activeMusic, setActiveMusic] = useState<MusicType>('rhythmic');
   const [activeDim, setActiveDim] = useState<Dimension>('walk');
   const [section, setSection] = useState<'matrix' | 'analysis' | 'notes'>('matrix');
@@ -258,6 +261,38 @@ export function StrategyPage() {
                   accent="rose"
                 />
 
+                {/* → 시퀀스로 promote */}
+                {(activeCell.notes.trim() || (activeCell.reference_videos?.length || 0) > 0) && (
+                  <div className="border-t border-tango-brass/15 pt-3">
+                    <button
+                      onClick={() => {
+                        const ref = activeCell.reference_videos?.[0];
+                        const seqId = seqStore.addSequence({
+                          title: `${activeMusicMeta.label} ${activeDimMeta.label}`,
+                          music_type: activeMusic === 'show' ? 'show' : activeMusic,
+                          description: activeCell.notes,
+                          reference_url: ref?.url || '',
+                          reference_label: ref?.label,
+                          status: 'learning',
+                        });
+                        // own_videos 도 클립으로 옮기기
+                        for (const v of (activeCell.own_videos || [])) {
+                          seqStore.addPracticeClip(seqId, v.url, v.label);
+                        }
+                        if (confirm(`"${activeMusicMeta.label} ${activeDimMeta.label}" 시퀀스가 생성됐습니다.\n시퀀스 라이브러리로 이동할까요?`)) {
+                          navigate('/training/sequences');
+                        }
+                      }}
+                      className="w-full px-3 py-2 rounded-sm border border-tango-rose/40 bg-tango-rose/10 text-tango-rose text-xs hover:bg-tango-rose/20 transition-colors"
+                    >
+                      ◆ 이 셀을 시퀀스로 만들기 → /training/sequences
+                    </button>
+                    <div className="text-[10px] text-tango-cream/40 mt-1 text-center font-serif italic">
+                      메모·레퍼런스·우리 영상이 시퀀스 라이브러리에 복사됩니다
+                    </div>
+                  </div>
+                )}
+
                 {activeCell.updated_at && (
                   <div className="text-[10px] text-tango-cream/40 text-right font-sans">
                     수정: {new Date(activeCell.updated_at).toLocaleString()}
@@ -408,6 +443,21 @@ export function StrategyPage() {
                   <Link to="/weakness" className="text-tango-brass hover:underline">/weakness</Link>{' · '}
                   <Link to="/command" className="text-tango-brass hover:underline">/command</Link>
                 </div>
+
+                {/* 약점 → 매트릭스 액션 매핑 */}
+                {ourAnalysis.weaknesses.length > 0 && (
+                  <div className="mt-5 bg-tango-rose/5 border border-tango-rose/30 rounded-sm p-4">
+                    <div className="text-[10px] tracking-[0.3em] uppercase text-tango-rose font-sans mb-2">
+                      → 약점을 매트릭스 어디에서 보강?
+                    </div>
+                    <ul className="space-y-1.5 text-xs text-tango-cream/80 font-serif" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                      <li>• <strong className="text-tango-paper">피스타가 약점</strong>이라면 → <button onClick={() => { setSection('matrix'); setActiveMusic('traditional'); setActiveDim('walk'); }} className="text-tango-rose hover:underline">트래디셔널 × 걷기</button> 보강 (apilado·la caminata 정통 라인)</li>
+                      <li>• <strong className="text-tango-paper">밀롱가 강점 유지</strong>는 → <button onClick={() => { setSection('matrix'); setActiveMusic('rhythmic'); setActiveDim('sequence'); }} className="text-tango-rose hover:underline">리드믹 × 시퀀스</button> (마르카토·sub-pulse)</li>
+                      <li>• <strong className="text-tango-paper">결승 안정감 약점</strong>이면 → <button onClick={() => { setSection('matrix'); setActiveMusic('melodic'); setActiveDim('embrace'); }} className="text-tango-rose hover:underline">멜로디컬 × 아브라소</button> (Di Sarli salon embrace)</li>
+                      <li>• <strong className="text-tango-paper">바리아시옹 빠른 구간</strong> 약점이면 → 4분류 전부 <span className="text-tango-rose">바리아시옹</span> 차원 보강</li>
+                    </ul>
+                  </div>
+                )}
               </section>
 
               {/* 우승자 분석 */}
