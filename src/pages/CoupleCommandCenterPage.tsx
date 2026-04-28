@@ -198,6 +198,19 @@ export function CoupleCommandCenterPage() {
             <OrnamentDivider className="mt-4 md:mt-6" />
           </section>
 
+          {/* 점수 트렌드 그래프 — 시간 순 추이 */}
+          {myData.length >= 2 && (
+            <section className="bg-tango-shadow/40 border border-tango-brass/20 rounded-sm p-4 md:p-5">
+              <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-3">
+                Score Trend · 시간 따라
+              </div>
+              <h2 className="font-display text-xl md:text-2xl text-tango-paper italic mb-4" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                나아지고 있는가?
+              </h2>
+              <ScoreTrendChart records={myData} />
+            </section>
+          )}
+
           {/* 전략 인사이트 배너 */}
           {insights.length > 0 && (
             <section className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -621,5 +634,150 @@ export function CoupleCommandCenterPage() {
         </div>
       </div>
     </>
+  );
+}
+
+// 점수 트렌드 차트 — 시간 순으로 평균 점수 추이
+function ScoreTrendChart({ records }: { records: MyRecord[] }) {
+  const sorted = [...records].sort((a, b) => a.year - b.year || a.event_key.localeCompare(b.event_key));
+
+  // 점수 범위 (8.0 ~ 10.0 기준)
+  const minScore = 7.5;
+  const maxScore = 10;
+  const range = maxScore - minScore;
+  const W = 100; // % 기반
+  const H = 200; // px
+
+  // 카테고리별 색상
+  const catColors: Record<string, string> = {
+    pista: '#5D7A8E',
+    milonga: '#D4AF37',
+    vals: '#7A8E6E',
+    pista_singles_jackandjill: '#C72C1C',
+  };
+  const catLabels: Record<string, string> = {
+    pista: '피스타', milonga: '밀롱가', vals: '발스', pista_singles_jackandjill: '잭앤질',
+  };
+
+  const points = sorted.map((r, i) => ({
+    x: (i / Math.max(1, sorted.length - 1)) * W,
+    y: H - ((r.avg - minScore) / range) * H,
+    r,
+  }));
+
+  const overallTrend = sorted.length >= 2
+    ? sorted[sorted.length - 1].avg - sorted[0].avg
+    : 0;
+
+  return (
+    <div>
+      {/* 추세 요약 */}
+      <div className="flex items-center gap-3 mb-4 text-sm">
+        <span className="text-tango-cream/60 font-sans">전체 추세</span>
+        <span
+          className="font-display text-2xl font-bold"
+          style={{
+            color: overallTrend >= 0.1 ? '#7A8E6E' : overallTrend <= -0.1 ? '#C72C1C' : '#B0936F',
+            fontFamily: '"Playfair Display", Georgia, serif',
+          }}
+        >
+          {overallTrend >= 0 ? '+' : ''}{overallTrend.toFixed(2)}점
+        </span>
+        <span className="text-xs text-tango-cream/50 font-serif italic">
+          {sorted[0]?.year} → {sorted[sorted.length - 1]?.year}
+        </span>
+      </div>
+
+      {/* SVG 그래프 */}
+      <div className="relative bg-tango-ink/40 border border-tango-brass/15 rounded-sm p-4">
+        <svg viewBox={`-5 -5 ${W + 10} ${H + 35}`} preserveAspectRatio="none" className="w-full h-48">
+          {/* Y축 grid */}
+          {[8, 8.5, 9, 9.5, 10].map(score => {
+            const y = H - ((score - minScore) / range) * H;
+            return (
+              <g key={score}>
+                <line x1={0} x2={W} y1={y} y2={y} stroke="#C8A44E" strokeOpacity="0.1" strokeDasharray="1,1" strokeWidth="0.3" />
+                <text x={-2} y={y + 1} fontSize="3" fill="#C8A44E" fillOpacity="0.5" textAnchor="end" fontFamily="ui-monospace,monospace">
+                  {score}
+                </text>
+              </g>
+            );
+          })}
+
+          {/* 추세선 (전체) */}
+          {points.length >= 2 && (
+            <polyline
+              fill="none"
+              stroke="#C8A44E"
+              strokeOpacity="0.4"
+              strokeWidth="0.5"
+              points={points.map(p => `${p.x},${p.y}`).join(' ')}
+            />
+          )}
+
+          {/* 데이터 포인트 */}
+          {points.map((p, i) => {
+            const color = catColors[p.r.category] || '#C8A44E';
+            return (
+              <g key={i}>
+                <circle cx={p.x} cy={p.y} r="1.8" fill={color} stroke="#0a0807" strokeWidth="0.3" />
+                <text x={p.x} y={H + 6} fontSize="2.5" fill="#E0D5BC" fillOpacity="0.6" textAnchor="middle" fontFamily="ui-sans-serif,sans-serif">
+                  {p.r.year}
+                </text>
+                <text x={p.x} y={p.y - 3} fontSize="2.5" fill={color} textAnchor="middle" fontFamily="ui-monospace,monospace" fontWeight="bold">
+                  {p.r.avg.toFixed(2)}
+                </text>
+              </g>
+            );
+          })}
+        </svg>
+
+        {/* 범례 */}
+        <div className="flex flex-wrap gap-3 mt-3 text-[10px] tracking-widest uppercase font-sans">
+          {Array.from(new Set(sorted.map(r => r.category))).map(cat => (
+            <span key={cat} className="flex items-center gap-1 text-tango-cream/60">
+              <span className="w-2 h-2 rounded-full" style={{ backgroundColor: catColors[cat] || '#C8A44E' }} />
+              {catLabels[cat] || cat}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      {/* 데이터 테이블 */}
+      <div className="mt-4 overflow-x-auto">
+        <table className="w-full text-xs">
+          <thead className="text-[10px] tracking-widest uppercase text-tango-cream/40">
+            <tr>
+              <th className="text-left py-1">대회</th>
+              <th className="text-left py-1">부문</th>
+              <th className="text-left py-1">단계</th>
+              <th className="text-right py-1">평균</th>
+              <th className="text-right py-1">순위</th>
+            </tr>
+          </thead>
+          <tbody>
+            {sorted.map((r, i) => (
+              <tr key={i} className="border-t border-tango-brass/10 text-tango-cream/80">
+                <td className="py-1.5 font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                  {r.year} {r.competition.replace('Korea Tango Championship', 'KTC')}
+                </td>
+                <td className="py-1.5">
+                  <span style={{ color: catColors[r.category] || '#C8A44E' }}>
+                    {catLabels[r.category] || r.category}
+                  </span>
+                </td>
+                <td className="py-1.5">
+                  {r.stage === 'final' ? '결승' : r.stage === 'semifinal' ? '준결승' : '예선'}
+                </td>
+                <td className="py-1.5 text-right font-mono text-tango-brass font-semibold">
+                  {r.avg.toFixed(2)}
+                </td>
+                <td className="py-1.5 text-right">{r.rank}{r.total_participants ? `/${r.total_participants}` : ''}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
   );
 }

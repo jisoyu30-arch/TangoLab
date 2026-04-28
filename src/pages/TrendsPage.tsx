@@ -77,13 +77,20 @@ export function TrendsPage() {
     return result.sort((a, b) => b.year - a.year);
   }, [stageFilter]);
 
-  // 전체 통계
+  // 전체 통계 — 의미있는 데이터(연도당 10회 이상 출현)만 범위로
   const stats = useMemo(() => {
-    const yearRange = Array.from(new Set(appearances.map(a => a.year))).sort();
+    const yearCounts: Record<number, number> = {};
+    for (const a of appearances) {
+      yearCounts[a.year] = (yearCounts[a.year] || 0) + 1;
+    }
+    const meaningfulYears = Object.entries(yearCounts)
+      .filter(([, count]) => count >= 10)
+      .map(([y]) => parseInt(y))
+      .sort();
     return {
-      years: yearRange.length,
-      yearStart: yearRange[0],
-      yearEnd: yearRange[yearRange.length - 1],
+      years: meaningfulYears.length,
+      yearStart: meaningfulYears[0],
+      yearEnd: meaningfulYears[meaningfulYears.length - 1],
       totalApp: appearances.length,
       totalRounds: rounds.length,
       totalSongs: songs.length,

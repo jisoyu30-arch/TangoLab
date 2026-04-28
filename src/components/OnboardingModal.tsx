@@ -97,30 +97,68 @@ export function OnboardingModal() {
 const STEPS: Array<{ title: string; body: string; preview?: React.ReactNode }> = [
   {
     title: '환영합니다',
-    body: '석정소유의 탱고랩은 Mundial, KTC 등 대회 음악을 분석하고 탄다를 연구하는 에디토리얼 매거진입니다. 638개의 곡과 332개의 라운드 데이터가 정리되어 있습니다.',
+    body: '석정소유의 탱고랩 — Mundial 우승 도전 랩실. 데이터 분석 + 우리 부부 전략 + 연습 일지가 한 곳에.',
   },
   {
-    title: '어디서 시작하시겠어요?',
-    body: '3가지 주요 섹션이 있습니다:',
+    title: '🎯 우승 전략 도구',
+    body: '대회 준비 핵심 4 페이지:',
     preview: (
-      <ul className="space-y-3 text-sm">
+      <ul className="space-y-2 text-sm">
+        <li>
+          <Link to="/command" className="text-tango-brass hover:underline font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+            ♔ Command Center
+          </Link>
+          <span className="text-tango-cream/70"> — 우리 부부 점수·심사위원 분석</span>
+        </li>
+        <li>
+          <Link to="/strategy" className="text-tango-brass hover:underline font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+            ◆ Game Plan
+          </Link>
+          <span className="text-tango-cream/70"> — 음악 4 × 차원 5 매트릭스</span>
+        </li>
+        <li>
+          <Link to="/training/sequences" className="text-tango-brass hover:underline font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+            ◈ Sequences
+          </Link>
+          <span className="text-tango-cream/70"> — 레퍼런스↔우리 영상 2분할</span>
+        </li>
+        <li>
+          <Link to="/checklist" className="text-tango-brass hover:underline font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+            📋 Prep
+          </Link>
+          <span className="text-tango-cream/70"> — D-30 체크리스트, 다음 대회 D-day</span>
+        </li>
+      </ul>
+    ),
+  },
+  {
+    title: '📊 데이터 분석',
+    body: '대회 데이터로 패턴을 읽고 약점을 찾습니다:',
+    preview: (
+      <ul className="space-y-2 text-sm">
         <li>
           <Link to="/trends" className="text-tango-brass hover:underline font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
-            📈 트렌드 분석
+            📈 Trends
           </Link>
-          <span className="text-tango-cream/70"> — 연도별 악단 인기 변천사</span>
+          <span className="text-tango-cream/70"> — 연도별 악단 변천사</span>
         </li>
         <li>
-          <Link to="/tanda" className="text-tango-brass hover:underline font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
-            🎼 탄다 연구소
+          <Link to="/champions" className="text-tango-brass hover:underline font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+            ★ Champions
           </Link>
-          <span className="text-tango-cream/70"> — 3곡 조합 패턴 + AI 해설</span>
+          <span className="text-tango-cream/70"> — Mundial 우승자 패턴</span>
         </li>
         <li>
-          <Link to="/ai" className="text-tango-brass hover:underline font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
-            ✨ AI 추천
+          <Link to="/weakness" className="text-tango-brass hover:underline font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+            ✕ Weakness
           </Link>
-          <span className="text-tango-cream/70"> — 맞춤 탄다 설계</span>
+          <span className="text-tango-cream/70"> — 약점 자동 진단</span>
+        </li>
+        <li>
+          <Link to="/judges" className="text-tango-brass hover:underline font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+            ⚖ Judges
+          </Link>
+          <span className="text-tango-cream/70"> — 심사위원 성향 카드</span>
         </li>
       </ul>
     ),
@@ -130,7 +168,7 @@ const STEPS: Array<{ title: string; body: string; preview?: React.ReactNode }> =
     body: '어디서나 `⌘K`(Mac) 또는 `Ctrl+K`(Windows)로 곡·악단·페이지를 즉시 검색. 한글 초성(ㄷㅇㄴ → D\'Arienzo)도 지원합니다.',
   },
   {
-    title: '모바일에서도',
-    body: '홈 화면에 추가하면 앱처럼 작동합니다. 로그인하시면 연습·대회·메모가 모든 기기에 자동 동기화됩니다.',
+    title: '☁ 데이터 동기화',
+    body: '로그인하시면 수업·연습·대회 기록이 모든 기기에 자동 동기화됩니다. 7일마다 클라우드 자동 백업 (최대 12개 스냅샷). 모바일은 홈 화면에 추가하면 앱처럼 작동.',
   },
 ];

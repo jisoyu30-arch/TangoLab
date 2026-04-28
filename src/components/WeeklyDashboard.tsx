@@ -106,6 +106,26 @@ export function WeeklyDashboard() {
           This Week · 이번 주 한눈에
         </div>
 
+        {/* 🎯 오늘의 추천 액션 — 매트릭스 빈 셀이 있을 때만 노출 */}
+        {data.nextEmptyCell && data.matrixProgress < 100 && (
+          <Link
+            to="/strategy"
+            className="block mb-3 p-3 bg-tango-rose/10 border border-tango-rose/30 rounded-sm hover:bg-tango-rose/15 transition-colors"
+          >
+            <div className="flex items-center justify-between gap-2">
+              <div className="flex-1 min-w-0">
+                <div className="text-[10px] tracking-widest uppercase text-tango-rose font-sans mb-0.5">
+                  ◈ 오늘 채울 1셀 (전략 매트릭스 {data.matrixProgress}%)
+                </div>
+                <div className="font-serif italic text-base text-tango-paper truncate" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                  {data.nextEmptyCell.musicLabel} × {data.nextEmptyCell.dimLabel}
+                </div>
+              </div>
+              <span className="text-tango-rose flex-shrink-0">→</span>
+            </div>
+          </Link>
+        )}
+
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
           {/* D-day */}
           {data.target && data.dDay !== null && (
