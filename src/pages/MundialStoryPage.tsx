@@ -86,11 +86,47 @@ export function MundialStoryPage({ }: Props) {
   }, [year]);
 
   if (!story) {
+    const availableYears = Object.keys(YEAR_STORIES).sort((a, b) => parseInt(b) - parseInt(a));
     return (
       <>
         <PageHeader title="Mundial Story" />
-        <div className="flex-1 flex items-center justify-center text-tango-cream/60 font-serif italic">
-          {year}년 스토리가 아직 없습니다
+        <div className="flex-1 overflow-y-auto bg-tango-ink">
+          <div className="max-w-3xl mx-auto px-5 md:px-8 py-12 text-center space-y-6">
+            <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans">
+              Year Stories
+            </div>
+            <h1 className="font-display text-3xl md:text-4xl text-tango-paper italic" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+              <em className="text-tango-brass">{year}</em>년 스토리는 아직 없습니다
+            </h1>
+            <p className="text-sm text-tango-cream/60 font-serif italic">
+              에디토리얼 분석이 작성된 연도만 노출됩니다. 아래에서 선택해주세요.
+            </p>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mt-8">
+              {availableYears.map(y => {
+                const s = YEAR_STORIES[y];
+                return (
+                  <Link
+                    key={y}
+                    to={`/mundial/${y}`}
+                    className="block p-4 border border-tango-brass/30 rounded-sm hover:border-tango-brass hover:bg-tango-brass/10 transition-all text-center"
+                  >
+                    <div className="font-display text-3xl text-tango-paper italic" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                      {s.year}
+                    </div>
+                    <div className="text-[10px] text-tango-cream/60 mt-1 font-sans truncate">
+                      {s.champion.split('&')[0].trim()}
+                    </div>
+                    <div className="text-[10px] text-tango-brass/70 mt-1 font-serif italic truncate" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                      {s.headline}
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
+            <Link to="/champions" className="inline-block mt-6 text-sm text-tango-brass hover:underline font-serif italic">
+              → 전체 우승자 보기 (/champions)
+            </Link>
+          </div>
         </div>
       </>
     );

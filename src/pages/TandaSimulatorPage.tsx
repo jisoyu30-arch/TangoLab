@@ -495,6 +495,27 @@ export function TandaSimulatorPage() {
                 <MetricBox label="연도 범위" active={analysis.yearTight} max={10} text={analysis.years.length > 0 ? `±${analysis.yearRange}년` : '—'} />
               </div>
 
+              {/* 점수 해석 가이드 */}
+              <div className="mt-4 pt-4 border-t border-tango-brass/15">
+                <details className="text-xs">
+                  <summary className="cursor-pointer text-tango-brass/80 hover:text-tango-brass font-sans tracking-widest uppercase text-[10px]">
+                    💡 점수 해석 가이드 (펼치기)
+                  </summary>
+                  <div className="mt-3 space-y-2 text-tango-cream/75 font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                    <p><strong className="text-tango-brass not-italic">85+ 결승 수준</strong> — Mundial 결승에서 자주 등장한 패턴. 검증된 우승 조합.</p>
+                    <p><strong className="text-tango-brass not-italic">70-84 준결승 수준</strong> — 안정적이지만 완벽하진 않음. 약점 1-2개 보강 가능.</p>
+                    <p><strong className="text-tango-brass not-italic">55-69 예선 수준</strong> — 기본은 잡혔으나 결승급은 아님. 티어/포지션/일관성 중 하나 큰 문제.</p>
+                    <p><strong className="text-tango-rose not-italic">55 미만</strong> — 실험적 조합. 본인 스타일이라면 OK, 대회용으로는 보강 필요.</p>
+                    <hr className="border-tango-brass/15 my-2" />
+                    <p className="text-[11px] text-tango-cream/55"><strong>티어 점수 (40점)</strong> = 곡들이 결승에 자주 등장한 정도</p>
+                    <p className="text-[11px] text-tango-cream/55"><strong>포지션 적합 (20점)</strong> = 1번째 곡이 오프너 적합한지, 4번째가 클로저 적합한지</p>
+                    <p className="text-[11px] text-tango-cream/55"><strong>악단 일관 (15점)</strong> = 한 악단으로 통일되면 만점 — 클래식 탄다 원칙</p>
+                    <p className="text-[11px] text-tango-cream/55"><strong>장르 일관 (10점)</strong> = pista/milonga/vals 섞이지 않음</p>
+                    <p className="text-[11px] text-tango-cream/55"><strong>연도 범위 (10점)</strong> = 같은 시기(±5년 이내) 곡끼리 묶임</p>
+                  </div>
+                </details>
+              </div>
+
               {/* 제안 */}
               {analysis.suggestions.length > 0 && (
                 <div className="mt-5 pt-5 border-t border-tango-brass/15">

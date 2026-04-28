@@ -98,6 +98,27 @@ export function StrategyPage() {
           {/* === 매트릭스 === */}
           {section === 'matrix' && (
             <>
+              {/* 사용법 인트로 (첫 진입 시 도움) */}
+              {matrix.filledCount === 0 && (
+                <div className="bg-tango-brass/5 border border-tango-brass/30 rounded-sm p-4 md:p-5">
+                  <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-2">
+                    How To · 사용법
+                  </div>
+                  <div className="text-sm text-tango-cream/85 font-serif leading-relaxed" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                    <p className="mb-2">
+                      <strong className="text-tango-paper">음악 4분류 × 차원 5 = 20셀</strong> 매트릭스. 음악이 흘러나오면 어느 셀로 갈지 미리 정해두면 결승 무대에서 즉시 반응할 수 있습니다.
+                    </p>
+                    <ol className="space-y-1 list-decimal list-inside text-tango-cream/70 ml-2">
+                      <li><strong className="text-tango-brass">음악 분류 선택</strong> — 리드믹/멜로디컬/쇼/트래디셔널 중 하나</li>
+                      <li><strong className="text-tango-brass">차원 선택</strong> — 걷기·아브라소·시퀀스·칼레시따·바리아시옹</li>
+                      <li><strong className="text-tango-brass">기본 가이드 확인</strong> → 우리 메모로 덮어쓰기</li>
+                      <li><strong className="text-tango-brass">레퍼런스 영상 추가</strong> — 닮고 싶은 우승자/마에스트로</li>
+                      <li><strong className="text-tango-brass">우리 연습 영상 추가</strong> — 시간 흐름 따라 발전 기록</li>
+                    </ol>
+                  </div>
+                </div>
+              )}
+
               {/* 음악 분류 선택 */}
               <div>
                 <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-3">
