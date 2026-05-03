@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const TARGET_KEY = 'tango_lab_checklist_target';
-const STRATEGY_KEY = 'tango_lab_strategy_matrix';
 
 function loadTarget(): { name: string; date: string } | null {
   try {
