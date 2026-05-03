@@ -327,8 +327,41 @@ export function SongQuizPage() {
           )}
 
           <div className="text-[11px] text-tango-cream/40 text-center font-serif italic border-t border-tango-brass/10 pt-6">
-            현재 DB {ENTRIES.length}곡 — quiz_songs.json에 곡 영상을 추가하면 퀴즈가 풍부해집니다.
+            현재 DB {ENTRIES.length}곡 (영상 확보) + {((quizData as any).pending_entries || []).length}곡 (영상 미확보 — 메타데이터 대기)
           </div>
+
+          {/* Pending 곡 리스트 — 영상 ID만 추가하면 퀴즈에 합류 */}
+          {((quizData as any).pending_entries || []).length > 0 && (
+            <details className="border border-tango-brass/15 rounded-sm">
+              <summary className="cursor-pointer px-4 py-3 text-xs text-tango-brass tracking-widest uppercase font-sans hover:bg-tango-brass/5">
+                📋 영상 미확보 인기곡 {((quizData as any).pending_entries || []).length}곡 보기 ▶
+              </summary>
+              <div className="p-4 space-y-2 max-h-96 overflow-y-auto">
+                {((quizData as any).pending_entries || []).map((p: any, i: number) => (
+                  <div key={i} className="flex items-center gap-3 text-xs bg-tango-shadow/30 border border-tango-brass/10 rounded-sm p-2">
+                    <span className="font-mono text-tango-brass/60 w-8 text-right">{String(i + 1).padStart(3, '0')}</span>
+                    <div className="flex-1 min-w-0">
+                      <div className="font-serif italic text-tango-paper truncate" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                        {p.song_title}
+                      </div>
+                      <div className="text-[10px] text-tango-cream/50 truncate">
+                        {p.orchestra_short} · {p.vocalist !== 'instrumental' ? p.vocalist : 'instr.'} · {p.year || '?'} · 인기 {p.popularity}
+                      </div>
+                    </div>
+                    <a href={p.youtube_search_url} target="_blank" rel="noopener noreferrer" className="text-[10px] text-tango-brass hover:underline whitespace-nowrap">
+                      🔍 YouTube
+                    </a>
+                    <a href={p.lyrics_search_url} target="_blank" rel="noopener noreferrer" className="text-[10px] text-tango-cream/60 hover:text-tango-brass whitespace-nowrap">
+                      📜 가사
+                    </a>
+                  </div>
+                ))}
+              </div>
+              <div className="px-4 pb-3 text-[10px] text-tango-cream/50 italic">
+                YouTube에서 단곡 영상을 찾으면 video_id를 quiz_songs.json의 entries 배열에 추가하면 퀴즈에 합류됩니다.
+              </div>
+            </details>
+          )}
         </div>
       </div>
     </>

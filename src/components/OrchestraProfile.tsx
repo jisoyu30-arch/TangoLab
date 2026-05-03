@@ -36,6 +36,7 @@ interface OrchestraProfileData {
   episodes?: string[];
   competition_relevance?: string;
   sources?: SourceLink[];
+  photo?: { url: string; caption?: string; wikipedia_url?: string };
 }
 
 const profiles = (profilesData as { profiles: Record<string, OrchestraProfileData> }).profiles;
@@ -54,17 +55,35 @@ export function OrchestraProfile({ orchestraId, compact = false }: { orchestraId
 
   return (
     <div className="space-y-5">
-      {/* 헤더: 별명 + 생몰년 + 활동기 */}
-      <div className="border-l-2 border-tango-brass pl-4">
-        {profile.nickname && (
-          <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-1">
-            {profile.nickname}
-          </div>
+      {/* 사진 + 헤더 */}
+      <div className="flex flex-col md:flex-row gap-4 items-start">
+        {profile.photo && (
+          <a href={profile.photo.wikipedia_url || profile.photo.url} target="_blank" rel="noopener noreferrer" className="flex-shrink-0">
+            <img
+              src={profile.photo.url}
+              alt={profile.short_name}
+              loading="lazy"
+              className="w-32 h-32 md:w-36 md:h-36 object-cover rounded-sm border border-tango-brass/30 grayscale hover:grayscale-0 transition-all"
+              onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+            />
+            {profile.photo.caption && (
+              <div className="text-[9px] text-tango-cream/40 mt-1 italic max-w-[9rem]" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                {profile.photo.caption}
+              </div>
+            )}
+          </a>
         )}
-        <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-tango-cream/60 font-sans">
-          {profile.lifespan && <span>● {profile.lifespan}</span>}
-          {profile.active_era && <span>활동: {profile.active_era}</span>}
-          {profile.founded && <span>오케스트라 결성: {profile.founded}</span>}
+        <div className="flex-1 border-l-2 border-tango-brass pl-4">
+          {profile.nickname && (
+            <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-1">
+              {profile.nickname}
+            </div>
+          )}
+          <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-tango-cream/60 font-sans">
+            {profile.lifespan && <span>● {profile.lifespan}</span>}
+            {profile.active_era && <span>활동: {profile.active_era}</span>}
+            {profile.founded && <span>오케스트라 결성: {profile.founded}</span>}
+          </div>
         </div>
       </div>
 

@@ -53,7 +53,12 @@
           "url": "http://www.pasiontango.org/en/divine-tango.html"
         }
       ],
-      "school": "pioneer"
+      "school": "pioneer",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Casimiro_Ain.jpg/440px-Casimiro_Ain.jpg",
+        "caption": "Casimiro Aín (출처: Wikipedia Commons, public domain)",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Casimiro_A%C3%ADn"
+      }
     },
     {
       "id": "el-cachafaz",
@@ -108,7 +113,12 @@
           "url": "https://escuelatangoba.com/marcelosolis/history-of-tango-el-cachafaz-and-the-dancers-of-the-early-20th-century/"
         }
       ],
-      "school": "tradicional"
+      "school": "tradicional",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/El_Cachafaz_y_Carmencita_Calderon.jpg/440px-El_Cachafaz_y_Carmencita_Calderon.jpg",
+        "caption": "El Cachafaz와 Carmencita Calderón (1933 영화 Tango 중)",
+        "wikipedia_url": "https://es.wikipedia.org/wiki/El_Cachafaz"
+      }
     },
     {
       "id": "carmencita-calderon",
@@ -331,7 +341,12 @@
           "url": "https://www.todotango.com"
         }
       ],
-      "school": "escenario"
+      "school": "escenario",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Juan_Carlos_Copes.jpg/440px-Juan_Carlos_Copes.jpg",
+        "caption": "Juan Carlos Copes (출처: Wikipedia Commons)",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Juan_Carlos_Copes"
+      }
     }
   ]
 }

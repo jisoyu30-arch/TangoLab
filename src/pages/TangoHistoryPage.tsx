@@ -15,6 +15,7 @@ interface DancerEntry {
   school?: 'tradicional' | 'escenario' | 'pioneer' | 'innovator';
   nickname_etymology?: string;
   origin_story?: string;
+  photo?: { url: string; caption?: string; wikipedia_url?: string };
   summary?: string;
   partnership?: string;
   philosophy?: string;
@@ -140,20 +141,42 @@ export function TangoHistoryPage() {
 
               {filteredDancers.map(d => (
                 <article key={d.id} className="bg-tango-shadow/40 border border-tango-brass/20 rounded-sm p-5 md:p-6">
-                  <div className="flex items-baseline justify-between gap-3 flex-wrap mb-2">
-                    <div>
-                      <h2 className="font-display text-2xl md:text-3xl text-tango-paper italic" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
-                        {d.name}
-                      </h2>
-                      {d.nickname && (
-                        <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mt-1">
-                          {d.nickname}
+                  <div className="flex flex-col md:flex-row gap-4 md:gap-6 mb-3">
+                    {d.photo && (
+                      <div className="flex-shrink-0">
+                        <a href={d.photo.wikipedia_url || d.photo.url} target="_blank" rel="noopener noreferrer" className="block">
+                          <img
+                            src={d.photo.url}
+                            alt={d.name}
+                            loading="lazy"
+                            className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-sm border border-tango-brass/30 grayscale hover:grayscale-0 transition-all"
+                            onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+                          />
+                          {d.photo.caption && (
+                            <div className="text-[9px] text-tango-cream/40 mt-1 italic max-w-[10rem]" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                              {d.photo.caption}
+                            </div>
+                          )}
+                        </a>
+                      </div>
+                    )}
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-baseline justify-between gap-3 flex-wrap">
+                        <div>
+                          <h2 className="font-display text-2xl md:text-3xl text-tango-paper italic" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                            {d.name}
+                          </h2>
+                          {d.nickname && (
+                            <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mt-1">
+                              {d.nickname}
+                            </div>
+                          )}
                         </div>
-                      )}
-                    </div>
-                    <div className="text-xs text-tango-cream/50 font-sans text-right">
-                      {d.lifespan && <div>● {d.lifespan}</div>}
-                      {d.era && <div>활동: {d.era}</div>}
+                        <div className="text-xs text-tango-cream/50 font-sans text-right">
+                          {d.lifespan && <div>● {d.lifespan}</div>}
+                          {d.era && <div>활동: {d.era}</div>}
+                        </div>
+                      </div>
                     </div>
                   </div>
 

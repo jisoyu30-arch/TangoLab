@@ -68,13 +68,29 @@
       ],
       "competition_relevance": "Mundial/KTC 등 대회에서 가장 자주 사용되는 악단. 강한 비트로 댄서의 음악성·정확도가 즉시 드러남 → 심사 평가에 유리. 결승 1라운드(에너지 오프너) 자주 선택.",
       "sources": [
-        { "label": "Wikipedia EN — Juan d'Arienzo", "url": "https://en.wikipedia.org/wiki/Juan_d%27Arienzo" },
-        { "label": "Tango Sur Australia — D'Arienzo Singers", "url": "https://tangosuraustralia.com/juan-darienzo-his-orchestras-and-singers/" },
-        { "label": "Tangology 101 — D'Arienzo Part 3 (Revolution)", "url": "http://www.tangology101.com/main.cfm/id/1616" },
-        { "label": "Milonga Press — Tango Masters: D'Arienzo", "url": "https://www.milongapress.com/tango-masters/darienzo/" }
-      ]
+        {
+          "label": "Wikipedia EN — Juan d'Arienzo",
+          "url": "https://en.wikipedia.org/wiki/Juan_d%27Arienzo"
+        },
+        {
+          "label": "Tango Sur Australia — D'Arienzo Singers",
+          "url": "https://tangosuraustralia.com/juan-darienzo-his-orchestras-and-singers/"
+        },
+        {
+          "label": "Tangology 101 — D'Arienzo Part 3 (Revolution)",
+          "url": "http://www.tangology101.com/main.cfm/id/1616"
+        },
+        {
+          "label": "Milonga Press — Tango Masters: D'Arienzo",
+          "url": "https://www.milongapress.com/tango-masters/darienzo/"
+        }
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Juan_d%27Arienzo.jpg/440px-Juan_d%27Arienzo.jpg",
+        "caption": "Juan D'Arienzo (출처: Wikipedia Commons)",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Juan_d%27Arienzo"
+      }
     },
-
     "ORCH-002": {
       "orchestra_id": "ORCH-002",
       "short_name": "Di Sarli",
@@ -139,14 +155,33 @@
       ],
       "competition_relevance": "Tango de Salón 댄서가 선호하는 악단 1순위. Mundial 결승에 자주 등장. 우아한 라인·아브라소가 평가 받는 부문에 유리. 'Bahía Blanca', 'A la Gran Muñeca', 'Indio Manso' 등 대표곡이 결승 빈출.",
       "sources": [
-        { "label": "Wikipedia EN — Carlos di Sarli", "url": "https://en.wikipedia.org/wiki/Carlos_di_Sarli" },
-        { "label": "Tangology 101 — Di Sarli", "url": "http://www.tangology101.com/main.cfm/title/Carlos-di-Sarli/id/60" },
-        { "label": "El Portal del Tango — Di Sarli", "url": "https://elportaldeltango.com/carlos-di-sarli/" },
-        { "label": "TotANGO — Di Sarli", "url": "http://www.totango.net/DiSarli.html" },
-        { "label": "El Recodo — Di Sarli", "url": "https://www.el-recodo.com/carlosdisarli-en.php?lang=en" }
-      ]
+        {
+          "label": "Wikipedia EN — Carlos di Sarli",
+          "url": "https://en.wikipedia.org/wiki/Carlos_di_Sarli"
+        },
+        {
+          "label": "Tangology 101 — Di Sarli",
+          "url": "http://www.tangology101.com/main.cfm/title/Carlos-di-Sarli/id/60"
+        },
+        {
+          "label": "El Portal del Tango — Di Sarli",
+          "url": "https://elportaldeltango.com/carlos-di-sarli/"
+        },
+        {
+          "label": "TotANGO — Di Sarli",
+          "url": "http://www.totango.net/DiSarli.html"
+        },
+        {
+          "label": "El Recodo — Di Sarli",
+          "url": "https://www.el-recodo.com/carlosdisarli-en.php?lang=en"
+        }
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Carlos_di_Sarli.jpg/440px-Carlos_di_Sarli.jpg",
+        "caption": "Carlos Di Sarli (출처: Wikipedia Commons)",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Carlos_di_Sarli"
+      }
     },
-
     "ORCH-003": {
       "orchestra_id": "ORCH-003",
       "short_name": "Pugliese",
@@ -208,14 +243,33 @@
       ],
       "competition_relevance": "결승 라운드에 자주 등장. 'La Yumba', 'Recuerdo', 'Gallo Ciego' 같은 곡이 결승 마지막 라운드(클로저, 드라마 절정)에 빈출. yumba 호흡과 arrastre를 댄서가 어떻게 해석하는지가 결정적 평가 포인트.",
       "sources": [
-        { "label": "Wikipedia EN — Osvaldo Pugliese", "url": "https://en.wikipedia.org/wiki/Osvaldo_Pugliese" },
-        { "label": "Tangology 101 — Pugliese", "url": "https://tangology101.com/main.cfm/id/63" },
-        { "label": "Marcelo Solis — Pugliese", "url": "https://escuelatangoba.com/marcelosolis/argentine-tango-resourses/argentine-tango-music/pugliese-osvaldo/" },
-        { "label": "Milonga.co.uk — Pugliese", "url": "https://milonga.co.uk/tango/pugliese.shtml" },
-        { "label": "Wikipedia — La Yumba", "url": "https://en.wikipedia.org/wiki/La_yumba" }
-      ]
+        {
+          "label": "Wikipedia EN — Osvaldo Pugliese",
+          "url": "https://en.wikipedia.org/wiki/Osvaldo_Pugliese"
+        },
+        {
+          "label": "Tangology 101 — Pugliese",
+          "url": "https://tangology101.com/main.cfm/id/63"
+        },
+        {
+          "label": "Marcelo Solis — Pugliese",
+          "url": "https://escuelatangoba.com/marcelosolis/argentine-tango-resourses/argentine-tango-music/pugliese-osvaldo/"
+        },
+        {
+          "label": "Milonga.co.uk — Pugliese",
+          "url": "https://milonga.co.uk/tango/pugliese.shtml"
+        },
+        {
+          "label": "Wikipedia — La Yumba",
+          "url": "https://en.wikipedia.org/wiki/La_yumba"
+        }
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Osvaldo_Pugliese.jpg/440px-Osvaldo_Pugliese.jpg",
+        "caption": "Osvaldo Pugliese (출처: Wikipedia Commons)",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Osvaldo_Pugliese"
+      }
     },
-
     "ORCH-005": {
       "orchestra_id": "ORCH-005",
       "short_name": "Troilo",
@@ -279,13 +333,29 @@
       ],
       "competition_relevance": "Mundial 결승에 자주 등장. Fiorentino 시기 녹음이 댄스 부문에 적합. 'Percal', 'Toda mi vida' 등이 빈출. 강한 리듬과 서정성의 균형이 댄서의 다재다능을 평가하기 좋음.",
       "sources": [
-        { "label": "Wikipedia EN — Aníbal Troilo", "url": "https://en.wikipedia.org/wiki/An%C3%ADbal_Troilo" },
-        { "label": "Encyclopedia.com — Troilo, Aníbal", "url": "https://www.encyclopedia.com/education/news-wires-white-papers-and-books/troilo-anibal" },
-        { "label": "Boston Tango Society — Troilo 100th Birthday", "url": "https://www.bostontango.org/celebrating-100th-birthday-of-anibal-troilo.html" },
-        { "label": "Festival de Tango — Troilo Bandoneonist", "url": "https://www.festivaldetango.com.ar/anibal-troilo-tango-bandoneonist/" }
-      ]
+        {
+          "label": "Wikipedia EN — Aníbal Troilo",
+          "url": "https://en.wikipedia.org/wiki/An%C3%ADbal_Troilo"
+        },
+        {
+          "label": "Encyclopedia.com — Troilo, Aníbal",
+          "url": "https://www.encyclopedia.com/education/news-wires-white-papers-and-books/troilo-anibal"
+        },
+        {
+          "label": "Boston Tango Society — Troilo 100th Birthday",
+          "url": "https://www.bostontango.org/celebrating-100th-birthday-of-anibal-troilo.html"
+        },
+        {
+          "label": "Festival de Tango — Troilo Bandoneonist",
+          "url": "https://www.festivaldetango.com.ar/anibal-troilo-tango-bandoneonist/"
+        }
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/An%C3%ADbal_Troilo.jpg/440px-An%C3%ADbal_Troilo.jpg",
+        "caption": "Aníbal Troilo - Pichuco (출처: Wikipedia Commons)",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/An%C3%ADbal_Troilo"
+      }
     },
-
     "ORCH-007": {
       "orchestra_id": "ORCH-007",
       "short_name": "Caló",
@@ -345,13 +415,24 @@
       ],
       "competition_relevance": "Mundial 결승에 빈번. 보컬 곡과 인스트루멘털 모두 댄서에게 매력적. 'Sans Souci', 'Al compás del corazón', 'Yo soy el tango' 같은 곡이 결승 빈출. 우아함과 보컬 해석이 동시에 평가될 때 유리.",
       "sources": [
-        { "label": "El Portal del Tango — Miguel Caló", "url": "https://elportaldeltango.com/miguel-calo/" },
-        { "label": "Milonga.co.uk — Caló", "url": "https://milonga.co.uk/tango/calo.shtml" },
-        { "label": "Brisbane House of Tango — Caló", "url": "https://brisbanehouseoftango.com.au/miguel-calo/" },
-        { "label": "Marcelo Solis — Al compás del corazón", "url": "https://escuelatangoba.com/marcelosolis/al-compas-del-corazon-late-un-corazon-by-miguel-calo-y-su-orquesta-tipica-with-raul-beron-in-vocals-1942/" }
+        {
+          "label": "El Portal del Tango — Miguel Caló",
+          "url": "https://elportaldeltango.com/miguel-calo/"
+        },
+        {
+          "label": "Milonga.co.uk — Caló",
+          "url": "https://milonga.co.uk/tango/calo.shtml"
+        },
+        {
+          "label": "Brisbane House of Tango — Caló",
+          "url": "https://brisbanehouseoftango.com.au/miguel-calo/"
+        },
+        {
+          "label": "Marcelo Solis — Al compás del corazón",
+          "url": "https://escuelatangoba.com/marcelosolis/al-compas-del-corazon-late-un-corazon-by-miguel-calo-y-su-orquesta-tipica-with-raul-beron-in-vocals-1942/"
+        }
       ]
     },
-
     "ORCH-008": {
       "orchestra_id": "ORCH-008",
       "short_name": "Tanturi",
@@ -405,10 +486,22 @@
       ],
       "competition_relevance": "Mundial 빈출 악단. Castillo 시기 곡이 댄서에게 친숙하고 음악성 표현이 명확. 'Asi se baila el tango'는 결승에서 자주 등장.",
       "sources": [
-        { "label": "Wikipedia EN — Ricardo Tanturi", "url": "https://en.wikipedia.org/wiki/Ricardo_Tanturi" },
-        { "label": "Todotango — Orquesta Tanturi", "url": "https://www.todotango.com/english/history/chronicle/489/Orquesta-Tipica-Ricardo-Tanturi/" },
-        { "label": "Milonga.co.uk — Tanturi", "url": "https://milonga.co.uk/tango/tanturi.shtml" },
-        { "label": "Marcelo Solis — La vida es corta", "url": "https://escuelatangoba.com/marcelosolis/argentine-tango-la-vida-es-corta-ricardo-tanturi-with-alberto-castillo/" }
+        {
+          "label": "Wikipedia EN — Ricardo Tanturi",
+          "url": "https://en.wikipedia.org/wiki/Ricardo_Tanturi"
+        },
+        {
+          "label": "Todotango — Orquesta Tanturi",
+          "url": "https://www.todotango.com/english/history/chronicle/489/Orquesta-Tipica-Ricardo-Tanturi/"
+        },
+        {
+          "label": "Milonga.co.uk — Tanturi",
+          "url": "https://milonga.co.uk/tango/tanturi.shtml"
+        },
+        {
+          "label": "Marcelo Solis — La vida es corta",
+          "url": "https://escuelatangoba.com/marcelosolis/argentine-tango-la-vida-es-corta-ricardo-tanturi-with-alberto-castillo/"
+        }
       ]
     }
   }
