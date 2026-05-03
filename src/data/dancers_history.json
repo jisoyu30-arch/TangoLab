@@ -12,20 +12,48 @@
       "origin_story": "우유 배달부였던 아버지를 돕던 중 거리에서 울려 퍼지는 배럴 오르간 소리에 홀려 멈추지 않고 춤을 춘 것이 탱고의 시작. 14세에 서커스단에 입단한 뒤 선박을 타고 유럽으로 진출해 파리를 정복.",
       "summary": "1920년 파리 모던 댄스 세계 챔피언십 우승. 1924년 2월 1일 바티칸에서 교황 비오 11세 앞에서 탱고 'Ave María'를 추어 가톨릭 교회의 도덕적 인정을 받아낸 역사적 인물. 동시대 할리우드 스타 루돌프 발렌티노와 뉴욕 등지에서 교류.",
       "key_moments": [
-        { "year": 1913, "body": "아내와 함께 프랑스 Boulogne-sur-Mer 도착, 파리 몽마르트르 카바레 Princesse(이후 'El Garrón')에서 'tango criollo'를 'El Vasco' 이름으로 본격 소개." },
-        { "year": 1920, "body": "파리에서 새 파트너 Jazmín과 함께 모던 댄스 세계 챔피언십 우승. 'The King of Tango'로 불림." },
-        { "year": 1924, "body": "2월 1일 아르헨티나 대사 García Mansilla 주선으로 바티칸 'Throne Room'에서 교황 비오 11세 앞 'Ave María'(F.& J. Canaro) 공연. 파트너는 대사관 사서 María Scotto. 하르모니움 반주. 마지막에 즉흥으로 교황 앞에 무릎을 꿇음. 파리 성직자들이 비난한 '음란한 춤' 오명을 벗기고 탱고가 가톨릭 도덕에 부합함을 입증." }
+        {
+          "year": 1913,
+          "body": "아내와 함께 프랑스 Boulogne-sur-Mer 도착, 파리 몽마르트르 카바레 Princesse(이후 'El Garrón')에서 'tango criollo'를 'El Vasco' 이름으로 본격 소개."
+        },
+        {
+          "year": 1920,
+          "body": "파리에서 새 파트너 Jazmín과 함께 모던 댄스 세계 챔피언십 우승. 'The King of Tango'로 불림."
+        },
+        {
+          "year": 1924,
+          "body": "2월 1일 아르헨티나 대사 García Mansilla 주선으로 바티칸 'Throne Room'에서 교황 비오 11세 앞 'Ave María'(F.& J. Canaro) 공연. 파트너는 대사관 사서 María Scotto. 하르모니움 반주. 마지막에 즉흥으로 교황 앞에 무릎을 꿇음. 파리 성직자들이 비난한 '음란한 춤' 오명을 벗기고 탱고가 가톨릭 도덕에 부합함을 입증."
+        }
       ],
       "video_archives": [
-        { "label": "다큐멘터리 — 파리 댄스홀 입성", "url": "https://www.youtube.com/shorts/awOdU3VN0rY" },
-        { "label": "Casimiro Aín — Europe 정복 (1901)", "url": "https://www.youtube.com/watch?v=" }
+        {
+          "label": "다큐멘터리 — 파리 댄스홀 입성",
+          "url": "https://www.youtube.com/shorts/awOdU3VN0rY"
+        },
+        {
+          "label": "Casimiro Aín — Europe 정복 (1901)",
+          "url": "https://www.youtube.com/watch?v="
+        }
       ],
       "sources": [
-        { "label": "Wikipedia EN — Casimiro Aín", "url": "https://en.wikipedia.org/wiki/Casimiro_A%C3%ADn" },
-        { "label": "Euskonews — Tango's Ambassador", "url": "https://www.euskonews.eus/0395zbk/kosmo39501en.html" },
-        { "label": "Todotango — Casimiro Aín 전기 (Néstor Pinsón)", "url": "https://www.todotango.com" },
-        { "label": "Pasion Tango Lisbon — Catholic Church and the Tango", "url": "http://www.pasiontango.org/en/divine-tango.html" }
-      ]
+        {
+          "label": "Wikipedia EN — Casimiro Aín",
+          "url": "https://en.wikipedia.org/wiki/Casimiro_A%C3%ADn"
+        },
+        {
+          "label": "Euskonews — Tango's Ambassador",
+          "url": "https://www.euskonews.eus/0395zbk/kosmo39501en.html"
+        },
+        {
+          "label": "Todotango — Casimiro Aín 전기 (Néstor Pinsón)",
+          "url": "https://www.todotango.com"
+        },
+        {
+          "label": "Pasion Tango Lisbon — Catholic Church and the Tango",
+          "url": "http://www.pasiontango.org/en/divine-tango.html"
+        }
+      ],
+      "school": "pioneer"
     },
     {
       "id": "el-cachafaz",
@@ -37,19 +65,41 @@
       "origin_story": "부에노스아이레스 보에도(Boedo) 출생. 거칠고 본능적이던 초기 뒷골목 탱고를 춤의 표준으로 다듬어낸 전설. '엘 카차파스' 별명은 젊은 시절 여성들에게 무례하게 굴어 분노한 한 아버지가 '내 아들은 불한당이다!'라고 외친 데서 유래.",
       "summary": "극강의 우아함과 세련미를 춤에 부여. 동료 Tarila, Pedrín 등과 교류하며 'cortes', 'corridas' 등의 동작을 완벽한 예술로 발전. 1933년 아르헨티나 최초 유성 영화 《Tango》에 Carmencita Calderón과 함께 출연 — 페트롤레오 이전 시대의 즉흥적·원초적 걷기 양식이 시각 자료로 영구 보존.",
       "key_moments": [
-        { "year": 1933, "body": "아르헨티나 최초 유성 영화 《Tango》(Luis Moglia Barth 감독) 출연. 황금기 직전의 우아한 살롱 탱고 양식 영구 보존." },
-        { "year": 1942, "body": "마르델플라타 무대에서 춤을 마치고 무대 뒤로 퇴장한 직후 심장마비로 극적인 죽음." }
+        {
+          "year": 1933,
+          "body": "아르헨티나 최초 유성 영화 《Tango》(Luis Moglia Barth 감독) 출연. 황금기 직전의 우아한 살롱 탱고 양식 영구 보존."
+        },
+        {
+          "year": 1942,
+          "body": "마르델플라타 무대에서 춤을 마치고 무대 뒤로 퇴장한 직후 심장마비로 극적인 죽음."
+        }
       ],
       "partnership": "Carmencita Calderón과 1933년부터 10년간 가장 완벽한 파트너십.",
       "video_archives": [
-        { "label": "Tango (1933) — Excerpt 1", "url": "https://www.youtube.com/watch?v=DRIu9acmhtk" },
-        { "label": "Tango (1933) — Excerpt 2", "url": "https://www.youtube.com/watch?v=V2SaADjKFVM" },
-        { "label": "El Cachafaz 생애 다큐멘터리", "url": "https://www.youtube.com/watch?v=lZ8jtskwPkE" }
+        {
+          "label": "Tango (1933) — Excerpt 1",
+          "url": "https://www.youtube.com/watch?v=DRIu9acmhtk"
+        },
+        {
+          "label": "Tango (1933) — Excerpt 2",
+          "url": "https://www.youtube.com/watch?v=V2SaADjKFVM"
+        },
+        {
+          "label": "El Cachafaz 생애 다큐멘터리",
+          "url": "https://www.youtube.com/watch?v=lZ8jtskwPkE"
+        }
       ],
       "sources": [
-        { "label": "Marcelo Solis — History Part 12: El Cachafaz", "url": "https://escuelatangoba.com/marcelosolis/history-of-tango-part-12-el-cachafaz" },
-        { "label": "Tangology 101 — Cachafaz & Calderón in Tango (1933)", "url": "https://tangology101.com" }
-      ]
+        {
+          "label": "Marcelo Solis — History Part 12: El Cachafaz",
+          "url": "https://escuelatangoba.com/marcelosolis/history-of-tango-part-12-el-cachafaz"
+        },
+        {
+          "label": "Tangology 101 — Cachafaz & Calderón in Tango (1933)",
+          "url": "https://tangology101.com"
+        }
+      ],
+      "school": "tradicional"
     },
     {
       "id": "carmencita-calderon",
@@ -61,14 +111,24 @@
       "origin_story": "13세 때 오빠와 춤을 추기 시작. 신 룸보(Sin Rumbo) 클럽에서 명무용수 Tarila의 눈에 띄어 본격적인 길.",
       "summary": "엘 카차파스의 마지막 파트너. 여성이 무릎을 굽히고 남성에게 체중을 싣는 매혹적인 'sentadas' 등 스텝을 함께 창조. 일화에 따르면 파트너의 리드에 맞춰 다리를 더 자유롭게 뻗기 위해 탱고 치마에 최초로 깊은 트임을 만든 장본인.",
       "key_moments": [
-        { "year": 1933, "body": "El Cachafaz와 영화 《Tango》 출연." },
-        { "year": 2005, "body": "100세 생일 파티에서 Miguel Angel Zotto와 춤춘 것을 끝으로 역사에 남음." }
+        {
+          "year": 1933,
+          "body": "El Cachafaz와 영화 《Tango》 출연."
+        },
+        {
+          "year": 2005,
+          "body": "100세 생일 파티에서 Miguel Angel Zotto와 춤춘 것을 끝으로 역사에 남음."
+        }
       ],
       "partnership": "El Cachafaz의 마지막 파트너 (1933-1942, 10년).",
       "video_archives": [
-        { "label": "El Cachafaz와의 전설적 호흡", "url": "https://www.youtube.com/watch?v=5Yv9V-3APpc" }
+        {
+          "label": "El Cachafaz와의 전설적 호흡",
+          "url": "https://www.youtube.com/watch?v=5Yv9V-3APpc"
+        }
       ],
-      "sources": []
+      "sources": [],
+      "school": "tradicional"
     },
     {
       "id": "petroleo",
@@ -80,17 +140,33 @@
       "origin_story": "알마그로 출생. 낮에는 이탈리아 벨기에 은행(Banco Ítalo Belga)에서 일하는 평범한 직장인, 밤에는 춤을 연구하는 혁신가.",
       "summary": "1940년경 친구들과 함께 현대 탱고 무용의 기하학을 체계화. 과거 무용수들이 파트너와 나란히 서서 걷는 데 집중했다면, 페트롤레오는 댄서의 축(axis)을 고정한 채 몸을 비트는 회전(Giros), 여성 다리가 교차하는 십자 스텝 Cruzada, 공중에서 다리를 튕기는 Boleos, Barridas, Enrosques 등을 정립. 이로써 리드에 끌려다니던 여성 파트너 역할이 해방되고, 댄서가 오케스트라의 멜로디 변주를 화려한 스텝으로 표현 가능.",
       "key_moments": [
-        { "year": 1940, "body": "회전(Giros) · Cruzada · Boleos · Barridas · Enrosques 정립. 댄서의 축을 중심으로 몸을 비트는 회전 기법 체계화." }
+        {
+          "year": 1940,
+          "body": "회전(Giros) · Cruzada · Boleos · Barridas · Enrosques 정립. 댄서의 축을 중심으로 몸을 비트는 회전 기법 체계화."
+        }
       ],
       "lineage": "후일 저명한 무용수 Mingo Pugliese가 페트롤레오를 스승으로 여기며 그가 확립한 기술을 8박자 기본기 형태로 후대에 전승.",
       "video_archives": [
-        { "label": "Petróleo 기술 해설 영상", "url": "https://www.youtube.com/watch?v=MuxK7QYbR3Q" },
-        { "label": "Tango Milonga — Who was Petróleo?", "url": "https://tangomilonga.com.ar" }
+        {
+          "label": "Petróleo 기술 해설 영상",
+          "url": "https://www.youtube.com/watch?v=MuxK7QYbR3Q"
+        },
+        {
+          "label": "Tango Milonga — Who was Petróleo?",
+          "url": "https://tangomilonga.com.ar"
+        }
       ],
       "sources": [
-        { "label": "Tango North — Petróleo", "url": "https://sites.google.com" },
-        { "label": "Tango and Chaos — Legends: Petroleo", "url": "https://tangoandchaos.org" }
-      ]
+        {
+          "label": "Tango North — Petróleo",
+          "url": "https://sites.google.com"
+        },
+        {
+          "label": "Tango and Chaos — Legends: Petroleo",
+          "url": "https://tangoandchaos.org"
+        }
+      ],
+      "school": "innovator"
     },
     {
       "id": "luis-lemos",
@@ -101,8 +177,12 @@
       "summary": "1940년대 부에노스아이레스 비야 우르키사 지역을 지배한 탱고의 대부. 꼿꼿하고 우아하게 바닥을 미끄러지며 걷는 비야 우르키사 양식의 시조. 항상 맞춤 양복과 구두를 신고 의사처럼 기품 있게 다님. 대중 앞에서 공연하는 것이 자신의 춤 영감(tango angel)을 파괴한다고 믿어 공연을 거부하고 소셜 댄스에만 헌신.",
       "lineage": "El Chino Perico, Alberto Dassieu, 두플라 형제 등 수많은 거장에게 깊은 영향. 비야 우르키사 양식의 모든 후계자의 시조.",
       "sources": [
-        { "label": "Urquiza Tango Berlin — Luís Lemos", "url": "https://urquiza.com" }
-      ]
+        {
+          "label": "Urquiza Tango Berlin — Luís Lemos",
+          "url": "https://urquiza.com"
+        }
+      ],
+      "school": "tradicional"
     },
     {
       "id": "virulazo",
@@ -116,9 +196,16 @@
       "partnership": "깡마른 체구의 아내 Elvira Santamaría와 평생 파트너. 극적인 시각적 대비.",
       "famous_anecdote": "《Tango Argentino》 투어 중 헨리 키신저 전 미 국무장관이 아침 10시에 특별 무료 공연을 요구하자 \"공짜로는 절대 춤추지 않는다. 10시에 탱고를 원하면 본인이나 추라고 해라!\"라며 호통.",
       "sources": [
-        { "label": "Todotango — Virulazo (Guillermo Alfieri)", "url": "https://www.todotango.com" },
-        { "label": "Wikipedia ES — Virulazo", "url": "https://es.wikipedia.org/wiki/Virulazo" }
-      ]
+        {
+          "label": "Todotango — Virulazo (Guillermo Alfieri)",
+          "url": "https://www.todotango.com"
+        },
+        {
+          "label": "Wikipedia ES — Virulazo",
+          "url": "https://es.wikipedia.org/wiki/Virulazo"
+        }
+      ],
+      "school": "tradicional"
     },
     {
       "id": "chino-perico",
@@ -131,24 +218,44 @@
       "summary": "Milonguita(Luis Lemos)의 가르침을 이어받은 비야 우르키사 양식의 전설적 계승자. 큰 동작·무리한 묘기 대신 보폭이 긴 걷기와 '움직임으로 가득 찬 묵직한 정지(pauses full of movement)'로 극도의 우아함 표현. Miguel Caló 악단의 달콤한 음악 해석에 탁월.",
       "philosophy": "무용수는 단지 스텝을 밟는 것이 아니라 가수가 부르는 슬픔의 정서를 신체로 대중에게 설명해야 한다.",
       "key_moments": [
-        { "year": 2020, "body": "다큐멘터리 《A Tango with Chino Perico》 — 90세 노년의 정통 밀롱게로 품격 기록." },
-        { "year": 2024, "body": "별세." }
+        {
+          "year": 2020,
+          "body": "다큐멘터리 《A Tango with Chino Perico》 — 90세 노년의 정통 밀롱게로 품격 기록."
+        },
+        {
+          "year": 2024,
+          "body": "별세."
+        }
       ],
       "video_archives": [
-        { "label": "다큐 — A Tango with Chino Perico", "url": "https://www.youtube.com/watch?v=9AmEbe6lfJ0" },
-        { "label": "특유의 우아한 살롱 탱고", "url": "https://www.youtube.com/watch?v=hzOJNnLuQ7Q" },
-        { "label": "Tango Mojo — Chino Perico", "url": "https://www.tangomojo.com/helaine/news/view/chino-pericos-exquisite-dancing" }
+        {
+          "label": "다큐 — A Tango with Chino Perico",
+          "url": "https://www.youtube.com/watch?v=9AmEbe6lfJ0"
+        },
+        {
+          "label": "특유의 우아한 살롱 탱고",
+          "url": "https://www.youtube.com/watch?v=hzOJNnLuQ7Q"
+        },
+        {
+          "label": "Tango Mojo — Chino Perico",
+          "url": "https://www.tangomojo.com/helaine/news/view/chino-pericos-exquisite-dancing"
+        }
       ],
       "sources": [
-        { "label": "Jan Tango — Ricardo Ponce", "url": "https://jantango.wordpress.com/category/ricardo-ponce/" }
-      ]
+        {
+          "label": "Jan Tango — Ricardo Ponce",
+          "url": "https://jantango.wordpress.com/category/ricardo-ponce/"
+        }
+      ],
+      "school": "tradicional"
     },
     {
       "id": "carlos-gavito",
       "name": "Carlos Gavito",
       "era": "1970s-2000s",
       "role": "Estilo Milonguero (Apilado)의 대표",
-      "summary": "좁은 공간에서도 가능한 chest-to-chest apilado 자세 + 상체를 서로에게 살짝 기대는 양식의 대표 댄서. 화려한 발동작 배제, 극도로 응축된 감정적 일체감 강조."
+      "summary": "좁은 공간에서도 가능한 chest-to-chest apilado 자세 + 상체를 서로에게 살짝 기대는 양식의 대표 댄서. 화려한 발동작 배제, 극도로 응축된 감정적 일체감 강조.",
+      "school": "tradicional"
     },
     {
       "id": "tete-rusconi",
@@ -156,14 +263,24 @@
       "nickname": "Tete",
       "era": "1950s-2010s",
       "role": "밀롱게로의 음악성",
-      "summary": "음악과의 깊은 대화를 보여준 전설적 밀롱게로. 작은 동작 하나하나에 음악의 모든 디테일이 담겨있다는 평."
+      "summary": "음악과의 깊은 대화를 보여준 전설적 밀롱게로. 작은 동작 하나하나에 음악의 모든 디테일이 담겨있다는 평.",
+      "school": "tradicional"
     },
     {
       "id": "ricardo-vidort",
       "name": "Ricardo Vidort",
       "era": "1940s-2000s",
       "role": "Estilo Milonguero 대표",
-      "summary": "Carlos Gavito·Tete와 함께 Estilo Milonguero(Apilado)의 대표 댄서로 꼽힘."
+      "summary": "Carlos Gavito·Tete와 함께 Estilo Milonguero(Apilado)의 대표 댄서로 꼽힘.",
+      "school": "tradicional"
+    },
+    {
+      "id": "pepito-avellaneda",
+      "name": "Pepito Avellaneda",
+      "school": "tradicional",
+      "era": "1940s-1990s",
+      "role": "정통 밀롱가의 영혼",
+      "summary": "돈을 벌기 위한 상업적 춤이 아니라, 삶 자체이자 내면에서 우러나오는 감정으로서의 전통 밀롱가와 탱고 스텝을 고수한 댄서로 유명. 안무가 아닌 음악과의 즉흥 교감을 본질로 삼은 진정한 밀롱게로."
     },
     {
       "id": "copes-nieves",
@@ -175,18 +292,37 @@
       "summary": "1951년 루나 파크 댄스 대회에서 300쌍을 물리치고 우승. 즉흥적인 소셜 댄스에 머물러 있던 탱고에 군무·서사적 안무를 도입. Copes는 할리우드 진 켈리(Gene Kelly)를 우상으로 삼음 — 즉흥 사교춤이던 탱고에 서사가 담긴 '극장용 군무·안무(choreography)'를 최초로 도입해 무대 예술(Stage Tango)로 승격. 1980년대 《Tango Argentino》 쇼로 전 세계 탱고 부흥 견인.",
       "partnership": "50년 넘게 춤 파트너로 활동. 한때 부부였으나 이혼 후 애증의 관계 유지하면서도 무대 위에서는 완벽한 호흡.",
       "key_moments": [
-        { "year": 1951, "body": "루나 파크 댄스 대회 300쌍 중 우승." },
-        { "year": 1983, "body": "브로드웨이 《Tango Argentino》 — 전 세계 탱고 르네상스의 도화선." }
+        {
+          "year": 1951,
+          "body": "루나 파크 댄스 대회 300쌍 중 우승."
+        },
+        {
+          "year": 1983,
+          "body": "브로드웨이 《Tango Argentino》 — 전 세계 탱고 르네상스의 도화선."
+        }
       ],
       "key_quote": "코페스 (2002 네덜란드 인터뷰): \"탱고를 위해서는 두 사람과 단 하나의 감정이 필요하다.\"",
       "video_archives": [
-        { "label": "Juan Carlos Copes 헌정 영상", "url": "https://www.youtube.com/watch?v=ZT5tBoeIeGM" },
-        { "label": "다큐 영화 《Our Last Tango》 트레일러", "url": "https://www.youtube.com/watch?v=ggpE4EImRaE" }
+        {
+          "label": "Juan Carlos Copes 헌정 영상",
+          "url": "https://www.youtube.com/watch?v=ZT5tBoeIeGM"
+        },
+        {
+          "label": "다큐 영화 《Our Last Tango》 트레일러",
+          "url": "https://www.youtube.com/watch?v=ggpE4EImRaE"
+        }
       ],
       "sources": [
-        { "label": "Wikipedia — Juan Carlos Copes", "url": "https://en.wikipedia.org/wiki/Juan_Carlos_Copes" },
-        { "label": "Todotango — María Nieves (José María Otero)", "url": "https://www.todotango.com" }
-      ]
+        {
+          "label": "Wikipedia — Juan Carlos Copes",
+          "url": "https://en.wikipedia.org/wiki/Juan_Carlos_Copes"
+        },
+        {
+          "label": "Todotango — María Nieves (José María Otero)",
+          "url": "https://www.todotango.com"
+        }
+      ],
+      "school": "escenario"
     }
   ]
 }

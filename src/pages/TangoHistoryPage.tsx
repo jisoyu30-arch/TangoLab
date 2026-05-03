@@ -8,16 +8,29 @@ import bibData from '../data/tango_bibliography.json';
 interface DancerEntry {
   id: string;
   name: string;
-  nickname: string | null;
+  nickname?: string | null;
   lifespan?: string;
   era?: string;
   role?: string;
+  school?: 'tradicional' | 'escenario' | 'pioneer' | 'innovator';
+  origin_story?: string;
   summary?: string;
+  partnership?: string;
+  philosophy?: string;
+  famous_anecdote?: string;
+  lineage?: string;
   key_moments?: { year?: number; body: string }[];
   video_archives?: { label: string; url: string }[];
   key_quote?: string;
   sources?: { label: string; url: string }[];
 }
+
+const SCHOOL_LABELS: Record<string, { label: string; color: string }> = {
+  tradicional: { label: '전통 / 밀롱게로', color: '#7A8E6E' },
+  escenario:   { label: '무대 (Escenario)', color: '#D4AF37' },
+  pioneer:     { label: '국제화 선구자', color: '#5D7A8E' },
+  innovator:   { label: '혁신가', color: '#C72C1C' },
+};
 
 interface Book {
   id: string;
@@ -46,6 +59,8 @@ type Tab = 'dancers' | 'books' | 'interviews' | 'context';
 
 export function TangoHistoryPage() {
   const [tab, setTab] = useState<Tab>('dancers');
+  const [schoolFilter, setSchoolFilter] = useState<string>('all');
+  const filteredDancers = schoolFilter === 'all' ? dancers : dancers.filter(d => d.school === schoolFilter);
 
   return (
     <>
@@ -91,8 +106,38 @@ export function TangoHistoryPage() {
 
           {/* 댄서 */}
           {tab === 'dancers' && (
-            <div className="space-y-6">
-              {dancers.map(d => (
+            <div className="space-y-4">
+              {/* 유파 필터 */}
+              <div className="flex flex-wrap gap-2">
+                <button
+                  onClick={() => setSchoolFilter('all')}
+                  className={`text-xs px-3 py-1.5 rounded-sm border transition-colors ${
+                    schoolFilter === 'all' ? 'border-tango-brass bg-tango-brass/15 text-tango-brass' : 'border-tango-brass/20 text-tango-cream/60 hover:border-tango-brass/40'
+                  }`}
+                >
+                  전체 ({dancers.length})
+                </button>
+                {Object.entries(SCHOOL_LABELS).map(([key, info]) => {
+                  const count = dancers.filter(d => d.school === key).length;
+                  return (
+                    <button
+                      key={key}
+                      onClick={() => setSchoolFilter(key)}
+                      className={`text-xs px-3 py-1.5 rounded-sm border transition-colors ${
+                        schoolFilter === key ? 'text-tango-paper' : 'text-tango-cream/60 hover:border-tango-brass/40'
+                      }`}
+                      style={{
+                        borderColor: schoolFilter === key ? info.color : `${info.color}33`,
+                        backgroundColor: schoolFilter === key ? `${info.color}25` : 'transparent',
+                      }}
+                    >
+                      {info.label} ({count})
+                    </button>
+                  );
+                })}
+              </div>
+
+              {filteredDancers.map(d => (
                 <article key={d.id} className="bg-tango-shadow/40 border border-tango-brass/20 rounded-sm p-5 md:p-6">
                   <div className="flex items-baseline justify-between gap-3 flex-wrap mb-2">
                     <div>
@@ -111,9 +156,31 @@ export function TangoHistoryPage() {
                     </div>
                   </div>
 
-                  {d.role && (
-                    <div className="text-sm text-tango-rose font-serif italic mb-3" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
-                      ★ {d.role}
+                  <div className="flex flex-wrap gap-2 items-center mb-3">
+                    {d.role && (
+                      <span className="text-sm text-tango-rose font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                        ★ {d.role}
+                      </span>
+                    )}
+                    {d.school && SCHOOL_LABELS[d.school] && (
+                      <span
+                        className="text-[10px] tracking-widest uppercase font-sans px-2 py-0.5 rounded-sm"
+                        style={{
+                          color: SCHOOL_LABELS[d.school].color,
+                          backgroundColor: `${SCHOOL_LABELS[d.school].color}20`,
+                        }}
+                      >
+                        {SCHOOL_LABELS[d.school].label}
+                      </span>
+                    )}
+                  </div>
+
+                  {d.origin_story && (
+                    <div className="bg-tango-brass/5 border-l-4 border-tango-brass/40 pl-3 py-2 my-3">
+                      <div className="text-[10px] tracking-widest uppercase text-tango-brass/70 font-sans mb-1">◐ 출생·입문</div>
+                      <p className="text-xs md:text-sm text-tango-cream/80 font-serif italic leading-relaxed" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                        {d.origin_story}
+                      </p>
                     </div>
                   )}
 
@@ -121,6 +188,33 @@ export function TangoHistoryPage() {
                     <p className="text-sm text-tango-cream/85 font-serif leading-relaxed mb-3" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
                       {d.summary}
                     </p>
+                  )}
+
+                  {d.partnership && (
+                    <div className="text-xs text-tango-cream/70 font-serif italic mb-2" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                      <span className="text-tango-brass">파트너십:</span> {d.partnership}
+                    </div>
+                  )}
+
+                  {d.philosophy && (
+                    <blockquote className="border-l-4 border-tango-brass/50 pl-4 italic text-tango-cream/80 my-3 font-serif text-sm" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                      💭 {d.philosophy}
+                    </blockquote>
+                  )}
+
+                  {d.famous_anecdote && (
+                    <div className="bg-tango-rose/5 border border-tango-rose/30 rounded-sm p-3 my-3">
+                      <div className="text-[10px] tracking-widest uppercase text-tango-rose/80 font-sans mb-1">▣ 유명한 일화</div>
+                      <p className="text-xs md:text-sm text-tango-cream/85 font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                        {d.famous_anecdote}
+                      </p>
+                    </div>
+                  )}
+
+                  {d.lineage && (
+                    <div className="text-xs text-tango-cream/70 font-serif italic mb-2" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                      <span className="text-tango-brass">계보·영향:</span> {d.lineage}
+                    </div>
                   )}
 
                   {d.key_moments && d.key_moments.length > 0 && (
