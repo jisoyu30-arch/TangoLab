@@ -13,6 +13,7 @@ interface DancerEntry {
   era?: string;
   role?: string;
   school?: 'tradicional' | 'escenario' | 'pioneer' | 'innovator';
+  nickname_etymology?: string;
   origin_story?: string;
   summary?: string;
   partnership?: string;
@@ -174,6 +175,12 @@ export function TangoHistoryPage() {
                       </span>
                     )}
                   </div>
+
+                  {d.nickname_etymology && (
+                    <div className="text-xs text-tango-cream/60 font-serif italic mb-2" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                      <span className="text-tango-brass not-italic">📛 별명 어원:</span> {d.nickname_etymology}
+                    </div>
+                  )}
 
                   {d.origin_story && (
                     <div className="bg-tango-brass/5 border-l-4 border-tango-brass/40 pl-3 py-2 my-3">

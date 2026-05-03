@@ -57,24 +57,25 @@
     },
     {
       "id": "el-cachafaz",
-      "name": "El Cachafaz (Ovidio José Bianquet)",
-      "nickname": "El Cachafaz ('불한당, 깡패')",
-      "lifespan": "1885 ~ 1942",
-      "era": "1910s-1940s",
+      "name": "El Cachafaz (Benito Bianquet / 본명 Ovidio José Bianquet)",
+      "nickname": "El Cachafaz",
+      "nickname_etymology": "Lunfardo 사전(Adolfo Enrique Rodríguez)에 따르면 'cachafaz'는 'rascal(불한당) / shameless(뻔뻔한) / insolent(건방진) / rogue / idler' 의미.",
+      "lifespan": "1885 ~ 1942 (거의 57세)",
+      "era": "1900s-1940s",
       "role": "황금기 이전 탱고 무용의 표준",
-      "origin_story": "부에노스아이레스 보에도(Boedo) 출생. 거칠고 본능적이던 초기 뒷골목 탱고를 춤의 표준으로 다듬어낸 전설. '엘 카차파스' 별명은 젊은 시절 여성들에게 무례하게 굴어 분노한 한 아버지가 '내 아들은 불한당이다!'라고 외친 데서 유래.",
-      "summary": "극강의 우아함과 세련미를 춤에 부여. 동료 Tarila, Pedrín 등과 교류하며 'cortes', 'corridas' 등의 동작을 완벽한 예술로 발전. 1933년 아르헨티나 최초 유성 영화 《Tango》에 Carmencita Calderón과 함께 출연 — 페트롤레오 이전 시대의 즉흥적·원초적 걷기 양식이 시각 자료로 영구 보존.",
+      "origin_story": "어린 시절 얼굴에 천연두(smallpox) 자국이 있었고 구두닦이(shoeshine boy)로 일함. 길에서 남자들이 춤추는 걸 보고 집에 돌아가 혼자 따라하며 탱고를 익힘 — 정식 교습 없이 관찰만으로 익힌 자기 학습형 댄서.",
+      "summary": "거칠고 본능적이던 초기 뒷골목 탱고를 춤의 표준으로 다듬어낸 전설. 1933년 아르헨티나 최초 유성 영화 《Tango》(Luis Moglia Barth 감독)에 Carmencita Calderón과 함께 출연 — 페트롤레오 이전 시대의 즉흥적·원초적 걷기 양식이 시각 자료로 영구 보존.",
       "key_moments": [
         {
           "year": 1933,
-          "body": "아르헨티나 최초 유성 영화 《Tango》(Luis Moglia Barth 감독) 출연. 황금기 직전의 우아한 살롱 탱고 양식 영구 보존."
+          "body": "아르헨티나 최초 유성 영화 《Tango》 출연. 황금기 직전의 우아한 살롱 탱고 양식 영구 보존."
         },
         {
           "year": 1942,
-          "body": "마르델플라타 무대에서 춤을 마치고 무대 뒤로 퇴장한 직후 심장마비로 극적인 죽음."
+          "body": "마르델플라타에서 Carmencita Calderón과의 마지막 공연. 무대 뒤에서 'Don Juan'을 추던 중 거의 57세에 심장마비로 사망."
         }
       ],
-      "partnership": "Carmencita Calderón과 1933년부터 10년간 가장 완벽한 파트너십.",
+      "partnership": "Carmencita Calderón과 1933년부터 1942년 사망 시까지 약 10년간 가장 완벽한 파트너십.",
       "video_archives": [
         {
           "label": "Tango (1933) — Excerpt 1",
@@ -85,18 +86,26 @@
           "url": "https://www.youtube.com/watch?v=V2SaADjKFVM"
         },
         {
-          "label": "El Cachafaz 생애 다큐멘터리",
+          "label": "El Cachafaz 생애 다큐멘터리 (YouTube)",
           "url": "https://www.youtube.com/watch?v=lZ8jtskwPkE"
+        },
+        {
+          "label": "Marcelo Solis 소개 영상 — History of Tango Part 12",
+          "url": "https://www.youtube.com/watch?v=NqDhG-Vm2Ag"
         }
       ],
       "sources": [
         {
-          "label": "Marcelo Solis — History Part 12: El Cachafaz",
-          "url": "https://escuelatangoba.com/marcelosolis/history-of-tango-part-12-el-cachafaz"
+          "label": "Marcelo Solis — History of Tango Part 12: El Cachafaz (검토 완료)",
+          "url": "https://escuelatangoba.com/marcelosolis/history-of-tango-el-cachafaz-and-the-dancers-of-the-early-20th-century/"
         },
         {
-          "label": "Tangology 101 — Cachafaz & Calderón in Tango (1933)",
-          "url": "https://tangology101.com"
+          "label": "Marcelo Solis — Ovidio José Benito Bianquet 'El Cachafaz' 전기",
+          "url": "https://escuelatangoba.com/marcelosolis/ovidio-jose-benito-bianquet-el-cachafaz/"
+        },
+        {
+          "label": "Adolfo Enrique Rodríguez — Lunfardo 사전 (cachafaz 정의 출처)",
+          "url": "https://escuelatangoba.com/marcelosolis/history-of-tango-el-cachafaz-and-the-dancers-of-the-early-20th-century/"
         }
       ],
       "school": "tradicional"
