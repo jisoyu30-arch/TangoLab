@@ -25,6 +25,10 @@ interface OrchestraProfileData {
   active_era?: string;
   founded?: string;
   summary?: string;
+  origin_story?: string;
+  musical_innovations?: string[];
+  singer_innovation?: string;
+  personal_anecdotes?: string[];
   history_periods?: HistoryPeriod[];
   musical_style?: string;
   vocalists?: VocalistEntry[];
@@ -78,6 +82,47 @@ export function OrchestraProfile({ orchestraId, compact = false }: { orchestraId
 
       {!compact && (
         <>
+          {/* 출생·입문 일화 */}
+          {profile.origin_story && (
+            <section>
+              <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-2">
+                ◐ 출생·입문
+              </div>
+              <p className="text-sm text-tango-cream/85 font-serif italic leading-relaxed" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                {profile.origin_story}
+              </p>
+            </section>
+          )}
+
+          {/* 음악적 혁신 */}
+          {profile.musical_innovations && profile.musical_innovations.length > 0 && (
+            <section className="bg-tango-brass/5 border-l-4 border-tango-brass/50 rounded-sm p-3">
+              <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-2">
+                ⚡ 음악적 혁신
+              </div>
+              <ul className="space-y-1.5 text-xs md:text-sm text-tango-cream/85 font-serif" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                {profile.musical_innovations.map((m, i) => (
+                  <li key={i} className="flex gap-2">
+                    <span className="text-tango-brass flex-shrink-0">·</span>
+                    <span>{m}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          {/* 가수 승격 (Troilo 전용 필드) */}
+          {profile.singer_innovation && (
+            <section className="bg-tango-rose/5 border border-tango-rose/30 rounded-sm p-3">
+              <div className="text-[10px] tracking-[0.3em] uppercase text-tango-rose font-sans mb-2">
+                ♬ 가수 승격 (Singer Elevation)
+              </div>
+              <p className="text-xs md:text-sm text-tango-cream/85 font-serif italic leading-relaxed" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                {profile.singer_innovation}
+              </p>
+            </section>
+          )}
+
           {/* 음악적 특징 */}
           {profile.musical_style && (
             <section>
@@ -162,6 +207,23 @@ export function OrchestraProfile({ orchestraId, compact = false }: { orchestraId
                   <li key={i} className="flex gap-2 text-sm text-tango-cream/80 font-serif italic leading-relaxed" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
                     <span className="text-tango-brass flex-shrink-0">·</span>
                     <span>{e}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          {/* 인간적 일화 (Pugliese의 dulce de leche, 귤 일화 등) */}
+          {profile.personal_anecdotes && profile.personal_anecdotes.length > 0 && (
+            <section className="bg-tango-shadow/30 border border-tango-brass/15 rounded-sm p-3">
+              <div className="text-[10px] tracking-[0.3em] uppercase text-tango-cream/60 font-sans mb-2">
+                😊 인간적 일화
+              </div>
+              <ul className="space-y-1.5">
+                {profile.personal_anecdotes.map((a, i) => (
+                  <li key={i} className="flex gap-2 text-xs md:text-sm text-tango-cream/75 font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                    <span className="text-tango-brass/60 flex-shrink-0">·</span>
+                    <span>{a}</span>
                   </li>
                 ))}
               </ul>
