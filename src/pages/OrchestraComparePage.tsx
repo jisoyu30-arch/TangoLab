@@ -2,6 +2,7 @@
 import { useState, useMemo } from 'react';
 import { PageHeader } from '../components/PageHeader';
 import { OrnamentDivider } from '../components/editorial';
+import { OrchestraProfile, hasOrchestraProfile } from '../components/OrchestraProfile';
 import { shortOrchestraName } from '../utils/tandaAnalysis';
 import songsData from '../data/songs.json';
 import appearancesData from '../data/appearances.json';
@@ -170,6 +171,44 @@ export function OrchestraComparePage() {
                 </div>
               ))}
             </div>
+          )}
+
+          {/* 심층 프로파일 — 두 악단 모두 프로파일 있을 때만 노출 */}
+          {leftStats && rightStats && hasOrchestraProfile(leftStats.orchestra.orchestra_id) && hasOrchestraProfile(rightStats.orchestra.orchestra_id) && (
+            <div className="space-y-8">
+              <OrnamentDivider />
+              <div className="text-center">
+                <div className="text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans mb-2">
+                  Deep Profile · 심층 프로파일
+                </div>
+                <h2 className="font-display text-2xl md:text-3xl text-tango-paper italic" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                  연혁 · 보컬 · 에피소드
+                </h2>
+              </div>
+              <div className="grid lg:grid-cols-2 gap-8">
+                <div className="bg-tango-shadow/30 border border-tango-brass/15 rounded-sm p-5">
+                  <h3 className="font-display text-2xl text-tango-paper italic mb-4" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                    {leftStats.orchestra.orchestra_name}
+                  </h3>
+                  <OrchestraProfile orchestraId={leftStats.orchestra.orchestra_id} />
+                </div>
+                <div className="bg-tango-shadow/30 border border-tango-brass/15 rounded-sm p-5">
+                  <h3 className="font-display text-2xl text-tango-paper italic mb-4" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+                    {rightStats.orchestra.orchestra_name}
+                  </h3>
+                  <OrchestraProfile orchestraId={rightStats.orchestra.orchestra_id} />
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* 한쪽만 프로파일 있을 때 */}
+          {leftStats && rightStats && (
+            (hasOrchestraProfile(leftStats.orchestra.orchestra_id) !== hasOrchestraProfile(rightStats.orchestra.orchestra_id)) && (
+              <div className="bg-tango-brass/5 border border-tango-brass/20 rounded-sm p-4 text-center text-xs text-tango-cream/60 font-serif italic">
+                심층 프로파일은 양쪽 악단 모두 데이터가 있어야 노출됩니다. 현재 D'Arienzo·Di Sarli·Pugliese·Troilo·Caló·Tanturi 6개 악단 정리됨.
+              </div>
+            )
           )}
 
           <OrnamentDivider className="pt-8" />

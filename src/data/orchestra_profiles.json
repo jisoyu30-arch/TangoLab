@@ -1,0 +1,397 @@
+{
+  "version": "2026-04-29-v1",
+  "_note": "악단 심층 프로파일 — 영문/스페인어권 출처 인용. 작가님이 메모/번역 추가 가능.",
+  "profiles": {
+    "ORCH-001": {
+      "orchestra_id": "ORCH-001",
+      "short_name": "D'Arienzo",
+      "nickname": "El Rey del Compás (리듬의 왕)",
+      "lifespan": "1900-12-14 ~ 1976-01-14",
+      "active_era": "1928-1975",
+      "founded": "1935 (피아니스트 Rodolfo Biagi 합류로 황금기 시작)",
+      "summary": "비트의 왕. 1935년 피아니스트 Biagi와 함께 댄서들이 거부할 수 없는 강력한 리듬 스타일을 만들어 황금기를 열었다. 1000곡 이상 녹음, 1000만 장 이상 판매.",
+      "history_periods": [
+        {
+          "label": "초기 (1928-1934)",
+          "body": "Cabaret 무대에서 활동. 부에노스아이레스 Florida 카바레에서 Osvaldo Fresedo 대타 연주 중 'Príncipe Cubano'에게서 '리듬의 왕'(El Rey del Compás) 별명을 얻음."
+        },
+        {
+          "label": "황금기 시작 (1935-1939)",
+          "body": "피아니스트 Rodolfo Biagi가 합류. 강한 비트 + 명확한 sub-pulse(반박자) 사운드 확립. 댄서들이 곧바로 사로잡혔고 황금기의 신호탄이 됨."
+        },
+        {
+          "label": "황금기 절정 (1940-1957)",
+          "body": "1940년 피아니스트 Juan Polito가 떠나면서 보컬 Alberto Echagüe까지 데려감. 그러나 D'Arienzo는 다시 라인업을 재구성하고 정상 유지. Echagüe는 1944년 복귀."
+        },
+        {
+          "label": "후기 (1958-1975)",
+          "body": "1968년 Echagüe와 일본 투어. 1975년까지 함께 녹음. 1976년 1월 사망까지 활동."
+        }
+      ],
+      "musical_style": "강한 마르카토(marcato) + sub-pulse 강조 (ONE-and-TWO-and). 빠른 템포, 에너지, 분명한 비트. 댄서가 행진하듯 워킹 가능한 사운드. 단순한 화성에 강력한 리듬을 결합 — 사회적 탱고 경연의 필수 악단.",
+      "vocalists": [
+        {
+          "name": "Alberto Echagüe",
+          "phases": "1938-1939, 1944-1957, 1968-1975 (3차례)",
+          "note": "기술적으로 위대한 가수는 아니었지만 D'Arienzo의 빠른 스타일과 완벽히 맞았다. 가장 길게 함께한 보컬리스트."
+        },
+        {
+          "name": "Héctor Mauré",
+          "phases": "1940년 합류",
+          "note": "오케스트라 사상 최고의 가수로 평가받음. 그러나 D'Arienzo의 빠른 속도를 따라가기 어려워 연주 방식을 일부 조정했어야 함 — 스타일과 가장 잘 맞는 선택은 아니었다는 평가."
+        },
+        {
+          "name": "Carlos Dante",
+          "phases": "여러 시기"
+        },
+        {
+          "name": "Jorge Valdez",
+          "phases": "1950년대"
+        },
+        {
+          "name": "Armando Laborde",
+          "phases": "1950-60년대"
+        }
+      ],
+      "key_collaborator": "Rodolfo Biagi (피아노, 1935-1938) — D'Arienzo 사운드의 공동 설계자. 이후 독립해 자기 오케스트라 결성.",
+      "episodes": [
+        "1940년 피아니스트 Juan Polito가 오케스트라를 떠나면서 모든 단원과 보컬 Echagüe까지 데리고 나감. D'Arienzo는 즉시 새 라인업을 구성해 정상을 지켰다.",
+        "1968년 일본 투어로 첫 해외 진출. 일본 탱고 팬덤 형성에 결정적 영향.",
+        "1000곡 이상의 탱고/밀롱가/발스 녹음, 46곡 작곡. 사실상 황금기 댄서블 탱고의 표준이 됐다."
+      ],
+      "competition_relevance": "Mundial/KTC 등 대회에서 가장 자주 사용되는 악단. 강한 비트로 댄서의 음악성·정확도가 즉시 드러남 → 심사 평가에 유리. 결승 1라운드(에너지 오프너) 자주 선택.",
+      "sources": [
+        { "label": "Wikipedia EN — Juan d'Arienzo", "url": "https://en.wikipedia.org/wiki/Juan_d%27Arienzo" },
+        { "label": "Tango Sur Australia — D'Arienzo Singers", "url": "https://tangosuraustralia.com/juan-darienzo-his-orchestras-and-singers/" },
+        { "label": "Tangology 101 — D'Arienzo Part 3 (Revolution)", "url": "http://www.tangology101.com/main.cfm/id/1616" },
+        { "label": "Milonga Press — Tango Masters: D'Arienzo", "url": "https://www.milongapress.com/tango-masters/darienzo/" }
+      ]
+    },
+
+    "ORCH-002": {
+      "orchestra_id": "ORCH-002",
+      "short_name": "Di Sarli",
+      "nickname": "El Señor del Tango (탱고의 신사)",
+      "lifespan": "1903-01-07 ~ 1960-01-12",
+      "active_era": "1927-1958",
+      "founded": "1927 말 (자신의 sextet/orquesta típica 결성, 피아노 직접)",
+      "summary": "탱고의 신사. 우아하고 서정적이며 살롱 댄서들의 favorite. 단순한 구조에서 시작해 풍부하고 시적인 스타일로 진화. 명료한 컴파스로 초보자도 즐길 수 있고, 변주의 디테일은 상급자도 매료시킴.",
+      "history_periods": [
+        {
+          "label": "초기 (1927-1938)",
+          "body": "1927년 말 자신의 sextet 결성. 피아노에서 직접 지휘. 단순하고 명확한 구조."
+        },
+        {
+          "label": "Rufino 시대 (1939-1943)",
+          "body": "1939년 12월 첫 녹음 — 자작곡 'Corazón'에 17세 신예 Roberto Rufino를 보컬로. 이후 1943년까지 황금기 콜라보. 총 46곡 녹음 (탱고 34, 밀롱가 8, 발스 4)."
+        },
+        {
+          "label": "Durán 시대 (1944-1947)",
+          "body": "Jorge Durán과의 콜라보. 더욱 서정적이고 풍부한 사운드로 진화."
+        },
+        {
+          "label": "후기 (1948-1958)",
+          "body": "Mario Pomar, Roberto Florio, Argentino Ledesma 등과 활동. 1958년 은퇴, 1960년 1월 부에노스아이레스에서 사망."
+        }
+      ],
+      "musical_style": "Smooth + lyrical + elegant. 드라마틱한 템포 변화 없는, 흐르는 컴포지션. 댄서가 '걷고 멈추기'(walk and stop) — 우아한 정지(elegant pause)가 시그니처. 살롱 댄서의 favorite. 명료한 컴파스 위에 정교한 변주가 얹혀 초·중·상급 모두 만족.",
+      "vocalists": [
+        {
+          "name": "Roberto Rufino",
+          "phases": "1939-1943",
+          "note": "17세 신예로 시작해 Di Sarli 사운드를 정의한 보컬. 청년기 목소리의 서정적·낭만적 전달이 탱고의 본질과 공명. 46곡 녹음."
+        },
+        {
+          "name": "Jorge Durán",
+          "phases": "1944-1947, 1956-1958",
+          "note": "Di Sarli의 두 번째 황금기 보컬. 더 풍부한 음색."
+        },
+        {
+          "name": "Alberto Podestá",
+          "phases": "1942-1943",
+          "note": "짧은 시기지만 인상적인 녹음 남김."
+        },
+        {
+          "name": "Mario Pomar",
+          "phases": "1950년대"
+        },
+        {
+          "name": "Roberto Florio",
+          "phases": "후기"
+        }
+      ],
+      "episodes": [
+        "1939년 12월 첫 녹음 'Corazón'(자작곡) — 17세 Rufino의 데뷔이자 Di Sarli 사운드의 출발점.",
+        "사운드는 'downtown' — 시내의 우아한 분위기. 클래식 살롱 댄서들이 가장 사랑한 악단.",
+        "Di Sarli는 항상 검은 정장에 짙은 안경 — '탱고의 신사' 이미지 의도적 구축. 무대에서도 카리스마 있는 침묵을 유지."
+      ],
+      "competition_relevance": "Tango de Salón 댄서가 선호하는 악단 1순위. Mundial 결승에 자주 등장. 우아한 라인·아브라소가 평가 받는 부문에 유리. 'Bahía Blanca', 'A la Gran Muñeca', 'Indio Manso' 등 대표곡이 결승 빈출.",
+      "sources": [
+        { "label": "Wikipedia EN — Carlos di Sarli", "url": "https://en.wikipedia.org/wiki/Carlos_di_Sarli" },
+        { "label": "Tangology 101 — Di Sarli", "url": "http://www.tangology101.com/main.cfm/title/Carlos-di-Sarli/id/60" },
+        { "label": "El Portal del Tango — Di Sarli", "url": "https://elportaldeltango.com/carlos-di-sarli/" },
+        { "label": "TotANGO — Di Sarli", "url": "http://www.totango.net/DiSarli.html" },
+        { "label": "El Recodo — Di Sarli", "url": "https://www.el-recodo.com/carlosdisarli-en.php?lang=en" }
+      ]
+    },
+
+    "ORCH-003": {
+      "orchestra_id": "ORCH-003",
+      "short_name": "Pugliese",
+      "nickname": "San Pugliese (성 푸글리에세 — 댄서들의 수호 성인)",
+      "lifespan": "1905-12-02 ~ 1995-07-25",
+      "active_era": "1939-1995",
+      "founded": "1939년 8월 11일 (Café El Nacional, Corrientes Avenue 980 데뷔)",
+      "summary": "탱고를 콘서트 음악으로 끌어올린 혁명가. 'yumba' 비트(1·3박 강조)를 발명. 강렬한 드라마와 서정성을 동시에 가진 사운드. 정치적으로는 1936년부터 공산당원 — 여러 차례 투옥에도 음악과 신념을 양보하지 않음. 댄서들 사이에서는 무대 위 '비어있는 의자'와 함께 '성 푸글리에세' 전설로 살아있음.",
+      "history_periods": [
+        {
+          "label": "초기 활동 (1924-1938)",
+          "body": "1924년 Pedro Maffia 오케스트라에서 피아니스트로 데뷔. Vardaro-Pugliese 6중주(Vardaro, Pugliese, Gobbi, Troilo 등) 멤버."
+        },
+        {
+          "label": "오케스트라 결성 (1939-1945)",
+          "body": "1939년 8월 11일 Café El Nacional 데뷔. cooperative(협동조합) 형태로 운영 — 모든 멤버가 동등한 의사결정권. 'La Yumba'(1946) 같은 시그니처 곡 탄생."
+        },
+        {
+          "label": "황금기 + 정치적 박해 (1945-1958)",
+          "body": "Roberto Chanel, Alberto Morán을 보컬로 둠. 1956년 'Operation Cardenal'로 공산당 중앙위원회와 함께 투옥. 멤버들은 무대에 그의 빈 의자를 놓고 연주를 이어감 → 'San Pugliese' 전설의 시작."
+        },
+        {
+          "label": "국제적 명성 (1959-1995)",
+          "body": "1959년 소련 투어. 이후 중국·일본·전 세계 순회. 1985년 Teatro Colón 데뷔. 1989년 암스테르담 공연. 1995년 7월 25일 사망."
+        }
+      ],
+      "musical_style": "Yumba 비트 — 1박과 3박 강조(강), 2박과 4박은 약하게 베이스 피아노로. 어원 없이 반도네온의 깊은 호흡 + 금속 가공의 끊임없는 리듬을 합친 의성어. 리듬과 멜로디 에너지가 동시에 — 두 힘의 충돌이 Pugliese의 시그니처. arrastre(끌기) 기법으로 음악 압박감 표현. 'sharp rítmico motives'와 'lyrical cantando lines'의 교차.",
+      "vocalists": [
+        {
+          "name": "Roberto Chanel",
+          "phases": "1943년 합류",
+          "note": "Pugliese의 가장 위대한 보컬. Fiorentino 스타일의 진정한 cantor de orquesta."
+        },
+        {
+          "name": "Alberto Morán",
+          "phases": "1944-1949, 1955-1957",
+          "note": "강렬한 감성과 드라마틱한 전달. Pugliese의 대표적 보컬."
+        },
+        {
+          "name": "Jorge Maciel",
+          "phases": "1954-1969",
+          "note": "장기간 함께한 보컬."
+        },
+        {
+          "name": "Abel Cordoba",
+          "phases": "후기"
+        }
+      ],
+      "episodes": [
+        "1936년 공산당 가입. 권력자들의 적개심에도 신념을 굽히지 않음.",
+        "1956년 Revolución Libertadora 독재 정권에 의해 투옥('Operation Cardenal'). 공산당 중앙위원회와 함께. 멤버들은 무대에 그의 빈 의자를 놓고 연주를 계속 — 이 장면이 'San Pugliese'(성 푸글리에세) 전설의 시작.",
+        "오늘날까지 댄서들 사이에서 '오늘 밤 잘 추게 해주세요'를 빌 때 'San Pugliese'에게 기도하는 농담 같은 신앙이 이어짐.",
+        "오케스트라를 cooperative(협동조합)로 운영 — 모든 멤버가 동등한 발언권. 그의 정치 신념의 음악적 실천."
+      ],
+      "competition_relevance": "결승 라운드에 자주 등장. 'La Yumba', 'Recuerdo', 'Gallo Ciego' 같은 곡이 결승 마지막 라운드(클로저, 드라마 절정)에 빈출. yumba 호흡과 arrastre를 댄서가 어떻게 해석하는지가 결정적 평가 포인트.",
+      "sources": [
+        { "label": "Wikipedia EN — Osvaldo Pugliese", "url": "https://en.wikipedia.org/wiki/Osvaldo_Pugliese" },
+        { "label": "Tangology 101 — Pugliese", "url": "https://tangology101.com/main.cfm/id/63" },
+        { "label": "Marcelo Solis — Pugliese", "url": "https://escuelatangoba.com/marcelosolis/argentine-tango-resourses/argentine-tango-music/pugliese-osvaldo/" },
+        { "label": "Milonga.co.uk — Pugliese", "url": "https://milonga.co.uk/tango/pugliese.shtml" },
+        { "label": "Wikipedia — La Yumba", "url": "https://en.wikipedia.org/wiki/La_yumba" }
+      ]
+    },
+
+    "ORCH-005": {
+      "orchestra_id": "ORCH-005",
+      "short_name": "Troilo",
+      "nickname": "Pichuco (피추코)",
+      "lifespan": "1914-07-11 ~ 1975-05-18",
+      "active_era": "1925-1975",
+      "founded": "1937 (자신의 orquesta típica 결성)",
+      "summary": "20세기 가장 사랑받은 반도네온 거장. 부에노스아이레스 Abasto 출생. 11세에 첫 카바레 연주, 14세에 첫 5중주. 황금기 댄서들에게 가장 인기 있던 댄스 오케스트라 중 하나, 후기에는 콘서트 사운드로 전환. 400곡 이상 녹음. 그의 생일 7월 11일은 아르헨티나 국가 반도네온의 날(National Bandoneón Day, 2005년 의회 지정).",
+      "history_periods": [
+        {
+          "label": "유년·소년기 (1925-1936)",
+          "body": "11세(1925) 처음 바에서 연주. 14세 첫 5중주. 1930년 12월 Vardaro-Pugliese 6중주에 합류 (Vardaro 바이올린, Pugliese 피아노, Gobbi 바이올린, Jurado 반도네온, Addesso 콘트라베이스, 14세의 Troilo 반도네온)."
+        },
+        {
+          "label": "오케스트라 결성·전성기 (1937-1955)",
+          "body": "1937년 자신의 오케스트라 결성. 황금기 댄서들의 최애 중 하나. 1939-1944년 Astor Piazzolla가 멤버로 활동·편곡 담당."
+        },
+        {
+          "label": "콘서트 사운드 전환 (1955-1975)",
+          "body": "1950년대 후반부터 댄서블 사운드보다 콘서트 사운드로 진화. Goyeneche·Rivero 같은 후기 보컬과 깊이 있는 작업."
+        }
+      ],
+      "musical_style": "리드믹과 멜로디컬 양면 동시. Troilo의 반도네온은 '부에노스아이레스의 호흡' 그 자체로 평가. 1941-1943년 Fiorentino와의 milonga·rhythmic 녹음이 살롱 댄서의 골든 스탠다드. 후기로 갈수록 시적·콘서트적으로 변화.",
+      "vocalists": [
+        {
+          "name": "Francisco Fiorentino",
+          "phases": "1941-1943",
+          "note": "Troilo 황금기 댄스 사운드의 보컬. cantor de orquesta의 본보기. 'Percal', 'Malena' 등 시대를 정의한 녹음 다수."
+        },
+        {
+          "name": "Alberto Marino",
+          "phases": "1943-1947",
+          "note": "Fiorentino 후임. 강렬한 음색."
+        },
+        {
+          "name": "Floreal Ruiz",
+          "phases": "1944-1948"
+        },
+        {
+          "name": "Roberto Goyeneche",
+          "phases": "1956-1963",
+          "note": "후기 콘서트 시기의 시그니처 보컬. 시적이고 깊은 해석."
+        },
+        {
+          "name": "Edmundo Rivero",
+          "phases": "1947-1950",
+          "note": "낮은 바리톤 음색."
+        },
+        {
+          "name": "Raúl Berón",
+          "phases": "여러 시기"
+        }
+      ],
+      "key_collaborator": "Astor Piazzolla — 1939-1944년 멤버이자 편곡자. 후일 누에보 탱고의 거장이 되는 그의 음악적 출발점이 Troilo 오케스트라.",
+      "episodes": [
+        "11세에 처음 카바레 연주 — 부모가 음악을 너무 좋아한 아들을 위해 어쩔 수 없이 허락.",
+        "Astor Piazzolla가 1939-1944년 그의 오케스트라에서 반도네온 + 편곡으로 활동. 이후 누에보 탱고로 분기하지만 Troilo와의 관계는 평생 유지.",
+        "그의 생일 7월 11일이 2005년 아르헨티나 의회에 의해 'National Bandoneón Day'로 지정 — 국가가 인정한 탱고 영웅.",
+        "황금기 댄스 사운드(1941-1943) ↔ 후기 콘서트 사운드의 자연스러운 전환은 탱고 음악사의 분기점."
+      ],
+      "competition_relevance": "Mundial 결승에 자주 등장. Fiorentino 시기 녹음이 댄스 부문에 적합. 'Percal', 'Toda mi vida' 등이 빈출. 강한 리듬과 서정성의 균형이 댄서의 다재다능을 평가하기 좋음.",
+      "sources": [
+        { "label": "Wikipedia EN — Aníbal Troilo", "url": "https://en.wikipedia.org/wiki/An%C3%ADbal_Troilo" },
+        { "label": "Encyclopedia.com — Troilo, Aníbal", "url": "https://www.encyclopedia.com/education/news-wires-white-papers-and-books/troilo-anibal" },
+        { "label": "Boston Tango Society — Troilo 100th Birthday", "url": "https://www.bostontango.org/celebrating-100th-birthday-of-anibal-troilo.html" },
+        { "label": "Festival de Tango — Troilo Bandoneonist", "url": "https://www.festivaldetango.com.ar/anibal-troilo-tango-bandoneonist/" }
+      ]
+    },
+
+    "ORCH-007": {
+      "orchestra_id": "ORCH-007",
+      "short_name": "Caló",
+      "nickname": "Orquesta de las Estrellas (별들의 오케스트라)",
+      "lifespan": "1907-10-28 ~ 1972-05-24",
+      "active_era": "1929-1968",
+      "founded": "1929 (자신의 그룹 결성)",
+      "summary": "별들의 오케스트라. 동시대 최고 보컬리스트들 — Berón, Podestá, Iriarte, Ortiz — 이 동시에 오케스트라에 머문 적이 있어 붙은 별명. 우아하고 정교한 편곡, 보컬 친화적 사운드. 1942년 Berón과의 'Al compás del corazón'이 큰 히트로 황금기 정점.",
+      "history_periods": [
+        {
+          "label": "초기 (1929-1938)",
+          "body": "여러 그룹과 활동. 1929년 자신의 그룹 결성."
+        },
+        {
+          "label": "Berón 시대 (1939-1943)",
+          "body": "Raúl Berón이 1939년 합류. 1942년 'Al compás del corazón' 대히트. 이 시기가 Caló의 첫 절정."
+        },
+        {
+          "label": "별들의 오케스트라 (1943-1945)",
+          "body": "Berón + Podestá + Iriarte + Ortiz까지 동시에 — '별들의 오케스트라' 시대. 오늘까지 사랑받는 명반들 다수."
+        },
+        {
+          "label": "후기 (1946-1968)",
+          "body": "보컬리스트들이 점차 독립. Caló는 활동을 이어가다 1968년 은퇴, 1972년 사망."
+        }
+      ],
+      "musical_style": "정교하고 sophisticated한 편곡. 보컬리스트의 음색을 최대한 살리는 반주 — '별들의 오케스트라'다운 보컬 친화적 사운드. 'Sans Souci'(1944, 자작곡) 같은 인스트루멘털도 우아함의 정수.",
+      "vocalists": [
+        {
+          "name": "Raúl Berón",
+          "phases": "1939-1943, 1957-1959",
+          "note": "부드럽고 벨벳 같은 음색. Caló의 sophisticated 편곡과 완벽한 매치. 1942년 'Al compás del corazón' 대히트로 자리를 굳힘."
+        },
+        {
+          "name": "Alberto Podestá",
+          "phases": "1942-1944",
+          "note": "명료하고 표현적인 전달. 'Percal'과 'Nada' 같은 히트로 탱고 팬들에게 사랑받음."
+        },
+        {
+          "name": "Raúl Iriarte",
+          "phases": "1943-1945",
+          "note": "Iriarte와 듀오 시기가 Caló의 절정."
+        },
+        {
+          "name": "Jorge Ortiz",
+          "phases": "1939-1942"
+        },
+        {
+          "name": "Roberto Arrieta",
+          "phases": "여러 시기"
+        }
+      ],
+      "episodes": [
+        "동시대 최고 보컬리스트 4명이 한 오케스트라에 — 'Orquesta de las Estrellas' 별명의 유래.",
+        "1942년 'Al compás del corazón'(Berón)이 폭발적 히트. 이 곡이 Caló를 황금기 정상에 올려놓음.",
+        "1944년 'Sans Souci' 녹음 — 인스트루멘털 명곡. 오늘날 Sans Souci 명을 이어받은 modern orquesta가 활동 중."
+      ],
+      "competition_relevance": "Mundial 결승에 빈번. 보컬 곡과 인스트루멘털 모두 댄서에게 매력적. 'Sans Souci', 'Al compás del corazón', 'Yo soy el tango' 같은 곡이 결승 빈출. 우아함과 보컬 해석이 동시에 평가될 때 유리.",
+      "sources": [
+        { "label": "El Portal del Tango — Miguel Caló", "url": "https://elportaldeltango.com/miguel-calo/" },
+        { "label": "Milonga.co.uk — Caló", "url": "https://milonga.co.uk/tango/calo.shtml" },
+        { "label": "Brisbane House of Tango — Caló", "url": "https://brisbanehouseoftango.com.au/miguel-calo/" },
+        { "label": "Marcelo Solis — Al compás del corazón", "url": "https://escuelatangoba.com/marcelosolis/al-compas-del-corazon-late-un-corazon-by-miguel-calo-y-su-orquesta-tipica-with-raul-beron-in-vocals-1942/" }
+      ]
+    },
+
+    "ORCH-008": {
+      "orchestra_id": "ORCH-008",
+      "short_name": "Tanturi",
+      "nickname": null,
+      "lifespan": "1905-01-27 ~ 1973-01-24",
+      "active_era": "1933-1965",
+      "founded": "1933 (Los Indios 그룹 결성)",
+      "summary": "황금기의 정교한 피아니스트·작곡가·밴드리더. 보컬리스트 Castillo와의 콜라보로 오케스트라가 도약. 그 후 Campos와의 두 번째 황금기. 'Recuerdo malevo', 'La vida es corta', 'Asi se baila el tango' 등 시대를 정의한 곡들.",
+      "history_periods": [
+        {
+          "label": "Los Indios (1933-1938)",
+          "body": "1933년 'Los Indios' 그룹 결성. 차분하지만 인지도 낮음."
+        },
+        {
+          "label": "Castillo 시대 (1939-1943)",
+          "body": "1939년 Alberto Castillo 합류로 대도약. 'if ever the career of a band leader was saved by a singer, this was it' — 매직 콤비. 37곡 녹음. 'Recuerdo malevo'(1941), 'La vida es corta'(1941) 등 시대 정의."
+        },
+        {
+          "label": "Campos 시대 (1943-1946)",
+          "body": "1943년 Castillo가 떠나고 우루과이 출신 Enrique Campos 합류. 'concerned in communicating with the public' — 청중과의 교감을 중시한 스타일. 51곡 녹음."
+        },
+        {
+          "label": "후기 (1947-1965)",
+          "body": "여러 보컬과 활동. 1965년 은퇴. 1973년 1월 사망."
+        }
+      ],
+      "musical_style": "우아하고 명료한 사운드. 보컬리스트의 표현을 살리는 정교한 편곡. Tanturi 자체는 화려하지 않지만 모든 디테일이 정확해 댄서가 음악을 따라가기 쉬움.",
+      "vocalists": [
+        {
+          "name": "Alberto Castillo",
+          "phases": "1939-1943",
+          "note": "Tanturi 도약의 결정적 보컬. 37곡 녹음. 'one of the magical combinations'. 'Recuerdo malevo', 'La vida es corta' 등."
+        },
+        {
+          "name": "Enrique Campos",
+          "phases": "1943-1946",
+          "note": "우루과이 출신. 청중과 소통을 중시한 스타일. 51곡 녹음."
+        },
+        {
+          "name": "Roberto Videla",
+          "phases": "후기"
+        },
+        {
+          "name": "Juan Carlos Godoy",
+          "phases": "후기"
+        }
+      ],
+      "episodes": [
+        "Castillo와의 콜라보가 Tanturi의 운명을 바꿈. 'magical combination'이라는 평가가 통설.",
+        "1943년 Castillo가 솔로로 떠난 뒤 우루과이 출신 Enrique Campos를 발탁 — 또 다른 황금기 시작."
+      ],
+      "competition_relevance": "Mundial 빈출 악단. Castillo 시기 곡이 댄서에게 친숙하고 음악성 표현이 명확. 'Asi se baila el tango'는 결승에서 자주 등장.",
+      "sources": [
+        { "label": "Wikipedia EN — Ricardo Tanturi", "url": "https://en.wikipedia.org/wiki/Ricardo_Tanturi" },
+        { "label": "Todotango — Orquesta Tanturi", "url": "https://www.todotango.com/english/history/chronicle/489/Orquesta-Tipica-Ricardo-Tanturi/" },
+        { "label": "Milonga.co.uk — Tanturi", "url": "https://milonga.co.uk/tango/tanturi.shtml" },
+        { "label": "Marcelo Solis — La vida es corta", "url": "https://escuelatangoba.com/marcelosolis/argentine-tango-la-vida-es-corta-ricardo-tanturi-with-alberto-castillo/" }
+      ]
+    }
+  }
+}
