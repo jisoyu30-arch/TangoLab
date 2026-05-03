@@ -1,6 +1,6 @@
 {
-  "version": "2026-04-29-v1",
-  "_note": "곡 퀴즈용 단일 곡 영상 큐레이션. 한 영상 = 한 곡(또는 명확히 분리된 두 곡) 원칙. 작가님이 점진적으로 확장.",
+  "version": "2026-04-29-v2",
+  "_note": "곡 퀴즈용 단일 곡 영상 큐레이션. Todotango/Letras.com/Marcelo Solis/Wikipedia 교차 검증.",
   "_format": {
     "video_id": "YouTube ID",
     "song_title": "곡명 (스페인어 원어)",
@@ -9,10 +9,10 @@
     "vocalist": "보컬리스트 (혹은 'instrumental')",
     "year": "녹음 연도",
     "genre": "tango / vals / milonga",
-    "start_sec": "곡 시작 위치 (다곡 영상 분할용)",
-    "end_sec": "곡 종료 위치 (선택)",
-    "info_ko": "곡 한글 설명",
-    "lyrics_search_url": "가사 검색 URL (todotango / letras)",
+    "composer": "작곡가",
+    "lyricist": "작사가 (있을 경우)",
+    "info_ko": "곡 한글 설명 (역사·맥락·의미)",
+    "lyrics_search_url": "가사 검색 URL",
     "sources": "참고 출처 URL 리스트"
   },
   "entries": [
@@ -23,10 +23,16 @@
       "orchestra_short": "Troilo",
       "vocalist": "Francisco Fiorentino",
       "year": 1943,
+      "recording_date": "1943-03-25",
       "genre": "tango",
-      "info_ko": "Troilo + Fiorentino 황금기 콜라보의 대표곡. Percal(거친 면포)은 가난한 처녀의 옷감으로, 도시로 떠난 이의 향수를 그리는 가사. 1943년 녹음 — Troilo 댄스 사운드의 정점.",
+      "composer": "Domingo Federico",
+      "lyricist": "Homero Expósito",
+      "info_ko": "Troilo + Fiorentino 황금기 콜라보의 대표곡. 'Percal'(percale)은 20세기 초 가난한 처녀들이 입던 소박한 면포로, 가사는 도시로 떠난 청년이 사랑과 고통을 꿈꾸지만 결국 채워지지 않은 꿈을 그린다. 같은 시기 Miguel Caló + Alberto Podestá도 같은 곡을 녹음(1943-02-25)했지만 Troilo 버전이 가장 사랑받음. percale은 또한 유명 탱고 'Milonguita'의 마지막 단어이기도 해서, 도시의 흥망 서사를 잇는 상징.",
+      "info_long": "1940년대 아르헨티나의 급격한 산업화·도시화 속에서 시골 청년들이 부에노스아이레스로 떠나며 문화적 뿌리를 잃어가던 사회적 배경에서 탄생. percale = 순수·소박함의 상징. 가사는 'Percalita 그대 기억하나, 우리가 어렸을 때…'로 시작.",
       "lyrics_search_url": "https://www.todotango.com/musica/tema/2147/Percal/",
       "sources": [
+        { "label": "Letras.com — Percal 의미 분석", "url": "https://www.letras.com/anibal-troilo/percal/significado.html" },
+        { "label": "El Recodo — Percal (Troilo-Fiorentino, 1943-03-25)", "url": "https://www.el-recodo.com/music?id=2994&lang=en" },
         { "label": "Todotango — Percal", "url": "https://www.todotango.com/musica/tema/2147/Percal/" }
       ]
     },
@@ -39,8 +45,8 @@
       "year": 1941,
       "genre": "tango",
       "multi_song_video": true,
-      "_note": "이 영상은 Pajaro Ciego + Una Carta 두 곡이 연속 재생됩니다. 첫 곡(Pajaro Ciego) 약 3분.",
-      "info_ko": "Troilo + Fiorentino의 1941년 녹음. '눈먼 새'는 사랑을 잃은 화자의 처지를 비유.",
+      "_note": "이 영상은 Pajaro Ciego + Una Carta 두 곡 연속 재생 (첫 곡 약 3분).",
+      "info_ko": "Troilo + Fiorentino의 1941년 녹음. '눈먼 새(Pajaro Ciego)'는 사랑을 잃고 길을 잃은 화자의 처지를 비유하는 시적인 가사. Troilo 황금기 댄스 사운드의 출발점에 해당하는 시기 (1941-1943).",
       "lyrics_search_url": "https://www.todotango.com/musica/tema/2098/Pajaro-ciego/",
       "sources": []
     },
@@ -52,7 +58,7 @@
       "vocalist": "Jorge Maciel",
       "year": 1955,
       "genre": "tango",
-      "info_ko": "Pugliese + Maciel 1955년 녹음. Cascabelito(작은 방울)는 사랑의 잔향을 노래하는 시적인 가사.",
+      "info_ko": "Pugliese + Maciel 1955년 녹음. 'Cascabelito'(작은 방울)는 사랑의 잔향과 추억을 노래하는 시적 가사. Pugliese의 1950년대 후기 사운드 — 댄스 가능한 Yumba 비트와 서정적 멜로디의 결합. Jorge Maciel은 Pugliese 후기를 정의한 보컬리스트(1954-1969).",
       "lyrics_search_url": "https://www.todotango.com/musica/tema/623/Cascabelito/",
       "sources": []
     },
@@ -64,7 +70,7 @@
       "vocalist": "Jesús Fernández Blanco",
       "year": 1928,
       "genre": "vals",
-      "info_ko": "1928년 Canaro의 발스. 황금시대 이전의 클래식 발스. 'Vals con armonía y variación' — 화성과 변주가 있는 발스. 댄서들에게는 발스의 정수.",
+      "info_ko": "1928년 Canaro의 발스. 황금시대(1935~) 이전 Guardia Vieja 후기의 클래식 발스. 'Vals con armonía y variación' — 화성과 변주가 있는 발스. 댄서들에게는 발스의 정수로 평가받음. Canaro는 우루과이 출신 — Guardia Vieja부터 황금기까지 60년 이상 활동한 대륙 최장 활동 악단장.",
       "lyrics_search_url": "https://www.todotango.com/musica/tema/716/Corazon-de-oro/",
       "sources": []
     },
@@ -78,9 +84,61 @@
       "genre": "tango",
       "multi_song_video": true,
       "_note": "이 영상은 Tu Vuelta + Mi Viejo el Viejo Remendon 두 곡 연속.",
-      "info_ko": "Troilo 후기 (1965). 콘서트 사운드로 진화한 시기의 녹음. Vazquez와 Reyes 듀엣.",
+      "info_ko": "Troilo 후기 (1965). 콘서트 사운드로 진화한 시기의 녹음. 1955년 이후 Troilo는 댄스블 사운드보다 콘서트 사운드로 무게중심을 옮김. Vazquez와 Reyes의 듀엣은 Troilo 후기 보컬 라인업의 한 모습.",
       "lyrics_search_url": "https://www.todotango.com/musica/tema/4077/Tu-vuelta/",
       "sources": []
+    },
+    {
+      "video_id": "MQA4ik964pU",
+      "song_title": "Don Juan",
+      "orchestra": "Juan D'Arienzo y su Orquesta Típica",
+      "orchestra_short": "D'Arienzo",
+      "vocalist": "instrumental",
+      "year": 1936,
+      "genre": "tango",
+      "composer": "Ernesto Ponzio",
+      "info_ko": "D'Arienzo 황금기 출발의 시그니처 인스트루멘털. 1936년 — 피아니스트 Rodolfo Biagi와 함께 작업하던 시기, 강력한 2/4박자 마르카토로 댄서들을 무도회장으로 다시 불러들인 'D'Arienzo Revolution'의 대표곡. Ernesto Ponzio가 작곡한 19세기 후반 클래식을 D'Arienzo가 황금기 사운드로 재해석.",
+      "info_long": "원곡은 19세기 후반 부에노스아이레스 카바레에서 나온 'Guardia Vieja' 곡. D'Arienzo가 이 곡을 빠른 마르카토로 재편곡하며 댄스 사운드의 표준이 됨. '리듬의 왕(El Rey del Compás)' D'Arienzo의 정체성을 가장 명확히 보여주는 곡.",
+      "lyrics_search_url": "https://www.todotango.com/musica/tema/847/Don-Juan/",
+      "sources": [
+        { "label": "Tango DJ — Don Juan (D'Arienzo, 1936)", "url": "https://tangodj.eu/en/music/en-don-juan_1936_juan-d-arienzo_instrumental/" }
+      ]
+    },
+    {
+      "video_id": "7a-YlK7tkf0",
+      "song_title": "Bahía Blanca",
+      "orchestra": "Carlos Di Sarli y su Orquesta Típica",
+      "orchestra_short": "Di Sarli",
+      "vocalist": "instrumental",
+      "year": 1957,
+      "recording_date": "1957-11-21",
+      "genre": "tango",
+      "composer": "Carlos Di Sarli",
+      "info_ko": "Di Sarli의 자작곡이자 황금시대 그가 만든 유일한 인스트루멘털. Di Sarli의 고향 Bahía Blanca(흰 만)에 헌정한 곡. 그의 인스트루멘털 레퍼토리는 대부분 Guardia Vieja(1900-1910s)·Guardia Nueva(1920s) 곡인데, 'Bahía Blanca'만 황금시대(1957) 자작곡. Di Sarli의 묵직한 피아노 베이스 + 현악기 레가토가 만들어내는 평온한 해안가의 풍경. 그의 시그니처 사운드의 정수.",
+      "info_long": "Di Sarli는 13세 때 Bahía Blanca의 아버지 총포상에서 사고로 한쪽 눈을 잃어 평생 검은 안경을 쓴 인물. 이 곡은 그의 출생지에 대한 헌정. 1958년에도 다시 녹음. 한국어 'Bahía Blanca' = '흰 만(白い湾)'.",
+      "lyrics_search_url": "https://www.todotango.com/musica/tema/389/Bahia-Blanca/",
+      "sources": [
+        { "label": "Marcelo Solis — Bahía Blanca (Di Sarli)", "url": "https://escuelatangoba.com/marcelosolis/bahia-blanca-by-carlos-di-sarli-y-su-orquesta-tipica-argentine-tango-music/" },
+        { "label": "El Recodo — Bahía Blanca (Di Sarli, instrumental)", "url": "https://www.el-recodo.com/music?id=2208&lang=en" }
+      ]
+    },
+    {
+      "video_id": "V6LlNj8X4NQ",
+      "song_title": "La Yumba",
+      "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+      "orchestra_short": "Pugliese",
+      "vocalist": "instrumental",
+      "year": 1946,
+      "genre": "tango",
+      "composer": "Osvaldo Pugliese",
+      "_note": "1946년 PRIMERA GRABACIÓN (최초 녹음).",
+      "info_ko": "Pugliese의 시그니처. 1946년 작곡·녹음. 'yumba'는 토착어 어원이 아닌 의성어 — 반도네온의 깊은 호흡과 다른 악기들의 혼합 사운드를 음성화한 것. Pugliese 본인은 '쉬지 않는 리듬은 금속 가공의 소음에서 영감을 얻었다'고 밝힘. zhoóm-ba(윰-바) 패턴: '윰(Zhoóm)'은 1·3박 강박, '바(Ba)'는 2·4박 약박 — 이 구조가 Pugliese의 모든 곡의 토대.",
+      "info_long": "1985년 Fernando Solanas 영화 《El exilio de Gardel》, 1997년 Sally Potter 영화 《The Tango Lesson》에 사용되며 전 세계에 알려짐. Pugliese 오케스트라의 사실상 국가(國歌). 노동자 계급의 투쟁과 연대감을 청각화한 곡으로 평가.",
+      "lyrics_search_url": "https://www.todotango.com/musica/tema/2693/La-yumba/",
+      "sources": [
+        { "label": "Wikipedia — La Yumba", "url": "https://en.wikipedia.org/wiki/La_yumba" },
+        { "label": "Marcelo Solis — La Yumba (1946 primera grabación)", "url": "https://escuelatangoba.com/marcelosolis/la-yumba-by-osvaldo-pugliese-y-su-orquesta-tipica-1946-argentine-tango-music-2/" }
+      ]
     }
   ]
 }

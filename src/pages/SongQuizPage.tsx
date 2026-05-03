@@ -11,11 +11,15 @@ interface QuizEntry {
   orchestra_short: string;
   vocalist: string;
   year: number;
+  recording_date?: string;
   genre: string;
+  composer?: string;
+  lyricist?: string;
   start_sec?: number;
   end_sec?: number;
   multi_song_video?: boolean;
   info_ko?: string;
+  info_long?: string;
   lyrics_search_url?: string;
   sources?: { label: string; url: string }[];
 }
@@ -236,8 +240,15 @@ export function SongQuizPage() {
                     </p>
                     <div className="text-sm text-tango-cream/70 mt-1 font-sans">
                       {quiz.entry.vocalist !== 'instrumental' && `${quiz.entry.vocalist} · `}
-                      {quiz.entry.year} · {quiz.entry.genre.toUpperCase()}
+                      {quiz.entry.recording_date || quiz.entry.year} · {quiz.entry.genre.toUpperCase()}
                     </div>
+                    {(quiz.entry.composer || quiz.entry.lyricist) && (
+                      <div className="text-xs text-tango-cream/50 mt-2 font-serif italic" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                        {quiz.entry.composer && <span>작곡 {quiz.entry.composer}</span>}
+                        {quiz.entry.composer && quiz.entry.lyricist && <span> · </span>}
+                        {quiz.entry.lyricist && <span>작사 {quiz.entry.lyricist}</span>}
+                      </div>
+                    )}
                   </div>
 
                   {quiz.entry.info_ko && (
@@ -249,6 +260,17 @@ export function SongQuizPage() {
                         {quiz.entry.info_ko}
                       </p>
                     </div>
+                  )}
+
+                  {quiz.entry.info_long && (
+                    <details className="bg-tango-shadow/30 border border-tango-brass/15 rounded-sm p-4">
+                      <summary className="cursor-pointer text-[10px] tracking-[0.3em] uppercase text-tango-brass font-sans hover:text-tango-paper">
+                        📖 더 자세히 ▶
+                      </summary>
+                      <p className="text-sm text-tango-cream/80 font-serif italic leading-relaxed mt-3" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+                        {quiz.entry.info_long}
+                      </p>
+                    </details>
                   )}
 
                   <div className="flex flex-wrap gap-2">
