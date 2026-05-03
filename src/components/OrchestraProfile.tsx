@@ -62,7 +62,6 @@ export function OrchestraProfile({ orchestraId, compact = false }: { orchestraId
             <img
               src={profile.photo.url}
               alt={profile.short_name}
-              loading="lazy"
               className="w-32 h-32 md:w-36 md:h-36 object-cover rounded-sm border border-tango-brass/30 grayscale hover:grayscale-0 transition-all"
               onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
             />

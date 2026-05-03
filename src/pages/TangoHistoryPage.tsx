@@ -148,7 +148,6 @@ export function TangoHistoryPage() {
                           <img
                             src={d.photo.url}
                             alt={d.name}
-                            loading="lazy"
                             className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-sm border border-tango-brass/30 grayscale hover:grayscale-0 transition-all"
                             onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
                           />
