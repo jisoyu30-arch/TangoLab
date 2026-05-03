@@ -58,7 +58,9 @@ export async function askGemini(question: string, history: ConversationMessage[]
         contents,
         generationConfig: {
           temperature: 0.7,
-          maxOutputTokens: 1024,
+          maxOutputTokens: 2048,
+          // 🔧 Gemini 2.5 thinking 비활성화 — 응답 잘림 방지
+          thinkingConfig: { thinkingBudget: 0 },
         },
       }),
     });
@@ -73,8 +75,27 @@ export async function askGemini(question: string, history: ConversationMessage[]
     }
 
     const data = await response.json();
-    const text = data?.candidates?.[0]?.content?.parts?.[0]?.text;
-    return text || '답변을 생성하지 못했습니다.';
+    // 🔧 응답이 여러 parts로 분할될 수 있음 — 모두 합쳐서 반환
+    const parts = data?.candidates?.[0]?.content?.parts || [];
+    const text = parts
+      .filter((p: any) => p.text && !p.thought)
+      .map((p: any) => p.text)
+      .join('\n\n')
+      .trim();
+
+    if (!text) {
+      // 응답이 비었으면 finishReason 확인
+      const finishReason = data?.candidates?.[0]?.finishReason;
+      if (finishReason === 'MAX_TOKENS') {
+        return '응답이 너무 길어 잘렸습니다. 질문을 더 간결하게 해주시거나 다시 시도해주세요.';
+      }
+      if (finishReason === 'SAFETY') {
+        return '안전 정책에 따라 답변할 수 없는 질문입니다.';
+      }
+      console.warn('Empty Gemini response:', data);
+      return '답변을 생성하지 못했습니다. 다시 시도해주세요.';
+    }
+    return text;
   } catch (e) {
     console.error('Gemini fetch error:', e);
     return '네트워크 오류가 발생했습니다. 잠시 후 다시 시도해주세요.';
