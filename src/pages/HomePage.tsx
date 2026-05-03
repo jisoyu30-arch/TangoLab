@@ -4,6 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { PageHeader } from '../components/PageHeader';
 import { TodayInHistoryWidget } from '../components/DailyTandaWidget';
 import { DDayWidget } from '../components/DDayWidget';
+import { DailyTask } from '../components/DailyTask';
 import { WeeklyDashboard } from '../components/WeeklyDashboard';
 import { usePracticeStore } from '../hooks/usePracticeStore';
 import { useRecentItems } from '../hooks/useRecentItems';
@@ -230,10 +231,11 @@ export function HomePage() {
           </div>
         </section>
 
-        {/* ╔══════════ 다음 대회 D-day ══════════╗ */}
+        {/* ╔══════════ 다음 대회 D-day + 오늘의 추천 ══════════╗ */}
         <section className="bg-tango-ink py-4 border-b border-tango-brass/15">
-          <div className="max-w-5xl mx-auto px-4 md:px-8">
+          <div className="max-w-5xl mx-auto px-4 md:px-8 space-y-3">
             <DDayWidget />
+            <DailyTask />
           </div>
         </section>
 

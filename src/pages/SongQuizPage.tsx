@@ -1,8 +1,38 @@
 // 곡 퀴즈 v2 — 단일 곡 영상 + 강한 오버레이 + 답 후 곡 정보·가사
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { PageHeader } from '../components/PageHeader';
 import { EditorialButton, OrnamentDivider } from '../components/editorial';
 import quizData from '../data/quiz_songs.json';
+
+// 사용자가 직접 추가한 영상 ID 저장소
+const USER_VIDEOS_KEY = 'tango_lab_user_quiz_videos';
+
+interface UserVideo {
+  video_id: string;
+  start_sec?: number;
+  added_at: string;
+}
+
+function loadUserVideos(): Record<string, UserVideo> {
+  try {
+    return JSON.parse(localStorage.getItem(USER_VIDEOS_KEY) || '{}');
+  } catch {
+    return {};
+  }
+}
+
+function saveUserVideos(map: Record<string, UserVideo>) {
+  localStorage.setItem(USER_VIDEOS_KEY, JSON.stringify(map));
+}
+
+// YouTube URL → video_id 추출
+function extractYTId(url: string): string | null {
+  const m = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/|youtube\.com\/shorts\/)([\w-]{11})/);
+  if (m) return m[1];
+  // 그냥 11자 ID만 입력해도 인식
+  if (/^[\w-]{11}$/.test(url.trim())) return url.trim();
+  return null;
+}
 
 interface QuizEntry {
   video_id: string;
@@ -29,7 +59,33 @@ interface QuizQuestion {
   choices: string[];
 }
 
-const ENTRIES: QuizEntry[] = (quizData as any).entries;
+const RAW_ENTRIES: QuizEntry[] = (quizData as any).entries;
+const RAW_PENDING: any[] = (quizData as any).pending_entries || [];
+
+// pending 중 user video가 추가된 것을 entries로 승격
+function buildAllEntries(userVideos: Record<string, UserVideo>): QuizEntry[] {
+  const promoted: QuizEntry[] = RAW_PENDING
+    .filter(p => userVideos[p.song_title.toLowerCase()])
+    .map(p => {
+      const uv = userVideos[p.song_title.toLowerCase()];
+      return {
+        video_id: uv.video_id,
+        song_title: p.song_title,
+        orchestra: p.orchestra,
+        orchestra_short: p.orchestra_short,
+        vocalist: p.vocalist || 'instrumental',
+        year: p.year,
+        genre: p.genre || 'tango',
+        composer: p.composer,
+        lyricist: p.lyricist,
+        start_sec: uv.start_sec,
+        info_ko: p.info_ko,
+        lyrics_search_url: p.lyrics_search_url,
+        sources: [],
+      };
+    });
+  return [...RAW_ENTRIES, ...promoted];
+}
 
 const ALL_ORCHESTRAS = [
   "D'Arienzo", 'Di Sarli', 'Pugliese', 'Tanturi', 'Troilo', 'Caló',
@@ -37,10 +93,10 @@ const ALL_ORCHESTRAS = [
   'Canaro', 'De Angelis',
 ];
 
-function pickQuiz(seenIds: Set<string>): QuizQuestion | null {
-  if (ENTRIES.length === 0) return null;
-  const unseen = ENTRIES.filter(e => !seenIds.has(e.video_id));
-  const pool = unseen.length > 0 ? unseen : ENTRIES;
+function pickQuiz(entries: QuizEntry[], seenIds: Set<string>): QuizQuestion | null {
+  if (entries.length === 0) return null;
+  const unseen = entries.filter(e => !seenIds.has(e.video_id));
+  const pool = unseen.length > 0 ? unseen : entries;
   const entry = pool[Math.floor(Math.random() * pool.length)];
 
   const wrongs = ALL_ORCHESTRAS
@@ -58,9 +114,36 @@ export function SongQuizPage() {
   const [stats, setStats] = useState({ correct: 0, total: 0 });
   const [seenIds, setSeenIds] = useState<Set<string>>(new Set());
   const [showSources, setShowSources] = useState(false);
+  const [userVideos, setUserVideos] = useState<Record<string, UserVideo>>(loadUserVideos);
+  const [pendingSearch, setPendingSearch] = useState('');
+  const [pendingOrchFilter, setPendingOrchFilter] = useState<string>('all');
+
+  // 사용자 추가 영상 + JSON entries 합쳐서 quiz pool 구성
+  const ENTRIES = useMemo(() => buildAllEntries(userVideos), [userVideos]);
+
+  const addUserVideo = (songTitle: string, url: string, startSec?: number) => {
+    const vid = extractYTId(url);
+    if (!vid) {
+      alert('YouTube URL을 인식할 수 없습니다. (예: https://youtu.be/abc12345678)');
+      return;
+    }
+    const next = {
+      ...userVideos,
+      [songTitle.toLowerCase()]: { video_id: vid, start_sec: startSec, added_at: new Date().toISOString() },
+    };
+    setUserVideos(next);
+    saveUserVideos(next);
+  };
+
+  const removeUserVideo = (songTitle: string) => {
+    const next = { ...userVideos };
+    delete next[songTitle.toLowerCase()];
+    setUserVideos(next);
+    saveUserVideos(next);
+  };
 
   const newQuiz = () => {
-    const next = pickQuiz(seenIds);
+    const next = pickQuiz(ENTRIES, seenIds);
     if (next) {
       setSeenIds(prev => {
         const merged = new Set(prev);
@@ -74,7 +157,31 @@ export function SongQuizPage() {
     setShowSources(false);
   };
 
-  useEffect(() => { newQuiz(); }, []);
+  useEffect(() => { newQuiz(); }, [ENTRIES.length]);
+
+  // 사용자 추가 곡 수
+  const userAddedCount = Object.keys(userVideos).length;
+
+  // 필터링된 pending
+  const filteredPending = useMemo(() => {
+    const q = pendingSearch.trim().toLowerCase();
+    return RAW_PENDING.filter(p => {
+      if (pendingOrchFilter !== 'all' && p.orchestra_short !== pendingOrchFilter) return false;
+      if (!q) return true;
+      return (
+        p.song_title.toLowerCase().includes(q) ||
+        (p.orchestra || '').toLowerCase().includes(q) ||
+        (p.vocalist || '').toLowerCase().includes(q) ||
+        (p.composer || '').toLowerCase().includes(q)
+      );
+    });
+  }, [pendingSearch, pendingOrchFilter]);
+
+  // pending에 등장하는 악단 목록
+  const pendingOrchestras = useMemo(() => {
+    const set = new Set(RAW_PENDING.map(p => p.orchestra_short));
+    return Array.from(set).sort();
+  }, []);
 
   const handleAnswer = (choice: string) => {
     if (answer || !quiz) return;
@@ -327,43 +434,165 @@ export function SongQuizPage() {
           )}
 
           <div className="text-[11px] text-tango-cream/40 text-center font-serif italic border-t border-tango-brass/10 pt-6">
-            현재 DB {ENTRIES.length}곡 (영상 확보) + {((quizData as any).pending_entries || []).length}곡 (영상 미확보 — 메타데이터 대기)
+            현재 DB <strong className="text-tango-brass">{ENTRIES.length}곡</strong>{' '}
+            (기본 {RAW_ENTRIES.length} + 작가님 추가 {userAddedCount}) ·{' '}
+            {RAW_PENDING.length}곡 영상 미확보
           </div>
 
-          {/* Pending 곡 리스트 — 영상 ID만 추가하면 퀴즈에 합류 */}
-          {((quizData as any).pending_entries || []).length > 0 && (
+          {/* Pending 곡 리스트 — 검색·필터·인라인 추가 */}
+          {RAW_PENDING.length > 0 && (
             <details className="border border-tango-brass/15 rounded-sm">
               <summary className="cursor-pointer px-4 py-3 text-xs text-tango-brass tracking-widest uppercase font-sans hover:bg-tango-brass/5">
-                📋 영상 미확보 인기곡 {((quizData as any).pending_entries || []).length}곡 보기 ▶
+                📋 영상 미확보 인기곡 {RAW_PENDING.length}곡 — 검색·영상 추가 ▶
               </summary>
-              <div className="p-4 space-y-2 max-h-96 overflow-y-auto">
-                {((quizData as any).pending_entries || []).map((p: any, i: number) => (
-                  <div key={i} className="flex items-center gap-3 text-xs bg-tango-shadow/30 border border-tango-brass/10 rounded-sm p-2">
-                    <span className="font-mono text-tango-brass/60 w-8 text-right">{String(i + 1).padStart(3, '0')}</span>
-                    <div className="flex-1 min-w-0">
-                      <div className="font-serif italic text-tango-paper truncate" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
-                        {p.song_title}
-                      </div>
-                      <div className="text-[10px] text-tango-cream/50 truncate">
-                        {p.orchestra_short} · {p.vocalist !== 'instrumental' ? p.vocalist : 'instr.'} · {p.year || '?'} · 인기 {p.popularity}
-                      </div>
+
+              <div className="p-4 space-y-3">
+                {/* 검색 + 필터 */}
+                <div className="flex gap-2 flex-wrap">
+                  <input
+                    type="text"
+                    value={pendingSearch}
+                    onChange={e => setPendingSearch(e.target.value)}
+                    placeholder="곡·악단·보컬 검색…"
+                    className="flex-1 min-w-[200px] bg-tango-ink border border-tango-brass/30 rounded-sm px-3 py-1.5 text-xs text-tango-paper focus:outline-none focus:border-tango-brass"
+                  />
+                  <select
+                    value={pendingOrchFilter}
+                    onChange={e => setPendingOrchFilter(e.target.value)}
+                    className="bg-tango-ink border border-tango-brass/30 rounded-sm px-2 py-1.5 text-xs text-tango-paper focus:outline-none"
+                  >
+                    <option value="all">전체 악단</option>
+                    {pendingOrchestras.map(o => <option key={o} value={o}>{o}</option>)}
+                  </select>
+                  <span className="text-xs text-tango-cream/50 self-center">
+                    {filteredPending.length}곡
+                  </span>
+                </div>
+
+                {/* 사용 가이드 */}
+                <div className="text-[10px] text-tango-cream/55 italic font-serif">
+                  💡 YouTube에서 단곡 영상을 찾으면 "+ 영상 추가" 버튼 누르고 URL 붙여넣기. 즉시 퀴즈에 합류됩니다 (브라우저 저장).
+                </div>
+
+                {/* 리스트 */}
+                <div className="space-y-1.5 max-h-[60vh] overflow-y-auto">
+                  {filteredPending.map((p: any, i: number) => {
+                    const titleKey = p.song_title.toLowerCase();
+                    const userVid = userVideos[titleKey];
+                    return (
+                      <PendingRow
+                        key={`${p.song_title}-${i}`}
+                        item={p}
+                        userVideo={userVid}
+                        onAdd={(url) => addUserVideo(p.song_title, url)}
+                        onRemove={() => removeUserVideo(p.song_title)}
+                      />
+                    );
+                  })}
+                  {filteredPending.length === 0 && (
+                    <div className="text-center text-xs text-tango-cream/40 py-6 italic">
+                      검색 결과 없음
                     </div>
-                    <a href={p.youtube_search_url} target="_blank" rel="noopener noreferrer" className="text-[10px] text-tango-brass hover:underline whitespace-nowrap">
-                      🔍 YouTube
-                    </a>
-                    <a href={p.lyrics_search_url} target="_blank" rel="noopener noreferrer" className="text-[10px] text-tango-cream/60 hover:text-tango-brass whitespace-nowrap">
-                      📜 가사
-                    </a>
-                  </div>
-                ))}
-              </div>
-              <div className="px-4 pb-3 text-[10px] text-tango-cream/50 italic">
-                YouTube에서 단곡 영상을 찾으면 video_id를 quiz_songs.json의 entries 배열에 추가하면 퀴즈에 합류됩니다.
+                  )}
+                </div>
               </div>
             </details>
           )}
         </div>
       </div>
     </>
+  );
+}
+
+// === Pending 곡 한 줄 ===
+function PendingRow({
+  item,
+  userVideo,
+  onAdd,
+  onRemove,
+}: {
+  item: any;
+  userVideo?: UserVideo;
+  onAdd: (url: string) => void;
+  onRemove: () => void;
+}) {
+  const [showForm, setShowForm] = useState(false);
+  const [url, setUrl] = useState('');
+
+  const handleAdd = () => {
+    if (!url.trim()) return;
+    onAdd(url);
+    setUrl('');
+    setShowForm(false);
+  };
+
+  return (
+    <div className={`bg-tango-shadow/30 border rounded-sm p-2 text-xs ${
+      userVideo ? 'border-tango-brass/50 bg-tango-brass/5' : 'border-tango-brass/10'
+    }`}>
+      <div className="flex items-center gap-3">
+        <div className="flex-1 min-w-0">
+          <div className="font-serif italic text-tango-paper truncate" style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}>
+            {item.song_title}
+            {userVideo && <span className="ml-2 text-[10px] text-tango-brass">✓ 영상 추가됨</span>}
+          </div>
+          <div className="text-[10px] text-tango-cream/50 truncate">
+            {item.orchestra_short} · {item.vocalist !== 'instrumental' ? item.vocalist : 'instr.'} · {item.year || '?'} · 인기 {item.popularity}
+          </div>
+        </div>
+        <a
+          href={item.youtube_search_url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[10px] text-tango-brass hover:underline whitespace-nowrap"
+        >
+          🔍 검색
+        </a>
+        <a
+          href={item.lyrics_search_url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[10px] text-tango-cream/60 hover:text-tango-brass whitespace-nowrap"
+        >
+          📜
+        </a>
+        {userVideo ? (
+          <button
+            onClick={onRemove}
+            className="text-[10px] px-2 py-1 rounded-sm border border-tango-rose/40 text-tango-rose hover:bg-tango-rose/10 whitespace-nowrap"
+            title="영상 제거"
+          >
+            🗑
+          </button>
+        ) : (
+          <button
+            onClick={() => setShowForm(!showForm)}
+            className="text-[10px] px-2 py-1 rounded-sm border border-tango-brass/40 text-tango-brass hover:bg-tango-brass/10 whitespace-nowrap"
+          >
+            {showForm ? '✕' : '+ 영상'}
+          </button>
+        )}
+      </div>
+      {showForm && !userVideo && (
+        <div className="mt-2 flex gap-1.5">
+          <input
+            type="text"
+            value={url}
+            onChange={e => setUrl(e.target.value)}
+            placeholder="https://www.youtube.com/watch?v=..."
+            onKeyDown={e => e.key === 'Enter' && handleAdd()}
+            autoFocus
+            className="flex-1 bg-tango-ink border border-tango-brass/30 rounded-sm px-2 py-1 text-[11px] text-tango-paper focus:outline-none focus:border-tango-brass"
+          />
+          <button
+            onClick={handleAdd}
+            disabled={!url.trim()}
+            className="text-[10px] px-2 py-1 rounded-sm bg-tango-brass/30 hover:bg-tango-brass/50 text-tango-brass disabled:opacity-30 whitespace-nowrap"
+          >
+            저장
+          </button>
+        </div>
+      )}
+    </div>
   );
 }
