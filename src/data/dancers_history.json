@@ -1,0 +1,131 @@
+{
+  "version": "2026-04-29-v1",
+  "_note": "황금기-현재 탱고 무용수 계보. 사용자 제공 학술 자료(2025) + 웹 출처 교차 검증.",
+  "dancers": [
+    {
+      "id": "casimiro-ain",
+      "name": "Casimiro Aín",
+      "nickname": "El Vasco / El Rey del Tango (탱고의 왕)",
+      "lifespan": "1882-12-15 ~ 1940-09-25",
+      "era": "1910s-1930s",
+      "role": "탱고 국제화의 선구자",
+      "summary": "1920년 파리 모던 댄스 세계 챔피언십 우승. 1924년 2월 1일 바티칸에서 교황 비오 11세 앞에서 탱고 'Ave María'를 추어 가톨릭 교회의 도덕적 인정을 받아낸 역사적 인물.",
+      "key_moments": [
+        {
+          "year": 1913,
+          "body": "아내와 함께 프랑스 Boulogne-sur-Mer에 도착, 파리 몽마르트르의 카바레 Princesse(이후 'El Garrón')에서 공연. 'tango criollo'를 'El Vasco' 이름으로 처음 본격 소개."
+        },
+        {
+          "year": 1920,
+          "body": "파리에서 새 파트너 Jazmín과 함께 모던 댄스 세계 챔피언십 우승. 'The King of Tango'로 불림."
+        },
+        {
+          "year": 1924,
+          "body": "2월 1일 아르헨티나 대사 García Mansilla의 주선으로 바티칸 'Throne Room'에서 교황 비오 11세 앞에서 'Ave María'(Francisco & Juan Canaro 작곡) 공연. 파트너는 대사관 사서·번역가 María Scotto. 하르모니움 반주. 마지막에 즉흥으로 교황 앞에 무릎을 꿇음. 이로써 파리 성직자들이 비난한 '음란한 춤'이라는 오명을 벗기고 탱고가 가톨릭 도덕에 어긋나지 않음을 입증."
+        }
+      ],
+      "sources": [
+        { "label": "Wikipedia EN — Casimiro Aín", "url": "https://en.wikipedia.org/wiki/Casimiro_A%C3%ADn" },
+        { "label": "Euskonews — Tango's Ambassador", "url": "https://www.euskonews.eus/0395zbk/kosmo39501en.html" },
+        { "label": "Pasion Tango Lisbon — Catholic Church and the Tango", "url": "http://www.pasiontango.org/en/divine-tango.html" }
+      ]
+    },
+    {
+      "id": "el-cachafaz",
+      "name": "El Cachafaz (Ovidio José Bianquet)",
+      "nickname": "El Cachafaz",
+      "lifespan": "1885 ~ 1942",
+      "era": "1910s-1940s",
+      "role": "황금기 이전 탱고 무용의 표준",
+      "summary": "1920-30년대 부에노스아이레스 무용계의 최고봉. 파트너 Carmencita Calderón과 함께 우아하고 기품 있는 살롱 탱고의 원형 제시. 1933년 아르헨티나 최초 유성 영화 《Tango》에 출연 — 페트롤레오 이전 시대의 즉흥적·원초적 걷기 양식이 시각 자료로 남음.",
+      "key_moments": [
+        {
+          "year": 1933,
+          "body": "아르헨티나 최초 유성 영화 《Tango》(Luis Moglia Barth 감독)에 Carmencita Calderón과 함께 출연. 황금기 직전의 우아한 살롱 탱고 양식이 영구 보존됨."
+        }
+      ],
+      "video_archives": [
+        { "label": "Cachafaz & Calderón in Tango (1933) — Excerpt 1", "url": "https://www.youtube.com/watch?v=DRIu9acmhtk" },
+        { "label": "Cachafaz & Calderón — Excerpt 2", "url": "https://www.youtube.com/watch?v=V2SaADjKFVM" }
+      ],
+      "sources": []
+    },
+    {
+      "id": "petroleo",
+      "name": "Petróleo (Carlos Alberto Estévez)",
+      "nickname": "Petróleo (석유)",
+      "lifespan": "1911 ~ 1990s",
+      "era": "1940s-1980s",
+      "role": "현대 탱고 문법의 창시자",
+      "summary": "1940년경 친구들과 함께 현대 탱고 무용의 기하학을 체계화한 인물. 축(axis)을 고정한 회전(Giros), 십자 스텝(Cruzada), 공중 다리 동작(Boleos) 등을 정립. 이로써 리드에 끌려다니던 여성 파트너의 역할이 해방되고, 댄서가 오케스트라의 멜로디 변주를 화려하게 표현 가능해짐. 별명 'Petróleo'는 '싸구려 적포도주를 물처럼 마신다'는 데서 유래.",
+      "key_moments": [
+        {
+          "year": 1940,
+          "body": "회전(Giros) · Cruzada · Boleos 등 현대 탱고 스텝 문법 정립. 댄서의 축을 중심으로 몸을 비트는 회전 기법 체계화."
+        }
+      ],
+      "video_archives": [
+        { "label": "Petróleo — 기술 해설 영상", "url": "https://www.youtube.com/watch?v=MuxK7QYbR3Q" }
+      ],
+      "sources": []
+    },
+    {
+      "id": "chino-perico",
+      "name": "El Chino Perico (Ricardo Ponce)",
+      "nickname": "El Chino Perico",
+      "lifespan": "?-? (90+세까지 활동)",
+      "era": "1940s-2020s",
+      "role": "정통 밀롱게로의 정신",
+      "summary": "70년 이상 춤을 추며 탱고의 철학적 본질을 설파한 인물. 젊은 시절 정육점에서 남은 고기를 얻어먹으며 춤에 매진. '무용수는 단지 스텝을 밟는 것이 아니라 가수가 부르는 슬픔의 정서를 신체로 대중에게 설명해야 한다'며 과도한 퍼포먼스 위주의 탱고를 경계함.",
+      "key_moments": [
+        {
+          "year": 2020,
+          "body": "다큐멘터리 《A Tango with Chino Perico》 — 90세를 넘긴 노년의 정통 밀롱게로의 품격 기록."
+        }
+      ],
+      "video_archives": [
+        { "label": "다큐멘터리 — A Tango with Chino Perico", "url": "https://www.youtube.com/watch?v=9AmEbe6lfJ0" },
+        { "label": "Tango Mojo — Chino Perico", "url": "https://www.tangomojo.com/helaine/news/view/chino-pericos-exquisite-dancing" }
+      ],
+      "sources": []
+    },
+    {
+      "id": "virulazo",
+      "name": "Virulazo (Jorge Martín Orcaizaguirre)",
+      "nickname": "Virulazo",
+      "lifespan": "?-?",
+      "era": "1940s-1990s",
+      "role": "정통 살롱 탱고의 거장",
+      "summary": "130kg의 거구에도 불구하고 믿기지 않는 민첩함과 카리스마. 파트너 Elvira Santamaría와 함께 수출용으로 가공된 성적인 탱고를 배격하고, 1940년대 골목길의 진정한 정서를 담은 정통 살롱 탱고를 고수. 1983년 브로드웨이 《Tango Argentino》 쇼를 통해 세계적 찬사를 받음."
+    },
+    {
+      "id": "carlos-gavito",
+      "name": "Carlos Gavito",
+      "nickname": null,
+      "era": "1970s-2000s",
+      "role": "Estilo Milonguero (Apilado)의 대표",
+      "summary": "좁은 공간에서도 가능한 chest-to-chest apilado 자세 + 상체를 서로에게 살짝 기대는 양식의 대표 댄서. 화려한 발동작 배제, 극도로 응축된 감정적 일체감 강조."
+    },
+    {
+      "id": "tete-rusconi",
+      "name": "Pedro 'Tete' Rusconi",
+      "nickname": "Tete",
+      "era": "1950s-2010s",
+      "role": "밀롱게로의 음악성",
+      "summary": "음악과의 깊은 대화를 보여준 전설적 밀롱게로. 작은 동작 하나하나에 음악의 모든 디테일이 담겨있다는 평."
+    },
+    {
+      "id": "copes-nieves",
+      "name": "Juan Carlos Copes & María Nieves",
+      "nickname": "탱고 무대 예술의 창시자 듀오",
+      "era": "1950s-2010s",
+      "role": "Stage Tango의 구조적 완성",
+      "summary": "1951년 루나 파크 댄스 대회에서 300쌍을 물리치고 우승. 즉흥적인 소셜 댄스에 머물러 있던 탱고에 군무와 서사적 안무를 도입. 할리우드 진 켈리(Gene Kelly)에서 영감을 받은 코페스의 극적 연출 + 빈민가 출신 니에베스의 원초적 에너지가 결합. 1983년 브로드웨이 《Tango Argentino》 대성공으로 현대 '탱고 르네상스'를 이끔.",
+      "key_moments": [
+        { "year": 1951, "body": "루나 파크 댄스 대회 300쌍 중 우승." },
+        { "year": 1983, "body": "브로드웨이 《Tango Argentino》 — 전 세계 탱고 르네상스의 도화선." }
+      ],
+      "key_quote": "코페스 (2002 네덜란드 인터뷰): \"탱고를 위해서는 두 사람과 단 하나의 감정이 필요하다.\""
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "version": "2026-04-29-v1",
+  "_note": "탱고 학술·전문 문헌 큐레이션. 작가님이 추가 가능.",
+  "books": [
+    {
+      "id": "lavocah-2012",
+      "author": "Michael Lavocah",
+      "title": "Tango Stories: Musical Secrets",
+      "year": 2012,
+      "publisher": "Milonga Press",
+      "summary": "황금기 1935-1955년 주요 오케스트라들의 편곡 양식과 악기 배치의 비밀을 '무용수 관점'에서 기술적으로 분해한 독보적 교본. 특정 리듬이 스텝에 미치는 직접적 영향을 음악사적 맥락과 함께 서술.",
+      "tags": ["황금기", "오케스트라", "댄서 관점", "교본"]
+    },
+    {
+      "id": "salas-1986",
+      "author": "Horacio Salas",
+      "title": "El Tango",
+      "year": 1986,
+      "publisher": "Planeta",
+      "summary": "아르헨티나 역사가가 저술한 탱고 사회사 연구의 최고봉. Ernesto Sabato가 서문. 하층민과 이민자들의 소외·고독·윤락가에서의 절망감이 어떻게 국가적 문화 자산으로 발효되었는지 언어학적(루파르도)·문학적으로 심층 분석.",
+      "tags": ["사회사", "기원", "스페인어"]
+    },
+    {
+      "id": "thompson-2005",
+      "author": "Robert Farris Thompson",
+      "title": "Tango: The Art History of Love",
+      "year": 2005,
+      "publisher": "Pantheon Books",
+      "summary": "아르헨티나 내에서 국가적 차원으로 은폐되고 '백인화(Whitening)'되었던 아프리카 문화(칸돔베 리듬 등)가 실제 탱고의 기원에 미친 지대한 영향을 아프리카계 디아스포라 관점에서 추적한 인류학적 명저.",
+      "tags": ["기원", "인류학", "칸돔베"]
+    },
+    {
+      "id": "stepputat-2021",
+      "author": "Kendra Stepputat",
+      "title": "Tango Dance and Music: Choreomusical Aspects",
+      "year": 2021,
+      "summary": "음악의 'Danceability'와 무용의 'Musicality' 사이 상관관계를 통계 + 광학 모션 캡처 장비로 정량·정성 평가. 오케스트라 구조적 특징이 현대 유럽 소셜 댄서들에게 미치는 영향을 시각화.",
+      "tags": ["음악-무용 관계", "분석", "현대"]
+    },
+    {
+      "id": "lazarowski-2025",
+      "author": "Eduardo R. Lazarowski",
+      "title": "A Brief History of a Sentiment Called Tango",
+      "year": 2025,
+      "summary": "19세기 말 라플라타강 유역 형성기부터 21세기까지 탱고 진화의 거시사. 음악가·댄서들이 활동했던 사회·정치적 환경을 중심축으로 서술.",
+      "tags": ["통사", "사회·정치 맥락"]
+    }
+  ],
+  "key_interviews": [
+    {
+      "id": "darienzo-1949",
+      "subject": "Juan D'Arienzo",
+      "year": 1949,
+      "quote_ko": "음악가들이 2/4 박자의 순수성으로 돌아간다면, 방송 매체의 발달과 함께 우리 음악에 대한 열정은 다시 세계적인 중요성을 띠게 될 것이다.",
+      "context": "지나치게 복잡하고 심포닉해진 1930년대 초반의 흐름에 반기를 든 D'Arienzo의 리듬 회귀 선언."
+    },
+    {
+      "id": "pugliese-1995",
+      "subject": "Osvaldo Pugliese",
+      "year": 1995,
+      "interlocutor": "다이사쿠 이케다 (철학자)",
+      "quote_ko": "탱고는 아르헨티나 민중의 심장에서 태어난 노동 계급의 민속 음악이다. 우리는 항상 내일을 생각하고 끊임없이 새로운 것을 찾아야 한다.",
+      "context": "90세를 앞둔 푸글리에세의 마지막 대담. 군사 정권의 탄압 속에서도 전통에 안주하지 않는 아방가르드 철학을 표명."
+    },
+    {
+      "id": "copes-2002",
+      "subject": "Juan Carlos Copes",
+      "year": 2002,
+      "interlocutor": "네덜란드 방송",
+      "quote_ko": "탱고를 위해서는 두 사람과 단 하나의 감정이 필요하다.",
+      "context": "유럽과 브로드웨이를 정복한 코페스의 무대론. 기계적 안무를 넘어 남녀의 감정선이 완벽히 직조되어야 진정한 무대 예술임을 강조."
+    },
+    {
+      "id": "salgan-1999",
+      "subject": "Horacio Salgán",
+      "year": 1999,
+      "interlocutor": "취리히 페스티벌",
+      "quote_ko": "젊은 시절 재즈 오케스트라를 이끌며 'El Loco'(미치광이)라 불렸다.",
+      "context": "Firpo·De Caro의 유산을 화성적으로 확장하여 탱고를 클래식·재즈와 교감시킨 살간의 자전적 증언."
+    }
+  ]
+}

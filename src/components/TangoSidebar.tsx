@@ -56,6 +56,7 @@ const NAV_GROUPS: NavGroup[] = [
       { to: '/compare-orchestra', label: 'Duel', sub: '악단 비교', num: '05' },
       { to: '/vocalists', label: 'Voices', sub: '보컬리스트', num: '06' },
       { to: '/judges', label: 'Judges', sub: '심사위원', num: '07' },
+      { to: '/history', label: 'History', sub: '탱고 역사·계보', num: '◔' },
     ],
   },
   {
