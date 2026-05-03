@@ -173,8 +173,8 @@ export function OrchestraComparePage() {
             </div>
           )}
 
-          {/* 심층 프로파일 — 두 악단 모두 프로파일 있을 때만 노출 */}
-          {leftStats && rightStats && hasOrchestraProfile(leftStats.orchestra.orchestra_id) && hasOrchestraProfile(rightStats.orchestra.orchestra_id) && (
+          {/* 심층 프로파일 — 한쪽만 있어도 노출 (B2 fix) */}
+          {leftStats && rightStats && (hasOrchestraProfile(leftStats.orchestra.orchestra_id) || hasOrchestraProfile(rightStats.orchestra.orchestra_id)) && (
             <div className="space-y-8">
               <OrnamentDivider />
               <div className="text-center">
@@ -190,25 +190,30 @@ export function OrchestraComparePage() {
                   <h3 className="font-display text-2xl text-tango-paper italic mb-4" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
                     {leftStats.orchestra.orchestra_name}
                   </h3>
-                  <OrchestraProfile orchestraId={leftStats.orchestra.orchestra_id} />
+                  {hasOrchestraProfile(leftStats.orchestra.orchestra_id) ? (
+                    <OrchestraProfile orchestraId={leftStats.orchestra.orchestra_id} />
+                  ) : (
+                    <div className="text-center py-8 px-4 text-xs text-tango-cream/50 font-serif italic">
+                      이 악단은 아직 심층 프로파일이 없습니다.<br />
+                      <span className="text-tango-brass/70 mt-2 inline-block">현재: D'Arienzo · Di Sarli · Pugliese · Troilo · Caló · Tanturi</span>
+                    </div>
+                  )}
                 </div>
                 <div className="bg-tango-shadow/30 border border-tango-brass/15 rounded-sm p-5">
                   <h3 className="font-display text-2xl text-tango-paper italic mb-4" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
                     {rightStats.orchestra.orchestra_name}
                   </h3>
-                  <OrchestraProfile orchestraId={rightStats.orchestra.orchestra_id} />
+                  {hasOrchestraProfile(rightStats.orchestra.orchestra_id) ? (
+                    <OrchestraProfile orchestraId={rightStats.orchestra.orchestra_id} />
+                  ) : (
+                    <div className="text-center py-8 px-4 text-xs text-tango-cream/50 font-serif italic">
+                      이 악단은 아직 심층 프로파일이 없습니다.<br />
+                      <span className="text-tango-brass/70 mt-2 inline-block">현재: D'Arienzo · Di Sarli · Pugliese · Troilo · Caló · Tanturi</span>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
-          )}
-
-          {/* 한쪽만 프로파일 있을 때 */}
-          {leftStats && rightStats && (
-            (hasOrchestraProfile(leftStats.orchestra.orchestra_id) !== hasOrchestraProfile(rightStats.orchestra.orchestra_id)) && (
-              <div className="bg-tango-brass/5 border border-tango-brass/20 rounded-sm p-4 text-center text-xs text-tango-cream/60 font-serif italic">
-                심층 프로파일은 양쪽 악단 모두 데이터가 있어야 노출됩니다. 현재 D'Arienzo·Di Sarli·Pugliese·Troilo·Caló·Tanturi 6개 악단 정리됨.
-              </div>
-            )
           )}
 
           <OrnamentDivider className="pt-8" />
