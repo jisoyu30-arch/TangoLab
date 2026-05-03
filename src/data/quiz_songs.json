@@ -1,0 +1,86 @@
+{
+  "version": "2026-04-29-v1",
+  "_note": "곡 퀴즈용 단일 곡 영상 큐레이션. 한 영상 = 한 곡(또는 명확히 분리된 두 곡) 원칙. 작가님이 점진적으로 확장.",
+  "_format": {
+    "video_id": "YouTube ID",
+    "song_title": "곡명 (스페인어 원어)",
+    "orchestra": "악단 풀네임",
+    "orchestra_short": "퀴즈 정답 옵션용 짧은 이름",
+    "vocalist": "보컬리스트 (혹은 'instrumental')",
+    "year": "녹음 연도",
+    "genre": "tango / vals / milonga",
+    "start_sec": "곡 시작 위치 (다곡 영상 분할용)",
+    "end_sec": "곡 종료 위치 (선택)",
+    "info_ko": "곡 한글 설명",
+    "lyrics_search_url": "가사 검색 URL (todotango / letras)",
+    "sources": "참고 출처 URL 리스트"
+  },
+  "entries": [
+    {
+      "video_id": "9hSIsPmEm_M",
+      "song_title": "Percal",
+      "orchestra": "Anibal Troilo y su Orquesta Típica",
+      "orchestra_short": "Troilo",
+      "vocalist": "Francisco Fiorentino",
+      "year": 1943,
+      "genre": "tango",
+      "info_ko": "Troilo + Fiorentino 황금기 콜라보의 대표곡. Percal(거친 면포)은 가난한 처녀의 옷감으로, 도시로 떠난 이의 향수를 그리는 가사. 1943년 녹음 — Troilo 댄스 사운드의 정점.",
+      "lyrics_search_url": "https://www.todotango.com/musica/tema/2147/Percal/",
+      "sources": [
+        { "label": "Todotango — Percal", "url": "https://www.todotango.com/musica/tema/2147/Percal/" }
+      ]
+    },
+    {
+      "video_id": "EtgaMoxMpY0",
+      "song_title": "Pajaro Ciego",
+      "orchestra": "Anibal Troilo y su Orquesta Típica",
+      "orchestra_short": "Troilo",
+      "vocalist": "Francisco Fiorentino",
+      "year": 1941,
+      "genre": "tango",
+      "multi_song_video": true,
+      "_note": "이 영상은 Pajaro Ciego + Una Carta 두 곡이 연속 재생됩니다. 첫 곡(Pajaro Ciego) 약 3분.",
+      "info_ko": "Troilo + Fiorentino의 1941년 녹음. '눈먼 새'는 사랑을 잃은 화자의 처지를 비유.",
+      "lyrics_search_url": "https://www.todotango.com/musica/tema/2098/Pajaro-ciego/",
+      "sources": []
+    },
+    {
+      "video_id": "5oVPG667t7U",
+      "song_title": "Cascabelito",
+      "orchestra": "Osvaldo Pugliese y su Orquesta Típica",
+      "orchestra_short": "Pugliese",
+      "vocalist": "Jorge Maciel",
+      "year": 1955,
+      "genre": "tango",
+      "info_ko": "Pugliese + Maciel 1955년 녹음. Cascabelito(작은 방울)는 사랑의 잔향을 노래하는 시적인 가사.",
+      "lyrics_search_url": "https://www.todotango.com/musica/tema/623/Cascabelito/",
+      "sources": []
+    },
+    {
+      "video_id": "UoVzgvaINhQ",
+      "song_title": "Corazón de Oro",
+      "orchestra": "Francisco Canaro y su Orquesta Típica",
+      "orchestra_short": "Canaro",
+      "vocalist": "Jesús Fernández Blanco",
+      "year": 1928,
+      "genre": "vals",
+      "info_ko": "1928년 Canaro의 발스. 황금시대 이전의 클래식 발스. 'Vals con armonía y variación' — 화성과 변주가 있는 발스. 댄서들에게는 발스의 정수.",
+      "lyrics_search_url": "https://www.todotango.com/musica/tema/716/Corazon-de-oro/",
+      "sources": []
+    },
+    {
+      "video_id": "Ko14vgfoi0E",
+      "song_title": "Tu Vuelta",
+      "orchestra": "Anibal Troilo y su Orquesta Típica",
+      "orchestra_short": "Troilo",
+      "vocalist": "Nelly Vazquez / Tito Reyes",
+      "year": 1965,
+      "genre": "tango",
+      "multi_song_video": true,
+      "_note": "이 영상은 Tu Vuelta + Mi Viejo el Viejo Remendon 두 곡 연속.",
+      "info_ko": "Troilo 후기 (1965). 콘서트 사운드로 진화한 시기의 녹음. Vazquez와 Reyes 듀엣.",
+      "lyrics_search_url": "https://www.todotango.com/musica/tema/4077/Tu-vuelta/",
+      "sources": []
+    }
+  ]
+}
