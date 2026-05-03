@@ -424,10 +424,10 @@ function TargetEditor({
     };
     const fmt = (d: Date) => d.toISOString().split('T')[0];
     return [
+      { label: 'PTC', date: fmt(tryYear(6, 5)), hint: '6월 5-7일 (3일간)' },
       { label: 'Mundial Pista', date: fmt(tryYear(8, 24)), hint: '8월 말 부에노스아이레스' },
       { label: 'Mundial Escenario', date: fmt(tryYear(8, 30)), hint: '8월 말 결승' },
       { label: 'KTC Korea', date: fmt(tryYear(11, 1)), hint: '대략 가을 — 정확한 날짜 확인 필요' },
-      { label: 'Asia Tango Cup', date: fmt(tryYear(7, 1)), hint: '여름 — 정확한 날짜 확인 필요' },
     ];
   })();
 
