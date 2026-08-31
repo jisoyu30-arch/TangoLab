@@ -1,0 +1,2140 @@
+{
+  "generated_by": "scripts/build_mundial_2026_festival.py",
+  "source": "Tango BA Festival y Mundial 2026 공식 「Día x Día」 프로그램 (tangoba.org)",
+  "festival": {
+    "name": "Tango BA Festival y Mundial 2026",
+    "start": "2026-08-19",
+    "end": "2026-09-02",
+    "city": "Buenos Aires"
+  },
+  "venues": [
+    {
+      "name": "Usina del Arte",
+      "address": "Agustín R. Caffarena 1",
+      "neighborhood": "Boca",
+      "comuna": "Comuna 4"
+    },
+    {
+      "name": "Teatro Colón",
+      "address": "Libertad 621",
+      "neighborhood": "San Nicolás",
+      "comuna": "Comuna 1",
+      "note": "Ingreso para accesibilidad reducida por Tucumán 1157"
+    },
+    {
+      "name": "Teatro San Martín",
+      "address": "Av. Corrientes 1530",
+      "neighborhood": "San Nicolás",
+      "comuna": "Comuna 1"
+    },
+    {
+      "name": "Centro Cultural 25 de Mayo",
+      "address": "Av. Triunvirato 4444",
+      "neighborhood": "Villa Urquiza",
+      "comuna": "Comuna 12"
+    },
+    {
+      "name": "Casa de la Cultura",
+      "address": "Av. de Mayo 575",
+      "neighborhood": "Monserrat",
+      "comuna": "Comuna 1"
+    },
+    {
+      "name": "Centro Cultural Recoleta",
+      "address": "Junín 1930",
+      "neighborhood": "Recoleta",
+      "comuna": "Comuna 2"
+    },
+    {
+      "name": "Anfiteatro Parque Centenario",
+      "address": "Leopoldo Marechal 832",
+      "neighborhood": "Caballito",
+      "comuna": "Comuna 6"
+    },
+    {
+      "name": "Cine Teatro El Plata",
+      "address": "Av. Juan Bautista Alberdi 5765",
+      "neighborhood": "Mataderos Comuna 9",
+      "comuna": null
+    },
+    {
+      "name": "Auditorio de Belgrano",
+      "address": "Virrey Loreto 2348",
+      "neighborhood": "Belgrano",
+      "comuna": "Comuna 13"
+    },
+    {
+      "name": "Teatro Gran Rex",
+      "address": "Av. Corrientes 857",
+      "neighborhood": "San Nicolás",
+      "comuna": "Comuna 1"
+    },
+    {
+      "name": "Teatro Gran Rivadavia",
+      "address": "Av. Rivadavia 8636",
+      "neighborhood": "Vélez Sarsfield",
+      "comuna": "Comuna 10"
+    },
+    {
+      "name": "Teatro Devoto",
+      "address": "Av. Lincoln 3815",
+      "neighborhood": "Villa Devoto",
+      "comuna": "Comuna 11"
+    },
+    {
+      "name": "El Viejo Buzón",
+      "address": "Neuquén 1100",
+      "neighborhood": "Caballito",
+      "comuna": "Comuna 6"
+    },
+    {
+      "name": "Saint Moritz",
+      "address": "Esmeralda 890",
+      "neighborhood": "Retiro",
+      "comuna": "Comuna 1"
+    },
+    {
+      "name": "Las Violetas",
+      "address": "Av. Rivadavia 3899",
+      "neighborhood": "Almagro",
+      "comuna": "Comuna 5"
+    },
+    {
+      "name": "Claridge’s Bar",
+      "address": "Tucumán 535",
+      "neighborhood": "San Nicolás",
+      "comuna": "Comuna 1"
+    },
+    {
+      "name": "El Gato Negro",
+      "address": "Av. Corrientes 1669",
+      "neighborhood": "San Nicolás Comuna 1",
+      "comuna": null
+    },
+    {
+      "name": "El Portuario",
+      "address": "Pinzón 102",
+      "neighborhood": "Boca",
+      "comuna": "Comuna 4"
+    },
+    {
+      "name": "Teatro de la Ribera",
+      "address": "Av. Don Pedro de Mendoza 1821",
+      "neighborhood": "Boca",
+      "comuna": "Comuna 4"
+    },
+    {
+      "name": "Teatro Multitabarís",
+      "address": "Av. Corrientes 831",
+      "neighborhood": "San Nicolás",
+      "comuna": "Comuna 1"
+    },
+    {
+      "name": "Academia Nacional del Tango",
+      "address": "Av. de Mayo 833",
+      "neighborhood": "Monserrat",
+      "comuna": "Comuna 1"
+    },
+    {
+      "name": "Espacio Cultural Julián Centeya",
+      "address": "Av. San Juan 3255",
+      "neighborhood": "San Cristóbal",
+      "comuna": "Comuna 3"
+    },
+    {
+      "name": "Espacio Cultural Carlos Gardel",
+      "address": "Olleros 3640",
+      "neighborhood": "Chacarita",
+      "comuna": "Comuna 15"
+    },
+    {
+      "name": "Espacio Cultural Adán Buenosayres",
+      "address": "Av. Eva Perón 1400",
+      "neighborhood": "Parque Chacabuco Comuna 13",
+      "comuna": null
+    },
+    {
+      "name": "Espacio Cultural El Resurgimiento",
+      "address": "Gral. José Gervasio Artigas 2262 Villa del Parque",
+      "neighborhood": null,
+      "comuna": "Comuna 11"
+    },
+    {
+      "name": "La Vidriera de la DGEART",
+      "address": "Perú 374",
+      "neighborhood": null,
+      "comuna": "Comuna 1"
+    },
+    {
+      "name": "Museo Casa Carlos Gardel",
+      "address": "Jean Jaures 735",
+      "neighborhood": "Balvanera",
+      "comuna": "Comuna 3"
+    },
+    {
+      "name": "Centro Educativo del Tango",
+      "address": "de Buenos Aires (CETBA) Agrelo 3231",
+      "neighborhood": "Balvanera",
+      "comuna": "Comuna 3"
+    },
+    {
+      "name": "Bondi Tanguero",
+      "address": "Av. Gral. Sarmiento y Belisario Roldán",
+      "neighborhood": "Palermo Comuna 14",
+      "comuna": null
+    },
+    {
+      "name": "Casa de la Ciudad",
+      "address": "Uspallata 3150",
+      "neighborhood": "Parque Patricios",
+      "comuna": "Comuna 4"
+    },
+    {
+      "name": "Plaza Dorrego",
+      "address": "Defensa 1098",
+      "neighborhood": "San Telmo",
+      "comuna": "Comuna 1"
+    },
+    {
+      "name": "La Orquídea",
+      "address": "Av. Corrientes 4101",
+      "neighborhood": "Almagro",
+      "comuna": "Comuna 5"
+    },
+    {
+      "name": "La Academia",
+      "address": "Montevideo 341",
+      "neighborhood": "San Nicolás",
+      "comuna": "Comuna 1"
+    },
+    {
+      "name": "El Café de García",
+      "address": "Sanabria 3302",
+      "neighborhood": "Villa Devoto",
+      "comuna": "Comuna 11"
+    },
+    {
+      "name": "El Faro",
+      "address": "Av. de los Constituyentes 4099 Parque Chas",
+      "neighborhood": null,
+      "comuna": "Comuna 15"
+    },
+    {
+      "name": "Café Rivas",
+      "address": "Estados Unidos 302",
+      "neighborhood": "San Telmo",
+      "comuna": "Comuna 1"
+    }
+  ],
+  "ticket_policy": [
+    {
+      "venues_raw": "Usina del Arte",
+      "policy_es": "Gratis, con reserva previa en tangoba.org. Las reservas se habilitan a las 12 del mediodía, 72 horas antes de cada actividad. Las entradas deberán retirarse en la sede correspondiente, desde 2 horas previas y hasta 20 minutos antes del inicio. Pasado ese plazo, la reserva se cancela y los lugares quedan disponibles. Clases y seminarios con inscripción: Gratis, con inscripción previa desde 72 horas antes en tangoba.org the seats become available again.",
+      "policy_en": "Free admission, with advance reservation at tangoba.org. Reservations open at 12 noon, 72 hours before each activity. Tickets must be picked up at the corresponding venue between 2 hours and 20 minutes before the start time. After that time, the reservation is canceled and Classes and seminars requiring registration: Free admission, with advance registration available starting 72 hours prior at tangoba.org.",
+      "venues": [
+        "Usina del Arte"
+      ]
+    },
+    {
+      "venues_raw": "Teatro Colón / Centro Cultural 25 de Mayo - Sala principal Teatro Multitabarís",
+      "policy_es": "Gratis, con reserva previa en tangoba.org. Las reservas se habilitan a las 12 del mediodía, 72 horas antes de cada actividad. Las entradas deberán retirarse en la sede correspondiente, desde 2 horas previas y hasta 20 minutos antes del inicio. Pasado ese plazo, la reserva se cancela y los lugares quedan disponibles. the seats become available again.",
+      "policy_en": "Free admission, with advance reservation at tangoba.org. Reservations open at 12 noon, 72 hours before each activity. Tickets must be picked up at the corresponding venue between 2 hours and 20 minutes before the start time. After that time, the reservation is canceled and",
+      "venues": [
+        "Teatro Colón",
+        "Centro Cultural 25 de Mayo",
+        "Teatro Multitabarís"
+      ]
+    },
+    {
+      "venues_raw": "Auditorio de Belgrano / Cine Teatro El Plata / Teatro Gran Rivadavia Teatro San Martín - Sala Martín Coronado",
+      "policy_es": "Gratis, por orden de llegada, hasta agotar la capacidad de la sala. Las entradas se retiran desde 2 horas antes en la sede.",
+      "policy_en": "Tickets are free admission, by order of arrival, up to capacity limit. Tickets can be picked up at the venue starting 2 hours before the event.",
+      "venues": [
+        "Auditorio de Belgrano",
+        "Cine Teatro El Plata",
+        "Teatro Gran Rivadavia",
+        "Teatro San Martín"
+      ]
+    },
+    {
+      "venues_raw": "Casa de la Cultura",
+      "policy_es": "Gratis, por orden de llegada, hasta agotar la capacidad de la sala. Talleres con inscripción: Gratis, con inscripción previa desde 72 horas antes en tangoba.org, con cupo para 12 parejas participantes. También está abierto a oyentes, sujeto a la capacidad de la sala. to room capacity.",
+      "policy_en": "Tickets are free admission, by order of arrival, up to capacity limit. Workshops requiring registration: Free admission with registration starting 72 hours prior at tangoba.org, limited to 12 participating couples. Also open to observers, subject",
+      "venues": [
+        "Casa de la Cultura"
+      ]
+    },
+    {
+      "venues_raw": "Teatro San Martín - Hall Alfredo Alcón / Centro Cultural 25 de Mayo - Sala Redonda Centro Cultural Recoleta / Anfiteatro del Parque Centenario / Teatro Devoto / Teatro de la Ribera / Academia Nacional del Tango / Bares Notables / Espacio Cultural Julián Centeya / Espacio Cultural Carlos Gardel / Espacio Cultural Adán Buenosayres / Espacio Cultural El Resurgimiento La Vidriera de la DGEART / Museo Casa Carlos Gardel / Centro Educativo del Tango de Buenos Aires (CETBA)",
+      "policy_es": "Gratis, por orden de llegada, hasta agotar la capacidad de la sala.",
+      "policy_en": "Tickets are free admission, by order of arrival, up to capacity limit.",
+      "venues": [
+        "Teatro San Martín",
+        "Centro Cultural 25 de Mayo",
+        "Centro Cultural Recoleta",
+        "Teatro Devoto",
+        "Teatro de la Ribera",
+        "Academia Nacional del Tango",
+        "Espacio Cultural Julián Centeya",
+        "Espacio Cultural Carlos Gardel",
+        "Espacio Cultural Adán Buenosayres",
+        "Espacio Cultural El Resurgimiento",
+        "La Vidriera de la DGEART",
+        "Museo Casa Carlos Gardel",
+        "Centro Educativo del Tango"
+      ]
+    },
+    {
+      "venues_raw": "Bondi Tanguero",
+      "policy_es": "Entrada libre y gratuita.",
+      "policy_en": "Free admission.",
+      "venues": [
+        "Bondi Tanguero"
+      ]
+    }
+  ],
+  "competition_schedule": [
+    {
+      "date": "2026-08-23",
+      "weekday_ko": "일",
+      "time": "12h",
+      "venue": "Usina del Arte, Auditorio",
+      "category": "MUNDIAL DE BAILE",
+      "category_ko": "세계선수권 대회",
+      "title": "Clasificatorias Tango de Pista"
+    },
+    {
+      "date": "2026-08-24",
+      "weekday_ko": "월",
+      "time": "12h",
+      "venue": "Usina del Arte, Auditorio",
+      "category": "MUNDIAL DE BAILE",
+      "category_ko": "세계선수권 대회",
+      "title": "Clasificatorias Tango de Pista"
+    },
+    {
+      "date": "2026-08-25",
+      "weekday_ko": "화",
+      "time": "12h",
+      "venue": "Usina del Arte, Auditorio",
+      "category": "MUNDIAL DE BAILE",
+      "category_ko": "세계선수권 대회",
+      "title": "Clasificatorias Tango Escenario"
+    },
+    {
+      "date": "2026-08-26",
+      "weekday_ko": "수",
+      "time": "12h",
+      "venue": "Usina del Arte, Auditorio",
+      "category": "MUNDIAL DE BAILE",
+      "category_ko": "세계선수권 대회",
+      "title": "Clasificatorias Tango Escenario"
+    },
+    {
+      "date": "2026-08-27",
+      "weekday_ko": "목",
+      "time": "11h",
+      "venue": "Usina del Arte, Auditorio",
+      "category": "MUNDIAL DE BAILE",
+      "category_ko": "세계선수권 대회",
+      "title": "Cuartos de Final Tango de Pista"
+    },
+    {
+      "date": "2026-08-28",
+      "weekday_ko": "금",
+      "time": "11h",
+      "venue": "Usina del Arte, Auditorio",
+      "category": "MUNDIAL DE BAILE",
+      "category_ko": "세계선수권 대회",
+      "title": "Cuartos de Final Tango Escenario"
+    },
+    {
+      "date": "2026-08-29",
+      "weekday_ko": "토",
+      "time": "12h",
+      "venue": "Usina del Arte, Auditorio",
+      "category": "MUNDIAL DE BAILE",
+      "category_ko": "세계선수권 대회",
+      "title": "Semifinal Tango de Pista"
+    },
+    {
+      "date": "2026-08-30",
+      "weekday_ko": "일",
+      "time": "12h",
+      "venue": "Usina del Arte, Auditorio",
+      "category": "MUNDIAL DE BAILE",
+      "category_ko": "세계선수권 대회",
+      "title": "Semifinal Tango Escenario"
+    },
+    {
+      "date": "2026-09-01",
+      "weekday_ko": "화",
+      "time": "19h",
+      "venue": "Teatro Gran Rex",
+      "category": "MUNDIAL DE BAILE",
+      "category_ko": "세계선수권 대회",
+      "title": "Final de Tango de Pista"
+    },
+    {
+      "date": "2026-09-02",
+      "weekday_ko": "수",
+      "time": "19h",
+      "venue": "Teatro Gran Rex",
+      "category": "MUNDIAL DE BAILE",
+      "category_ko": "세계선수권 대회",
+      "title": "Final de Tango Escenario"
+    }
+  ],
+  "days": [
+    {
+      "weekday_es": "MIÉRCOLES",
+      "day": 19,
+      "events": [
+        {
+          "time": "20h",
+          "venue": "Usina del Arte, Auditorio",
+          "category": "PRODUCCIÓN ESPECIAL. GRAN APERTURA",
+          "category_ko": "특별 프로덕션 · 개막 공연",
+          "title": "Orquesta del Tango de Buenos Aires. Dirección: Néstor Marconi y Juan Carlos Cuacci. Invitada: Milagros Amud. Abel Pintos y Vicentico junto a Pablo Agri y la Camerata Argentina. Dirección: Cristian Zárate"
+        }
+      ],
+      "date": "2026-08-19",
+      "weekday_ko": "수"
+    },
+    {
+      "weekday_es": "JUEVES",
+      "day": 20,
+      "events": [
+        {
+          "time": "14 a 15.15h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "Pablo Giorgini y Analía Centurión: Herramientas para crear tu propia variación"
+        },
+        {
+          "time": "15.30 a 16.45h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "El estilo canyengue por Los Ocampo"
+        },
+        {
+          "time": "17 a 20.30h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "LA USINA MILONGUERA",
+          "category_ko": "우시나 밀롱게라 (클래스+밀롱가)",
+          "title": "Clase y exhibición a cargo de Roberto Zuccarino y Aldana Valentina + DJ Horacio Gabin + Laboratorio Coreográfico de Tango. Dir: Cristian Gallardo y Lorena Goldestein"
+        },
+        {
+          "time": "17.30h",
+          "venue": "Teatro Colón, Salón Dorado",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Quinteto del Ángel"
+        },
+        {
+          "time": "18h",
+          "venue": "Teatro San Martín, Hall Alfredo Alcón",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Orquesta Típica Sans Souci"
+        },
+        {
+          "time": "18h",
+          "venue": "Academia Nacional del Tango",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Agustín Lumerman y La Bicicleta de Saturno: El bombo con platillo en el tango"
+        },
+        {
+          "time": "18h",
+          "venue": "Casa de la Ciudad",
+          "category": "MILONGA",
+          "category_ko": "밀롱가",
+          "title": "Milonga de la Casa de la Ciudad"
+        },
+        {
+          "time": "19h",
+          "venue": "Usina del Arte, Sala de Cámara",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Fleurs Noires presenta: Tangos aumentados"
+        },
+        {
+          "time": "19h",
+          "venue": "Bares Notables, Claridge’s Bar",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "María José Rojas y Fernando Marzán"
+        },
+        {
+          "time": "19h",
+          "venue": "Centro Cultural 25 de Mayo, Sala Redonda",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Martín Alvarado con Gerardo Villar & Los Aguirre presentan: Llevo el sur"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "DANZA",
+          "category_ko": "무용",
+          "title": "Laboratorio Coreográfico de Tango. Dir: Cristian Gallardo y Lorena Goldestein"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Centro Cultural Recoleta, La Capilla",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Orquesta de Tango de la UNA"
+        },
+        {
+          "time": "20h",
+          "venue": "Teatro San Martín, Sala Martín Coronado",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Orquesta Escuela de Tango Emilio Balcarce"
+        },
+        {
+          "time": "20h",
+          "venue": "Usina del Arte, Auditorio",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Banda Sinfónica de la Ciudad"
+        },
+        {
+          "time": "20h",
+          "venue": "Centro Cultural 25 de Mayo, Sala Principal",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Pepe Colangelo Quinteto"
+        }
+      ],
+      "date": "2026-08-20",
+      "weekday_ko": "목"
+    },
+    {
+      "weekday_es": "VIERNES",
+      "day": 21,
+      "events": [
+        {
+          "time": "11 a 20h",
+          "venue": "Casa de la Cultura. Salón Dorado y Pasaje Ana Díaz",
+          "category": "MUESTRAS",
+          "category_ko": "전시",
+          "title": "Tango Argentino: un espectáculo de leyenda"
+        },
+        {
+          "time": "14 a 15.15h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "Alejandra Gutty: Impulsos con efecto"
+        },
+        {
+          "time": "15.30 a 16.45h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "Recordando a Teté Rusconi con Silvia Ceriani"
+        },
+        {
+          "time": "16h",
+          "venue": "Casa de la Cultura, Sala de Lectura",
+          "category": "PRESENTACIÓN DE LIBRO",
+          "category_ko": "책 발표",
+          "title": "Presentación de los libros Tango arte vivo y Estilos para bailar tango, de Alejandro Suaya y Alejandra Mussano"
+        },
+        {
+          "time": "16.30h",
+          "venue": "Casa de la Cultura, 2do Subsuelo",
+          "category": "TALLER",
+          "category_ko": "워크숍",
+          "title": "Taller de montaje de Marcos Ayala. Asistente coreográfica: Paola Camacho"
+        },
+        {
+          "time": "17 a 20.30h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "LA USINA MILONGUERA",
+          "category_ko": "우시나 밀롱게라 (클래스+밀롱가)",
+          "title": "Clase y exhibición a cargo de Sabrina Veliz y Alejandro Lencina + DJ Mariano Romero + Lazos de Tango. Dir: Jonathan Spitel"
+        },
+        {
+          "time": "18h",
+          "venue": "Teatro San Martín, Hall Alfredo Alcón",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Fats Fernández en tiempo de tango"
+        },
+        {
+          "time": "18h",
+          "venue": "Centro Cultural Recoleta, Cine",
+          "category": "CINE",
+          "category_ko": "영화",
+          "title": "Nous (Nosotros)"
+        },
+        {
+          "time": "18h",
+          "venue": "Academia Nacional del Tango",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Las guitarras sensibles de Flores"
+        },
+        {
+          "time": "19h",
+          "venue": "Usina del Arte, Sala de Cámara",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Hugo Rivas y quinteto de cuerdas"
+        },
+        {
+          "time": "19h",
+          "venue": "Centro Cultural 25 de Mayo, Sala Redonda",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Mica Sancho"
+        },
+        {
+          "time": "19h",
+          "venue": "Cine Teatro El Plata",
+          "category": "MILONGA",
+          "category_ko": "밀롱가",
+          "title": "Milonga, orquesta en vivo, DJ y exhibición de baile Coordinación: Poly Pérez"
+        },
+        {
+          "time": "19h",
+          "venue": "Bares Notables, Saint Moritz",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Grupo Úsuga Larroquét: Siempre al sur"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "DANZA",
+          "category_ko": "무용",
+          "title": "Lazos de Tango Ballet"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Casa de la Cultura, 2do Subsuelo",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Ciclo Historias de tango"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Centro Cultural Recoleta, La Capilla",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Quatrotango"
+        },
+        {
+          "time": "20h",
+          "venue": "Teatro San Martín, Sala Martín Coronado",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Sandra Mihanovich canta tangos"
+        },
+        {
+          "time": "20h",
+          "venue": "Usina del Arte, Auditorio",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Víctor Lavallén Orquesta Típica"
+        },
+        {
+          "time": "20h",
+          "venue": "Centro Cultural 25 de Mayo, Sala Principal",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Quinteto Revolucionario"
+        },
+        {
+          "time": "20h",
+          "venue": "Casa de la Cultura, Salón Dorado",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Pablo Ramos & Los Herederos del Compás"
+        }
+      ],
+      "date": "2026-08-21",
+      "weekday_ko": "금"
+    },
+    {
+      "weekday_es": "SÁBADO",
+      "day": 22,
+      "events": [
+        {
+          "time": "11 a 20h",
+          "venue": "Casa de la Cultura. Salón Dorado y Pasaje Ana Díaz",
+          "category": "MUESTRAS",
+          "category_ko": "전시",
+          "title": "Tango Argentino: un espectáculo de leyenda"
+        },
+        {
+          "time": "14 a 15.15h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "Adrián Veredice y Melina Brufman: Tango pista, cuando menos es más"
+        },
+        {
+          "time": "15.30 a 16.45h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "Tributo a Olga Besio por Laura Collavini, Marithe Lujan y Nico Ponce"
+        },
+        {
+          "time": "16h",
+          "venue": "Usina del Arte, Sala de Cámara",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Cuarteto D’Coté: 30 años"
+        },
+        {
+          "time": "16h",
+          "venue": "Anfiteatro del Parque Centenario",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Esteban Riera, Hernán Genovese y Jesús Hidalgo: Tango a tres bandas"
+        },
+        {
+          "time": "16.30h",
+          "venue": "Casa de la Cultura, 2do Subsuelo",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "Masterclass de Jean Luc Don Vito: La moda del tango en el mundo"
+        },
+        {
+          "time": "17 a 20.30h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "LA USINA MILONGUERA",
+          "category_ko": "우시나 밀롱게라 (클래스+밀롱가)",
+          "title": "Charla y clase con Johana Copes + DJ Pitu Moreira + Copes Tango Show. Dir: Johana Copes"
+        },
+        {
+          "time": "18h",
+          "venue": "Teatro San Martín, Hall Alfredo Alcón",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Mirta Álvarez & CoronaCuartet"
+        },
+        {
+          "time": "18h",
+          "venue": "Centro Cultural Recoleta, Cine",
+          "category": "CINE",
+          "category_ko": "영화",
+          "title": "Típico Víctor"
+        },
+        {
+          "time": "18h",
+          "venue": "Academia Nacional del Tango",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "MANGA. Música de Juan Pablo Greco"
+        },
+        {
+          "time": "18h",
+          "venue": "Espacio Cultural Adán Buenosayres",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Hernán Reinaudo presenta: Marechal, una cartografía de Villa Crespo"
+        },
+        {
+          "time": "18h",
+          "venue": "Centro Educativo del Tango de Buenos Aires (CETBA)",
+          "category": "MILONGA",
+          "category_ko": "밀롱가",
+          "title": "35 años del CETBA, con la presentación de su orquesta escuela y del ballet"
+        },
+        {
+          "time": "18h",
+          "venue": "Museo Casa Carlos Gardel",
+          "category": "ACTIVIDADES ESPECIALES",
+          "category_ko": "특별 행사",
+          "title": "Encuentro de coleccionistas con Ricardo Stockdale y Roberto González"
+        },
+        {
+          "time": "19h",
+          "venue": "Usina del Arte, Sala de Cámara",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Sandra Luna"
+        },
+        {
+          "time": "19h",
+          "venue": "Centro Cultural 25 de Mayo, Sala Redonda",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Tabaré Leyton"
+        },
+        {
+          "time": "19h",
+          "venue": "Cine Teatro El Plata",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Adriana Varela"
+        },
+        {
+          "time": "19h",
+          "venue": "Espacio Cultural Julián Centeya",
+          "category": "PREMIOS TANGO SIGLO XXI",
+          "category_ko": "탱고 21세기상",
+          "title": "Charla: “Más que una práctica: cómo se gestiona una milonga alternativa”, con Fer Bietti, Julio Coviello y Amancay Sal. Modera Andrés Valenzuela. Concierto: Quiero 24"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "DANZA",
+          "category_ko": "무용",
+          "title": "Copes Tango Show"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Casa de la Cultura, 2do Subsuelo",
+          "category": "DANZA",
+          "category_ko": "무용",
+          "title": "Vacío, con dirección de Agustina Vignau y Hugo Mastrolorenzo (fragmento) + Ballet de Arte Folklórico Argentino"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Centro Cultural Recoleta, La Capilla",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Ullmann Cuarteto"
+        },
+        {
+          "time": "20h",
+          "venue": "Teatro San Martín, Sala Martín Coronado",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Nico Sorin: Piazzolla electrónico"
+        },
+        {
+          "time": "20h",
+          "venue": "Usina del Arte, Auditorio",
+          "category": "PRODUCCIÓN ESPECIAL",
+          "category_ko": "특별 프로덕션",
+          "title": "Guillermo Fernández presenta: El cantor de tangos"
+        },
+        {
+          "time": "20h",
+          "venue": "Centro Cultural 25 de Mayo, Sala Principal",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Orquesta del Plata + invitados Espectáculo de tango, valses y milongas"
+        },
+        {
+          "time": "20h",
+          "venue": "Casa de la Cultura, Salón Dorado",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Orquesta Típica Pichuco"
+        },
+        {
+          "time": "20h",
+          "venue": "Teatro Gran Rivadavia",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Orquesta Típica Fernández Fierro"
+        },
+        {
+          "time": "21h",
+          "venue": "Bares Notables, El Gato Negro",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Uma y Cruz"
+        }
+      ],
+      "date": "2026-08-22",
+      "weekday_ko": "토"
+    },
+    {
+      "weekday_es": "DOMINGO",
+      "day": 23,
+      "events": [
+        {
+          "time": "11 a 20h",
+          "venue": "Casa de la Cultura. Salón Dorado y Pasaje Ana Díaz",
+          "category": "MUESTRAS",
+          "category_ko": "전시",
+          "title": "Tango Argentino: un espectáculo de leyenda"
+        },
+        {
+          "time": "11h",
+          "venue": "Teatro Colón, Salón Dorado",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Leonardo Marconi Cuarteto"
+        },
+        {
+          "time": "12h",
+          "venue": "Usina del Arte, Auditorio",
+          "category": "MUNDIAL DE BAILE",
+          "category_ko": "세계선수권 대회",
+          "title": "Clasificatorias Tango de Pista"
+        },
+        {
+          "time": "14h",
+          "venue": "Bares Notables, El Portuario",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Xime Giménez y Nico Velázquez"
+        },
+        {
+          "time": "14 a 15.15h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "Aurora Lubiz y Fernando Carrasco: Secuencias de desplazamientos en el espacio"
+        },
+        {
+          "time": "15.30 a 16.45h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "Recordando al Flaco Dany con Silvina Valz"
+        },
+        {
+          "time": "16h",
+          "venue": "Usina del Arte, Sala de Cámara",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Carla Algeri Quinteto: Tiempo revelado"
+        },
+        {
+          "time": "16h",
+          "venue": "Anfiteatro del Parque Centenario",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Black Rodríguez Méndez y Súper Sioux Orquesta"
+        },
+        {
+          "time": "16.30h",
+          "venue": "Casa de la Cultura, 2do Subsuelo",
+          "category": "TALLER",
+          "category_ko": "워크숍",
+          "title": "Taller de montaje de Andrea Castelli"
+        },
+        {
+          "time": "17 a 20.30h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "LA USINA MILONGUERA",
+          "category_ko": "우시나 밀롱게라 (클래스+밀롱가)",
+          "title": "Práctica El Motivo: Luciana Valle, Valencia Batiuk y Dina Martínez + DJ Carlos Rey + Titanes del Escenario. Dir: Jeannette Erazú y Leandro Capparelli"
+        },
+        {
+          "time": "18h",
+          "venue": "Teatro San Martín, Hall Alfredo Alcón",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Trío Ledesma - Gainche - De Mónaco"
+        },
+        {
+          "time": "18h",
+          "venue": "Cine Teatro El Plata",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "JULIA ZENKO + Tangoloco Trío"
+        },
+        {
+          "time": "18h",
+          "venue": "Academia Nacional del Tango",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Enrique Espinosa"
+        },
+        {
+          "time": "18h",
+          "venue": "Espacio Cultural Julián Centeya",
+          "category": "MILONGA",
+          "category_ko": "밀롱가",
+          "title": "Tangódromo con el Cuarteto Summa Tanguera"
+        },
+        {
+          "time": "18h",
+          "venue": "Espacio Cultural Adán Buenosayres",
+          "category": "PREMIOS TANGO SIGLO XXI",
+          "category_ko": "탱고 21세기상",
+          "title": "Charla: “Nuevas instrumentaciones y arreglos para el tango”, con Esteban Fioroni, Analía Trillo y Juan Corrao. Modera Nacho Villabona. Concierto: Nahuel Roht Cuarteto, abre Dúo Tello-Echeveste"
+        },
+        {
+          "time": "19h",
+          "venue": "Usina del Arte, Sala de Cámara",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Pablo Valle: No es nada"
+        },
+        {
+          "time": "19h",
+          "venue": "Centro Cultural 25 de Mayo, Sala Redonda",
+          "category": "MILONGA",
+          "category_ko": "밀롱가",
+          "title": "La Milonga del 25"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "DANZA",
+          "category_ko": "무용",
+          "title": "Titanes del Escenario"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Casa de la Cultura, 2do Subsuelo",
+          "category": "DANZA",
+          "category_ko": "무용",
+          "title": "Tecnotango"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Centro Cultural Recoleta, La Capilla",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Lumière Quinteto"
+        },
+        {
+          "time": "20h",
+          "venue": "Teatro San Martín, Sala Martín Coronado",
+          "category": "PRODUCCIÓN ESPECIAL",
+          "category_ko": "특별 프로덕션",
+          "title": "Borges 40 años. Con Lautaro Mazza, Ariel Pirotti y orquesta. Dirección: Nicolás Guerschberg"
+        },
+        {
+          "time": "20h",
+          "venue": "Centro Cultural 25 de Mayo, Sala Principal",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Maggie Cullen y Quinteto La Grela"
+        },
+        {
+          "time": "20h",
+          "venue": "Casa de la Cultura, Salón Dorado",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Elegante Sport"
+        },
+        {
+          "time": "20h",
+          "venue": "Auditorio de Belgrano",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Luis Salinas"
+        }
+      ],
+      "date": "2026-08-23",
+      "weekday_ko": "일"
+    },
+    {
+      "weekday_es": "LUNES",
+      "day": 24,
+      "events": [
+        {
+          "time": "11 a 20h",
+          "venue": "Casa de la Cultura. Salón Dorado y Pasaje Ana Díaz",
+          "category": "MUESTRAS",
+          "category_ko": "전시",
+          "title": "Tango Argentino: un espectáculo de leyenda"
+        },
+        {
+          "time": "12h",
+          "venue": "Usina del Arte, Auditorio",
+          "category": "MUNDIAL DE BAILE",
+          "category_ko": "세계선수권 대회",
+          "title": "Clasificatorias Tango de Pista"
+        },
+        {
+          "time": "14 a 15.15h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "Mario Morales y Ayelén Morando: Componentes elementales del tango escenario"
+        },
+        {
+          "time": "15.30 a 16.45h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "Recordando a Parejita con Guillermo El Peque Barrionuevo y Germán Ballejo"
+        },
+        {
+          "time": "16h",
+          "venue": "Teatro San Martín, Hall Alfredo Alcón",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Quinteto TangoContempo"
+        },
+        {
+          "time": "17 a 20.30h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "LA USINA MILONGUERA",
+          "category_ko": "우시나 밀롱게라 (클래스+밀롱가)",
+          "title": "Clase y exhibición a cargo de Luis Solanas y María José Iglesias + DJ Tandas Nuevas + Mario Morales presenta: Voces"
+        },
+        {
+          "time": "17.30h",
+          "venue": "Teatro Colón, Salón Dorado",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Ensamble Clásico: La música de Astor Piazzolla"
+        },
+        {
+          "time": "18 a 21h",
+          "venue": "Casa de la Cultura, 2do Subsuelo",
+          "category": "MILONGA",
+          "category_ko": "밀롱가",
+          "title": "Milonga de Campeones: Programación especial Tango BA Festival y Mundial"
+        },
+        {
+          "time": "18h",
+          "venue": "Academia Nacional del Tango",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "María Garay, cantora nacional"
+        },
+        {
+          "time": "19h",
+          "venue": "Usina del Arte, Sala de Cámara",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Aníbal Berraute: Neopía"
+        },
+        {
+          "time": "19h",
+          "venue": "Centro Cultural 25 de Mayo, Sala Redonda",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Karina Beorlegui Cuarteto presenta: Hoy como ayer"
+        },
+        {
+          "time": "19h",
+          "venue": "Bares Notables, Plaza Dorrego",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Los Púa Abajo presentan: Lenguaje tango"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "DANZA",
+          "category_ko": "무용",
+          "title": "Mario Morales: Homenaje coreográfico a las voces del tango"
+        },
+        {
+          "time": "20h",
+          "venue": "Centro Cultural 25 de Mayo, Sala Principal",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Orquesta El Arranque: 30 años"
+        },
+        {
+          "time": "20h",
+          "venue": "Casa de la Cultura, Salón Dorado",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Fernando Otero Orquesta Típica"
+        }
+      ],
+      "date": "2026-08-24",
+      "weekday_ko": "월"
+    },
+    {
+      "weekday_es": "MARTES",
+      "day": 25,
+      "events": [
+        {
+          "time": "11 a 20h",
+          "venue": "Casa de la Cultura. Salón Dorado y Sala Pasaje Ana Díaz",
+          "category": "MUESTRAS",
+          "category_ko": "전시",
+          "title": "Tango Argentino: un espectáculo de leyenda"
+        },
+        {
+          "time": "12h",
+          "venue": "Usina del Arte, Auditorio",
+          "category": "MUNDIAL DE BAILE",
+          "category_ko": "세계선수권 대회",
+          "title": "Clasificatorias Tango Escenario"
+        },
+        {
+          "time": "14 a 15.15h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "Ricardo Calvo y Sandra Messina: Musicalidad y suspensiones para el vals"
+        },
+        {
+          "time": "15.30 a 16.45h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "El estilo de Juan Bruno por Verónica Alvarenga"
+        },
+        {
+          "time": "16.30h",
+          "venue": "Casa de la Cultura, 2do Subsuelo",
+          "category": "TALLER",
+          "category_ko": "워크숍",
+          "title": "Taller de Marcelo Lupis: El plano secuencia en la videodanza"
+        },
+        {
+          "time": "17 a 20.30h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "LA USINA MILONGUERA",
+          "category_ko": "우시나 밀롱게라 (클래스+밀롱가)",
+          "title": "Charla abierta con Eduardo Arquimbau + DJ Claudio Martínez + Así se baila el tango de Laura Falcoff"
+        },
+        {
+          "time": "17.30h",
+          "venue": "Teatro Colón, Salón Dorado",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "César Angeleri Cuarteto"
+        },
+        {
+          "time": "18h",
+          "venue": "Teatro San Martín, Hall Alfredo Alcón",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Orquesta Color Tango"
+        },
+        {
+          "time": "18h",
+          "venue": "Academia Nacional del Tango",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Horacio Cacoliris presenta el libro La percusión en el tango"
+        },
+        {
+          "time": "19h",
+          "venue": "Usina del Arte, Sala de Cámara",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Negro Falótico y Matías Álvarez: A Zárate"
+        },
+        {
+          "time": "19h",
+          "venue": "Centro Cultural 25 de Mayo, Sala Redonda",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Jesús Hidalgo y Matías Feigin"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "DANZA",
+          "category_ko": "무용",
+          "title": "Así se baila el tango"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Casa de la Cultura, 2do Subsuelo",
+          "category": "ACTIVIDADES ESPECIALES",
+          "category_ko": "특별 행사",
+          "title": "Otros Aires presenta: Tango Mundi"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Centro Cultural Recoleta, La Capilla",
+          "category": "CONCIERTO",
+          "category_ko": "공연",
+          "title": "Tomi Lago"
+        },
+        {
+          "time": "20h",
+          "venue": "Centro Cultural 25 de Mayo, Sala Principal",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Lisandro Adrover Quinteto"
+        },
+        {
+          "time": "20h",
+          "venue": "Casa de la Cultura, Salón Dorado",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Quinteto Chiqué!"
+        },
+        {
+          "time": "20h",
+          "venue": "Bares Notables, La Orquídea",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Paula Castignola y Joaquín Benítez Kitegroski: Homero Manzi, luna y misterio"
+        }
+      ],
+      "date": "2026-08-25",
+      "weekday_ko": "화"
+    },
+    {
+      "weekday_es": "MIÉRCOLES",
+      "day": 26,
+      "events": [
+        {
+          "time": "11 a 20h",
+          "venue": "Casa de la Cultura. Salón Dorado y Sala Pasaje Ana Díaz",
+          "category": "MUESTRAS",
+          "category_ko": "전시",
+          "title": "Tango Argentino: un espectáculo de leyenda"
+        },
+        {
+          "time": "11 a 19h",
+          "venue": "Museo Casa Carlos Gardel",
+          "category": "MUESTRAS",
+          "category_ko": "전시",
+          "title": "Un recorrido con entrada gratuita al Museo Casa Carlos Gardel"
+        },
+        {
+          "time": "12h",
+          "venue": "Usina del Arte, Auditorio",
+          "category": "MUNDIAL DE BAILE",
+          "category_ko": "세계선수권 대회",
+          "title": "Clasificatorias Tango Escenario"
+        },
+        {
+          "time": "12h",
+          "venue": "Museo Casa Carlos Gardel",
+          "category": "VISITAS GUIADAS",
+          "category_ko": "가이드 투어",
+          "title": "Visita guiada: La historia del Zorzal"
+        },
+        {
+          "time": "14h",
+          "venue": "Museo Casa Carlos Gardel",
+          "category": "VISITAS GUIADAS",
+          "category_ko": "가이드 투어",
+          "title": "Visita guiada: La historia del Zorzal"
+        },
+        {
+          "time": "14 a 15.15h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "Carlos Rivarola: Etapas del desarrollo creativo coreográfico"
+        },
+        {
+          "time": "15.30 a 16.45h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "Recordando a Los Cieri con María Cieri y Noelia Barsi"
+        },
+        {
+          "time": "16.30h",
+          "venue": "Casa de la Cultura, 2do Subsuelo",
+          "category": "TALLER",
+          "category_ko": "워크숍",
+          "title": "Taller de montaje de Germán Cornejo"
+        },
+        {
+          "time": "17h",
+          "venue": "Academia Nacional del Tango",
+          "category": "DANZA",
+          "category_ko": "무용",
+          "title": "Práctica de baile de la Academia"
+        },
+        {
+          "time": "17 a 20.30h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "LA USINA MILONGUERA",
+          "category_ko": "우시나 밀롱게라 (클래스+밀롱가)",
+          "title": "Clase y exhibición con Los Hermanos Macana + DJ Guillermo Nieto + Interludium - Entre tandas de Yesica Lozano"
+        },
+        {
+          "time": "17.30h",
+          "venue": "Teatro Colón, Salón Dorado",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Franco Luciani y Fabrizio Mocata presentan: Tangos cruzados"
+        },
+        {
+          "time": "18h",
+          "venue": "Teatro San Martín, Hall Alfredo Alcón",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Quintetas del Brass: Nosotras en tango"
+        },
+        {
+          "time": "19h",
+          "venue": "Usina del Arte, Sala de Cámara",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Cuarteto Grande"
+        },
+        {
+          "time": "19h",
+          "venue": "Centro Cultural 25 de Mayo, Sala Redonda",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Lautaro Mazza y Oscar De Elía presentan: Toma I"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "DANZA",
+          "category_ko": "무용",
+          "title": "Interludium - Entre tandas"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Casa de la Cultura, 2do Subsuelo",
+          "category": "DANZA",
+          "category_ko": "무용",
+          "title": "Lago Porteño: Work in progress + Ensayo abierto"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Centro Cultural Recoleta, La Capilla",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Pablo Estigarribia presenta: Tangomorphosis"
+        },
+        {
+          "time": "20h",
+          "venue": "Centro Cultural 25 de Mayo, Sala Principal",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Orquesta Típica Misteriosa Buenos Aires: Icónico y barrial"
+        },
+        {
+          "time": "20h",
+          "venue": "Casa de la Cultura, Salón Dorado",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Orquesta Típica Sentimental y Canyengue"
+        },
+        {
+          "time": "20h",
+          "venue": "Bares Notables, La Academia",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Sciammarella Tango"
+        },
+        {
+          "time": "20.30h",
+          "venue": "Teatro Multitabarís",
+          "category": "ACTIVIDAD ESPECIAL",
+          "category_ko": "특별 행사",
+          "title": "Cuando Frank conoció a Carlitos"
+        }
+      ],
+      "date": "2026-08-26",
+      "weekday_ko": "수"
+    },
+    {
+      "weekday_es": "JUEVES",
+      "day": 27,
+      "events": [
+        {
+          "time": "11 a 20h",
+          "venue": "Casa de la Cultura. Salón Dorado y Pasaje Ana Díaz",
+          "category": "MUESTRAS",
+          "category_ko": "전시",
+          "title": "Tango Argentino: un espectáculo de leyenda"
+        },
+        {
+          "time": "11h",
+          "venue": "Usina del Arte, Auditorio",
+          "category": "MUNDIAL DE BAILE",
+          "category_ko": "세계선수권 대회",
+          "title": "Cuartos de Final Tango de Pista"
+        },
+        {
+          "time": "14h",
+          "venue": "Museo Casa Carlos Gardel",
+          "category": "VISITAS GUIADAS",
+          "category_ko": "가이드 투어",
+          "title": "Visita guiada: La historia del Zorzal"
+        },
+        {
+          "time": "14 a 15.15h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "Corina Herrera e Inés Muzzopappa: Milonga"
+        },
+        {
+          "time": "15.30 a 16.45h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "Recordando al Chino Perico con Paola Tacchetti y Silvina Damiani"
+        },
+        {
+          "time": "16h",
+          "venue": "Museo Casa Carlos Gardel",
+          "category": "VISITAS GUIADAS",
+          "category_ko": "가이드 투어",
+          "title": "Gardel, lo real, lo simbólico, lo imaginario: visita guiada y charla de Jorge Muscia"
+        },
+        {
+          "time": "16.30h",
+          "venue": "Casa de la Cultura, 2do Subsuelo",
+          "category": "CHARLA",
+          "category_ko": "강연",
+          "title": "Tango y/o/vs. Danza Contemporánea Argentina. Entrevista abierta a Ana María Stekelman y Nora Robles, moderada por Ignacio González Cano"
+        },
+        {
+          "time": "17h",
+          "venue": "La Vidriera de la DGEART",
+          "category": "ACTIVIDADES ESPECIALES",
+          "category_ko": "특별 행사",
+          "title": "Presentación de la investigación “25 años de la Orquesta Escuela de Tango Emilio Balcarce”"
+        },
+        {
+          "time": "17 a 20.30h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "LA USINA MILONGUERA",
+          "category_ko": "우시나 밀롱게라 (클래스+밀롱가)",
+          "title": "Clase de musicalidad a cargo de Pepa Palazon. Exhibición: Pepa Palazon y Carolina Couto + DJ José Luis Barrios + Soledad Rivero presenta: A todo tango"
+        },
+        {
+          "time": "17.30h",
+          "venue": "Teatro Colón, Salón Dorado",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Ensamble Argentum presenta: Las 8 estaciones porteñas"
+        },
+        {
+          "time": "18h",
+          "venue": "Teatro San Martín, Hall Alfredo Alcón",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Luis Ceravolo 4"
+        },
+        {
+          "time": "18h",
+          "venue": "Academia Nacional del Tango",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Adriana Nano y Ricardo Zanón presentan: Tangos y Postangos"
+        },
+        {
+          "time": "18h",
+          "venue": "Casa de la Ciudad",
+          "category": "MILONGA",
+          "category_ko": "밀롱가",
+          "title": "Milonga de la Casa de la Ciudad"
+        },
+        {
+          "time": "19h",
+          "venue": "Usina del Arte, Sala de Cámara",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Walter Ríos presenta: Gardel y Piazzolla"
+        },
+        {
+          "time": "19h",
+          "venue": "Centro Cultural 25 de Mayo, Sala Redonda",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Verónika Silva y César Angeleri"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "DANZA",
+          "category_ko": "무용",
+          "title": "Soledad Rivero: A todo tango"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Casa de la Cultura, 2do Subsuelo",
+          "category": "DANZA",
+          "category_ko": "무용",
+          "title": "Diamond Tango"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Centro Cultural Recoleta, La Capilla",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Julián Peralta, Mariano González Calo y Cuerdas del Plata: Suite Sofía y los sueños"
+        },
+        {
+          "time": "20h",
+          "venue": "Centro Cultural 25 de Mayo, Sala Principal",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Carlos Libedinsky Electrotango Sinfónico"
+        },
+        {
+          "time": "20h",
+          "venue": "Casa de la Cultura, Salón Dorado",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Orquesta Típica Messiez"
+        },
+        {
+          "time": "20h",
+          "venue": "Teatro Gran Rivadavia",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Baglietto - Vitale presentan: Tangos y otras yerbas"
+        },
+        {
+          "time": "20h",
+          "venue": "Teatro Devoto",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "La Juan D’Arienzo"
+        },
+        {
+          "time": "20h",
+          "venue": "Bares Notables, El Viejo Buzón",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Shino Ohnaga y Ernestina Inveninato: Callate Rosita"
+        }
+      ],
+      "date": "2026-08-27",
+      "weekday_ko": "목"
+    },
+    {
+      "weekday_es": "VIERNES",
+      "day": 28,
+      "events": [
+        {
+          "time": "11 a 20h",
+          "venue": "Casa de la Cultura. Salón Dorado y Pasaje Ana Díaz",
+          "category": "MUESTRAS",
+          "category_ko": "전시",
+          "title": "Tango Argentino: un espectáculo de leyenda"
+        },
+        {
+          "time": "11h",
+          "venue": "Usina del Arte, Auditorio",
+          "category": "MUNDIAL DE BAILE",
+          "category_ko": "세계선수권 대회",
+          "title": "Cuartos de Final Tango Escenario"
+        },
+        {
+          "time": "14 a 15.15h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "Yanina Muzika y Emmanuel Casal: Más allá de los pasos"
+        },
+        {
+          "time": "15.30 a 16.45h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "El estilo de Osvaldo y Coca por Coca y Lucas Paez"
+        },
+        {
+          "time": "16h",
+          "venue": "Casa de la Cultura, Sala de Lectura",
+          "category": "PRESENTACIÓN DE LIBRO",
+          "category_ko": "책 발표",
+          "title": "Presentación de los libros El tango ha muerto en escena y Tango-Danza. El origen de la especie, de Hugo Mastrolorenzo"
+        },
+        {
+          "time": "16.30h",
+          "venue": "Casa de la Cultura, 2do Subsuelo",
+          "category": "CHARLA",
+          "category_ko": "강연",
+          "title": "Mesa redonda: Los ballets semilleros"
+        },
+        {
+          "time": "17 a 20.30h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "LA USINA MILONGUERA",
+          "category_ko": "우시나 밀롱게라 (클래스+밀롱가)",
+          "title": "Milena Plebs, 40 años de una vida en el tango: Charla con Corina de la Rosa + DJ Nel Mastro + Compañía Rumores de Milonga"
+        },
+        {
+          "time": "17.30h",
+          "venue": "Teatro Colón, Salón Dorado",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Dúo Ryota Komatsu - Hiroki Fukui"
+        },
+        {
+          "time": "18h",
+          "venue": "Teatro San Martín, Hall Alfredo Alcón",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Orquesta de Tango de la EMPA"
+        },
+        {
+          "time": "18h",
+          "venue": "Centro Cultural Recoleta, Cine",
+          "category": "CINE",
+          "category_ko": "영화",
+          "title": "Horacio Cabarcos: El contrabajista"
+        },
+        {
+          "time": "18h",
+          "venue": "Academia Nacional del Tango",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "CÁTULO EN LA VOZ DE MARÍA JOSÉ MENTANA"
+        },
+        {
+          "time": "19h",
+          "venue": "Usina del Arte, Sala de Cámara",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Spinettango"
+        },
+        {
+          "time": "19h",
+          "venue": "Centro Cultural 25 de Mayo, Sala Redonda",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Noelia Moncada Quinteto"
+        },
+        {
+          "time": "19h",
+          "venue": "Cine Teatro El Plata",
+          "category": "MILONGA",
+          "category_ko": "밀롱가",
+          "title": "Milonga en El Plata"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "DANZA",
+          "category_ko": "무용",
+          "title": "Compañía Rumores de Milonga: a través del tiempo"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Casa de la Cultura, 2do Subsuelo",
+          "category": "DANZA",
+          "category_ko": "무용",
+          "title": "Compañía de Tango de la UNA + Ballet Lo que vendrá"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Centro Cultural Recoleta, La Capilla",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Orquesta de Tango del Falla"
+        },
+        {
+          "time": "20h",
+          "venue": "Bares Notables, El Café de García",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Ensamble de bandoneones. Director: Néstor Marconi"
+        },
+        {
+          "time": "20h",
+          "venue": "Centro Cultural 25 de Mayo, Sala Principal",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Orquesta del Tango de Buenos Aires"
+        },
+        {
+          "time": "20h",
+          "venue": "Casa de la Cultura, Salón Dorado",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "La Martino Orquesta Típica"
+        },
+        {
+          "time": "20h",
+          "venue": "Espacio Cultural El Resurgimiento",
+          "category": "MILONGA",
+          "category_ko": "밀롱가",
+          "title": "Milonga del Resurgimiento, con Falta Envido Tango y DJ José Lucchino"
+        },
+        {
+          "time": "21.30h",
+          "venue": "Bares Notables, El Faro",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "El tango vuelve al barrio"
+        }
+      ],
+      "date": "2026-08-28",
+      "weekday_ko": "금"
+    },
+    {
+      "weekday_es": "SÁBADO",
+      "day": 29,
+      "events": [
+        {
+          "time": "11 a 20h",
+          "venue": "Casa de la Cultura. Salón Dorado y Pasaje Ana Díaz",
+          "category": "MUESTRAS",
+          "category_ko": "전시",
+          "title": "Tango Argentino: un espectáculo de leyenda"
+        },
+        {
+          "time": "12h",
+          "venue": "Usina del Arte, Auditorio",
+          "category": "MUNDIAL DE BAILE",
+          "category_ko": "세계선수권 대회",
+          "title": "Semifinal Tango de Pista"
+        },
+        {
+          "time": "14 a 15.15h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "Facundo Piñeiro y Vanesa Villalba: Efectos dinámicos para movimientos complejos"
+        },
+        {
+          "time": "15h",
+          "venue": "Teatro de la Ribera",
+          "category": "ACTIVIDAD ESPECIAL",
+          "category_ko": "특별 행사",
+          "title": "Benito de La Boca"
+        },
+        {
+          "time": "15.30 a 16.45h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "El estilo de Pepito Avellaneda y Suzuki por Andrés Cejas y Genoveva Fernández"
+        },
+        {
+          "time": "16h",
+          "venue": "Usina del Arte, Sala de Cámara",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Juan Pablo Navarro Cuarteto"
+        },
+        {
+          "time": "16.30h",
+          "venue": "Casa de la Cultura, 2do Subsuelo",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "Laboratorio de movimiento de Milagros Rolandelli y David Palo: Tango y cine argentino"
+        },
+        {
+          "time": "17 a 20.30h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "LA USINA MILONGUERA",
+          "category_ko": "우시나 밀롱게라 (클래스+밀롱가)",
+          "title": "Celebración María Nieves: clase con Silvia Toscano y Pancho Martínez Pey + DJ Ricardo Salusky + Charla con Silvia Toscano y Matías Castelli + Coreografía homenaje"
+        },
+        {
+          "time": "17.30h",
+          "venue": "Teatro Colón, Salón Dorado",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Gustavo Casenave: Piano solo"
+        },
+        {
+          "time": "18h",
+          "venue": "Teatro San Martín, Hall Alfredo Alcón",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Tangorra presenta: En trance"
+        },
+        {
+          "time": "18h",
+          "venue": "Academia Nacional del Tango",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Lázaro Cócaro & Dipi Kvitko: Fauna tanguera"
+        },
+        {
+          "time": "18h",
+          "venue": "Espacio Cultural Carlos Gardel",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Quinteto Negro La Boca presenta: La marcha de la bronca"
+        },
+        {
+          "time": "18h",
+          "venue": "Museo Casa Carlos Gardel",
+          "category": "ACTIVIDADES ESPECIALES",
+          "category_ko": "특별 행사",
+          "title": "Encuentro de coleccionistas con Fabio Cernuda y Pablo Taboada"
+        },
+        {
+          "time": "19h",
+          "venue": "Usina del Arte, Sala de Cámara",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Trío Romo - Agri - Messiez"
+        },
+        {
+          "time": "19h",
+          "venue": "Centro Cultural 25 de Mayo, Sala Redonda",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Eliana Sosa Cuarteto presenta: Sembremos"
+        },
+        {
+          "time": "19h",
+          "venue": "Cine Teatro El Plata",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Patricia Barone y Javier González Grupo presentan: Sinépica"
+        },
+        {
+          "time": "19h",
+          "venue": "Espacio Cultural El Resurgimiento",
+          "category": "PREMIOS TANGO SIGLO XXI",
+          "category_ko": "탱고 21세기상",
+          "title": "Charla: “Lo que puede la pilcha”, con Rosana Boyer, Mariela Iturregui y Micaela García. Modera Marina Combis. Concierto: Daisy Lombardo con Ramiro Gallo Quinteto"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "DANZA",
+          "category_ko": "무용",
+          "title": "Celebración María Nieves"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Centro Cultural Recoleta, La Capilla",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Julieta Laso presenta: Sesión Parque Leloir"
+        },
+        {
+          "time": "20h",
+          "venue": "Usina del Arte, Auditorio",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Fueyerías, de Pablo Jaurena"
+        },
+        {
+          "time": "20h",
+          "venue": "Centro Cultural 25 de Mayo, Sala Principal",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Ryota Komatsu Quinteto"
+        },
+        {
+          "time": "22h",
+          "venue": "Bares Notables, Las Violetas",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Alfredo Piro Rinaldi presenta: Canciones de dos puertos"
+        }
+      ],
+      "date": "2026-08-29",
+      "weekday_ko": "토"
+    },
+    {
+      "weekday_es": "DOMINGO",
+      "day": 30,
+      "events": [
+        {
+          "time": "11 a 20h",
+          "venue": "Casa de la Cultura. Salón Dorado y Pasaje Ana Díaz",
+          "category": "MUESTRAS",
+          "category_ko": "전시",
+          "title": "Tango Argentino: un espectáculo de leyenda"
+        },
+        {
+          "time": "12h",
+          "venue": "Usina del Arte, Auditorio",
+          "category": "MUNDIAL DE BAILE",
+          "category_ko": "세계선수권 대회",
+          "title": "Semifinal Tango Escenario"
+        },
+        {
+          "time": "14 a 15.15h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "Noelia Coletti y Demián García: Estructura y desestructura en el tango tradicional"
+        },
+        {
+          "time": "14 a 17h",
+          "venue": "Planetario",
+          "category": "ACTIVIDADES ESPECIALES",
+          "category_ko": "특별 행사",
+          "title": "El Bondi Tanguero"
+        },
+        {
+          "time": "15h",
+          "venue": "Teatro de la Ribera",
+          "category": "ACTIVIDAD ESPECIAL",
+          "category_ko": "특별 행사",
+          "title": "Benito de La Boca"
+        },
+        {
+          "time": "15.30 a 16.45h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "Recordando a Carlos y Nati Moyano con Fabián Peralta y Josefina Bermúdez"
+        },
+        {
+          "time": "16h",
+          "venue": "Usina del Arte, Sala de Cámara",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "En Desórbita: Recreando la historia"
+        },
+        {
+          "time": "16h",
+          "venue": "Anfiteatro del Parque Centenario",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Despelotango"
+        },
+        {
+          "time": "16.30h",
+          "venue": "Casa de la Cultura, 2do Subsuelo",
+          "category": "CLASES DE BAILE",
+          "category_ko": "댄스 클래스",
+          "title": "Masterclass de Rubén Szuchmacher: El tango dentro del lenguaje teatral"
+        },
+        {
+          "time": "17 a 20.30h",
+          "venue": "Usina del Arte, Salón Mayor",
+          "category": "LA USINA MILONGUERA",
+          "category_ko": "우시나 밀롱게라 (클래스+밀롱가)",
+          "title": "Gran milonga de cierre: Clase y exhibición por Natacha Poberaj y Jesús Velázquez + DJ Brian Mujica"
+        },
+        {
+          "time": "17.30h",
+          "venue": "Teatro Colón, Salón Dorado",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Néstor Marconi Trío"
+        },
+        {
+          "time": "18h",
+          "venue": "Teatro San Martín, Hall Alfredo Alcón",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Analía Goldberg Septeto"
+        },
+        {
+          "time": "18h",
+          "venue": "Cine Teatro El Plata",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Esteban Morgado Cuarteto"
+        },
+        {
+          "time": "18h",
+          "venue": "Academia Nacional del Tango",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Patricia Malanca y Walter Romero: Solo Contursi"
+        },
+        {
+          "time": "18h",
+          "venue": "Espacio Cultural Carlos Gardel",
+          "category": "PREMIOS TANGO SIGLO XXI",
+          "category_ko": "탱고 21세기상",
+          "title": "Charla: “Despatriarcalizar el abrazo”, con Sole Nanni, Marisa Vázquez y Edgardo Fernández Sesma. Modera Ximena Pascutti. Concierto: Madreselva Quinteto, abre Natsuki Nishihara"
+        },
+        {
+          "time": "18h",
+          "venue": "Museo Casa Carlos Gardel",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Lázaro Cócaro canta Gardel"
+        },
+        {
+          "time": "19h",
+          "venue": "Bares Notables, Café Rivas",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Victoria De Paolo y Roberto Calvo"
+        },
+        {
+          "time": "19h",
+          "venue": "Usina del Arte, Sala de Cámara",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Hernán Possetti: Presente"
+        },
+        {
+          "time": "19h",
+          "venue": "Centro Cultural 25 de Mayo, Sala Redonda",
+          "category": "MILONGA",
+          "category_ko": "밀롱가",
+          "title": "La Milonga del 25"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Casa de la Cultura, 2do Subsuelo",
+          "category": "DANZA",
+          "category_ko": "무용",
+          "title": "Tangos en la Belle Époque"
+        },
+        {
+          "time": "19.30h",
+          "venue": "Centro Cultural Recoleta, La Capilla",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Noelia Sinkunas presenta: Las cuatro estaciones"
+        },
+        {
+          "time": "20h",
+          "venue": "Teatro Colón, Sala Principal",
+          "category": "PRODUCCIÓN ESPECIAL",
+          "category_ko": "특별 프로덕션",
+          "title": "Sexteto Mayor. Invitados: Ryota Komatsu Quinteto y José “Pepe” Colangelo"
+        },
+        {
+          "time": "20h",
+          "venue": "Usina del Arte, Auditorio",
+          "category": "PRODUCCIÓN ESPECIAL",
+          "category_ko": "특별 프로덕션",
+          "title": "Fabio Hager Sexteto y los Campeones Mundiales"
+        },
+        {
+          "time": "20h",
+          "venue": "Casa de la Cultura, Salón Dorado",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Sexteto Viejos Maestros del Tango"
+        },
+        {
+          "time": "20h",
+          "venue": "Auditorio de Belgrano",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Amelita Baltar y Tanghetto: Legendarias"
+        },
+        {
+          "time": "20.30h",
+          "venue": "Centro Cultural 25 de Mayo",
+          "category": "CONCIERTOS",
+          "category_ko": "공연",
+          "title": "Florian"
+        }
+      ],
+      "date": "2026-08-30",
+      "weekday_ko": "일"
+    },
+    {
+      "weekday_es": "MARTES",
+      "day": 1,
+      "events": [
+        {
+          "time": "19h",
+          "venue": "Teatro Gran Rex",
+          "category": "MUNDIAL DE BAILE",
+          "category_ko": "세계선수권 대회",
+          "title": "Final de Tango de Pista"
+        }
+      ],
+      "date": "2026-09-01",
+      "weekday_ko": "화"
+    },
+    {
+      "weekday_es": "MIÉRCOLES",
+      "day": 2,
+      "events": [
+        {
+          "time": "19h",
+          "venue": "Teatro Gran Rex",
+          "category": "MUNDIAL DE BAILE",
+          "category_ko": "세계선수권 대회",
+          "title": "Final de Tango Escenario"
+        }
+      ],
+      "date": "2026-09-02",
+      "weekday_ko": "수"
+    }
+  ]
+}

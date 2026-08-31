@@ -66,6 +66,7 @@ const NAV_GROUPS: NavGroup[] = [
       { to: '/songs', label: 'Archive', sub: '곡 아카이브', num: '08' },
       { to: '/tanda', label: 'Tandas', sub: '탄다 연구소', num: '09' },
       { to: '/results', label: 'Rankings', sub: '대회 순위', num: '10' },
+      { to: '/festival', label: 'Festival', sub: '축제·대회 일정', num: '◈' },
     ],
   },
   {
