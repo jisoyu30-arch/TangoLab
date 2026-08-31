@@ -24871,6 +24871,1652 @@
           "title": "Final Escenario, Ronda 3 Mundial de Tango 2021, baile de tango"
         }
       ]
+    },
+    {
+      "round_id": "R-MUNDIAL2026-PISTA-SF1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [],
+      "judges": [
+        "Leandro Oliver",
+        "Cynthia Palacios",
+        "Fabián Peralta",
+        "Cristina Sosa",
+        "Andrés Laza Moreno",
+        "Inés Bogado"
+      ],
+      "total_couples": 10,
+      "participants": [
+        {
+          "pareja": 1,
+          "leader": "Erik Deslarmes",
+          "follower": "Nadia Aguilar",
+          "rank": 7,
+          "promedio": 8.575,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 145,
+          "leader": "Marcelo Javier Torres",
+          "follower": "Francisca Alarcon Irrazabal",
+          "rank": 19,
+          "promedio": 8.445,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 254,
+          "leader": "Sergei Kurkatov",
+          "follower": "Ksenia Rubina",
+          "rank": 39,
+          "promedio": 8.343,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 259,
+          "leader": "Agustin Rojas",
+          "follower": "Mara Oviedo",
+          "rank": 47,
+          "promedio": 8.313,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 670,
+          "leader": "Leonel Herrera",
+          "follower": "Aldana Mileva",
+          "rank": 81,
+          "promedio": 8.205,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 151,
+          "leader": "Mario Sergio",
+          "follower": "Vanessa Jardim",
+          "rank": 133,
+          "promedio": 8.025,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 308,
+          "leader": "Vadim Cheremnykh",
+          "follower": "Anna Shakirova",
+          "rank": 147,
+          "promedio": 7.935,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 177,
+          "leader": "Alexander Komogortsev",
+          "follower": "Kristina Komogortseva",
+          "rank": 151,
+          "promedio": 7.888,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 575,
+          "leader": "Yecid Murillo",
+          "follower": "Piera Primiterra",
+          "rank": 152,
+          "promedio": 7.855,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 529,
+          "leader": "Gabriel Tolaba",
+          "follower": "Yanina Ceballo Hoyos",
+          "rank": 158,
+          "promedio": 7.725,
+          "advancedTo": "semifinal"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2026-PISTA-SF2",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 2,
+      "songs": [],
+      "videos": [],
+      "judges": [
+        "Leandro Oliver",
+        "Cynthia Palacios",
+        "Fabián Peralta",
+        "Cristina Sosa",
+        "Andrés Laza Moreno",
+        "Inés Bogado"
+      ],
+      "total_couples": 10,
+      "participants": [
+        {
+          "pareja": 104,
+          "leader": "Ezequiel Mendoza",
+          "follower": "Magdalena Myszka",
+          "rank": 52,
+          "promedio": 8.303,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 573,
+          "leader": "Claudio Peralta",
+          "follower": "Maria Marinova",
+          "rank": 56,
+          "promedio": 8.295,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 713,
+          "leader": "Juan Manuel Rosales",
+          "follower": "Liza Rosales",
+          "rank": 57,
+          "promedio": 8.293,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 701,
+          "leader": "Sebastian Avendaño",
+          "follower": "Tania Gutierrez",
+          "rank": 68,
+          "promedio": 8.253,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 441,
+          "leader": "Ariel Giordanengo",
+          "follower": "Elise Barbot",
+          "rank": 116,
+          "promedio": 8.088,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 682,
+          "leader": "Jorge Andres Padilla Mayo",
+          "follower": "Ana Zoraida Gomez Diaz",
+          "rank": 122,
+          "promedio": 8.063,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 671,
+          "leader": "Ke Meng Dang",
+          "follower": "Zhen Yu Zhou",
+          "rank": 141,
+          "promedio": 7.98,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 423,
+          "leader": "Francisco Coria",
+          "follower": "Yael Nahir",
+          "rank": 143,
+          "promedio": 7.975,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 196,
+          "leader": "Franco Andrada",
+          "follower": "Estela Guo",
+          "rank": 153,
+          "promedio": 7.853,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 125,
+          "leader": "Michael Bizquiazzo",
+          "follower": "Natalia Pintos",
+          "rank": 156,
+          "promedio": 7.798,
+          "advancedTo": "semifinal"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2026-PISTA-SF3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 3,
+      "songs": [],
+      "videos": [],
+      "judges": [
+        "Leandro Oliver",
+        "Cynthia Palacios",
+        "Fabián Peralta",
+        "Cristina Sosa",
+        "Andrés Laza Moreno",
+        "Inés Bogado"
+      ],
+      "total_couples": 10,
+      "participants": [
+        {
+          "pareja": 159,
+          "leader": "Cristian Correa",
+          "follower": "Miriam Copello",
+          "rank": 23,
+          "promedio": 8.413,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 95,
+          "leader": "Jesus Luis Paez",
+          "follower": "Iara Duarte",
+          "rank": 25,
+          "promedio": 8.408,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 5,
+          "leader": "Ferrol Matthew Poluan",
+          "follower": "Muliany Rambe",
+          "rank": 34,
+          "promedio": 8.37,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 393,
+          "leader": "Norair Arakelian",
+          "follower": "Sofia Seminskaia",
+          "rank": 40,
+          "promedio": 8.338,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 315,
+          "leader": "Maximiliano Astorga",
+          "follower": "Fernanda Valenzuela",
+          "rank": 43,
+          "promedio": 8.328,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 103,
+          "leader": "Jorge Carlos López",
+          "follower": "Lali Victoria",
+          "rank": 76,
+          "promedio": 8.235,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 54,
+          "leader": "Severin Fraser",
+          "follower": "Nana Urigaeva",
+          "rank": 104,
+          "promedio": 8.13,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 522,
+          "leader": "Joel De La O Arredondo",
+          "follower": "Veronica Peinado Flores",
+          "rank": 112,
+          "promedio": 8.113,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 683,
+          "leader": "Esteban Adrian De Gregorio",
+          "follower": "Angela Romina Cides",
+          "rank": 137,
+          "promedio": 8.015,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 673,
+          "leader": "Enzo Kina",
+          "follower": "Juliana Luizao",
+          "rank": 159,
+          "promedio": 7.713,
+          "advancedTo": "semifinal"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2026-PISTA-SF4",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 4,
+      "songs": [],
+      "videos": [],
+      "judges": [
+        "Leandro Oliver",
+        "Cynthia Palacios",
+        "Fabián Peralta",
+        "Cristina Sosa",
+        "Andrés Laza Moreno",
+        "Inés Bogado"
+      ],
+      "total_couples": 10,
+      "participants": [
+        {
+          "pareja": 335,
+          "leader": "Dmitrii Liferov",
+          "follower": "Dana Son",
+          "rank": 11,
+          "promedio": 8.528,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 677,
+          "leader": "Nahuel Aragón Diani",
+          "follower": "Evelyn Ponce",
+          "rank": 37,
+          "promedio": 8.345,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 162,
+          "leader": "Joel Maximiliano Tempestti",
+          "follower": "Águeda Jimena Mansilla",
+          "rank": 73,
+          "promedio": 8.24,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 431,
+          "leader": "Andrei Bogdanov",
+          "follower": "Maria Korsakova",
+          "rank": 77,
+          "promedio": 8.235,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 685,
+          "leader": "Luis Angel Rojas",
+          "follower": "Ingrid Iregui",
+          "rank": 100,
+          "promedio": 8.15,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 427,
+          "leader": "Raphaël Le Vanic",
+          "follower": "Solène Pucheu",
+          "rank": 118,
+          "promedio": 8.08,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 379,
+          "leader": "Federico Antonio Frete",
+          "follower": "Laura Ayelen Grimaldi",
+          "rank": 123,
+          "promedio": 8.063,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 35,
+          "leader": "Alejandro Beron",
+          "follower": "Kelly Lettieri",
+          "rank": 129,
+          "promedio": 8.05,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 292,
+          "leader": "Víctor Martín González",
+          "follower": "Natali Claveriz",
+          "rank": 155,
+          "promedio": 7.818,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 278,
+          "leader": "Diego Pichimil",
+          "follower": "Marina Millalen",
+          "rank": 157,
+          "promedio": 7.78,
+          "advancedTo": "semifinal"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2026-PISTA-SF5",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 5,
+      "songs": [],
+      "videos": [],
+      "judges": [
+        "Leandro Oliver",
+        "Cynthia Palacios",
+        "Fabián Peralta",
+        "Cristina Sosa",
+        "Andrés Laza Moreno",
+        "Inés Bogado"
+      ],
+      "total_couples": 9,
+      "participants": [
+        {
+          "pareja": 460,
+          "leader": "Lucas Gauto",
+          "follower": "Naima Gerasopoulou",
+          "rank": 1,
+          "promedio": 8.84,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 91,
+          "leader": "Rodrigo Nicolas Palacios",
+          "follower": "Indira Hiayes",
+          "rank": 2,
+          "promedio": 8.74,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 116,
+          "leader": "Ariel Manzanares",
+          "follower": "Analia Laura Alfaro",
+          "rank": 50,
+          "promedio": 8.305,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 301,
+          "leader": "Juan Pablo Valdebenito",
+          "follower": "Rosario Belén Gimenez",
+          "rank": 69,
+          "promedio": 8.248,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 31,
+          "leader": "Vadim Kaitukov",
+          "follower": "Olga Mokrushina",
+          "rank": 84,
+          "promedio": 8.2,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 533,
+          "leader": "Wonjun Seol",
+          "follower": "Hari Seo",
+          "rank": 90,
+          "promedio": 8.183,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 489,
+          "leader": "Jhony Blandón",
+          "follower": "Viviana Salazar Loaiza",
+          "rank": 111,
+          "promedio": 8.113,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 227,
+          "leader": "Fernando de Campos",
+          "follower": "Debora Ambrosano",
+          "rank": 117,
+          "promedio": 8.083,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 185,
+          "leader": "Jhonatan Lopez",
+          "follower": "Augusto Giraldo",
+          "rank": 125,
+          "promedio": 8.058,
+          "advancedTo": "semifinal"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2026-PISTA-SF6",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 6,
+      "songs": [],
+      "videos": [],
+      "judges": [
+        "Leandro Oliver",
+        "Cynthia Palacios",
+        "Fabián Peralta",
+        "Cristina Sosa",
+        "Andrés Laza Moreno",
+        "Inés Bogado"
+      ],
+      "total_couples": 9,
+      "participants": [
+        {
+          "pareja": 424,
+          "leader": "Juan David Vargas",
+          "follower": "Ornella Simonetto",
+          "rank": 6,
+          "promedio": 8.638,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 248,
+          "leader": "Ivan Franco",
+          "follower": "Magali Tokian",
+          "rank": 33,
+          "promedio": 8.375,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 69,
+          "leader": "Dmitrii Kuznetsov",
+          "follower": "Olga Nikolaeva",
+          "rank": 45,
+          "promedio": 8.318,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 370,
+          "leader": "Darío Cieri",
+          "follower": "Rocío de la Torre",
+          "rank": 64,
+          "promedio": 8.278,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 389,
+          "leader": "Alejandro Lazzaro",
+          "follower": "Gabriela Gallese",
+          "rank": 80,
+          "promedio": 8.208,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 381,
+          "leader": "Agustin Gutiérrez",
+          "follower": "Luz Mariel Mamani",
+          "rank": 93,
+          "promedio": 8.18,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 337,
+          "leader": "Vinicius Osterne",
+          "follower": "Gabriela Fernández",
+          "rank": 119,
+          "promedio": 8.078,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 250,
+          "leader": "Vicente Albarengo",
+          "follower": "Florencia Marioni Alustiza",
+          "rank": 120,
+          "promedio": 8.075,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 75,
+          "leader": "Emile Roméo Gayoso",
+          "follower": "Sophie Cellarius",
+          "rank": 139,
+          "promedio": 7.995,
+          "advancedTo": "semifinal"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2026-PISTA-SF7",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 7,
+      "songs": [],
+      "videos": [],
+      "judges": [
+        "Leandro Oliver",
+        "Cynthia Palacios",
+        "Fabián Peralta",
+        "Cristina Sosa",
+        "Andrés Laza Moreno",
+        "Inés Bogado"
+      ],
+      "total_couples": 10,
+      "participants": [
+        {
+          "pareja": 545,
+          "leader": "Leonardo Pankow",
+          "follower": "Valentina Massari",
+          "rank": 8,
+          "promedio": 8.558,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 542,
+          "leader": "Andrea Vighi",
+          "follower": "Chiara Benati",
+          "rank": 58,
+          "promedio": 8.285,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 149,
+          "leader": "Gabriel Salvi",
+          "follower": "Carolina Leonardelli",
+          "rank": 65,
+          "promedio": 8.273,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 107,
+          "leader": "Valentín Arias Delgado",
+          "follower": "Diana Paola Franco Durango",
+          "rank": 71,
+          "promedio": 8.24,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 678,
+          "leader": "Francis Damian Aguilar",
+          "follower": "Sophie Sperling",
+          "rank": 87,
+          "promedio": 8.193,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 169,
+          "leader": "Martin Cayesse",
+          "follower": "Mauge Corna",
+          "rank": 89,
+          "promedio": 8.188,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 689,
+          "leader": "Emmanuel David Avendaño",
+          "follower": "Marina Machado Riquelme",
+          "rank": 101,
+          "promedio": 8.14,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 600,
+          "leader": "Diego Martín Valero",
+          "follower": "Delfina Pissani",
+          "rank": 103,
+          "promedio": 8.133,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 187,
+          "leader": "Marini Nicolas",
+          "follower": "Vivian Yeh",
+          "rank": 126,
+          "promedio": 8.058,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 118,
+          "leader": "Benjamin Grisoni",
+          "follower": "Zamira Rose",
+          "rank": 127,
+          "promedio": 8.053,
+          "advancedTo": "semifinal"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2026-PISTA-SF8",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 8,
+      "songs": [],
+      "videos": [],
+      "judges": [
+        "Leandro Oliver",
+        "Cynthia Palacios",
+        "Fabián Peralta",
+        "Cristina Sosa",
+        "Andrés Laza Moreno",
+        "Inés Bogado"
+      ],
+      "total_couples": 10,
+      "participants": [
+        {
+          "pareja": 447,
+          "leader": "Valentin Bobkov",
+          "follower": "Katerina Tsybrova",
+          "rank": 16,
+          "promedio": 8.473,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 293,
+          "leader": "Hernan Rodriguez",
+          "follower": "Maria Florencia Labiano",
+          "rank": 26,
+          "promedio": 8.395,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 273,
+          "leader": "Gustavo Chaile",
+          "follower": "Mayela Aponte",
+          "rank": 31,
+          "promedio": 8.388,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 720,
+          "leader": "Damian Mechura",
+          "follower": "Veronica Vazquez",
+          "rank": 32,
+          "promedio": 8.378,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 23,
+          "leader": "Luciano Mario Navoni",
+          "follower": "Maria Celeste Cimino",
+          "rank": 38,
+          "promedio": 8.345,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 66,
+          "leader": "Camilo Bernal Varela",
+          "follower": "Mayi Yepes Arboleda",
+          "rank": 44,
+          "promedio": 8.32,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 696,
+          "leader": "Kelvin Cal",
+          "follower": "Camila Rocha",
+          "rank": 54,
+          "promedio": 8.298,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 329,
+          "leader": "Giuliano Calvimonte",
+          "follower": "Roxane Camargo",
+          "rank": 70,
+          "promedio": 8.245,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 277,
+          "leader": "Eduardo Roman",
+          "follower": "Tamara Borda",
+          "rank": 83,
+          "promedio": 8.2,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 263,
+          "leader": "Lucas Robañera",
+          "follower": "becky Navarro",
+          "rank": 132,
+          "promedio": 8.033,
+          "advancedTo": "semifinal"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2026-PISTA-SF9",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 9,
+      "songs": [],
+      "videos": [],
+      "judges": [
+        "Leandro Oliver",
+        "Cynthia Palacios",
+        "Fabián Peralta",
+        "Cristina Sosa",
+        "Andrés Laza Moreno",
+        "Inés Bogado"
+      ],
+      "total_couples": 10,
+      "participants": [
+        {
+          "pareja": 665,
+          "leader": "Sebastian Acosta",
+          "follower": "Laura DAnna",
+          "rank": 4,
+          "promedio": 8.695,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 139,
+          "leader": "London",
+          "follower": "Sol",
+          "rank": 12,
+          "promedio": 8.52,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 133,
+          "leader": "Alexander Moncada Rojas",
+          "follower": "Martina Waldman",
+          "rank": 18,
+          "promedio": 8.448,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 211,
+          "leader": "Eric Dinzel",
+          "follower": "Flavia Kohut",
+          "rank": 22,
+          "promedio": 8.415,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 390,
+          "leader": "Maxi Copello",
+          "follower": "Karu Terenzio",
+          "rank": 28,
+          "promedio": 8.395,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 552,
+          "leader": "Mariano Serrudo",
+          "follower": "Müge Üner",
+          "rank": 46,
+          "promedio": 8.318,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 311,
+          "leader": "Nicolas Cot",
+          "follower": "Julieta Victoria Alao",
+          "rank": 121,
+          "promedio": 8.075,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 702,
+          "leader": "Cristian Quevedo",
+          "follower": "Mariel Quintana Grasso",
+          "rank": 128,
+          "promedio": 8.053,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 176,
+          "leader": "Ricardo Albornoz",
+          "follower": "Daniela Inglese",
+          "rank": 130,
+          "promedio": 8.05,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 405,
+          "leader": "Carlos Martin Rodriguez",
+          "follower": "Maria Rosalia Pereyra",
+          "rank": 140,
+          "promedio": 7.985,
+          "advancedTo": "semifinal"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2026-PISTA-SF10",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 10,
+      "songs": [],
+      "videos": [],
+      "judges": [
+        "Leandro Oliver",
+        "Cynthia Palacios",
+        "Fabián Peralta",
+        "Cristina Sosa",
+        "Andrés Laza Moreno",
+        "Inés Bogado"
+      ],
+      "total_couples": 10,
+      "participants": [
+        {
+          "pareja": 347,
+          "leader": "Lucio Galván",
+          "follower": "Sol Alzarán",
+          "rank": 15,
+          "promedio": 8.478,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 208,
+          "leader": "Facundo Barrionuevo",
+          "follower": "Agustina Juanbelz",
+          "rank": 27,
+          "promedio": 8.395,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 703,
+          "leader": "Lucas Martin",
+          "follower": "Victoria Pesci",
+          "rank": 29,
+          "promedio": 8.395,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 29,
+          "leader": "Juan Ignacio Etcheverry",
+          "follower": "Veronica Bachini",
+          "rank": 82,
+          "promedio": 8.203,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 157,
+          "leader": "Jared Ramos",
+          "follower": "Rocío Selesán",
+          "rank": 85,
+          "promedio": 8.198,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 693,
+          "leader": "David Ezequiel Chartoriski",
+          "follower": "Yelena Odintsova",
+          "rank": 88,
+          "promedio": 8.19,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 422,
+          "leader": "Songyan Li",
+          "follower": "Yushan Pan",
+          "rank": 91,
+          "promedio": 8.183,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 518,
+          "leader": "Federico Carrizo",
+          "follower": "Jesica Gomez",
+          "rank": 95,
+          "promedio": 8.173,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 153,
+          "leader": "Rommel Oramas",
+          "follower": "Utha Callen",
+          "rank": 134,
+          "promedio": 8.018,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 264,
+          "leader": "Miguel García",
+          "follower": "Sandra Martínez",
+          "rank": 135,
+          "promedio": 8.018,
+          "advancedTo": "semifinal"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2026-PISTA-SF11",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 11,
+      "songs": [],
+      "videos": [],
+      "judges": [
+        "Leandro Oliver",
+        "Cynthia Palacios",
+        "Fabián Peralta",
+        "Cristina Sosa",
+        "Andrés Laza Moreno",
+        "Inés Bogado"
+      ],
+      "total_couples": 10,
+      "participants": [
+        {
+          "pareja": 244,
+          "leader": "Alejandro Ferreyra",
+          "follower": "Fernanda Grosso",
+          "rank": 14,
+          "promedio": 8.498,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 715,
+          "leader": "Juan Fernando Cabral",
+          "follower": "Laura Cecilia Castiñeiras",
+          "rank": 20,
+          "promedio": 8.438,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 79,
+          "leader": "Juan Cupini",
+          "follower": "Erica Rossi",
+          "rank": 42,
+          "promedio": 8.333,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 451,
+          "leader": "Héctor Abel Colque",
+          "follower": "Magdalena del Milagro Yrahola",
+          "rank": 48,
+          "promedio": 8.313,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 676,
+          "leader": "Sergiy Podbolotnyy",
+          "follower": "Olena Sergiienko",
+          "rank": 61,
+          "promedio": 8.28,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 204,
+          "leader": "Damián Esell",
+          "follower": "Noelia Soldera",
+          "rank": 63,
+          "promedio": 8.28,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 462,
+          "leader": "Lautaro Levato",
+          "follower": "Milagros Quintana",
+          "rank": 72,
+          "promedio": 8.24,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 276,
+          "leader": "Matias Cabezuelo",
+          "follower": "Nicole Mazza",
+          "rank": 94,
+          "promedio": 8.175,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 192,
+          "leader": "Dennis Cante",
+          "follower": "Tanya Spektor",
+          "rank": 98,
+          "promedio": 8.16,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 698,
+          "leader": "Carlos Rodriguez",
+          "follower": "Brigita Rodriguez",
+          "rank": 106,
+          "promedio": 8.125,
+          "advancedTo": "semifinal"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2026-PISTA-SF12",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 12,
+      "songs": [],
+      "videos": [],
+      "judges": [
+        "Leandro Oliver",
+        "Cynthia Palacios",
+        "Fabián Peralta",
+        "Cristina Sosa",
+        "Andrés Laza Moreno",
+        "Inés Bogado"
+      ],
+      "total_couples": 9,
+      "participants": [
+        {
+          "pareja": 141,
+          "leader": "Cristian Lopez",
+          "follower": "Naoko Tsutsumizaki",
+          "rank": 9,
+          "promedio": 8.548,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 675,
+          "leader": "Artem Luchin",
+          "follower": "Polina Luchina",
+          "rank": 13,
+          "promedio": 8.498,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 585,
+          "leader": "Otto Honeker",
+          "follower": "Magdalena Tarasova",
+          "rank": 49,
+          "promedio": 8.305,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 541,
+          "leader": "Ramiro Perez Caricchio",
+          "follower": "Iara Deluchi",
+          "rank": 53,
+          "promedio": 8.303,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 519,
+          "leader": "Sebastian Fernandez",
+          "follower": "Anastasiia Rudiak",
+          "rank": 78,
+          "promedio": 8.23,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 330,
+          "leader": "Carlos Flores",
+          "follower": "Marcia Martinucci",
+          "rank": 96,
+          "promedio": 8.168,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 260,
+          "leader": "Nahuel Esteban Mansilla",
+          "follower": "Maria Tatiana Bernacki",
+          "rank": 108,
+          "promedio": 8.123,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 524,
+          "leader": "Matías Iván Persico",
+          "follower": "Valentina Noelia Medina",
+          "rank": 131,
+          "promedio": 8.05,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 534,
+          "leader": "Jacek Binkowski",
+          "follower": "Teresa Binkowska",
+          "rank": 138,
+          "promedio": 8.0,
+          "advancedTo": "semifinal"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2026-PISTA-SF13",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 13,
+      "songs": [],
+      "videos": [],
+      "judges": [
+        "Leandro Oliver",
+        "Cynthia Palacios",
+        "Fabián Peralta",
+        "Cristina Sosa",
+        "Andrés Laza Moreno",
+        "Inés Bogado"
+      ],
+      "total_couples": 9,
+      "participants": [
+        {
+          "pareja": 120,
+          "leader": "Andrei Panferov",
+          "follower": "Ekaterina Petrova",
+          "rank": 10,
+          "promedio": 8.53,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 342,
+          "leader": "Ramiro Nicolas Almiron",
+          "follower": "Laly Torres",
+          "rank": 41,
+          "promedio": 8.338,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 469,
+          "leader": "Krishna Olmedo",
+          "follower": "Johanna Aranda",
+          "rank": 51,
+          "promedio": 8.305,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 70,
+          "leader": "Artem Irzhevskii",
+          "follower": "Lili Gorgodze",
+          "rank": 60,
+          "promedio": 8.285,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 26,
+          "leader": "Diego Churquina",
+          "follower": "Paula Pandol",
+          "rank": 66,
+          "promedio": 8.273,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 228,
+          "leader": "Gonzalo Angeles",
+          "follower": "Nathalia Peña Muñoz",
+          "rank": 74,
+          "promedio": 8.238,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 647,
+          "leader": "Andres Gonzalez Ballesteros",
+          "follower": "Sara Gòmez Quiroz",
+          "rank": 79,
+          "promedio": 8.22,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 580,
+          "leader": "Alberto Leis",
+          "follower": "Morena Ortega",
+          "rank": 113,
+          "promedio": 8.108,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 372,
+          "leader": "Marcos Guzman",
+          "follower": "Diana Mancilla",
+          "rank": 146,
+          "promedio": 7.943,
+          "advancedTo": "semifinal"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2026-PISTA-SF14",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 14,
+      "songs": [],
+      "videos": [],
+      "judges": [
+        "Leandro Oliver",
+        "Cynthia Palacios",
+        "Fabián Peralta",
+        "Cristina Sosa",
+        "Andrés Laza Moreno",
+        "Inés Bogado"
+      ],
+      "total_couples": 8,
+      "participants": [
+        {
+          "pareja": 684,
+          "leader": "Marcela Mansilla",
+          "follower": "Orlando Nieto",
+          "rank": 55,
+          "promedio": 8.298,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 711,
+          "leader": "Alejandro Montes de Oca",
+          "follower": "Liliana Beatriz del Valle",
+          "rank": 86,
+          "promedio": 8.195,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 400,
+          "leader": "Hyoung Wook Chang",
+          "follower": "Eun Young Lee",
+          "rank": 92,
+          "promedio": 8.18,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 348,
+          "leader": "Leonardo Durso",
+          "follower": "Fabiana Portas",
+          "rank": 97,
+          "promedio": 8.168,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 707,
+          "leader": "Edgardo \"patita\" Palleyro",
+          "follower": "Maria Rosa Corsisky",
+          "rank": 114,
+          "promedio": 8.105,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 51,
+          "leader": "Marcelo Sassi",
+          "follower": "Ines Correa",
+          "rank": 124,
+          "promedio": 8.063,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 142,
+          "leader": "Navir Salas Morales",
+          "follower": "Monica Sant`Anna Furtado",
+          "rank": 142,
+          "promedio": 7.975,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 229,
+          "leader": "Alberto Re",
+          "follower": "María Susana Eguaburo",
+          "rank": 149,
+          "promedio": 7.93,
+          "advancedTo": "semifinal"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2026-PISTA-SF15",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 15,
+      "songs": [],
+      "videos": [],
+      "judges": [
+        "Leandro Oliver",
+        "Cynthia Palacios",
+        "Fabián Peralta",
+        "Cristina Sosa",
+        "Andrés Laza Moreno",
+        "Inés Bogado"
+      ],
+      "total_couples": 9,
+      "participants": [
+        {
+          "pareja": 712,
+          "leader": "Juan Ignacio Braida",
+          "follower": "Natasha Kaliszuk Lee",
+          "rank": 3,
+          "promedio": 8.71,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 386,
+          "leader": "Matteo Antonietti",
+          "follower": "Añes Arredondo",
+          "rank": 17,
+          "promedio": 8.468,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 572,
+          "leader": "Carlos Estigarribia",
+          "follower": "Letizia Messina",
+          "rank": 21,
+          "promedio": 8.42,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 714,
+          "leader": "Rodrigo Videla",
+          "follower": "Marina Teves",
+          "rank": 30,
+          "promedio": 8.395,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 452,
+          "leader": "Diego Ezequiel Pérez",
+          "follower": "María Soledad Cantarini",
+          "rank": 36,
+          "promedio": 8.355,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 332,
+          "leader": "Kirill Pokorskii",
+          "follower": "Muzhgan Yusifova",
+          "rank": 75,
+          "promedio": 8.238,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 246,
+          "leader": "Abel Matias Cejas",
+          "follower": "Jorgelina Cañadas",
+          "rank": 105,
+          "promedio": 8.13,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 660,
+          "leader": "Sandson Júnior",
+          "follower": "Mariane Ribeiro",
+          "rank": 110,
+          "promedio": 8.118,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 498,
+          "leader": "Brian Nahuel Gomez",
+          "follower": "Camila Jacqueline Reynoso",
+          "rank": 154,
+          "promedio": 7.85,
+          "advancedTo": "semifinal"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2026-PISTA-SF16",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 16,
+      "songs": [],
+      "videos": [],
+      "judges": [
+        "Leandro Oliver",
+        "Cynthia Palacios",
+        "Fabián Peralta",
+        "Cristina Sosa",
+        "Andrés Laza Moreno",
+        "Inés Bogado"
+      ],
+      "total_couples": 9,
+      "participants": [
+        {
+          "pareja": 440,
+          "leader": "Stanislav Fursov",
+          "follower": "Ekaterina Simonova",
+          "rank": 5,
+          "promedio": 8.683,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 166,
+          "leader": "Ariel Taritolay",
+          "follower": "Laura Casco Zorzon",
+          "rank": 24,
+          "promedio": 8.413,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 692,
+          "leader": "Ruslan Bektimirov",
+          "follower": "Iullia Osina",
+          "rank": 35,
+          "promedio": 8.365,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 565,
+          "leader": "Jakub Grzybek",
+          "follower": "Patrycja Cisowska-Grzybek",
+          "rank": 59,
+          "promedio": 8.285,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 236,
+          "leader": "Lucas Nicolas Cartagena",
+          "follower": "Lucila Diaz Colodrero",
+          "rank": 62,
+          "promedio": 8.28,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 657,
+          "leader": "Julio Azorin",
+          "follower": "Belén Valdez",
+          "rank": 67,
+          "promedio": 8.265,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 368,
+          "leader": "Raúl Moure",
+          "follower": "Antonela Méndez",
+          "rank": 107,
+          "promedio": 8.123,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 694,
+          "leader": "Ilyas Baiguzhin",
+          "follower": "Diana Tleuliyeva",
+          "rank": 115,
+          "promedio": 8.1,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 102,
+          "leader": "Emiliano Mamani",
+          "follower": "Lucia Pertierra",
+          "rank": 144,
+          "promedio": 7.968,
+          "advancedTo": "semifinal"
+        }
+      ]
+    },
+    {
+      "round_id": "R-MUNDIAL2026-PISTA-SF17",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 17,
+      "songs": [],
+      "videos": [],
+      "judges": [
+        "Leandro Oliver",
+        "Cynthia Palacios",
+        "Fabián Peralta",
+        "Cristina Sosa",
+        "Andrés Laza Moreno",
+        "Inés Bogado"
+      ],
+      "total_couples": 7,
+      "participants": [
+        {
+          "pareja": 148,
+          "leader": "Elías Ramon Abdala",
+          "follower": "Maria Silvina del Bosque",
+          "rank": 99,
+          "promedio": 8.155,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 710,
+          "leader": "Claudio Marcelo Orso",
+          "follower": "Flor Martinez",
+          "rank": 102,
+          "promedio": 8.138,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 708,
+          "leader": "Alfredo Ricardo Encina",
+          "follower": "Ana Luisa Difrancisco",
+          "rank": 109,
+          "promedio": 8.123,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 709,
+          "leader": "Laurence Martin",
+          "follower": "Sergio Sottile",
+          "rank": 136,
+          "promedio": 8.018,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 300,
+          "leader": "Waldemar Guillermo Sasso",
+          "follower": "Myriam del Valle Gamietea",
+          "rank": 145,
+          "promedio": 7.968,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 418,
+          "leader": "Pablo Oscar Pacheco",
+          "follower": "María Eugenia Asnicar",
+          "rank": 148,
+          "promedio": 7.933,
+          "advancedTo": "semifinal"
+        },
+        {
+          "pareja": 257,
+          "leader": "Humberto Morales",
+          "follower": "Claudia Sanese",
+          "rank": 150,
+          "promedio": 7.928,
+          "advancedTo": "semifinal"
+        }
+      ]
     }
   ]
 }
