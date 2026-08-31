@@ -94,6 +94,11 @@ const STAGE_LABELS_FULL: Record<string, string> = {
 };
 
 const STAGE_ORDER = ['clasificatoria', 'cuartos', 'semifinal', 'final'];
+// competition_rounds.json 의 stage 값 -> mundial_results.json 의 스테이지 이름
+const ROUND_STAGE_TO_MUNDIAL: Record<string, string> = {
+  qualifying: 'clasificatoria', quarterfinal: 'cuartos',
+  semifinal: 'semifinal', final: 'final',
+};
 const STAGE_COLORS: Record<string, string> = {
   clasificatoria: 'bg-blue-500/20 text-blue-400 border-blue-500/30',
   cuartos: 'bg-purple-500/20 text-purple-400 border-purple-500/30',
@@ -231,7 +236,9 @@ function MundialVideoSection({ mundialVideos }: { mundialVideos: Record<string, 
 }
 
 function buildJourneys(yearData: MundialYear, isSenior: boolean): CoupleJourney[] {
-  const final = yearData.stages.final as MundialFinal;
+  // 진행 중인 대회는 아직 결승 데이터가 없다 — 여정은 결승 진출자 기준이라 빈 목록
+  const final = yearData.stages.final as MundialFinal | undefined;
+  if (!final) return [];
   const finalists = isSenior ? final.senior?.couples ?? [] : final.general?.couples ?? [];
 
   return finalists.map(finalist => {
@@ -320,6 +327,11 @@ export function CompetitionResultsPage() {
     [yearData, showSenior]
   );
 
+  // 결승 전 연도에는 'final' 스테이지가 없다 → 실제로 있는 스테이지로 넘긴다
+  const activeStage = stages.includes(selectedStage) ? selectedStage : stages[0] ?? 'final';
+  // 결승 진출자가 없으면 '여정' 뷰가 빌 수밖에 없으므로 스테이지 뷰로 보여준다
+  const activeViewMode = journeys.length > 0 ? viewMode : 'stages';
+
   // KTC
   const ktcYears = useMemo(() => {
     const yrs = new Set(allRounds.map(r => r.year));
@@ -352,7 +364,20 @@ export function CompetitionResultsPage() {
     final: '결승', semifinal: '준결승', quarterfinal: '8강', qualifying: '예선',
   };
 
-  const mundialVideos = MUNDIAL_VIDEOS[selectedYear] ?? {};
+  // 하드코딩 목록이 있는 연도는 그대로, 없는 연도(2026~)는 라운드 데이터에서 모은다
+  const mundialVideos = useMemo(() => {
+    const listed = MUNDIAL_VIDEOS[selectedYear];
+    if (listed) return listed;
+    const byStage: Record<string, { video_id: string; title: string; channel: string }[]> = {};
+    for (const r of allRounds) {
+      if (r.competition !== 'Mundial' || String(r.year) !== selectedYear) continue;
+      const stage = ROUND_STAGE_TO_MUNDIAL[r.stage] ?? r.stage;
+      for (const v of r.videos ?? []) {
+        (byStage[stage] ??= []).push({ video_id: v.video_id, title: v.title, channel: v.channel });
+      }
+    }
+    return byStage;
+  }, [selectedYear]);
 
   return (
     <>
@@ -423,7 +448,7 @@ export function CompetitionResultsPage() {
                   <button
                     onClick={() => setViewMode('journey')}
                     className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${
-                      viewMode === 'journey' ? 'bg-tango-brass/20 text-tango-brass font-medium' : 'bg-white/5 text-gray-400 hover:bg-white/10'
+                      activeViewMode === 'journey' ? 'bg-tango-brass/20 text-tango-brass font-medium' : 'bg-white/5 text-gray-400 hover:bg-white/10'
                     }`}
                   >
                     선수별 여정
@@ -431,7 +456,7 @@ export function CompetitionResultsPage() {
                   <button
                     onClick={() => setViewMode('stages')}
                     className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${
-                      viewMode === 'stages' ? 'bg-tango-brass/20 text-tango-brass font-medium' : 'bg-white/5 text-gray-400 hover:bg-white/10'
+                      activeViewMode === 'stages' ? 'bg-tango-brass/20 text-tango-brass font-medium' : 'bg-white/5 text-gray-400 hover:bg-white/10'
                     }`}
                   >
                     스테이지별
@@ -459,7 +484,7 @@ export function CompetitionResultsPage() {
                 </button>
               </div>
 
-              {viewMode === 'journey' ? (
+              {activeViewMode === 'journey' ? (
                 <JourneyView
                   journeys={journeys}
                   stages={stages}
@@ -478,7 +503,7 @@ export function CompetitionResultsPage() {
                         key={s}
                         onClick={() => { setSelectedStage(s); setExpandedCouple(null); setTopN(20); }}
                         className={`px-3 py-1.5 rounded-lg text-sm transition-colors ${
-                          selectedStage === s
+                          activeStage === s
                             ? 'bg-white/20 text-white font-medium'
                             : 'bg-white/5 text-gray-400 hover:bg-white/10'
                         }`}
@@ -489,9 +514,9 @@ export function CompetitionResultsPage() {
                   </div>
 
                   {/* 해당 스테이지 영상 */}
-                  {mundialVideos[selectedStage] && (
+                  {mundialVideos[activeStage] && (
                     <div className="flex flex-wrap gap-2">
-                      {mundialVideos[selectedStage].map(v => (
+                      {mundialVideos[activeStage].map(v => (
                         <a
                           key={v.video_id}
                           href={`https://www.youtube.com/watch?v=${v.video_id}`}
@@ -506,7 +531,7 @@ export function CompetitionResultsPage() {
                   )}
 
                   {/* 스테이지 내용 */}
-                  {selectedStage === 'final' ? (
+                  {activeStage === 'final' ? (
                     <FinalView
                       stage={yearData.stages.final as MundialFinal}
                       showSenior={showSenior}
@@ -517,7 +542,7 @@ export function CompetitionResultsPage() {
                     />
                   ) : (
                     <StageView
-                      stage={yearData.stages[selectedStage] as MundialStageGrouped | MundialStageDirect}
+                      stage={yearData.stages[activeStage] as MundialStageGrouped | MundialStageDirect}
                       expandedCouple={expandedCouple}
                       setExpandedCouple={setExpandedCouple}
                       topN={topN}

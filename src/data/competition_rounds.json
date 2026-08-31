@@ -24881,7 +24881,14 @@
       "stage": "semifinal",
       "ronda_number": 1,
       "songs": [],
-      "videos": [],
+      "videos": [
+        {
+          "video_id": "VT6xM-YjgUY",
+          "url": "https://www.youtube.com/watch?v=VT6xM-YjgUY",
+          "channel": "TDJ Cristian Águilar aguilar",
+          "title": "Ronda 1 Semifinal tango pista 2026"
+        }
+      ],
       "judges": [
         "Leandro Oliver",
         "Cynthia Palacios",
@@ -25085,7 +25092,14 @@
       "stage": "semifinal",
       "ronda_number": 3,
       "songs": [],
-      "videos": [],
+      "videos": [
+        {
+          "video_id": "yywQOiYSvrE",
+          "url": "https://www.youtube.com/watch?v=yywQOiYSvrE",
+          "channel": "Carlos Roberto Ayala",
+          "title": "Semifinal Mundial de tango Ronda 3 - Usina del arte 29 Agosto 2026"
+        }
+      ],
       "judges": [
         "Leandro Oliver",
         "Cynthia Palacios",
@@ -25187,7 +25201,14 @@
       "stage": "semifinal",
       "ronda_number": 4,
       "songs": [],
-      "videos": [],
+      "videos": [
+        {
+          "video_id": "tgp-RAJFHds",
+          "url": "https://www.youtube.com/watch?v=tgp-RAJFHds",
+          "channel": "Carlos Roberto Ayala",
+          "title": "Semifinal Mundial de tango Ronda 4 - Usina del arte 29 Agosto 2026"
+        }
+      ],
       "judges": [
         "Leandro Oliver",
         "Cynthia Palacios",
@@ -25289,7 +25310,14 @@
       "stage": "semifinal",
       "ronda_number": 5,
       "songs": [],
-      "videos": [],
+      "videos": [
+        {
+          "video_id": "KKUYuvT6TRY",
+          "url": "https://www.youtube.com/watch?v=KKUYuvT6TRY",
+          "channel": "Carlos Roberto Ayala",
+          "title": "Semifinal Mundial de tango Ronda 5 - Usina del arte 29 Agosto 2026"
+        }
+      ],
       "judges": [
         "Leandro Oliver",
         "Cynthia Palacios",
@@ -25383,7 +25411,14 @@
       "stage": "semifinal",
       "ronda_number": 6,
       "songs": [],
-      "videos": [],
+      "videos": [
+        {
+          "video_id": "FnQ_1djYhxE",
+          "url": "https://www.youtube.com/watch?v=FnQ_1djYhxE",
+          "channel": "Carlos Roberto Ayala",
+          "title": "Semifinal Mundial de tango Ronda 6 - Usina del arte 29 Agosto 2026"
+        }
+      ],
       "judges": [
         "Leandro Oliver",
         "Cynthia Palacios",
@@ -25477,7 +25512,14 @@
       "stage": "semifinal",
       "ronda_number": 7,
       "songs": [],
-      "videos": [],
+      "videos": [
+        {
+          "video_id": "94tvdIIIppw",
+          "url": "https://www.youtube.com/watch?v=94tvdIIIppw",
+          "channel": "Carlos Roberto Ayala",
+          "title": "Semifinal Mundial de tango Ronda 7 - Usina del arte 29 Agosto 2026"
+        }
+      ],
       "judges": [
         "Leandro Oliver",
         "Cynthia Palacios",
@@ -25579,7 +25621,14 @@
       "stage": "semifinal",
       "ronda_number": 8,
       "songs": [],
-      "videos": [],
+      "videos": [
+        {
+          "video_id": "E_HilvRKOEE",
+          "url": "https://www.youtube.com/watch?v=E_HilvRKOEE",
+          "channel": "Carlos Roberto Ayala",
+          "title": "Semifinal Mundial de tango Ronda 8 - Usina del arte 29 Agosto 2026"
+        }
+      ],
       "judges": [
         "Leandro Oliver",
         "Cynthia Palacios",
@@ -25681,7 +25730,14 @@
       "stage": "semifinal",
       "ronda_number": 9,
       "songs": [],
-      "videos": [],
+      "videos": [
+        {
+          "video_id": "4x5WrmSvnL8",
+          "url": "https://www.youtube.com/watch?v=4x5WrmSvnL8",
+          "channel": "Carlos Roberto Ayala",
+          "title": "Semifinal Mundial de tango Ronda 9 - Usina del arte 29 agosto 2026"
+        }
+      ],
       "judges": [
         "Leandro Oliver",
         "Cynthia Palacios",
@@ -25783,7 +25839,14 @@
       "stage": "semifinal",
       "ronda_number": 10,
       "songs": [],
-      "videos": [],
+      "videos": [
+        {
+          "video_id": "VBXpN_y3AWc",
+          "url": "https://www.youtube.com/watch?v=VBXpN_y3AWc",
+          "channel": "Carlos Roberto Ayala",
+          "title": "Semifinal Mundial de tango Ronda 10 - Usina del arte 29 Agosto 2026"
+        }
+      ],
       "judges": [
         "Leandro Oliver",
         "Cynthia Palacios",
@@ -26067,7 +26130,7 @@
           "leader": "Jacek Binkowski",
           "follower": "Teresa Binkowska",
           "rank": 138,
-          "promedio": 8.0,
+          "promedio": 8,
           "advancedTo": "semifinal"
         }
       ]
@@ -26261,7 +26324,14 @@
       "stage": "semifinal",
       "ronda_number": 15,
       "songs": [],
-      "videos": [],
+      "videos": [
+        {
+          "video_id": "zlF-4gtn6Yc",
+          "url": "https://www.youtube.com/watch?v=zlF-4gtn6Yc",
+          "channel": "Carlos Roberto Ayala",
+          "title": "Semifinal Mundial de tango Ronda 15 - Usina del arte 29 Agosto 2026"
+        }
+      ],
       "judges": [
         "Leandro Oliver",
         "Cynthia Palacios",
@@ -26355,7 +26425,14 @@
       "stage": "semifinal",
       "ronda_number": 16,
       "songs": [],
-      "videos": [],
+      "videos": [
+        {
+          "video_id": "qrIBZCwYsWw",
+          "url": "https://www.youtube.com/watch?v=qrIBZCwYsWw",
+          "channel": "Carlos Roberto Ayala",
+          "title": "Semifinal Mundial de tango Ronda 16 - Usina del arte 29 Agosto 2026"
+        }
+      ],
       "judges": [
         "Leandro Oliver",
         "Cynthia Palacios",
