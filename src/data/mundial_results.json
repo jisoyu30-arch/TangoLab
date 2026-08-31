@@ -25383,6 +25383,2227 @@
                 "ronda": 7
               }
             ]
+          },
+          "C": {
+            "date": "2026-08-24",
+            "venue": "Usina del Arte",
+            "judges": [
+              "Demián García",
+              "Carla Marano",
+              "Pablo Inza",
+              "Silvina Valz",
+              "Hernán Alvarez Prieto"
+            ],
+            "total_couples": 147,
+            "scoring": "심사위원 중 최고·최저 1개씩 제외한 평균",
+            "source": "tangoba.org 공식 결과 PDF (Pista-Clasificatorias-2026-24_8-C.pdf)",
+            "couples": [
+              {
+                "pareja": 519,
+                "leader": "Sebastian Fernandez",
+                "follower": "Anastasiia Rudiak",
+                "scores": {
+                  "Demián García": 7.7,
+                  "Carla Marano": 7.4,
+                  "Pablo Inza": 7.65,
+                  "Silvina Valz": 7.6,
+                  "Hernán Alvarez Prieto": 7.08
+                },
+                "promedio": 7.55,
+                "rank": 1,
+                "ronda": 9
+              },
+              {
+                "pareja": 347,
+                "leader": "Lucio Galván",
+                "follower": "Sol Alzarán",
+                "scores": {
+                  "Demián García": 7.7,
+                  "Carla Marano": 7.45,
+                  "Pablo Inza": 6.93,
+                  "Silvina Valz": 7.7,
+                  "Hernán Alvarez Prieto": 7.43
+                },
+                "promedio": 7.527,
+                "rank": 2,
+                "ronda": 9
+              },
+              {
+                "pareja": 665,
+                "leader": "Sebastian Acosta",
+                "follower": "Laura DAnna",
+                "scores": {
+                  "Demián García": 7.67,
+                  "Carla Marano": 7.5,
+                  "Pablo Inza": 7.5,
+                  "Silvina Valz": 7.0,
+                  "Hernán Alvarez Prieto": 7.42
+                },
+                "promedio": 7.473,
+                "rank": 3,
+                "ronda": 10
+              },
+              {
+                "pareja": 293,
+                "leader": "Hernan Rodriguez",
+                "follower": "Maria Florencia Labiano",
+                "scores": {
+                  "Demián García": 7.4,
+                  "Carla Marano": 7.4,
+                  "Pablo Inza": 7.44,
+                  "Silvina Valz": 7.5,
+                  "Hernán Alvarez Prieto": 7.48
+                },
+                "promedio": 7.44,
+                "rank": 4,
+                "ronda": 1
+              },
+              {
+                "pareja": 678,
+                "leader": "Francis Damian Aguilar",
+                "follower": "Sophie Sperling",
+                "scores": {
+                  "Demián García": 7.41,
+                  "Carla Marano": 7.43,
+                  "Pablo Inza": 7.43,
+                  "Silvina Valz": 7.02,
+                  "Hernán Alvarez Prieto": 7.45
+                },
+                "promedio": 7.423,
+                "rank": 5,
+                "ronda": 5
+              },
+              {
+                "pareja": 151,
+                "leader": "Mario Sergio Pereira da Silva",
+                "follower": "Vanessa Machado Jardim",
+                "scores": {
+                  "Demián García": 7.6,
+                  "Carla Marano": 7.18,
+                  "Pablo Inza": 7.38,
+                  "Silvina Valz": 7.52,
+                  "Hernán Alvarez Prieto": 7.35
+                },
+                "promedio": 7.417,
+                "rank": 6,
+                "ronda": 9
+              },
+              {
+                "pareja": 29,
+                "leader": "Juan Ignacio Etcheverry",
+                "follower": "Veronica Bachini",
+                "scores": {
+                  "Demián García": 7.45,
+                  "Carla Marano": 7.35,
+                  "Pablo Inza": 7.45,
+                  "Silvina Valz": 7.35,
+                  "Hernán Alvarez Prieto": 7.3
+                },
+                "promedio": 7.383,
+                "rank": 7,
+                "ronda": 8
+              },
+              {
+                "pareja": 31,
+                "leader": "Vadim Kaitukov",
+                "follower": "Olga Mokrushina",
+                "scores": {
+                  "Demián García": 7.02,
+                  "Carla Marano": 7.32,
+                  "Pablo Inza": 7.4,
+                  "Silvina Valz": 7.4,
+                  "Hernán Alvarez Prieto": 7.49
+                },
+                "promedio": 7.373,
+                "rank": 8,
+                "ronda": 8
+              },
+              {
+                "pareja": 518,
+                "leader": "Federico Carrizo",
+                "follower": "Jesica Gomez",
+                "scores": {
+                  "Demián García": 7.2,
+                  "Carla Marano": 7.4,
+                  "Pablo Inza": 7.32,
+                  "Silvina Valz": 7.4,
+                  "Hernán Alvarez Prieto": 7.43
+                },
+                "promedio": 7.373,
+                "rank": 9,
+                "ronda": 15
+              },
+              {
+                "pareja": 301,
+                "leader": "Juan Pablo Valdebenito",
+                "follower": "Rosario Belén Gimenez",
+                "scores": {
+                  "Demián García": 7.3,
+                  "Carla Marano": 7.41,
+                  "Pablo Inza": 7.34,
+                  "Silvina Valz": 7.55,
+                  "Hernán Alvarez Prieto": 7.27
+                },
+                "promedio": 7.35,
+                "rank": 10,
+                "ronda": 3
+              },
+              {
+                "pareja": 337,
+                "leader": "Vinicius Osterne",
+                "follower": "Gabriela Fernández",
+                "scores": {
+                  "Demián García": 7.17,
+                  "Carla Marano": 7.41,
+                  "Pablo Inza": 7.44,
+                  "Silvina Valz": 6.9,
+                  "Hernán Alvarez Prieto": 7.48
+                },
+                "promedio": 7.34,
+                "rank": 11,
+                "ronda": 2
+              },
+              {
+                "pareja": 461,
+                "leader": "Felix Alberto Bon",
+                "follower": "Ángela Patricia Sarmiento",
+                "scores": {
+                  "Demián García": 7.08,
+                  "Carla Marano": 7.35,
+                  "Pablo Inza": 7.25,
+                  "Silvina Valz": 7.45,
+                  "Hernán Alvarez Prieto": 7.37
+                },
+                "promedio": 7.323,
+                "rank": 12,
+                "ronda": 11
+              },
+              {
+                "pareja": 462,
+                "leader": "Lautaro Levato",
+                "follower": "Milagros Quintana",
+                "scores": {
+                  "Demián García": 7.52,
+                  "Carla Marano": 7.38,
+                  "Pablo Inza": 7.28,
+                  "Silvina Valz": 7.0,
+                  "Hernán Alvarez Prieto": 7.3
+                },
+                "promedio": 7.32,
+                "rank": 13,
+                "ronda": 5
+              },
+              {
+                "pareja": 469,
+                "leader": "Krishna Olmedo",
+                "follower": "Johanna Aranda",
+                "scores": {
+                  "Demián García": 7.2,
+                  "Carla Marano": 7.3,
+                  "Pablo Inza": 7.35,
+                  "Silvina Valz": 7.3,
+                  "Hernán Alvarez Prieto": 7.3
+                },
+                "promedio": 7.3,
+                "rank": 14,
+                "ronda": 14
+              },
+              {
+                "pareja": 5,
+                "leader": "Ferrol Matthew Poluan",
+                "follower": "Muliany Rambe",
+                "scores": {
+                  "Demián García": 7.36,
+                  "Carla Marano": 7.25,
+                  "Pablo Inza": 7.27,
+                  "Silvina Valz": 7.3,
+                  "Hernán Alvarez Prieto": 7.33
+                },
+                "promedio": 7.3,
+                "rank": 15,
+                "ronda": 13
+              },
+              {
+                "pareja": 300,
+                "leader": "Waldemar Guillermo Sasso",
+                "follower": "Myriam del Valle Gamietea",
+                "scores": {
+                  "Demián García": 6.95,
+                  "Carla Marano": 7.3,
+                  "Pablo Inza": 7.38,
+                  "Silvina Valz": 7.65,
+                  "Hernán Alvarez Prieto": 7.21
+                },
+                "promedio": 7.297,
+                "rank": 16,
+                "ronda": 4
+              },
+              {
+                "pareja": 66,
+                "leader": "Camilo Bernal Varela",
+                "follower": "Mayi Yepes Arboleda",
+                "scores": {
+                  "Demián García": 7.25,
+                  "Carla Marano": 7.45,
+                  "Pablo Inza": 7.25,
+                  "Silvina Valz": 7.0,
+                  "Hernán Alvarez Prieto": 7.34
+                },
+                "promedio": 7.28,
+                "rank": 17,
+                "ronda": 14
+              },
+              {
+                "pareja": 423,
+                "leader": "Francisco Coria",
+                "follower": "Yael Nahir",
+                "scores": {
+                  "Demián García": 7.2,
+                  "Carla Marano": 7.23,
+                  "Pablo Inza": 7.45,
+                  "Silvina Valz": 7.4,
+                  "Hernán Alvarez Prieto": 7.15
+                },
+                "promedio": 7.277,
+                "rank": 18,
+                "ronda": 2
+              },
+              {
+                "pareja": 330,
+                "leader": "Carlos Flores",
+                "follower": "Marcia Martinucci",
+                "scores": {
+                  "Demián García": 7.25,
+                  "Carla Marano": 7.25,
+                  "Pablo Inza": 7.32,
+                  "Silvina Valz": 6.55,
+                  "Hernán Alvarez Prieto": 7.4
+                },
+                "promedio": 7.273,
+                "rank": 19,
+                "ronda": 1
+              },
+              {
+                "pareja": 517,
+                "leader": "Raúl Ehijo",
+                "follower": "Ximena Santana",
+                "scores": {
+                  "Demián García": 7.25,
+                  "Carla Marano": 7.4,
+                  "Pablo Inza": 7.27,
+                  "Silvina Valz": 7.25,
+                  "Hernán Alvarez Prieto": 7.26
+                },
+                "promedio": 7.26,
+                "rank": 20,
+                "ronda": 13
+              },
+              {
+                "pareja": 244,
+                "leader": "Alejandro Ferreyra",
+                "follower": "Fernanda Grosso",
+                "scores": {
+                  "Demián García": 7.25,
+                  "Carla Marano": 7.2,
+                  "Pablo Inza": 7.32,
+                  "Silvina Valz": 7.35,
+                  "Hernán Alvarez Prieto": 7.15
+                },
+                "promedio": 7.257,
+                "rank": 21,
+                "ronda": 15
+              },
+              {
+                "pareja": 348,
+                "leader": "Leonardo Durso",
+                "follower": "Fabiana Portas",
+                "scores": {
+                  "Demián García": 7.15,
+                  "Carla Marano": 7.4,
+                  "Pablo Inza": 7.3,
+                  "Silvina Valz": 7.18,
+                  "Hernán Alvarez Prieto": 7.28
+                },
+                "promedio": 7.253,
+                "rank": 22,
+                "ronda": 12
+              },
+              {
+                "pareja": 311,
+                "leader": "Nicolas Cot",
+                "follower": "Julieta Victoria Alao",
+                "scores": {
+                  "Demián García": 7.5,
+                  "Carla Marano": 7.1,
+                  "Pablo Inza": 7.38,
+                  "Silvina Valz": 6.9,
+                  "Hernán Alvarez Prieto": 7.25
+                },
+                "promedio": 7.243,
+                "rank": 23,
+                "ronda": 5
+              },
+              {
+                "pareja": 600,
+                "leader": "Diego Martín Valero",
+                "follower": "Delfina Pissani",
+                "scores": {
+                  "Demián García": 7.12,
+                  "Carla Marano": 7.3,
+                  "Pablo Inza": 7.3,
+                  "Silvina Valz": 7.35,
+                  "Hernán Alvarez Prieto": 6.8
+                },
+                "promedio": 7.24,
+                "rank": 24,
+                "ronda": 13
+              },
+              {
+                "pareja": 267,
+                "leader": "Horacio Sepulveda",
+                "follower": "Yesica Saavedra",
+                "scores": {
+                  "Demián García": 6.95,
+                  "Carla Marano": 7.09,
+                  "Pablo Inza": 7.31,
+                  "Silvina Valz": 7.38,
+                  "Hernán Alvarez Prieto": 7.3
+                },
+                "promedio": 7.233,
+                "rank": 25,
+                "ronda": 6
+              },
+              {
+                "pareja": 187,
+                "leader": "Marini Nicolas",
+                "follower": "Vivian Yeh",
+                "scores": {
+                  "Demián García": 7.4,
+                  "Carla Marano": 7.0,
+                  "Pablo Inza": 7.28,
+                  "Silvina Valz": 7.05,
+                  "Hernán Alvarez Prieto": 7.36
+                },
+                "promedio": 7.23,
+                "rank": 26,
+                "ronda": 10
+              },
+              {
+                "pareja": 192,
+                "leader": "Dennis Cante",
+                "follower": "Tanya Spektor",
+                "scores": {
+                  "Demián García": 6.5,
+                  "Carla Marano": 7.11,
+                  "Pablo Inza": 7.22,
+                  "Silvina Valz": 7.3,
+                  "Hernán Alvarez Prieto": 7.5
+                },
+                "promedio": 7.21,
+                "rank": 27,
+                "ronda": 7
+              },
+              {
+                "pareja": 162,
+                "leader": "Joel Maximiliano Tempestti",
+                "follower": "Águeda Jimena Mansilla",
+                "scores": {
+                  "Demián García": 7.0,
+                  "Carla Marano": 7.36,
+                  "Pablo Inza": 7.13,
+                  "Silvina Valz": 7.36,
+                  "Hernán Alvarez Prieto": 7.11
+                },
+                "promedio": 7.2,
+                "rank": 28,
+                "ronda": 14
+              },
+              {
+                "pareja": 48,
+                "leader": "John Rendón",
+                "follower": "Diana González",
+                "scores": {
+                  "Demián García": 7.15,
+                  "Carla Marano": 7.3,
+                  "Pablo Inza": 7.13,
+                  "Silvina Valz": 6.6,
+                  "Hernán Alvarez Prieto": 7.3
+                },
+                "promedio": 7.193,
+                "rank": 29,
+                "ronda": 8
+              },
+              {
+                "pareja": 389,
+                "leader": "Alejandro Lazzaro",
+                "follower": "Gabriela Gallese",
+                "scores": {
+                  "Demián García": 7.18,
+                  "Carla Marano": 7.2,
+                  "Pablo Inza": 7.35,
+                  "Silvina Valz": 7.15,
+                  "Hernán Alvarez Prieto": 7.2
+                },
+                "promedio": 7.193,
+                "rank": 30,
+                "ronda": 14
+              },
+              {
+                "pareja": 276,
+                "leader": "Matias Cabezuelo",
+                "follower": "Nicole Mazza",
+                "scores": {
+                  "Demián García": 7.18,
+                  "Carla Marano": 7.15,
+                  "Pablo Inza": 7.18,
+                  "Silvina Valz": 7.2,
+                  "Hernán Alvarez Prieto": 7.4
+                },
+                "promedio": 7.187,
+                "rank": 31,
+                "ronda": 15
+              },
+              {
+                "pareja": 553,
+                "leader": "Gera Lecich",
+                "follower": "Silvana Meneses",
+                "scores": {
+                  "Demián García": 7.05,
+                  "Carla Marano": 7.15,
+                  "Pablo Inza": 7.13,
+                  "Silvina Valz": 7.28,
+                  "Hernán Alvarez Prieto": 7.44
+                },
+                "promedio": 7.187,
+                "rank": 32,
+                "ronda": 8
+              },
+              {
+                "pareja": 441,
+                "leader": "Ariel Giordanengo",
+                "follower": "Elise Barbot",
+                "scores": {
+                  "Demián García": 7.2,
+                  "Carla Marano": 7.14,
+                  "Pablo Inza": 7.18,
+                  "Silvina Valz": 7.06,
+                  "Hernán Alvarez Prieto": 7.22
+                },
+                "promedio": 7.173,
+                "rank": 33,
+                "ronda": 6
+              },
+              {
+                "pareja": 247,
+                "leader": "Andrés Nester",
+                "follower": "Silvina Suzak",
+                "scores": {
+                  "Demián García": 7.0,
+                  "Carla Marano": 7.3,
+                  "Pablo Inza": 7.34,
+                  "Silvina Valz": 7.02,
+                  "Hernán Alvarez Prieto": 7.2
+                },
+                "promedio": 7.173,
+                "rank": 34,
+                "ronda": 10
+              },
+              {
+                "pareja": 226,
+                "leader": "Maximiliano Gaston Chollet",
+                "follower": "Estefania Belforte Caceres",
+                "scores": {
+                  "Demián García": 7.05,
+                  "Carla Marano": 7.2,
+                  "Pablo Inza": 7.45,
+                  "Silvina Valz": 7.0,
+                  "Hernán Alvarez Prieto": 7.25
+                },
+                "promedio": 7.167,
+                "rank": 35,
+                "ronda": 3
+              },
+              {
+                "pareja": 23,
+                "leader": "Luciano Mario Navoni",
+                "follower": "Maria Celeste Cimino",
+                "scores": {
+                  "Demián García": 7.28,
+                  "Carla Marano": 7.1,
+                  "Pablo Inza": 7.3,
+                  "Silvina Valz": 7.07,
+                  "Hernán Alvarez Prieto": 7.0
+                },
+                "promedio": 7.15,
+                "rank": 36,
+                "ronda": 14
+              },
+              {
+                "pareja": 357,
+                "leader": "Sergio Ibanez",
+                "follower": "Estefania Toledo",
+                "scores": {
+                  "Demián García": 7.2,
+                  "Carla Marano": 7.06,
+                  "Pablo Inza": 6.98,
+                  "Silvina Valz": 7.4,
+                  "Hernán Alvarez Prieto": 7.18
+                },
+                "promedio": 7.147,
+                "rank": 37,
+                "ronda": 11
+              },
+              {
+                "pareja": 200,
+                "leader": "Ezequiel Lescano",
+                "follower": "Carolina Marquez",
+                "scores": {
+                  "Demián García": 7.05,
+                  "Carla Marano": 7.3,
+                  "Pablo Inza": 6.92,
+                  "Silvina Valz": 7.2,
+                  "Hernán Alvarez Prieto": 7.18
+                },
+                "promedio": 7.143,
+                "rank": 38,
+                "ronda": 7
+              },
+              {
+                "pareja": 246,
+                "leader": "Abel Matias Cejas",
+                "follower": "Jorgelina Cañadas",
+                "scores": {
+                  "Demián García": 7.17,
+                  "Carla Marano": 7.4,
+                  "Pablo Inza": 7.16,
+                  "Silvina Valz": 6.85,
+                  "Hernán Alvarez Prieto": 7.1
+                },
+                "promedio": 7.143,
+                "rank": 39,
+                "ronda": 11
+              },
+              {
+                "pareja": 476,
+                "leader": "Rodrigo Hernán Saucedo",
+                "follower": "Yoshiko Mamada",
+                "scores": {
+                  "Demián García": 7.07,
+                  "Carla Marano": 7.0,
+                  "Pablo Inza": 6.88,
+                  "Silvina Valz": 7.35,
+                  "Hernán Alvarez Prieto": 7.36
+                },
+                "promedio": 7.14,
+                "rank": 40,
+                "ronda": 5
+              },
+              {
+                "pareja": 500,
+                "leader": "Julio Solari",
+                "follower": "Ani Fernández",
+                "scores": {
+                  "Demián García": 6.83,
+                  "Carla Marano": 7.4,
+                  "Pablo Inza": 7.16,
+                  "Silvina Valz": 6.9,
+                  "Hernán Alvarez Prieto": 7.35
+                },
+                "promedio": 7.137,
+                "rank": 41,
+                "ronda": 6
+              },
+              {
+                "pareja": 156,
+                "leader": "Oscar Buroz",
+                "follower": "Jessie Barahona",
+                "scores": {
+                  "Demián García": 6.75,
+                  "Carla Marano": 7.3,
+                  "Pablo Inza": 7.16,
+                  "Silvina Valz": 7.35,
+                  "Hernán Alvarez Prieto": 6.95
+                },
+                "promedio": 7.137,
+                "rank": 42,
+                "ronda": 9
+              },
+              {
+                "pareja": 580,
+                "leader": "Alberto Leis",
+                "follower": "Morena Ortega",
+                "scores": {
+                  "Demián García": 6.99,
+                  "Carla Marano": 7.19,
+                  "Pablo Inza": 7.08,
+                  "Silvina Valz": 7.12,
+                  "Hernán Alvarez Prieto": 7.2
+                },
+                "promedio": 7.13,
+                "rank": 43,
+                "ronda": 13
+              },
+              {
+                "pareja": 725,
+                "leader": "Cristian Aguilera",
+                "follower": "Marcela Mazzucco",
+                "scores": {
+                  "Demián García": 6.85,
+                  "Carla Marano": 7.18,
+                  "Pablo Inza": 7.18,
+                  "Silvina Valz": 7.05,
+                  "Hernán Alvarez Prieto": 7.15
+                },
+                "promedio": 7.127,
+                "rank": 44,
+                "ronda": 6
+              },
+              {
+                "pareja": 36,
+                "leader": "Facundo Berrios Valdez",
+                "follower": "Yuliya Niazaliyeva",
+                "scores": {
+                  "Demián García": 6.65,
+                  "Carla Marano": 6.98,
+                  "Pablo Inza": 7.25,
+                  "Silvina Valz": 7.15,
+                  "Hernán Alvarez Prieto": 7.3
+                },
+                "promedio": 7.127,
+                "rank": 45,
+                "ronda": 2
+              },
+              {
+                "pareja": 373,
+                "leader": "Luis Emilio Cappelletti",
+                "follower": "Vittoria Franchina",
+                "scores": {
+                  "Demián García": 7.1,
+                  "Carla Marano": 7.2,
+                  "Pablo Inza": 7.2,
+                  "Silvina Valz": 7.07,
+                  "Hernán Alvarez Prieto": 7.03
+                },
+                "promedio": 7.123,
+                "rank": 46,
+                "ronda": 8
+              },
+              {
+                "pareja": 155,
+                "leader": "Maximiliano Almeyra",
+                "follower": "Yamila Herlein",
+                "scores": {
+                  "Demián García": 6.98,
+                  "Carla Marano": 7.25,
+                  "Pablo Inza": 6.82,
+                  "Silvina Valz": 7.4,
+                  "Hernán Alvarez Prieto": 7.13
+                },
+                "promedio": 7.12,
+                "rank": 47,
+                "ronda": 10
+              },
+              {
+                "pareja": 585,
+                "leader": "Otto Honeker",
+                "follower": "Magdalena Tarasova",
+                "scores": {
+                  "Demián García": 6.75,
+                  "Carla Marano": 7.0,
+                  "Pablo Inza": 7.4,
+                  "Silvina Valz": 7.05,
+                  "Hernán Alvarez Prieto": 7.3
+                },
+                "promedio": 7.117,
+                "rank": 48,
+                "ronda": 11
+              },
+              {
+                "pareja": 412,
+                "leader": "Alejandro Silva",
+                "follower": "Alejandra Dominguez",
+                "scores": {
+                  "Demián García": 7.1,
+                  "Carla Marano": 7.2,
+                  "Pablo Inza": 7.18,
+                  "Silvina Valz": 6.5,
+                  "Hernán Alvarez Prieto": 7.07
+                },
+                "promedio": 7.117,
+                "rank": 49,
+                "ronda": 4
+              },
+              {
+                "pareja": 363,
+                "leader": "Dario Falco",
+                "follower": "Lilian Dominguez",
+                "scores": {
+                  "Demián García": 7.25,
+                  "Carla Marano": 6.95,
+                  "Pablo Inza": 7.23,
+                  "Silvina Valz": 6.9,
+                  "Hernán Alvarez Prieto": 7.16
+                },
+                "promedio": 7.113,
+                "rank": 50,
+                "ronda": 10
+              },
+              {
+                "pareja": 568,
+                "leader": "Wamber Sarazola",
+                "follower": "Julia Cayo",
+                "scores": {
+                  "Demián García": 6.97,
+                  "Carla Marano": 7.22,
+                  "Pablo Inza": 7.06,
+                  "Silvina Valz": 7.05,
+                  "Hernán Alvarez Prieto": 7.29
+                },
+                "promedio": 7.11,
+                "rank": 51,
+                "ronda": 14
+              },
+              {
+                "pareja": 138,
+                "leader": "Humberto Pouchulu",
+                "follower": "Aura Suami",
+                "scores": {
+                  "Demián García": 7.2,
+                  "Carla Marano": 6.93,
+                  "Pablo Inza": 6.88,
+                  "Silvina Valz": 7.3,
+                  "Hernán Alvarez Prieto": 7.2
+                },
+                "promedio": 7.11,
+                "rank": 52,
+                "ronda": 12
+              },
+              {
+                "pareja": 40,
+                "leader": "Pablo Altamira",
+                "follower": "Virginia Cosci",
+                "scores": {
+                  "Demián García": 7.03,
+                  "Carla Marano": 7.1,
+                  "Pablo Inza": 7.16,
+                  "Silvina Valz": 7.05,
+                  "Hernán Alvarez Prieto": 7.19
+                },
+                "promedio": 7.103,
+                "rank": 53,
+                "ronda": 13
+              },
+              {
+                "pareja": 529,
+                "leader": "Gabriel Tolaba",
+                "follower": "Yanina Ceballo Hoyos",
+                "scores": {
+                  "Demián García": 7.13,
+                  "Carla Marano": 7.0,
+                  "Pablo Inza": 7.18,
+                  "Silvina Valz": 7.0,
+                  "Hernán Alvarez Prieto": 7.3
+                },
+                "promedio": 7.103,
+                "rank": 54,
+                "ronda": 15
+              },
+              {
+                "pareja": 25,
+                "leader": "Danilo Bustamante",
+                "follower": "Juliana Orozco Patiño",
+                "scores": {
+                  "Demián García": 7.0,
+                  "Carla Marano": 7.0,
+                  "Pablo Inza": 7.47,
+                  "Silvina Valz": 6.95,
+                  "Hernán Alvarez Prieto": 7.29
+                },
+                "promedio": 7.097,
+                "rank": 55,
+                "ronda": 6
+              },
+              {
+                "pareja": 392,
+                "leader": "Claudio Cortes",
+                "follower": "Soledad Hernandez",
+                "scores": {
+                  "Demián García": 6.65,
+                  "Carla Marano": 7.01,
+                  "Pablo Inza": 7.4,
+                  "Silvina Valz": 7.05,
+                  "Hernán Alvarez Prieto": 7.22
+                },
+                "promedio": 7.093,
+                "rank": 56,
+                "ronda": 1
+              },
+              {
+                "pareja": 407,
+                "leader": "Augusto Schiantarelli",
+                "follower": "Silvana Sandra Sallese",
+                "scores": {
+                  "Demián García": 6.99,
+                  "Carla Marano": 7.01,
+                  "Pablo Inza": 7.15,
+                  "Silvina Valz": 7.3,
+                  "Hernán Alvarez Prieto": 7.1
+                },
+                "promedio": 7.087,
+                "rank": 57,
+                "ronda": 10
+              },
+              {
+                "pareja": 399,
+                "leader": "Gustavo Rodriguez",
+                "follower": "Laura Borelli",
+                "scores": {
+                  "Demián García": 7.3,
+                  "Carla Marano": 6.95,
+                  "Pablo Inza": 7.16,
+                  "Silvina Valz": 7.1,
+                  "Hernán Alvarez Prieto": 7.0
+                },
+                "promedio": 7.087,
+                "rank": 58,
+                "ronda": 13
+              },
+              {
+                "pareja": 60,
+                "leader": "Fabio Chines",
+                "follower": "Skeila Gandolfo",
+                "scores": {
+                  "Demián García": 6.7,
+                  "Carla Marano": 7.28,
+                  "Pablo Inza": 7.32,
+                  "Silvina Valz": 7.25,
+                  "Hernán Alvarez Prieto": 6.6
+                },
+                "promedio": 7.077,
+                "rank": 59,
+                "ronda": 12
+              },
+              {
+                "pareja": 351,
+                "leader": "Guillermo Puentes",
+                "follower": "Victoria Cocchiararo",
+                "scores": {
+                  "Demián García": 7.1,
+                  "Carla Marano": 6.94,
+                  "Pablo Inza": 7.18,
+                  "Silvina Valz": 6.4,
+                  "Hernán Alvarez Prieto": 7.2
+                },
+                "promedio": 7.073,
+                "rank": 60,
+                "ronda": 3
+              },
+              {
+                "pareja": 4,
+                "leader": "Leonel Aguirre",
+                "follower": "Macarena Brahamian",
+                "scores": {
+                  "Demián García": 7.1,
+                  "Carla Marano": 7.0,
+                  "Pablo Inza": 6.95,
+                  "Silvina Valz": 7.1,
+                  "Hernán Alvarez Prieto": 7.2
+                },
+                "promedio": 7.067,
+                "rank": 61,
+                "ronda": 2
+              },
+              {
+                "pareja": 400,
+                "leader": "Hyoung Wook Chang",
+                "follower": "Eun Young Lee",
+                "scores": {
+                  "Demián García": 6.6,
+                  "Carla Marano": 7.3,
+                  "Pablo Inza": 6.81,
+                  "Silvina Valz": 7.28,
+                  "Hernán Alvarez Prieto": 7.1
+                },
+                "promedio": 7.063,
+                "rank": 62,
+                "ronda": 12
+              },
+              {
+                "pareja": 234,
+                "leader": "Roberto Americo Di Biase",
+                "follower": "Rosi Mateo",
+                "scores": {
+                  "Demián García": 7.05,
+                  "Carla Marano": 7.1,
+                  "Pablo Inza": 7.08,
+                  "Silvina Valz": 7.05,
+                  "Hernán Alvarez Prieto": 6.51
+                },
+                "promedio": 7.06,
+                "rank": 63,
+                "ronda": 4
+              },
+              {
+                "pareja": 402,
+                "leader": "Nicolás Sormani",
+                "follower": "Laura Smart",
+                "scores": {
+                  "Demián García": 7.0,
+                  "Carla Marano": 7.2,
+                  "Pablo Inza": 6.97,
+                  "Silvina Valz": 6.75,
+                  "Hernán Alvarez Prieto": 7.3
+                },
+                "promedio": 7.057,
+                "rank": 64,
+                "ronda": 13
+              },
+              {
+                "pareja": 124,
+                "leader": "Toni Barrios",
+                "follower": "Silvia Fassio",
+                "scores": {
+                  "Demián García": 7.0,
+                  "Carla Marano": 7.0,
+                  "Pablo Inza": 6.46,
+                  "Silvina Valz": 7.15,
+                  "Hernán Alvarez Prieto": 7.18
+                },
+                "promedio": 7.05,
+                "rank": 65,
+                "ronda": 4
+              },
+              {
+                "pareja": 9,
+                "leader": "Jorge Carmona",
+                "follower": "Karina Romero",
+                "scores": {
+                  "Demián García": 6.75,
+                  "Carla Marano": 7.1,
+                  "Pablo Inza": 7.02,
+                  "Silvina Valz": 7.0,
+                  "Hernán Alvarez Prieto": 7.2
+                },
+                "promedio": 7.04,
+                "rank": 66,
+                "ronda": 6
+              },
+              {
+                "pareja": 587,
+                "leader": "Andrey Vega",
+                "follower": "Dina Montaño",
+                "scores": {
+                  "Demián García": 6.95,
+                  "Carla Marano": 7.08,
+                  "Pablo Inza": 7.18,
+                  "Silvina Valz": 6.7,
+                  "Hernán Alvarez Prieto": 7.05
+                },
+                "promedio": 7.027,
+                "rank": 67,
+                "ronda": 2
+              },
+              {
+                "pareja": 113,
+                "leader": "Martin Iarussi",
+                "follower": "Maria Belen Cordoba",
+                "scores": {
+                  "Demián García": 6.9,
+                  "Carla Marano": 7.05,
+                  "Pablo Inza": 6.89,
+                  "Silvina Valz": 7.1,
+                  "Hernán Alvarez Prieto": 7.1
+                },
+                "promedio": 7.017,
+                "rank": 68,
+                "ronda": 6
+              },
+              {
+                "pareja": 534,
+                "leader": "Jacek Binkowski",
+                "follower": "Teresa Binkowska",
+                "scores": {
+                  "Demián García": 6.5,
+                  "Carla Marano": 7.22,
+                  "Pablo Inza": 7.31,
+                  "Silvina Valz": 6.7,
+                  "Hernán Alvarez Prieto": 7.1
+                },
+                "promedio": 7.007,
+                "rank": 69,
+                "ronda": 5
+              },
+              {
+                "pareja": 290,
+                "leader": "Ivan Loaiza",
+                "follower": "Yurani Arboleda Parra",
+                "scores": {
+                  "Demián García": 6.85,
+                  "Carla Marano": 7.35,
+                  "Pablo Inza": 6.95,
+                  "Silvina Valz": 6.61,
+                  "Hernán Alvarez Prieto": 7.19
+                },
+                "promedio": 6.997,
+                "rank": 70,
+                "ronda": 5
+              },
+              {
+                "pareja": 479,
+                "leader": "Saúl Peña",
+                "follower": "Gisela Soledad Perez",
+                "scores": {
+                  "Demián García": 6.7,
+                  "Carla Marano": 7.0,
+                  "Pablo Inza": 6.83,
+                  "Silvina Valz": 7.1,
+                  "Hernán Alvarez Prieto": 7.4
+                },
+                "promedio": 6.977,
+                "rank": 71,
+                "ronda": 14
+              },
+              {
+                "pareja": 328,
+                "leader": "Marcelo Matias Conti",
+                "follower": "Ana Belén Lione",
+                "scores": {
+                  "Demián García": 6.98,
+                  "Carla Marano": 6.9,
+                  "Pablo Inza": 6.82,
+                  "Silvina Valz": 7.03,
+                  "Hernán Alvarez Prieto": 7.27
+                },
+                "promedio": 6.97,
+                "rank": 72,
+                "ronda": 8
+              },
+              {
+                "pareja": 666,
+                "leader": "Exequiel Relmuan",
+                "follower": "Melina Ivonne Bustos",
+                "scores": {
+                  "Demián García": 7.15,
+                  "Carla Marano": 7.2,
+                  "Pablo Inza": 6.42,
+                  "Silvina Valz": 6.95,
+                  "Hernán Alvarez Prieto": 6.78
+                },
+                "promedio": 6.96,
+                "rank": 73,
+                "ronda": 11
+              },
+              {
+                "pareja": 174,
+                "leader": "Alexander Skarlato",
+                "follower": "Carolina Oria",
+                "scores": {
+                  "Demián García": 6.98,
+                  "Carla Marano": 7.0,
+                  "Pablo Inza": 6.86,
+                  "Silvina Valz": 6.9,
+                  "Hernán Alvarez Prieto": 7.22
+                },
+                "promedio": 6.96,
+                "rank": 74,
+                "ronda": 13
+              },
+              {
+                "pareja": 498,
+                "leader": "Brian Nahuel Gomez",
+                "follower": "Camila Jacqueline Reynoso",
+                "scores": {
+                  "Demián García": 7.12,
+                  "Carla Marano": 6.9,
+                  "Pablo Inza": 6.88,
+                  "Silvina Valz": 6.5,
+                  "Hernán Alvarez Prieto": 7.1
+                },
+                "promedio": 6.96,
+                "rank": 75,
+                "ronda": 2
+              },
+              {
+                "pareja": 655,
+                "leader": "Leonardo Nahuel Sarazzola",
+                "follower": "Maria de los Angeles Valdez",
+                "scores": {
+                  "Demián García": 6.97,
+                  "Carla Marano": 7.3,
+                  "Pablo Inza": 6.52,
+                  "Silvina Valz": 6.6,
+                  "Hernán Alvarez Prieto": 7.4
+                },
+                "promedio": 6.957,
+                "rank": 76,
+                "ronda": 5
+              },
+              {
+                "pareja": 610,
+                "leader": "Juan Maria Ponce",
+                "follower": "Sara Elisa Rueda",
+                "scores": {
+                  "Demián García": 6.8,
+                  "Carla Marano": 7.18,
+                  "Pablo Inza": 6.88,
+                  "Silvina Valz": 6.8,
+                  "Hernán Alvarez Prieto": 7.39
+                },
+                "promedio": 6.953,
+                "rank": 77,
+                "ronda": 2
+              },
+              {
+                "pareja": 123,
+                "leader": "Marco Ten-Pow",
+                "follower": "Silvia Santini",
+                "scores": {
+                  "Demián García": 6.7,
+                  "Carla Marano": 6.82,
+                  "Pablo Inza": 6.82,
+                  "Silvina Valz": 7.35,
+                  "Hernán Alvarez Prieto": 7.2
+                },
+                "promedio": 6.947,
+                "rank": 78,
+                "ronda": 11
+              },
+              {
+                "pareja": 593,
+                "leader": "Rafael Luna",
+                "follower": "Andrea Giurizzato",
+                "scores": {
+                  "Demián García": 7.2,
+                  "Carla Marano": 7.1,
+                  "Pablo Inza": 6.51,
+                  "Silvina Valz": 6.0,
+                  "Hernán Alvarez Prieto": 7.3
+                },
+                "promedio": 6.937,
+                "rank": 79,
+                "ronda": 1
+              },
+              {
+                "pareja": 527,
+                "leader": "Carlos Alberto Lemos",
+                "follower": "Marina Viviana Cabrera",
+                "scores": {
+                  "Demián García": 6.7,
+                  "Carla Marano": 6.98,
+                  "Pablo Inza": 7.28,
+                  "Silvina Valz": 6.48,
+                  "Hernán Alvarez Prieto": 7.12
+                },
+                "promedio": 6.933,
+                "rank": 80,
+                "ronda": 3
+              },
+              {
+                "pareja": 137,
+                "leader": "Leandro Matias Robledo",
+                "follower": "Miho Namatame",
+                "scores": {
+                  "Demián García": 6.79,
+                  "Carla Marano": 7.05,
+                  "Pablo Inza": 6.58,
+                  "Silvina Valz": 6.95,
+                  "Hernán Alvarez Prieto": 7.35
+                },
+                "promedio": 6.93,
+                "rank": 81,
+                "ronda": 8
+              },
+              {
+                "pareja": 613,
+                "leader": "Sergio Roque Pineda",
+                "follower": "Natalia Celeste Grossi",
+                "scores": {
+                  "Demián García": 7.0,
+                  "Carla Marano": 7.15,
+                  "Pablo Inza": 6.95,
+                  "Silvina Valz": 6.65,
+                  "Hernán Alvarez Prieto": 6.82
+                },
+                "promedio": 6.923,
+                "rank": 82,
+                "ronda": 7
+              },
+              {
+                "pareja": 354,
+                "leader": "Santiago Lizarte",
+                "follower": "Nalien Aldana Borstelmann",
+                "scores": {
+                  "Demián García": 6.8,
+                  "Carla Marano": 7.18,
+                  "Pablo Inza": 6.82,
+                  "Silvina Valz": 6.95,
+                  "Hernán Alvarez Prieto": 7.0
+                },
+                "promedio": 6.923,
+                "rank": 83,
+                "ronda": 10
+              },
+              {
+                "pareja": 265,
+                "leader": "Masakazu Kobayashi",
+                "follower": "Tomomi Kobayashi",
+                "scores": {
+                  "Demián García": 6.75,
+                  "Carla Marano": 7.0,
+                  "Pablo Inza": 6.32,
+                  "Silvina Valz": 7.0,
+                  "Hernán Alvarez Prieto": 7.2
+                },
+                "promedio": 6.917,
+                "rank": 84,
+                "ronda": 8
+              },
+              {
+                "pareja": 99,
+                "leader": "Carlos Obregón",
+                "follower": "Yanet Florez",
+                "scores": {
+                  "Demián García": 6.8,
+                  "Carla Marano": 7.1,
+                  "Pablo Inza": 6.62,
+                  "Silvina Valz": 7.25,
+                  "Hernán Alvarez Prieto": 6.85
+                },
+                "promedio": 6.917,
+                "rank": 85,
+                "ronda": 15
+              },
+              {
+                "pareja": 143,
+                "leader": "Vidal Argamonte",
+                "follower": "Natalia Couto",
+                "scores": {
+                  "Demián García": 6.95,
+                  "Carla Marano": 6.98,
+                  "Pablo Inza": 6.8,
+                  "Silvina Valz": 6.75,
+                  "Hernán Alvarez Prieto": 7.14
+                },
+                "promedio": 6.91,
+                "rank": 86,
+                "ronda": 8
+              },
+              {
+                "pareja": 178,
+                "leader": "Angel Battista",
+                "follower": "Maria del Carmen Perez",
+                "scores": {
+                  "Demián García": 6.8,
+                  "Carla Marano": 7.1,
+                  "Pablo Inza": 6.95,
+                  "Silvina Valz": 6.8,
+                  "Hernán Alvarez Prieto": 6.93
+                },
+                "promedio": 6.893,
+                "rank": 87,
+                "ronda": 12
+              },
+              {
+                "pareja": 503,
+                "leader": "Martin Alejo Carreira",
+                "follower": "Veronica Soledad Garcia",
+                "scores": {
+                  "Demián García": 7.01,
+                  "Carla Marano": 6.95,
+                  "Pablo Inza": 6.82,
+                  "Silvina Valz": 6.1,
+                  "Hernán Alvarez Prieto": 6.9
+                },
+                "promedio": 6.89,
+                "rank": 88,
+                "ronda": 9
+              },
+              {
+                "pareja": 280,
+                "leader": "Ruben Bourgeois",
+                "follower": "Elisa Vidal",
+                "scores": {
+                  "Demián García": 7.14,
+                  "Carla Marano": 6.8,
+                  "Pablo Inza": 6.38,
+                  "Silvina Valz": 6.74,
+                  "Hernán Alvarez Prieto": 7.1
+                },
+                "promedio": 6.88,
+                "rank": 89,
+                "ronda": 4
+              },
+              {
+                "pareja": 74,
+                "leader": "Mariano Ibrahim",
+                "follower": "Silvia Gauna",
+                "scores": {
+                  "Demián García": 7.0,
+                  "Carla Marano": 6.98,
+                  "Pablo Inza": 6.65,
+                  "Silvina Valz": 6.35,
+                  "Hernán Alvarez Prieto": 7.15
+                },
+                "promedio": 6.877,
+                "rank": 90,
+                "ronda": 11
+              },
+              {
+                "pareja": 85,
+                "leader": "Aldo Fuentes",
+                "follower": "Ada Romero",
+                "scores": {
+                  "Demián García": 6.8,
+                  "Carla Marano": 6.75,
+                  "Pablo Inza": 7.08,
+                  "Silvina Valz": 7.05,
+                  "Hernán Alvarez Prieto": 6.42
+                },
+                "promedio": 6.867,
+                "rank": 91,
+                "ronda": 12
+              },
+              {
+                "pareja": 602,
+                "leader": "Luis Rodriguez Garcia",
+                "follower": "Ana Belen Ortiz",
+                "scores": {
+                  "Demián García": 6.95,
+                  "Carla Marano": 6.85,
+                  "Pablo Inza": 7.38,
+                  "Silvina Valz": 6.78,
+                  "Hernán Alvarez Prieto": 6.5
+                },
+                "promedio": 6.86,
+                "rank": 92,
+                "ronda": 3
+              },
+              {
+                "pareja": 637,
+                "leader": "Dimitris Galanakis",
+                "follower": "Carla Milena Lizarraga",
+                "scores": {
+                  "Demián García": 7.05,
+                  "Carla Marano": 7.15,
+                  "Pablo Inza": 6.62,
+                  "Silvina Valz": 6.4,
+                  "Hernán Alvarez Prieto": 6.9
+                },
+                "promedio": 6.857,
+                "rank": 93,
+                "ronda": 13
+              },
+              {
+                "pareja": 172,
+                "leader": "Eduardo Perez",
+                "follower": "Julia Posse",
+                "scores": {
+                  "Demián García": 6.9,
+                  "Carla Marano": 6.98,
+                  "Pablo Inza": 6.18,
+                  "Silvina Valz": 6.65,
+                  "Hernán Alvarez Prieto": 7.3
+                },
+                "promedio": 6.843,
+                "rank": 94,
+                "ronda": 4
+              },
+              {
+                "pareja": 275,
+                "leader": "Miguel Angel Luque",
+                "follower": "Sandra Fabiana Trincado",
+                "scores": {
+                  "Demián García": 6.99,
+                  "Carla Marano": 7.0,
+                  "Pablo Inza": 7.0,
+                  "Silvina Valz": 6.2,
+                  "Hernán Alvarez Prieto": 6.53
+                },
+                "promedio": 6.84,
+                "rank": 95,
+                "ronda": 12
+              },
+              {
+                "pareja": 597,
+                "leader": "Daniel Alexis Peralta",
+                "follower": "Wendy Hsiao Wang",
+                "scores": {
+                  "Demián García": 6.4,
+                  "Carla Marano": 6.95,
+                  "Pablo Inza": 7.42,
+                  "Silvina Valz": 6.2,
+                  "Hernán Alvarez Prieto": 7.15
+                },
+                "promedio": 6.833,
+                "rank": 96,
+                "ronda": 1
+              },
+              {
+                "pareja": 601,
+                "leader": "Carlos Alberto Telipko",
+                "follower": "Beatriz Inés Lara",
+                "scores": {
+                  "Demián García": 7.05,
+                  "Carla Marano": 6.91,
+                  "Pablo Inza": 6.78,
+                  "Silvina Valz": 5.9,
+                  "Hernán Alvarez Prieto": 6.81
+                },
+                "promedio": 6.833,
+                "rank": 97,
+                "ronda": 12
+              },
+              {
+                "pareja": 258,
+                "leader": "Damian Nicolas Diaz",
+                "follower": "Maria del Rosario Pera",
+                "scores": {
+                  "Demián García": 6.6,
+                  "Carla Marano": 7.0,
+                  "Pablo Inza": 6.88,
+                  "Silvina Valz": 6.15,
+                  "Hernán Alvarez Prieto": 7.05
+                },
+                "promedio": 6.827,
+                "rank": 98,
+                "ronda": 1
+              },
+              {
+                "pareja": 648,
+                "leader": "Enrique Mendoza",
+                "follower": "Gisela Del Valle Iglesias",
+                "scores": {
+                  "Demián García": 6.5,
+                  "Carla Marano": 7.21,
+                  "Pablo Inza": 7.28,
+                  "Silvina Valz": 6.2,
+                  "Hernán Alvarez Prieto": 6.75
+                },
+                "promedio": 6.82,
+                "rank": 99,
+                "ronda": 7
+              },
+              {
+                "pareja": 191,
+                "leader": "Yuko Kosako",
+                "follower": "Mina kawakami",
+                "scores": {
+                  "Demián García": 6.7,
+                  "Carla Marano": 6.8,
+                  "Pablo Inza": 6.42,
+                  "Silvina Valz": 6.95,
+                  "Hernán Alvarez Prieto": 7.1
+                },
+                "promedio": 6.817,
+                "rank": 100,
+                "ronda": 7
+              },
+              {
+                "pareja": 304,
+                "leader": "Juan Cruz Quiñones",
+                "follower": "Florencia Marsula",
+                "scores": {
+                  "Demián García": 6.6,
+                  "Carla Marano": 7.25,
+                  "Pablo Inza": 6.35,
+                  "Silvina Valz": 6.6,
+                  "Hernán Alvarez Prieto": 7.4
+                },
+                "promedio": 6.817,
+                "rank": 101,
+                "ronda": 7
+              },
+              {
+                "pareja": 478,
+                "leader": "Julia Jaroschewski",
+                "follower": "Aylen Pineda",
+                "scores": {
+                  "Demián García": 6.45,
+                  "Carla Marano": 6.8,
+                  "Pablo Inza": 6.65,
+                  "Silvina Valz": 6.85,
+                  "Hernán Alvarez Prieto": 7.15
+                },
+                "promedio": 6.767,
+                "rank": 102,
+                "ronda": 13
+              },
+              {
+                "pareja": 566,
+                "leader": "Patricio Defilipis",
+                "follower": "Akane Ito",
+                "scores": {
+                  "Demián García": 6.93,
+                  "Carla Marano": 6.79,
+                  "Pablo Inza": 6.55,
+                  "Silvina Valz": 6.0,
+                  "Hernán Alvarez Prieto": 6.87
+                },
+                "promedio": 6.737,
+                "rank": 103,
+                "ronda": 11
+              },
+              {
+                "pareja": 502,
+                "leader": "Lucio Martin Borgnino",
+                "follower": "Ines Otero",
+                "scores": {
+                  "Demián García": 7.0,
+                  "Carla Marano": 6.8,
+                  "Pablo Inza": 6.65,
+                  "Silvina Valz": 5.95,
+                  "Hernán Alvarez Prieto": 6.75
+                },
+                "promedio": 6.733,
+                "rank": 104,
+                "ronda": 14
+              },
+              {
+                "pareja": 190,
+                "leader": "Myoeong-Seok Kim",
+                "follower": "Anahi Barrios",
+                "scores": {
+                  "Demián García": 6.5,
+                  "Carla Marano": 6.9,
+                  "Pablo Inza": 7.16,
+                  "Silvina Valz": 6.25,
+                  "Hernán Alvarez Prieto": 6.8
+                },
+                "promedio": 6.733,
+                "rank": 105,
+                "ronda": 1
+              },
+              {
+                "pareja": 343,
+                "leader": "Esteban Alarcon Ayala",
+                "follower": "Vira Baranovska Andrigo",
+                "scores": {
+                  "Demián García": 6.88,
+                  "Carla Marano": 6.4,
+                  "Pablo Inza": 6.8,
+                  "Silvina Valz": 6.5,
+                  "Hernán Alvarez Prieto": 7.04
+                },
+                "promedio": 6.727,
+                "rank": 106,
+                "ronda": 3
+              },
+              {
+                "pareja": 382,
+                "leader": "Ricardo Yañez Quezada",
+                "follower": "Isis Sánchez Álvarez",
+                "scores": {
+                  "Demián García": 6.7,
+                  "Carla Marano": 6.98,
+                  "Pablo Inza": 6.41,
+                  "Silvina Valz": 6.5,
+                  "Hernán Alvarez Prieto": 6.8
+                },
+                "promedio": 6.667,
+                "rank": 107,
+                "ronda": 15
+              },
+              {
+                "pareja": 106,
+                "leader": "Franco Salazar",
+                "follower": "Alejandra Farfan Vera",
+                "scores": {
+                  "Demián García": 6.75,
+                  "Carla Marano": 6.9,
+                  "Pablo Inza": 6.43,
+                  "Silvina Valz": 6.2,
+                  "Hernán Alvarez Prieto": 6.8
+                },
+                "promedio": 6.66,
+                "rank": 108,
+                "ronda": 11
+              },
+              {
+                "pareja": 401,
+                "leader": "Roberto Cañulef",
+                "follower": "Romina Bethencourt",
+                "scores": {
+                  "Demián García": 6.68,
+                  "Carla Marano": 6.3,
+                  "Pablo Inza": 6.59,
+                  "Silvina Valz": 6.7,
+                  "Hernán Alvarez Prieto": 6.8
+                },
+                "promedio": 6.657,
+                "rank": 109,
+                "ronda": 9
+              },
+              {
+                "pareja": 570,
+                "leader": "Gerardo Sánchez",
+                "follower": "Jésica Manrique",
+                "scores": {
+                  "Demián García": 6.45,
+                  "Carla Marano": 6.25,
+                  "Pablo Inza": 6.71,
+                  "Silvina Valz": 6.8,
+                  "Hernán Alvarez Prieto": 7.0
+                },
+                "promedio": 6.653,
+                "rank": 110,
+                "ronda": 9
+              },
+              {
+                "pareja": 355,
+                "leader": "Jose Comuniello Guaita",
+                "follower": "Elsa Salguero",
+                "scores": {
+                  "Demián García": 7.1,
+                  "Carla Marano": 6.4,
+                  "Pablo Inza": 7.18,
+                  "Silvina Valz": 5.9,
+                  "Hernán Alvarez Prieto": 6.45
+                },
+                "promedio": 6.65,
+                "rank": 111,
+                "ronda": 4
+              },
+              {
+                "pareja": 47,
+                "leader": "Emiliano Martinez",
+                "follower": "Antonella Cipoletta",
+                "scores": {
+                  "Demián García": 6.4,
+                  "Carla Marano": 6.95,
+                  "Pablo Inza": 6.71,
+                  "Silvina Valz": 6.5,
+                  "Hernán Alvarez Prieto": 6.7
+                },
+                "promedio": 6.637,
+                "rank": 112,
+                "ronda": 11
+              },
+              {
+                "pareja": 353,
+                "leader": "Juan Marcelo Ortiz",
+                "follower": "Silvia Susana Sánchez",
+                "scores": {
+                  "Demián García": 6.5,
+                  "Carla Marano": 6.7,
+                  "Pablo Inza": 6.71,
+                  "Silvina Valz": 5.8,
+                  "Hernán Alvarez Prieto": 6.8
+                },
+                "promedio": 6.637,
+                "rank": 113,
+                "ronda": 7
+              },
+              {
+                "pareja": 574,
+                "leader": "Lain Lautaro Mariani",
+                "follower": "Verónica Alejandra Gervan",
+                "scores": {
+                  "Demián García": 6.7,
+                  "Carla Marano": 6.0,
+                  "Pablo Inza": 6.76,
+                  "Silvina Valz": 6.4,
+                  "Hernán Alvarez Prieto": 6.9
+                },
+                "promedio": 6.62,
+                "rank": 114,
+                "ronda": 2
+              },
+              {
+                "pareja": 266,
+                "leader": "Brian Pelayes",
+                "follower": "Paz Teruel",
+                "scores": {
+                  "Demián García": 6.95,
+                  "Carla Marano": 6.92,
+                  "Pablo Inza": 6.52,
+                  "Silvina Valz": 6.35,
+                  "Hernán Alvarez Prieto": 6.38
+                },
+                "promedio": 6.607,
+                "rank": 115,
+                "ronda": 15
+              },
+              {
+                "pareja": 650,
+                "leader": "Federico Ponce Roth",
+                "follower": "Macarena Paz Cabral",
+                "scores": {
+                  "Demián García": 6.15,
+                  "Carla Marano": 6.8,
+                  "Pablo Inza": 6.63,
+                  "Silvina Valz": 6.3,
+                  "Hernán Alvarez Prieto": 6.9
+                },
+                "promedio": 6.577,
+                "rank": 116,
+                "ronda": 8
+              },
+              {
+                "pareja": 150,
+                "leader": "Diego Burga",
+                "follower": "Julieta Alda",
+                "scores": {
+                  "Demián García": 6.85,
+                  "Carla Marano": 6.2,
+                  "Pablo Inza": 6.67,
+                  "Silvina Valz": 6.15,
+                  "Hernán Alvarez Prieto": 6.9
+                },
+                "promedio": 6.573,
+                "rank": 117,
+                "ronda": 7
+              },
+              {
+                "pareja": 205,
+                "leader": "Gabriel Alejandro Pichun",
+                "follower": "Susana Merino Cisneros",
+                "scores": {
+                  "Demián García": 6.4,
+                  "Carla Marano": 6.85,
+                  "Pablo Inza": 6.5,
+                  "Silvina Valz": 6.4,
+                  "Hernán Alvarez Prieto": 6.8
+                },
+                "promedio": 6.567,
+                "rank": 118,
+                "ronda": 5
+              },
+              {
+                "pareja": 121,
+                "leader": "Beppi Chiuppani",
+                "follower": "Giovanna Miolli",
+                "scores": {
+                  "Demián García": 6.5,
+                  "Carla Marano": 7.0,
+                  "Pablo Inza": 6.53,
+                  "Silvina Valz": 6.05,
+                  "Hernán Alvarez Prieto": 6.6
+                },
+                "promedio": 6.543,
+                "rank": 119,
+                "ronda": 9
+              },
+              {
+                "pareja": 551,
+                "leader": "Sixto Roberto Linconir",
+                "follower": "Claudia Ines Robledo",
+                "scores": {
+                  "Demián García": 6.3,
+                  "Carla Marano": 6.92,
+                  "Pablo Inza": 6.62,
+                  "Silvina Valz": 6.0,
+                  "Hernán Alvarez Prieto": 6.7
+                },
+                "promedio": 6.54,
+                "rank": 120,
+                "ronda": 7
+              },
+              {
+                "pareja": 272,
+                "leader": "Raul Montenegro",
+                "follower": "Claudia Aguero",
+                "scores": {
+                  "Demián García": 6.75,
+                  "Carla Marano": 6.5,
+                  "Pablo Inza": 6.36,
+                  "Silvina Valz": 6.35,
+                  "Hernán Alvarez Prieto": 6.8
+                },
+                "promedio": 6.537,
+                "rank": 121,
+                "ronda": 6
+              },
+              {
+                "pareja": 614,
+                "leader": "Dario Ayala",
+                "follower": "Silvia Brusco",
+                "scores": {
+                  "Demián García": 6.8,
+                  "Carla Marano": 6.2,
+                  "Pablo Inza": 6.45,
+                  "Silvina Valz": 6.3,
+                  "Hernán Alvarez Prieto": 6.9
+                },
+                "promedio": 6.517,
+                "rank": 122,
+                "ronda": 5
+              },
+              {
+                "pareja": 571,
+                "leader": "Alejandro Javier Astuena",
+                "follower": "Gabriela Ocaño Casas",
+                "scores": {
+                  "Demián García": 5.9,
+                  "Carla Marano": 6.85,
+                  "Pablo Inza": 6.31,
+                  "Silvina Valz": 6.35,
+                  "Hernán Alvarez Prieto": 6.92
+                },
+                "promedio": 6.503,
+                "rank": 123,
+                "ronda": 1
+              },
+              {
+                "pareja": 269,
+                "leader": "Ulises Delle Ville",
+                "follower": "Miho Okabe",
+                "scores": {
+                  "Demián García": 6.2,
+                  "Carla Marano": 6.85,
+                  "Pablo Inza": 6.63,
+                  "Silvina Valz": 6.1,
+                  "Hernán Alvarez Prieto": 6.6
+                },
+                "promedio": 6.477,
+                "rank": 124,
+                "ronda": 10
+              },
+              {
+                "pareja": 7,
+                "leader": "Sebastian Exler",
+                "follower": "Claudia viviana morbello",
+                "scores": {
+                  "Demián García": 6.2,
+                  "Carla Marano": 6.8,
+                  "Pablo Inza": 6.52,
+                  "Silvina Valz": 6.0,
+                  "Hernán Alvarez Prieto": 6.7
+                },
+                "promedio": 6.473,
+                "rank": 125,
+                "ronda": 9
+              },
+              {
+                "pareja": 561,
+                "leader": "Federico Pérez Berzal",
+                "follower": "Valentina Danilova",
+                "scores": {
+                  "Demián García": 5.95,
+                  "Carla Marano": 6.7,
+                  "Pablo Inza": 6.41,
+                  "Silvina Valz": 6.3,
+                  "Hernán Alvarez Prieto": 6.7
+                },
+                "promedio": 6.47,
+                "rank": 126,
+                "ronda": 1
+              },
+              {
+                "pareja": 369,
+                "leader": "Ismael Villalba",
+                "follower": "Natalia Sheqlashvili",
+                "scores": {
+                  "Demián García": 6.5,
+                  "Carla Marano": 6.7,
+                  "Pablo Inza": 6.35,
+                  "Silvina Valz": 6.5,
+                  "Hernán Alvarez Prieto": 6.4
+                },
+                "promedio": 6.467,
+                "rank": 127,
+                "ronda": 10
+              },
+              {
+                "pareja": 11,
+                "leader": "Katsunori Hanzawa",
+                "follower": "Michiko Hanzawa",
+                "scores": {
+                  "Demián García": 6.8,
+                  "Carla Marano": 5.95,
+                  "Pablo Inza": 6.71,
+                  "Silvina Valz": 6.0,
+                  "Hernán Alvarez Prieto": 6.6
+                },
+                "promedio": 6.437,
+                "rank": 128,
+                "ronda": 3
+              },
+              {
+                "pareja": 127,
+                "leader": "Matías Bordón",
+                "follower": "Viktoriia Nikolaeva",
+                "scores": {
+                  "Demián García": 6.55,
+                  "Carla Marano": 6.5,
+                  "Pablo Inza": 6.24,
+                  "Silvina Valz": 5.7,
+                  "Hernán Alvarez Prieto": 6.87
+                },
+                "promedio": 6.43,
+                "rank": 129,
+                "ronda": 1
+              },
+              {
+                "pareja": 326,
+                "leader": "Carlos Walter Galvan",
+                "follower": "Claudia Narváez",
+                "scores": {
+                  "Demián García": 6.6,
+                  "Carla Marano": 6.15,
+                  "Pablo Inza": 6.65,
+                  "Silvina Valz": 6.35,
+                  "Hernán Alvarez Prieto": 6.33
+                },
+                "promedio": 6.427,
+                "rank": 130,
+                "ronda": 4
+              },
+              {
+                "pareja": 19,
+                "leader": "Andreino Possenti",
+                "follower": "Stefania Sonzogni",
+                "scores": {
+                  "Demián García": 6.6,
+                  "Carla Marano": 6.8,
+                  "Pablo Inza": 6.58,
+                  "Silvina Valz": 6.05,
+                  "Hernán Alvarez Prieto": 6.0
+                },
+                "promedio": 6.41,
+                "rank": 131,
+                "ronda": 12
+              },
+              {
+                "pareja": 611,
+                "leader": "Alejandro Pozzoli",
+                "follower": "Karina Darowski",
+                "scores": {
+                  "Demián García": 6.85,
+                  "Carla Marano": 6.2,
+                  "Pablo Inza": 6.45,
+                  "Silvina Valz": 5.5,
+                  "Hernán Alvarez Prieto": 6.55
+                },
+                "promedio": 6.4,
+                "rank": 132,
+                "ronda": 3
+              },
+              {
+                "pareja": 65,
+                "leader": "André Ramos Vieira",
+                "follower": "Yamila Alejandra Ramirez",
+                "scores": {
+                  "Demián García": 5.8,
+                  "Carla Marano": 6.5,
+                  "Pablo Inza": 6.63,
+                  "Silvina Valz": 6.0,
+                  "Hernán Alvarez Prieto": 6.7
+                },
+                "promedio": 6.377,
+                "rank": 133,
+                "ronda": 14
+              },
+              {
+                "pareja": 525,
+                "leader": "Sebastian Lucio Farias",
+                "follower": "Fatima Marina Skalany",
+                "scores": {
+                  "Demián García": 7.0,
+                  "Carla Marano": 5.9,
+                  "Pablo Inza": 6.41,
+                  "Silvina Valz": 6.5,
+                  "Hernán Alvarez Prieto": 6.2
+                },
+                "promedio": 6.37,
+                "rank": 134,
+                "ronda": 5
+              },
+              {
+                "pareja": 183,
+                "leader": "Mario Pinglo García",
+                "follower": "Ada Tresierra García",
+                "scores": {
+                  "Demián García": 6.65,
+                  "Carla Marano": 6.0,
+                  "Pablo Inza": 6.31,
+                  "Silvina Valz": 6.35,
+                  "Hernán Alvarez Prieto": 6.43
+                },
+                "promedio": 6.363,
+                "rank": 135,
+                "ronda": 15
+              },
+              {
+                "pareja": 371,
+                "leader": "Adolfo Zalazar Fernandez",
+                "follower": "An Jounghee",
+                "scores": {
+                  "Demián García": 6.3,
+                  "Carla Marano": 6.4,
+                  "Pablo Inza": 6.37,
+                  "Silvina Valz": 6.01,
+                  "Hernán Alvarez Prieto": 6.75
+                },
+                "promedio": 6.357,
+                "rank": 136,
+                "ronda": 9
+              },
+              {
+                "pareja": 413,
+                "leader": "Sergio Besacho",
+                "follower": "Petra Vogeltanzová",
+                "scores": {
+                  "Demián García": 6.45,
+                  "Carla Marano": 6.91,
+                  "Pablo Inza": 6.31,
+                  "Silvina Valz": 6.3,
+                  "Hernán Alvarez Prieto": 6.0
+                },
+                "promedio": 6.353,
+                "rank": 137,
+                "ronda": 7
+              },
+              {
+                "pareja": 607,
+                "leader": "Gustavo Gastón cantero",
+                "follower": "Mariana Clara López Ambrona",
+                "scores": {
+                  "Demián García": 6.85,
+                  "Carla Marano": 6.03,
+                  "Pablo Inza": 6.33,
+                  "Silvina Valz": 6.3,
+                  "Hernán Alvarez Prieto": 6.41
+                },
+                "promedio": 6.347,
+                "rank": 138,
+                "ronda": 3
+              },
+              {
+                "pareja": 43,
+                "leader": "Patrice Bellagamba",
+                "follower": "Chantal Obyn",
+                "scores": {
+                  "Demián García": 6.65,
+                  "Carla Marano": 6.7,
+                  "Pablo Inza": 6.22,
+                  "Silvina Valz": 6.0,
+                  "Hernán Alvarez Prieto": 6.1
+                },
+                "promedio": 6.323,
+                "rank": 139,
+                "ronda": 12
+              },
+              {
+                "pareja": 629,
+                "leader": "Ariel Torres",
+                "follower": "Ana Laura Rodriguez",
+                "scores": {
+                  "Demián García": 6.7,
+                  "Carla Marano": 6.0,
+                  "Pablo Inza": 6.44,
+                  "Silvina Valz": 5.65,
+                  "Hernán Alvarez Prieto": 6.51
+                },
+                "promedio": 6.317,
+                "rank": 140,
+                "ronda": 6
+              },
+              {
+                "pareja": 147,
+                "leader": "Alejandro López Barra",
+                "follower": "Margarita González Espinoza",
+                "scores": {
+                  "Demián García": 5.7,
+                  "Carla Marano": 6.85,
+                  "Pablo Inza": 6.0,
+                  "Silvina Valz": 6.45,
+                  "Hernán Alvarez Prieto": 6.18
+                },
+                "promedio": 6.21,
+                "rank": 141,
+                "ronda": 4
+              },
+              {
+                "pareja": 253,
+                "leader": "Roberto Eugenio Vilte",
+                "follower": "Maria Carmen Herrera",
+                "scores": {
+                  "Demián García": 6.75,
+                  "Carla Marano": 6.3,
+                  "Pablo Inza": 6.06,
+                  "Silvina Valz": 5.7,
+                  "Hernán Alvarez Prieto": 6.27
+                },
+                "promedio": 6.21,
+                "rank": 142,
+                "ronda": 4
+              },
+              {
+                "pareja": 506,
+                "leader": "Vitor de Almeida Cardoso",
+                "follower": "Simone Vieira Gonçalves",
+                "scores": {
+                  "Demián García": 6.45,
+                  "Carla Marano": 5.48,
+                  "Pablo Inza": 6.22,
+                  "Silvina Valz": 6.2,
+                  "Hernán Alvarez Prieto": 6.0
+                },
+                "promedio": 6.14,
+                "rank": 143,
+                "ronda": 2
+              },
+              {
+                "pareja": 67,
+                "leader": "Vladimir Altamirano",
+                "follower": "Malaika Kobler",
+                "scores": {
+                  "Demián García": 6.2,
+                  "Carla Marano": 6.2,
+                  "Pablo Inza": 6.31,
+                  "Silvina Valz": 5.8,
+                  "Hernán Alvarez Prieto": 6.0
+                },
+                "promedio": 6.133,
+                "rank": 144,
+                "ronda": 10
+              },
+              {
+                "pareja": 14,
+                "leader": "Nicolás Alvarado",
+                "follower": "Liubov Konoreva",
+                "scores": {
+                  "Demián García": 5.45,
+                  "Carla Marano": 6.2,
+                  "Pablo Inza": 6.4,
+                  "Silvina Valz": 5.65,
+                  "Hernán Alvarez Prieto": 6.5
+                },
+                "promedio": 6.083,
+                "rank": 145,
+                "ronda": 14
+              },
+              {
+                "pareja": 262,
+                "leader": "Sebastián Capitanelli",
+                "follower": "María Laura Quintas",
+                "scores": {
+                  "Demián García": 6.3,
+                  "Carla Marano": 5.95,
+                  "Pablo Inza": 6.0,
+                  "Silvina Valz": 5.7,
+                  "Hernán Alvarez Prieto": 6.43
+                },
+                "promedio": 6.083,
+                "rank": 146,
+                "ronda": 6
+              },
+              {
+                "pareja": 623,
+                "leader": "Daniel Gilliland",
+                "follower": "Sofia Pombo Bravo",
+                "scores": {
+                  "Demián García": 5.65,
+                  "Carla Marano": 5.7,
+                  "Pablo Inza": 6.0,
+                  "Silvina Valz": 5.9,
+                  "Hernán Alvarez Prieto": 6.64
+                },
+                "promedio": 5.867,
+                "rank": 147,
+                "ronda": 3
+              }
+            ]
           }
         }
       },
