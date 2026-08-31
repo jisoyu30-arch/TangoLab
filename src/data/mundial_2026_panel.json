@@ -567,6 +567,24 @@
       },
       {
         "year": 2026,
+        "stage": "clasificatoria/B",
+        "pareja": 460,
+        "rank": 1,
+        "promedio": 7.883,
+        "total_couples": 127,
+        "listed_as": "Lucas Gauto & Naima Gerasopoulou"
+      },
+      {
+        "year": 2026,
+        "stage": "cuartos/A",
+        "pareja": 460,
+        "rank": 6,
+        "promedio": 7.6,
+        "total_couples": 150,
+        "listed_as": "Lucas Gauto & Naima Gerasopoulou"
+      },
+      {
+        "year": 2026,
         "stage": "semifinal",
         "pareja": 460,
         "rank": 1,

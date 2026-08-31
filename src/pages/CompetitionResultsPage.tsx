@@ -327,8 +327,10 @@ export function CompetitionResultsPage() {
     [yearData, showSenior]
   );
 
-  // 결승 전 연도에는 'final' 스테이지가 없다 → 실제로 있는 스테이지로 넘긴다
-  const activeStage = stages.includes(selectedStage) ? selectedStage : stages[0] ?? 'final';
+  // 결승 전 연도에는 'final' 스테이지가 없다 → 가장 진행된 스테이지로 넘긴다
+  const activeStage = stages.includes(selectedStage)
+    ? selectedStage
+    : stages[stages.length - 1] ?? 'final';
   // 결승 진출자가 없으면 '여정' 뷰가 빌 수밖에 없으므로 스테이지 뷰로 보여준다
   const activeViewMode = journeys.length > 0 ? viewMode : 'stages';
 
