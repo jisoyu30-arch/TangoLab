@@ -31,6 +31,20 @@ const DATA = path.join(__dirname, '..', 'src', 'data', 'competition_rounds.json'
 //   2026-09-01 기준 재조사 결과 아직 업로드되지 않았거나 검색에 색인되지 않았다.
 //   주 업로더(Carlos Roberto Ayala) 채널에도 해당 론다는 없다. 순차 업로드될 수
 //   있으니 "Semifinal Mundial de tango 2026 Ronda <번호>" 로 다시 찾아볼 것.
+// 매핑 대기 — 사용자가 "빠졌던 준결승 론다(2·11·12·13·14·17)"라고 확인해 준 링크들.
+// 어느 링크가 몇 번 론다인지는 아직 모른다 (이 환경에서 YouTube 를 열 수 없다).
+// 링크 7개 / 빈 론다 6개라 하나는 중복이거나 다른 것일 수 있다.
+// 론다 번호가 확인되면 아래 VIDEOS 로 옮길 것.
+const PENDING_UNMAPPED = [
+  { video_id: '42YXz40g9jI', note: '재생목록 PLL03cJqHa64I, index 미표기' },
+  { video_id: '5ytZUUe9Cxg', note: '재생목록 PLL03cJqHa64I, index=10' },
+  { video_id: 'ZdnbyntztWg', note: '재생목록 PLL03cJqHa64I, index=11' },
+  { video_id: '_p6X9lpYY9k', note: '재생목록 PLL03cJqHa64I, index=15' },
+  { video_id: 'PbfqjuPciRg', note: '단독 링크' },
+  { video_id: '6L366jjT2SM', note: '단독 링크' },
+  { video_id: 'qb4bdK_tWQU', note: '단독 링크' },
+];
+
 const AYALA = 'Carlos Roberto Ayala';
 const ayala = (n, id) => ({
   video_id: id,
@@ -97,3 +111,17 @@ for (const [ronda, vids] of entries) {
 
 fs.writeFileSync(DATA, JSON.stringify(db, null, 2), 'utf-8');
 console.log(`✅ 영상 ${added}개 추가`);
+
+const empty = db.rounds
+  .filter(r => r.round_id?.startsWith('R-MUNDIAL2026-PISTA-SF') && r.videos.length === 0)
+  .map(r => r.ronda_number)
+  .sort((a, b) => a - b);
+if (empty.length > 0) {
+  console.log(`\n영상 없는 론다: ${empty.join(', ')}`);
+}
+if (PENDING_UNMAPPED.length > 0) {
+  console.log(`매핑 대기 링크 ${PENDING_UNMAPPED.length}개 — 론다 번호 확인 후 VIDEOS 로 옮길 것:`);
+  for (const v of PENDING_UNMAPPED) {
+    console.log(`  https://www.youtube.com/watch?v=${v.video_id}  (${v.note})`);
+  }
+}
