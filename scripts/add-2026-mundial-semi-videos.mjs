@@ -28,6 +28,9 @@ const DATA = path.join(__dirname, '..', 'src', 'data', 'competition_rounds.json'
 //              막혀 있어 확인하지 못했다. 재생 안 되면 여기부터 의심할 것.
 //
 // 아직 못 찾은 론다: 2, 11, 12, 13, 14, 17
+//   2026-09-01 기준 재조사 결과 아직 업로드되지 않았거나 검색에 색인되지 않았다.
+//   주 업로더(Carlos Roberto Ayala) 채널에도 해당 론다는 없다. 순차 업로드될 수
+//   있으니 "Semifinal Mundial de tango 2026 Ronda <번호>" 로 다시 찾아볼 것.
 const AYALA = 'Carlos Roberto Ayala';
 const ayala = (n, id) => ({
   video_id: id,

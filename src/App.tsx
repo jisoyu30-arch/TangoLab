@@ -41,6 +41,7 @@ const SequencesPage = lazy(() => import('./pages/SequencesPage').then(m => ({ de
 const TangoHistoryPage = lazy(() => import('./pages/TangoHistoryPage').then(m => ({ default: m.TangoHistoryPage })));
 const PtcDashboardPage = lazy(() => import('./pages/PtcDashboardPage').then(m => ({ default: m.PtcDashboardPage })));
 const FestivalPage = lazy(() => import('./pages/FestivalPage').then(m => ({ default: m.FestivalPage })));
+const PanelPage = lazy(() => import('./pages/PanelPage').then(m => ({ default: m.PanelPage })));
 
 function PageLoader() {
   return (
@@ -62,6 +63,7 @@ export function App() {
           <Route path="/songs" element={<Suspense fallback={<PageLoader />}><TangoArchivePage /></Suspense>} />
           <Route path="/results" element={<Suspense fallback={<PageLoader />}><CompetitionResultsPage /></Suspense>} />
           <Route path="/festival" element={<Suspense fallback={<PageLoader />}><FestivalPage /></Suspense>} />
+          <Route path="/panel" element={<Suspense fallback={<PageLoader />}><PanelPage /></Suspense>} />
           <Route path="/tanda" element={<Suspense fallback={<PageLoader />}><TandaLabPage /></Suspense>} />
           <Route path="/tanda-simulator" element={<Suspense fallback={<PageLoader />}><TandaSimulatorPage /></Suspense>} />
           <Route path="/command" element={<Suspense fallback={<PageLoader />}><CoupleCommandCenterPage /></Suspense>} />

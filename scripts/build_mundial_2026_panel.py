@@ -172,6 +172,95 @@ def couples_of(year, stage, data):
     return s.get("general", {}).get("couples", [])
 
 
+def all_stage_panels(stages):
+    """(스테이지라벨, 심사위원, 커플목록) — 예선 그룹까지 전부 펼친다."""
+    out = []
+    for name in ("clasificatoria", "cuartos", "semifinal", "final"):
+        node = stages.get(name)
+        if not node:
+            continue
+        if "couples" in node:
+            out.append((name, None, node["judges"], node["couples"]))
+        for g, gv in (node.get("groups") or {}).items():
+            out.append((name, g, gv["judges"], gv["couples"]))
+    return out
+
+
+def judge_stage_stats(judges, couples):
+    """한 패널의 심사위원별 성향 지표."""
+    n = len(couples)
+    promedio = [c["promedio"] for c in couples]
+    panel = [st.mean(c["scores"].values()) for c in couples]
+    stats = {}
+    for j in judges:
+        v = [c["scores"][j] for c in couples]
+        dev = [v[i] - panel[i] for i in range(n)]
+        stats[j] = {
+            "n": n,
+            "mean": round(st.mean(v), 3),
+            "sd": round(st.pstdev(v), 3),
+            "min": min(v), "max": max(v),
+            "bias_vs_panel": round(st.mean(dev), 3),
+            "mean_abs_dev": round(st.mean(abs(d) for d in dev), 3),
+            "dropped_as_high_rate": round(
+                sum(1 for c in couples if c["scores"][j] == max(c["scores"].values())) / n, 3),
+            "dropped_as_low_rate": round(
+                sum(1 for c in couples if c["scores"][j] == min(c["scores"].values())) / n, 3),
+            "spearman_vs_result": round(spearman(v, promedio), 3),
+        }
+    return stats
+
+
+def cross_stage_consistency(stages):
+    """같은 심사위원이 두 스테이지에서 같은 커플을 본 경우의 일관성.
+
+    스테이지가 바뀌면 커플의 춤 자체가 달라지므로 상관이 낮다고 곧바로
+    '일관성 없음'은 아니다. 그래서 같은 커플 집합에서 '패널 결과(promedio)'가
+    두 스테이지 사이에 얼마나 움직였는지를 기준선으로 함께 낸다.
+    기준선보다 높으면 판정이 대회 흐름보다 안정적이었다는 뜻.
+    """
+    panels = all_stage_panels(stages)
+    by_judge = {}
+    for stage, group, judges, couples in panels:
+        for j in judges:
+            by_judge.setdefault(j, []).append((stage, group, couples))
+
+    order = {"clasificatoria": 0, "cuartos": 1, "semifinal": 2, "final": 3}
+    out = []
+    for j, entries in by_judge.items():
+        entries.sort(key=lambda e: order[e[0]])
+        for a in range(len(entries)):
+            for b in range(a + 1, len(entries)):
+                sa, ga, ca = entries[a]
+                sb, gb, cb = entries[b]
+                if order[sa] == order[sb]:
+                    continue                      # 같은 단계의 다른 조는 커플이 겹치지 않는다
+                ma = {c["pareja"]: c for c in ca}
+                mb = {c["pareja"]: c for c in cb}
+                shared = sorted(set(ma) & set(mb))
+                if len(shared) < 15:
+                    continue
+                ja = [ma[p]["scores"][j] for p in shared]
+                jb = [mb[p]["scores"][j] for p in shared]
+                pa = [ma[p]["promedio"] for p in shared]
+                pb = [mb[p]["promedio"] for p in shared]
+                own = spearman(ja, jb)
+                base = spearman(pa, pb)
+                out.append({
+                    "judge": j,
+                    "from": sa + (f"/{ga}" if ga else ""),
+                    "to": sb + (f"/{gb}" if gb else ""),
+                    "shared_couples": len(shared),
+                    "own_consistency": round(own, 3),
+                    "panel_baseline": round(base, 3),
+                    "vs_baseline": round(own - base, 3),
+                    "mean_from": round(st.mean(ja), 3),
+                    "mean_to": round(st.mean(jb), 3),
+                })
+    out.sort(key=lambda r: -r["vs_baseline"])
+    return out
+
+
 def main():
     data = json.load(open(RESULTS, encoding="utf-8"))
     semi = data["2026"]["stages"]["semifinal"]
@@ -214,6 +303,23 @@ def main():
 
     matrix = [[1.0 if a == b else round(spearman(cols[a], cols[b]), 2) for b in judges]
               for a in judges]
+
+    # 2026 전 스테이지 패널 구성과 심사위원별 지표
+    stages = data["2026"]["stages"]
+    panels = []
+    judge_index = {}
+    for stage, group, js, couples in all_stage_panels(stages):
+        label = stage + (f"/{group}" if group else "")
+        stats = judge_stage_stats(js, couples)
+        panels.append({
+            "stage": stage, "group": group, "label": label,
+            "date": (stages[stage].get("groups", {}).get(group) or stages[stage]).get("date"),
+            "judges": js, "total_couples": len(couples),
+            "judge_stats": stats,
+        })
+        for j in js:
+            judge_index.setdefault(j, []).append({"panel": label, **stats[j]})
+    consistency = cross_stage_consistency(stages)
 
     # 2025 결승 진출자 중 2026 준결승 재출전 커플
     def key(c):
@@ -287,6 +393,13 @@ def main():
         "official_criteria": OFFICIAL_CRITERIA,
         "judges": judge_out,
         "agreement_matrix": {"judges": judges, "spearman": matrix},
+        "stage_panels": panels,
+        "judge_index": [
+            {"name": j, "panels": [e["panel"] for e in entries], "by_panel": entries}
+            for j, entries in sorted(judge_index.items(),
+                                     key=lambda kv: (-len(kv[1]), kv[0]))
+        ],
+        "cross_stage_consistency": consistency,
         "returning_2025_finalists": returning,
         "spotlight": {
             "couple": f"{top['leader']} & {top['follower']}",
@@ -314,8 +427,10 @@ def main():
         json.dump(out, f, ensure_ascii=False, indent=2)
 
     print(f"  {os.path.relpath(OUT, ROOT)} 생성")
-    print(f"  심사위원 {len(judge_out)}명 · 2025 결승 진출자 재출전 {len(returning)}쌍 "
+    print(f"  준결승 심사위원 {len(judge_out)}명 · 2025 결승 진출자 재출전 {len(returning)}쌍 "
           f"· 스포트라이트 궤적 {len(trajectory)}건")
+    print(f"  전 스테이지 패널 {len(panels)}개 · 심사위원 {len(judge_index)}명 "
+          f"· 스테이지 간 일관성 {len(consistency)}건")
 
 
 if __name__ == "__main__":

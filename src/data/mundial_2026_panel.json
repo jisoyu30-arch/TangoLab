@@ -317,6 +317,1274 @@
       ]
     ]
   },
+  "stage_panels": [
+    {
+      "stage": "clasificatoria",
+      "group": "A",
+      "label": "clasificatoria/A",
+      "date": "2026-08-23",
+      "judges": [
+        "Demián García",
+        "Carla Marano",
+        "Pablo Inza",
+        "Silvina Valz",
+        "Hernán Alvarez Prieto"
+      ],
+      "total_couples": 146,
+      "judge_stats": {
+        "Demián García": {
+          "n": 146,
+          "mean": 6.806,
+          "sd": 0.473,
+          "min": 5.4,
+          "max": 7.7,
+          "bias_vs_panel": -0.128,
+          "mean_abs_dev": 0.219,
+          "dropped_as_high_rate": 0.034,
+          "dropped_as_low_rate": 0.308,
+          "spearman_vs_result": 0.817
+        },
+        "Carla Marano": {
+          "n": 146,
+          "mean": 6.868,
+          "sd": 0.554,
+          "min": 5.35,
+          "max": 7.68,
+          "bias_vs_panel": -0.067,
+          "mean_abs_dev": 0.218,
+          "dropped_as_high_rate": 0.103,
+          "dropped_as_low_rate": 0.219,
+          "spearman_vs_result": 0.869
+        },
+        "Pablo Inza": {
+          "n": 146,
+          "mean": 7.195,
+          "sd": 0.403,
+          "min": 6.01,
+          "max": 7.9,
+          "bias_vs_panel": 0.261,
+          "mean_abs_dev": 0.289,
+          "dropped_as_high_rate": 0.527,
+          "dropped_as_low_rate": 0.041,
+          "spearman_vs_result": 0.848
+        },
+        "Silvina Valz": {
+          "n": 146,
+          "mean": 6.713,
+          "sd": 0.587,
+          "min": 5.1,
+          "max": 7.75,
+          "bias_vs_panel": -0.222,
+          "mean_abs_dev": 0.284,
+          "dropped_as_high_rate": 0.062,
+          "dropped_as_low_rate": 0.39,
+          "spearman_vs_result": 0.838
+        },
+        "Hernán Alvarez Prieto": {
+          "n": 146,
+          "mean": 7.09,
+          "sd": 0.387,
+          "min": 5.5,
+          "max": 7.85,
+          "bias_vs_panel": 0.156,
+          "mean_abs_dev": 0.263,
+          "dropped_as_high_rate": 0.281,
+          "dropped_as_low_rate": 0.089,
+          "spearman_vs_result": 0.738
+        }
+      }
+    },
+    {
+      "stage": "clasificatoria",
+      "group": "B",
+      "label": "clasificatoria/B",
+      "date": "2026-08-23",
+      "judges": [
+        "Verónica Alvarenga",
+        "Roberto Zuccarino",
+        "Sandra Messina",
+        "Bárbara Ferreyra",
+        "Aoniken Quiroga"
+      ],
+      "total_couples": 127,
+      "judge_stats": {
+        "Verónica Alvarenga": {
+          "n": 127,
+          "mean": 6.586,
+          "sd": 0.703,
+          "min": 5.2,
+          "max": 7.95,
+          "bias_vs_panel": -0.091,
+          "mean_abs_dev": 0.272,
+          "dropped_as_high_rate": 0.142,
+          "dropped_as_low_rate": 0.244,
+          "spearman_vs_result": 0.902
+        },
+        "Roberto Zuccarino": {
+          "n": 127,
+          "mean": 6.582,
+          "sd": 0.715,
+          "min": 5.0,
+          "max": 7.9,
+          "bias_vs_panel": -0.095,
+          "mean_abs_dev": 0.298,
+          "dropped_as_high_rate": 0.15,
+          "dropped_as_low_rate": 0.283,
+          "spearman_vs_result": 0.878
+        },
+        "Sandra Messina": {
+          "n": 127,
+          "mean": 6.94,
+          "sd": 0.585,
+          "min": 5.2,
+          "max": 7.9,
+          "bias_vs_panel": 0.264,
+          "mean_abs_dev": 0.361,
+          "dropped_as_high_rate": 0.472,
+          "dropped_as_low_rate": 0.071,
+          "spearman_vs_result": 0.811
+        },
+        "Bárbara Ferreyra": {
+          "n": 127,
+          "mean": 6.464,
+          "sd": 0.502,
+          "min": 5.4,
+          "max": 7.4,
+          "bias_vs_panel": -0.213,
+          "mean_abs_dev": 0.314,
+          "dropped_as_high_rate": 0.024,
+          "dropped_as_low_rate": 0.409,
+          "spearman_vs_result": 0.804
+        },
+        "Aoniken Quiroga": {
+          "n": 127,
+          "mean": 6.812,
+          "sd": 0.592,
+          "min": 5.4,
+          "max": 8.0,
+          "bias_vs_panel": 0.135,
+          "mean_abs_dev": 0.263,
+          "dropped_as_high_rate": 0.283,
+          "dropped_as_low_rate": 0.087,
+          "spearman_vs_result": 0.871
+        }
+      }
+    },
+    {
+      "stage": "clasificatoria",
+      "group": "D",
+      "label": "clasificatoria/D",
+      "date": "2026-08-24",
+      "judges": [
+        "Verónica Alvarenga",
+        "Roberto Zuccarino",
+        "Sandra Messina",
+        "Bárbara Ferreyra",
+        "Lucas Paez"
+      ],
+      "total_couples": 125,
+      "judge_stats": {
+        "Verónica Alvarenga": {
+          "n": 125,
+          "mean": 6.518,
+          "sd": 0.639,
+          "min": 5.0,
+          "max": 8.0,
+          "bias_vs_panel": -0.327,
+          "mean_abs_dev": 0.367,
+          "dropped_as_high_rate": 0.056,
+          "dropped_as_low_rate": 0.552,
+          "spearman_vs_result": 0.84
+        },
+        "Roberto Zuccarino": {
+          "n": 125,
+          "mean": 6.69,
+          "sd": 0.639,
+          "min": 5.2,
+          "max": 7.9,
+          "bias_vs_panel": -0.154,
+          "mean_abs_dev": 0.261,
+          "dropped_as_high_rate": 0.056,
+          "dropped_as_low_rate": 0.272,
+          "spearman_vs_result": 0.905
+        },
+        "Sandra Messina": {
+          "n": 125,
+          "mean": 6.921,
+          "sd": 0.633,
+          "min": 5.0,
+          "max": 7.85,
+          "bias_vs_panel": 0.076,
+          "mean_abs_dev": 0.275,
+          "dropped_as_high_rate": 0.208,
+          "dropped_as_low_rate": 0.192,
+          "spearman_vs_result": 0.844
+        },
+        "Bárbara Ferreyra": {
+          "n": 125,
+          "mean": 7.076,
+          "sd": 0.391,
+          "min": 5.95,
+          "max": 7.79,
+          "bias_vs_panel": 0.232,
+          "mean_abs_dev": 0.289,
+          "dropped_as_high_rate": 0.376,
+          "dropped_as_low_rate": 0.048,
+          "spearman_vs_result": 0.752
+        },
+        "Lucas Paez": {
+          "n": 125,
+          "mean": 7.017,
+          "sd": 0.494,
+          "min": 5.0,
+          "max": 7.8,
+          "bias_vs_panel": 0.173,
+          "mean_abs_dev": 0.262,
+          "dropped_as_high_rate": 0.384,
+          "dropped_as_low_rate": 0.072,
+          "spearman_vs_result": 0.881
+        }
+      }
+    },
+    {
+      "stage": "clasificatoria",
+      "group": "C",
+      "label": "clasificatoria/C",
+      "date": "2026-08-24",
+      "judges": [
+        "Demián García",
+        "Carla Marano",
+        "Pablo Inza",
+        "Silvina Valz",
+        "Hernán Alvarez Prieto"
+      ],
+      "total_couples": 147,
+      "judge_stats": {
+        "Demián García": {
+          "n": 147,
+          "mean": 6.863,
+          "sd": 0.392,
+          "min": 5.45,
+          "max": 7.7,
+          "bias_vs_panel": -0.02,
+          "mean_abs_dev": 0.203,
+          "dropped_as_high_rate": 0.177,
+          "dropped_as_low_rate": 0.279,
+          "spearman_vs_result": 0.798
+        },
+        "Carla Marano": {
+          "n": 147,
+          "mean": 6.94,
+          "sd": 0.405,
+          "min": 5.48,
+          "max": 7.5,
+          "bias_vs_panel": 0.057,
+          "mean_abs_dev": 0.178,
+          "dropped_as_high_rate": 0.231,
+          "dropped_as_low_rate": 0.122,
+          "spearman_vs_result": 0.879
+        },
+        "Pablo Inza": {
+          "n": 147,
+          "mean": 6.892,
+          "sd": 0.4,
+          "min": 6.0,
+          "max": 7.65,
+          "bias_vs_panel": 0.009,
+          "mean_abs_dev": 0.164,
+          "dropped_as_high_rate": 0.17,
+          "dropped_as_low_rate": 0.15,
+          "spearman_vs_result": 0.844
+        },
+        "Silvina Valz": {
+          "n": 147,
+          "mean": 6.729,
+          "sd": 0.523,
+          "min": 5.5,
+          "max": 7.7,
+          "bias_vs_panel": -0.154,
+          "mean_abs_dev": 0.248,
+          "dropped_as_high_rate": 0.116,
+          "dropped_as_low_rate": 0.395,
+          "spearman_vs_result": 0.853
+        },
+        "Hernán Alvarez Prieto": {
+          "n": 147,
+          "mean": 6.99,
+          "sd": 0.362,
+          "min": 6.0,
+          "max": 7.5,
+          "bias_vs_panel": 0.107,
+          "mean_abs_dev": 0.193,
+          "dropped_as_high_rate": 0.367,
+          "dropped_as_low_rate": 0.095,
+          "spearman_vs_result": 0.812
+        }
+      }
+    },
+    {
+      "stage": "cuartos",
+      "group": "A",
+      "label": "cuartos/A",
+      "date": "2026-08-27",
+      "judges": [
+        "Andrés Laza Moreno",
+        "Stella Missé",
+        "Fabián Peralta",
+        "Inés Bogado",
+        "Javier Rodriguez"
+      ],
+      "total_couples": 150,
+      "judge_stats": {
+        "Andrés Laza Moreno": {
+          "n": 150,
+          "mean": 7.297,
+          "sd": 0.215,
+          "min": 6.0,
+          "max": 7.81,
+          "bias_vs_panel": 0.121,
+          "mean_abs_dev": 0.192,
+          "dropped_as_high_rate": 0.153,
+          "dropped_as_low_rate": 0.04,
+          "spearman_vs_result": 0.682
+        },
+        "Stella Missé": {
+          "n": 150,
+          "mean": 6.898,
+          "sd": 0.532,
+          "min": 6.01,
+          "max": 7.98,
+          "bias_vs_panel": -0.278,
+          "mean_abs_dev": 0.441,
+          "dropped_as_high_rate": 0.133,
+          "dropped_as_low_rate": 0.553,
+          "spearman_vs_result": 0.413
+        },
+        "Fabián Peralta": {
+          "n": 150,
+          "mean": 7.161,
+          "sd": 0.38,
+          "min": 6.0,
+          "max": 7.99,
+          "bias_vs_panel": -0.016,
+          "mean_abs_dev": 0.234,
+          "dropped_as_high_rate": 0.153,
+          "dropped_as_low_rate": 0.16,
+          "spearman_vs_result": 0.759
+        },
+        "Inés Bogado": {
+          "n": 150,
+          "mean": 7.084,
+          "sd": 0.196,
+          "min": 6.5,
+          "max": 7.57,
+          "bias_vs_panel": -0.093,
+          "mean_abs_dev": 0.15,
+          "dropped_as_high_rate": 0.007,
+          "dropped_as_low_rate": 0.153,
+          "spearman_vs_result": 0.738
+        },
+        "Javier Rodriguez": {
+          "n": 150,
+          "mean": 7.442,
+          "sd": 0.486,
+          "min": 5.75,
+          "max": 7.97,
+          "bias_vs_panel": 0.266,
+          "mean_abs_dev": 0.409,
+          "dropped_as_high_rate": 0.58,
+          "dropped_as_low_rate": 0.107,
+          "spearman_vs_result": 0.549
+        }
+      }
+    },
+    {
+      "stage": "cuartos",
+      "group": "B",
+      "label": "cuartos/B",
+      "date": "2026-08-27",
+      "judges": [
+        "Leandro Oliver",
+        "Cynthia Palacios",
+        "Pancho Martinez Pey",
+        "Cristina Sosa",
+        "Ricardo Calvo"
+      ],
+      "total_couples": 142,
+      "judge_stats": {
+        "Leandro Oliver": {
+          "n": 142,
+          "mean": 7.217,
+          "sd": 0.342,
+          "min": 6.3,
+          "max": 7.81,
+          "bias_vs_panel": 0.065,
+          "mean_abs_dev": 0.214,
+          "dropped_as_high_rate": 0.338,
+          "dropped_as_low_rate": 0.204,
+          "spearman_vs_result": 0.597
+        },
+        "Cynthia Palacios": {
+          "n": 142,
+          "mean": 7.032,
+          "sd": 0.215,
+          "min": 6.6,
+          "max": 7.6,
+          "bias_vs_panel": -0.12,
+          "mean_abs_dev": 0.134,
+          "dropped_as_high_rate": 0.0,
+          "dropped_as_low_rate": 0.331,
+          "spearman_vs_result": 0.889
+        },
+        "Pancho Martinez Pey": {
+          "n": 142,
+          "mean": 7.029,
+          "sd": 0.254,
+          "min": 6.45,
+          "max": 7.5,
+          "bias_vs_panel": -0.123,
+          "mean_abs_dev": 0.152,
+          "dropped_as_high_rate": 0.021,
+          "dropped_as_low_rate": 0.352,
+          "spearman_vs_result": 0.837
+        },
+        "Cristina Sosa": {
+          "n": 142,
+          "mean": 7.31,
+          "sd": 0.332,
+          "min": 6.32,
+          "max": 8.0,
+          "bias_vs_panel": 0.157,
+          "mean_abs_dev": 0.22,
+          "dropped_as_high_rate": 0.507,
+          "dropped_as_low_rate": 0.077,
+          "spearman_vs_result": 0.807
+        },
+        "Ricardo Calvo": {
+          "n": 142,
+          "mean": 7.173,
+          "sd": 0.138,
+          "min": 6.4,
+          "max": 7.5,
+          "bias_vs_panel": 0.02,
+          "mean_abs_dev": 0.146,
+          "dropped_as_high_rate": 0.197,
+          "dropped_as_low_rate": 0.113,
+          "spearman_vs_result": 0.569
+        }
+      }
+    },
+    {
+      "stage": "semifinal",
+      "group": null,
+      "label": "semifinal",
+      "date": "2026-08-29",
+      "judges": [
+        "Leandro Oliver",
+        "Cynthia Palacios",
+        "Fabián Peralta",
+        "Cristina Sosa",
+        "Andrés Laza Moreno",
+        "Inés Bogado"
+      ],
+      "total_couples": 159,
+      "judge_stats": {
+        "Leandro Oliver": {
+          "n": 159,
+          "mean": 7.859,
+          "sd": 0.439,
+          "min": 7.0,
+          "max": 8.79,
+          "bias_vs_panel": -0.332,
+          "mean_abs_dev": 0.374,
+          "dropped_as_high_rate": 0.044,
+          "dropped_as_low_rate": 0.566,
+          "spearman_vs_result": 0.582
+        },
+        "Cynthia Palacios": {
+          "n": 159,
+          "mean": 8.116,
+          "sd": 0.231,
+          "min": 7.7,
+          "max": 9.0,
+          "bias_vs_panel": -0.075,
+          "mean_abs_dev": 0.138,
+          "dropped_as_high_rate": 0.019,
+          "dropped_as_low_rate": 0.138,
+          "spearman_vs_result": 0.81
+        },
+        "Fabián Peralta": {
+          "n": 159,
+          "mean": 8.121,
+          "sd": 0.397,
+          "min": 7.0,
+          "max": 8.95,
+          "bias_vs_panel": -0.069,
+          "mean_abs_dev": 0.214,
+          "dropped_as_high_rate": 0.082,
+          "dropped_as_low_rate": 0.176,
+          "spearman_vs_result": 0.798
+        },
+        "Cristina Sosa": {
+          "n": 159,
+          "mean": 8.425,
+          "sd": 0.345,
+          "min": 7.29,
+          "max": 9.0,
+          "bias_vs_panel": 0.234,
+          "mean_abs_dev": 0.299,
+          "dropped_as_high_rate": 0.566,
+          "dropped_as_low_rate": 0.05,
+          "spearman_vs_result": 0.816
+        },
+        "Andrés Laza Moreno": {
+          "n": 159,
+          "mean": 8.415,
+          "sd": 0.148,
+          "min": 7.9,
+          "max": 8.7,
+          "bias_vs_panel": 0.224,
+          "mean_abs_dev": 0.248,
+          "dropped_as_high_rate": 0.308,
+          "dropped_as_low_rate": 0.013,
+          "spearman_vs_result": 0.569
+        },
+        "Inés Bogado": {
+          "n": 159,
+          "mean": 8.208,
+          "sd": 0.16,
+          "min": 7.58,
+          "max": 8.56,
+          "bias_vs_panel": 0.018,
+          "mean_abs_dev": 0.117,
+          "dropped_as_high_rate": 0.006,
+          "dropped_as_low_rate": 0.075,
+          "spearman_vs_result": 0.796
+        }
+      }
+    }
+  ],
+  "judge_index": [
+    {
+      "name": "Andrés Laza Moreno",
+      "panels": [
+        "cuartos/A",
+        "semifinal"
+      ],
+      "by_panel": [
+        {
+          "panel": "cuartos/A",
+          "n": 150,
+          "mean": 7.297,
+          "sd": 0.215,
+          "min": 6.0,
+          "max": 7.81,
+          "bias_vs_panel": 0.121,
+          "mean_abs_dev": 0.192,
+          "dropped_as_high_rate": 0.153,
+          "dropped_as_low_rate": 0.04,
+          "spearman_vs_result": 0.682
+        },
+        {
+          "panel": "semifinal",
+          "n": 159,
+          "mean": 8.415,
+          "sd": 0.148,
+          "min": 7.9,
+          "max": 8.7,
+          "bias_vs_panel": 0.224,
+          "mean_abs_dev": 0.248,
+          "dropped_as_high_rate": 0.308,
+          "dropped_as_low_rate": 0.013,
+          "spearman_vs_result": 0.569
+        }
+      ]
+    },
+    {
+      "name": "Bárbara Ferreyra",
+      "panels": [
+        "clasificatoria/B",
+        "clasificatoria/D"
+      ],
+      "by_panel": [
+        {
+          "panel": "clasificatoria/B",
+          "n": 127,
+          "mean": 6.464,
+          "sd": 0.502,
+          "min": 5.4,
+          "max": 7.4,
+          "bias_vs_panel": -0.213,
+          "mean_abs_dev": 0.314,
+          "dropped_as_high_rate": 0.024,
+          "dropped_as_low_rate": 0.409,
+          "spearman_vs_result": 0.804
+        },
+        {
+          "panel": "clasificatoria/D",
+          "n": 125,
+          "mean": 7.076,
+          "sd": 0.391,
+          "min": 5.95,
+          "max": 7.79,
+          "bias_vs_panel": 0.232,
+          "mean_abs_dev": 0.289,
+          "dropped_as_high_rate": 0.376,
+          "dropped_as_low_rate": 0.048,
+          "spearman_vs_result": 0.752
+        }
+      ]
+    },
+    {
+      "name": "Carla Marano",
+      "panels": [
+        "clasificatoria/A",
+        "clasificatoria/C"
+      ],
+      "by_panel": [
+        {
+          "panel": "clasificatoria/A",
+          "n": 146,
+          "mean": 6.868,
+          "sd": 0.554,
+          "min": 5.35,
+          "max": 7.68,
+          "bias_vs_panel": -0.067,
+          "mean_abs_dev": 0.218,
+          "dropped_as_high_rate": 0.103,
+          "dropped_as_low_rate": 0.219,
+          "spearman_vs_result": 0.869
+        },
+        {
+          "panel": "clasificatoria/C",
+          "n": 147,
+          "mean": 6.94,
+          "sd": 0.405,
+          "min": 5.48,
+          "max": 7.5,
+          "bias_vs_panel": 0.057,
+          "mean_abs_dev": 0.178,
+          "dropped_as_high_rate": 0.231,
+          "dropped_as_low_rate": 0.122,
+          "spearman_vs_result": 0.879
+        }
+      ]
+    },
+    {
+      "name": "Cristina Sosa",
+      "panels": [
+        "cuartos/B",
+        "semifinal"
+      ],
+      "by_panel": [
+        {
+          "panel": "cuartos/B",
+          "n": 142,
+          "mean": 7.31,
+          "sd": 0.332,
+          "min": 6.32,
+          "max": 8.0,
+          "bias_vs_panel": 0.157,
+          "mean_abs_dev": 0.22,
+          "dropped_as_high_rate": 0.507,
+          "dropped_as_low_rate": 0.077,
+          "spearman_vs_result": 0.807
+        },
+        {
+          "panel": "semifinal",
+          "n": 159,
+          "mean": 8.425,
+          "sd": 0.345,
+          "min": 7.29,
+          "max": 9.0,
+          "bias_vs_panel": 0.234,
+          "mean_abs_dev": 0.299,
+          "dropped_as_high_rate": 0.566,
+          "dropped_as_low_rate": 0.05,
+          "spearman_vs_result": 0.816
+        }
+      ]
+    },
+    {
+      "name": "Cynthia Palacios",
+      "panels": [
+        "cuartos/B",
+        "semifinal"
+      ],
+      "by_panel": [
+        {
+          "panel": "cuartos/B",
+          "n": 142,
+          "mean": 7.032,
+          "sd": 0.215,
+          "min": 6.6,
+          "max": 7.6,
+          "bias_vs_panel": -0.12,
+          "mean_abs_dev": 0.134,
+          "dropped_as_high_rate": 0.0,
+          "dropped_as_low_rate": 0.331,
+          "spearman_vs_result": 0.889
+        },
+        {
+          "panel": "semifinal",
+          "n": 159,
+          "mean": 8.116,
+          "sd": 0.231,
+          "min": 7.7,
+          "max": 9.0,
+          "bias_vs_panel": -0.075,
+          "mean_abs_dev": 0.138,
+          "dropped_as_high_rate": 0.019,
+          "dropped_as_low_rate": 0.138,
+          "spearman_vs_result": 0.81
+        }
+      ]
+    },
+    {
+      "name": "Demián García",
+      "panels": [
+        "clasificatoria/A",
+        "clasificatoria/C"
+      ],
+      "by_panel": [
+        {
+          "panel": "clasificatoria/A",
+          "n": 146,
+          "mean": 6.806,
+          "sd": 0.473,
+          "min": 5.4,
+          "max": 7.7,
+          "bias_vs_panel": -0.128,
+          "mean_abs_dev": 0.219,
+          "dropped_as_high_rate": 0.034,
+          "dropped_as_low_rate": 0.308,
+          "spearman_vs_result": 0.817
+        },
+        {
+          "panel": "clasificatoria/C",
+          "n": 147,
+          "mean": 6.863,
+          "sd": 0.392,
+          "min": 5.45,
+          "max": 7.7,
+          "bias_vs_panel": -0.02,
+          "mean_abs_dev": 0.203,
+          "dropped_as_high_rate": 0.177,
+          "dropped_as_low_rate": 0.279,
+          "spearman_vs_result": 0.798
+        }
+      ]
+    },
+    {
+      "name": "Fabián Peralta",
+      "panels": [
+        "cuartos/A",
+        "semifinal"
+      ],
+      "by_panel": [
+        {
+          "panel": "cuartos/A",
+          "n": 150,
+          "mean": 7.161,
+          "sd": 0.38,
+          "min": 6.0,
+          "max": 7.99,
+          "bias_vs_panel": -0.016,
+          "mean_abs_dev": 0.234,
+          "dropped_as_high_rate": 0.153,
+          "dropped_as_low_rate": 0.16,
+          "spearman_vs_result": 0.759
+        },
+        {
+          "panel": "semifinal",
+          "n": 159,
+          "mean": 8.121,
+          "sd": 0.397,
+          "min": 7.0,
+          "max": 8.95,
+          "bias_vs_panel": -0.069,
+          "mean_abs_dev": 0.214,
+          "dropped_as_high_rate": 0.082,
+          "dropped_as_low_rate": 0.176,
+          "spearman_vs_result": 0.798
+        }
+      ]
+    },
+    {
+      "name": "Hernán Alvarez Prieto",
+      "panels": [
+        "clasificatoria/A",
+        "clasificatoria/C"
+      ],
+      "by_panel": [
+        {
+          "panel": "clasificatoria/A",
+          "n": 146,
+          "mean": 7.09,
+          "sd": 0.387,
+          "min": 5.5,
+          "max": 7.85,
+          "bias_vs_panel": 0.156,
+          "mean_abs_dev": 0.263,
+          "dropped_as_high_rate": 0.281,
+          "dropped_as_low_rate": 0.089,
+          "spearman_vs_result": 0.738
+        },
+        {
+          "panel": "clasificatoria/C",
+          "n": 147,
+          "mean": 6.99,
+          "sd": 0.362,
+          "min": 6.0,
+          "max": 7.5,
+          "bias_vs_panel": 0.107,
+          "mean_abs_dev": 0.193,
+          "dropped_as_high_rate": 0.367,
+          "dropped_as_low_rate": 0.095,
+          "spearman_vs_result": 0.812
+        }
+      ]
+    },
+    {
+      "name": "Inés Bogado",
+      "panels": [
+        "cuartos/A",
+        "semifinal"
+      ],
+      "by_panel": [
+        {
+          "panel": "cuartos/A",
+          "n": 150,
+          "mean": 7.084,
+          "sd": 0.196,
+          "min": 6.5,
+          "max": 7.57,
+          "bias_vs_panel": -0.093,
+          "mean_abs_dev": 0.15,
+          "dropped_as_high_rate": 0.007,
+          "dropped_as_low_rate": 0.153,
+          "spearman_vs_result": 0.738
+        },
+        {
+          "panel": "semifinal",
+          "n": 159,
+          "mean": 8.208,
+          "sd": 0.16,
+          "min": 7.58,
+          "max": 8.56,
+          "bias_vs_panel": 0.018,
+          "mean_abs_dev": 0.117,
+          "dropped_as_high_rate": 0.006,
+          "dropped_as_low_rate": 0.075,
+          "spearman_vs_result": 0.796
+        }
+      ]
+    },
+    {
+      "name": "Leandro Oliver",
+      "panels": [
+        "cuartos/B",
+        "semifinal"
+      ],
+      "by_panel": [
+        {
+          "panel": "cuartos/B",
+          "n": 142,
+          "mean": 7.217,
+          "sd": 0.342,
+          "min": 6.3,
+          "max": 7.81,
+          "bias_vs_panel": 0.065,
+          "mean_abs_dev": 0.214,
+          "dropped_as_high_rate": 0.338,
+          "dropped_as_low_rate": 0.204,
+          "spearman_vs_result": 0.597
+        },
+        {
+          "panel": "semifinal",
+          "n": 159,
+          "mean": 7.859,
+          "sd": 0.439,
+          "min": 7.0,
+          "max": 8.79,
+          "bias_vs_panel": -0.332,
+          "mean_abs_dev": 0.374,
+          "dropped_as_high_rate": 0.044,
+          "dropped_as_low_rate": 0.566,
+          "spearman_vs_result": 0.582
+        }
+      ]
+    },
+    {
+      "name": "Pablo Inza",
+      "panels": [
+        "clasificatoria/A",
+        "clasificatoria/C"
+      ],
+      "by_panel": [
+        {
+          "panel": "clasificatoria/A",
+          "n": 146,
+          "mean": 7.195,
+          "sd": 0.403,
+          "min": 6.01,
+          "max": 7.9,
+          "bias_vs_panel": 0.261,
+          "mean_abs_dev": 0.289,
+          "dropped_as_high_rate": 0.527,
+          "dropped_as_low_rate": 0.041,
+          "spearman_vs_result": 0.848
+        },
+        {
+          "panel": "clasificatoria/C",
+          "n": 147,
+          "mean": 6.892,
+          "sd": 0.4,
+          "min": 6.0,
+          "max": 7.65,
+          "bias_vs_panel": 0.009,
+          "mean_abs_dev": 0.164,
+          "dropped_as_high_rate": 0.17,
+          "dropped_as_low_rate": 0.15,
+          "spearman_vs_result": 0.844
+        }
+      ]
+    },
+    {
+      "name": "Roberto Zuccarino",
+      "panels": [
+        "clasificatoria/B",
+        "clasificatoria/D"
+      ],
+      "by_panel": [
+        {
+          "panel": "clasificatoria/B",
+          "n": 127,
+          "mean": 6.582,
+          "sd": 0.715,
+          "min": 5.0,
+          "max": 7.9,
+          "bias_vs_panel": -0.095,
+          "mean_abs_dev": 0.298,
+          "dropped_as_high_rate": 0.15,
+          "dropped_as_low_rate": 0.283,
+          "spearman_vs_result": 0.878
+        },
+        {
+          "panel": "clasificatoria/D",
+          "n": 125,
+          "mean": 6.69,
+          "sd": 0.639,
+          "min": 5.2,
+          "max": 7.9,
+          "bias_vs_panel": -0.154,
+          "mean_abs_dev": 0.261,
+          "dropped_as_high_rate": 0.056,
+          "dropped_as_low_rate": 0.272,
+          "spearman_vs_result": 0.905
+        }
+      ]
+    },
+    {
+      "name": "Sandra Messina",
+      "panels": [
+        "clasificatoria/B",
+        "clasificatoria/D"
+      ],
+      "by_panel": [
+        {
+          "panel": "clasificatoria/B",
+          "n": 127,
+          "mean": 6.94,
+          "sd": 0.585,
+          "min": 5.2,
+          "max": 7.9,
+          "bias_vs_panel": 0.264,
+          "mean_abs_dev": 0.361,
+          "dropped_as_high_rate": 0.472,
+          "dropped_as_low_rate": 0.071,
+          "spearman_vs_result": 0.811
+        },
+        {
+          "panel": "clasificatoria/D",
+          "n": 125,
+          "mean": 6.921,
+          "sd": 0.633,
+          "min": 5.0,
+          "max": 7.85,
+          "bias_vs_panel": 0.076,
+          "mean_abs_dev": 0.275,
+          "dropped_as_high_rate": 0.208,
+          "dropped_as_low_rate": 0.192,
+          "spearman_vs_result": 0.844
+        }
+      ]
+    },
+    {
+      "name": "Silvina Valz",
+      "panels": [
+        "clasificatoria/A",
+        "clasificatoria/C"
+      ],
+      "by_panel": [
+        {
+          "panel": "clasificatoria/A",
+          "n": 146,
+          "mean": 6.713,
+          "sd": 0.587,
+          "min": 5.1,
+          "max": 7.75,
+          "bias_vs_panel": -0.222,
+          "mean_abs_dev": 0.284,
+          "dropped_as_high_rate": 0.062,
+          "dropped_as_low_rate": 0.39,
+          "spearman_vs_result": 0.838
+        },
+        {
+          "panel": "clasificatoria/C",
+          "n": 147,
+          "mean": 6.729,
+          "sd": 0.523,
+          "min": 5.5,
+          "max": 7.7,
+          "bias_vs_panel": -0.154,
+          "mean_abs_dev": 0.248,
+          "dropped_as_high_rate": 0.116,
+          "dropped_as_low_rate": 0.395,
+          "spearman_vs_result": 0.853
+        }
+      ]
+    },
+    {
+      "name": "Verónica Alvarenga",
+      "panels": [
+        "clasificatoria/B",
+        "clasificatoria/D"
+      ],
+      "by_panel": [
+        {
+          "panel": "clasificatoria/B",
+          "n": 127,
+          "mean": 6.586,
+          "sd": 0.703,
+          "min": 5.2,
+          "max": 7.95,
+          "bias_vs_panel": -0.091,
+          "mean_abs_dev": 0.272,
+          "dropped_as_high_rate": 0.142,
+          "dropped_as_low_rate": 0.244,
+          "spearman_vs_result": 0.902
+        },
+        {
+          "panel": "clasificatoria/D",
+          "n": 125,
+          "mean": 6.518,
+          "sd": 0.639,
+          "min": 5.0,
+          "max": 8.0,
+          "bias_vs_panel": -0.327,
+          "mean_abs_dev": 0.367,
+          "dropped_as_high_rate": 0.056,
+          "dropped_as_low_rate": 0.552,
+          "spearman_vs_result": 0.84
+        }
+      ]
+    },
+    {
+      "name": "Aoniken Quiroga",
+      "panels": [
+        "clasificatoria/B"
+      ],
+      "by_panel": [
+        {
+          "panel": "clasificatoria/B",
+          "n": 127,
+          "mean": 6.812,
+          "sd": 0.592,
+          "min": 5.4,
+          "max": 8.0,
+          "bias_vs_panel": 0.135,
+          "mean_abs_dev": 0.263,
+          "dropped_as_high_rate": 0.283,
+          "dropped_as_low_rate": 0.087,
+          "spearman_vs_result": 0.871
+        }
+      ]
+    },
+    {
+      "name": "Javier Rodriguez",
+      "panels": [
+        "cuartos/A"
+      ],
+      "by_panel": [
+        {
+          "panel": "cuartos/A",
+          "n": 150,
+          "mean": 7.442,
+          "sd": 0.486,
+          "min": 5.75,
+          "max": 7.97,
+          "bias_vs_panel": 0.266,
+          "mean_abs_dev": 0.409,
+          "dropped_as_high_rate": 0.58,
+          "dropped_as_low_rate": 0.107,
+          "spearman_vs_result": 0.549
+        }
+      ]
+    },
+    {
+      "name": "Lucas Paez",
+      "panels": [
+        "clasificatoria/D"
+      ],
+      "by_panel": [
+        {
+          "panel": "clasificatoria/D",
+          "n": 125,
+          "mean": 7.017,
+          "sd": 0.494,
+          "min": 5.0,
+          "max": 7.8,
+          "bias_vs_panel": 0.173,
+          "mean_abs_dev": 0.262,
+          "dropped_as_high_rate": 0.384,
+          "dropped_as_low_rate": 0.072,
+          "spearman_vs_result": 0.881
+        }
+      ]
+    },
+    {
+      "name": "Pancho Martinez Pey",
+      "panels": [
+        "cuartos/B"
+      ],
+      "by_panel": [
+        {
+          "panel": "cuartos/B",
+          "n": 142,
+          "mean": 7.029,
+          "sd": 0.254,
+          "min": 6.45,
+          "max": 7.5,
+          "bias_vs_panel": -0.123,
+          "mean_abs_dev": 0.152,
+          "dropped_as_high_rate": 0.021,
+          "dropped_as_low_rate": 0.352,
+          "spearman_vs_result": 0.837
+        }
+      ]
+    },
+    {
+      "name": "Ricardo Calvo",
+      "panels": [
+        "cuartos/B"
+      ],
+      "by_panel": [
+        {
+          "panel": "cuartos/B",
+          "n": 142,
+          "mean": 7.173,
+          "sd": 0.138,
+          "min": 6.4,
+          "max": 7.5,
+          "bias_vs_panel": 0.02,
+          "mean_abs_dev": 0.146,
+          "dropped_as_high_rate": 0.197,
+          "dropped_as_low_rate": 0.113,
+          "spearman_vs_result": 0.569
+        }
+      ]
+    },
+    {
+      "name": "Stella Missé",
+      "panels": [
+        "cuartos/A"
+      ],
+      "by_panel": [
+        {
+          "panel": "cuartos/A",
+          "n": 150,
+          "mean": 6.898,
+          "sd": 0.532,
+          "min": 6.01,
+          "max": 7.98,
+          "bias_vs_panel": -0.278,
+          "mean_abs_dev": 0.441,
+          "dropped_as_high_rate": 0.133,
+          "dropped_as_low_rate": 0.553,
+          "spearman_vs_result": 0.413
+        }
+      ]
+    }
+  ],
+  "cross_stage_consistency": [
+    {
+      "judge": "Inés Bogado",
+      "from": "cuartos/A",
+      "to": "semifinal",
+      "shared_couples": 75,
+      "own_consistency": 0.804,
+      "panel_baseline": 0.61,
+      "vs_baseline": 0.195,
+      "mean_from": 7.203,
+      "mean_to": 8.225
+    },
+    {
+      "judge": "Cynthia Palacios",
+      "from": "cuartos/B",
+      "to": "semifinal",
+      "shared_couples": 71,
+      "own_consistency": 0.827,
+      "panel_baseline": 0.716,
+      "vs_baseline": 0.111,
+      "mean_from": 7.191,
+      "mean_to": 8.092
+    },
+    {
+      "judge": "Cristina Sosa",
+      "from": "cuartos/B",
+      "to": "semifinal",
+      "shared_couples": 71,
+      "own_consistency": 0.791,
+      "panel_baseline": 0.716,
+      "vs_baseline": 0.075,
+      "mean_from": 7.52,
+      "mean_to": 8.439
+    },
+    {
+      "judge": "Andrés Laza Moreno",
+      "from": "cuartos/A",
+      "to": "semifinal",
+      "shared_couples": 75,
+      "own_consistency": 0.522,
+      "panel_baseline": 0.61,
+      "vs_baseline": -0.088,
+      "mean_from": 7.397,
+      "mean_to": 8.433
+    },
+    {
+      "judge": "Fabián Peralta",
+      "from": "cuartos/A",
+      "to": "semifinal",
+      "shared_couples": 75,
+      "own_consistency": 0.521,
+      "panel_baseline": 0.61,
+      "vs_baseline": -0.089,
+      "mean_from": 7.369,
+      "mean_to": 8.136
+    },
+    {
+      "judge": "Leandro Oliver",
+      "from": "cuartos/B",
+      "to": "semifinal",
+      "shared_couples": 71,
+      "own_consistency": 0.491,
+      "panel_baseline": 0.716,
+      "vs_baseline": -0.226,
+      "mean_from": 7.357,
+      "mean_to": 7.838
+    }
+  ],
   "returning_2025_finalists": [
     {
       "pareja_2026": 460,
