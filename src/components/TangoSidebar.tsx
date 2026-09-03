@@ -68,6 +68,7 @@ const NAV_GROUPS: NavGroup[] = [
       { to: '/tanda', label: 'Tandas', sub: '탄다 연구소', num: '09' },
       { to: '/results', label: 'Rankings', sub: '대회 순위', num: '10' },
       { to: '/festival', label: 'Festival', sub: '축제·대회 일정', num: '◈' },
+      { to: '/parejas', label: 'Bib No.', sub: '2026 등번호 조회', num: '#' },
     ],
   },
   {
