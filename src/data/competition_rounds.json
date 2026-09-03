@@ -35204,6 +35204,53 @@
           "advancedTo": "qualifying"
         }
       ]
+    },
+    {
+      "round_id": "R-MUNDIAL2026-PISTA-F1",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2026,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 1,
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "aW-Z_oZoXW4",
+          "url": "https://www.youtube.com/watch?v=aW-Z_oZoXW4",
+          "channel": "YouTube",
+          "title": "Tango de Pista FINAL | Mundial de Tango 2026 - Buenos Aires, Argentina"
+        },
+        {
+          "video_id": "Zd6HKLZ7yx4",
+          "url": "https://www.youtube.com/watch?v=Zd6HKLZ7yx4",
+          "channel": "YouTube",
+          "title": "Lucas Gauto & Naima Gerasopoulou - World Champions of Tango de Pista 2026"
+        }
+      ],
+      "participants": [
+        {
+          "pareja": 460,
+          "leader": "Lucas Gauto",
+          "follower": "Naima Gerasopoulou",
+          "rank": 1,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 91,
+          "leader": "Rodrigo Nicolás Palacios",
+          "follower": "Indira Hiayes",
+          "rank": 2,
+          "advancedTo": "final"
+        },
+        {
+          "pareja": 139,
+          "leader": "London",
+          "follower": "Sol",
+          "rank": 3,
+          "advancedTo": "final"
+        }
+      ]
     }
   ]
 }

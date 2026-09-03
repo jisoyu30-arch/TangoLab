@@ -2,6 +2,7 @@
 import { useMemo, useState } from 'react';
 import { PageHeader } from '../components/PageHeader';
 import panelData from '../data/mundial_2026_panel.json';
+import championProfiles from '../data/champion_profiles.json';
 
 interface JudgeStats {
   n: number; mean: number; sd: number; min: number; max: number;
@@ -26,6 +27,24 @@ interface CuratedJudge {
   sources?: { title: string; url: string }[];
   stats: JudgeStats;
 }
+
+interface PodiumEntry {
+  rank: number; couple: string; origin: string; pareja: number;
+  semifinal_rank: number; semifinal_promedio: number;
+  trajectory: { stage: string; group: string | null; rank: number; of: number; promedio: number }[];
+  semifinal_judge_z: Record<string, number>;
+  semifinal_scores: Record<string, number>;
+}
+const champ2026 = (championProfiles as any).profiles?.['2026-pista'] as {
+  couple: string; origin: string; style_summary: string; characteristics: string[];
+  strategic_takeaway: string; notable_history?: string;
+  podium: PodiumEntry[];
+  senior_champion: { couple: string; origin: string; note: string };
+  escenario_champion: { couple: string; origin: string; note: string };
+  final: { date: string; venue: string; note: string };
+  videos: { video_id: string; title: string; channel: string }[];
+  sources: { title: string; url: string }[];
+} | undefined;
 
 const d = panelData as unknown as {
   competition: { name: string; category: string; semifinal: { date: string; total_couples: number; advancing: number; cutoff_promedio: number } };
@@ -110,6 +129,158 @@ export function PanelPage() {
                className="ml-1 text-tango-brass/70 hover:text-tango-brass underline">출처</a>
           </div>
         </section>
+
+        {/* 수상자 — 결과와 채점의 연결 */}
+        {champ2026 && (
+          <section>
+            <h2 className="text-sm font-semibold text-tango-brass mb-2 tracking-wide">
+              2026 수상자 — 누가 이 패널에게 어떻게 보였나
+            </h2>
+
+            <div className="grid gap-2 md:grid-cols-3 mb-3">
+              {champ2026.podium.map(p => (
+                <div key={p.rank} className={`p-3 rounded-xl ${
+                  p.rank === 1 ? 'bg-tango-brass/15 border border-tango-brass/40' : 'bg-white/5 border border-white/10'
+                }`}>
+                  <div className="text-xs text-tango-cream/50">
+                    {p.rank === 1 ? '🥇 우승' : p.rank === 2 ? '🥈 준우승' : '🥉 3위'} · #{p.pareja}
+                  </div>
+                  <div className="text-sm text-white font-medium mt-0.5">{p.couple}</div>
+                  <div className="text-xs text-tango-cream/50">{p.origin}</div>
+                  <div className="text-xs text-tango-cream/40 mt-1.5">
+                    준결승 {p.semifinal_rank}위 · {p.semifinal_promedio}
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* 스테이지별 궤적 */}
+            <div className="overflow-x-auto mb-4">
+              <table className="w-full text-sm min-w-[560px]">
+                <thead>
+                  <tr className="text-xs text-tango-cream/40 border-b border-white/10">
+                    <th className="text-left font-normal py-2 pr-3">커플</th>
+                    <th className="text-right font-normal py-2 px-2">예선</th>
+                    <th className="text-right font-normal py-2 px-2">8강</th>
+                    <th className="text-right font-normal py-2 px-2">준결승</th>
+                    <th className="text-right font-normal py-2 pl-2">결승</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {champ2026.podium.map(p => {
+                    const by = Object.fromEntries(p.trajectory.map(t => [t.stage, t]));
+                    const cell = (k: string) => {
+                      const t = by[k];
+                      if (!t) return <span className="text-tango-cream/25">—</span>;
+                      return (
+                        <>
+                          <span className="text-tango-cream/90">{t.rank}위</span>
+                          <span className="text-tango-cream/35">/{t.of}</span>
+                          {t.group && <span className="text-tango-cream/30"> {t.group}조</span>}
+                        </>
+                      );
+                    };
+                    return (
+                      <tr key={p.rank} className="border-b border-white/5">
+                        <td className="py-2 pr-3 text-tango-cream/90">{p.couple}</td>
+                        <td className="text-right px-2 tabular-nums text-xs">{cell('clasificatoria')}</td>
+                        <td className="text-right px-2 tabular-nums text-xs">{cell('cuartos')}</td>
+                        <td className="text-right px-2 tabular-nums text-xs">{cell('semifinal')}</td>
+                        <td className="text-right pl-2 tabular-nums text-xs" style={{ color: WARM }}>
+                          {p.rank}위
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+
+            {/* 심사위원별 z-점수 */}
+            <h3 className="text-xs font-semibold text-tango-brass/80 tracking-wide mb-1">
+              준결승 심사위원별 평가 강도 (z-점수)
+            </h3>
+            <p className="text-xs text-tango-cream/50 mb-2 leading-relaxed">
+              심사위원마다 후하고 짠 정도가 달라 원점수로는 비교가 안 된다. 그 심사위원 본인의
+              점수 분포에서 몇 표준편차 위였는지로 환산했다. 값이 클수록 그 심사위원이
+              159쌍 중에서 유난히 높게 봤다는 뜻.
+            </p>
+            <div className="overflow-x-auto">
+              <table className="text-xs min-w-[600px]">
+                <thead>
+                  <tr>
+                    <th />
+                    {d.agreement_matrix.judges.map(j => (
+                      <th key={j} className="px-1 py-1 font-normal text-tango-cream/40 text-center">
+                        {j.split(' ')[0]}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {champ2026.podium.map(p => (
+                    <tr key={p.rank}>
+                      <td className="pr-2 py-1 text-tango-cream/70 whitespace-nowrap">
+                        {p.rank}위 {p.couple.split(' & ')[0]}
+                      </td>
+                      {d.agreement_matrix.judges.map(j => {
+                        const z = p.semifinal_judge_z[j] ?? 0;
+                        return (
+                          <td key={j} className="px-1 py-1">
+                            <div
+                              title={`${j} · 원점수 ${p.semifinal_scores[j]} · z ${z}`}
+                              className="w-full min-w-[52px] h-7 rounded flex items-center justify-center tabular-nums"
+                              style={{
+                                background: `rgba(184,134,63,${0.08 + Math.min(z / 4, 1) * 0.7})`,
+                                color: '#F5F1E8',
+                              }}
+                            >
+                              {z.toFixed(2)}
+                            </div>
+                          </td>
+                        );
+                      })}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            <div className="mt-3 p-3 rounded-xl bg-white/5 border border-white/10 text-sm">
+              <div className="text-tango-brass text-xs mb-1">{champ2026.style_summary}</div>
+              <ul className="space-y-1 text-xs text-tango-cream/70 list-disc list-inside">
+                {champ2026.characteristics.map(c => <li key={c}>{c}</li>)}
+              </ul>
+              <p className="mt-2 text-xs text-tango-cream/60 leading-relaxed">
+                {champ2026.strategic_takeaway}
+              </p>
+            </div>
+
+            <div className="mt-2 flex flex-wrap gap-2 text-xs">
+              {champ2026.videos.map(v => (
+                <a key={v.video_id} href={`https://www.youtube.com/watch?v=${v.video_id}`}
+                   target="_blank" rel="noopener noreferrer"
+                   className="px-3 py-1.5 rounded-lg bg-tango-brass/10 hover:bg-tango-brass/20 text-tango-brass">
+                  ▶ {v.title}
+                </a>
+              ))}
+            </div>
+
+            <p className="mt-2 text-xs text-tango-cream/45">
+              시니어 {champ2026.senior_champion.couple} · 에스체나리오 {champ2026.escenario_champion.couple}
+              {' · '}{champ2026.final.note}
+            </p>
+            <p className="mt-1 text-xs text-tango-cream/35">
+              순위 출처: {champ2026.sources.slice(0, 3).map((s, i) => (
+                <span key={s.url}>
+                  {i > 0 && ' · '}
+                  <a href={s.url} target="_blank" rel="noopener noreferrer"
+                     className="underline hover:text-tango-brass">{s.title.split(' — ').pop()}</a>
+                </span>
+              ))}
+            </p>
+          </section>
+        )}
 
         {/* 스테이지별 패널 구성 */}
         <section>

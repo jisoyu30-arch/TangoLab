@@ -16,7 +16,7 @@ const songs = songsData as Song[];
 const rounds = (roundsData as any).rounds;
 const songMap = new Map(songs.map(s => [s.song_id, s]));
 
-// 역대 우승자 — Wikipedia 기반 (2003~2025)
+// 역대 우승자 — Wikipedia 기반 (2003~), 2026은 대회 직후 보도 기준
 interface ChampionEntry {
   year: number;
   category: 'pista' | 'escenario';
@@ -182,7 +182,7 @@ export function ChampionsPage() {
             <OrnamentDivider className="mt-6" />
           </div>
 
-          {/* 역대 챔피언 — Pista 2003~2025 */}
+          {/* 역대 챔피언 — Pista 전 연도 */}
           <section>
             <div className="flex items-baseline justify-between mb-4">
               <div>
@@ -194,7 +194,9 @@ export function ChampionsPage() {
                 </h2>
               </div>
               <div className="text-right text-[10px] tracking-widest uppercase text-tango-cream/50">
-                2003–2025
+                {pistaChampions.length > 0
+                  ? `${pistaChampions[pistaChampions.length - 1].year}–${pistaChampions[0].year}`
+                  : '—'}
               </div>
             </div>
 

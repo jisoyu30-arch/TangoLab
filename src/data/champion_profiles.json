@@ -3,7 +3,8 @@
   "note": "각 우승 커플의 핵심 특징·춤 스타일·배경·인터뷰 요점. 한국 댄서들이 벤치마킹할 수 있도록 정리.",
   "profiles": {
     "2025-pista": {
-      "year": 2025, "category": "pista",
+      "year": 2025,
+      "category": "pista",
       "couple": "Diego Ortega & Aldana Silveyra",
       "origin": "Argentina · Colón, Buenos Aires Province",
       "style_summary": "기본기 완성도 극대화 · 음악적 해석 깊이 · 절제된 우아함",
@@ -18,10 +19,13 @@
       "teaching_activity": "Colón 지역 기반 티칭. 국제 워크샵 활발",
       "notable_history": "2010년 Escenario 부문 우승(파트너 Chizuko Kuwamoto, 일본) 경력 — 15년 만에 Pista 재우승. 유일한 카테고리 크로스 우승자",
       "music_preference": "Di Sarli, D'Agostino, Pugliese (멜로딕 중심)",
-      "links": ["https://en.wikipedia.org/wiki/World_tango_dance_tournament"]
+      "links": [
+        "https://en.wikipedia.org/wiki/World_tango_dance_tournament"
+      ]
     },
     "2024-pista": {
-      "year": 2024, "category": "pista",
+      "year": 2024,
+      "category": "pista",
       "couple": "Fatima Caracoch & Brenno Marques",
       "origin": "Ciudad de Buenos Aires · Argentina / Brazil (São Paulo)",
       "style_summary": "리드미컬 · 뮤지컬리티 강조 · 현대적 클래식",
@@ -37,7 +41,8 @@
       "music_preference": "D'Arienzo, Biagi, 조기 Caló"
     },
     "2023-pista": {
-      "year": 2023, "category": "pista",
+      "year": 2023,
+      "category": "pista",
       "couple": "Suyay Quiroga & Jhonny Carvajal",
       "origin": "Argentina / Colombia (Cali)",
       "style_summary": "부드러움 · 감정 깊이 · Di Sarli의 시그니처",
@@ -52,7 +57,8 @@
       "music_preference": "Di Sarli, Pugliese (서정적)"
     },
     "2022-pista": {
-      "year": 2022, "category": "pista",
+      "year": 2022,
+      "category": "pista",
       "couple": "Sebastián Bolivar & Cynthia Palacios",
       "origin": "Argentina",
       "style_summary": "정통 Buenos Aires 살롱 스타일 · 절제",
@@ -66,7 +72,8 @@
       "music_preference": "D'Arienzo, Troilo, Calo (클래식 정통)"
     },
     "2021-pista": {
-      "year": 2021, "category": "pista",
+      "year": 2021,
+      "category": "pista",
       "couple": "Barbara Ferreyra & Agustín Agnez",
       "origin": "Argentina",
       "style_summary": "역동적 · 파워풀 · 넓은 무대 활용",
@@ -80,7 +87,8 @@
       "music_preference": "Pugliese, Troilo (드라마틱)"
     },
     "2019-pista": {
-      "year": 2019, "category": "pista",
+      "year": 2019,
+      "category": "pista",
       "couple": "Maksim Gerasimov & Agustina Piaggio",
       "origin": "Russia / Argentina",
       "style_summary": "유럽계 테크닉 + 아르헨 감성 융합",
@@ -95,7 +103,8 @@
       "music_preference": "Di Sarli, Caló"
     },
     "2018-pista": {
-      "year": 2018, "category": "pista",
+      "year": 2018,
+      "category": "pista",
       "couple": "José Luis Salvo & Carla Rossi",
       "origin": "Argentina",
       "style_summary": "우아함 · 미니멀리즘 · 심사 친화적",
@@ -108,7 +117,8 @@
       "music_preference": "Di Sarli, Calo"
     },
     "2017-pista": {
-      "year": 2017, "category": "pista",
+      "year": 2017,
+      "category": "pista",
       "couple": "Germán Ballejo & Magdalena Gutiérrez",
       "origin": "Argentina",
       "style_summary": "클래식 형식미의 완성",
@@ -122,7 +132,8 @@
       "teaching_activity": "세계 워크샵 투어, 유럽 · 아시아 거주"
     },
     "2016-pista": {
-      "year": 2016, "category": "pista",
+      "year": 2016,
+      "category": "pista",
       "couple": "Cristian Palomo & Melisa Sacchi",
       "origin": "Argentina",
       "style_summary": "유연한 살롱 테크닉 · 드라마틱 표현",
@@ -135,7 +146,8 @@
       "music_preference": "Di Sarli, Caló"
     },
     "2015-pista": {
-      "year": 2015, "category": "pista",
+      "year": 2015,
+      "category": "pista",
       "couple": "Jonathan Saavedra & Clarisa Aragón",
       "origin": "Argentina",
       "style_summary": "정통 살롱 · 대표적 국제 강사 커플",
@@ -150,7 +162,8 @@
       "notable_history": "우승 후 '탱고의 얼굴' 중 하나로 자리잡음"
     },
     "2014-pista": {
-      "year": 2014, "category": "pista",
+      "year": 2014,
+      "category": "pista",
       "couple": "Sebastián Acosta & Lorena González Cattaneo",
       "origin": "Argentina / Uruguay",
       "style_summary": "아르헨-우루과이 융합 · 감정적",
@@ -162,7 +175,8 @@
       "strategic_takeaway": "지역 경계를 넘어서는 파트너십이 통할 수 있음."
     },
     "2013-pista": {
-      "year": 2013, "category": "pista",
+      "year": 2013,
+      "category": "pista",
       "couple": "Maximiliano Cristiani & Jesica Arfenoni",
       "origin": "Argentina",
       "style_summary": "젊은 세대의 깔끔한 클래식",
@@ -174,7 +188,8 @@
       "strategic_takeaway": "젊은 커플도 정통 해석으로 통할 수 있음."
     },
     "2012-pista": {
-      "year": 2012, "category": "pista",
+      "year": 2012,
+      "category": "pista",
       "couple": "Facundo de la Cruz Gómez Palavecino & Paola Sanz",
       "origin": "Argentina",
       "style_summary": "현 2025 심사위원 출신 · 표준",
@@ -187,7 +202,8 @@
       "notable_history": "현 2025 Mundial 준결승 심사위원"
     },
     "2011-pista": {
-      "year": 2011, "category": "pista",
+      "year": 2011,
+      "category": "pista",
       "couple": "Diego Benavidez Hernández & Natasha Agudelo Arboleda",
       "origin": "Colombia (Medellín)",
       "style_summary": "남미 최초 비-아르헨 우승",
@@ -200,7 +216,8 @@
       "notable_history": "남미 외부 첫 Pista 우승 (Colombia)"
     },
     "2010-pista": {
-      "year": 2010, "category": "pista",
+      "year": 2010,
+      "category": "pista",
       "couple": "Sebastián Ariel Jiménez & María Inés Bogado",
       "origin": "Argentina",
       "style_summary": "정통 · 시대를 대표하는 파트너십",
@@ -214,7 +231,8 @@
       "notable_history": "María Inés Bogado: 현 2025 Mundial 예선 A/B조 심사위원"
     },
     "2009-pista": {
-      "year": 2009, "category": "pista",
+      "year": 2009,
+      "category": "pista",
       "couple": "Hiroshi Yamao & Kyoko Yamao",
       "origin": "Japan (부부)",
       "style_summary": "아시아 최초 Pista 우승 · 정밀성의 탱고",
@@ -229,7 +247,8 @@
       "notable_history": "아시아 최초 · 부부 최초 Pista 우승 (2009년 기준). 도쿄 기반 탱고 학원 운영"
     },
     "2008-pista": {
-      "year": 2008, "category": "pista",
+      "year": 2008,
+      "category": "pista",
       "couple": "Daniel Nacucchio & Cristina Sosa",
       "origin": "Argentina",
       "style_summary": "권위의 탱고 · 심사위원 출신 우승자",
@@ -244,7 +263,8 @@
       "notable_history": "Daniel Nacucchio: 준결승 심사 / Cristina Sosa: 결승 심사 (2025)"
     },
     "2007-pista": {
-      "year": 2007, "category": "pista",
+      "year": 2007,
+      "category": "pista",
       "couple": "Dante Sánchez & Inés Muzzopappa",
       "origin": "Argentina",
       "style_summary": "감정의 깊이 · 연륜의 탱고",
@@ -258,7 +278,8 @@
       "notable_history": "Dante Sánchez: 2025 준결승 심사위원 / Inés Muzzopappa: 2024 준결승 심사위원"
     },
     "2006-pista": {
-      "year": 2006, "category": "pista",
+      "year": 2006,
+      "category": "pista",
       "couple": "Fabián Peralta & Natacha Poberaj",
       "origin": "Argentina",
       "style_summary": "화려한 퀵스텝 · 리듬 탱고",
@@ -270,7 +291,8 @@
       "strategic_takeaway": "빠른 템포의 정확성이 경쟁력."
     },
     "2005-pista": {
-      "year": 2005, "category": "pista",
+      "year": 2005,
+      "category": "pista",
       "couple": "Sebastián Achával & Ximena Gallicchio",
       "origin": "Argentina",
       "style_summary": "우아한 살롱 · 대표적 국제 커플",
@@ -283,7 +305,8 @@
       "teaching_activity": "세계 투어, 한국 내한 경력"
     },
     "2004-pista": {
-      "year": 2004, "category": "pista",
+      "year": 2004,
+      "category": "pista",
       "couple": "Osvaldo Cartery & Luisa Inés Cartery",
       "origin": "Argentina",
       "style_summary": "골든에이지 · 시니어 부부",
@@ -296,7 +319,8 @@
       "notable_history": "2004년 당시 70세 Osvaldo, 65세 Luisa — 최고령 우승 커플 중 하나"
     },
     "2003-pista": {
-      "year": 2003, "category": "pista",
+      "year": 2003,
+      "category": "pista",
       "couple": "Enrique Husares & Gabriela Sanguinetti",
       "origin": "Argentina",
       "style_summary": "초대 우승 · 정통의 시작점",
@@ -307,6 +331,223 @@
       ],
       "strategic_takeaway": "Mundial 역사의 시작. 이 해 스타일이 22년 전통의 기준이 됨.",
       "notable_history": "Mundial de Tango 첫 대회 Pista 우승"
+    },
+    "2026-pista": {
+      "year": 2026,
+      "category": "pista",
+      "couple": "Lucas Gauto & Naima Gerasopoulou",
+      "origin": "아르헨티나 코르도바 · 그리스",
+      "style_summary": "예선부터 결승까지 흔들리지 않은 안정감 · 심사위원 전원이 상위로 본 합의형 우승",
+      "characteristics": [
+        "예선 B조 1위(127쌍) → 8강 A조 6위(150쌍) → 준결승 1위(159쌍) → 결승 우승. 전 스테이지에서 한 번도 상위권 밖으로 나간 적이 없다",
+        "준결승 6명 심사위원 전원에게 z +1.6 이상. 특정 심사위원이 밀어준 게 아니라 패널 전체의 합의로 1위 — 2위와의 격차(8.840 vs 8.740)보다 이 합의가 더 결정적",
+        "가장 높이 본 심사위원은 Cynthia Palacios(z 3.82), 가장 낮게 본 쪽도 Cristina Sosa(z 1.67)로 여전히 상위권. 약점을 잡는 심사위원이 없었다",
+        "2024 결승 4위 → 2025 결승 준우승 → 2026 우승. 3년 연속 결승에 오르며 한 계단씩 올라간 경로"
+      ],
+      "strategic_takeaway": "한 라운드의 폭발이 아니라 '어느 심사위원에게도 걸리지 않는 춤'으로 쌓아 올린 우승. 2026년은 6인 중 최고·최저를 잘라내는 절사평균이라, 한 명을 열광시키는 것보다 여섯 명 모두에게 상위로 보이는 쪽이 유리한 구조였다. 이 커플의 준결승 z-점수 분포가 정확히 그 구조에 맞는 모양이다.",
+      "key_quote": "코르도바 예선을 통과한 아르헨티나 리더와 그리스 대표 팔로워가 대회에서 만나 이룬 팀",
+      "music_preference": "Pugliese 「Recuerdo」, D'Arienzo 「Nueve de Julio」, 「Canaro en París」, 「Violetas」 등 페스티벌 공연 레퍼토리 확인",
+      "teaching_activity": "그리스·독일·터키 등 유럽 페스티벌 중심 티칭 (Sunny Tango Festival, Cretango, Tango Pampero, Sultans of Istanbul)",
+      "notable_history": "Lucas Gauto는 첫 출전 때부터 20년 가까이 우승을 목표로 삼았다고 밝혔고, Naima Gerasopoulou는 그리스 챔피언 자격으로 출전했다가 이 커플이 됐다. 그리스 국적 무용수의 피스타 부문 우승은 현지 매체가 크게 다뤘다.",
+      "podium": [
+        {
+          "rank": 1,
+          "couple": "Lucas Gauto & Naima Gerasopoulou",
+          "origin": "아르헨티나 코르도바 · 그리스",
+          "pareja": 460,
+          "semifinal_rank": 1,
+          "semifinal_promedio": 8.84,
+          "trajectory": [
+            {
+              "stage": "clasificatoria",
+              "group": "B",
+              "rank": 1,
+              "of": 127,
+              "promedio": 7.883
+            },
+            {
+              "stage": "cuartos",
+              "group": "A",
+              "rank": 6,
+              "of": 150,
+              "promedio": 7.6
+            },
+            {
+              "stage": "semifinal",
+              "group": null,
+              "rank": 1,
+              "of": 159,
+              "promedio": 8.84
+            }
+          ],
+          "semifinal_judge_z": {
+            "Leandro Oliver": 2.1,
+            "Cynthia Palacios": 3.82,
+            "Fabián Peralta": 1.91,
+            "Cristina Sosa": 1.67,
+            "Andrés Laza Moreno": 1.92,
+            "Inés Bogado": 2.2
+          },
+          "semifinal_scores": {
+            "Leandro Oliver": 8.78,
+            "Cynthia Palacios": 9.0,
+            "Fabián Peralta": 8.88,
+            "Cristina Sosa": 9.0,
+            "Andrés Laza Moreno": 8.7,
+            "Inés Bogado": 8.56
+          }
+        },
+        {
+          "rank": 2,
+          "couple": "Rodrigo Nicolás Palacios & Indira Hiayes",
+          "origin": "아르헨티나 (현재 취리히 거주)",
+          "pareja": 91,
+          "semifinal_rank": 2,
+          "semifinal_promedio": 8.74,
+          "trajectory": [
+            {
+              "stage": "clasificatoria",
+              "group": "D",
+              "rank": 2,
+              "of": 125,
+              "promedio": 7.697
+            },
+            {
+              "stage": "cuartos",
+              "group": "A",
+              "rank": 1,
+              "of": 150,
+              "promedio": 7.723
+            },
+            {
+              "stage": "semifinal",
+              "group": null,
+              "rank": 2,
+              "of": 159,
+              "promedio": 8.74
+            }
+          ],
+          "semifinal_judge_z": {
+            "Leandro Oliver": 1.83,
+            "Cynthia Palacios": 2.52,
+            "Fabián Peralta": 1.96,
+            "Cristina Sosa": 1.67,
+            "Andrés Laza Moreno": 1.92,
+            "Inés Bogado": 2.13
+          },
+          "semifinal_scores": {
+            "Leandro Oliver": 8.66,
+            "Cynthia Palacios": 8.7,
+            "Fabián Peralta": 8.9,
+            "Cristina Sosa": 9.0,
+            "Andrés Laza Moreno": 8.7,
+            "Inés Bogado": 8.55
+          }
+        },
+        {
+          "rank": 3,
+          "couple": "London & Sol",
+          "origin": "한국",
+          "pareja": 139,
+          "semifinal_rank": 12,
+          "semifinal_promedio": 8.52,
+          "trajectory": [
+            {
+              "stage": "clasificatoria",
+              "group": "D",
+              "rank": 1,
+              "of": 125,
+              "promedio": 7.78
+            },
+            {
+              "stage": "cuartos",
+              "group": "A",
+              "rank": 10,
+              "of": 150,
+              "promedio": 7.523
+            },
+            {
+              "stage": "semifinal",
+              "group": null,
+              "rank": 12,
+              "of": 159,
+              "promedio": 8.52
+            }
+          ],
+          "semifinal_judge_z": {
+            "Leandro Oliver": 0.37,
+            "Cynthia Palacios": 1.44,
+            "Fabián Peralta": 0.95,
+            "Cristina Sosa": 1.09,
+            "Andrés Laza Moreno": 1.38,
+            "Inés Bogado": 1.88
+          },
+          "semifinal_scores": {
+            "Leandro Oliver": 8.02,
+            "Cynthia Palacios": 8.45,
+            "Fabián Peralta": 8.5,
+            "Cristina Sosa": 8.8,
+            "Andrés Laza Moreno": 8.62,
+            "Inés Bogado": 8.51
+          }
+        }
+      ],
+      "senior_champion": {
+        "couple": "Aldo Adrián Romero & Marcela Pilatti",
+        "origin": "부에노스아이레스",
+        "note": "시니어(55세 이상) 부문 우승"
+      },
+      "escenario_champion": {
+        "couple": "Nicolás Schell & Nair Schinca",
+        "origin": "부에노스아이레스 메를로",
+        "note": "에스체나리오 부문 우승 (9/2 Gran Rex)"
+      },
+      "final": {
+        "date": "2026-09-01",
+        "venue": "Teatro Gran Rex",
+        "note": "결승 공식 점수표(PDF)는 아직 확보하지 못했다. 순위는 보도 기준."
+      },
+      "videos": [
+        {
+          "video_id": "aW-Z_oZoXW4",
+          "title": "Tango de Pista FINAL | Mundial de Tango 2026 - Buenos Aires, Argentina",
+          "channel": "YouTube"
+        },
+        {
+          "video_id": "Zd6HKLZ7yx4",
+          "title": "Lucas Gauto & Naima Gerasopoulou - World Champions of Tango de Pista 2026",
+          "channel": "YouTube"
+        }
+      ],
+      "links": [
+        "https://www.puraciudad.com.ar/lucas-gauto-y-naima-gerasopoulou-ganaron-el-mundial-de-tango-en-la-categoria-pista",
+        "https://hoydia.com.ar/espectaculos/el-mundial-de-tango-corono-a-campeones/",
+        "https://www.euronews.com/culture/2026/09/02/strictly-successful-greeces-naima-gerassopoulou-claims-world-tango-champion-title",
+        "https://www.radiocentral.ch/news/sport/titel-des-vizeweltmeisters-im-tango-tanz-geht-nach-zuerich-165345312",
+        "https://www.diariodecultura.com.ar/home/una-pareja-de-buenos-aires-es-la-nueva-campeona-mundial-de-tango-escenario"
+      ],
+      "sources": [
+        {
+          "title": "Lucas Gauto y Naima Gerasopoulou ganaron el Mundial de Tango en la categoría Pista — Pura Ciudad",
+          "url": "https://www.puraciudad.com.ar/lucas-gauto-y-naima-gerasopoulou-ganaron-el-mundial-de-tango-en-la-categoria-pista"
+        },
+        {
+          "title": "El Mundial de Tango coronó a sus campeones de 2026 — Hoy Día",
+          "url": "https://hoydia.com.ar/espectaculos/el-mundial-de-tango-corono-a-campeones/"
+        },
+        {
+          "title": "Greece's Naima Gerassopoulou claims world tango champion title — Euronews",
+          "url": "https://www.euronews.com/culture/2026/09/02/strictly-successful-greeces-naima-gerassopoulou-claims-world-tango-champion-title"
+        },
+        {
+          "title": "Titel des Vizeweltmeisters im Tango-Tanz geht nach Zürich — Radio Central",
+          "url": "https://www.radiocentral.ch/news/sport/titel-des-vizeweltmeisters-im-tango-tanz-geht-nach-zuerich-165345312"
+        },
+        {
+          "title": "Una pareja de Merlo es la nueva campeona mundial de Tango Escenario — Diario de Cultura",
+          "url": "https://www.diariodecultura.com.ar/home/una-pareja-de-buenos-aires-es-la-nueva-campeona-mundial-de-tango-escenario"
+        }
+      ]
     }
   },
   "pattern_insights": [
@@ -319,8 +560,17 @@
     "2004 Cartery 부부는 시니어 우승 — 나이·경력이 자산이 될 수 있음"
   ],
   "research_references": [
-    { "title": "World Tango Dance Tournament", "url": "https://en.wikipedia.org/wiki/World_tango_dance_tournament" },
-    { "title": "Nacucchio Sosa Academy", "url": "https://danielnacucchio.com/" },
-    { "title": "Saavedra Aragón", "url": "https://www.jonathanyclarisa.com/" }
+    {
+      "title": "World Tango Dance Tournament",
+      "url": "https://en.wikipedia.org/wiki/World_tango_dance_tournament"
+    },
+    {
+      "title": "Nacucchio Sosa Academy",
+      "url": "https://danielnacucchio.com/"
+    },
+    {
+      "title": "Saavedra Aragón",
+      "url": "https://www.jonathanyclarisa.com/"
+    }
   ]
 }
