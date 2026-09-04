@@ -35251,6 +35251,62 @@
           "advancedTo": "final"
         }
       ]
+    },
+    {
+      "round_id": "R-MUNDIAL2026-PISTA-SF-UNSORTED",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2026,
+      "category": "pista",
+      "stage": "semifinal",
+      "ronda_number": 0,
+      "note": "준결승 영상인 것은 확인됐으나 몇 번 론다인지 미확인. 빈 론다는 2·11·12·13·14·17. 확인되면 해당 론다로 옮길 것.",
+      "songs": [],
+      "participants": [],
+      "videos": [
+        {
+          "video_id": "42YXz40g9jI",
+          "url": "https://www.youtube.com/watch?v=42YXz40g9jI",
+          "channel": "미확인",
+          "title": "준결승 영상 (론다 미확인) — 재생목록 PLL03cJqHa64I"
+        },
+        {
+          "video_id": "5ytZUUe9Cxg",
+          "url": "https://www.youtube.com/watch?v=5ytZUUe9Cxg",
+          "channel": "미확인",
+          "title": "준결승 영상 (론다 미확인) — 재생목록 PLL03cJqHa64I · index 10"
+        },
+        {
+          "video_id": "ZdnbyntztWg",
+          "url": "https://www.youtube.com/watch?v=ZdnbyntztWg",
+          "channel": "미확인",
+          "title": "준결승 영상 (론다 미확인) — 재생목록 PLL03cJqHa64I · index 11"
+        },
+        {
+          "video_id": "_p6X9lpYY9k",
+          "url": "https://www.youtube.com/watch?v=_p6X9lpYY9k",
+          "channel": "미확인",
+          "title": "준결승 영상 (론다 미확인) — 재생목록 PLL03cJqHa64I · index 15"
+        },
+        {
+          "video_id": "PbfqjuPciRg",
+          "url": "https://www.youtube.com/watch?v=PbfqjuPciRg",
+          "channel": "미확인",
+          "title": "준결승 영상 (론다 미확인) — 단독 링크"
+        },
+        {
+          "video_id": "6L366jjT2SM",
+          "url": "https://www.youtube.com/watch?v=6L366jjT2SM",
+          "channel": "미확인",
+          "title": "준결승 영상 (론다 미확인) — 단독 링크"
+        },
+        {
+          "video_id": "qb4bdK_tWQU",
+          "url": "https://www.youtube.com/watch?v=qb4bdK_tWQU",
+          "channel": "미확인",
+          "title": "준결승 영상 (론다 미확인) — 단독 링크"
+        }
+      ]
     }
   ]
 }
