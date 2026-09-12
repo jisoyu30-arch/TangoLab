@@ -30,6 +30,7 @@ interface CuratedJudge {
 
 interface PodiumEntry {
   rank: number; couple: string; origin: string; pareja: number;
+  final_promedio?: number;
   semifinal_rank: number; semifinal_promedio: number;
   trajectory: { stage: string; group: string | null; rank: number; of: number; promedio: number }[];
   semifinal_judge_z: Record<string, number>;
@@ -41,7 +42,8 @@ const champ2026 = (championProfiles as any).profiles?.['2026-pista'] as {
   podium: PodiumEntry[];
   senior_champion: { couple: string; origin: string; note: string };
   escenario_champion: { couple: string; origin: string; note: string };
-  final: { date: string; venue: string; note: string };
+  final: { date: string; venue: string; note: string;
+           total_couples?: number; champion_ronda?: number };
   videos: { video_id: string; title: string; channel: string }[];
   sources: { title: string; url: string }[];
 } | undefined;
@@ -147,7 +149,12 @@ export function PanelPage() {
                   </div>
                   <div className="text-sm text-white font-medium mt-0.5">{p.couple}</div>
                   <div className="text-xs text-tango-cream/50">{p.origin}</div>
-                  <div className="text-xs text-tango-cream/40 mt-1.5">
+                  {p.final_promedio != null && (
+                    <div className="text-sm mt-1.5 tabular-nums" style={{ color: WARM }}>
+                      결승 {p.final_promedio}
+                    </div>
+                  )}
+                  <div className="text-xs text-tango-cream/40 mt-0.5">
                     준결승 {p.semifinal_rank}위 · {p.semifinal_promedio}
                   </div>
                 </div>
@@ -187,7 +194,10 @@ export function PanelPage() {
                         <td className="text-right px-2 tabular-nums text-xs">{cell('cuartos')}</td>
                         <td className="text-right px-2 tabular-nums text-xs">{cell('semifinal')}</td>
                         <td className="text-right pl-2 tabular-nums text-xs" style={{ color: WARM }}>
-                          {p.rank}위
+                          {p.rank}위{champ2026.final.total_couples && `/${champ2026.final.total_couples}`}
+                          {p.final_promedio != null && (
+                            <span className="text-tango-cream/45"> · {p.final_promedio}</span>
+                          )}
                         </td>
                       </tr>
                     );
