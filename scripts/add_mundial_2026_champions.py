@@ -48,6 +48,9 @@ FINAL_RONDA_VIDEOS = {
     2: [{"video_id": "NJ-Htj9IPFA",
          "title": "Final Mundial de Tango Pista 2026 — Ronda 2",
          "channel": "미확인", "note": "[사용자] 론다 번호 확인"}],
+    3: [{"video_id": "iLo_xu9k36U",
+         "title": "Final Mundial de Tango Pista 2026 — Ronda 3",
+         "channel": "미확인", "note": "[사용자] 론다 번호 확인"}],
     4: [{"video_id": "XwrR2wJodDc",
          "title": "Final de Campeonato Mundial de Tango Pista 2026. Ronda: 4",
          "channel": "미확인", "note": "[검색] 제목 확인 · 우승 커플이 춘 론다"}],
@@ -63,10 +66,16 @@ FINAL_OVERALL_VIDEOS = [
      "channel": "미확인", "note": "[검색] 제목 확인"},
     # Oxb9zyLttB0 과 제목이 같게 검색되는 별개 ID. 둘 다 존재하는지,
     # 한쪽이 검색 결과의 오류인지 이 환경에서는 확인할 수 없어 남겨만 둔다.
+    # Oxb9zyLttB0 과 같은 제목으로 한 번 검색된 적이 있는 별개 ID.
+    # 이후 같은 제목 재검색에서는 Oxb9zyLttB0 만 나와, 검색 요약의 오류였을
+    # 가능성이 높다. 지우지 않고 표시만 해 둔다.
     {"video_id": "aW-Z_oZoXW4",
-     "title": "Tango de Pista FINAL 2026 (같은 제목의 다른 ID — 확인 필요)",
-     "channel": "미확인", "note": "[검색] 제목 중복 — 미확인"},
+     "title": "Tango de Pista FINAL 2026 (출처 불확실 — 재검색에서 확인되지 않음)",
+     "channel": "미확인", "note": "[검색] 1회만 등장 — 미확인"},
 ]
+
+# 결승 영상 재생목록 (사용자 제공). 이 환경에서는 열 수 없어 목록 내용은 미확인.
+FINAL_PLAYLIST = "https://www.youtube.com/playlist?list=PLGheHiC1YdZ8"
 
 SOURCES = [
     {"title": "Lucas Gauto y Naima Gerasopoulou ganaron el Mundial de Tango en la categoría Pista — Pura Ciudad",
@@ -198,9 +207,11 @@ def main():
             "date": "2026-09-01", "venue": "Teatro Gran Rex",
             "total_couples": FINAL_TOTAL_COUPLES,
             "champion_ronda": CHAMPION_FINAL_RONDA,
+            "playlist": FINAL_PLAYLIST,
             "note": "결승 공식 점수표(PDF)는 아직 확보하지 못했다. 순위와 promedio는 "
                     "복수 매체·영상 정보가 일치하는 값. 준결승 통과는 36쌍인데 결승은 "
-                    "39쌍으로 3쌍 차이가 있고, 그 사유는 확인하지 못했다.",
+                    "39쌍으로 3쌍 차이가 있고, 그 사유는 확인하지 못했다. "
+                    "론다 5 이후 영상은 아직 찾지 못했다.",
         },
         "videos": FINAL_OVERALL_VIDEOS + [v for vs in FINAL_RONDA_VIDEOS.values() for v in vs],
         "links": [s["url"] for s in SOURCES],

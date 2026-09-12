@@ -35288,7 +35288,7 @@
           "video_id": "aW-Z_oZoXW4",
           "url": "https://www.youtube.com/watch?v=aW-Z_oZoXW4",
           "channel": "미확인",
-          "title": "Tango de Pista FINAL 2026 (같은 제목의 다른 ID — 확인 필요)"
+          "title": "Tango de Pista FINAL 2026 (출처 불확실 — 재검색에서 확인되지 않음)"
         }
       ],
       "participants": [
@@ -35354,6 +35354,26 @@
           "url": "https://www.youtube.com/watch?v=NJ-Htj9IPFA",
           "channel": "미확인",
           "title": "Final Mundial de Tango Pista 2026 — Ronda 2"
+        }
+      ],
+      "participants": []
+    },
+    {
+      "round_id": "R-MUNDIAL2026-PISTA-F3",
+      "competition": "Mundial",
+      "competition_id": "COMP-001",
+      "year": 2026,
+      "category": "pista",
+      "stage": "final",
+      "ronda_number": 3,
+      "note": "결승 론다별 영상. 론다별 출전자 명단은 점수표 미확보로 없다.",
+      "songs": [],
+      "videos": [
+        {
+          "video_id": "iLo_xu9k36U",
+          "url": "https://www.youtube.com/watch?v=iLo_xu9k36U",
+          "channel": "미확인",
+          "title": "Final Mundial de Tango Pista 2026 — Ronda 3"
         }
       ],
       "participants": []
