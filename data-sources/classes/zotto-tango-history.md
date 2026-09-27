@@ -698,7 +698,12 @@
   - 로버트 듀발(Robert Duvall)은 탱고 애호가로 유명한 미국 배우. 직접 연출·주연한 탱고 영화 《Assassination Tango》(2002)가 있다.
   - ✅ 연결: La Nación 기사에 따르면 소또와 밀레나 플렙스는 〈Tango Argentino〉 해외 순회 시절 **로버트 듀발의 집에서 아침을 맞은 날**, 아르헨티나로 돌아가 제대로 된 탱고 공연을 만들자고 결심했다 → 그것이 **Tango x 2**의 출발. 듀발과 소또의 인연이 오래됐음을 보여주는 대목.
   - 출처: La Nación, *Miguel Angel Zotto cuenta "Su historia"* https://www.lanacion.com.ar/espectaculos/danza/miguel-angel-zotto-cuenta-su-historia-nid769146/
-  - 밀롱가 이름: 「비세르로 기발」 (211번 · 들린 대로 · 철자 확인)
+  - 밀롱가 이름: 「비세르로 기발」 (211번 · 들린 대로 · 철자 확인). 후보(추정): 센테나리오 공원 앞의 고전 밀롱가 **엘 비에호 코레오(El Viejo Correo)** — 소리가 일부 비슷할 뿐 근거 약함.
+  - ✅ 듀발과 소또의 인연 (검색 발췌): 소또는 듀발과 **내셔널 지오그래픽 프로그램 〈Tango〉**에 함께 출연했고, 소또·밀레나 플렙스는 **듀발이 진행한 탱고 다큐**와 **《Assassination Tango》**에도 참여했다.
+  - ✅ **듀발의 탱고 선생님은 비룰라소**였다 (La Nación). 듀발은 부에노스아이레스 밀롱가의 토박이 탱게로들과 어울리며 밀롱게로식으로 춤을 익혔다. 아내 루시아나 페드라사는 아르헨티나인.
+  - La Nación 기사 제목상 듀발은 **2026년 2월 별세** ("Murió Robert Duvall, un actor magnético que tuvo una especial conexión con la Argentina") — 날짜는 원문 확인 필요.
+  - 소또가 운영한 밀롱가 기록: 2011년 부에노스아이레스시 **'라 보카의 그랜드 밀롱가(Grandes Milongas en La Boca)'** 시리즈에서 수업과 시범으로 밀롱가를 이끌었다는 기록만 찾음.
+  - 출처: La Nación (듀발 부고) https://www.lanacion.com.ar/espectaculos/cine/murio-robert-duvall-un-actor-magnetico-que-tuvo-una-especial-conexion-con-la-argentina-nid16022026/ · es.wikipedia *Miguel Ángel Zotto* https://es.wikipedia.org/wiki/Miguel_%C3%81ngel_Zotto
   - **영상 속 인물이 소또가 말한 '최고의 밀롱게로'인 듯** (210번 · 받아 적은 사람의 추정) → 이름이 나오면 197~203번(30년 공백, "서로 사랑했다", 「글라소」)과 연결해 확정.
 
 ### 에필로그. 어떤 책에도 없는 이야기
