@@ -3,7 +3,7 @@
 > 수업을 들으며 실시간으로 받아 적은 원문(§0), 장면별 정리(§1), 팩트체크(§2), 소또에게 물어볼 질문(§3), 페트롤레오의 글 자료 조사(§4), 소또 배경 자료(§5), 작가용 이야기 재료(§6).
 > 들린 대로 적은 이름은 「」로 표시하고, 확인되면 원어 표기로 바꿈.
 
-- 수업 기록일: 2026-09-27 (실시간 받아쓰기, 208줄)
+- 수업 기록일: 2026-09-27 (실시간 받아쓰기, 209줄)
 - 강사: Miguel Ángel Zotto (미겔 앙헬 소또, 1958~ / Tango x 2 창단자)
 
 ---
@@ -242,6 +242,7 @@
 206. 모든 걸 가르쳤지만…
 207. "제가 어떻게 추는 건가요?" 물어보면
 208. "다른 사람에게 말하지 마(?), 나는 발레를 16살 때까지 배웠어." (페트롤레오의 답 · '말하지만/말하지 마' 확인)
+209. 「로베르또 도발」(= 로버트 듀발 Robert Duvall)을 위해서 밀롱가를 열었을 때 영상 보여줬어.
 
 ---
 
@@ -688,6 +689,14 @@
     - 마리아 니에베스(마리아 니에베스 레고)는 **91세로 별세** (NYT 부고 재게재 기사).
     - 출처: Wikipedia *Juan Carlos Copes* https://en.wikipedia.org/wiki/Juan_Carlos_Copes · Wikipedia *María Nieves* https://en.wikipedia.org/wiki/Mar%C3%ADa_Nieves · San Juan Daily Star(부고) https://www.sanjuandailystar.com/post/mar%C3%ADa-nieves-rego-who-helped-spark-a-tango-renaissance-dies-at-91
   - 연결: 훗날 소또도 1988년 **Tango x 2 컴퍼니**를 만든다 → 코페스가 연 '탱고 컴퍼니'의 길을 제자가 잇는다.
+
+### 장면 9. 할리우드 배우를 위해 열린 밀롱가
+
+- **[영상] 로버트 듀발을 위해 연 밀롱가** (209번 · 「로베르또 도발」)
+  - 로버트 듀발(Robert Duvall)은 탱고 애호가로 유명한 미국 배우. 직접 연출·주연한 탱고 영화 《Assassination Tango》(2002)가 있다.
+  - ✅ 연결: La Nación 기사에 따르면 소또와 밀레나 플렙스는 〈Tango Argentino〉 해외 순회 시절 **로버트 듀발의 집에서 아침을 맞은 날**, 아르헨티나로 돌아가 제대로 된 탱고 공연을 만들자고 결심했다 → 그것이 **Tango x 2**의 출발. 듀발과 소또의 인연이 오래됐음을 보여주는 대목.
+  - 출처: La Nación, *Miguel Angel Zotto cuenta "Su historia"* https://www.lanacion.com.ar/espectaculos/danza/miguel-angel-zotto-cuenta-su-historia-nid769146/
+  - (밀롱가가 열린 연도·장소, 영상 속 댄서가 나오면 추가)
 
 ### 에필로그. 어떤 책에도 없는 이야기
 
