@@ -256,6 +256,12 @@
 220. 일본에 6개월 정도 있었대.
 221. 〈땅고 바르〉라는 영화 (= 《Tango Bar》)
 222. 《Tango Bar》는 85년에 만든 영화.
+(질문: 페트롤레오에 대해 자세히 → 채팅 답변 · 정리 페이지 '인물' 섹션)
+223. 로버트 듀발? 《탱고 암살자》? 《Assassination Tango》? (받아 적은 사람의 질문)
+224. 밀레나랑 헤어졌을 때인데
+225. (듀발은 소또가) 밀레나랑 같이 춤췄으면 좋겠다 (했는데)
+226. 영화 나오고(?) 둘이 헤어졌어.
+227. 그래서 파블로 베론이랑 제랄딘이 나온 거예요.
 
 ---
 
@@ -712,6 +718,10 @@
   - 밀롱가 이름: 「비세르로 기발」 (211번 · 들린 대로 · 철자 확인). 후보(추정): 센테나리오 공원 앞의 고전 밀롱가 **엘 비에호 코레오(El Viejo Correo)** — 소리가 일부 비슷할 뿐 근거 약함.
   - ✅ 듀발과 소또의 인연 (검색 발췌): 소또는 듀발과 **내셔널 지오그래픽 프로그램 〈Tango〉**에 함께 출연했고, 소또·밀레나 플렙스는 **듀발이 진행한 탱고 다큐**와 **《Assassination Tango》**에도 참여했다.
   - ✅ **듀발의 탱고 선생님은 비룰라소**였다 (La Nación). 듀발은 부에노스아이레스 밀롱가의 토박이 탱게로들과 어울리며 밀롱게로식으로 춤을 익혔다. 아내 루시아나 페드라사는 아르헨티나인.
+  - **《Assassination Tango》(2002)와 소또** (223~227번): 듀발은 소또가 **밀레나 플렙스와 함께** 영화에서 춤추길 원했지만, 그 무렵 **소또와 밀레나가 헤어져서**, 대신 **파블로 베론과 제랄딘 로하스**가 나왔다 (소또의 증언).
+    - ✅ 기록: 《Assassination Tango》 감독·주연 로버트 듀발, 출연 루벤 블레이즈·캐시 베이커·루시아나 페드라사. **제랄딘 로하스**(피루차 역)와 **파블로 베론**(엔딩 크레디트 속 피루차의 파트너) 출연 확인. 마리아 니에베스, 호르헤 디스파리 & 라 투르카, 카를로스 코페요 등 실제 댄서 다수 출연. (IMDb, Letterboxd)
+    - ⚠️ 앞서 검색 요약에 "소또·밀레나가 이 영화에 참여"라는 문장이 있었으나, 수업 증언과 출연진 기록으로 보면 **참여하지 않은 것**이 맞아 보임.
+    - 출처: Wikipedia *Assassination Tango* https://en.wikipedia.org/wiki/Assassination_Tango · IMDb https://www.imdb.com/title/tt0283897/
   - La Nación 기사 제목상 듀발은 **2026년 2월 별세** ("Murió Robert Duvall, un actor magnético que tuvo una especial conexión con la Argentina") — 날짜는 원문 확인 필요.
   - 소또가 운영한 밀롱가 기록: 2011년 부에노스아이레스시 **'라 보카의 그랜드 밀롱가(Grandes Milongas en La Boca)'** 시리즈에서 수업과 시범으로 밀롱가를 이끌었다는 기록만 찾음.
   - 출처: La Nación (듀발 부고) https://www.lanacion.com.ar/espectaculos/cine/murio-robert-duvall-un-actor-magnetico-que-tuvo-una-especial-conexion-con-la-argentina-nid16022026/ · es.wikipedia *Miguel Ángel Zotto* https://es.wikipedia.org/wiki/Miguel_%C3%81ngel_Zotto
