@@ -3,7 +3,7 @@
 > 수업을 들으며 실시간으로 받아 적은 원문(§0), 장면별 정리(§1), 팩트체크(§2), 소또에게 물어볼 질문(§3), 페트롤레오의 글 자료 조사(§4), 소또 배경 자료(§5), 작가용 이야기 재료(§6).
 > 들린 대로 적은 이름은 「」로 표시하고, 확인되면 원어 표기로 바꿈.
 
-- 수업 기록일: 2026-09-27 (실시간 받아쓰기, 113줄)
+- 수업 기록일: 2026-09-27 (실시간 받아쓰기, 114줄)
 - 강사: Miguel Ángel Zotto (미겔 앙헬 소또, 1958~ / Tango x 2 창단자)
 
 ---
@@ -143,6 +143,7 @@
 111. 영화 속 배우에게 탱고를 가르쳐 줬대. (가르친 사람 = 맥락상 카시미로 아인)
 112. 이 영화 속의 키스신이 할리우드에서도 첫 번째 키스신이래.
 113. 지금의 탱고 베이스, 살리다 등은 이 시기에는 존재하지 않았어.
+114. 1930년대 「로스 멘데스」 (= Los Méndez 추정)
 
 ---
 
@@ -431,6 +432,11 @@
         - Wikipedia, *The Four Horsemen of the Apocalypse (1921 film)*: https://en.wikipedia.org/wiki/The_Four_Horsemen_of_the_Apocalypse_(1921_film)
         - TCM, *The Four Horsemen of the Apocalypse (1921)*: https://www.tcm.com/articles/88148/the-four-horsemen-of-the-apocalypse-1921
         - Library of Congress: https://www.loc.gov/item/2005676871/
+
+  18. **1930년대 — 로스 멘데스(Los Méndez)** (114번 · 들린 대로 적음)
+      - 추정: 댄서 **호세 멘데스 '엘 가예고'(José Méndez, El Gallego)**와 파트너 **'라 카치타(La Cachita)'** 커플. 라 카치타는 탱고 역사상 가장 뛰어난 여성 댄서 중 한 명으로 기억된다 (블로그 자료 · 약한 출처).
+      - (소또가 이 커플에 대해 한 설명, 영상 속 연도가 나오면 추가)
+      - 출처: Mosaicos porteños, *Catálogo de bailarines*: http://mosaicosportenos.blogspot.com/2011/04/catalogo-de-bailarines.html
 
 ### 에필로그. 어떤 책에도 없는 이야기
 
