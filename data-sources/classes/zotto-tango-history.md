@@ -49,6 +49,8 @@
 37. 그리고 이 사람의 직업은? (소또의 질문)
 38. 10시에 일어나서
 39. 피에스타 가서 매일 밤 밀롱가에 갔어.
+40. 하지만 보통 밀롱게로는 아니었어.
+41. 그분은 현자였어.
 
 ---
 
@@ -143,6 +145,9 @@
 - **이 사람의 직업은?** — 소또가 던진 질문
   - 소또가 그린 하루: **10시에 일어나서 → 피에스타(파티)에 가고 → 매일 밤 밀롱가에 갔다.**
   - 즉 소또의 답은 "그의 직업은 **밀롱게로**였다"에 가까움 (이어지는 말로 확인).
+- **하지만 보통 밀롱게로가 아니었다. 그는 현자(賢者)였다.**
+  - ✅ 문헌과 일치: 소또는 2011년 인터뷰에서 페트롤레오가 "다른" 밀롱게로였던 이유를 이렇게 설명했다. 타고난 창작자였을 뿐 아니라 **발레에 대한 지식이 깊었고, 교양이 있었으며, 오초라는 피겨를 통해 탱고의 역사를 글로 썼다.** (Página/12, 2011-01-03)
+    - https://www.pagina12.com.ar/diario/suplementos/espectaculos/13-20394-2011-01-03.html
   - 문헌 기록: 이탈리아·벨기에 은행(**Banco Ítalo-Belga**) 직원. 춤으로 탱고를 바꿔놓고도 **은행 일을 끝내 그만두지 않았다**는 기사가 있음.
     - Barriada, *"Petróleo el Milonguero": cambió el tango para siempre y nunca dejó su trabajo en el banco*: https://www.barriada.com.ar/petroleo-el-milonguero-cambio-el-tango-para-siempre-y-nunca-dejo-su-trabajo-en-el-banco/
   - (어떤 악단들을 예로 들었는지, 춤이 구체적으로 어떻게 바뀌었는지 이어서 적을 것)
