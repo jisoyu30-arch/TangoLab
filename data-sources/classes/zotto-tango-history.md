@@ -3,7 +3,7 @@
 > 수업을 들으며 실시간으로 받아 적은 원문(§0), 장면별 정리(§1), 팩트체크(§2), 소또에게 물어볼 질문(§3), 페트롤레오의 글 자료 조사(§4), 소또 배경 자료(§5), 작가용 이야기 재료(§6).
 > 들린 대로 적은 이름은 「」로 표시하고, 확인되면 원어 표기로 바꿈.
 
-- 수업 기록일: 2026-09-27 (실시간 받아쓰기, 137줄)
+- 수업 기록일: 2026-09-27 (실시간 받아쓰기, 138줄)
 - 강사: Miguel Ángel Zotto (미겔 앙헬 소또, 1958~ / Tango x 2 창단자)
 
 ---
@@ -167,6 +167,7 @@
 135. 1940년대로 가면, 머리를 붙이면서, 땅고 밀롱게로 스타일로
 136. 40년대, 같은 방향
 137. 「뜨라스삐에」를 발명한 사람의 춤 예시
+138. 「기롤라스와 엘비라」 (= 비룰라소와 엘비라, Virulazo y Elvira)
 
 ---
 
@@ -532,6 +533,11 @@
         - Wikipedia, *Milonguero style*: https://en.wikipedia.org/wiki/Milonguero_style
         - Wikipedia, *Susana Miller*: https://en.wikipedia.org/wiki/Susana_Miller
         - Tango Voice, *Is Tango Apilado Equivalent to Tango Milonguero?*: https://tangovoice.wordpress.com/2011/06/22/is-tango-apilado-equivalent-to-tango-milonguero/
+
+  23. **[영상] 비룰라소와 엘비라(Virulazo y Elvira)** (138번 · 「기롤라스와 엘비라」)
+      - 비룰라소 = 본명 호르헤 마르틴 오르카이사기레(Jorge Martín Orcaizaguirre). 앱 `dancers_history.json` virulazo 항목.
+      - ✅ 소또가 1986~89년 집중 수련한 스승 중 한 커플 (§5 연보). 클럽 신 룸보에서 춤추던 댄서들 (§4 밀롱가 지도).
+      - (영상 속 동작·소또의 설명이 나오면 추가)
 
 ### 에필로그. 어떤 책에도 없는 이야기
 
