@@ -3,7 +3,7 @@
 > 수업을 들으며 실시간으로 받아 적은 원문(§0), 장면별 정리(§1), 팩트체크(§2), 소또에게 물어볼 질문(§3), 페트롤레오의 글 자료 조사(§4), 소또 배경 자료(§5), 작가용 이야기 재료(§6).
 > 들린 대로 적은 이름은 「」로 표시하고, 확인되면 원어 표기로 바꿈.
 
-- 수업 기록일: 2026-09-27 (실시간 받아쓰기, 99줄)
+- 수업 기록일: 2026-09-27 (실시간 받아쓰기, 100줄)
 - 강사: Miguel Ángel Zotto (미겔 앙헬 소또, 1958~ / Tango x 2 창단자)
 
 ---
@@ -129,6 +129,7 @@
 98. 땅고 밀롱가
 (질문: "이 춤 스타일의 이름은?" → 조사 결과는 장면 6-15 '스타일 이름')
 99. 발로 담배를 비벼 끄는 스텝이 유행을 했었다고.
+100. 그 당시 건전한 사람들은 탱고를 추지 않는다며 귀족들은 탱고를 반대했어. 가톨릭교회도 반대했고.
 
 ---
 
@@ -355,6 +356,17 @@
         - Wikipedia, *Ovidio José Bianquet*: https://en.wikipedia.org/wiki/Ovidio_Jos%C3%A9_Bianquet
       - 후보 메모: ① 1933년 아르헨티나 첫 유성영화 《Tango!》 — 엘 카차파스와 카르멘시타 칼데론이 춤춤 (앱 `dancers_history.json` el-cachafaz 항목) ② 1921년 루돌프 발렌티노의 《묵시록의 네 기사》 탱고 장면 — 소또가 1986년 〈Tango Argentino〉에서 춘 솔로가 바로 1920년대 '발렌티노 스타일'. 둘 다 추정이므로 화면 제목으로 확인.
 
+  16. **귀족과 가톨릭교회는 탱고를 반대했다.** "건전한 사람은 탱고를 추지 않는다." ⛪
+      - ✅ 문헌: **1914년 파리 대주교 아메트 추기경**이 탱고를 "음탕한 성격으로 도덕을 해치는 외국 춤"이라며 신자들에게 금지. 교황 비오 10세도 부도덕한 춤으로 여겼다는 기록이 있음.
+      - 반전: **1924년 2월 1일**, 아르헨티나 대사의 주선으로 **카시미로 아인(Casimiro Aín)**이 바티칸에서 **교황 비오 11세 앞에서** 탱고(카나로의 〈Ave María〉)를 췄고, 이후 교회의 비난이 누그러졌다 (앱 `dancers_history.json` casimiro-ain · La Nueva · Infobae).
+      - ✨ 연결: 아인의 별명은 **'레체리토(꼬마 우유배달부)'.** 페트롤레오의 글에서 **1915년 엘 카차파스에게 진 '레체리토 아인'**이 바로 이 사람 (§4-②). 경연에서 진 댄서가 9년 뒤 교황 앞에서 탱고의 명예를 되찾는다.
+      - 귀족층의 태도: 탱고가 1913년 무렵 **파리에서 대유행**한 뒤에야 부에노스아이레스 상류층도 받아들였다는 설명이 흔함 (출처 확인 예정 · 소또가 이 흐름을 말하면 기록).
+      - 출처
+        - Infobae, *El tango y la religión: cómo pasó de ser repudiado por los curas a ser bailado frente a los Papas* (2022): https://www.infobae.com/sociedad/2022/01/08/el-tango-y-la-religion-como-paso-de-ser-repudiado-por-los-curas-a-ser-bailado-frente-a-los-papas/
+        - La Nueva, *Hace 80 años que el tango se baila con permiso del Vaticano* (2004): https://www.lanueva.com/nota/2004-2-3-9-0-0-hace-80-anos-que-el-tango-se-baila-con-permiso-del-vaticano
+        - RCN Radio, *Cuando la iglesia prohibió el tango*: https://noticias.rcnradio.com/opinion/cuando-la-iglesia-prohibio-el-tango
+        - Wikipedia, *Casimiro Aín*: https://en.wikipedia.org/wiki/Casimiro_A%C3%ADn
+
 ### 에필로그. 어떤 책에도 없는 이야기
 
 - **"오늘의 히스토리는 이 이야기들이다. 어떤 책에도 나와 있지 않다."**
@@ -578,6 +590,7 @@
 
 ## 6. 이야기 재료 (작가 노트)
 
+- **금지에서 교황 앞으로.** 1914년 파리 대주교가 금지한 춤을, 1924년 한 아르헨티나 댄서가 교황 앞에서 춘다. 그는 9년 전 엘 카차파스에게 경연에서 졌던 '꼬마 우유배달부' 카시미로 아인.
 - **나란히에서 마주 보기로.** 같은 방향을 보며 나란히 걷던 두 사람이, 한 사람의 발견으로 서로를 마주 보고 돌기 시작한다. 탱고 춤의 역사를 한 장면으로 줄이면 이 90도 회전.
 - **손가락과 손수건.** 손을 다 잡지 않고 손가락만, 혹은 손수건 한 장을 사이에 두고 추던 춤. 지금의 가슴을 맞댄 아브라소까지 거리는 몇 센티미터, 시간은 수십 년.
 - **새벽 5시의 90세.** 술과 담배를 곁에 두고 새벽 5시까지 춤추는 90세의 카르멘시타 칼데론. 나이 든 전설이 아니라 아직 밤을 사는 밀롱게라.
