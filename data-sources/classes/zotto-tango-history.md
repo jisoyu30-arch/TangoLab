@@ -52,6 +52,7 @@
 40. 하지만 보통 밀롱게로는 아니었어.
 41. 그분은 현자였어.
 42. 그리고 그분은 탱고에 대해서 글을 썼어.
+43. 이 사람은 은행에서 월간으로 나오는 매거진에 땅고에 대한 글을 썼다.
 
 ---
 
@@ -151,7 +152,7 @@
     - https://www.pagina12.com.ar/diario/suplementos/espectaculos/13-20394-2011-01-03.html
 - **그리고 그는 탱고에 대해 글을 썼다.**
   - ✅ 같은 기사에서 소또가 "페트롤레오는 오초를 통해 탱고의 역사를 썼다"고 말함.
-  - (어떤 글인지, 책인지 기고문인지, 제목이 나오면 추가. 원고가 남아 있는지도 확인하고 싶은 포인트)
+  - **어디에 썼나: 은행에서 매달 내는 사내 매거진(월간지)에 탱고 글을 연재했다.** → 자세한 조사는 §5
   - 문헌 기록: 이탈리아·벨기에 은행(**Banco Ítalo-Belga**) 직원. 춤으로 탱고를 바꿔놓고도 **은행 일을 끝내 그만두지 않았다**는 기사가 있음.
     - Barriada, *"Petróleo el Milonguero": cambió el tango para siempre y nunca dejó su trabajo en el banco*: https://www.barriada.com.ar/petroleo-el-milonguero-cambio-el-tango-para-siempre-y-nunca-dejo-su-trabajo-en-el-banco/
   - (어떤 악단들을 예로 들었는지, 춤이 구체적으로 어떻게 바뀌었는지 이어서 적을 것)
@@ -168,7 +169,7 @@
 | C | 나바로가 **11~12살**의 페트롤레오를 가르침 (≈1922~23) | 페트롤레오 본인 인터뷰에는 **1928년(17살)** 에 나바로를 만났다고 나옴 | ⚠️ **연도 불일치.** 1922년 = 춤 시작, 1928년 = 나바로에게 "완성"이라는 두 단계였을 가능성. 수업에서 한 번 더 확인할 것. 참고: 춤을 시작한 해를 "1927년경"으로 적은 자료도 있음(Planet Tango, 1912년생 기준) |
 | D | 첫 선생님 「페드릭 탠세모」 | 아직 못 찾음 | 칠판·슬라이드에 스펠링이 있으면 사진으로 남겨두기 |
 | E | "세 남자" | 아직 이름 없음 | 누군지 나오면 추가 |
-| H | 페트롤레오의 직업 = 사실상 밀롱게로 (10시 기상, 파티, 매일 밤 밀롱가) | 문헌: 이탈리아·벨기에 은행(Banco Ítalo-Belga) 직원. 은행 일을 끝까지 그만두지 않음 | 모순이라기보다 **두 얼굴**일 수 있음: 낮엔 은행원, 밤엔 밀롱게로. 소또가 은행 얘기를 하는지 확인. 추가 자료: 은행의 발송 책임자(Head of Shipping)였다는 기록(Planet Tango), "36년간 은행원"이라는 SNS 게시물(약한 출처)도 있음 |
+| H | 페트롤레오의 직업 = 사실상 밀롱게로 (10시 기상, 파티, 매일 밤 밀롱가) | 문헌: 이탈리아·벨기에 은행(Banco Ítalo-Belga) 직원. 은행 일을 끝까지 그만두지 않음 | 모순이라기보다 **두 얼굴**일 수 있음: 낮엔 은행원, 밤엔 밀롱게로. ✅ 43번에서 소또도 '은행 월간지에 글을 썼다'고 해서 은행 근무는 수업에서도 확인됨. 직책은 발송 부서 책임자(Jefe de Expedición)였다는 기록(Benzecry Sabá). 추가 자료: 은행의 발송 책임자(Head of Shipping)였다는 기록(Planet Tango), "36년간 은행원"이라는 SNS 게시물(약한 출처)도 있음 |
 | G | 아르헨티노 갈반이 **"첫 번째"** 편곡자 | 문헌은 '최초'라기보다 "1940년대 녹음의 질을 바꾼 **새 세대 편곡자들 중 하나**"로 표현. 그 전에도 1920년대 훌리오 데 카로 섹스텟처럼 편곡을 중시한 악단이 있었음 | 소또의 "첫 번째"가 '최초'인지 '가장 대표적인'인지 확인 |
 | F | 다리엔소 이전 탱고 = 2/4, 짧은 박 | 초기 탱고(과르디아 비에하, 1890~1910년대)는 2/4로 기보됐다. 그래서 탱고의 별명이 "도스 포르 콰트로(2×4)"다. 1920년대에는 노래 중심의 탱고 칸시온과 편곡이 발달하면서 템포가 느려지는 흐름도 있었다 | 소또가 말한 "이때까지"가 1920년대 전체를 가리키는지, 다리엔소 직전을 가리키는지 확인. 다리엔소를 "옛 2×4의 리듬을 댄서에게 되돌려준 사람"으로 설명하는 자료도 많음 → 수업 흐름과 대조할 것 |
 
@@ -180,6 +181,50 @@
 - Gustavo Benzecry Sabá, *Who was Petróleo and what he really did for tango*: https://www.tangomilonga.com.ar/en/who-was-petroleo-and-what-he-really-did-for-tango/
 - Planet Tango, *Petroleo, the great renovator of the 1940's*: https://www.planet-tango.com/elfiru/petroleo.htm
 - Natalia y Gabriel, *Índice del Tango según Petróleo*: https://nataliaygabriel.com/segun-petroleo/indice-del-tango-segun-petroleo
+
+---
+
+## 5. 자료 조사 — 페트롤레오의 글과 책 (요청: "페트롤레오의 책도 찾아봐줘")
+
+### 결론 먼저
+- **페트롤레오 이름으로 정식 출간된 단행본은 검색으로는 찾지 못했다.** (못 찾은 것 ≠ 없는 것. 아래 '다음 단계' 참고)
+- 대신 그의 **글과 증언**은 여러 형태로 남아 있다.
+
+### ① 은행 사내 월간지 연재 (수업 43번)
+- 소또에 따르면 페트롤레오는 근무하던 은행의 **월간 사내 매거진**에 탱고 글을 썼다.
+- 은행: 이탈리아·벨기에 은행(Banco Italo Belga / Banque Italo-Belge). 발송 부서 책임자로 근무.
+  - Banque Italo-Belge (Wikipedia): https://en.wikipedia.org/wiki/Banque_Italo-Belge
+  - Gustavo Benzecry Sabá, *Who was Petróleo and what he really did for tango*: https://www.tangomilonga.com.ar/en/who-was-petroleo-and-what-he-really-did-for-tango/
+- ⚠️ 이 월간지 이름, 연도, 원문은 온라인에서 확인되지 않음. **소또에게 직접 물어볼 1순위 질문.**
+
+### ② 「Según Petróleo(페트롤레오에 따르면)」 — 페트롤레오가 쓴 글 모음
+- 부에노스아이레스의 탱고 커플 Natalia & Gabriel 사이트에 **"페트롤레오가 쓴 탱고 글"** 이 주제별로 올라와 있다. 춤 기술, 스타일, 밀롱가 환경과 다른 댄서들에 대한 의견과 일화.
+  - 목차 「Índice del Tango según Petróleo」: https://nataliaygabriel.com/segun-petroleo/indice-del-tango-segun-petroleo
+  - 「El Orillero」: https://nataliaygabriel.com/segun-petroleo/item/66-el-orillero
+  - 「El milonguero」: https://nataliaygabriel.com/segun-petroleo/item/60-el-milonguero.html
+  - 「Carlos Alberto Estévez」: https://nataliaygabriel.com/segun-petroleo/item/70-carlos-alberto-est%C3%A9vez.html
+- 가설: 이 글들이 **은행 월간지 연재분**일 가능성. 원문 출처 표기를 확인해야 함 (이 세션 네트워크에서는 본문 열람 불가).
+- 같은 사이트에 제자 라인의 「El Tango según Lampazo(람파소에 따르면)」도 있음: https://nataliaygabriel.com/trayectoria/en-ellos-nos-inspiramos/item/102-el-tango-segun-lampazo
+
+### ③ 「El tango por Petróleo — Salón de baile」
+- 페트롤레오가 쓴 살롱 탱고 글이 탱고 포럼에 옮겨져 있음: https://tangueros.mforos.com/906310/5010529-el-tango-por-petroleo/
+
+### ④ 인터뷰(구술 증언)
+- El Tango Click, 페트롤레오 인터뷰 3부작
+  - 1부: https://www.eltangoclick.com/entrevista-a-petroleo-1ra-parte/
+  - 2부: https://www.eltangoclick.com/entrevista-a-petroleo-2da-parte/
+  - 3부: https://www.eltangoclick.com/entrevista-a-petroleo-3ra-parte/
+- Todotango, *Petróleo — Entrevista a un bailarín*: https://www.todotango.com/historias/cronica/447/Petroleo-Entrevista-a-un-bailarin/
+- 소또의 1985년 2시간 영상 인터뷰 (미공개 추정 · 〈Puro Tango〉 원재료)
+
+### ⑤ 함께 볼 책
+- Leticia Maronese (편), *De milongas y milongueros* — 부에노스아이레스시 역사문화유산보존위원회(CPPHC) 발간, 무료 PDF: https://buenosaires.gob.ar/areas/cultura/cpphc/archivos/libros/Milongas_y_milongue.pdf
+  - 밀롱가와 밀롱게로를 다룬 공공 출판물. 페트롤레오가 들어 있는지는 아직 확인 못 함.
+
+### 다음 단계
+1. 소또에게: "은행 월간지 이름이 뭐였나요? 원고를 갖고 계신가요?"
+2. Natalia & Gabriel의 「Según Petróleo」 글마다 원출처(은행지 몇 년 몇 월호인지) 표기 확인
+3. 네트워크 허용 후 Todotango 인터뷰, Maronese PDF 본문 대조
 
 ---
 
