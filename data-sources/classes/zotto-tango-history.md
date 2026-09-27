@@ -3,7 +3,7 @@
 > 수업을 들으며 실시간으로 받아 적은 원문(§0), 장면별 정리(§1), 팩트체크(§2), 소또에게 물어볼 질문(§3), 페트롤레오의 글 자료 조사(§4), 소또 배경 자료(§5), 작가용 이야기 재료(§6).
 > 들린 대로 적은 이름은 「」로 표시하고, 확인되면 원어 표기로 바꿈.
 
-- 수업 기록일: 2026-09-27 (실시간 받아쓰기, 69줄)
+- 수업 기록일: 2026-09-27 (실시간 받아쓰기, 70줄)
 - 강사: Miguel Ángel Zotto (미겔 앙헬 소또, 1958~ / Tango x 2 창단자)
 
 ---
@@ -97,6 +97,7 @@
 67. 60년대 이전의 이미지들
 68. 부에노스아이레스의 풍경들, 흑백 이미지
 69. 소또 부모님이 운영하던 호텔 이미지
+70. 1850년부터 1930년까지 400만 명 정도의 유럽인들이 부에노스아이레스에 왔어.
 
 ---
 
@@ -236,6 +237,8 @@
       1. **1960년대 이전의 이미지들** (장면 5의 '1950~60년대 밀롱가 테이프'와 같은 시대. 같은 자료인지 확인)
       2. **부에노스아이레스 거리 풍경, 흑백 영상**
       3. **소또의 부모님이 운영하던 호텔** 이미지 — 문헌에 없는 새 정보(기록된 자료에는 아버지가 댄서이자 배우로만 나옴). 호텔 이름·위치·연도 확인 포인트
+      4. **이민의 물결:** 1850~1930년 약 400만 명의 유럽인이 부에노스아이레스로 왔다 (소또)
+         - 문헌: 1930년까지 아르헨티나에 **도착한 이민자 약 633만 명, 그중 정착한 사람 약 339만 명.** 이탈리아인이 가장 많고 다음이 스페인인. 인구는 1850년 110만 명 → 1930년 1,180만 명. 1914년엔 인구의 29.9%가 외국 출생 → §2-J
   - 트레이드마크: **늘 일반 넥타이가 아니라 나비넥타이.** 🎀
   - **그의 춤은 클래식 음악, 클래식 발레에서 왔다.**
     - ✅ 문헌과 일치: 소또는 2011년 인터뷰에서도 페트롤레오가 "발레에 대한 지식이 깊었다"고 말함 (Página/12, 2011-01-03).
@@ -272,9 +275,12 @@
 | F | 다리엔소 이전 탱고 = 2/4, 짧은 박 | 초기 탱고(과르디아 비에하, 1890~1910년대)는 2/4로 기보됐다. 그래서 탱고의 별명이 "도스 포르 콰트로(2×4)"다. 1920년대에는 노래 중심의 탱고 칸시온과 편곡이 발달하면서 템포가 느려지는 흐름도 있었다 | 소또가 말한 "이때까지"가 1920년대 전체인지, 다리엔소 직전인지 확인. 다리엔소를 "옛 2×4의 리듬을 댄서에게 되돌려준 사람"으로 설명하는 자료도 많음 |
 | G | 아르헨티노 갈반이 **"첫 번째"** 편곡자 | 문헌은 '최초'라기보다 "1940년대 녹음의 질을 바꾼 **새 세대 편곡자들 중 하나**"로 표현. 그 전에도 1920년대 훌리오 데 카로 섹스텟처럼 편곡을 중시한 악단이 있었음 | 소또의 "첫 번째"가 '최초'인지 '가장 대표적인'인지 확인 |
 | I | 15살(1926)에 은행 입사, 1969년까지 근무. 은행이 테아트로 콜론 후원사 | 입사 나이는 1911년생과 일치. 근무 기간 "36년"이라는 SNS 게시물(약한 출처)과 차이. 콜론 후원 여부는 미확인 | 은행 이름(Banco Italo Belga)과 콜론 극장 후원 관계를 소또에게 확인 |
+| J | 1850~1930년 유럽인 약 **400만 명**이 부에노스아이레스에 옴 | 1930년까지 아르헨티나 도착 이민자 **약 633만 명**, 그중 영구 정착 **약 339만 명** (es.wikipedia *Gran inmigración europea en Argentina*). 1857~1930년 유럽 이민 620만 명으로 미국 다음 세계 2위, 인구 대비로는 1위라는 연구도 있음 (Pérez, *Journal of Economic History*) | 소또의 400만은 '도착'(630만)과 '정착'(340만) 사이. 또 부에노스아이레스만이 아니라 **아르헨티나 전체** 수치(대부분 부에노스아이레스 항구로 입국). 대본에는 "수백만 명", "정착한 사람만 340만 명"이 안전 |
 | H | 페트롤레오의 직업 = 사실상 밀롱게로 (10시 기상, 파티, 매일 밤 밀롱가) | 이탈리아·벨기에 은행 직원. 발송 부서 책임자(Jefe de Expedición)였다는 기록(Benzecry Sabá, Planet Tango). "36년간 은행원"이라는 SNS 게시물(약한 출처)도 있음 | 모순이라기보다 **두 얼굴**: 낮엔 은행원, 밤엔 밀롱게로. ✅ 43번 '은행 월간지'로 은행 근무는 수업에서도 확인됨 |
 
 출처
+- es.wikipedia, *Gran inmigración europea en Argentina*: https://es.wikipedia.org/wiki/Gran_inmigraci%C3%B3n_europea_en_Argentina
+- Santiago Pérez, *The (South) American Dream* (Journal of Economic History): https://www.cambridge.org/core/journals/journal-of-economic-history/article/south-american-dream-mobility-and-economic-outcomes-of-first-and-secondgeneration-immigrants-in-nineteenthcentury-argentina/C5671D0E78620383CF940E949DA71A62
 - Tango and Chaos, *Legends of Tango — Petroleo*: https://www.tangoandchaos.org/chapt_3search/3petroleo.htm
 - El Tango Click, *Entrevista a Petróleo (1ra Parte)*: https://www.eltangoclick.com/entrevista-a-petroleo-1ra-parte/
 - Gustavo Benzecry Sabá, *Who was Petróleo and what he really did for tango*: https://www.tangomilonga.com.ar/en/who-was-petroleo-and-what-he-really-did-for-tango/
