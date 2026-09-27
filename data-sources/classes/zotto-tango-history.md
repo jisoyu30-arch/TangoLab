@@ -46,6 +46,8 @@
 34. 그래서 탱고의 100년 역사를 쭉 춤춘 사람이야.
 35. 그리고 되게 중요했던 모든 혁명의 시간에 춤을 춘 사람이었어.
 36. 선생님들의 선생님이었어.
+37. 그리고 이 사람의 직업은? (소또의 질문)
+38. 10시에 일어나서
 
 ---
 
@@ -137,6 +139,10 @@
     - **미겔 앙헬 소또 본인:** 1986~89년 페트롤레오에게 집중 수련 (es.wikipedia)
     - **밍고 푸글리에세(Mingo Pugliese):** 페트롤레오를 스승으로 여기고, 그가 확립한 기술을 8박자 기본기 형태로 후대에 전함 (앱 `dancers_history.json` petroleo 항목)
   - (소또가 다른 제자 이름을 말하면 추가)
+- **이 사람의 직업은?** — 소또가 던진 질문
+  - 하루 일과: 10시에 일어나서 … (이어서 적을 것)
+  - 문헌 기록: 이탈리아·벨기에 은행(**Banco Ítalo-Belga**) 직원. 춤으로 탱고를 바꿔놓고도 **은행 일을 끝내 그만두지 않았다**는 기사가 있음.
+    - Barriada, *"Petróleo el Milonguero": cambió el tango para siempre y nunca dejó su trabajo en el banco*: https://www.barriada.com.ar/petroleo-el-milonguero-cambio-el-tango-para-siempre-y-nunca-dejo-su-trabajo-en-el-banco/
   - (어떤 악단들을 예로 들었는지, 춤이 구체적으로 어떻게 바뀌었는지 이어서 적을 것)
   - (수업 계속 — 다리엔소가 이걸 어떻게 바꿨는지 이어서 적을 것)
 
