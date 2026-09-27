@@ -3,7 +3,7 @@
 > 수업을 들으며 실시간으로 받아 적은 원문(§0), 장면별 정리(§1), 팩트체크(§2), 소또에게 물어볼 질문(§3), 페트롤레오의 글 자료 조사(§4), 소또 배경 자료(§5), 작가용 이야기 재료(§6).
 > 들린 대로 적은 이름은 「」로 표시하고, 확인되면 원어 표기로 바꿈.
 
-- 수업 기록일: 2026-09-27 (실시간 받아쓰기, 138줄)
+- 수업 기록일: 2026-09-27 (실시간 받아쓰기, 139줄)
 - 강사: Miguel Ángel Zotto (미겔 앙헬 소또, 1958~ / Tango x 2 창단자)
 
 ---
@@ -168,6 +168,7 @@
 136. 40년대, 같은 방향
 137. 「뜨라스삐에」를 발명한 사람의 춤 예시
 138. 「기롤라스와 엘비라」 (= 비룰라소와 엘비라, Virulazo y Elvira)
+139. 이들이 출연한 80년대쯤 영화의 탱고 장면을 보여줬어. (요청: 언급된 사람들의 영상 모아주기 → §7)
 
 ---
 
@@ -794,3 +795,26 @@
 - **"네그로"라는 별명.** 인종이 아니라 피부색 별명. 한국어 대본으로 옮길 때는 오해가 없게 풀어서 설명할 것.
 - **오초(ocho) = 8 = ∞.** 소또는 페트롤레오가 "오초라는 피겨를 통해 탱고의 역사를 썼다"고 말한다. 여성의 춤은 오초에서 시작한다는 소또의 말과 연결된다.
 - **어떤 책에도 없는 이야기.** 이 노트 자체가 구술사 1차 사료.
+
+---
+
+## 7. 수업에 나온 사람들의 영상 모음 (요청: "언급되는 사람들의 영상을 뽑아주라")
+
+> 링크는 검색으로 찾은 공개 영상. 수업에서 본 영상과 같은지는 확인 필요.
+
+| 인물 / 작품 | 영상 |
+|---|---|
+| **페트롤레오** (카를로스 알베르토 에스테베스) | https://www.youtube.com/watch?v=wPd_WZaSWOU · https://www.youtube.com/watch?v=KKxX0V2dgeI |
+| **엘 카차파스 & 카르멘시타 칼데론** — 영화 《Tango!》(1933) | https://www.youtube.com/watch?v=DRIu9acmhtk · https://www.youtube.com/watch?v=V2SaADjKFVM · 함께 춘 장면 https://www.youtube.com/watch?v=5Yv9V-3APpc |
+| **카르멘시타 칼데론** — 100세에 춤추는 모습 | https://endretango.com/en/carmencita-dances-argentine-tango-at-100/ |
+| **카시미로 아인** — 파리 댄스홀 다큐 | https://www.youtube.com/shorts/awOdU3VN0rY |
+| **찰리 채플린** — 《Tango Tangles》(1914) | https://www.dailymotion.com/video/x6rs2aq |
+| **비룰라소 & 엘비라** — 〈El Choclo〉 | https://www.youtube.com/watch?v=CWxoTidESos |
+| 비룰라소 & 엘비라 — 〈La Cumparsita〉 | https://www.youtube.com/watch?v=L9MjwrzjRWY |
+| 비룰라소 & 엘비라 — 춤과 인터뷰 | https://www.youtube.com/watch?v=Kz_7YvuxIb4 |
+| 비룰라소 & 엘비라 — 가르델 헌정 무대(1990) | https://www.youtube.com/watch?v=r3TGpujx1tY |
+| **1980년대 영화 속 탱고** — 후보 《Tango Bar》(1988, 마르코스 수리나가 감독, 라울 훌리아 주연) | 장면 소개: http://tangosalbardo.blogspot.com/2012/05/escena-de-la-pelicula-tango-bar.html · 비룰라소·엘비라 출연 여부는 확인 필요 |
+| **소또 & 다이아나 구스페로** — 바티칸 크리스마스 콘서트(2018) | https://www.youtube.com/watch?v=lpf2hlAUaGg |
+| **소또** — 〈Una noche de tango〉 | https://www.youtube.com/watch?v=SZhiczcIHf0 |
+
+- 비룰라소와 엘비라는 〈Tango Argentino〉 출연진으로 **1986년 토니상 안무상 후보**에 올랐다 (es.wikipedia *Virulazo y Elvira*: https://es.wikipedia.org/wiki/Virulazo_y_Elvira).
