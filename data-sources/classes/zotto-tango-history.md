@@ -53,6 +53,8 @@
 41. 그분은 현자였어.
 42. 그리고 그분은 탱고에 대해서 글을 썼어.
 43. 이 사람은 은행에서 월간으로 나오는 매거진에 땅고에 대한 글을 썼다.
+44. 내가 어느 밀롱가 가서 누굴 만났고, 밀롱게로 누가 있었고 (← 은행 월간지 글의 내용)
+45. 그리고 소또는 이 사람과 10년 동안 같이 있을 기회가 있었대.
 
 ---
 
@@ -153,6 +155,9 @@
 - **그리고 그는 탱고에 대해 글을 썼다.**
   - ✅ 같은 기사에서 소또가 "페트롤레오는 오초를 통해 탱고의 역사를 썼다"고 말함.
   - **어디에 썼나: 은행에서 매달 내는 사내 매거진(월간지)에 탱고 글을 연재했다.** → 자세한 조사는 §5
+  - **무엇을 썼나: 일기처럼 "어느 밀롱가에 가서 누구를 만났고, 거기 어떤 밀롱게로들이 있었는지"를 기록했다.** → 밀롱가 현장 기록자
+- **소또는 페트롤레오와 10년을 함께했다.**
+  - ✅ 연도 계산: 1985년 영상 인터뷰 → 1995년 페트롤레오 사망 = 10년. es.wikipedia에도 1986~89년 페트롤레오에게 집중 수련한 것으로 나옴.
   - 문헌 기록: 이탈리아·벨기에 은행(**Banco Ítalo-Belga**) 직원. 춤으로 탱고를 바꿔놓고도 **은행 일을 끝내 그만두지 않았다**는 기사가 있음.
     - Barriada, *"Petróleo el Milonguero": cambió el tango para siempre y nunca dejó su trabajo en el banco*: https://www.barriada.com.ar/petroleo-el-milonguero-cambio-el-tango-para-siempre-y-nunca-dejo-su-trabajo-en-el-banco/
   - (어떤 악단들을 예로 들었는지, 춤이 구체적으로 어떻게 바뀌었는지 이어서 적을 것)
@@ -205,6 +210,33 @@
   - 「Carlos Alberto Estévez」: https://nataliaygabriel.com/segun-petroleo/item/70-carlos-alberto-est%C3%A9vez.html
 - 가설: 이 글들이 **은행 월간지 연재분**일 가능성. 원문 출처 표기를 확인해야 함 (이 세션 네트워크에서는 본문 열람 불가).
 - 같은 사이트에 제자 라인의 「El Tango según Lampazo(람파소에 따르면)」도 있음: https://nataliaygabriel.com/trayectoria/en-ellos-nos-inspiramos/item/102-el-tango-segun-lampazo
+
+#### ②-1 찾아낸 글의 내용 (검색 발췌 기준 요약 · 원문 대조 전)
+
+| 글 제목 | 내용 요약 | 링크 |
+|---|---|---|
+| **El Cachafaz** | 엘 카차파스를 "창의적이고 그림 같은 안무"로 기억되는 인물로 그린다. 밀롱게로식 옷차림, 독특한 외모, 변두리(arrabal) 말투. 엘리아스 알리피, 엘 플라코 알프레도, J.C. 에레라 같은 댄서들과 겨뤘고, **1915년 '파리지앵(Parisien)' 무도장 경연에서 유명한 '레체리토 아인(Lecherito Aín)'을 이겼다**고 적음 | https://nataliaygabriel.com/segun-petroleo/item/52-el-cachafaz |
+| **La compañera de baile** (춤 파트너) | 남자가 아무리 잘 춰도, 함께 추는 기술을 완전히 갖춘 여성이 없으면 보는 이에게 탱고의 메시지를 전할 수 없다. 좋은 파트너는 동작을 장식하고, 수학처럼 정확하게 미끄러지고, 프레이징·회전·피벗을 엮고, 자연스러운 우아함에 감정과 극적 표현을 더한다 | https://nataliaygabriel.com/segun-petroleo/item/64-la-companera-de-baile |
+| **El milonguero con cartel** ('간판 있는' 밀롱게로) | 많은 피겨를 자유자재로 다뤄 특권적 위치에 선 밀롱게로. 동작의 주인이라 믿고, 왕처럼 굴며 지적을 참지 않는다. 그래도 계속 배우고 다듬는다. 좋은 동작을 얻으면 아무 때나 쓰지 않고 특별한 순간을 위해 아껴둔다. **베낄까 봐 절대 가르치지 않고, 비장의 카드처럼 쥐고 있다** | https://tomasbuenosaires.com.ar/index.php/9-baile/secretos-del-baile/270-baile-de-tango-34283449.html |
+| **El Orillero** (스타일 분류) | 탱고 스타일을 나눈다. **판타시아**(자유롭게 풀어 추는 탱고), **칸젠게**(과장된 피겨), **오리예로**(탱고 옛 시절의 고전 동작), **살론**(과한 장식 없는 우아한 춤) | https://nataliaygabriel.com/segun-petroleo/item/66-el-orillero |
+| **Canyengue** | 원래 '볼품없는, 지친'이라는 뜻의 말(어원 설명은 페트롤레오의 견해, 학설은 갈림). 춤에서는 2×4 박자의 '탱고 콤파드론'을 최대한 복잡하게 이어지는 과장된 동작으로 추는 기술. **밀롱게로 문화의 수준을 과시하는 방식** | https://nataliaygabriel.com/segun-petroleo/item/65-canyengue |
+| **Rarezas del Tango** (탱고의 기묘한 사실들) | 최초의 탱고가 무엇인지 역사가들이 다툰다(〈Negro Chicova〉, 페레스의 〈Dame la lata〉, 카시미로 알코르타의 〈La yapa〉 등). 결국 **"탱고는 발명품"**이라고 결론. 탱고 한 곡은 약 3분, 평균 약 210초. **정해진 추는 법은 없다.** 자기 스타일을 발명하거나, 본 적 있는 고수를 흉내 낼 뿐 | https://www.nataliaygabriel.com/segun-petroleo/item/39-rarezas-del-tango |
+| **La Milonga Moderna** (요즘 밀롱가) | 시대가 변했다. 밤 10시 시작이라 해도 다들 자정 넘어 오고 새벽 4시 넘어까지 춘다. 예전엔 공짜였는데 이제 여성도 입장료를 낸다. 예전엔 토·일요일 위주였는데 이제 매일 열린다. 대형 악단이 사라지면서 **DJ라는 새 직업**이 생겼고, 30분마다 리듬이 다른 음악을 틀어 춤을 조절한다 | https://nataliaygabriel.com/segun-petroleo/item/61-la-milonga-moderna |
+
+- 관찰: 〈La Milonga Moderna〉는 DJ, 매일 열리는 밀롱가를 다루므로 **말년(1980~90년대)의 글**로 보인다. 그래서 「Según Petróleo」 전체가 은행 월간지 연재분은 아닐 가능성이 높다. 수업에서 말한 **"어느 밀롱가, 누구를 만났나" 식 일기형 칼럼 원문은 아직 온라인에서 못 찾음.**
+
+#### ②-2 기록에 나오는 페트롤레오의 밀롱가 지도
+
+- **카페 '페보(Febo)'**(몬테 카스트로): 그를 따르는 무리가 모이던 곳
+- **클럽 넬슨(Club Social y Deportivo Nelson)**: 친구들과 저녁마다 연습하며 동작을 발명하던 곳
+- **로사 데 아브릴(Rosa de Abril)**(비야 데보토): 동네 클럽, 그가 춤추던 곳
+- **클럽 신 룸보(Club Sin Rumbo)**(비야 우르키사): 페트롤레오, 비룰라소, 엘비라, 탕기토 올리베토, 알베르토 비야라소, 미겔 발마세다 등이 춤추던 곳
+- 1930년 한 밀롱가에서 **에스페란사 디아스(Esperanza Díaz)**를 만나 춤과 삶의 파트너가 됨
+- 무릎 문제로 1988년 밀롱가에서 은퇴했다는 기록도 있음 (출처 확인 필요)
+- 출처(검색 발췌 기준)
+  - Barriada: https://www.barriada.com.ar/petroleo-el-milonguero-cambio-el-tango-para-siempre-y-nunca-dejo-su-trabajo-en-el-banco/
+  - El Barrio Pueyrredón, *Clubes Sin Rumbo y Sunderland*: https://elbarriopueyrredon.com.ar/clubes-sin-rumbo-y-sunderland-villa-urquiza-sede-de-grandes-milongas/
+  - Tangos al bardo, *Los milongueros y los barrios*: http://tangosalbardo.blogspot.com/2020/03/el-tango-milonguero-y-los-barrios.html
 
 ### ③ 「El tango por Petróleo — Salón de baile」
 - 페트롤레오가 쓴 살롱 탱고 글이 탱고 포럼에 옮겨져 있음: https://tangueros.mforos.com/906310/5010529-el-tango-por-petroleo/
