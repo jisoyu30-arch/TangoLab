@@ -3,7 +3,7 @@
 > 수업을 들으며 실시간으로 받아 적은 원문(§0), 장면별 정리(§1), 팩트체크(§2), 소또에게 물어볼 질문(§3), 페트롤레오의 글 자료 조사(§4), 소또 배경 자료(§5), 작가용 이야기 재료(§6).
 > 들린 대로 적은 이름은 「」로 표시하고, 확인되면 원어 표기로 바꿈.
 
-- 수업 기록일: 2026-09-27 (실시간 받아쓰기, 218줄)
+- 수업 기록일: 2026-09-27 (실시간 받아쓰기, 218줄 · 요청: 〈Tango Argentino〉 제작사와 댄서 조사 → §8)
 - 강사: Miguel Ángel Zotto (미겔 앙헬 소또, 1958~ / Tango x 2 창단자)
 
 ---
@@ -1006,3 +1006,40 @@
 | **소또** — 〈Una noche de tango〉 | https://www.youtube.com/watch?v=SZhiczcIHf0 |
 
 - 비룰라소와 엘비라는 〈Tango Argentino〉 출연진으로 **1986년 토니상 안무상 후보**에 올랐다 (es.wikipedia *Virulazo y Elvira*: https://es.wikipedia.org/wiki/Virulazo_y_Elvira).
+
+---
+
+## 8. 〈Tango Argentino〉 제작진과 출연진 (요청: "그 공연의 회사와 소속 댄서들을 찾아봐")
+
+| 항목 | 내용 |
+|---|---|
+| 초연 | **1983년 11월 파리 샤틀레 극장** (11월 10일 또는 11일로 자료마다 다름) |
+| 브로드웨이 | **1985년** 마크 헬링어 극장 |
+| 창작·연출·무대·의상 | **클라우디오 세고비아 & 엑토르 오레솔리** |
+| 브로드웨이 제작 | 멜 하워드(Mel Howard), 도널드 K. 도널드(Donald K. Donald) |
+| 안무 | **후안 카를로스 코페스** (출연 댄서 선발도 함께) |
+| 음악감독 | 호세 리베르텔라, 루이스 스타소, 오스발도 베를린지에리 |
+| 악단 | ✅ **섹스테토 마요르(Sexteto Mayor)** — 1973년 리베르텔라·스타소 결성 (수업 217번과 일치) |
+| 수상 | 1986년 토니상 후보: 안무상, 연출상, 뮤지컬 작품상 |
+| 순회 | 10년 넘게 세계 주요 도시에서 매진 공연 |
+
+**댄서 (1983년 파리 초연 기준 여섯 커플 + α)**
+- **후안 카를로스 코페스 & 마리아 니에베스** (장면 8)
+- **카를로스 & 마리아 리바롤라** (카를로스 리바롤라는 가브리엘 미세의 스승)
+- **엑토르 마요랄 & 엘사 마리아**
+- **넬리다 & 넬손**
+- **모니카 & 루시아노 프리아스**
+- **비룰라소 & 엘비라** (장면 7)
+- 브로드웨이 출연진에는 **로스 딘셀(Los Dinzel, 소또의 스승 로돌포 딘셀)**, **글로리아 & 에두아르도**도 포함
+- (1986년 4월부터 **미겔 앙헬 소또** 합류, 솔로 〈La Cumparsita〉 · §5)
+
+**가수**: 엘바 베론, 라울 라비에, 호비타 루나, 알바 솔리스, 로베르토 고예네체 등
+
+- 2023년 초연 40주년 기념 행사(보르헤스 문화센터).
+
+출처
+- Wikipedia, *Tango Argentino (musical)*: https://en.wikipedia.org/wiki/Tango_Argentino_(musical)
+- es.wikipedia, *Tango Argentino (espectáculo)*: https://es.wikipedia.org/wiki/Tango_Argentino_(espect%C3%A1culo)
+- IBDB (브로드웨이 기록): https://www.ibdb.com/broadway-production/tango-argentino-4380
+- Playbill: https://playbill.com/productions/tango-argentino-mark-hellinger-theatre-vault-0000005777
+- Argentina.gob.ar, 40주년: https://www.argentina.gob.ar/noticias/40o-aniversario-de-tango-argentino-en-el-centro-cultural-borges
