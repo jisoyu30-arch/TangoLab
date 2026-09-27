@@ -3,7 +3,7 @@
 > 수업을 들으며 실시간으로 받아 적은 원문(§0), 장면별 정리(§1), 팩트체크(§2), 소또에게 물어볼 질문(§3), 페트롤레오의 글 자료 조사(§4), 소또 배경 자료(§5), 작가용 이야기 재료(§6).
 > 들린 대로 적은 이름은 「」로 표시하고, 확인되면 원어 표기로 바꿈.
 
-- 수업 기록일: 2026-09-27 (실시간 받아쓰기, 130줄)
+- 수업 기록일: 2026-09-27 (실시간 받아쓰기, 131줄)
 - 강사: Miguel Ángel Zotto (미겔 앙헬 소또, 1958~ / Tango x 2 창단자)
 
 ---
@@ -160,6 +160,7 @@
 128. 그리고 「고인돌 가족」(The Flintstones) 애니에 들어가 있는 탱고 영상을 보여줬어.
 129. 이제 할리우드도 탱고를 받아들임. 찰리 채플린 영화 속 땅고 이미지.
 130. 「플라코로」라는 사람이 부에노스아이레스로 가서 사랑에 빠져 평생 살았대.
+131. 까를로스 빼뜨로(= 카를로스 '페트롤레오' 에스테베스) 영상 보여줌.
 
 ---
 
@@ -498,6 +499,12 @@
         - Palermo Noticias, *(El Pibe Palermo) José María Baña*: https://palermonoticias.com.ar/el-pibe-palermo-jose-maria-bana-bailarin-de-tango/
         - IMDb, *Gabriel Misse — Biography*: https://www.imdb.com/name/nm7161467/bio/
         - Tango Society of Boston, *Gabriel Misse*: https://www.bostontango.org/gabriel-misse-and-carla-espinoza.html
+
+  20. **[영상] 카를로스 '페트롤레오' 에스테베스가 춤추는 영상** (131번) 💃
+      - 오늘 이야기의 주인공이 드디어 화면에 등장. (영상 속 연도, 파트너, 동작 — 특히 **엔로스케·히로가 보이는지** — 관찰해서 추가하면 1930년대 영상과 비교 가능)
+      - 참고: 인터넷에 공개된 페트롤레오 영상 (수업 영상과 같은지는 확인 필요)
+        - YouTube, *Carlos Alberto Estévez "Petróleo" y Alejandra*: https://www.youtube.com/watch?v=wPd_WZaSWOU
+        - YouTube, *Petróleo Tango — Carlos Alberto Estévez con Alejandra*: https://www.youtube.com/watch?v=KKxX0V2dgeI
 
 ### 에필로그. 어떤 책에도 없는 이야기
 
