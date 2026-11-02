@@ -1109,3 +1109,30 @@
 - 2부 52:16~53:06 〈Tango Argentino〉 악단 **섹스테토 마요르는 14명**, 스타 뮤지션 다수. "우리가 제일 어렸다." 1년 순회에 부에노스아이레스엔 1년에 한 번만 돌아옴.
 - 2부 55:03 《Tango Bar》: **"마지막 위대한 밀롱게로들을 모두 볼 수 있는 영화"**, "85년에 우리가 만든 영화".
 - 2부 1:00:13 **다음 수업에서 3부를 이어서** 한다.
+
+---
+
+## 10. 블로그용 추가 확인 (2026-11-02) → 글: `data-sources/blog/2026-11-03-*.md`
+
+### 페트롤레오 — 본인 인터뷰(1992년 잡지 La Maga, Todotango 전재)
+- 별명 '석유'의 유래: 본인은 **"젊을 때 와인을 너무 많이 마셔서"**라고 설명. "춤이 기름처럼 매끄러워서"라는 설명은 Tango and Chaos가 처음 들었다는 설(본인 설명과 다름).
+- **1912년생, 1928년에 춤 시작, 은행원 36년, 비야 데보토 거주, 1988년 무릎 문제로 춤을 그만둠.**
+- "은행 일 때문에 순회공연은 한 번도 못 갔지만 시범 공연은 2천 번쯤 했다" ✅ 이 인터뷰가 원출처.
+- 히로, 콘트라프렌테, 자세 바꾸기(cambio de posturas), 볼레오를 **자신이 만들었다**고 말함.
+- → 소또(1922년 시작 · 1926~1966년 은행)와 다름. 블로그에는 '1920년대', '30년 넘게'로 씀 (§2-C, §2-I 보완).
+- Todotango, *Petróleo – Interview to a dancer*: https://todotango.com/english/history/chronicle/447/Petroleo-Interview-to-a-dancer
+
+### 탱고와 교회
+- **비오 10세 '푸를라나' 일화**: 1914년 초 신문에 퍼졌지만 사실인지 아무도 모름(Aleteia). 판본마다 교황의 말이 다름. 푸를라나 붐은 1914년 봄~7월 28일 개전까지 몇 달뿐(Interlude). → '확인되지 않은 일화'로만.
+  - https://aleteia.org/2020/08/18/popes-whove-loved-dancing-and-the-dances-theyve-loved
+  - https://interlude.hk/replacing-the-tango-the-furlana-the-forlane/
+- **아메트 추기경(1914.1)**: 당시 전신 보도 — 탱고는 "음란하고 도덕을 해치는" 춤, 고해 사제들에게 이를 살피라고 함. 파리의 댄스 교사가 대주교에게 소송(금액은 보도마다 다름).
+  - https://centuryireland.rte.ie/centuryireland/blog/dancing-master-suing-over-tango-comments
+  - 1914년 뉴질랜드 신문 원문(Papers Past)은 이 환경에서 접속 차단 → 2차 자료로 확인
+- **아인의 1924년 탱고**: 교황 반응("Avanti, figliolo" 등)은 이번에 재확인 못 함 → 블로그엔 "자료마다 다름"으로만 씀.
+- **프란치스코 교황과 탱고**: 『El Jesuita』(2010)에서 "탱고를 무척 좋아한다, 내 안에서 우러나오는 것", 젊을 때 직접 춤 (Río Negro, Ahram, NCRegister 보도).
+  - https://www.ncregister.com/blog/from-deep-within-pope-francis-love-for-tango
+- **2018 성탄 콘서트**: 공식 카탈로그상 2018.12.15 바오로 6세 홀. 소또·구스페로는 2007년부터 파트너(Il Sussidiario). 구스페로는 2018년 교황 알현에서 교황을 위해 춤춘 것을 감동적인 경험으로 회고(CNA 보도). 교황이 콘서트 객석에 있었다는 기록은 없음 → "교황 앞 무대"라고 쓰지 말 것.
+  - https://www.concertodinatale.it/file-cataloghi/Catalogo%20Concerto%202018.pdf
+- **2025.3.16 제멜리 병원 앞 탱고**: 교황 입원(2.14) 중 다이아나 구스페로가 제안, "움직이는 기도". 교황은 2025.4.21 선종.
+  - https://www.catholicworldreport.com/2025/03/17/dancers-dedicate-tango-to-pope-francis-at-gemelli-hospital/
