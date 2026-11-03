@@ -1145,3 +1145,17 @@
 - 검색 요약에 따르면 같은 인터뷰에서 페트롤레오가 **젊은 댄서 중 소또가 가장 마음에 든다(자세가 좋아서)**고 말함 → 원문 확인 후 글감으로.
 - 영상: 「Petroleo, M. Zotto, M Pugliese」(Victor Tangos, 약 4분 50초, 밀레나 플레브스 등장) https://www.youtube.com/watch?v=quHDYyqnJcE — 1985년 인터뷰와 같은 촬영물인지 미확인.
 - 게시본 기준: 박자표(2/4→4박) 설명과 특정 동작의 단독 발명자 표현은 쓰지 않음. ②번도 같은 기준으로 맞출 것.
+
+### 게시본 ② 재확인 (2026-11-03) — 바뀐 판단
+- 🚨 **1924년 아인의 바티칸 탱고는 '전설'로 다룸.** Todotango 「A Baron and a Pope in the social ascent of tango」가 이 일화를 전설로 설명(교황이 비오 10세로 나오는 판본도 소개). 위키백과·La Nación(「Lejanas batallas del tango (I) 1924. El Vasco Aín en la Santa Sede」, 아벨 포세 사이트에도 같은 제목 글)은 사실처럼 서술. La Nación 판본엔 교황이 **로레토 성모 은메달**을 줬다는 대목(검색 요약).
+  - https://www.todotango.com/english/history/chronicle/417/A-Baron-and-a-Pope-in-the-social-ascent-of-tango/
+  - https://www.lanacion.com.ar/lifestyle/lejanas-batallas-del-tango-i-1924-el-vasco-ain-en-la-santa-sede-nid532087/
+  - 문서 기반이라는 2025년 아인 전기(Marcelo Castelo): https://www.aacademica.org/marcelo.castelo/6 — 바티칸 일화 결론 미확인
+- 아인 생몰일: 위키백과 1882.3.4~1940.10.17 vs 기존 앱 데이터 1882.12.15~1940.9.25 → 연도만 씀. '레체리토'는 우유 배달하던 아버지를 도와서 붙은 별명(위키백과). 귀국 시기 1916년/1927년 자료 충돌. Todotango 칼럼에도 1915년 '테아트로 파리지앵' 경연 언급.
+- '아베 마리아' 제목이 놀람의 감탄사라는 설은 출처를 못 찾음 → 쓰지 않음. 제초안의 "성모송 이름을 단 영리한 선택" 문장도 삭제(해석이라).
+- 아메트 추기경: Stratford Evening Post 1914.1.12 파리발 전보 "solemn exhortation condemning the Tango, its nature being wanton and offensive to morals… warns confessors" https://paperspast.natlib.govt.nz/newspapers/STEP19140112.2.34 / 댄스 교사 소송 10만 프랑(Century Ireland) vs 4천 파운드(Dominion).
+- 『El Jesuita』(2010): 탱고 "Me gusta muchísimo. Es algo que me sale de adentro." / "Sí. Lo bailé de joven, aunque prefería la milonga." (Río Negro) https://www.rionegro.com.ar/?p=574745
+- 2014.12.17 생일 탱고 인원: The Tablet 약 2,400명, NBC 2,000명 이상, CWR 약 3,000명 → '2천 명이 넘는'.
+- 2018: 성탄 콘서트 12.15 녹화·12.24 방송(Canale 5). 2018년 12월 교황의 '콘서트 출연진 알현' 공보는 못 찾음. 구스페로는 2018년 바티칸 알현에서 교황을 위해 춤췄다고 회상 — "Tuve el honor y el privilegio de bailar para él" (ACI Prensa). '첫 여성' 표현은 이탈리아 언론에서 못 찾음 → 소또 구술로만.
+- 2025: 2.14 입원(기관지염→양쪽 폐렴), 3.16 제멜리 앞 탱고(구스페로 제안, 마시밀리아노 바레세와 춤, "움직이는 기도"), 3.23 퇴원(38일), 4.20 부활절 마지막 공개 행사, **4.21 오전 7시 35분 카사 산타 마르타에서 88세로 선종**.
+- 이 세션에서 접속 차단(WebFetch 불가): lanacion.com.ar, euskonews.eus, teseopress.com, catholicworldreport.com, youtube.com, ambito.com, paperspast.natlib.govt.nz, todotango.com, nataliaygabriel.com, wikipedia.org → 위 내용은 검색 요약 기준.
