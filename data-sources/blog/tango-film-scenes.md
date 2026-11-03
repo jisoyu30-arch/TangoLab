@@ -50,6 +50,9 @@
 ### 《라스트 탱고》(Un tango más / Our Last Tango, 2015, 게르만 크랄 감독, 빔 벤더스 제작총괄)
 - 열네 살과 열일곱 살에 만난 마리아 니에베스와 후안 카를로스 코페스. 인터뷰 + 젊은 시절을 재연한 춤. 2015 토론토영화제 초연. 국내 왓챠·티빙 등(검색 기준).
 - 코페스 = 소또 수업의 '무대에 올린 사람'.
+- ⚠️ **두 주인공 모두 세상을 떠남.** 후안 카를로스 코페스: 2021년 1월 16일, 89세, 부에노스아이레스(2020년 12월 코로나19로 입원, 대부분 보도는 코로나19, 일부는 만성폐쇄성폐질환). 마리아 니에베스: 2026년 4월 19일, 91세. 영화를 소개할 땐 이 사실을 함께 적기.
+  - https://www.a24.com/espectaculos/contraer-coronavirus-murio-89-anos-legendario-bailarin-tango-juan-carlos-copes-16012021_Z1NyVnXkjn/amp · https://www.analisisdigital.com.ar/cultura/2021/01/16/murio-el-reconocido-bailarin-de-tango-juan-carlos-copes
+  - https://prensamercosur.org/2026/04/20/murio-maria-nieves-icono-del-tango-argentino-a-los-91-anos/ · https://www.ellitoral.com/informacion-general/fallecio-marianieves-tango-coreografa-bailarina-quienfue-legado_0_1UPDs8X8cW.html
 - https://www.nziff.co.nz/2016/gore/our-last-tango/ · https://www.villagevoice.com/dance-doc-our-last-tango-celebrates-a-couple-who-lived-their-lives-in-motion/ · https://www.justwatch.com/kr/영화/un-tango-mas
 
 ## 애니메이션
