@@ -1136,3 +1136,12 @@
   - https://www.concertodinatale.it/file-cataloghi/Catalogo%20Concerto%202018.pdf
 - **2025.3.16 제멜리 병원 앞 탱고**: 교황 입원(2.14) 중 다이아나 구스페로가 제안, "움직이는 기도". 교황은 2025.4.21 선종.
   - https://www.catholicworldreport.com/2025/03/17/dancers-dedicate-tango-to-pope-francis-at-gemelli-hospital/
+
+### 게시본 ①에서 새로 들어온 자료 (2026-11-03, 지소유 직접 확인)
+- **출생연도 3가지**: Página/12(2011) 1911년 / La Maga(1992, Todotango 전재) 1912년 / Todotango 인물 페이지 **1913년 9월 29일** → 확정하지 않기로 함.
+- **Ámbito 2008-05-02 소또 인터뷰** 「Me decidí a registrar los grandes paisajes del tango」: 은행, 콜론 극장(오페라·발레), 은행 사내지, 1985년 촬영, 페트롤레오는 "직업 무용수도 교사도 아니었던" 스승. https://www.ambito.com/secciones-especiales/me-decidi-registrar-los-grandes-paisajes-del-tango-n3496699 (이 환경에선 ambito.com 접속 차단 → 내용 미대조)
+- **페트롤레오 자기소개 글**(Natalia & Gabriel item 70): 1928년 나바로를 만나 춤을 다듬음, 동료들과 함께 옛 춤을 바꿈, "탱고에는 고정된 틀이 없다". https://www.nataliaygabriel.com/segun-petroleo/item/70-carlos-alberto-estevez
+- **La Maga 인터뷰 필자: Sergio Criscolo**, 1992년 5월 6일자. 원문은 "은행 일 때문에 순회공연(tour)을 안 갔다" — '해외'라는 말은 없음.
+- 검색 요약에 따르면 같은 인터뷰에서 페트롤레오가 **젊은 댄서 중 소또가 가장 마음에 든다(자세가 좋아서)**고 말함 → 원문 확인 후 글감으로.
+- 영상: 「Petroleo, M. Zotto, M Pugliese」(Victor Tangos, 약 4분 50초, 밀레나 플레브스 등장) https://www.youtube.com/watch?v=quHDYyqnJcE — 1985년 인터뷰와 같은 촬영물인지 미확인.
+- 게시본 기준: 박자표(2/4→4박) 설명과 특정 동작의 단독 발명자 표현은 쓰지 않음. ②번도 같은 기준으로 맞출 것.
