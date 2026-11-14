@@ -9,6 +9,9 @@ interface FestivalEvent {
   category: string;
   category_ko: string | null;
   title: string;
+  /** 공식 카탈로그의 프로그램 해설 (있는 이벤트만) */
+  description_es?: string;
+  description_en?: string;
 }
 interface FestivalDay {
   date: string;
@@ -42,6 +45,7 @@ const data = festival as unknown as {
   competition_schedule: CompetitionEvent[];
   days: FestivalDay[];
   source: string;
+  catalog_source?: string;
 };
 
 const CATEGORY_STYLE: Record<string, string> = {
@@ -77,6 +81,7 @@ export function FestivalPage() {
   });
   const [categoryFilter, setCategoryFilter] = useState<string | null>(null);
   const [showVenues, setShowVenues] = useState(false);
+  const [openEvent, setOpenEvent] = useState<string | null>(null);
 
   const day = useMemo(
     () => data.days.find(d => d.date === selectedDate) ?? data.days[0],
@@ -220,16 +225,17 @@ export function FestivalPage() {
           <div className="space-y-1.5">
             {events.map((e, i) => {
               const addr = addressFor(e.venue);
-              return (
-                <div
-                  key={`${e.time}-${e.title}-${i}`}
-                  className={`flex flex-col md:flex-row md:items-baseline gap-1 md:gap-3 px-3 py-2 rounded-lg ${
-                    e.category === 'MUNDIAL DE BAILE' ? 'bg-tango-brass/10 border border-tango-brass/25' : 'bg-white/5'
-                  }`}
-                >
+              const key = `${day.date}-${e.time}-${e.title}-${i}`;
+              const hasNote = Boolean(e.description_es || e.description_en);
+              const open = openEvent === key;
+              const body = (
+                <>
                   <span className="text-sm text-tango-brass font-medium w-24 shrink-0">{e.time}</span>
                   <div className="min-w-0 flex-1">
-                    <div className="text-sm text-white">{e.title}</div>
+                    <div className="text-sm text-white">
+                      {e.title}
+                      {hasNote && <span className="ml-1.5 text-tango-brass/60 text-xs">{open ? '▴' : '▾'}</span>}
+                    </div>
                     <div className="text-xs text-tango-cream/50">
                       {e.venue}
                       {addr && <span className="text-tango-cream/30"> · {addr}</span>}
@@ -238,6 +244,35 @@ export function FestivalPage() {
                   <span className={`text-[11px] px-1.5 py-0.5 rounded self-start shrink-0 ${catStyle(e.category)}`}>
                     {e.category_ko ?? e.category}
                   </span>
+                </>
+              );
+              const cls = `flex flex-col md:flex-row md:items-baseline gap-1 md:gap-3 px-3 py-2 w-full text-left ${
+                e.category === 'MUNDIAL DE BAILE' ? 'bg-tango-brass/10' : 'bg-white/5'
+              }`;
+              return (
+                <div
+                  key={key}
+                  className={`rounded-lg overflow-hidden ${
+                    e.category === 'MUNDIAL DE BAILE' ? 'border border-tango-brass/25' : ''
+                  }`}
+                >
+                  {hasNote ? (
+                    <button onClick={() => setOpenEvent(open ? null : key)} className={`${cls} hover:brightness-125`}>
+                      {body}
+                    </button>
+                  ) : (
+                    <div className={cls}>{body}</div>
+                  )}
+                  {open && (
+                    <div className="px-3 pb-3 pt-1 bg-white/5 border-t border-white/5 space-y-2">
+                      {e.description_es && (
+                        <p className="text-xs text-tango-cream/75 leading-relaxed">{e.description_es}</p>
+                      )}
+                      {e.description_en && (
+                        <p className="text-xs text-tango-cream/45 leading-relaxed">{e.description_en}</p>
+                      )}
+                    </div>
+                  )}
                 </div>
               );
             })}
@@ -288,7 +323,10 @@ export function FestivalPage() {
           )}
         </section>
 
-        <p className="text-xs text-tango-cream/30">출처: {data.source}</p>
+        <p className="text-xs text-tango-cream/30">
+          출처: {data.source}
+          {data.catalog_source && <> · 프로그램 해설: {data.catalog_source}</>}
+        </p>
       </div>
     </>
   );
