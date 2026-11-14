@@ -208,10 +208,10 @@ SELFTEST = [
      ("2025", "clasificatoria", "D"), 5),
     ("data-sources/tangoba/Jurados-_-Pista-Cuartos-2025-27_8-A-resultados.pdf",
      ("2025", "cuartos", "A"), 5),
-    # 저장된 2025 8강 B 는 파레하 467·739 두 쌍이 빠져 있다 (PDF 원본에는 있음).
-    # 파서 오류가 아니라 기존 데이터의 누락이라 알려진 차이로 기록해 둔다.
+    # 한때 파레하 467·739 가 저장 데이터에서 빠져 있었다 (이 자체 검증이 찾아냈다).
+    # fix_mundial_2025_cuartos_b.py 로 채운 뒤로는 138쌍 전수 대조가 통과한다.
     ("data-sources/tangoba/Jurados-_-Pista-Cuartos-2025-27_8-B-resultados.pdf",
-     ("2025", "cuartos", "B"), 5, {467, 739}),
+     ("2025", "cuartos", "B"), 5),
     ("data-sources/tangoba/Pista-Semis-2025-29_8-JURADOS-_-RONDAS-TODAS-29_8-1.pdf",
      ("2025", "semifinal", None), 6),
     ("data-sources/tangoba/Pista-Semis-2026-29_8-JURADOS-RONDAS-TODAS.pdf",

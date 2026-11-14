@@ -10390,7 +10390,7 @@
               "Claudia Codega",
               "Pablo Inza"
             ],
-            "total_couples": 136,
+            "total_couples": 138,
             "couples": [
               {
                 "pareja": 490,
@@ -10963,6 +10963,21 @@
                 "ronda": 28
               },
               {
+                "pareja": 467,
+                "leader": "Ezequiel Angel Franco Rodriguez",
+                "follower": "Sofia Belen Diaz",
+                "scores": {
+                  "Daniel Naccuchio": 7.01,
+                  "Dante Sanchez": 8.0,
+                  "Stella Baez": 7.0,
+                  "Claudia Codega": 7.1,
+                  "Pablo Inza": 7.45
+                },
+                "promedio": 7.312,
+                "rank": 39,
+                "ronda": 22
+              },
+              {
                 "pareja": 520,
                 "leader": "Guillermo Cerneaz",
                 "follower": "Juan Pablo Ramírez",
@@ -10974,7 +10989,7 @@
                   "Pablo Inza": 7.15
                 },
                 "promedio": 7.31,
-                "rank": 39,
+                "rank": 40,
                 "ronda": 28
               },
               {
@@ -10989,7 +11004,7 @@
                   "Pablo Inza": 7.36
                 },
                 "promedio": 7.306,
-                "rank": 40,
+                "rank": 41,
                 "ronda": 26
               },
               {
@@ -11004,7 +11019,7 @@
                   "Pablo Inza": 7.51
                 },
                 "promedio": 7.304,
-                "rank": 41,
+                "rank": 42,
                 "ronda": 22
               },
               {
@@ -11019,7 +11034,7 @@
                   "Pablo Inza": 7.63
                 },
                 "promedio": 7.303,
-                "rank": 42,
+                "rank": 43,
                 "ronda": 18
               },
               {
@@ -11034,7 +11049,7 @@
                   "Pablo Inza": 7.39
                 },
                 "promedio": 7.296,
-                "rank": 43,
+                "rank": 44,
                 "ronda": 24
               },
               {
@@ -11049,7 +11064,7 @@
                   "Pablo Inza": 7.69
                 },
                 "promedio": 7.294,
-                "rank": 44,
+                "rank": 45,
                 "ronda": 29
               },
               {
@@ -11064,7 +11079,7 @@
                   "Pablo Inza": 7.1
                 },
                 "promedio": 7.272,
-                "rank": 45,
+                "rank": 46,
                 "ronda": 27
               },
               {
@@ -11079,7 +11094,7 @@
                   "Pablo Inza": 7.16
                 },
                 "promedio": 7.27,
-                "rank": 46,
+                "rank": 47,
                 "ronda": 18
               },
               {
@@ -11094,7 +11109,7 @@
                   "Pablo Inza": 7.36
                 },
                 "promedio": 7.264,
-                "rank": 47,
+                "rank": 48,
                 "ronda": 25
               },
               {
@@ -11109,7 +11124,7 @@
                   "Pablo Inza": 7.62
                 },
                 "promedio": 7.261,
-                "rank": 48,
+                "rank": 49,
                 "ronda": 25
               },
               {
@@ -11124,8 +11139,23 @@
                   "Pablo Inza": 7.58
                 },
                 "promedio": 7.248,
-                "rank": 49,
+                "rank": 50,
                 "ronda": 27
+              },
+              {
+                "pareja": 739,
+                "leader": "Marina Belen Machado Riquelme",
+                "follower": "Emmanuel David Avendaño",
+                "scores": {
+                  "Daniel Naccuchio": 7.28,
+                  "Dante Sanchez": 7.4,
+                  "Stella Baez": 7.1,
+                  "Claudia Codega": 7.32,
+                  "Pablo Inza": 7.13
+                },
+                "promedio": 7.246,
+                "rank": 51,
+                "ronda": 29
               },
               {
                 "pareja": 546,
@@ -11139,7 +11169,7 @@
                   "Pablo Inza": 7.41
                 },
                 "promedio": 7.244,
-                "rank": 50,
+                "rank": 52,
                 "ronda": 21
               },
               {
@@ -11154,7 +11184,7 @@
                   "Pablo Inza": 7.23
                 },
                 "promedio": 7.242,
-                "rank": 51,
+                "rank": 53,
                 "ronda": 22
               },
               {
@@ -11169,7 +11199,7 @@
                   "Pablo Inza": 6.89
                 },
                 "promedio": 7.24,
-                "rank": 52,
+                "rank": 54,
                 "ronda": 22
               },
               {
@@ -11184,7 +11214,7 @@
                   "Pablo Inza": 7.42
                 },
                 "promedio": 7.238,
-                "rank": 53,
+                "rank": 55,
                 "ronda": 26
               },
               {
@@ -11199,7 +11229,7 @@
                   "Pablo Inza": 7.62
                 },
                 "promedio": 7.236,
-                "rank": 54,
+                "rank": 56,
                 "ronda": 29
               },
               {
@@ -11214,7 +11244,7 @@
                   "Pablo Inza": 6.95
                 },
                 "promedio": 7.224,
-                "rank": 55,
+                "rank": 57,
                 "ronda": 24
               },
               {
@@ -11229,7 +11259,7 @@
                   "Pablo Inza": 6.41
                 },
                 "promedio": 7.223,
-                "rank": 56,
+                "rank": 58,
                 "ronda": 16
               },
               {
@@ -11244,7 +11274,7 @@
                   "Pablo Inza": 6.88
                 },
                 "promedio": 7.222,
-                "rank": 57,
+                "rank": 59,
                 "ronda": 26
               },
               {
@@ -11259,7 +11289,7 @@
                   "Pablo Inza": 7.27
                 },
                 "promedio": 7.219,
-                "rank": 58,
+                "rank": 60,
                 "ronda": 20
               },
               {
@@ -11274,7 +11304,7 @@
                   "Pablo Inza": 7.12
                 },
                 "promedio": 7.218,
-                "rank": 59,
+                "rank": 61,
                 "ronda": 17
               },
               {
@@ -11289,7 +11319,7 @@
                   "Pablo Inza": 7.35
                 },
                 "promedio": 7.204,
-                "rank": 60,
+                "rank": 62,
                 "ronda": 21
               },
               {
@@ -11304,7 +11334,7 @@
                   "Pablo Inza": 7.37
                 },
                 "promedio": 7.2,
-                "rank": 61,
+                "rank": 63,
                 "ronda": 17
               },
               {
@@ -11319,7 +11349,7 @@
                   "Pablo Inza": 7.36
                 },
                 "promedio": 7.188,
-                "rank": 62,
+                "rank": 64,
                 "ronda": 27
               },
               {
@@ -11334,7 +11364,7 @@
                   "Pablo Inza": 7.73
                 },
                 "promedio": 7.182,
-                "rank": 63,
+                "rank": 65,
                 "ronda": 19
               },
               {
@@ -11349,7 +11379,7 @@
                   "Pablo Inza": 7.15
                 },
                 "promedio": 7.172,
-                "rank": 64,
+                "rank": 66,
                 "ronda": 29
               },
               {
@@ -11364,7 +11394,7 @@
                   "Pablo Inza": 7.31
                 },
                 "promedio": 7.168,
-                "rank": 65,
+                "rank": 67,
                 "ronda": 20
               },
               {
@@ -11379,7 +11409,7 @@
                   "Pablo Inza": 6.44
                 },
                 "promedio": 7.168,
-                "rank": 66,
+                "rank": 68,
                 "ronda": 21
               },
               {
@@ -11394,7 +11424,7 @@
                   "Pablo Inza": 7.17
                 },
                 "promedio": 7.162,
-                "rank": 67,
+                "rank": 69,
                 "ronda": 18
               },
               {
@@ -11409,7 +11439,7 @@
                   "Pablo Inza": 6.98
                 },
                 "promedio": 7.158,
-                "rank": 68,
+                "rank": 70,
                 "ronda": 17
               },
               {
@@ -11424,7 +11454,7 @@
                   "Pablo Inza": 7.37
                 },
                 "promedio": 7.154,
-                "rank": 69,
+                "rank": 71,
                 "ronda": 29
               },
               {
@@ -11439,7 +11469,7 @@
                   "Pablo Inza": 7.29
                 },
                 "promedio": 7.152,
-                "rank": 70,
+                "rank": 72,
                 "ronda": 25
               },
               {
@@ -11454,7 +11484,7 @@
                   "Pablo Inza": 7.14
                 },
                 "promedio": 7.142,
-                "rank": 71,
+                "rank": 73,
                 "ronda": 25
               },
               {
@@ -11469,7 +11499,7 @@
                   "Pablo Inza": 7.05
                 },
                 "promedio": 7.142,
-                "rank": 72,
+                "rank": 74,
                 "ronda": 28
               },
               {
@@ -11484,7 +11514,7 @@
                   "Pablo Inza": 6.86
                 },
                 "promedio": 7.138,
-                "rank": 73,
+                "rank": 75,
                 "ronda": 24
               },
               {
@@ -11499,7 +11529,7 @@
                   "Pablo Inza": 7.22
                 },
                 "promedio": 7.138,
-                "rank": 74,
+                "rank": 76,
                 "ronda": 28
               },
               {
@@ -11514,7 +11544,7 @@
                   "Pablo Inza": 6.88
                 },
                 "promedio": 7.136,
-                "rank": 75,
+                "rank": 77,
                 "ronda": 23
               },
               {
@@ -11529,7 +11559,7 @@
                   "Pablo Inza": 7.17
                 },
                 "promedio": 7.135,
-                "rank": 76,
+                "rank": 78,
                 "ronda": 25
               },
               {
@@ -11544,7 +11574,7 @@
                   "Pablo Inza": 7.32
                 },
                 "promedio": 7.132,
-                "rank": 77,
+                "rank": 79,
                 "ronda": 20
               },
               {
@@ -11559,7 +11589,7 @@
                   "Pablo Inza": 7.18
                 },
                 "promedio": 7.13,
-                "rank": 78,
+                "rank": 80,
                 "ronda": 21
               },
               {
@@ -11574,7 +11604,7 @@
                   "Pablo Inza": 7.26
                 },
                 "promedio": 7.126,
-                "rank": 79,
+                "rank": 81,
                 "ronda": 28
               },
               {
@@ -11589,7 +11619,7 @@
                   "Pablo Inza": 7.28
                 },
                 "promedio": 7.123,
-                "rank": 80,
+                "rank": 82,
                 "ronda": 16
               },
               {
@@ -11604,7 +11634,7 @@
                   "Pablo Inza": 7.16
                 },
                 "promedio": 7.118,
-                "rank": 81,
+                "rank": 83,
                 "ronda": 22
               },
               {
@@ -11619,7 +11649,7 @@
                   "Pablo Inza": 7.2
                 },
                 "promedio": 7.116,
-                "rank": 82,
+                "rank": 84,
                 "ronda": 30
               },
               {
@@ -11634,7 +11664,7 @@
                   "Pablo Inza": 7.65
                 },
                 "promedio": 7.116,
-                "rank": 83,
+                "rank": 85,
                 "ronda": 30
               },
               {
@@ -11649,7 +11679,7 @@
                   "Pablo Inza": 7.49
                 },
                 "promedio": 7.114,
-                "rank": 84,
+                "rank": 86,
                 "ronda": 22
               },
               {
@@ -11664,7 +11694,7 @@
                   "Pablo Inza": 6.79
                 },
                 "promedio": 7.108,
-                "rank": 85,
+                "rank": 87,
                 "ronda": 19
               },
               {
@@ -11679,7 +11709,7 @@
                   "Pablo Inza": 7.28
                 },
                 "promedio": 7.108,
-                "rank": 86,
+                "rank": 88,
                 "ronda": 23
               },
               {
@@ -11694,7 +11724,7 @@
                   "Pablo Inza": 6.86
                 },
                 "promedio": 7.096,
-                "rank": 87,
+                "rank": 89,
                 "ronda": 22
               },
               {
@@ -11709,7 +11739,7 @@
                   "Pablo Inza": 6.88
                 },
                 "promedio": 7.094,
-                "rank": 88,
+                "rank": 90,
                 "ronda": 18
               },
               {
@@ -11724,7 +11754,7 @@
                   "Pablo Inza": 7.24
                 },
                 "promedio": 7.092,
-                "rank": 89,
+                "rank": 91,
                 "ronda": 30
               },
               {
@@ -11739,7 +11769,7 @@
                   "Pablo Inza": 7.32
                 },
                 "promedio": 7.092,
-                "rank": 90,
+                "rank": 92,
                 "ronda": 26
               },
               {
@@ -11754,7 +11784,7 @@
                   "Pablo Inza": 7.22
                 },
                 "promedio": 7.087,
-                "rank": 91,
+                "rank": 93,
                 "ronda": 18
               },
               {
@@ -11769,7 +11799,7 @@
                   "Pablo Inza": 7.31
                 },
                 "promedio": 7.082,
-                "rank": 92,
+                "rank": 94,
                 "ronda": 28
               },
               {
@@ -11784,7 +11814,7 @@
                   "Pablo Inza": 7.48
                 },
                 "promedio": 7.078,
-                "rank": 93,
+                "rank": 95,
                 "ronda": 21
               },
               {
@@ -11799,7 +11829,7 @@
                   "Pablo Inza": 6.78
                 },
                 "promedio": 7.076,
-                "rank": 94,
+                "rank": 96,
                 "ronda": 17
               },
               {
@@ -11814,7 +11844,7 @@
                   "Pablo Inza": 7.23
                 },
                 "promedio": 7.07,
-                "rank": 95,
+                "rank": 97,
                 "ronda": 17
               },
               {
@@ -11829,7 +11859,7 @@
                   "Pablo Inza": 7.1
                 },
                 "promedio": 7.07,
-                "rank": 96,
+                "rank": 98,
                 "ronda": 27
               },
               {
@@ -11844,7 +11874,7 @@
                   "Pablo Inza": 6.87
                 },
                 "promedio": 7.064,
-                "rank": 97,
+                "rank": 99,
                 "ronda": 26
               },
               {
@@ -11859,7 +11889,7 @@
                   "Pablo Inza": 6.99
                 },
                 "promedio": 7.06,
-                "rank": 98,
+                "rank": 100,
                 "ronda": 30
               },
               {
@@ -11874,7 +11904,7 @@
                   "Pablo Inza": 7.42
                 },
                 "promedio": 7.058,
-                "rank": 99,
+                "rank": 101,
                 "ronda": 17
               },
               {
@@ -11889,7 +11919,7 @@
                   "Pablo Inza": 7.53
                 },
                 "promedio": 7.056,
-                "rank": 100,
+                "rank": 102,
                 "ronda": 16
               },
               {
@@ -11904,7 +11934,7 @@
                   "Pablo Inza": 7.48
                 },
                 "promedio": 7.047,
-                "rank": 101,
+                "rank": 103,
                 "ronda": 16
               },
               {
@@ -11919,7 +11949,7 @@
                   "Pablo Inza": 7.31
                 },
                 "promedio": 7.044,
-                "rank": 102,
+                "rank": 104,
                 "ronda": 19
               },
               {
@@ -11934,7 +11964,7 @@
                   "Pablo Inza": 7.28
                 },
                 "promedio": 7.044,
-                "rank": 103,
+                "rank": 105,
                 "ronda": 21
               },
               {
@@ -11949,7 +11979,7 @@
                   "Pablo Inza": 7.25
                 },
                 "promedio": 7.044,
-                "rank": 104,
+                "rank": 106,
                 "ronda": 29
               },
               {
@@ -11964,7 +11994,7 @@
                   "Pablo Inza": 7.22
                 },
                 "promedio": 7.042,
-                "rank": 105,
+                "rank": 107,
                 "ronda": 27
               },
               {
@@ -11979,7 +12009,7 @@
                   "Pablo Inza": 7.32
                 },
                 "promedio": 7.037,
-                "rank": 106,
+                "rank": 108,
                 "ronda": 25
               },
               {
@@ -11994,7 +12024,7 @@
                   "Pablo Inza": 7.32
                 },
                 "promedio": 7.014,
-                "rank": 107,
+                "rank": 109,
                 "ronda": 27
               },
               {
@@ -12009,7 +12039,7 @@
                   "Pablo Inza": 6.76
                 },
                 "promedio": 7.01,
-                "rank": 108,
+                "rank": 110,
                 "ronda": 24
               },
               {
@@ -12024,7 +12054,7 @@
                   "Pablo Inza": 6.84
                 },
                 "promedio": 7.01,
-                "rank": 109,
+                "rank": 111,
                 "ronda": 25
               },
               {
@@ -12039,7 +12069,7 @@
                   "Pablo Inza": 6.86
                 },
                 "promedio": 6.978,
-                "rank": 110,
+                "rank": 112,
                 "ronda": 25
               },
               {
@@ -12054,7 +12084,7 @@
                   "Pablo Inza": 6.88
                 },
                 "promedio": 6.974,
-                "rank": 111,
+                "rank": 113,
                 "ronda": 30
               },
               {
@@ -12069,7 +12099,7 @@
                   "Pablo Inza": 7.24
                 },
                 "promedio": 6.952,
-                "rank": 112,
+                "rank": 114,
                 "ronda": 23
               },
               {
@@ -12084,7 +12114,7 @@
                   "Pablo Inza": 6.89
                 },
                 "promedio": 6.942,
-                "rank": 113,
+                "rank": 115,
                 "ronda": 30
               },
               {
@@ -12099,7 +12129,7 @@
                   "Pablo Inza": 6.44
                 },
                 "promedio": 6.94,
-                "rank": 114,
+                "rank": 116,
                 "ronda": 21
               },
               {
@@ -12114,7 +12144,7 @@
                   "Pablo Inza": 6.62
                 },
                 "promedio": 6.934,
-                "rank": 115,
+                "rank": 117,
                 "ronda": 23
               },
               {
@@ -12129,7 +12159,7 @@
                   "Pablo Inza": 6.87
                 },
                 "promedio": 6.928,
-                "rank": 116,
+                "rank": 118,
                 "ronda": 17
               },
               {
@@ -12144,7 +12174,7 @@
                   "Pablo Inza": 6.89
                 },
                 "promedio": 6.919,
-                "rank": 117,
+                "rank": 119,
                 "ronda": 30
               },
               {
@@ -12159,7 +12189,7 @@
                   "Pablo Inza": 7.47
                 },
                 "promedio": 6.914,
-                "rank": 118,
+                "rank": 120,
                 "ronda": 27
               },
               {
@@ -12174,7 +12204,7 @@
                   "Pablo Inza": 7.24
                 },
                 "promedio": 6.909,
-                "rank": 119,
+                "rank": 121,
                 "ronda": 30
               },
               {
@@ -12189,7 +12219,7 @@
                   "Pablo Inza": 6.56
                 },
                 "promedio": 6.894,
-                "rank": 120,
+                "rank": 122,
                 "ronda": 21
               },
               {
@@ -12204,7 +12234,7 @@
                   "Pablo Inza": 6.65
                 },
                 "promedio": 6.888,
-                "rank": 121,
+                "rank": 123,
                 "ronda": 19
               },
               {
@@ -12219,7 +12249,7 @@
                   "Pablo Inza": 6.46
                 },
                 "promedio": 6.866,
-                "rank": 122,
+                "rank": 124,
                 "ronda": 20
               },
               {
@@ -12234,7 +12264,7 @@
                   "Pablo Inza": 6.76
                 },
                 "promedio": 6.86,
-                "rank": 123,
+                "rank": 125,
                 "ronda": 23
               },
               {
@@ -12249,7 +12279,7 @@
                   "Pablo Inza": 6.88
                 },
                 "promedio": 6.852,
-                "rank": 124,
+                "rank": 126,
                 "ronda": 30
               },
               {
@@ -12264,7 +12294,7 @@
                   "Pablo Inza": 6.57
                 },
                 "promedio": 6.826,
-                "rank": 125,
+                "rank": 127,
                 "ronda": 20
               },
               {
@@ -12279,7 +12309,7 @@
                   "Pablo Inza": 7.23
                 },
                 "promedio": 6.798,
-                "rank": 126,
+                "rank": 128,
                 "ronda": 17
               },
               {
@@ -12294,7 +12324,7 @@
                   "Pablo Inza": 6.79
                 },
                 "promedio": 6.784,
-                "rank": 127,
+                "rank": 129,
                 "ronda": 23
               },
               {
@@ -12309,7 +12339,7 @@
                   "Pablo Inza": 6.78
                 },
                 "promedio": 6.752,
-                "rank": 128,
+                "rank": 130,
                 "ronda": 18
               },
               {
@@ -12324,7 +12354,7 @@
                   "Pablo Inza": 6.73
                 },
                 "promedio": 6.73,
-                "rank": 129,
+                "rank": 131,
                 "ronda": 19
               },
               {
@@ -12339,7 +12369,7 @@
                   "Pablo Inza": 6.57
                 },
                 "promedio": 6.664,
-                "rank": 130,
+                "rank": 132,
                 "ronda": 23
               },
               {
@@ -12354,7 +12384,7 @@
                   "Pablo Inza": 6.82
                 },
                 "promedio": 6.659,
-                "rank": 131,
+                "rank": 133,
                 "ronda": 18
               },
               {
@@ -12369,7 +12399,7 @@
                   "Pablo Inza": 6.76
                 },
                 "promedio": 6.628,
-                "rank": 132,
+                "rank": 134,
                 "ronda": 18
               },
               {
@@ -12384,7 +12414,7 @@
                   "Pablo Inza": 6.54
                 },
                 "promedio": 6.606,
-                "rank": 133,
+                "rank": 135,
                 "ronda": 16
               },
               {
@@ -12399,7 +12429,7 @@
                   "Pablo Inza": 6.52
                 },
                 "promedio": 6.524,
-                "rank": 134,
+                "rank": 136,
                 "ronda": 16
               },
               {
@@ -12414,7 +12444,7 @@
                   "Pablo Inza": 6.63
                 },
                 "promedio": 6.52,
-                "rank": 135,
+                "rank": 137,
                 "ronda": 16
               },
               {
@@ -12429,7 +12459,7 @@
                   "Pablo Inza": 6.78
                 },
                 "promedio": 6.486,
-                "rank": 136,
+                "rank": 138,
                 "ronda": 18
               }
             ]
